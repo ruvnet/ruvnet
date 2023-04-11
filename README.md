@@ -40,5 +40,3 @@ The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGP
 https://github.com/ruvnet/Bot-Generator-Bot
 
 The potential of AI-generated hallucinations is vast and largely untapped. By embracing this new frontier and fostering collaboration between human creativity and machine intelligence, we can unlock a world of possibilities, shaping the future of innovation and redefining the boundaries of what we once thought possible.
-
-(Yeah, this post is a little crazy)
