@@ -39,4 +39,10 @@ https://github.com/ruvnet/promptlang
 The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots.
 https://github.com/ruvnet/Bot-Generator-Bot
 
+## How-To's
+* Building a ChatGPT Plugin: AI Web Surfer
+ChatGPT plugins are a powerful way to extend the capabilities of the ChatGPT.This how to build a ChatGPT plugin called "AI Surfer" that allows ChatGPT to surf the internet, summarize articles, and limit token counts using concurrent API connections. We'll also discuss how to deploy the plugin to Replit for free or to other cloud services.
+https://github.com/ruvnet/Surfer
+
+
 The potential of AI-generated hallucinations is vast and largely untapped. By embracing this new frontier and fostering collaboration between human creativity and machine intelligence, we can unlock a world of possibilities, shaping the future of innovation and redefining the boundaries of what we once thought possible.
