@@ -16,32 +16,16 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
 
 ### They Include:
-
-* VIVIAN: Vector Index Virtual Infrastructure for Autonomous Networks
-https://github.com/ruvnet/VIVIAN
-
-* PARIS (Perpetual Adaptive Regenerative Intelligence System) is a conceptual model for building and managing effective AI and Language Model (LLM) systems that emphasizes the importance of perpetual feedback loops.
-https://github.com/ruvnet/paris
-
-* AI-TOML Workflow Specification (aiTWS), a comprehensive and flexible specification for defining arbitrary Ai centric workflows.
-https://github.com/ruvnet/AiToml
-
-* Decentralized Autonomous Applications (DAAs). Building the Future with Self-Managing Applications.
-https://github.com/ruvnet/daa
-
-* ARCADIA: Advanced and Responsive Computational Architecture for Dynamic Interactive Ai: AI-powered game engine for dynamic, personalized experiences in evolving worlds. Ethical, accessible, inclusive.
-https://github.com/ruvnet/ARCADIA
-
-* ChatGPT Plugin Creator is an open-source project that helps you convert any API into ChatGPT plugins
-https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator
-
-* PromptLang()
-A Prompt based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data.
-https://github.com/ruvnet/promptlang
-
-* Bot Generator Bot
-The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots.
-https://github.com/ruvnet/Bot-Generator-Bot
+| Project/Description | URL |
+| --- | --- |
+| VIVIAN: Vector Index Virtual Infrastructure for Autonomous Networks | [Link](https://github.com/ruvnet/VIVIAN) |
+| PARIS (Perpetual Adaptive Regenerative Intelligence System) is a conceptual model for building and managing effective AI and Language Model (LLM) systems that emphasizes the importance of perpetual feedback loops. | [Link](https://github.com/ruvnet/paris) |
+| AI-TOML Workflow Specification (aiTWS), a comprehensive and flexible specification for defining arbitrary Ai centric workflows. | [Link](https://github.com/ruvnet/AiToml) |
+| Decentralized Autonomous Applications (DAAs). Building the Future with Self-Managing Applications. | [Link](https://github.com/ruvnet/daa) |
+| ARCADIA: Advanced and Responsive Computational Architecture for Dynamic Interactive Ai: AI-powered game engine for dynamic, personalized experiences in evolving worlds. Ethical, accessible, inclusive. | [Link](https://github.com/ruvnet/ARCADIA) |
+| ChatGPT Plugin Creator is an open-source project that helps you convert any API into ChatGPT plugins | [Link](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) |
+| PromptLang() A Prompt based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
+| Bot Generator Bot The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://github.com/ruvnet/Bot-Generator-Bot) |
 
 ## How-To's
 * Building a ChatGPT Plugin: AI Web Surfer
