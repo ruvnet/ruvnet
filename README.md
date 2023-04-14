@@ -1,4 +1,6 @@
- Hi. I'm @rUv
+![Alt Hi. I'm @rUv](https://github.com/ruvnet/ruvnet/blob/main/assets/github-intro.png?raw=true)
+
+Hi. I'm @rUv
 
 # Why I started this GitHub Repository. 
 ### In the rapidly-evolving landscape of artificial intelligence, we are continually discovering innovative ways to leverage technology's potential. One of the most fascinating aspects of AI models, such as the GPT-4, is the phenomenon known as hallucinations. These are instances where the AI generates previously unimagined ideas and concepts – a testament to its ability to invent, rather than simply process and analyze.
