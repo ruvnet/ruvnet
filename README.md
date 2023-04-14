@@ -16,7 +16,7 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
 
 ### They Include:
-| Project/Description | URL |
+| Project/Description | GitHub |
 | --- | --- |
 | VIVIAN: Vector Index Virtual Infrastructure for Autonomous Networks | [Link](https://github.com/ruvnet/VIVIAN) |
 | PARIS (Perpetual Adaptive Regenerative Intelligence System) is a conceptual model for building and managing effective AI and Language Model (LLM) systems that emphasizes the importance of perpetual feedback loops. | [Link](https://github.com/ruvnet/paris) |
