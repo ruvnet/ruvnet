@@ -27,15 +27,15 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 | **PromptLang()** A Prompt based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
 | **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://github.com/ruvnet/Bot-Generator-Bot) |
 
-## ChatGPT Plug-ins
-* Building a ChatGPT Plugin: AI Web Surfer
+## ChatGPT Plug-ins:  
+* **Building a ChatGPT Plugin: AI Web Surfer**  
 ChatGPT plugins are a powerful way to extend the capabilities of the ChatGPT.This how to build a ChatGPT plugin called "AI Surfer" that allows ChatGPT to surf the internet, summarize articles, and limit token counts using concurrent API connections. We'll also discuss how to deploy the plugin to Replit for free or to other cloud services.
-https://github.com/ruvnet/Surfer
+https://github.com/ruvnet/Surfer 
 
-* ChatGPT OpenAi API Plugin
-A powerful ChatGPT plugin that integrates with the OpenAI API, enabling creative text generation, conversational AI, model fine-tuning, and more. Enhance ChatGPT's capabilities with seamless access to OpenAI's language models.
+* **ChatGPT OpenAi API Plugin:**  
+A powerful ChatGPT plugin that integrates with the OpenAI API, enabling creative text generation, conversational AI, model fine-tuning, and more. Enhance ChatGPT's capabilities with seamless access to OpenAI's language models. 
+https://github.com/ruvnet/chatgpt-openai-api-plugin 
 
-https://github.com/ruvnet/chatgpt-openai-api-plugin
-* ChatGPT Hugging Face Plugin
-The Hugging Face API plugin for ChatGPT is a powerful integration that allows ChatGPT to interact with the Hugging Face platform, a leading provider of natural language processing (NLP) models, datasets, and tools.
-https://github.com/ruvnet/Surfer/tree/chatgpt-huggingface-plugin
+* **ChatGPT Hugging Face Plugin:**  
+The Hugging Face API plugin for ChatGPT is a powerful integration that allows ChatGPT to interact with the Hugging Face platform, a leading provider of natural language processing (NLP) models, datasets, and tools. 
+https://github.com/ruvnet/Surfer/tree/chatgpt-huggingface-plugin 
