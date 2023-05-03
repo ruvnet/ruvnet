@@ -26,6 +26,7 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 | **ChatGPT Plugin Creator** is an open-source project that helps you convert any API into ChatGPT plugins | [Link](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) |
 | **PromptLang()** A Prompt based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
 | **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://github.com/ruvnet/Bot-Generator-Bot) |
+|Prompt Engine is a powerful and flexible template designed to facilitate the creation and customization of interactive prompts. |[Link](https://github.com/ruvnet/Prompt-Engine) |
 
 ## ChatGPT Plug-ins:  
 * **Building a ChatGPT Plugin: AI Web Surfer**  
