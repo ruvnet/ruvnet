@@ -16,17 +16,26 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
 
 ### They Include:
+
 | Project/Description | GitHub |
 | --- | --- |
-| **VIVIAN:** Vector Index Virtual Infrastructure for Autonomous Networks | [Link](https://github.com/ruvnet/VIVIAN) |
-| **PARIS** (Perpetual Adaptive Regenerative Intelligence System) is a conceptual model for building and managing effective AI and Language Model (LLM) systems that emphasizes the importance of perpetual feedback loops. | [Link](https://github.com/ruvnet/paris) |
-| **AI-TOML Workflow Specification (aiTWS)**, a comprehensive and flexible specification for defining arbitrary Ai centric workflows. | [Link](https://github.com/ruvnet/AiToml) |
-| **Decentralized Autonomous Applications (DAAs)** Building the Future with Self-Managing Applications. | [Link](https://github.com/ruvnet/daa) |
-| **ARCADIA:** Advanced and Responsive Computational Architecture for Dynamic Interactive Ai: AI-powered game engine for dynamic, personalized experiences in evolving worlds. Ethical, accessible, inclusive. | [Link](https://github.com/ruvnet/ARCADIA) |
+| **GPT Repository** — A definitive catalog of tailored GPT models crafted by rUv, offering a variety of specialized GPTs for various applications. It's a hub for enthusiasts and creators to replicate or extend these models' functionalities. Includes comprehensive instructions for each GPT and OpenAPI.json files for third-party API interfacing. | [Link](https://github.com/ruvnet/gpts) |
+| **GuardRail Data Analysis System** — An API-driven framework designed to enhance AI systems and analysis workflows. Integrates with OpenAI's GPT models for advanced data analysis and dynamic conditional completions. Features include sentiment analysis, content classification, and trend detection. Essential for content moderation, customer support, market research, and more. | [Link](https://github.com/ruvnet/guardrail) |
 | **ChatGPT Plugin Creator** is an open-source project that helps you convert any API into ChatGPT plugins | [Link](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) |
 | **PromptLang()** A Prompt based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
 | **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://github.com/ruvnet/Bot-Generator-Bot) |
 |Prompt Engine is a powerful and flexible template designed to facilitate the creation and customization of interactive prompts. |[Link](https://github.com/ruvnet/Prompt-Engine) |
+
+### Conceptual Experiments
+
+- **[PARIS](https://github.com/ruvnet/paris)** (Perpetual Adaptive Regenerative Intelligence System): A model for building and managing AI and Language Model systems, emphasizing perpetual feedback loops.
+- **[ARCADIA](https://github.com/ruvnet/ARCADIA)** (Advanced and Responsive Computational Architecture for Dynamic Interactive Ai): An AI-powered game engine for dynamic, personalized experiences in evolving worlds. Ethical, accessible, inclusive.
+- **[VIVIAN](https://github.com/ruvnet/VIVIAN)** (Vector Index Virtual Infrastructure for Autonomous Networks): A framework for creating robust virtual infrastructures for autonomous networks.
+- **[Decentralized Autonomous Applications (DAAs)](https://github.com/ruvnet/daa)**: Pioneering the future with self-managing applications that revolutionize user interaction and control.
+
+
+
+
 
 ## ChatGPT Plug-ins:  
 * **Building a ChatGPT Plugin: AI Web Surfer**  
