@@ -19,7 +19,7 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 
 | Project/Description | GitHub |
 | --- | --- |
-| **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting Ai performance and significantly reducing costs. |  [Link](https://github.com/ruvnet/promptlang) |
+| **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting Ai performance and significantly reducing costs. |  [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
 | **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link]([https://github.com/ruvnet/Bot-Generator-Bot](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5))  |
 | **GPT Repository** — A definitive catalog of tailored GPT models crafted by rUv, offering a variety of specialized GPTs for various applications. It's a hub for enthusiasts and creators to replicate or extend these models' functionalities. Includes comprehensive instructions for each GPT and OpenAPI.json files for third-party API interfacing. | [Link](https://github.com/ruvnet/gpts) |
 | **GuardRail Data Analysis System** — An API-driven framework designed to enhance AI systems and analysis workflows. Integrates with OpenAI's GPT models for advanced data analysis and dynamic conditional completions. Features include sentiment analysis, content classification, and trend detection. Essential for content moderation, customer support, market research, and more. | [Link](https://github.com/ruvnet/guardrail) |
