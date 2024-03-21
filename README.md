@@ -19,11 +19,13 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 
 | Project/Description | GitHub |
 | --- | --- |
+| **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting Ai performance and significantly reducing costs. |  [Link](https://github.com/ruvnet/promptlang) |
+| **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link]([https://github.com/ruvnet/Bot-Generator-Bot](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5))  |
 | **GPT Repository** — A definitive catalog of tailored GPT models crafted by rUv, offering a variety of specialized GPTs for various applications. It's a hub for enthusiasts and creators to replicate or extend these models' functionalities. Includes comprehensive instructions for each GPT and OpenAPI.json files for third-party API interfacing. | [Link](https://github.com/ruvnet/gpts) |
 | **GuardRail Data Analysis System** — An API-driven framework designed to enhance AI systems and analysis workflows. Integrates with OpenAI's GPT models for advanced data analysis and dynamic conditional completions. Features include sentiment analysis, content classification, and trend detection. Essential for content moderation, customer support, market research, and more. | [Link](https://github.com/ruvnet/guardrail) |
-| **ChatGPT Plugin Creator** is an open-source project that helps you convert any API into ChatGPT plugins | [Link](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) |
+| **LLM Total Cost of Ownership (TCO) Calculator** LM TCO Calculator, a dynamic tool designed to help users estimate the total cost of ownership for various Large Language Models (LLMs) | [Link](https://gist.github.com/ruvnet/7dfa190c97b0f3d1f0872d14ae2a22c7) |
 | **PromptLang()** A Prompt based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
-| **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://github.com/ruvnet/Bot-Generator-Bot) |
+| **Story Development Toolkit** This toolkit, comprising several Python libraries and custom functionalities, is designed to empower writers, creators, and enthusiasts in generating engaging and coherent stories with ease. | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
 |Prompt Engine is a powerful and flexible template designed to facilitate the creation and customization of interactive prompts. |[Link](https://github.com/ruvnet/Prompt-Engine) |
 
 ### Conceptual Experiments
