@@ -15,10 +15,13 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
 
+[![The rUv Enterprise AI Guide](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/blob/main/assets/intro.png?raw=true)](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/)
+
 ### They Include:
 
 | Project/Description | GitHub |
 | --- | --- |
+| **The rUv Enterprise AI Guide** - A detailed enterprise guide to Ai. | [Link](https://github.com/ruvnet/rUv-Enterprise-AI-Guide) |
 | **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting Ai performance and significantly reducing costs. |  [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
 | **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link]([https://github.com/ruvnet/Bot-Generator-Bot](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5))  |
 | **GPT Repository** — A definitive catalog of tailored GPT models crafted by rUv, offering a variety of specialized GPTs for various applications. It's a hub for enthusiasts and creators to replicate or extend these models' functionalities. Includes comprehensive instructions for each GPT and OpenAPI.json files for third-party API interfacing. | [Link](https://github.com/ruvnet/gpts) |
