@@ -21,6 +21,7 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 
 | Project/Description | GitHub |
 | --- | --- |
+| **🪰 Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
 | **The rUv Enterprise AI Guide** - A detailed enterprise guide to Ai. | [Link](https://github.com/ruvnet/rUv-Enterprise-AI-Guide) |
 | **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting Ai performance and significantly reducing costs. |  [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
 | **Bot Generator Bot** The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link]([https://github.com/ruvnet/Bot-Generator-Bot](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5))  |
