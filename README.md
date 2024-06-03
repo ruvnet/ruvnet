@@ -18,6 +18,8 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 [![The rUv Enterprise AI Guide](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/blob/main/assets/intro.png?raw=true)](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/)
 
 ### They Include:
+### Project Table
+
 | Project/Description | GitHub |
 | --- | --- |
 | **🪰 Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
@@ -35,8 +37,11 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 | **📝 PromptLang()** - A prompt-based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
 | **🧠 Pygentic** - An innovative system designed to enhance the capabilities of AI assistants by providing a flexible and standardized API. | [Link](https://github.com/ruvnet/pygentic) |
 | **🔭 q-space** - A cutting-edge deployment wizard designed to simplify the process of setting up and managing quantum computing applications using Azure Quantum and Azure Functions. | [Link](https://github.com/ruvnet/q-space) |
+| **✨ q-star** - A reinforcement learning-based framework for intelligent agents using Microsoft AutoGen. It leverages Q-Star, a Q-learning variant, for dynamic decision-making. Ideal for developing advanced AI agents. | [Link](https://github.com/ruvnet/q-star) |
 | **⚙️ rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting AI performance and significantly reducing costs. | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
+| **🛠️ rUv-dev** - AI-powered development using the rUv approach. | [Link](https://github.com/ruvnet/rUv-dev) |
 | **📘 The rUv Enterprise AI Guide** - A detailed enterprise guide to AI. | [Link](https://github.com/ruvnet/rUv-Enterprise-AI-Guide) |
+| **🎨 retro-ai-ui** - A prompt building web application built in Python with a retro-style Unix web-based command line interface. | [Link](https://github.com/ruvnet/retro-ai-ui) |
 | **📚 Story Development Toolkit** - This toolkit, comprising several Python libraries and custom functionalities, is designed to empower writers, creators, and enthusiasts in generating engaging and coherent stories with ease. | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
 | **🗂️ supa-ruv** - Everything you need to use Supabase + AI. | [Link](https://github.com/ruvnet/supa-ruv) |
 
