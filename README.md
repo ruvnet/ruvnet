@@ -18,29 +18,27 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 [![The rUv Enterprise AI Guide](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/blob/main/assets/intro.png?raw=true)](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/)
 
 ### They Include:
-### Project Table
-
 | Project/Description | GitHub |
 | --- | --- |
 | **🪰 Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
-| **Agentic Reports** - A comprehensive Python library for generating research reports, leveraging AI models, extensive data manipulation, and real-time web data filtering. | [Link](https://github.com/ruvnet/agentic-reports) |
-| **ai-gist** - This project provides a FastAPI application to create and update GitHub gists using the GitHub API. It includes SQLite for persistence and is designed to run in a GitHub Codespace. | [Link](https://github.com/ruvnet/ai-gist) |
-| **ai-video** - A web application that captures media streams from various sources such as a webcam, desktop, or specific applications. It captures frames at intervals and uses AI to analyze and summarize the frames. | [Link](https://github.com/ruvnet/ai-video) |
-| **Agile Agents (A2)** - An open-source framework for the creation and deployment of serverless intelligent agents using public and private container repositories. The framework supports serverless AI. | [Link](https://github.com/ruvnet/agileagents) |
-| **AWS Dev** - AWS development environment. | [Link](https://github.com/ruvnet/aws-dev) |
-| **Bot Generator Bot** - The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
-| **GPT Repository** — A definitive catalog of tailored GPT models crafted by rUv, offering a variety of specialized GPTs for various applications. It's a hub for enthusiasts and creators to replicate or extend these models' functionalities. Includes comprehensive instructions for each GPT and OpenAPI.json files for third-party API interfacing. | [Link](https://github.com/ruvnet/gpts) |
-| **GuardRail Data Analysis System** — An API-driven framework designed to enhance AI systems and analysis workflows. Integrates with OpenAI's GPT models for advanced data analysis and dynamic conditional completions. Features include sentiment analysis, content classification, and trend detection. Essential for content moderation, customer support, market research, and more. | [Link](https://github.com/ruvnet/guardrail) |
-| **LLM Total Cost of Ownership (TCO) Calculator** - A dynamic tool designed to help users estimate the total cost of ownership for various Large Language Models (LLMs). | [Link](https://gist.github.com/ruvnet/7dfa190c97b0f3d1f0872d14ae2a22c7) |
-| **pipackager** - A tool to manage your PyPI package, including cleaning old distributions, building new ones, uploading to PyPI, version incrementing, and more. | [Link](https://github.com/ruvnet/pipackager) |
-| **Prompt Engine** - A powerful and flexible template designed to facilitate the creation and customization of interactive prompts. | [Link](https://github.com/ruvnet/Prompt-Engine) |
-| **PromptLang()** - A prompt-based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
-| **Pygentic** - An innovative system designed to enhance the capabilities of AI assistants by providing a flexible and standardized API. | [Link](https://github.com/ruvnet/pygentic) |
-| **q-space** - A cutting-edge deployment wizard designed to simplify the process of setting up and managing quantum computing applications using Azure Quantum and Azure Functions. | [Link](https://github.com/ruvnet/q-space) |
-| **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting AI performance and significantly reducing costs. | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
-| **The rUv Enterprise AI Guide** - A detailed enterprise guide to AI. | [Link](https://github.com/ruvnet/rUv-Enterprise-AI-Guide) |
-| **Story Development Toolkit** - This toolkit, comprising several Python libraries and custom functionalities, is designed to empower writers, creators, and enthusiasts in generating engaging and coherent stories with ease. | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
-| **supa-ruv** - Everything you need to use Supabase + AI. | [Link](https://github.com/ruvnet/supa-ruv) |
+| **📑 Agentic Reports** - A comprehensive Python library for generating research reports, leveraging AI models, extensive data manipulation, and real-time web data filtering. | [Link](https://github.com/ruvnet/agentic-reports) |
+| **📜 ai-gist** - This project provides a FastAPI application to create and update GitHub gists using the GitHub API. It includes SQLite for persistence and is designed to run in a GitHub Codespace. | [Link](https://github.com/ruvnet/ai-gist) |
+| **📹 ai-video** - A web application that captures media streams from various sources such as a webcam, desktop, or specific applications. It captures frames at intervals and uses AI to analyze and summarize the frames. | [Link](https://github.com/ruvnet/ai-video) |
+| **🤖 Agile Agents (A2)** - An open-source framework for the creation and deployment of serverless intelligent agents using public and private container repositories. The framework supports serverless AI. | [Link](https://github.com/ruvnet/agileagents) |
+| **🚀 AWS Dev** - AWS development environment. | [Link](https://github.com/ruvnet/aws-dev) |
+| **🤖 Bot Generator Bot** - The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
+| **💾 GPT Repository** — A definitive catalog of tailored GPT models crafted by rUv, offering a variety of specialized GPTs for various applications. It's a hub for enthusiasts and creators to replicate or extend these models' functionalities. Includes comprehensive instructions for each GPT and OpenAPI.json files for third-party API interfacing. | [Link](https://github.com/ruvnet/gpts) |
+| **🛡️ GuardRail Data Analysis System** — An API-driven framework designed to enhance AI systems and analysis workflows. Integrates with OpenAI's GPT models for advanced data analysis and dynamic conditional completions. Features include sentiment analysis, content classification, and trend detection. Essential for content moderation, customer support, market research, and more. | [Link](https://github.com/ruvnet/guardrail) |
+| **💰 LLM Total Cost of Ownership (TCO) Calculator** - A dynamic tool designed to help users estimate the total cost of ownership for various Large Language Models (LLMs). | [Link](https://gist.github.com/ruvnet/7dfa190c97b0f3d1f0872d14ae2a22c7) |
+| **📦 pipackager** - A tool to manage your PyPI package, including cleaning old distributions, building new ones, uploading to PyPI, version incrementing, and more. | [Link](https://github.com/ruvnet/pipackager) |
+| **🔧 Prompt Engine** - A powerful and flexible template designed to facilitate the creation and customization of interactive prompts. | [Link](https://github.com/ruvnet/Prompt-Engine) |
+| **📝 PromptLang()** - A prompt-based programming language for prompts and AI interactions. Simple and human-readable syntax for easy integration with APIs and data. | [Link](https://github.com/ruvnet/promptlang) |
+| **🧠 Pygentic** - An innovative system designed to enhance the capabilities of AI assistants by providing a flexible and standardized API. | [Link](https://github.com/ruvnet/pygentic) |
+| **🔭 q-space** - A cutting-edge deployment wizard designed to simplify the process of setting up and managing quantum computing applications using Azure Quantum and Azure Functions. | [Link](https://github.com/ruvnet/q-space) |
+| **⚙️ rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement. Supercharging older models, drastically boosting AI performance and significantly reducing costs. | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
+| **📘 The rUv Enterprise AI Guide** - A detailed enterprise guide to AI. | [Link](https://github.com/ruvnet/rUv-Enterprise-AI-Guide) |
+| **📚 Story Development Toolkit** - This toolkit, comprising several Python libraries and custom functionalities, is designed to empower writers, creators, and enthusiasts in generating engaging and coherent stories with ease. | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
+| **🗂️ supa-ruv** - Everything you need to use Supabase + AI. | [Link](https://github.com/ruvnet/supa-ruv) |
 
 ## ChatGPT Plug-ins:  
 * **Building a ChatGPT Plugin: AI Web Surfer**  
