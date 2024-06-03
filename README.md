@@ -45,6 +45,21 @@ The potential of AI-generated hallucinations is vast and largely untapped. By em
 | **📚 Story Development Toolkit** - This toolkit, comprising several Python libraries and custom functionalities, is designed to empower writers, creators, and enthusiasts in generating engaging and coherent stories with ease. | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
 | **🗂️ supa-ruv** - Everything you need to use Supabase + AI. | [Link](https://github.com/ruvnet/supa-ruv) |
 
+### Recent Gists
+
+Explore the latest gists created by Reuven Cohen (rUv) on his GitHub Gist profile. These gists cover a range of topics including AI, machine learning, and strategic AI implementation. You can find more of his work and contributions on his [GitHub Gist profile](https://gist.github.com/ruvnet).
+
+| Gist/Description | GitHub |
+| --- | --- |
+| **Advanced Consciousness and Memory Management** - Explores the integration of advanced consciousness and memory management in AI systems, bridging technology and human cognition. | [Link](https://gist.github.com/ruvnet/94a8b8f8765b32e963cf68dcbb75d3e5) |
+| **CARE: A Framework for Evaluating AI Prompt Responses** - Introduces the CARE model for prompt evaluation, focusing on Completeness, Accuracy, Relevance, and Efficiency. | [Link](https://gist.github.com/ruvnet/65648b8a0c9f3d9c4ddc159717a7b4bb) |
+| **Comprehensive Specification for HiveMindLang (HML)** - Details a robust framework for AI agents within a hive mind architecture, integrating encryption and obfuscation techniques. | [Link](https://gist.github.com/ruvnet/5cfca1c8e26aef2d019a71d3e6d7e9a6) |
+| **Config for a TikTok-like Recommender on Azure** - Outlines the services needed to implement a TikTok-like recommender system using Azure, including real-time data streaming and machine learning. | [Link](https://gist.github.com/ruvnet/3cc7c8c6a8c1f3c9d4c6b1c0e7d7f8e2) |
+| **Embedding MindStudio AI Applications with UUID (Auto login)** - Notebook detailing how to embed MindStudio AI applications with UUID for auto login functionality. | [Link](https://gist.github.com/ruvnet/3ecb6f65d8b24f7e8b76f679a9e7f8f7) |
+| **Q* (Q-Star) Agent Code** - A reinforcement learning-based framework for intelligent agents using Microsoft AutoGen, leveraging Q-Star for dynamic decision-making. | [Link](https://gist.github.com/ruvnet/5ff8b6c8e7d4f8a7c7d6e1b2e7d6f6a7) |
+| **Reuven Cohen (rUv) Resume in Hypergraph Prompt Format** - Reuven Cohen's resume formatted in Hypergraph Prompt format, showcasing key skills and experiences. | [Link](https://gist.github.com/ruvnet/3c2f9d9e8b9f4b1a8b6d7c6f7f8d8e9f) |
+| **Strategic AI Integration: A Comprehensive Guide for Enterprise CIOs (DRAFT)** - A guide covering the strategic implementation of AI technologies from initial assessment to post-deployment. | [Link](https://gist.github.com/ruvnet/3f6b8b7c7c7d4e8c9d8f8a7e7e7d9f0a) |
+
 ## ChatGPT Plug-ins:  
 * **Building a ChatGPT Plugin: AI Web Surfer**  
 ChatGPT plugins are a powerful way to extend the capabilities of the ChatGPT.This how to build a ChatGPT plugin called "AI Surfer" that allows ChatGPT to surf the internet, summarize articles, and limit token counts using concurrent API connections. We'll also discuss how to deploy the plugin to Replit for free or to other cloud services.
