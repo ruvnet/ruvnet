@@ -51,6 +51,11 @@ Explore the latest gists created by Reuven Cohen (rUv) on his GitHub Gist profil
 
 | Gist/Description | GitHub |
 | --- | --- |
+| **Basic SWARM Performing A Basic Function** - Swarm Computing Algo | [LINK](https://gist.github.com/ruvnet/c0acb81e02cb5c052e1def32e3f8df04) |
+| **AWS ECS Video Processor** - a complete framework for deploying a video processing service on AWS ECS, integrating with the OpenAI GPT-4 Vision API, and testing it with a client script | [LINK](https://gist.github.com/ruvnet/06b397b596a75fb5614215f3d4f78973) |
+| **Agent Algorithm Repository** - a comprehensive and structured repository for algorithms designed for intelligent agents has become increasingly important. | [LINK](https://gist.github.com/ruvnet/beaf2435053b78c68bf9460976720447) |
+| **Agentic-algorithms** - five advanced algorithms, detailing their technical implementations using Python and Pydantic for data validation, as well as asynchronous programming for efficiency. | [LINK](https://gist.github.com/ruvnet/5227498ee0f072bd5c304773a1ef9b08) |
+| *Cognitive Framework for Logic, Reasoning, and Comprehension** - A cognitive framework for optimizing logic, reasoning, and comprehension when using ChatGPT. This framework ensures clear understanding, effective problem-solving, and accurate responses. | [LINK](https://gist.github.com/ruvnet/8bcc6e11b38db72ed56f04eaf811ea1d) |
 | **Mixture of Experts (MoE) Model Implementation** - A PyTorch implementation of a Mixture of Experts (MoE) model similar to the Mixtral 8x7B architecture, combining transformer layers with an MoE layer of 8 experts. | [Link](https://gist.github.com/ruvnet/b4b29101a99b1e45bf7da5c8b3cc2fb3) |
 | **File Summarization API** - A FastAPI application that provides an API endpoint for uploading files and generating summaries using LlamaIndex, supporting various file types. | [Link](https://gist.github.com/ruvnet/6a42f511a9eca74729986e70aa695bc6) |
 | **Hypergraph Prompting Architecture** - Introduces a "Unified Semantic Network Representation in TOML for Hypergraph Prompting Architecture", presenting a methodical approach for structuring complex relationships and concepts. | [Link](https://gist.github.com/ruvnet/e6ca1de83d9122b87a6f72180c7fe583) |
