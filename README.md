@@ -51,6 +51,10 @@ Explore the latest gists created by Reuven Cohen (rUv) on his GitHub Gist profil
 
 | Gist/Description | GitHub |
 | --- | --- |
+| **Mixture of Experts (MoE) Model Implementation** - A PyTorch implementation of a Mixture of Experts (MoE) model similar to the Mixtral 8x7B architecture, combining transformer layers with an MoE layer of 8 experts. | [Link](https://gist.github.com/ruvnet/b4b29101a99b1e45bf7da5c8b3cc2fb3) |
+| **File Summarization API** - A FastAPI application that provides an API endpoint for uploading files and generating summaries using LlamaIndex, supporting various file types. | [Link](https://gist.github.com/ruvnet/6a42f511a9eca74729986e70aa695bc6) |
+| **Hypergraph Prompting Architecture** - Introduces a "Unified Semantic Network Representation in TOML for Hypergraph Prompting Architecture", presenting a methodical approach for structuring complex relationships and concepts. | [Link](https://gist.github.com/ruvnet/e6ca1de83d9122b87a6f72180c7fe583) |
+| **Metaprompt Enhancements** - Focuses on metaprompt enhancements for output and prompt generation, providing detailed instructions on improving clarity, relevance, and conciseness in AI-generated responses. | [Link](https://gist.github.com/ruvnet/5dd85664f2003d0367269e3e3ca5a576) |
 |**Sentient Systems: A Declarative Approach to Cognitive Architecture for Embodied Intelligence** - AI designed to bridge the gap between technology and the intricate landscapes of human cognition and consciousness. | [Link](https://gist.github.com/ruvnet/4b8e75ea2e4f18bd72da1ac43a1a2a64)|
 | **Advanced Consciousness and Memory Management** - Explores the integration of advanced consciousness and memory management in AI systems, bridging technology and human cognition. | [Link](https://gist.github.com/ruvnet/4b8e75ea2e4f18bd72da1ac43a1a2a64) |
 | **CARE: A Framework for Evaluating AI Prompt Responses** - Introduces the CARE model for prompt evaluation, focusing on Completeness, Accuracy, Relevance, and Efficiency. | [Link](https://www.linkedin.com/pulse/introducing-care-new-way-measure-effectiveness-prompts-reuven-cohen-ls9bf/) |
