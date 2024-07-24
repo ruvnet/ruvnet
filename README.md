@@ -51,6 +51,7 @@ Explore the latest gists created by Reuven Cohen (rUv) on his GitHub Gist profil
 
 | Gist/Description | GitHub |
 | --- | --- |
+|**Sentient Systems: A Declarative Approach to Cognitive Architecture for Embodied Intelligence** - AI designed to bridge the gap between technology and the intricate landscapes of human cognition and consciousness. | [Link](https://gist.github.com/ruvnet/4b8e75ea2e4f18bd72da1ac43a1a2a64)|
 | **Advanced Consciousness and Memory Management** - Explores the integration of advanced consciousness and memory management in AI systems, bridging technology and human cognition. | [Link](https://gist.github.com/ruvnet/4b8e75ea2e4f18bd72da1ac43a1a2a64) |
 | **CARE: A Framework for Evaluating AI Prompt Responses** - Introduces the CARE model for prompt evaluation, focusing on Completeness, Accuracy, Relevance, and Efficiency. | [Link](https://www.linkedin.com/pulse/introducing-care-new-way-measure-effectiveness-prompts-reuven-cohen-ls9bf/) |
 | **Comprehensive Specification for HiveMindLang (HML)** - Details a robust framework for AI agents within a hive mind architecture, integrating encryption and obfuscation techniques. | [Link](https://gist.github.com/ruvnet/bc1cca9f3668c2a4e67d34937ec6e9a4) |
