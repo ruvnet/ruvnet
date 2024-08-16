@@ -45,6 +45,14 @@ The potential of AI-generated hallucinations is vast and largely unexplored. By 
 | **📚 Story Development Toolkit** - This toolkit, comprising several Python libraries and custom functionalities, is designed to empower writers, creators, and enthusiasts in generating engaging and coherent stories with ease. | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
 | **🗂️ supa-ruv** - Everything you need to use Supabase + AI. | [Link](https://github.com/ruvnet/supa-ruv) |
 
+
+### Tutorials & Jupyter Notebooks
+
+| Name                                | Description                                                                                  | Link                                                                                                              |
+|-------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Multi-Agent Conversational System** | This advanced system navigates complex task trees in a financial system using specialized agents for tasks like stock lookup and money transfers. | [Link](https://gist.github.com/ruvnet/5cdbbd43ab3a0c728fdd3e7a2a8aedd9)               |
+| **Introduction to Programming with Prompts** | Learn how prompt programming transforms developer-computer interaction, embracing dynamic and interactive methods for real-time scenarios. | [Link](https://gist.github.com/ruvnet/7c84dea9c360f8ad03c4734282e370e2)         |
+ 
 ### Recent Gists
 
 Explore the latest gists created by Reuven Cohen (rUv) on his GitHub Gist profile. These gists cover a range of topics including AI, machine learning, and strategic AI implementation. You can find more of his work and contributions on his [GitHub Gist profile](https://gist.github.com/ruvnet).
