@@ -1,4 +1,4 @@
-![Alt Hi. I'm @rUv](https://github.com/ruvnet/ruvnet/blob/main/assets/github-intro.png?raw=true)
+![Alt Hi. I'm @rUv](https://github.com/ruvnet/ruvnet/blob/main/assets/pp.png?raw=true)
 
 Hi. I'm @rUv
 
