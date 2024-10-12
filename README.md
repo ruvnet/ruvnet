@@ -22,11 +22,24 @@ The potential of AI-generated hallucinations is vast and largely unexplored. By 
 
 | Project/Description | GitHub |
 | --- | --- |
+| 🔥 **Fireflies Webhook** Webhook endpoint for Fireflies transcripts with intent detection | [Link](https://github.com/ruvnet/fireflies-webook) |
+| 🛰️ **Agentic Preview** Asynchronous FastAPI backend service for deploying preview environments using Fly.io | [Link](https://github.com/ruvnet/agentic-preview) |
+| 📐 **SPARC** Comprehensive methodology for robust and scalable application development: Specification, Pseudocode, Architecture, Refinement | [Link](https://github.com/ruvnet/sparc) |
+| 🤖 **Agentic Search** Agentic GitHub Copilot Extension | [Link](https://github.com/ruvnet/agentic-search) |
+| 🏆 **AIHL** The AI Hacker League: A non-profit for innovation, collaboration, and ethical AI practices | [Link](https://github.com/ruvnet/aihl) |
+| 📞 **Voicebot** AI-driven mock interviews and voice interactions via phone calls, using Flask | [Link](https://github.com/ruvnet/voicebot) |
+| 🧠 **AgenticsJS** Intelligent search library with real-time results, visualization, and plugins | [Link](https://github.com/ruvnet/agenticsjs) |
+| 🗳️ **Electo1 JS** Predict elections at an individual level in real-time | [Link](https://github.com/ruvnet/electo1-js) |
+| 🚀 **Infinity UI: A Sci-Fi Odyssey** Sci-fi inspired interactive user interface | [Link](https://github.com/ruvnet/infinity-ui) |
+| 🍓 **Strawberry Phi** Fine-tuning app for OpenAI's GPT models | [Link](https://github.com/ruvnet/strawberry-phi) |
+| 🦙 **Llamastack** UI for Meta LLama Stack Apps / Agents | [Link](https://github.com/ruvnet/llamastack) |
+| 🗨️ **Agentic Voice** Advanced AI-powered chat app for real-time communication | [Link](https://github.com/ruvnet/agentic-voice) |
+| ⚙️ **AgentXNG** CLI tool powered by Anthropic's Claude-3.5-Sonnet for development tasks | [Link](https://github.com/ruvnet/agentXNG) |
+| 🛠️ **Agile Agents (A2)** Open-source framework for serverless intelligent agents with multi-cloud support | [Link](https://github.com/ruvnet/agileagents) |
 | **🪰 Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
 | **📑 Agentic Reports** - A comprehensive Python library for generating research reports, leveraging AI models, extensive data manipulation, and real-time web data filtering. | [Link](https://github.com/ruvnet/agentic-reports) |
 | **📜 ai-gist** - This project provides a FastAPI application to create and update GitHub gists using the GitHub API. It includes SQLite for persistence and is designed to run in a GitHub Codespace. | [Link](https://github.com/ruvnet/ai-gist) |
 | **📹 ai-video** - A web application that captures media streams from various sources such as a webcam, desktop, or specific applications. It captures frames at intervals and uses AI to analyze and summarize the frames. | [Link](https://github.com/ruvnet/ai-video) |
-| **🤖 Agile Agents (A2)** - An open-source framework for the creation and deployment of serverless intelligent agents using public and private container repositories. The framework supports serverless AI. | [Link](https://github.com/ruvnet/agileagents) |
 | **🚀 AWS Dev** - AWS development environment. | [Link](https://github.com/ruvnet/aws-dev) |
 | **🤖 Bot Generator Bot** - The ultimate bot generator bot prompt. Use this prompt to create powerful ChatGPT bots for anything you can imagine. Includes a collection of dozens of purpose-built bots. | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
 | **💾 GPT Repository** — A definitive catalog of tailored GPT models crafted by rUv, offering a variety of specialized GPTs for various applications. It's a hub for enthusiasts and creators to replicate or extend these models' functionalities. Includes comprehensive instructions for each GPT and OpenAPI.json files for third-party API interfacing. | [Link](https://github.com/ruvnet/gpts) |
