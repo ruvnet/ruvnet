@@ -29,6 +29,11 @@ Projects focused on building AI frameworks, libraries, and tools to enhance AI c
 | 🧠 **AgenticsJS** - Intelligent search library with real-time results, visualization, and plugins | [Link](https://github.com/ruvnet/agenticsjs) |
 | 🧠 **Pygentic** - Enhances the capabilities of AI assistants by providing a flexible and standardized API | [Link](https://github.com/ruvnet/pygentic) |
 | 🛡️ **GuardRail Data Analysis System** - API-driven framework designed to enhance AI systems and analysis workflows | [Link](https://github.com/ruvnet/guardrail) |
+| 🧠 **NOVA** - Neuro-symbolic Optimized Versatile Agent for knowledge distillation and compact model training | [Link](https://github.com/ruvnet/nova) |
+| 🚀 **DSPy.ts** - Browser-based AI framework for JavaScript and TypeScript developers to run models directly in users' browsers | [Link](https://github.com/ruvnet/dspy.ts) |
+| 🔧 **ONNX-Agent** - Unified pipeline for training, optimizing, and deploying ONNX models with test-time compute methods | [Link](https://github.com/ruvnet/onnx-agent) |
+| 🌊 **MidStream** - Real-time LLM streaming platform with inflight data analysis and dynamic tool integration built in Rust | [Link](https://github.com/ruvnet/midstream) |
+| 🌐 **Federated MCP** - Distributed runtime system for federated AI services with edge computing capabilities following the Model Context Protocol | [Link](https://github.com/ruvnet/federated-mcp) |
 | 🪰 **Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
 
 # Chatbots and Conversational AI
@@ -39,9 +44,12 @@ Projects enhancing communication through AI-driven chatbots and voice interactio
 | --- | --- |
 | 🗨️ **Agentic Voice** - Advanced AI-powered chat app for real-time communication | [Link](https://github.com/ruvnet/agentic-voice) |
 | 📞 **Voicebot** - AI-driven mock interviews and voice interactions via phone calls, using Flask | [Link](https://github.com/ruvnet/voicebot) |
+| 🧮 **Symbolic Scribe** - Specialized prompt engineering tool using mathematical frameworks for precise, structured AI interactions | [Link](https://github.com/ruvnet/symbolic-scribe) |
 | 🤖 **Bot Generator Bot** - The ultimate bot generator bot prompt. Create powerful ChatGPT bots for anything you can imagine | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
 | 📝 **PromptLang()** - A prompt-based programming language for prompts and AI interactions | [Link](https://github.com/ruvnet/promptlang) |
 | 🔧 **Prompt Engine** - A powerful and flexible template designed to facilitate the creation and customization of interactive prompts | [Link](https://github.com/ruvnet/Prompt-Engine) |
+| 🔊 **Omnipotent** - Quantum consciousness voice interface for real-time AI conversations using OpenAI's speech API | [Link](https://github.com/ruvnet/omnipotent) |
+| 📊 **SynthLang** - Mathematically-structured prompt optimization tool that reduces AI costs and increases processing speed | [Link](https://github.com/ruvnet/SynthLang) |
 
 # Agentic Systems and Automation
 
@@ -51,10 +59,14 @@ Projects focused on automation and intelligent agent systems.
 | --- | --- |
 | ⚙️ **AgentXNG** - CLI tool powered by Anthropic's Claude-3.5-Sonnet for development tasks | [Link](https://github.com/ruvnet/agentXNG) |
 | 🛰️ **Agentic Preview** - Asynchronous FastAPI backend service for deploying preview environments using Fly.io | [Link](https://github.com/ruvnet/agentic-preview) |
+| ⚡ **Inflight Agentics** - Real-time event processing system for continuous monitoring and autonomous action execution within milliseconds | [Link](https://github.com/ruvnet/inflight) |
 | ✨ **q-star** - Reinforcement learning-based framework for intelligent agents using Microsoft AutoGen | [Link](https://github.com/ruvnet/q-star) |
 | ⚙️ **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
 | 🤖 **Agent Algorithm Repository** - Comprehensive repository for algorithms designed for intelligent agents | [Link](https://gist.github.com/ruvnet/beaf2435053b78c68bf9460976720447) |
+| 🏛️ **AI-Driven Decentralized Organization (AIDO)** - Network of specialized AI agents for autonomous and distributed decision-making without blockchain | [Link](https://github.com/ruvnet/aido) |
 | 🤖 **Agentic-algorithms** - Advanced algorithms implemented using Python and Pydantic for intelligent agents | [Link](https://gist.github.com/ruvnet/5227498ee0f072bd5c304773a1ef9b08) |
+| 🌟 **Hello World Agent** - Extensible agent framework leveraging ReACT methodology for autonomous task execution | [Link](https://github.com/ruvnet/hello_world_agent) |
+| 📡 **Agentic Edge Functions** - Foundation for distributed autonomous AI agents operating at the network edge with low latency | [Link](https://github.com/agenticsorg/edge-agents/) |
 
 # Data Analysis and Reporting
 
@@ -74,9 +86,14 @@ Tools to streamline coding, deployment, and project management.
 
 | Project/Description | GitHub |
 | --- | --- |
+| 🔍 **Reflective Engineer** - LangChain-based development environment for building, testing, and deploying AI agents | [Link](https://github.com/ruvnet/reflective-engineer) |
 | 📦 **pipackager** - Tool to manage your PyPI package | [Link](https://github.com/ruvnet/pipackager) |
 | 🛠️ **rUv-dev** - AI-powered development using the rUv approach | [Link](https://github.com/ruvnet/rUv-dev) |
 | 🚀 **AWS Dev** - AWS development environment | [Link](https://github.com/ruvnet/aws-dev) |
+| 🔒 **Agentic Security** - Autonomous security pipeline combining AI tools for scanning, remediation, and code management | [Link](https://github.com/ruvnet/agentic-security) |
+| 🌐 **Auto-Browser** - AI-powered web automation tool that enables complex interactions through natural language commands | [Link](https://github.com/ruvnet/auto-browser) |
+| 🧩 **SPARC 2.0** - Intelligent coding agent framework with MCP capabilities for automated software development | [Link](https://github.com/agenticsorg/sparc2) |
+| 🔍 **Agentic Security Scanner** - AI-powered tool for automatically detecting vulnerabilities in code repositories | [Link](https://github.com/agenticsorg/agentic-security) |
 
 # UI/UX and Visualization
 
@@ -84,10 +101,20 @@ Projects enhancing user interfaces and experiences through AI.
 
 | Project/Description | GitHub |
 | --- | --- |
+| 🌌 **Genesis UI** - Groundbreaking physics platform for robotics and embodied AI with simulation speeds of 43 million FPS | [Link](https://github.com/ruvnet/genesis) |
 | 🚀 **Infinity UI: A Sci-Fi Odyssey** - Sci-fi inspired interactive user interface | [Link](https://github.com/ruvnet/infinity-ui) |
 | 🎨 **retro-ai-ui** - Prompt building web application with a retro-style Unix web-based command line interface | [Link](https://github.com/ruvnet/retro-ai-ui) |
 | 🦙 **Llamastack** - UI for Meta LLama Stack Apps / Agents | [Link](https://github.com/ruvnet/llamastack) |
 | 🗂️ **supa-ruv** - Everything you need to use Supabase + AI | [Link](https://github.com/ruvnet/supa-ruv) |
+| 💻 **rUvix** - Retro-futuristic terminal interface showcasing agentic engineering services and vibe coding | [Link](https://github.com/ruvnet/vibing) |
+
+# Web Development and APIs
+
+Projects focused on web development and API integration.
+
+| Project/Description | GitHub |
+| --- | --- |
+| 🤖 **Agentic_Robots.txt** - Extended protocol framework for autonomous agent interaction with web applications | [Link](https://github.com/agenticsorg/agentic-robots-txt) |
 
 # Predictive Analytics and Modeling
 
@@ -110,31 +137,8 @@ Explorations into quantum computing applications and intelligent agents.
 | 🔭 **q-space** - Deployment wizard for quantum computing applications using Azure Quantum and Functions | [Link](https://github.com/ruvnet/q-space) |
 | ✨ **q-star** - Framework for intelligent agents using Q-learning for decision-making | [Link](https://github.com/ruvnet/q-star) |
 | ✨ **Q-Star Agent Code** - Reinforcement learning framework for intelligent agents using Microsoft AutoGen | [Link](https://gist.github.com/ruvnet/b110bd43b66c107393e31fe475a14be9) |
-
-# Tutorials and Educational Resources
-
-Educational materials to help others learn about AI and programming.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 📘 **The rUv Enterprise AI Guide** - Detailed enterprise guide to AI implementation | [Link](https://github.com/ruvnet/rUv-Enterprise-AI-Guide) |
-| 🎓 **Multi-Agent Conversational System** - System navigating complex task trees in a financial system using specialized agents | [Link](https://gist.github.com/ruvnet/5cdbbd43ab3a0c728fdd3e7a2a8aedd9) |
-| 📖 **Introduction to Programming with Prompts** - How prompt programming transforms developer-computer interaction | [Link](https://gist.github.com/ruvnet/7c84dea9c360f8ad03c4734282e370e2) |
-| 📱 **Embedding MindStudio AI Applications with UUID** - Notebook on embedding MindStudio AI apps with auto login functionality | [Link](https://gist.github.com/ruvnet/6c32de65101d31b0d3eb635c1a74bbd6) |
-| 📝 **Reuven Cohen (rUv) Resume in Hypergraph Format** - Resume formatted in Hypergraph Prompt format showcasing skills and experiences | [Link](https://gist.github.com/ruvnet/e6ca1de83d9122b87a6f72180c7fe583) |
-| 📄 **Strategic AI Integration Guide for CIOs** - Guide covering strategic AI implementation from assessment to post-deployment | [Link](https://gist.github.com/ruvnet/1b46860260e19012fa5b5aec3013b7f3) |
-
-# Research and Conceptual Works
-
-Explorations into advanced AI concepts and frameworks.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 🌐 **Hypergraph Prompting Architecture** - Methodical approach for structuring complex relationships and concepts | [Link](https://gist.github.com/ruvnet/e6ca1de83d9122b87a6f72180c7fe583) |
-| 📝 **Metaprompt Enhancements** - Enhancements for output and prompt generation to improve AI responses | [Link](https://gist.github.com/ruvnet/5dd85664f2003d0367269e3e3ca5a576) |
-| 🧠 **Advanced Consciousness and Memory Management** - Integration of advanced consciousness and memory in AI systems | [Link](https://gist.github.com/ruvnet/4b8e75ea2e4f18bd72da1ac43a1a2a64) |
-| 🐝 **HiveMindLang (HML) Specification** - Framework for AI agents within a hive mind architecture | [Link](https://gist.github.com/ruvnet/bc1cca9f3668c2a4e67d34937ec6e9a4) |
-| 📄 **CARE: Framework for Evaluating AI Prompt Responses** - CARE model focusing on Completeness, Accuracy, Relevance, and Efficiency | [Link](https://www.linkedin.com/pulse/introducing-care-new-way-measure-effectiveness-prompts-reuven-cohen-ls9bf/) |
+| 💰 **Quantum Cryptocurrency** - Next-generation cryptocurrency platform leveraging quantum computing for enhanced security and scalability | [Link](https://github.com/ruvnet/quantum_cryptocurrency) |
+| ⚛️ **Quantum Agentics** - Quantum computing system for optimizing agent-based task allocation using Azure Quantum | [Link](https://github.com/agenticsorg/quantum-agentics) |
 
 # Cloud and Deployment Tools
 
@@ -145,6 +149,7 @@ Tools for cloud development and efficient deployment.
 | 🛰️ **Agentic Preview** - Backend service for deploying preview environments using Fly.io | [Link](https://github.com/ruvnet/agentic-preview) |
 | 🗂️ **supa-ruv** - Resources for using Supabase with AI projects | [Link](https://github.com/ruvnet/supa-ruv) |
 | 🚀 **AWS Dev** - AWS development environment setup | [Link](https://github.com/ruvnet/aws-dev) |
+| 🤖 **Agentic DevOps** - Autonomous AI-powered platform for managing cloud infrastructure across multiple providers | [Link](https://github.com/agenticsorg/devops) |
 
 # Media and Content Analysis
 
@@ -193,4 +198,4 @@ https://github.com/ruvnet/chatgpt-openai-api-plugin
 
 * **ChatGPT Hugging Face Plugin:**  
 The Hugging Face API plugin for ChatGPT is a powerful integration that allows ChatGPT to interact with the Hugging Face platform, a leading provider of natural language processing (NLP) models, datasets, and tools. 
-https://github.com/ruvnet/Surfer/tree/chatgpt-huggingface-plugin 
+https://github.com/ruvnet/Surfer/tree/chatgpt-huggingface-plugin
