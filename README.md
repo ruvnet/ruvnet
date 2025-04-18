@@ -134,6 +134,7 @@ Explorations into quantum computing applications and intelligent agents.
 
 | Project/Description | GitHub |
 | --- | --- |
+| 🔭 **Quantum Magnetic Navigation** - A navigation system that uses quantum magnetometers to provide precise positioning in GPS-denied environments. | [Link](https://github.com/ruvnet/quantum-magnetic-navigation) |
 | 🔭 **q-space** - Deployment wizard for quantum computing applications using Azure Quantum and Functions | [Link](https://github.com/ruvnet/q-space) |
 | ✨ **q-star** - Framework for intelligent agents using Q-learning for decision-making | [Link](https://github.com/ruvnet/q-star) |
 | ✨ **Q-Star Agent Code** - Reinforcement learning framework for intelligent agents using Microsoft AutoGen | [Link](https://gist.github.com/ruvnet/b110bd43b66c107393e31fe475a14be9) |
