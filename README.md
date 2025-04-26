@@ -35,6 +35,7 @@ Projects focused on building AI frameworks, libraries, and tools to enhance AI c
 | 🌊 **MidStream** - Real-time LLM streaming platform with inflight data analysis and dynamic tool integration built in Rust | [Link](https://github.com/ruvnet/midstream) |
 | 🌐 **Federated MCP** - Distributed runtime system for federated AI services with edge computing capabilities following the Model Context Protocol | [Link](https://github.com/ruvnet/federated-mcp) |
 | 🪰 **Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
+| ⚡ **Dynamo MCP** - Discover, manage, and generate projects with cookiecutter templates via MCP | [Link](https://github.com/ruvnet/dynamo-mcp) |
 
 # Chatbots and Conversational AI
 
