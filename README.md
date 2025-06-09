@@ -24,7 +24,7 @@ Projects focused on building AI frameworks, libraries, and tools to enhance AI c
 | Project/Description | GitHub |
 | --- | --- |
 | 📐 **SPARC** - Comprehensive methodology for robust and scalable application development: Specification, Pseudocode, Architecture, Refinement | [Link](https://github.com/ruvnet/sparc) |
-| 🤖 **Agentic Search** - Agentic GitHub Copilot Extension | [Link](https://github.com/ruvnet/agentic-search) |
+| 🤖 **Agentic Search** - GitHub Copilot Extension with AI-powered code suggestions, intelligent automation, and streamlined project management | [Link](https://github.com/ruvnet/agentic-search) |
 | 🛠️ **Agile Agents (A2)** - Open-source framework for serverless intelligent agents with multi-cloud support | [Link](https://github.com/ruvnet/agileagents) |
 | 🧠 **AgenticsJS** - Intelligent search library with real-time results, visualization, and plugins | [Link](https://github.com/ruvnet/agenticsjs) |
 | 🧠 **Pygentic** - Enhances the capabilities of AI assistants by providing a flexible and standardized API | [Link](https://github.com/ruvnet/pygentic) |
@@ -36,6 +36,12 @@ Projects focused on building AI frameworks, libraries, and tools to enhance AI c
 | 🌐 **Federated MCP** - Distributed runtime system for federated AI services with edge computing capabilities following the Model Context Protocol | [Link](https://github.com/ruvnet/federated-mcp) |
 | 🪰 **Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
 | ⚡ **Dynamo MCP** - Discover, manage, and generate projects with cookiecutter templates via MCP | [Link](https://github.com/ruvnet/dynamo-mcp) |
+| 🌊 **Agentic Diffusion** - Advanced diffusion-based generative framework for code generation and agentic planning through self-evolving models | [Link](https://github.com/ruvnet/agentic-difusion) |
+| 🔐 **Agent Name Service (ANS)** - Secure registry for AI agents based on OWASP GenAI Security Project's ANS Protocol for agent discovery and interaction | [Link](https://github.com/ruvnet/Agent-Name-Service) |
+| 🧠 **SAFLA** - Production-ready autonomous AI system with hybrid memory, meta-cognitive reasoning, MCP integration, and comprehensive safety validation | [Link](https://github.com/ruvnet/SAFLA) |
+| ⚡ **FACT: Fast Augmented Context Tools** - Revolutionary LLM data retrieval replacing RAG with prompt caching and deterministic MCP tool execution | [Link](https://github.com/ruvnet/FACT) |
+| 📡 **WiFi-DensePose** - Privacy-first human pose estimation using WiFi CSI data with real-time multi-person tracking and enterprise-ready API | [Link](https://github.com/ruvnet/wifi-densepose) |
+| 🔊 **Ultrasonic Agentics** - Secure steganographic framework for embedding invisible AI commands and data in audio and video | [Link](https://github.com/ruvnet/ultrasonic) |
 
 # Chatbots and Conversational AI
 
@@ -80,6 +86,7 @@ Projects leveraging AI for data manipulation, analysis, and reporting.
 | 💰 **LLM Total Cost of Ownership (TCO) Calculator** - Tool to estimate the total cost of ownership for various LLMs | [Link](https://gist.github.com/ruvnet/7dfa190c97b0f3d1f0872d14ae2a22c7) |
 | 🧪 **Mixture of Experts (MoE) Model Implementation** - PyTorch implementation combining transformer layers with an MoE layer of 8 experts | [Link](https://gist.github.com/ruvnet/b4b29101a99b1e45bf7da5c8b3cc2fb3) |
 | 📄 **File Summarization API** - FastAPI application for uploading files and generating summaries using LlamaIndex | [Link](https://gist.github.com/ruvnet/6a42f511a9eca74729986e70aa695bc6) |
+| 📊 **GenAI-Superstream** - Demonstrates Agentic Engineering and "Vibe Coding" for data science with DuckDB and scikit-learn for UK job market AI impact analysis | [Link](https://github.com/ruvnet/GenAI-Superstream) |
 
 # Developer Tools and Utilities
 
@@ -95,6 +102,9 @@ Tools to streamline coding, deployment, and project management.
 | 🌐 **Auto-Browser** - AI-powered web automation tool that enables complex interactions through natural language commands | [Link](https://github.com/ruvnet/auto-browser) |
 | 🧩 **SPARC 2.0** - Intelligent coding agent framework with MCP capabilities for automated software development | [Link](https://github.com/agenticsorg/sparc2) |
 | 🔍 **Agentic Security Scanner** - AI-powered tool for automatically detecting vulnerabilities in code repositories | [Link](https://github.com/agenticsorg/agentic-security) |
+| 🐝 **CodeSwarm: VSCode Remote MCP Server** - CLI and MCP server for VSCode remote development with swarm deployment and instance management | [Link](https://github.com/ruvnet/vsc-remote-mcp) |
+| 💻 **SPARC IDE** - Customizable VSCode distribution for agentic software development with Roo Code integration for prompt-driven workflows | [Link](https://github.com/ruvnet/sparc-ide) |
+| 🔄 **Claude Code MCP – code-flow Mode** - Code execution and refinement flow for RooCode-style agentic environments with autonomous code optimization | [Link](https://github.com/ruvnet/claude-code-flow) |
 
 # UI/UX and Visualization
 
