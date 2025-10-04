@@ -223,3 +223,38 @@ https://github.com/ruvnet/chatgpt-openai-api-plugin
 * **ChatGPT Hugging Face Plugin:**  
 The Hugging Face API plugin for ChatGPT is a powerful integration that allows ChatGPT to interact with the Hugging Face platform, a leading provider of natural language processing (NLP) models, datasets, and tools. 
 https://github.com/ruvnet/Surfer/tree/chatgpt-huggingface-plugin
+
+# Rust Crates (crates.io)
+
+High-performance Rust libraries and tools for distributed systems, quantum computing, and AI infrastructure.
+
+## Most Popular Crates
+
+| Crate/Description | Downloads | Link |
+| --- | --- | --- |
+| 🔐 **qudag-crypto** - Quantum-resistant cryptography library for QuDAG with ML-KEM-768, ML-DSA, HQC, and BLAKE3 | 3,489 | [Link](https://crates.io/crates/qudag-crypto) |
+| 🖥️ **qudag-cli** - Command-line interface for QuDAG to manage nodes, peers, dark addresses, rUv token exchange, and business plan payouts | 3,686 | [Link](https://crates.io/crates/qudag-cli) |
+| 🕸️ **qudag** - QuDAG: Darknet for agent swarms with ultra-fast quantum-resistant distributed communication platform | 3,584 | [Link](https://crates.io/crates/qudag) |
+| 🌐 **qudag-network** - P2P networking layer for QuDAG with LibP2P, onion routing, dark addressing, and quantum encryption | 3,270 | [Link](https://crates.io/crates/qudag-network) |
+| ⚡ **qudag-dag** - DAG consensus implementation for QuDAG with QR-Avalanche algorithm and Byzantine fault tolerance | 2,970 | [Link](https://crates.io/crates/qudag-dag) |
+| 📡 **qudag-protocol** - Protocol implementation for QuDAG orchestrating crypto, DAG, and network components | 2,737 | [Link](https://crates.io/crates/qudag-protocol) |
+| 🔒 **qudag-vault-core** - Quantum-resistant password vault library with post-quantum cryptography | 2,605 | [Link](https://crates.io/crates/qudag-vault-core) |
+| 🧠 **ruv-fann** - Pure Rust implementation of the Fast Artificial Neural Network (FANN) library | 2,562 | [Link](https://crates.io/crates/ruv-fann) |
+| 🔗 **qudag-mcp** - Model Context Protocol (MCP) server for QuDAG integrating vault, exchange, and quantum-resistant operations | 2,053 | [Link](https://crates.io/crates/qudag-mcp) |
+| 🤖 **ruv-swarm-core** - Core orchestration and agent traits for RUV Swarm | 1,935 | [Link](https://crates.io/crates/ruv-swarm-core) |
+| 💻 **cuda-rust-wasm** - CUDA to Rust transpiler with WebGPU/WASM support | 1,887 | [Link](https://crates.io/crates/cuda-rust-wasm) |
+
+## Most Recent Crates
+
+| Crate/Description | Updated | Link |
+| --- | --- | --- |
+| 💳 **agentic-payments** - Autonomous multi-agent Ed25519 signature verification with Byzantine fault tolerance | 4 days ago | [Link](https://crates.io/crates/agentic-payments) |
+| 🎯 **goalie** - AI-powered research assistant with GOAP planning, advanced reasoning, MCP protocol support, and Perplexity API integration | 5 days ago | [Link](https://crates.io/crates/goalie) |
+| 🔍 **bit-parallel-search** - Blazing fast string search using bit-parallel algorithms - up to 8x faster than naive search | 7 days ago | [Link](https://crates.io/crates/bit-parallel-search) |
+| ⏱️ **temporal-compare** - High-performance framework for benchmarking temporal prediction algorithms inspired by Time-R1 | 7 days ago | [Link](https://crates.io/crates/temporal-compare) |
+| 🌀 **temporal-attractor-studio** - Temporal Attractor Studio for real FTLE calculation and temporal dynamics prediction with VP-tree optimization | 7 days ago | [Link](https://crates.io/crates/temporal-attractor-studio) |
+| ⏳ **subjective-time-expansion** - Subjective Time Expansion for AI Consciousness - framework enabling individual agents to experience dilated time perception for enhanced cognitive processing | 8 days ago | [Link](https://crates.io/crates/subjective-time-expansion) |
+| 🔄 **strange-loop** - Hyper-optimized strange loops with temporal consciousness and quantum-classical hybrid computing via NPX/npx | 9 days ago | [Link](https://crates.io/crates/strange-loop) |
+| 🧮 **sublinear** - High-performance sublinear-time solver for asymmetric diagonally dominant systems | 10 days ago | [Link](https://crates.io/crates/sublinear) |
+
+View all 82 crates at [crates.io/users/ruvnet](https://crates.io/users/ruvnet)
