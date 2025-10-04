@@ -23,6 +23,7 @@ Core frameworks and libraries for building AI-powered applications and intellige
 
 | Project/Description | GitHub |
 | --- | --- |
+| 🚀 **Claude-Flow** - The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture with multi-cloud support | [Link](https://github.com/ruvnet/claude-flow) |
 | 🔐 **Agent Name Service (ANS)** - Secure registry for AI agents based on OWASP GenAI Security Project's ANS Protocol for agent discovery and interaction | [Link](https://github.com/ruvnet/Agent-Name-Service) |
 | 🛠️ **Agile Agents (A2)** - Open-source framework for serverless intelligent agents with multi-cloud support | [Link](https://github.com/ruvnet/agileagents) |
 | 🧠 **AgenticsJS** - Intelligent search library with real-time results, visualization, and plugins | [Link](https://github.com/ruvnet/agenticsjs) |
