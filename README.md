@@ -3,7 +3,7 @@
 Hi. I'm @rUv
 
 # Why I started this GitHub Repository. 
-### In the fast-paced world of artificial intelligence, I'm constantly finding new ways to harness the power of technology. One of the most captivating aspects of AI models like GPT-4 is their ability to "hallucinate" – generating completely new ideas and concepts that go beyond mere data processing. This capability underscores AI's potential to create, not just analyze.
+### In the fast-paced world of artificial intelligence, I'm constantly finding new ways to harness the power of technology. One of the most captivating aspects of AI models like GPT is their ability to "hallucinate" – generating completely new ideas and concepts that go beyond mere data processing. This capability underscores AI's potential to create, not just analyze.
 
 The real magic happens when I blend human creativity with machine intelligence. By carefully crafting the input I give to the AI, I can guide it to produce insights that are both valuable and actionable. The GPT model then takes these insights, organizes them into coherent structures, and presents them in a way that I can develop and act upon.
 
