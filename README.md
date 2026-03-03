@@ -15,8 +15,6 @@ The potential of AI-generated hallucinations is vast and largely unexplored. By 
 
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
 
-[![The rUv Enterprise AI Guide](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/blob/main/assets/intro.png?raw=true)](https://github.com/ruvnet/rUv-Enterprise-AI-Guide/)
-
 # AI Frameworks and Libraries
 
 Core frameworks and libraries for building AI-powered applications and intelligent systems.
