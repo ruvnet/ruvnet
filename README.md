@@ -39,10 +39,15 @@ Long live ❤️ Open Source.
 
 # 📜 Prior-Art Dossier (commit-proof, dated)
 
-Because the whole point of building in public is the **provenance**. Two companion dossiers tie every system to the *genesis commit* that first introduced it — hash, author date, and a clickable link — alongside scoped first-of-kind claims with named external prior art:
+Because the whole point of building in public is the **provenance**. These dossiers tie every system to the *genesis commit* that first introduced it — hash, author date, and a clickable link — alongside scoped first-of-kind claims with named external prior art.
 
+**Org & systems provenance**
 - **[ruvnet org-wide prior-art dossier](https://gist.github.com/ruvnet/67c255a099984c94190c57ab08e7ad35)** — 248 public repositories, every one tied to its genesis commit (date + link), plus 47 detailed entries and 23 scoped global-first claims.
 - **[RuVector internal-systems dossier](https://gist.github.com/ruvnet/86d6968783ff1629e7481d9c92d0bed8)** — per-crate provenance for the RuVector self-learning vector DB (RVF, RVM, SONA, emergent-time, witness chain).
+
+**Claude-Flow / Ruflo — the harness**
+- **[Year-One Executive Brief](https://gist.github.com/ruvnet/a8df1bae4686ebf3914dd61c8afe6d69)** — 31 verified first-mover positions and the *harness-not-model* thesis (June 2025 – June 2026).
+- **[Prior-Art Dossier — Academic Edition](https://gist.github.com/ruvnet/1a88c9fc7b7eaa99b4ea2f0dd0891c49)** — the 31 firsts sorted into invention / implementation / engineering / integration, with dated industry-comparison tables and calibrated first-claim language.
 
 *Provenance is fact (click any commit); novelty claims are scoped, dated, and listed with prior art so they can be checked or refuted.*
 
