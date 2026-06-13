@@ -37,6 +37,13 @@ Long live ❤️ Open Source.
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
 
 
+---
+
+### By the numbers
+
+**296** public repositories · **636** published packages (**322** Rust crates with 778k+ downloads · **284** npm · **8** PyPI · **22** Hugging Face models/spaces) · spanning **March 2023 → today**. Each project integrates the previous, so the catalog is a single connected chain rather than a pile of one-offs. Everything below is grouped, dated, and tied to a public commit or registry artifact you can click and verify.
+
+
 # 📜 Prior-Art Dossier (commit-proof, dated)
 
 Because the whole point of building in public is the **provenance**. These dossiers tie every system to the *genesis commit* that first introduced it — hash, author date, and a clickable link — alongside scoped first-of-kind claims with named external prior art.
@@ -49,7 +56,10 @@ Because the whole point of building in public is the **provenance**. These dossi
 - **[Year-One Executive Brief](https://gist.github.com/ruvnet/a8df1bae4686ebf3914dd61c8afe6d69)** — 31 verified first-mover positions and the *harness-not-model* thesis (June 2025 – June 2026).
 - **[Prior-Art Dossier — Academic Edition](https://gist.github.com/ruvnet/1a88c9fc7b7eaa99b4ea2f0dd0891c49)** — the 31 firsts sorted into invention / implementation / engineering / integration, with dated industry-comparison tables and calibrated first-claim language.
 
-*Provenance is fact (click any commit); novelty claims are scoped, dated, and listed with prior art so they can be checked or refuted.*
+**Distribution surface**
+- **[Packages & Libraries Index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)** — every published package across all four registries: **322 crates** (778k+ downloads) · **284 npm** · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and download counts. This catches the mono-repo sub-projects (RuVector's 99 crates, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
+
+*Provenance is fact (click any commit or package); novelty claims are scoped, dated, and listed with prior art so they can be checked or refuted.*
 
 # 🚩 Flagship Systems (2024–2026)
 
