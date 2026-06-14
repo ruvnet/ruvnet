@@ -5,33 +5,23 @@ Hi. I'm @rUv
 # Why I started this GitHub Repository. 
 
 
-One of the strange advantages of building everything in public is the sheer weight of my “prior art” portfolio. 
+One of the strange advantages of building everything in public is the sheer weight of the prior-art trail it leaves behind.
 
-When you step back and look at my GitHub, it is essentially a giant archive (millions of lines deep) of crazy experiments, many becoming a thing years later. 
+Step back and look at the graph: **296 public repositories**, **636 published packages** across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
 
-Some polished, some rough, some half baked but functional, at least for me anyway. What matters is that they exist, they ran, and they were shared. 
+I have been pushing ideas into the open as fast as I can think of them: swarm orchestration, agentic memory, self-learning vector databases, GNN layers inside the data store, dynamic min-cut as a structural signal, proof-gated mutations, edge cognition, neural meshes, even chip architectures. Most of it landed in my repos before the industry started talking about any of it seriously — and all of it is dated, signed, and tied to a public commit you can click.
 
-Publicly before most other had even thought about Agents or Swarms.. 
+The numbers are the receipts: **34M+ npm downloads a year**, **778k+ crate downloads**, the top repo ([RuView](https://github.com/ruvnet/RuView)) past **73,000 stars** with hundreds of thousands of clones a week, thousands of commits a month — one connected stack where every new project builds on the last. A chain of creation, not a pile of one-offs.
 
-Since 2021 I have been pushing ideas into the open as fast as I can think of them. Swarm orchestration, agentic memory, self learning vector databases, GNN layers inside the data store, dynamic mincut as a structural signal, proof gated mutations, edge cognition, neural meshes, chip architectures. 
+Patent lawyers have a fairly comical reaction to it. First confusion, then the realization that the prior-art surface area is enormous, and uniquely concentrated on agentic AI. Like it or not, anyone filing an agentic patent eventually has to reckon with this body of work.
 
-Many of these ideas appeared in my repos years before the industry began talking about them seriously. 
+Does that bother people? Sometimes. Am I a fraud? The code is there, the users are there — and ultimately that is all that matters to me.
 
-Patent lawyers have an almost comical reaction when they look at the repo graph. 
-
-Millions of downloads every month. Every country. Thousands of monthly commits. Thousands of libraries connected to the same central conceptual stack. Every new project integrates the previous creating a chain of creation. 
-
-The typical patent lawyer’s first reaction is utter confusion. Their second is realization that the prior art surface area is enormous. Bigger than most F500 combined. Uniquely focused on Agentic Ai.  
-
-Like it or not, anyone filling an agentic patent has to deal with me. 
-
-Which seems to upsetting a lot folks. Am I fraud? Well, the code is there, the users and ultimately that’s all that matters to me.
-
-I sometimes joke Edison filed a thousand patents across his entire career. I tend to drop the equivalent of that volume in a weekend. Just because I could.
-
-Not because I am trying to patent everything. The opposite. The strategy is simple. Publish first. Free for all. 
+I joke that Edison filed a thousand patents across his whole career; I tend to drop that kind of volume in a weekend. Not because I want to patent everything — the opposite. The strategy is simple: **publish first, free for all.**
 
 Long live ❤️ Open Source.
+
+📜 *The receipts:* [org-wide prior-art dossier](https://gist.github.com/ruvnet/67c255a099984c94190c57ab08e7ad35) · [packages & libraries index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)
 
 --
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
@@ -41,7 +31,7 @@ Long live ❤️ Open Source.
 
 ### By the numbers
 
-**296** public repositories · **636** published packages (**322** Rust crates · 778k+ crate downloads · **284** npm · **34M+** npm downloads/yr · **8** PyPI · **22** Hugging Face models/spaces) · spanning **March 2023 → today**. Each project integrates the previous, so the catalog is a single connected chain rather than a pile of one-offs. Everything below is grouped, dated, and tied to a public commit or registry artifact you can click and verify.
+**297** public repositories · **636** published packages (**322** Rust crates · 778k+ crate downloads · **284** npm · **34M+** npm downloads/yr · **8** PyPI · **22** Hugging Face models/spaces) · spanning **March 2023 → today**. Each project integrates the previous, so the catalog is a single connected chain rather than a pile of one-offs. Everything below is grouped, dated, and tied to a public commit or registry artifact you can click and verify.
 
 
 # 📜 Prior-Art Dossier (commit-proof, dated)
@@ -67,7 +57,6 @@ The current core stack — each row shows the **genesis commit** (first public a
 
 | Project | What it is | Born | ★ (live) | Genesis commit |
 | --- | --- | --- | --- | --- |
-| [RuView](https://github.com/ruvnet/RuView) | Camera-free spatial intelligence, vital-signs & presence from commodity WiFi CSI | 2025-06-07 | ![stars](https://img.shields.io/github/stars/ruvnet/RuView?style=flat&label=%E2%98%85&color=gold) | [`6cab2309`](https://github.com/ruvnet/RuView/commit/6cab2309) |
 | [ruflo](https://github.com/ruvnet/ruflo) | Leading agent meta-harness for Claude — multi-agent swarms, self-learning memory | 2025-06-02 | ![stars](https://img.shields.io/github/stars/ruvnet/ruflo?style=flat&label=%E2%98%85&color=gold) | [`7c1f9402`](https://github.com/ruvnet/ruflo/commit/7c1f9402) |
 | [RuVector](https://github.com/ruvnet/RuVector) | High-performance real-time self-learning vector + GNN memory DB in Rust | 2025-11-19 | ![stars](https://img.shields.io/github/stars/ruvnet/RuVector?style=flat&label=%E2%98%85&color=gold) | [`ea3e70aa`](https://github.com/ruvnet/RuVector/commit/ea3e70aa) |
 | [agentic-flow](https://github.com/ruvnet/agentic-flow) | Easily switch between alternative low-cost AI models in Claude Code/Ag | 2024-09-02 | ![stars](https://img.shields.io/github/stars/ruvnet/agentic-flow?style=flat&label=%E2%98%85&color=gold) | [`4db75395`](https://github.com/ruvnet/agentic-flow/commit/4db75395) |
@@ -98,6 +87,7 @@ The newest work, much of it shipped as crate/npm **families** rather than standa
 
 | Project | Since | What it is | Links |
 | --- | --- | --- | --- |
+| **agent-harness-generator** | 2026-06-13 | Meta-harness *generator*: scaffold your own branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases (Claude Code, Codex, pi.dev, Hermes, RVM) | [repo](https://github.com/ruvnet/agent-harness-generator) |
 | **emergent-time** | 2026-06-13 | Calculus of emergent/relational time as an agent runtime primitive (Agentic Time Index) | [crate](https://crates.io/crates/emergent-time) · [npm](https://www.npmjs.com/package/@ruvector/emergent-time) |
 | **rvCSI** | 2026-05-13 | Composable WiFi CSI sensing: DSP stages, presence/motion events, Nexmon adapter, RuVector RF embeddings | [crate](https://crates.io/crates/rvcsi-core) · [repo](https://github.com/ruvnet/rvcsi) |
 | **RuVix Cognition Kernel** | 2026-03-14 | seL4-inspired `no_std` cognition microkernel: capabilities, coherence-aware scheduler, RVF boot, multi-SoC HAL | [crate](https://crates.io/crates/ruvix-nucleus) |
@@ -115,9 +105,9 @@ The newest work, much of it shipped as crate/npm **families** rather than standa
 
 # 🗂️ Complete Prior-Art Index — every public repository (dated + starred)
 
-All 247 owned non-fork repositories with a public genesis commit, each tied to its first commit. This is the full, verifiable provenance base — including older and smaller experiments missing from the curated lists above. Stars as of 2026-06-13; genesis date = author date of the repository's first commit (an upper bound on first appearance).
+All 248 owned non-fork repositories with a public genesis commit, each tied to its first commit. This is the full, verifiable provenance base — including older and smaller experiments missing from the curated lists above. Stars as of 2026-06-13; genesis date = author date of the repository's first commit (an upper bound on first appearance).
 
-<details><summary><b>Expand the full 247-repository prior-art index</b></summary>
+<details><summary><b>Expand the full 248-repository prior-art index</b></summary>
 
 | Project | Born | ★ | Genesis commit |
 | --- | --- | --- | --- |
@@ -207,6 +197,7 @@ All 247 owned non-fork repositories with a public genesis commit, each tied to i
 | [onnx-agent](https://github.com/ruvnet/onnx-agent) | 2025-02-23 | 22 | [`500e4655`](https://github.com/ruvnet/onnx-agent/commit/500e4655) |
 | [vcbot](https://github.com/ruvnet/vcbot) | 2023-03-20 | 21 | [`8d0eb88d`](https://github.com/ruvnet/vcbot/commit/8d0eb88d) |
 | [fireflies-webook](https://github.com/ruvnet/fireflies-webook) | 2024-10-11 | 21 | [`37807cee`](https://github.com/ruvnet/fireflies-webook/commit/37807cee) |
+| [agent-harness-generator](https://github.com/ruvnet/agent-harness-generator) | 2026-06-13 | 21 | [`bbc5ce50`](https://github.com/ruvnet/agent-harness-generator/commit/bbc5ce50) |
 | [ruv.io](https://github.com/ruvnet/ruv.io) | 2025-11-13 | 20 | [`e79a45e4`](https://github.com/ruvnet/ruv.io/commit/e79a45e4) |
 | [powerprompt](https://github.com/ruvnet/powerprompt) | 2023-02-13 | 19 | [`b0e8dfa5`](https://github.com/ruvnet/powerprompt/commit/b0e8dfa5) |
 | [textclassifier](https://github.com/ruvnet/textclassifier) | 2023-03-19 | 19 | [`487b6fc3`](https://github.com/ruvnet/textclassifier/commit/487b6fc3) |
