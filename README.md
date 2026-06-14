@@ -92,6 +92,27 @@ The current core stack — each row shows the **genesis commit** (first public a
 | [VIVIAN](https://github.com/ruvnet/VIVIAN) | Vector Index Virtual Infrastructure for Autonomous Networks | 2023-03-31 | ![stars](https://img.shields.io/github/stars/ruvnet/VIVIAN?style=flat&label=%E2%98%85&color=gold) | [`e8dc86d5`](https://github.com/ruvnet/VIVIAN/commit/e8dc86d5) |
 | [vibecast](https://github.com/ruvnet/vibecast) | Weekly Vibecast Live coding sessions with rUv. Check branches for each | 2025-05-01 | ![stars](https://img.shields.io/github/stars/ruvnet/vibecast?style=flat&label=%E2%98%85&color=gold) | [`2fdbbc51`](https://github.com/ruvnet/vibecast/commit/2fdbbc51) |
 
+# 🆕 Latest Projects (late 2025 – 2026)
+
+The newest work, much of it shipped as crate/npm **families** rather than standalone repos — so it doesn't show up in a repository list. Full package detail: **[Packages & Libraries Index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)**.
+
+| Project | Since | What it is | Links |
+| --- | --- | --- | --- |
+| **emergent-time** | 2026-06-13 | Calculus of emergent/relational time as an agent runtime primitive (Agentic Time Index) | [crate](https://crates.io/crates/emergent-time) · [npm](https://www.npmjs.com/package/@ruvector/emergent-time) |
+| **rvCSI** | 2026-05-13 | Composable WiFi CSI sensing: DSP stages, presence/motion events, Nexmon adapter, RuVector RF embeddings | [crate](https://crates.io/crates/rvcsi-core) · [repo](https://github.com/ruvnet/rvcsi) |
+| **RuVix Cognition Kernel** | 2026-03-14 | seL4-inspired `no_std` cognition microkernel: capabilities, coherence-aware scheduler, RVF boot, multi-SoC HAL | [crate](https://crates.io/crates/ruvix-nucleus) |
+| **ruv-neural** | 2026-03-09 | Edge neural toolkit (11 crates): decoder, embed, ESP32, graph, memory, mincut, sensor, signal, viz | [crate](https://crates.io/crates/ruv-neural-core) · [repo](https://github.com/ruvnet/ruv-neural) |
+| **WiFi-DensePose crate suite** | 2026-03-01 | RuView's 21-crate pipeline: signal→NN→worldgraph, geo, vitals, mass-casualty, per-room calibration | [crate](https://crates.io/crates/wifi-densepose-core) · [model](https://huggingface.co/ruvnet/wifi-densepose-pretrained) |
+| **RuvLTRA (model routing)** | 2026-01-20 | 3-tier model router, 100% routing accuracy; published models on Hugging Face | [model](https://huggingface.co/ruv/ruvltra) · [claude-code variant](https://huggingface.co/ruv/ruvltra-claude-code) |
+| **Cognitum** | 2026-01-17 | Edge cognition device: 256-tile coherence-gate WASM kernel, anytime-valid arbiter, Home-Assistant/Matter cogs | [crate](https://crates.io/crates/cognitum-rs) |
+| **RuQu** | 2026-01-17 | Pure-Rust quantum circuit simulator + neural error decoder, VQE/QAOA, quantum-classical hybrids | [crate](https://crates.io/crates/ruqu) |
+| **7sense** | 2026-01-16 | Bioacoustic analysis bounded contexts: audio, embedding, GNN learning, LLM interpretation | [crate](https://crates.io/crates/sevensense-core) |
+| **RuvLLM** | 2025-12-12 | LLM serving runtime with RuVector integration, ESP32 tiny inference, subquadratic sparse attention | [crate](https://crates.io/crates/ruvllm) |
+| **EXO-AI** | 2025-12-02 | Cognitive substrate: SIREN manifold, hypergraph, temporal causal memory, post-quantum federation | [crate](https://crates.io/crates/exo-core) |
+| **Neural Trader** | 2025-11-13 | Neural trading stack (16 crates): LSTM/conformal prediction, backtesting, portfolio, execution | [crate](https://crates.io/crates/nt-core) · [repo](https://github.com/ruvnet/neural-trader) |
+| **AIMDS** | 2025-10-27 | AI Manipulation Defense System: fast-path detection, deep behavioral analysis, adaptive meta-learning response | [crate](https://crates.io/crates/aimds-core) |
+| **Lean-Agentic** | 2025-10-25 | Hash-consed dependency RAG gateway with multi-lane cost routing and verification | [crate](https://crates.io/crates/lean-agentic) |
+
 # 🗂️ Complete Prior-Art Index — every public repository (dated + starred)
 
 All 247 owned non-fork repositories with a public genesis commit, each tied to its first commit. This is the full, verifiable provenance base — including older and smaller experiments missing from the curated lists above. Stars as of 2026-06-13; genesis date = author date of the repository's first commit (an upper bound on first appearance).
