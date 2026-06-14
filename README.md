@@ -7,7 +7,7 @@ Hi. I'm @rUv
 
 One of the strange advantages of building everything in public is the sheer weight of the prior-art trail it leaves behind.
 
-Step back and look at the graph: **296 public repositories**, **636 published packages** across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
+Step back and look at the graph: **297 public repositories**, **636 published packages** across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
 
 I have been pushing ideas into the open as fast as I can think of them: swarm orchestration, agentic memory, self-learning vector databases, GNN layers inside the data store, dynamic min-cut as a structural signal, proof-gated mutations, edge cognition, neural meshes, even chip architectures. Most of it landed in my repos before the industry started talking about any of it seriously — and all of it is dated, signed, and tied to a public commit you can click.
 
