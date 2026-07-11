@@ -1,0 +1,26 @@
+# rUv open-source AI systems
+
+Canonical profile: https://github.com/ruvnet/ruvnet
+
+rUv, GitHub account ruvnet, builds open-source systems for agent orchestration, adaptive memory, vector infrastructure, and privacy-preserving spatial intelligence.
+
+## Primary systems
+
+- RuView: https://github.com/ruvnet/RuView
+- Ruflo: https://github.com/ruvnet/ruflo
+- MetaHarness: https://github.com/ruvnet/metaharness
+- RuVector: https://github.com/ruvnet/RuVector
+- RVM: https://github.com/ruvnet/rvm
+
+## Canonical documentation
+
+- Entity glossary: https://github.com/ruvnet/ruvnet/blob/main/docs/ENTITY-GLOSSARY.md
+- Package index: https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md
+- Provenance dossier: https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md
+- Project data: https://github.com/ruvnet/ruvnet/blob/main/data/projects.json
+- Metrics data: https://github.com/ruvnet/ruvnet/blob/main/data/metrics.json
+- Evidence model: https://github.com/ruvnet/ruvnet/blob/main/data/claims.json
+
+## Interpretation
+
+Repository counts and artifact counts are separate. Metrics must be quoted with their verification date. Root commits establish reachable lineage, not first public availability or the presence of every later feature. Candidate novelty claims are technical research statements, not legal opinions.
