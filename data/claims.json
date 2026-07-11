@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-07-11",
+  "scope": "Technical provenance index, not a patentability, inventorship, freedom-to-operate, or legal prior-art opinion.",
+  "evidence_model": [
+    {
+      "layer": "lineage",
+      "preferred_evidence": [
+        "root commit",
+        "commit graph"
+      ]
+    },
+    {
+      "layer": "public availability",
+      "preferred_evidence": [
+        "repository created_at",
+        "release timestamp",
+        "registry timestamp",
+        "independent archive"
+      ]
+    },
+    {
+      "layer": "feature presence",
+      "preferred_evidence": [
+        "feature commit",
+        "test",
+        "release artifact"
+      ]
+    },
+    {
+      "layer": "adoption",
+      "preferred_evidence": [
+        "dated stars",
+        "downloads",
+        "clones"
+      ]
+    },
+    {
+      "layer": "novelty",
+      "preferred_evidence": [
+        "scoped predicate",
+        "dated related-work search"
+      ]
+    }
+  ],
+  "rules": [
+    "Git author dates are self-asserted lineage metadata.",
+    "Imported history can predate repository creation.",
+    "A root commit does not prove later feature presence.",
+    "Candidate claims must retain their complete combined predicate and confidence level."
+  ],
+  "canonical_dossier": "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md"
+}
