@@ -4,7 +4,7 @@ Author: ruvnet (Reuven Cohen) · Initial snapshot 2026-06-13 · Live reconciliat
 
 **At least 751 published artifacts across four public registries** — **360** Rust crates (1,035,139 cumulative downloads), **361** npm packages maintained by `ruvnet`, **8** ownership-verified PyPI libraries, and **22** Hugging Face models and spaces across the `ruvnet` and `ruv` accounts.
 
-This is the **distribution surface** of the work catalogued in the [prior-art dossiers](https://gist.github.com/ruvnet/67c255a099984c94190c57ab08e7ad35). Where a git repository proves *authorship*, a published package proves *reach*: an immutable, timestamped, independently-installable artifact that anyone can pull down and verify. It is the strongest form of public provenance there is.
+This is the **distribution surface** of the work catalogued in the [prior-art dossiers](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md). Where a git repository proves *authorship*, a published package proves *reach*: an immutable, timestamped, independently-installable artifact that anyone can pull down and verify. It is the strongest form of public provenance there is.
 
 The June snapshot clustered 636 artifacts into 28 project families. The July reconciliation adds the MetaHarness, Helix, PhotonLayer, AgenticOW, AgentBBS, RuPixel, WorldGraph, and related distribution surfaces. Most remain sub-projects or target-specific binaries of a parent product, so raw registry counts must not be read as counts of independent products.
 
