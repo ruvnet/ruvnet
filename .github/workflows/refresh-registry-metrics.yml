@@ -1,0 +1,200 @@
+name: Refresh registry metrics
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/refresh-registry-metrics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-registry-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recount crates.io and npm
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+          const fmt = n => new Intl.NumberFormat('en-US').format(n);
+          const iso = d => d.toISOString().slice(0, 10);
+
+          async function fetchJson(url, options = {}, attempts = 5) {
+            let last;
+            for (let i = 0; i < attempts; i++) {
+              try {
+                const response = await fetch(url, {
+                  ...options,
+                  headers: {
+                    'Accept': 'application/json',
+                    'User-Agent': 'ruvnet-profile-registry-audit/1.0 (+https://github.com/ruvnet/ruvnet)',
+                    ...(options.headers || {})
+                  }
+                });
+                if (response.ok) return await response.json();
+                last = new Error(`${response.status} ${response.statusText}: ${url}`);
+                if (response.status !== 429 && response.status < 500) throw last;
+              } catch (error) {
+                last = error;
+              }
+              await sleep(1500 * (i + 1));
+            }
+            throw last;
+          }
+
+          async function npmInventory() {
+            const packages = new Set();
+            let from = 0;
+            let total = Infinity;
+            while (from < total) {
+              const url = `https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=${from}`;
+              const body = await fetchJson(url);
+              total = body.total || 0;
+              for (const item of body.objects || []) {
+                const pkg = item.package;
+                const maintainers = pkg.maintainers || [];
+                if (maintainers.some(m => (m.username || m.name) === 'ruvnet')) packages.add(pkg.name);
+              }
+              if (!(body.objects || []).length) break;
+              from += body.objects.length;
+            }
+            return [...packages].sort();
+          }
+
+          async function npmDownloads(packages, start, end) {
+            let downloads = 0;
+            const missing = [];
+            const batchSize = 50;
+            for (let i = 0; i < packages.length; i += batchSize) {
+              const batch = packages.slice(i, i + batchSize);
+              const names = batch.map(encodeURIComponent).join(',');
+              const url = `https://api.npmjs.org/downloads/point/${start}:${end}/${names}`;
+              const body = await fetchJson(url);
+              if (batch.length === 1 && typeof body.downloads === 'number') {
+                downloads += body.downloads;
+              } else {
+                for (const name of batch) {
+                  const row = body[name];
+                  if (row && typeof row.downloads === 'number') downloads += row.downloads;
+                  else missing.push(name);
+                }
+              }
+              await sleep(250);
+            }
+            return {downloads, missing};
+          }
+
+          async function crateInventory() {
+            const crates = [];
+            let page = 1;
+            while (true) {
+              const url = `https://crates.io/api/v1/crates?page=${page}&per_page=100&user_id=339999`;
+              const body = await fetchJson(url);
+              const rows = body.crates || [];
+              crates.push(...rows);
+              if (rows.length < 100) break;
+              page++;
+              await sleep(1100);
+            }
+            return crates;
+          }
+
+          (async () => {
+            const now = new Date();
+            const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - 1));
+            const startDate = new Date(endDate);
+            startDate.setUTCDate(startDate.getUTCDate() - 364);
+            const start = iso(startDate);
+            const end = iso(endDate);
+
+            const npmPackages = await npmInventory();
+            const npm = await npmDownloads(npmPackages, start, end);
+            const crates = await crateInventory();
+            const crateDownloads = crates.reduce((sum, crate) => sum + Number(crate.downloads || 0), 0);
+
+            if (npm.missing.length) throw new Error(`Missing npm download rows: ${npm.missing.join(', ')}`);
+            if (npmPackages.length < 300) throw new Error(`Unexpectedly low npm package count: ${npmPackages.length}`);
+            if (crates.length < 300) throw new Error(`Unexpectedly low crate count: ${crates.length}`);
+
+            const result = {
+              schema_version: '1.0',
+              generated_at: new Date().toISOString(),
+              npm: {
+                maintainer: 'ruvnet',
+                package_count: npmPackages.length,
+                downloads: npm.downloads,
+                period_start: start,
+                period_end: end,
+                period_days: 365,
+                counting_rule: 'Sum of npm point-download counts for every public package whose metadata lists ruvnet as a maintainer, including scoped and platform packages.'
+              },
+              crates_io: {
+                user_id: 339999,
+                crate_count: crates.length,
+                cumulative_downloads: crateDownloads,
+                counting_rule: 'Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999.'
+              }
+            };
+
+            fs.mkdirSync('data', {recursive: true});
+            fs.writeFileSync('data/registry-stats.json', JSON.stringify(result, null, 2) + '\n');
+
+            const metricsPath = 'data/metrics.json';
+            const metrics = JSON.parse(fs.readFileSync(metricsPath, 'utf8'));
+            metrics.verified_at = result.generated_at;
+            metrics.counts.rust_crates = crates.length;
+            metrics.counts.npm_packages = npmPackages.length;
+            metrics.counts.rust_crate_downloads_cumulative = crateDownloads;
+            metrics.current_windows = {
+              npm_downloads_rolling_365_days: npm.downloads,
+              npm_period_start: start,
+              npm_period_end: end
+            };
+            fs.writeFileSync(metricsPath, JSON.stringify(metrics, null, 2) + '\n');
+
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+            readme = readme.replace(
+              /\| Cumulative Rust crate downloads \| [^\n]+/,
+              `| Cumulative Rust crate downloads (verified ${iso(now)}) | ${fmt(crateDownloads)} |`
+            );
+            readme = readme.replace(
+              /\| npm rolling annual downloads \| [^\n]+/,
+              `| npm downloads, rolling 365 days (${start}–${end}) | ${fmt(npm.downloads)} |`
+            );
+            readme = readme.replaceAll('1,035,139 cumulative crate downloads', `${fmt(crateDownloads)} cumulative crate downloads`);
+            readme = readme.replaceAll('1,035,139 crate downloads', `${fmt(crateDownloads)} crate downloads`);
+            fs.writeFileSync(readmePath, readme);
+
+            const packageDoc = 'docs/ruvnet-packages.md';
+            let doc = fs.readFileSync(packageDoc, 'utf8');
+            doc = doc.replaceAll('1,035,139', fmt(crateDownloads));
+            fs.writeFileSync(packageDoc, doc);
+
+            console.log(JSON.stringify(result, null, 2));
+          })().catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+      - name: Commit refreshed metrics
+        shell: bash
+        run: |
+          if git diff --quiet && [ -f data/registry-stats.json ]; then
+            echo "No metric changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/ruvnet-packages.md data/metrics.json data/registry-stats.json
+          git commit -m "refresh npm and crates.io download metrics"
+          git push
