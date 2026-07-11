@@ -21,7 +21,7 @@ I joke that Edison filed a thousand patents across his whole career; I tend to d
 
 Long live ❤️ Open Source.
 
-📜 *The receipts:* [org-wide prior-art dossier](https://gist.github.com/ruvnet/67c255a099984c94190c57ab08e7ad35) · [packages & libraries index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)
+📜 *The receipts:* [account-wide provenance dossier](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md) · [packages & libraries index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)
 
 --
 ## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
@@ -77,7 +77,7 @@ Each project integrates the previous, so the catalog is a connected chain rather
 Because the whole point of building in public is the **provenance**. These dossiers tie every system to the *genesis commit* that first introduced it — hash, author date, and a clickable link — alongside scoped first-of-kind claims with named external prior art.
 
 **Org & systems provenance**
-- **[ruvnet org-wide prior-art dossier](https://gist.github.com/ruvnet/67c255a099984c94190c57ab08e7ad35)** — June 13, 2026 historical snapshot of 248 repositories tied to genesis commits, plus 47 detailed entries and 23 scoped global-first candidate claims. GitHub currently exposes 197 public repositories; the difference includes repositories since archived, renamed, made private, or removed.
+- **[ruvnet account-wide provenance dossier](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md)** — June 13, 2026 historical snapshot of 248 repositories tied to genesis commits, plus 47 detailed entries and 23 scoped global-first candidate claims. GitHub currently exposes 197 public repositories; the difference includes repositories since archived, renamed, made private, or removed.
 - **[RuVector internal-systems dossier](https://gist.github.com/ruvnet/86d6968783ff1629e7481d9c92d0bed8)** — per-crate provenance for the RuVector self-learning vector DB (RVF, RVM, SONA, emergent-time, witness chain).
 
 **Claude-Flow / Ruflo — the harness**
@@ -85,7 +85,7 @@ Because the whole point of building in public is the **provenance**. These dossi
 - **[Prior-Art Dossier — Academic Edition](https://gist.github.com/ruvnet/1a88c9fc7b7eaa99b4ea2f0dd0891c49)** — the 31 firsts sorted into invention / implementation / engineering / integration, with dated industry-comparison tables and calibrated first-claim language.
 
 **Distribution surface**
-- **[Packages & Libraries Index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The July 11 live recount is **360 crates**, **1,035,139 crate downloads**, and **361 npm packages**; the PyPI and Hugging Face counts remain pending a separate owner-level recount. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
+- **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The July 11 live recount is **360 crates**, **1,035,139 crate downloads**, and **361 npm packages**; the PyPI and Hugging Face counts remain pending a separate owner-level recount. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
 
 *Provenance is fact (click any commit or package); novelty claims are scoped, dated, and listed with prior art so they can be checked or refuted.*
 
@@ -123,7 +123,7 @@ The current core stack — each row shows the **genesis commit** (first public a
 
 # 🆕 Latest Projects (late 2025 – 2026)
 
-The newest work, much of it shipped as crate/npm **families** rather than standalone repos — so it doesn't show up in a repository list. Full package detail: **[Packages & Libraries Index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)**.
+The newest work, much of it shipped as crate/npm **families** rather than standalone repos — so it doesn't show up in a repository list. Full package detail: **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)**.
 
 | Project | Since | What it is | Links |
 | --- | --- | --- | --- |
