@@ -7,11 +7,11 @@ Hi. I'm @rUv
 
 One of the strange advantages of building everything in public is the sheer weight of the prior-art trail it leaves behind.
 
-Step back and look at the graph: **297 public repositories**, **636 published packages** across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
+Step back and look at the graph: **197 public repositories**, **636 published packages indexed in the June 2026 registry snapshot** across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
 
 I have been pushing ideas into the open as fast as I can think of them: swarm orchestration, agentic memory, self-learning vector databases, GNN layers inside the data store, dynamic min-cut as a structural signal, proof-gated mutations, edge cognition, neural meshes, even chip architectures. Most of it landed in my repos before the industry started talking about any of it seriously — and all of it is dated, signed, and tied to a public commit you can click.
 
-The numbers are the receipts: **34M+ npm downloads a year**, **778k+ crate downloads**, the top repo ([RuView](https://github.com/ruvnet/RuView)) past **73,000 stars** with hundreds of thousands of clones a week, thousands of commits a month — one connected stack where every new project builds on the last. A chain of creation, not a pile of one-offs.
+The numbers are the receipts: **34M+ npm downloads a year** and **778k+ crate downloads** in the June 2026 registry snapshot; **10.2k GitHub followers**; [RuView](https://github.com/ruvnet/RuView) at **80.1k stars**, [ruflo](https://github.com/ruvnet/ruflo) at **64k**, and [RuVector](https://github.com/ruvnet/RuVector) at **4.3k** with hundreds of thousands of clones a week, thousands of commits a month — one connected stack where every new project builds on the last. A chain of creation, not a pile of one-offs.
 
 Patent lawyers have a fairly comical reaction to it. First confusion, then the realization that the prior-art surface area is enormous, and uniquely concentrated on agentic AI. Like it or not, anyone filing an agentic patent eventually has to reckon with this body of work.
 
@@ -31,7 +31,7 @@ Long live ❤️ Open Source.
 
 ### By the numbers
 
-**297** public repositories · **636** published packages (**322** Rust crates · 778k+ crate downloads · **284** npm · **34M+** npm downloads/yr · **8** PyPI · **22** Hugging Face models/spaces) · spanning **March 2023 → today**. Each project integrates the previous, so the catalog is a single connected chain rather than a pile of one-offs. Everything below is grouped, dated, and tied to a public commit or registry artifact you can click and verify.
+**197** public repositories · **10.2k** followers · **80.1k** RuView stars · **64k** ruflo stars · **4.3k** RuVector stars · **636** published packages in the June 2026 registry snapshot (**322** Rust crates · 778k+ crate downloads · **284** npm · **34M+** npm downloads/yr · **8** PyPI · **22** Hugging Face models/spaces) · spanning **March 2023 → today**. Each project integrates the previous, so the catalog is a single connected chain rather than a pile of one-offs. Everything below is grouped, dated, and tied to a public commit or registry artifact you can click and verify.
 
 
 # 📜 Prior-Art Dossier (commit-proof, dated)
@@ -105,7 +105,7 @@ The newest work, much of it shipped as crate/npm **families** rather than standa
 
 # 🗂️ Complete Prior-Art Index — every public repository (dated + starred)
 
-All 248 owned non-fork repositories with a public genesis commit, each tied to its first commit. This is the full, verifiable provenance base — including older and smaller experiments missing from the curated lists above. Stars as of 2026-06-13; genesis date = author date of the repository's first commit (an upper bound on first appearance).
+Historical June 13, 2026 snapshot of 248 owned non-fork repositories with a public genesis commit, each tied to its first commit. Some entries may since have been archived, renamed, made private, or removed; GitHub currently shows 197 public repositories. This is the dated provenance base — including older and smaller experiments missing from the curated lists above. Stars in this historical table are as of 2026-06-13; genesis date = author date of the repository's first commit (an upper bound on first appearance).
 
 <details><summary><b>Expand the full 248-repository prior-art index</b></summary>
 
