@@ -7,11 +7,11 @@ Hi. I'm @rUv
 
 One of the strange advantages of building everything in public is the sheer weight of the prior-art trail it leaves behind.
 
-Step back and look at the graph: **197 public repositories**, **636 published packages indexed in the June 2026 registry snapshot** across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
+Step back and look at the graph: **197 public repositories** and **at least 751 published artifacts**, verified July 11, 2026 across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
 
 I have been pushing ideas into the open as fast as I can think of them: swarm orchestration, agentic memory, self-learning vector databases, GNN layers inside the data store, dynamic min-cut as a structural signal, proof-gated mutations, edge cognition, neural meshes, even chip architectures. Most of it landed in my repos before the industry started talking about any of it seriously — and all of it is dated, signed, and tied to a public commit you can click.
 
-The numbers are the receipts: **34M+ npm downloads a year** and **778k+ crate downloads** in the June 2026 registry snapshot; **10.2k GitHub followers**; [RuView](https://github.com/ruvnet/RuView) at **80.1k stars**, [ruflo](https://github.com/ruvnet/ruflo) at **64k**, and [RuVector](https://github.com/ruvnet/RuVector) at **4.3k** with hundreds of thousands of clones a week, thousands of commits a month — one connected stack where every new project builds on the last. A chain of creation, not a pile of one-offs.
+The numbers are the receipts: **1,035,139 cumulative crate downloads** as of July 11 and **34M+ npm downloads/year** in the June rolling snapshot; **10.2k GitHub followers**; [RuView](https://github.com/ruvnet/RuView) at **80.1k stars**, [ruflo](https://github.com/ruvnet/ruflo) at **64k**, and [RuVector](https://github.com/ruvnet/RuVector) at **4.3k** with hundreds of thousands of clones a week, thousands of commits a month — one connected stack where every new project builds on the last. A chain of creation, not a pile of one-offs.
 
 Patent lawyers have a fairly comical reaction to it. First confusion, then the realization that the prior-art surface area is enormous, and uniquely concentrated on agentic AI. Like it or not, anyone filing an agentic patent eventually has to reckon with this body of work.
 
@@ -74,10 +74,10 @@ Each project integrates the previous, so the catalog is a connected chain rather
 
 # 📜 Prior-Art Dossier (commit-proof, dated)
 
-Because the whole point of building in public is the **provenance**. These dossiers tie every system to the *genesis commit* that first introduced it — hash, author date, and a clickable link — alongside scoped first-of-kind claims with named external prior art.
+Because the whole point of building in public is the **provenance**. These dossiers tie systems to their earliest reachable root commits as repository-lineage anchors, alongside GitHub creation metadata, registry timestamps, scoped candidate claims, and named related work. Git author dates do not by themselves prove when a repository became public or when a later feature first appeared.
 
 **Org & systems provenance**
-- **[ruvnet account-wide provenance dossier](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md)** — June 13, 2026 historical snapshot of 248 repositories tied to genesis commits, plus 47 detailed entries and 23 scoped global-first candidate claims. GitHub currently exposes 197 public repositories; the difference includes repositories since archived, renamed, made private, or removed.
+- **[ruvnet account-wide provenance dossier](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md)** — June 13, 2026 historical authenticated snapshot of 247 repository rows, plus detailed entries and scoped global-first candidate claims. The July reconciliation separates the current 197 public repositories, owned sources, forks, imported history, and feature-level evidence requirements. GitHub currently exposes 197 public repositories; the difference includes repositories since archived, renamed, made private, or removed.
 - **[RuVector internal-systems dossier](https://gist.github.com/ruvnet/86d6968783ff1629e7481d9c92d0bed8)** — per-crate provenance for the RuVector self-learning vector DB (RVF, RVM, SONA, emergent-time, witness chain).
 
 **Claude-Flow / Ruflo — the harness**
@@ -85,13 +85,13 @@ Because the whole point of building in public is the **provenance**. These dossi
 - **[Prior-Art Dossier — Academic Edition](https://gist.github.com/ruvnet/1a88c9fc7b7eaa99b4ea2f0dd0891c49)** — the 31 firsts sorted into invention / implementation / engineering / integration, with dated industry-comparison tables and calibrated first-claim language.
 
 **Distribution surface**
-- **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The July 11 live recount is **360 crates**, **1,035,139 crate downloads**, and **361 npm packages**; the PyPI and Hugging Face counts remain pending a separate owner-level recount. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
+- **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The July 11 live recount is **360 crates**, **1,035,139 crate downloads**, and **361 npm packages**; PyPI remains ownership-verified at 8 packages and Hugging Face remains verified at 22 artifacts across the `ruvnet` and `ruv` accounts. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
 
-*Provenance is fact (click any commit or package); novelty claims are scoped, dated, and listed with prior art so they can be checked or refuted.*
+*Repository lineage, public availability, feature evidence, adoption metrics, and novelty are separate evidentiary layers. Novelty statements remain scoped candidate claims until supported by feature commits, tests, release timestamps, and a dated prior-art search.*
 
 # 🚩 Flagship Systems (2024–2026)
 
-The current core stack — each row shows the **genesis commit** (first public appearance, with date) and a **live star badge** (auto-updates via shields.io). Newer and larger than most of the catalog below, these were missing from the historical lists. *(Row order reflects stars at last edit; the badges themselves stay current.)*
+The current core stack. Each row shows the **earliest reachable root commit** as a lineage anchor and a **live star badge**. A root commit is not by itself proof of the repository's first public date or of every current feature. Newer and larger than most of the catalog below, these were missing from the historical lists. *(Row order reflects stars at last edit; the badges themselves stay current.)*
 
 | Project | What it is | Born | ★ (live) | Genesis commit |
 | --- | --- | --- | --- | --- |
