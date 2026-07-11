@@ -1,76 +1,60 @@
-![Alt Hi. I'm @rUv](https://github.com/ruvnet/ruvnet/blob/main/assets/pp.png?raw=true)
+![rUv](https://github.com/ruvnet/ruvnet/blob/main/assets/pp.png?raw=true)
 
-Hi. I'm @rUv
+# rUv · Open-source AI systems
 
-# Why I started this GitHub Repository. 
+**rUv** (GitHub: [`ruvnet`](https://github.com/ruvnet)) is an open-source AI systems builder focused on agent orchestration, adaptive memory, vector infrastructure, and privacy-preserving spatial intelligence. The core ecosystem is [RuView](https://github.com/ruvnet/RuView), [Ruflo](https://github.com/ruvnet/ruflo), [MetaHarness](https://github.com/ruvnet/metaharness), and [RuVector](https://github.com/ruvnet/RuVector), built across Rust, TypeScript, WebAssembly, and MCP.
 
+> **Verified July 11, 2026:** 197 public repositories plus at least 751 registry and Hugging Face artifacts: 360 Rust crates, 361 npm packages, 8 PyPI packages, and 22 Hugging Face models and spaces. These are separate counts; repositories are not included in the 751-artifact total.
 
-One of the strange advantages of building everything in public is the sheer weight of the prior-art trail it leaves behind.
+[Explore the stack](#how-the-stack-fits-together) · [Flagship systems](#-flagship-systems-20242026) · [Project glossary](docs/ENTITY-GLOSSARY.md) · [Package index](docs/ruvnet-packages.md) · [Provenance dossier](docs/ruvnet-prior-art.md) · [Citation](CITATION.cff)
 
-Step back and look at the graph: **197 public repositories** and **at least 751 published artifacts**, verified July 11, 2026 across crates.io, npm, PyPI, and Hugging Face — millions of lines deep. An archive of experiments, many of which became "a thing" years after I shipped them. Some polished, some rough, some half-baked but functional. What matters is that they exist, they ran, they were published — and they were public before most people had even said the words *agent* or *swarm*.
+## What this ecosystem builds
 
-I have been pushing ideas into the open as fast as I can think of them: swarm orchestration, agentic memory, self-learning vector databases, GNN layers inside the data store, dynamic min-cut as a structural signal, proof-gated mutations, edge cognition, neural meshes, even chip architectures. Most of it landed in my repos before the industry started talking about any of it seriously — and all of it is dated, signed, and tied to a public commit you can click.
+The projects form a connected systems stack rather than a collection of unrelated experiments:
 
-The numbers are the receipts: **1,035,139 cumulative crate downloads** as of July 11 and **34M+ npm downloads/year** in the June rolling snapshot; **10.2k GitHub followers**; [RuView](https://github.com/ruvnet/RuView) at **80.1k stars**, [ruflo](https://github.com/ruvnet/ruflo) at **64k**, and [RuVector](https://github.com/ruvnet/RuVector) at **4.3k** with hundreds of thousands of clones a week, thousands of commits a month — one connected stack where every new project builds on the last. A chain of creation, not a pile of one-offs.
+| Layer | Primary system | Purpose |
+| --- | --- | --- |
+| Spatial intelligence | [RuView](https://github.com/ruvnet/RuView) | Privacy-first WiFi sensing for presence, pose, vitals, and environmental intelligence |
+| Agent orchestration | [Ruflo](https://github.com/ruvnet/ruflo) | Multi-agent coordination, swarms, routing, and self-learning workflows |
+| Harness generation | [MetaHarness](https://github.com/ruvnet/metaharness) | Portable, verifiable agent harness generation and evolution across multiple hosts |
+| Learning memory | [RuVector](https://github.com/ruvnet/RuVector) | Real-time vector, graph, temporal, and adaptive memory infrastructure |
+| Runtime | [RVM](https://github.com/ruvnet/rvm) | Execution infrastructure for agentic systems |
+| Emerging research | [Helix](https://github.com/ruvnet/helix), [RuField](https://github.com/ruvnet/rufield), [PhotonLayer](https://github.com/ruvnet/PhotonLayer), [WorldGraph](https://github.com/ruvnet/worldgraph) | Decision support, sensor fusion, photonic simulation, and world modeling |
 
-Patent lawyers have a fairly comical reaction to it. First confusion, then the realization that the prior-art surface area is enormous, and uniquely concentrated on agentic AI. Like it or not, anyone filing an agentic patent eventually has to reckon with this body of work.
+## How the stack fits together
 
-Does that bother people? Sometimes. Am I a fraud? The code is there, the users are there — and ultimately that is all that matters to me.
+**RuView and RuField perceive. Ruflo coordinates. MetaHarness generates and evolves the harness. RuVector remembers and learns. RVM executes.** Supporting projects explore security, temporal reasoning, embodied systems, simulation, and graph-based world models.
 
-I joke that Edison filed a thousand patents across his whole career; I tend to drop that kind of volume in a weekend. Not because I want to patent everything — the opposite. The strategy is simple: **publish first, free for all.**
+## Verified impact
+
+| Measure | Verified value |
+| --- | ---: |
+| Public GitHub repositories | 197 |
+| Owned public non-fork repositories | 173 |
+| Published registry and Hugging Face artifacts | at least 751 |
+| Cumulative Rust crate downloads | 1,035,139 |
+| npm rolling annual downloads | 34M+ in the June 2026 snapshot |
+| Recent owned source repositories since June 13, 2026 | 15 |
+| Recent public forks, excluded from original-work claims | 5 |
+
+Metrics are volatile and intentionally dated. Exact sources, counting rules, historical snapshots, limitations, and evidence links live in the [package index](docs/ruvnet-packages.md), [provenance dossier](docs/ruvnet-prior-art.md), and [machine-readable metrics](data/metrics.json).
+
+## Start here
+
+- **Use an agent orchestration system:** [Ruflo](https://github.com/ruvnet/ruflo)
+- **Build or evolve a portable agent harness:** [MetaHarness](https://github.com/ruvnet/metaharness)
+- **Add adaptive vector and graph memory:** [RuVector](https://github.com/ruvnet/RuVector)
+- **Explore privacy-first WiFi spatial intelligence:** [RuView](https://github.com/ruvnet/RuView)
+- **Understand names and project relationships:** [Entity glossary](docs/ENTITY-GLOSSARY.md)
+- **Inspect dated technical provenance:** [Account-wide dossier](docs/ruvnet-prior-art.md)
+
+## Open publication philosophy
+
+This account publishes experiments, working systems, package families, and research artifacts in public so that implementations can be inspected, tested, reused, and dated. Repository lineage, first public availability, feature-level evidence, adoption, and novelty are treated as separate claims. Root commits are lineage anchors, not proof that every later feature existed at the root date.
 
 Long live ❤️ Open Source.
 
-📜 *The receipts:* [account-wide provenance dossier](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md) · [packages & libraries index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)
-
---
-## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
-
-
 ---
-
-### By the numbers
-
-**197** public repositories · **10.2k** followers · **80.1k** RuView stars · **64k** ruflo stars · **4.3k** RuVector stars · **at least 751 published artifacts** (**360** Rust crates · **1,035,139** crate downloads · **361** npm packages · **8** PyPI packages · **22** Hugging Face models/spaces) as verified on **July 11, 2026**. The npm download figure remains the separately measured June 2026 snapshot of **34M+ downloads/year**. Platform specific npm binaries count toward registry totals but are grouped beneath their parent products below.
-
-### July 11, 2026 inventory delta
-
-Using a cutoff of June 13, 2026 at 00:00 UTC, GitHub records **20 public repositories created under the account: 15 owned source repositories and 5 forks**. npm records **98 packages whose latest indexed release is on or after the cutoff**, and crates.io records **55 crates updated on or after the cutoff**.
-
-**15 owned source repositories**
-
-[metaharness](https://github.com/ruvnet/metaharness) · [agenticow](https://github.com/ruvnet/agenticow) · [rupixel](https://github.com/ruvnet/rupixel) · [helix](https://github.com/ruvnet/helix) · [rvFACE](https://github.com/ruvnet/rvFACE) · [rufield](https://github.com/ruvnet/rufield) · [CVE-bench](https://github.com/ruvnet/CVE-bench) · [PhotonLayer](https://github.com/ruvnet/PhotonLayer) · [hackerone](https://github.com/ruvnet/hackerone) · [worldgraph](https://github.com/ruvnet/worldgraph) · [ruv-drone](https://github.com/ruvnet/ruv-drone) · [rvdna](https://github.com/ruvnet/rvdna) · [ruqu](https://github.com/ruvnet/ruqu) · [ruvn](https://github.com/ruvnet/ruvn) · [SonicChamber](https://github.com/ruvnet/SonicChamber)
-
-**5 public forks, excluded from original-work claims**
-
-[AgentBBS](https://github.com/ruvnet/AgentBBS) · [Repo-Explainer](https://github.com/ruvnet/Repo-Explainer) · [retort](https://github.com/ruvnet/retort) · [experiments](https://github.com/ruvnet/experiments) · [unsorry](https://github.com/ruvnet/unsorry)
-
-**Recent npm families**
-
-| Family | Recent registry activity | Representative packages |
-| --- | ---: | --- |
-| MetaHarness | 63 artifacts: 61 scoped packages plus 2 umbrella packages | [metaharness](https://www.npmjs.com/package/metaharness), [@metaharness/darwin](https://www.npmjs.com/package/@metaharness/darwin), [@metaharness/flywheel](https://www.npmjs.com/package/@metaharness/flywheel), [@metaharness/router](https://www.npmjs.com/package/@metaharness/router), [@metaharness/redblue](https://www.npmjs.com/package/@metaharness/redblue), [workspace-lens](https://www.npmjs.com/package/@metaharness/workspace-lens), [workspace-probe](https://www.npmjs.com/package/@metaharness/workspace-probe) |
-| RuVector | 16 packages | [@ruvector/ruvllm](https://www.npmjs.com/package/@ruvector/ruvllm), [@ruvector/rvf](https://www.npmjs.com/package/@ruvector/rvf), [@ruvector/ruqu](https://www.npmjs.com/package/@ruvector/ruqu), [@ruvector/emergent-time](https://www.npmjs.com/package/@ruvector/emergent-time) |
-| Claude Flow and Ruflo | 3 packages | [ruflo](https://www.npmjs.com/package/ruflo), [claude-flow](https://www.npmjs.com/package/claude-flow), [@claude-flow/cli](https://www.npmjs.com/package/@claude-flow/cli) |
-| Independent tools | 18 packages | [agentbbs](https://www.npmjs.com/package/agentbbs), [agenticow](https://www.npmjs.com/package/agenticow), [rupixel](https://www.npmjs.com/package/rupixel), [ruvdrone](https://www.npmjs.com/package/ruvdrone), [worldgraphs](https://www.npmjs.com/package/worldgraphs), [@ruvnet/rvagent](https://www.npmjs.com/package/@ruvnet/rvagent) |
-
-MetaHarness includes the kernel, SDK, verticals, examples, and nine host adapters for Claude Code, Codex, Copilot, GitHub Actions, Hermes, OpenClaw, OpenCode, pi.dev, and RVM.
-
-**Recent Rust crate families**
-
-| Family | Recent crates |
-| --- | ---: |
-| Helix | 28 |
-| RuVector core, graph, search, proof, clustering, replication, and TimesFM | 22 |
-| RuvLLM | 2 |
-| PhotonLayer | 1 |
-| Emergent Time | 1 |
-| TimesFM standalone | 1 |
-
-The full recent crate set includes `helix-*`, `ruvector-spann`, `ruvector-capgated`, `ruvector-pq-search`, `ruvector-matryoshka`, `ruvector-lsm-ann`, `ruvector-proof-gate`, `ruvector-gnn-rerank`, `ruvector-timesfm`, `ruvllm`, `ruvllm-cli`, `photonlayer-core`, `emergent-time`, and `timesfm`.
-
-Each project integrates the previous, so the catalog is a connected chain rather than a pile of one offs. Everything below is grouped, dated, and tied to a public commit or registry artifact.
-
 
 # 📜 Prior-Art Dossier (commit-proof, dated)
 
