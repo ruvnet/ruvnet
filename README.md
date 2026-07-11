@@ -31,7 +31,41 @@ Long live ❤️ Open Source.
 
 ### By the numbers
 
-**197** public repositories · **10.2k** followers · **80.1k** RuView stars · **64k** ruflo stars · **4.3k** RuVector stars · **636** published packages in the June 2026 registry snapshot (**322** Rust crates · 778k+ crate downloads · **284** npm · **34M+** npm downloads/yr · **8** PyPI · **22** Hugging Face models/spaces) · spanning **March 2023 → today**. Each project integrates the previous, so the catalog is a single connected chain rather than a pile of one-offs. Everything below is grouped, dated, and tied to a public commit or registry artifact you can click and verify.
+**197** public repositories · **10.2k** followers · **80.1k** RuView stars · **64k** ruflo stars · **4.3k** RuVector stars · **at least 751 published artifacts** (**360** Rust crates · **1,035,139** crate downloads · **361** npm packages · **8** PyPI packages · **22** Hugging Face models/spaces) as verified on **July 11, 2026**. The npm download figure remains the separately measured June 2026 snapshot of **34M+ downloads/year**. Platform specific npm binaries count toward registry totals but are grouped beneath their parent products below.
+
+### July 11, 2026 inventory delta
+
+Since the June 13 provenance snapshot, GitHub records **20 newly created public repositories**, npm records **98 packages published or updated**, and crates.io records **55 crates published or updated**.
+
+**New public repositories**
+
+[metaharness](https://github.com/ruvnet/metaharness) · [agenticow](https://github.com/ruvnet/agenticow) · [rupixel](https://github.com/ruvnet/rupixel) · [helix](https://github.com/ruvnet/helix) · [AgentBBS](https://github.com/ruvnet/AgentBBS) · [rvFACE](https://github.com/ruvnet/rvFACE) · [rufield](https://github.com/ruvnet/rufield) · [CVE-bench](https://github.com/ruvnet/CVE-bench) · [PhotonLayer](https://github.com/ruvnet/PhotonLayer) · [Repo-Explainer](https://github.com/ruvnet/Repo-Explainer) · [hackerone](https://github.com/ruvnet/hackerone) · [worldgraph](https://github.com/ruvnet/worldgraph) · [ruv-drone](https://github.com/ruvnet/ruv-drone) · [rvdna](https://github.com/ruvnet/rvdna) · [ruqu](https://github.com/ruvnet/ruqu) · [ruvn](https://github.com/ruvnet/ruvn) · [retort](https://github.com/ruvnet/retort) · [experiments](https://github.com/ruvnet/experiments) · [SonicChamber](https://github.com/ruvnet/SonicChamber) · [unsorry](https://github.com/ruvnet/unsorry)
+
+**Recent npm families**
+
+| Family | Recent registry activity | Representative packages |
+| --- | ---: | --- |
+| MetaHarness | 61 packages | [metaharness](https://www.npmjs.com/package/metaharness), [@metaharness/darwin](https://www.npmjs.com/package/@metaharness/darwin), [@metaharness/flywheel](https://www.npmjs.com/package/@metaharness/flywheel), [@metaharness/router](https://www.npmjs.com/package/@metaharness/router), [@metaharness/redblue](https://www.npmjs.com/package/@metaharness/redblue), [workspace-lens](https://www.npmjs.com/package/@metaharness/workspace-lens), [workspace-probe](https://www.npmjs.com/package/@metaharness/workspace-probe) |
+| RuVector | 16 packages | [@ruvector/ruvllm](https://www.npmjs.com/package/@ruvector/ruvllm), [@ruvector/rvf](https://www.npmjs.com/package/@ruvector/rvf), [@ruvector/ruqu](https://www.npmjs.com/package/@ruvector/ruqu), [@ruvector/emergent-time](https://www.npmjs.com/package/@ruvector/emergent-time) |
+| Claude Flow and Ruflo | 3 packages | [ruflo](https://www.npmjs.com/package/ruflo), [claude-flow](https://www.npmjs.com/package/claude-flow), [@claude-flow/cli](https://www.npmjs.com/package/@claude-flow/cli) |
+| Independent tools | 18 packages | [agentbbs](https://www.npmjs.com/package/agentbbs), [agenticow](https://www.npmjs.com/package/agenticow), [rupixel](https://www.npmjs.com/package/rupixel), [ruvdrone](https://www.npmjs.com/package/ruvdrone), [worldgraphs](https://www.npmjs.com/package/worldgraphs), [@ruvnet/rvagent](https://www.npmjs.com/package/@ruvnet/rvagent) |
+
+MetaHarness includes the kernel, SDK, verticals, examples, and nine host adapters for Claude Code, Codex, Copilot, GitHub Actions, Hermes, OpenClaw, OpenCode, pi.dev, and RVM.
+
+**Recent Rust crate families**
+
+| Family | Recent crates |
+| --- | ---: |
+| Helix | 28 |
+| RuVector core, graph, search, proof, clustering, replication, and TimesFM | 22 |
+| RuvLLM | 2 |
+| PhotonLayer | 1 |
+| Emergent Time | 1 |
+| TimesFM standalone | 1 |
+
+The full recent crate set includes `helix-*`, `ruvector-spann`, `ruvector-capgated`, `ruvector-pq-search`, `ruvector-matryoshka`, `ruvector-lsm-ann`, `ruvector-proof-gate`, `ruvector-gnn-rerank`, `ruvector-timesfm`, `ruvllm`, `ruvllm-cli`, `photonlayer-core`, `emergent-time`, and `timesfm`.
+
+Each project integrates the previous, so the catalog is a connected chain rather than a pile of one offs. Everything below is grouped, dated, and tied to a public commit or registry artifact.
 
 
 # 📜 Prior-Art Dossier (commit-proof, dated)
@@ -39,7 +73,7 @@ Long live ❤️ Open Source.
 Because the whole point of building in public is the **provenance**. These dossiers tie every system to the *genesis commit* that first introduced it — hash, author date, and a clickable link — alongside scoped first-of-kind claims with named external prior art.
 
 **Org & systems provenance**
-- **[ruvnet org-wide prior-art dossier](https://gist.github.com/ruvnet/67c255a099984c94190c57ab08e7ad35)** — 248 public repositories, every one tied to its genesis commit (date + link), plus 47 detailed entries and 23 scoped global-first claims.
+- **[ruvnet org-wide prior-art dossier](https://gist.github.com/ruvnet/67c255a099984c94190c57ab08e7ad35)** — June 13, 2026 historical snapshot of 248 repositories tied to genesis commits, plus 47 detailed entries and 23 scoped global-first candidate claims. GitHub currently exposes 197 public repositories; the difference includes repositories since archived, renamed, made private, or removed.
 - **[RuVector internal-systems dossier](https://gist.github.com/ruvnet/86d6968783ff1629e7481d9c92d0bed8)** — per-crate provenance for the RuVector self-learning vector DB (RVF, RVM, SONA, emergent-time, witness chain).
 
 **Claude-Flow / Ruflo — the harness**
@@ -47,7 +81,7 @@ Because the whole point of building in public is the **provenance**. These dossi
 - **[Prior-Art Dossier — Academic Edition](https://gist.github.com/ruvnet/1a88c9fc7b7eaa99b4ea2f0dd0891c49)** — the 31 firsts sorted into invention / implementation / engineering / integration, with dated industry-comparison tables and calibrated first-claim language.
 
 **Distribution surface**
-- **[Packages & Libraries Index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)** — every published package across all four registries: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
+- **[Packages & Libraries Index](https://gist.github.com/ruvnet/184a167aff069937d19fed52a0384d39)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The July 11 live recount is **360 crates**, **1,035,139 crate downloads**, and **361 npm packages**; the PyPI and Hugging Face counts remain pending a separate owner-level recount. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
 
 *Provenance is fact (click any commit or package); novelty claims are scoped, dated, and listed with prior art so they can be checked or refuted.*
 
