@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-07-11T00:00:00Z",
+  "counts": {
+    "github_public_repositories": 197,
+    "github_owned_public_nonfork_repositories": 173,
+    "published_registry_and_huggingface_artifacts_minimum": 751,
+    "rust_crates": 360,
+    "npm_packages": 361,
+    "pypi_packages": 8,
+    "huggingface_models_and_spaces": 22,
+    "rust_crate_downloads_cumulative": 1035139
+  },
+  "historical_snapshots": {
+    "npm_downloads_rolling_year_minimum": 34000000,
+    "npm_snapshot_month": "2026-06"
+  },
+  "recent_since": "2026-06-13T00:00:00Z",
+  "recent_activity": {
+    "owned_source_repositories_created": 15,
+    "public_forks_created": 5,
+    "npm_latest_releases": 98,
+    "rust_crates_updated": 55
+  },
+  "notes": [
+    "Repositories are separate from the 751 artifact count.",
+    "Metrics are volatile and must be quoted with verified_at.",
+    "Forks are excluded from original-work claims."
+  ],
+  "sources": [
+    "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md",
+    "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md"
+  ]
+}
