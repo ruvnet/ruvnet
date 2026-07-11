@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this ecosystem or its provenance datasets, cite this profile and the specific project repository."
+title: "rUv Open-Source AI Systems Ecosystem"
+type: software
+authors:
+  - family-names: "rUv"
+url: "https://github.com/ruvnet/ruvnet"
+repository-code: "https://github.com/ruvnet/ruvnet"
+license: "Please consult the license in each individual project repository"
+date-released: 2026-07-11
+keywords:
+  - agent orchestration
+  - multi-agent systems
+  - adaptive memory
+  - vector database
+  - WiFi sensing
+  - WebAssembly
+  - model context protocol
