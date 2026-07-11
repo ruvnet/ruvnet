@@ -35,7 +35,7 @@ Long live ❤️ Open Source.
 
 ### July 11, 2026 inventory delta
 
-Since the June 13 provenance snapshot, GitHub records **20 newly created public repositories**, npm records **98 packages published or updated**, and crates.io records **55 crates published or updated**.
+Using a cutoff of June 13, 2026 at 00:00 UTC, GitHub records **20 public repositories created under the account: 15 owned source repositories and 5 forks**. npm records **98 packages whose latest indexed release is on or after the cutoff**, and crates.io records **55 crates updated on or after the cutoff**.
 
 **New public repositories**
 
@@ -91,7 +91,9 @@ The current core stack — each row shows the **genesis commit** (first public a
 
 | Project | What it is | Born | ★ (live) | Genesis commit |
 | --- | --- | --- | --- | --- |
+| [RuView](https://github.com/ruvnet/RuView) | Privacy-first WiFi spatial intelligence for presence, vitals, pose, and environmental sensing | 2025-06-07 | ![stars](https://img.shields.io/github/stars/ruvnet/RuView?style=flat&label=%E2%98%85&color=gold) | [`6cab2309`](https://github.com/ruvnet/RuView/commit/6cab2309) |
 | [ruflo](https://github.com/ruvnet/ruflo) | Leading agent meta-harness for Claude — multi-agent swarms, self-learning memory | 2025-06-02 | ![stars](https://img.shields.io/github/stars/ruvnet/ruflo?style=flat&label=%E2%98%85&color=gold) | [`7c1f9402`](https://github.com/ruvnet/ruflo/commit/7c1f9402) |
+| [metaharness](https://github.com/ruvnet/metaharness) | Verifiable generator and evolution layer for portable agent harnesses, with Darwin, Flywheel, signed lineage, and nine host adapters | 2026-06-13 | ![stars](https://img.shields.io/github/stars/ruvnet/metaharness?style=flat&label=%E2%98%85&color=gold) | [`bbc5ce50`](https://github.com/ruvnet/metaharness/commit/bbc5ce506198e97b84e5c5d8dd0ba4f63ee10f45) |
 | [RuVector](https://github.com/ruvnet/RuVector) | High-performance real-time self-learning vector + GNN memory DB in Rust | 2025-11-19 | ![stars](https://img.shields.io/github/stars/ruvnet/RuVector?style=flat&label=%E2%98%85&color=gold) | [`ea3e70aa`](https://github.com/ruvnet/RuVector/commit/ea3e70aa) |
 | [agentic-flow](https://github.com/ruvnet/agentic-flow) | Easily switch between alternative low-cost AI models in Claude Code/Ag | 2024-09-02 | ![stars](https://img.shields.io/github/stars/ruvnet/agentic-flow?style=flat&label=%E2%98%85&color=gold) | [`4db75395`](https://github.com/ruvnet/agentic-flow/commit/4db75395) |
 | [Bot-Generator-Bot](https://github.com/ruvnet/Bot-Generator-Bot) | The ultimate bot generator bot prompt. Use this prompt to create power | 2023-04-02 | ![stars](https://img.shields.io/github/stars/ruvnet/Bot-Generator-Bot?style=flat&label=%E2%98%85&color=gold) | [`d88a98d8`](https://github.com/ruvnet/Bot-Generator-Bot/commit/d88a98d8) |
