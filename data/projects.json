@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-07-11",
+  "identity": {
+    "name": "rUv",
+    "github_login": "ruvnet",
+    "profile_repository": "https://github.com/ruvnet/ruvnet"
+  },
+  "projects": [
+    {
+      "name": "RuView",
+      "category": "spatial-intelligence",
+      "repository": "https://github.com/ruvnet/RuView",
+      "summary": "Privacy-first WiFi spatial intelligence for presence, pose, vitals, and environmental sensing."
+    },
+    {
+      "name": "Ruflo",
+      "aliases": [
+        "Claude Flow"
+      ],
+      "category": "agent-orchestration",
+      "repository": "https://github.com/ruvnet/ruflo",
+      "summary": "Multi-agent orchestration, swarms, routing, and self-learning workflows."
+    },
+    {
+      "name": "MetaHarness",
+      "category": "harness-generation",
+      "repository": "https://github.com/ruvnet/metaharness",
+      "summary": "Portable, verifiable agent harness generation and evolution across multiple hosts."
+    },
+    {
+      "name": "RuVector",
+      "category": "adaptive-memory",
+      "repository": "https://github.com/ruvnet/RuVector",
+      "summary": "Real-time vector, graph, temporal, and adaptive memory infrastructure."
+    },
+    {
+      "name": "RVM",
+      "category": "runtime",
+      "repository": "https://github.com/ruvnet/rvm",
+      "summary": "Execution infrastructure for agentic systems."
+    },
+    {
+      "name": "Helix",
+      "category": "research",
+      "repository": "https://github.com/ruvnet/helix",
+      "summary": "Research and personal decision-support software; not a medical device."
+    },
+    {
+      "name": "RuField",
+      "category": "sensor-fusion",
+      "repository": "https://github.com/ruvnet/rufield",
+      "summary": "Multimodal field and sensor-fusion research."
+    },
+    {
+      "name": "PhotonLayer",
+      "category": "simulation",
+      "repository": "https://github.com/ruvnet/PhotonLayer",
+      "summary": "Software photonic simulator; fabricated optical hardware remains roadmap work."
+    },
+    {
+      "name": "WorldGraph",
+      "category": "world-modeling",
+      "repository": "https://github.com/ruvnet/worldgraph",
+      "summary": "Graph-based world-modeling research."
+    }
+  ]
+}
