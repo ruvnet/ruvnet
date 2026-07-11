@@ -2,6 +2,8 @@ name: Refresh registry metrics
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * 1'
   push:
     paths:
       - .github/workflows/refresh-registry-metrics.yml
