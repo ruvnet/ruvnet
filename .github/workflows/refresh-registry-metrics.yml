@@ -4,10 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 5 * * 1'
-  push:
-    paths:
-      - .github/workflows/refresh-registry-metrics.yml
-
 permissions:
   contents: write
 
@@ -203,7 +199,26 @@ jobs:
 
             const packageDoc = 'docs/ruvnet-packages.md';
             let doc = fs.readFileSync(packageDoc, 'utf8');
-            doc = doc.replaceAll('1,035,139', fmt(crateDownloads));
+            doc = doc.replace(
+              /\*\*\d+\*\* Rust crates \([\d,]+ cumulative downloads\)/,
+              `**${crates.length}** Rust crates (${fmt(crateDownloads)} cumulative downloads)`
+            );
+            doc = doc.replace(
+              /The exact npm recount is \*\*[\d,]+ downloads\*\* across \d+ maintained packages for the complete 365-day window \*\*\d{4}-\d{2}-\d{2} through \d{4}-\d{2}-\d{2}\*\*\./,
+              `The exact npm recount is **${fmt(npm.downloads)} downloads** across ${npmPackages.length} maintained packages for the complete 365-day window **${start} through ${end}**.`
+            );
+            doc = doc.replace(
+              /crates\.io reports \*\*[\d,]+ cumulative downloads\*\* across \d+ crates\./,
+              `crates.io reports **${fmt(crateDownloads)} cumulative downloads** across ${crates.length} crates.`
+            );
+            doc = doc.replace(
+              /^\| \[crates\.io\]\([^\n]+$/m,
+              `| [crates.io](https://crates.io/users/ruvnet) | **${crates.length}** | ${fmt(crateDownloads)} cumulative |`
+            );
+            doc = doc.replace(
+              /^\| \[npm\]\([^\n]+$/m,
+              `| [npm](https://www.npmjs.com/~ruvnet) | **${npmPackages.length}** | **${fmt(npm.downloads)}** during ${start}–${end} |`
+            );
             fs.writeFileSync(packageDoc, doc);
 
             console.log(JSON.stringify(result, null, 2));
