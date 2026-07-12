@@ -32,8 +32,8 @@ The projects form a connected systems stack rather than a collection of unrelate
 | Public GitHub repositories | 197 |
 | Owned public non-fork repositories | 173 |
 | Published registry and Hugging Face artifacts | at least 751 |
-| Cumulative Rust crate downloads | 1,035,139 |
-| npm rolling annual downloads | 34M+ in the June 2026 snapshot |
+| Cumulative Rust crate downloads (verified 2026-07-12) | 1,035,464 |
+| npm downloads, rolling 365 days (2025-07-12–2026-07-11) | 51,317,986 |
 | Recent owned source repositories since June 13, 2026 | 15 |
 | Recent public forks, excluded from original-work claims | 5 |
 
@@ -69,7 +69,7 @@ Because the whole point of building in public is the **provenance**. These dossi
 - **[Prior-Art Dossier — Academic Edition](https://gist.github.com/ruvnet/1a88c9fc7b7eaa99b4ea2f0dd0891c49)** — the 31 firsts sorted into invention / implementation / engineering / integration, with dated industry-comparison tables and calibrated first-claim language.
 
 **Distribution surface**
-- **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The July 11 live recount is **360 crates**, **1,035,139 crate downloads**, and **361 npm packages**; PyPI remains ownership-verified at 8 packages and Hugging Face remains verified at 22 artifacts across the `ruvnet` and `ruv` accounts. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
+- **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The July 11 live recount is **360 crates**, **1,035,464 crate downloads**, and **361 npm packages**; PyPI remains ownership-verified at 8 packages and Hugging Face remains verified at 22 artifacts across the `ruvnet` and `ruv` accounts. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
 
 *Repository lineage, public availability, feature evidence, adoption metrics, and novelty are separate evidentiary layers. Novelty statements remain scoped candidate claims until supported by feature commits, tests, release timestamps, and a dated prior-art search.*
 

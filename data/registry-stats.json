@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-12T00:08:51.339Z",
+  "npm": {
+    "maintainer": "ruvnet",
+    "package_count": 361,
+    "downloads": 51317986,
+    "period_start": "2025-07-12",
+    "period_end": "2026-07-11",
+    "period_days": 365,
+    "counting_rule": "Sum of npm point-download counts for every public package whose metadata lists ruvnet as a maintainer, including scoped and platform packages."
+  },
+  "crates_io": {
+    "user_id": 339999,
+    "crate_count": 360,
+    "cumulative_downloads": 1035464,
+    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
+  }
+}

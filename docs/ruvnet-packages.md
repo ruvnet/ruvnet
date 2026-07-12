@@ -2,7 +2,7 @@
 
 Author: ruvnet (Reuven Cohen) · Initial snapshot 2026-06-13 · Live reconciliation 2026-07-11
 
-**At least 751 published artifacts across four public registries** — **360** Rust crates (1,035,139 cumulative downloads), **361** npm packages maintained by `ruvnet`, **8** ownership-verified PyPI libraries, and **22** Hugging Face models and spaces across the `ruvnet` and `ruv` accounts.
+**At least 751 published artifacts across four public registries** — **360** Rust crates (1,035,464 cumulative downloads), **361** npm packages maintained by `ruvnet`, **8** ownership-verified PyPI libraries, and **22** Hugging Face models and spaces across the `ruvnet` and `ruv` accounts.
 
 This is the **distribution surface** of the work catalogued in the [prior-art dossiers](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md). Where a git repository proves *authorship*, a published package proves *reach*: an immutable, timestamped, independently-installable artifact that anyone can pull down and verify. It is the strongest form of public provenance there is.
 
@@ -16,7 +16,7 @@ Package downloads are not the whole story: some projects, most of all **RuView**
 
 | Registry | Packages | Downloads |
 |---|---|---|
-| [crates.io](https://crates.io/users/ruvnet) | **360** | 1,035,139 cumulative |
+| [crates.io](https://crates.io/users/ruvnet) | **360** | 1,035,464 cumulative |
 | [npm](https://www.npmjs.com/~ruvnet) | **361** | 34,447,577 in the June 13 rolling 12-month snapshot |
 | [PyPI](https://pypi.org/user/ruvnet/) | **8** | ownership-verified |
 | [Hugging Face](https://huggingface.co/ruvnet) | **22** | 7,868 current API-reported model downloads |
