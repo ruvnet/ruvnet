@@ -30,7 +30,7 @@ jobs:
           const fmt = n => new Intl.NumberFormat('en-US').format(n);
           const iso = d => d.toISOString().slice(0, 10);
 
-          async function fetchJson(url, options = {}, attempts = 5) {
+          async function fetchJson(url, options = {}, attempts = 12) {
             let last;
             for (let i = 0; i < attempts; i++) {
               try {
@@ -45,6 +45,11 @@ jobs:
                 if (response.ok) return await response.json();
                 last = new Error(`${response.status} ${response.statusText}: ${url}`);
                 if (response.status !== 429 && response.status < 500) throw last;
+                if (response.status === 429) {
+                  const retryAfter = Number(response.headers.get('retry-after') || 10);
+                  await sleep(Math.max(10, retryAfter) * 1000);
+                  continue;
+                }
               } catch (error) {
                 last = error;
               }
@@ -73,26 +78,45 @@ jobs:
           }
 
           async function npmDownloads(packages, start, end) {
-            let downloads = 0;
+            const rows = [];
             const missing = [];
-            const batchSize = 50;
-            for (let i = 0; i < packages.length; i += batchSize) {
-              const batch = packages.slice(i, i + batchSize);
+            const unscoped = packages.filter(name => !name.startsWith('@'));
+            const scoped = packages.filter(name => name.startsWith('@'));
+
+            for (let i = 0; i < unscoped.length; i += 40) {
+              const batch = unscoped.slice(i, i + 40);
               const names = batch.map(encodeURIComponent).join(',');
               const url = `https://api.npmjs.org/downloads/point/${start}:${end}/${names}`;
               const body = await fetchJson(url);
               if (batch.length === 1 && typeof body.downloads === 'number') {
-                downloads += body.downloads;
+                rows.push({name: batch[0], downloads: body.downloads});
               } else {
                 for (const name of batch) {
-                  const row = body[name];
-                  if (row && typeof row.downloads === 'number') downloads += row.downloads;
+                  const value = body[name]?.downloads;
+                  if (typeof value === 'number') rows.push({name, downloads: value});
                   else missing.push(name);
                 }
               }
-              await sleep(250);
+              await sleep(500);
             }
-            return {downloads, missing};
+
+            let cursor = 0;
+            async function scopedWorker() {
+              while (cursor < scoped.length) {
+                const name = scoped[cursor++];
+                const url = `https://api.npmjs.org/downloads/point/${start}:${end}/${encodeURIComponent(name)}`;
+                const body = await fetchJson(url);
+                if (typeof body.downloads === 'number') rows.push({name, downloads: body.downloads});
+                else missing.push(name);
+                await sleep(600);
+              }
+            }
+            await Promise.all([scopedWorker(), scopedWorker()]);
+            return {
+              downloads: rows.reduce((sum, row) => sum + row.downloads, 0),
+              missing,
+              top_20: rows.sort((a, b) => b.downloads - a.downloads).slice(0, 20)
+            };
           }
 
           async function crateInventory() {
