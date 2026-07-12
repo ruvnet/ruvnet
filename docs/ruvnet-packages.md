@@ -2,7 +2,7 @@
 
 Author: ruvnet (Reuven Cohen) · Initial snapshot 2026-06-13 · Live reconciliation 2026-07-11 ET / 2026-07-12 UTC
 
-**At least 751 published artifacts across four public registries** — **360** Rust crates (1,035,464 cumulative downloads), **361** npm packages maintained by `ruvnet`, **8** ownership-verified PyPI libraries, and **22** Hugging Face models and spaces across the `ruvnet` and `ruv` accounts.
+**At least 751 published artifacts across four public registries** — **360** Rust crates (1,035,514 cumulative downloads), **361** npm packages maintained by `ruvnet`, **8** ownership-verified PyPI libraries, and **22** Hugging Face models and spaces across the `ruvnet` and `ruv` accounts.
 
 This is the **distribution surface** of the work catalogued in the [prior-art dossiers](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md). Where a git repository proves *authorship*, a published package proves *reach*: an immutable, timestamped, independently-installable artifact that anyone can pull down and verify. It is the strongest form of public provenance there is.
 
@@ -10,13 +10,13 @@ The June snapshot clustered 636 artifacts into 28 project families. The July rec
 
 Package downloads are not the whole story: some projects, most of all **RuView** at 80,073 stars and **ruflo** at 64,041 stars, carry reach as GitHub adoption rather than crate pulls. Stars and downloads are reported separately because they measure different things.
 
-*Live registry counts were verified July 11, 2026 ET / July 12 UTC from the official npm and crates.io APIs. The exact npm recount is **51,317,986 downloads** across 361 maintained packages for the complete 365-day window **2025-07-12 through 2026-07-11**. The older **34,447,577** figure is retained only as the June 13 historical snapshot. crates.io reports **1,035,464 cumulative downloads** across 360 crates. npm and crates.io counts include target-specific platform packages; registry ownership or maintainer status proves control of the publication surface, not sole authorship.*
+*Live registry counts were verified July 11, 2026 ET / July 12 UTC from the official npm and crates.io APIs. The exact npm recount is **51,317,986 downloads** across 361 maintained packages for the complete 365-day window **2025-07-12 through 2026-07-11**. The older **34,447,577** figure is retained only as the June 13 historical snapshot. crates.io reports **1,035,514 cumulative downloads** across 360 crates. npm and crates.io counts include target-specific platform packages; registry ownership or maintainer status proves control of the publication surface, not sole authorship.*
 
 ## Registry totals
 
 | Registry | Packages | Downloads |
 |---|---|---|
-| [crates.io](https://crates.io/users/ruvnet) | **360** | 1,035,464 cumulative |
+| [crates.io](https://crates.io/users/ruvnet) | **360** | 1,035,514 cumulative |
 | [npm](https://www.npmjs.com/~ruvnet) | **361** | **51,317,986** during 2025-07-12–2026-07-11 |
 | [PyPI](https://pypi.org/user/ruvnet/) | **8** | ownership-verified |
 | [Hugging Face](https://huggingface.co/ruvnet) | **22** | 7,868 current API-reported model downloads |

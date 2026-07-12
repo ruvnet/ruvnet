@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-07-12T00:08:51.339Z",
+  "verified_at": "2026-07-12T00:37:11.998Z",
   "counts": {
     "github_public_repositories": 197,
     "github_owned_public_nonfork_repositories": 173,
@@ -9,7 +9,7 @@
     "npm_packages": 361,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 1035464
+    "rust_crate_downloads_cumulative": 1035514
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,

@@ -32,12 +32,28 @@ The projects form a connected systems stack rather than a collection of unrelate
 | Public GitHub repositories | 197 |
 | Owned public non-fork repositories | 173 |
 | Published registry and Hugging Face artifacts | at least 751 |
-| Cumulative Rust crate downloads (verified 2026-07-12) | 1,035,464 |
+| Cumulative Rust crate downloads (verified 2026-07-12) | 1,035,514 |
 | npm downloads, rolling 365 days (2025-07-12–2026-07-11) | 51,317,986 |
 | Recent owned source repositories since June 13, 2026 | 15 |
 | Recent public forks, excluded from original-work claims | 5 |
 
 Metrics are volatile and intentionally dated. Exact sources, counting rules, historical snapshots, limitations, and evidence links live in the [package index](docs/ruvnet-packages.md), [provenance dossier](docs/ruvnet-prior-art.md), and [machine-readable metrics](data/metrics.json).
+
+<!-- registry-download-chart:start -->
+## npm download growth
+
+Monthly downloads across all 361 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
+
+```mermaid
+xychart-beta
+    title "rUv npm ecosystem: monthly downloads"
+    x-axis ["Jul 2025", "Aug 2025", "Sep 2025", "Oct 2025", "Nov 2025", "Dec 2025", "Jan 2026", "Feb 2026", "Mar 2026", "Apr 2026", "May 2026", "Jun 2026"]
+    y-axis "Downloads (millions)" 0 --> 16
+    line [0.069, 0.132, 0.132, 0.284, 0.401, 0.43, 1.673, 1.97, 4.89, 6.162, 15.58, 14.466]
+```
+
+**Period:** 2025-07-01 through 2026-06-30 · **Source:** official npm daily range API · Scoped, unscoped, and target-specific platform packages included. Download events are not unique users.
+<!-- registry-download-chart:end -->
 
 ## Start here
 
