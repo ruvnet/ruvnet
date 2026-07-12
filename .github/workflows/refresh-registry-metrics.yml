@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 5 * * 1'
+  push:
+    paths:
+      - .github/workflows/refresh-registry-metrics.yml
 permissions:
   contents: write
 
@@ -115,6 +118,40 @@ jobs:
             };
           }
 
+          async function npmMonthlyDownloads(packages, start, end) {
+            const totals = new Map();
+            const missing = [];
+            let cursor = 0;
+
+            async function worker() {
+              while (cursor < packages.length) {
+                const name = packages[cursor++];
+                const url = `https://api.npmjs.org/downloads/range/${start}:${end}/${encodeURIComponent(name)}`;
+                const body = await fetchJson(url);
+                if (!Array.isArray(body.downloads)) {
+                  missing.push(name);
+                } else {
+                  for (const point of body.downloads) {
+                    const month = point.day.slice(0, 7);
+                    totals.set(month, (totals.get(month) || 0) + Number(point.downloads || 0));
+                  }
+                }
+                await sleep(700);
+              }
+            }
+
+            await Promise.all([worker(), worker()]);
+            const rows = [];
+            const cursorDate = new Date(`${start}T00:00:00Z`);
+            const endDate = new Date(`${end}T00:00:00Z`);
+            while (cursorDate <= endDate) {
+              const month = cursorDate.toISOString().slice(0, 7);
+              rows.push({month, downloads: totals.get(month) || 0});
+              cursorDate.setUTCMonth(cursorDate.getUTCMonth() + 1);
+            }
+            return {rows, missing};
+          }
+
           async function crateInventory() {
             const crates = [];
             let page = 1;
@@ -137,13 +174,19 @@ jobs:
             startDate.setUTCDate(startDate.getUTCDate() - 364);
             const start = iso(startDate);
             const end = iso(endDate);
+            const chartEndDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 0));
+            const chartStartDate = new Date(Date.UTC(chartEndDate.getUTCFullYear(), chartEndDate.getUTCMonth() - 11, 1));
+            const chartStart = iso(chartStartDate);
+            const chartEnd = iso(chartEndDate);
 
             const npmPackages = await npmInventory();
             const npm = await npmDownloads(npmPackages, start, end);
+            const monthly = await npmMonthlyDownloads(npmPackages, chartStart, chartEnd);
             const crates = await crateInventory();
             const crateDownloads = crates.reduce((sum, crate) => sum + Number(crate.downloads || 0), 0);
 
             if (npm.missing.length) throw new Error(`Missing npm download rows: ${npm.missing.join(', ')}`);
+            if (monthly.missing.length) throw new Error(`Missing npm monthly rows: ${monthly.missing.join(', ')}`);
             if (npmPackages.length < 300) throw new Error(`Unexpectedly low npm package count: ${npmPackages.length}`);
             if (crates.length < 300) throw new Error(`Unexpectedly low crate count: ${crates.length}`);
 
@@ -157,6 +200,9 @@ jobs:
                 period_start: start,
                 period_end: end,
                 period_days: 365,
+                monthly_period_start: chartStart,
+                monthly_period_end: chartEnd,
+                monthly_downloads: monthly.rows,
                 counting_rule: 'Sum of npm point-download counts for every public package whose metadata lists ruvnet as a maintainer, including scoped and platform packages.'
               },
               crates_io: {
@@ -186,13 +232,40 @@ jobs:
             const readmePath = 'README.md';
             let readme = fs.readFileSync(readmePath, 'utf8');
             readme = readme.replace(
-              /\| Cumulative Rust crate downloads \| [^\n]+/,
+              /\| Cumulative Rust crate downloads(?: \(verified [^)]+\))? \| [^\n]+/,
               `| Cumulative Rust crate downloads (verified ${iso(now)}) | ${fmt(crateDownloads)} |`
             );
             readme = readme.replace(
-              /\| npm rolling annual downloads \| [^\n]+/,
+              /\| npm downloads, rolling 365 days \([^)]+\) \| [^\n]+/,
               `| npm downloads, rolling 365 days (${start}–${end}) | ${fmt(npm.downloads)} |`
             );
+
+            const chartLabels = monthly.rows.map(row => {
+              const [year, month] = row.month.split('-').map(Number);
+              return `"${new Date(Date.UTC(year, month - 1, 1)).toLocaleString('en-US', {month: 'short', year: 'numeric', timeZone: 'UTC'})}"`;
+            }).join(', ');
+            const chartValues = monthly.rows.map(row => Number((row.downloads / 1_000_000).toFixed(3)));
+            const chartMax = Math.max(1, Math.ceil(Math.max(...chartValues)));
+            const chart = [
+              '<!-- registry-download-chart:start -->',
+              '## npm download growth',
+              '',
+              `Monthly downloads across all ${npmPackages.length} npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.`,
+              '',
+              '```mermaid',
+              'xychart-beta',
+              '    title "rUv npm ecosystem: monthly downloads"',
+              `    x-axis [${chartLabels}]`,
+              `    y-axis "Downloads (millions)" 0 --> ${chartMax}`,
+              `    line [${chartValues.join(', ')}]`,
+              '```',
+              '',
+              `**Period:** ${chartStart} through ${chartEnd} · **Source:** official npm daily range API · Scoped, unscoped, and target-specific platform packages included. Download events are not unique users.`,
+              '<!-- registry-download-chart:end -->'
+            ].join('\n');
+            const chartPattern = /<!-- registry-download-chart:start -->[\s\S]*?<!-- registry-download-chart:end -->/;
+            if (chartPattern.test(readme)) readme = readme.replace(chartPattern, chart);
+            else readme = readme.replace('\n## Start here', `\n${chart}\n\n## Start here`);
             readme = readme.replaceAll('1,035,139 cumulative crate downloads', `${fmt(crateDownloads)} cumulative crate downloads`);
             readme = readme.replaceAll('1,035,139 crate downloads', `${fmt(crateDownloads)} crate downloads`);
             fs.writeFileSync(readmePath, readme);
