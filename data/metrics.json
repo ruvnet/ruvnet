@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-07-12T00:37:11.998Z",
+  "verified_at": "2026-07-13T06:41:27.127Z",
   "counts": {
     "github_public_repositories": 197,
     "github_owned_public_nonfork_repositories": 173,
@@ -9,7 +9,7 @@
     "npm_packages": 361,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 1035514
+    "rust_crate_downloads_cumulative": 1046528
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
@@ -32,8 +32,8 @@
     "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md"
   ],
   "current_windows": {
-    "npm_downloads_rolling_365_days": 51317986,
-    "npm_period_start": "2025-07-12",
-    "npm_period_end": "2026-07-11"
+    "npm_downloads_rolling_365_days": 51738662,
+    "npm_period_start": "2025-07-13",
+    "npm_period_end": "2026-07-12"
   }
 }

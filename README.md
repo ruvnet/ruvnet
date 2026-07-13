@@ -32,8 +32,8 @@ The projects form a connected systems stack rather than a collection of unrelate
 | Public GitHub repositories | 197 |
 | Owned public non-fork repositories | 173 |
 | Published registry and Hugging Face artifacts | at least 751 |
-| Cumulative Rust crate downloads (verified 2026-07-12) | 1,035,514 |
-| npm downloads, rolling 365 days (2025-07-12–2026-07-11) | 51,317,986 |
+| Cumulative Rust crate downloads (verified 2026-07-13) | 1,046,528 |
+| npm downloads, rolling 365 days (2025-07-13–2026-07-12) | 51,738,662 |
 | Recent owned source repositories since June 13, 2026 | 15 |
 | Recent public forks, excluded from original-work claims | 5 |
 
