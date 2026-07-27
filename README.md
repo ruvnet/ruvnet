@@ -32,8 +32,8 @@ The projects form a connected systems stack rather than a collection of unrelate
 | Public GitHub repositories | 197 |
 | Owned public non-fork repositories | 173 |
 | Published registry and Hugging Face artifacts | at least 751 |
-| Cumulative Rust crate downloads (verified 2026-07-20) | 1,078,834 |
-| npm downloads, rolling 365 days (2025-07-20–2026-07-19) | 54,860,521 |
+| Cumulative Rust crate downloads (verified 2026-07-27) | 1,118,097 |
+| npm downloads, rolling 365 days (2025-07-27–2026-07-26) | 57,565,551 |
 | Recent owned source repositories since June 13, 2026 | 15 |
 | Recent public forks, excluded from original-work claims | 5 |
 
@@ -42,7 +42,7 @@ Metrics are volatile and intentionally dated. Exact sources, counting rules, his
 <!-- registry-download-chart:start -->
 ## npm download growth
 
-Monthly downloads across all 361 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
+Monthly downloads across all 362 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
 
 ```mermaid
 xychart-beta

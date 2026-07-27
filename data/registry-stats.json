@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-20T06:40:36.808Z",
+  "generated_at": "2026-07-27T06:43:28.748Z",
   "npm": {
     "maintainer": "ruvnet",
-    "package_count": 361,
-    "downloads": 54860521,
-    "period_start": "2025-07-20",
-    "period_end": "2026-07-19",
+    "package_count": 362,
+    "downloads": 57565551,
+    "period_start": "2025-07-27",
+    "period_end": "2026-07-26",
     "period_days": 365,
     "monthly_period_start": "2025-07-01",
     "monthly_period_end": "2026-06-30",
@@ -65,7 +65,7 @@
   "crates_io": {
     "user_id": 339999,
     "crate_count": 365,
-    "cumulative_downloads": 1078834,
+    "cumulative_downloads": 1118097,
     "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   }
 }
