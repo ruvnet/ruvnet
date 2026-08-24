@@ -46,7 +46,7 @@ The two flagships account for **91.0% of owned public nonfork portfolio stars** 
 | RuVector stars | 4,348 | 4,411 | 1.4% |
 | MetaHarness stars | 462 | 565 | 22.3% |
 | Rust crates | 360 | 398 | 10.6% |
-| Cumulative Rust crate downloads | 1,035,464 | 1,267,973 | 22.5% |
+| Cumulative Rust crate downloads (verified 2026-08-24) | 1,424,012 |
 | Known npm packages, minimum | 361 | 370 | 2.5% |
 | Public repositories | 197 | 200 | 1.5% |
 
@@ -97,17 +97,17 @@ July closed at **14,274,377 downloads**, 1.3% below June and 108.1 times August 
 <!-- registry-download-chart:start -->
 ## npm download growth
 
-Monthly download events across at least 370 known npm packages listing ruvnet as a maintainer. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
+Monthly downloads across all 381 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
 
 ```mermaid
 xychart-beta
     title "rUv npm ecosystem: monthly downloads"
     x-axis ["Aug 2025", "Sep 2025", "Oct 2025", "Nov 2025", "Dec 2025", "Jan 2026", "Feb 2026", "Mar 2026", "Apr 2026", "May 2026", "Jun 2026", "Jul 2026"]
     y-axis "Downloads (millions)" 0 --> 16
-    line [0.132, 0.132, 0.284, 0.401, 0.43, 1.673, 1.97, 4.89, 6.162, 15.58, 14.466, 14.274]
+    line [0.132, 0.132, 0.284, 0.401, 0.43, 1.673, 1.97, 4.889, 6.162, 15.58, 14.465, 14.274]
 ```
 
-**Period:** 2025-08-01 through 2026-07-31 · **Source:** official npm daily range API · Scoped, unscoped, and target specific platform packages included. Download events are not unique users.
+**Period:** 2025-08-01 through 2026-07-31 · **Source:** official npm daily range API · Scoped, unscoped, and target-specific platform packages included. Download events are not unique users.
 <!-- registry-download-chart:end -->
 
 ## August 2026 update
