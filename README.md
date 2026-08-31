@@ -46,7 +46,7 @@ The two flagships account for **91.0% of owned public nonfork portfolio stars** 
 | RuVector stars | 4,348 | 4,411 | 1.4% |
 | MetaHarness stars | 462 | 565 | 22.3% |
 | Rust crates | 360 | 398 | 10.6% |
-| Cumulative Rust crate downloads (verified 2026-08-24) | 1,424,012 |
+| Cumulative Rust crate downloads (verified 2026-08-31) | 1,472,624 |
 | Known npm packages, minimum | 361 | 370 | 2.5% |
 | Public repositories | 197 | 200 | 1.5% |
 
@@ -97,7 +97,7 @@ July closed at **14,274,377 downloads**, 1.3% below June and 108.1 times August 
 <!-- registry-download-chart:start -->
 ## npm download growth
 
-Monthly downloads across all 381 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
+Monthly downloads across all 382 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
 
 ```mermaid
 xychart-beta
