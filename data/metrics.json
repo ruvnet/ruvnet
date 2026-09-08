@@ -2,30 +2,37 @@
   "schema_version": "1.0",
   "verified_at": "2026-09-07T05:44:15.587Z",
   "counts": {
-    "github_public_repositories": 197,
-    "github_owned_public_nonfork_repositories": 173,
-    "published_registry_and_huggingface_artifacts_minimum": 751,
+    "github_public_repositories": 215,
+    "github_owned_public_nonfork_repositories": 190,
+    "published_registry_and_huggingface_artifacts_minimum": 829,
     "rust_crates": 416,
     "npm_packages": 383,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 1547212
+    "rust_crate_downloads_cumulative": 1547212,
+    "github_public_forks": 25,
+    "github_followers": 11352,
+    "github_stars_owned_nonfork": 180252,
+    "github_aggregate_downstream_forks": 24203
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
     "npm_snapshot_month": "2026-06"
   },
-  "recent_since": "2026-06-13T00:00:00Z",
+  "recent_since": "2026-08-10T00:00:00Z",
   "recent_activity": {
-    "owned_source_repositories_created": 15,
-    "public_forks_created": 5,
-    "npm_latest_releases": 98,
-    "rust_crates_updated": 55
+    "window": "2026-08-10 through 2026-09-07",
+    "owned_source_repositories_created": 14,
+    "public_forks_created": 1,
+    "owned_nonfork_repositories_pushed": 29,
+    "commit_search_matches": 2313
   },
   "notes": [
-    "Repositories are separate from the 751 artifact count.",
+    "Repositories are separate from the artifact count.",
     "Metrics are volatile and must be quoted with verified_at.",
-    "Forks are excluded from original-work claims."
+    "Forks are excluded from original-work claims.",
+    "GitHub counts verified 2026-09-07 from the public API; registry counts are refreshed by .github/workflows/refresh-registry-metrics.yml.",
+    "Commit search totals include merge and automated commits."
   ],
   "sources": [
     "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md",

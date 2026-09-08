@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-09-07T00:00:00Z",
+  "purpose": "Published packages maintained by ruvnet that the npm maintainer search endpoint omits, so the README's package count can be stated as a minimum rather than an exact figure.",
+  "counting_rule": "The weekly refresh workflow counts packages returned by /-/v1/search?text=maintainer:ruvnet. Any package known to be maintained but absent from that result set is listed here and reported separately.",
+  "known_exclusions": [],
+  "note": "No exclusions are currently enumerated. The September 7, 2026 refresh resolved 383 packages from maintainer search, and the README quotes that as a minimum rather than an exact total."
+}
