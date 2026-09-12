@@ -1,4 +1,4 @@
-![rUv](https://github.com/ruvnet/ruvnet/blob/main/assets/pp.png?raw=true)
+![rUv](assets/ruv-neon.webp)
 
 # rUv · Open source AI systems
 
