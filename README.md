@@ -12,6 +12,7 @@
 
 > **Start with the RuV Stack:** [Install skills + marketplace](docs/entrypoint/INSTALL.md) · [CLI / MCP guide](plugins/ruvnet/docs/INSTALL.md#local-cli-and-mcp-companion) · [MetaHarness](https://github.com/ruvnet/metaharness)
 > Claude Code: `/plugin marketplace add ruvnet/ruvnet`, then `/plugin install ruvnet@ruvnet`.
+> Reviewed changes: `node plugins/ruvnet/bin/ruvnet.mjs changes` · [Harness evidence](https://ruvnet-harness-evidence.ruv.chatgpt.site)
 
 > **September 2026:** RuView and Ruflo remain the two distribution anchors. Fourteen repositories were added since August 10, weighted toward governed evolution and agent operations: Dream Machine, Autogenous, ruClip, openAVO, LatentMesh, and MoE Foundry.
 

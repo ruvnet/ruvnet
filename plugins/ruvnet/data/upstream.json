@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-09-12T10:20:00Z",
+  "retention": "This file is a reviewed current snapshot. Dated reports under docs/self-improvement preserve prior observations.",
+  "sources": [
+    {"id":"ruflo","repository":"https://github.com/ruvnet/ruflo","revision":"2821d7bb779622462c367a25bfaab41718a4b193","committedAt":"2026-09-12T07:14:52Z","license":"MIT"},
+    {"id":"metaharness","repository":"https://github.com/ruvnet/metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","committedAt":"2026-09-05T15:29:24Z","license":"MIT"},
+    {"id":"ruvector","repository":"https://github.com/ruvnet/RuVector","revision":"edaffffb3b85768eb1f3ec1f683b7f46f0506af4","committedAt":"2026-09-05T19:03:34Z","license":"MIT"},
+    {"id":"agentdb","repository":"https://github.com/ruvnet/agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","committedAt":"2026-07-30T00:59:00Z","license":"MIT"}
+  ],
+  "changes": [
+    {"id":"ruflo-federation-boundaries","project":"ruflo","revision":"2821d7bb779622462c367a25bfaab41718a4b193","committedAt":"2026-09-12T07:14:52Z","kind":"security","summary":"Federation tools now declare destructive behavior accurately and relay text is labeled as untrusted input.","evidence":"https://github.com/ruvnet/ruflo/commit/2821d7bb779622462c367a25bfaab41718a4b193"},
+    {"id":"ruflo-protocol-governance","project":"ruflo","revision":"39e0b0540c9b018174955fc8a21f355bbac26c6a","committedAt":"2026-09-12T03:49:50Z","kind":"protocol","summary":"Published draft specifications and verification vectors for ANS, NIP-98 HTTP authentication, signed messages and protocol governance.","evidence":"https://github.com/ruvnet/ruflo/tree/39e0b0540c9b018174955fc8a21f355bbac26c6a/docs/protocol"},
+    {"id":"metaharness-mcp-detection","project":"metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","committedAt":"2026-09-05T15:29:24Z","kind":"evaluation","summary":"Aligned threat-model and MCP scan detection through an evaluated adversarial change.","evidence":"https://github.com/ruvnet/metaharness/commit/d5833dc6512ac1adeeef91a331c29055cd8a4dbb"},
+    {"id":"ruvector-mincut-rejection","project":"ruvector","revision":"cae37fd771f84db163f71e03fb2f94ba1434945c","committedAt":"2026-09-05T18:56:02Z","kind":"negative-result","summary":"Rejected min-cut-gated forgetting after evaluation; the negative result is retained as design evidence.","evidence":"https://github.com/ruvnet/RuVector/commit/cae37fd771f84db163f71e03fb2f94ba1434945c"},
+    {"id":"agentdb-embedding-governance","project":"agentdb","revision":"e4c22eea45ab2f2526b690b41a02cc6800718985","committedAt":"2026-07-30T00:58:33Z","kind":"governance","summary":"Governed embedding identity and MetaHarness promotion for persistent memory.","evidence":"https://github.com/ruvnet/agentdb/commit/e4c22eea45ab2f2526b690b41a02cc6800718985"}
+  ]
+}

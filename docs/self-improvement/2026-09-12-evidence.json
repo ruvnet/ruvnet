@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-12",
+  "baseline": "8ef16e5c7dbe1565b624c255ca81b1807d61002d",
+  "candidate": "reviewed-upstream-change-feed",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "architecture": "x64",
+    "benchmarkRunsPerVariant": 15,
+    "discoverySamplesPerRun": 10000,
+    "coldCliSamplesPerRun": 20
+  },
+  "heldOut": {
+    "baseline": {"passed":1,"total":6},
+    "candidate": {"passed":6,"total":6}
+  },
+  "benchmarks": {
+    "baselineMedian": {"discoveryP95Ms":0.0014120000000019672,"coldCliP95Ms":78.25117899999998,"rssBytes":47804416},
+    "candidateMedian": {"discoveryP95Ms":0.0015819999999990841,"coldCliP95Ms":76.33899800000006,"rssBytes":47833088},
+    "change": {"discoveryP95Percent":12.039660056453674,"coldCliP95Percent":-2.443649434489407,"rssBytes":28672}
+  },
+  "tests": {"groupsPassed":8,"groupsFailed":0},
+  "validation": {"plugin":true,"skillsPassed":4,"skillsFailed":0,"packageFiles":18,"compressedBytes":16499},
+  "metaharness": {
+    "package":"metaharness@0.4.16",
+    "hardConstraints":"6/6",
+    "baseline":{"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "candidate":{"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "note":"These scores are heuristic and are not the held-out proof."
+  },
+  "security": {
+    "rufloPackage":"@claude-flow/cli@3.25.6",
+    "deepScan":{"critical":0,"high":0,"medium":0,"low":0},
+    "npmAudit":{"critical":0,"high":0,"moderate":0,"low":0},
+    "secretScan":{"findings":0,"filesReportedByScanner":5},
+    "limitations":"Scanner coverage is tool-reported and is not proof of complete security."
+  },
+  "memoryExperiment": {
+    "ruvectorWasm":"deferred",
+    "gnn":"rejected for this workload",
+    "reason":"Ten static catalog records do not provide a credible semantic or learned-graph evaluation workload. Exact lookup remains the accepted baseline.",
+    "futureGate":{"minimumRecords":100,"minimumTaskSuccessGainPercentagePoints":10,"p95MaximumMs":20,"memoryMaximumBytes":134217728}
+  }
+}

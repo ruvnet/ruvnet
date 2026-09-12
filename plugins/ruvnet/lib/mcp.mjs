@@ -1,13 +1,14 @@
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { CallToolRequestSchema, ListToolsRequestSchema, ListResourcesRequestSchema, ReadResourceRequestSchema, ListPromptsRequestSchema, GetPromptRequestSchema } from '@modelcontextprotocol/sdk/types.js';
-import { CATALOG, VERSION, HOSTS, discover, project, plan, connect } from './core.mjs';
+import { CATALOG, UPSTREAM, VERSION, HOSTS, discover, project, changes, plan, connect } from './core.mjs';
 
 const schema = properties => ({ type: 'object', properties, additionalProperties: false });
 const string = { type: 'string', minLength: 1, maxLength: 2000 };
 export const TOOLS = [
   { name: 'ruvnet_discover', description: 'Find RuV Stack projects by exact keyword overlap. Read-only, offline, source-linked catalog; no live capability claims.', inputSchema: schema({ query: { type: 'string', maxLength: 2000 }, limit: { type: 'integer', minimum: 1, maximum: 10 } }) },
   { name: 'ruvnet_project', description: 'Read a known project’s purpose, source links and maturity boundary.', inputSchema: { ...schema({ id: string }), required: ['id'] } },
+  { name: 'ruvnet_changes', description: 'Read the reviewed upstream change snapshot with exact revisions and evidence links. This is not a live feed.', inputSchema: schema({ limit: { type: 'integer', minimum: 1, maximum: 20 } }) },
   { name: 'ruvnet_plan', description: 'Return an advisory SPARC/MetaHarness integration plan. Does not execute, install, access repositories or publish.', inputSchema: { ...schema({ goal: string }), required: ['goal'] } },
   { name: 'ruvnet_connect', description: 'Get installation and connection guidance for a supported host. No configuration is changed.', inputSchema: { ...schema({ host: { type: 'string', enum: HOSTS } }), required: ['host'] } }
 ].map(t => ({ ...t, annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false } }));
@@ -20,11 +21,13 @@ export function dispatch(name, args = {}) {
   argsOnly(args, Object.keys(tool.inputSchema.properties));
   if (name === 'ruvnet_discover') return discover(args.query, args.limit);
   if (name === 'ruvnet_project') return project(args.id);
+  if (name === 'ruvnet_changes') return changes(args.limit);
   if (name === 'ruvnet_plan') return plan(args.goal);
   return connect(args.host);
 }
 const resources = [
   { uri: 'ruv://catalog', name: 'RuV Stack catalog', mimeType: 'application/json', value: CATALOG },
+  { uri: 'ruv://changes', name: 'Reviewed RuV upstream changes', mimeType: 'application/json', value: UPSTREAM },
   { uri: 'ruv://federation', name: 'Federation endpoints and authority', mimeType: 'application/json', value: connect('chatgpt') }
 ];
 export function createServer() {

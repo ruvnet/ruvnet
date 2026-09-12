@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-12",
+  "candidate": "reviewed-upstream-change-feed",
+  "hypothesis": "A revision-pinned local change feed will let MCP hosts inspect newly incorporated RuV Stack changes with provenance while preserving the entry point's offline, read-only boundary.",
+  "baseline": "8ef16e5c7dbe1565b624c255ca81b1807d61002d",
+  "heldOutChecks": [
+    "CLI returns the reviewed change feed",
+    "CLI limit is enforced",
+    "MCP lists ruvnet_changes as read-only and non-destructive",
+    "MCP returns exact 40-character source revisions",
+    "ruv://changes is readable",
+    "unknown and oversized arguments fail closed"
+  ],
+  "acceptance": {
+    "heldOutChecksPassed": 6,
+    "existingTestsPassed": true,
+    "validationPassed": true,
+    "dependencyAuditHighOrCritical": 0,
+    "securityScanHighOrCritical": 0,
+    "metaharnessHardConstraints": "6/6",
+    "discoveryP95RegressionMaximumPercent": 20,
+    "coldCliP95RegressionMaximumPercent": 20,
+    "coldCliP95AbsoluteAllowanceMs": 5,
+    "rssIncreaseMaximumBytes": 5242880
+  },
+  "memoryDecision": {
+    "ruvectorWasm": "evaluate, do not add unless a held-out semantic workload beats exact lookup",
+    "gnn": "evaluate, do not add unless graph learning improves task success against a simpler baseline"
+  }
+}

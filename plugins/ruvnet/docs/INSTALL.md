@@ -46,6 +46,7 @@ git clone https://github.com/ruvnet/ruvnet.git
 cd ruvnet/plugins/ruvnet
 npm ci --ignore-scripts
 node bin/ruvnet.mjs catalog memory
+node bin/ruvnet.mjs changes 5
 node bin/ruvnet.mjs plan "Build a repository harness with persistent memory"
 node bin/ruvnet.mjs connect chatgpt
 ```
@@ -64,10 +65,11 @@ Copy the returned `config.mcpServers.ruvnet-guide` object into a host that suppo
 | --- | --- |
 | `ruvnet_discover` | Search the dated catalog by exact keyword overlap. |
 | `ruvnet_project` | Read a project, source links and its maturity boundary. |
+| `ruvnet_changes` | Read the reviewed upstream snapshot with exact revisions and evidence links. |
 | `ruvnet_plan` | Return an advisory SPARC/MetaHarness plan, without executing it. |
 | `ruvnet_connect` | Return connection guidance; it does not change configuration. |
 
-Resources: `ruv://catalog`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. A remote-only host cannot connect directly to local stdio.
+Resources: `ruv://catalog`, `ruv://changes`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. The changes resource is a reviewed snapshot rather than a live feed. A remote-only host cannot connect directly to local stdio.
 
 ## Codex repository marketplace
 
