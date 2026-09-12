@@ -4,6 +4,12 @@
 
 **rUv** ([`ruvnet`](https://github.com/ruvnet)) builds open source infrastructure for agent orchestration, adaptive memory, vector intelligence, portable runtimes, and privacy preserving spatial sensing. The core stack is [RuView](https://github.com/ruvnet/RuView), [Ruflo](https://github.com/ruvnet/ruflo), [RuVector](https://github.com/ruvnet/RuVector), [MetaHarness](https://github.com/ruvnet/metaharness), [RVF](https://www.npmjs.com/package/@ruvector/rvf), and [RVM](https://github.com/ruvnet/rvm).
 
+> [!TIP]
+> **Your team. Your agents. One federation.**
+> Coordinate at [x.ruv.io](https://x.ruv.io) · [ChatGPT management console](https://ruflo-federation.ruv.chatgpt.site/)
+>
+> **MCP:** Add `https://x.ruv.io/mcp` as a remote MCP server in your client; authorize when prompted. [Setup & details](https://github.com/ruvnet/ruflo/blob/main/.agents/skills/open-federation/SKILL.md).
+
 > **September 2026:** RuView and Ruflo remain the two distribution anchors. Fourteen repositories were added since August 10, weighted toward governed evolution and agent operations: Dream Machine, Autogenous, ruClip, openAVO, LatentMesh, and MoE Foundry.
 
 This ecosystem is published through one developer account. Repositories can include community contributions, automation, generated artifacts, and imported history. The evidence files keep those categories separate.
