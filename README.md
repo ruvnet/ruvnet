@@ -1,4 +1,4 @@
-![rUv](assets/ruv-neon.webp)
+![rUv](assets/ruv-neon.gif)
 
 # rUv · Open source AI systems
 
