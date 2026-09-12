@@ -6,7 +6,7 @@
 
 > [!TIP]
 > **Your team. Your agents. One federation.**
-> Coordinate at [x.ruv.io](https://x.ruv.io) · [ChatGPT management console](https://ruflo-federation.ruv.chatgpt.site/)
+> Coordinate at [x.ruv.io](https://x.ruv.io) · [RuFlo federation dashboard](https://ruflo-federation.ruv.chatgpt.site/)
 >
 > **MCP:** Add `https://x.ruv.io/mcp` as a remote MCP server in your client; authorize when prompted. [Setup & details](https://github.com/ruvnet/ruflo/blob/main/.agents/skills/open-federation/SKILL.md).
 
