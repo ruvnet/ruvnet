@@ -1,0 +1,30 @@
+{
+  "name": "ruvnet",
+  "version": "0.1.0",
+  "description": "Discover and integrate the RuV Stack with bounded skills and the Ruflo federation.",
+  "author": {
+    "name": "rUv",
+    "url": "https://github.com/ruvnet"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RuV Stack",
+    "shortDescription": "Your entry point to the world of ruvnet.",
+    "longDescription": "Discover the stack, connect to the federation, and plan repository-specific MetaHarness integrations with explicit authority and evidence.",
+    "developerName": "rUv",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://x.ruv.io",
+    "defaultPrompt": [
+      "Find the right RuV tools for my project.",
+      "Connect me to the Ruflo federation.",
+      "Plan a bounded MetaHarness integration."
+    ]
+  },
+  "mcpServers": "./.mcp.json",
+  "homepage": "https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md",
+  "repository": "https://github.com/ruvnet/ruvnet"
+}

@@ -10,6 +10,9 @@
 >
 > **MCP:** Add `https://x.ruv.io/mcp` as a remote MCP server in your client; authorize when prompted. [Setup & details](https://github.com/ruvnet/ruflo/blob/main/.agents/skills/open-federation/SKILL.md).
 
+> **Start with the RuV Stack:** [Install skills + marketplace](docs/entrypoint/INSTALL.md) · [CLI / MCP guide](plugins/ruvnet/docs/INSTALL.md#local-cli-and-mcp-companion) · [MetaHarness](https://github.com/ruvnet/metaharness)
+> Claude Code: `/plugin marketplace add ruvnet/ruvnet`, then `/plugin install ruvnet@ruvnet`.
+
 > **September 2026:** RuView and Ruflo remain the two distribution anchors. Fourteen repositories were added since August 10, weighted toward governed evolution and agent operations: Dream Machine, Autogenous, ruClip, openAVO, LatentMesh, and MoE Foundry.
 
 This ecosystem is published through one developer account. Repositories can include community contributions, automation, generated artifacts, and imported history. The evidence files keep those categories separate.

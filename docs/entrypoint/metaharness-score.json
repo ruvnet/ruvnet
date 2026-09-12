@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "repo": "@ruvnet/entrypoint",
+  "harnessFit": 60,
+  "compileConfidence": 65,
+  "taskCoverage": 84,
+  "toolSafety": 90,
+  "memoryUsefulness": 38,
+  "estCostPerRunUsd": 0.024,
+  "recommendedMode": "CLI + MCP",
+  "archetype": "mcp-server-harness",
+  "template": "vertical:coding",
+  "scaffoldReady": true,
+  "hardConstraints": "6/6",
+  "generatedAt": "2026-09-12T03:35:11.738Z"
+}

@@ -1,0 +1,20 @@
+{
+  "plugins/ruvnet/.claude-plugin/plugin.json": "c3a2d141ae33c078d9107519c0686069a33fdd739132b0269e4e633bf872b641",
+  "plugins/ruvnet/.codex-plugin/plugin.json": "893edc2a193fea307ff373d678f3ac8a5463af2a522a09aff45df60c5d0eea86",
+  "plugins/ruvnet/.mcp.json": "0306c86442f2244198a0049ccf53d87f120cfb2618aebda9b143d14b50744b34",
+  "plugins/ruvnet/bench/run.mjs": "7b8e5450a04c2e5f176c6d560a51241bcc5a5889a49caed35849e48eb24a6f53",
+  "plugins/ruvnet/bin/ruvnet.mjs": "6e366fba22eeef77f1c88f2c0712c84b74514c9b18514ae45009d4895a718b00",
+  "plugins/ruvnet/data/catalog.json": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+  "plugins/ruvnet/docs/INSTALL.md": "7129b6890595eff1f8c654dceccc19982b5fadc93e3b4993d12543c94d0994fd",
+  "plugins/ruvnet/lib/core.mjs": "5c48f8259b72fc1254b8d8b245c616e602c0c7f8ddc2987c7cc8d29c7fdcca0e",
+  "plugins/ruvnet/lib/mcp.mjs": "a289ed2912a252db834abaae2a6e15cc6fcc102529863c047a0c5ef2461275f7",
+  "plugins/ruvnet/package-lock.json": "dc2e33b25aeb4704b6cd8b79c1bf89694520c575f8c9a930ca7e7f41a23dd9bf",
+  "plugins/ruvnet/package.json": "7b4d0f3f848639aca271ec77a0ae49d6b325b2535d6175fe1c85e291bbaebf04",
+  "plugins/ruvnet/scripts/validate.mjs": "9010954b087bf295aa9d6fe9f2c72c26526be010d301fd412a62dfa816ff08a8",
+  "plugins/ruvnet/skills/ruvnet-federation/SKILL.md": "2c10bc975fe8ad3dc13de25f42b2d764613721a4aee5959f6c6019ed086f6189",
+  "plugins/ruvnet/skills/ruvnet-memory/SKILL.md": "e6f1664061545523c53694f2d834d4536832069a8ecfc7122ded34ad51710ef1",
+  "plugins/ruvnet/skills/ruvnet-metaharness/SKILL.md": "4cbffff720f79b2a519080fd38d7333e35bc0c09e9db5ecd219dde9e240e5788",
+  "plugins/ruvnet/skills/ruvnet-start/SKILL.md": "4a3eadd643ab74c3cb1eda79d3f876688822b5831d832417b5eeb8edcc3a8d50",
+  "plugins/ruvnet/test/core.test.mjs": "722b83ceeed0ca61be9bfbdc707eced5666d9cb872cb16379ceb40adad6e3029",
+  "plugins/ruvnet/test/mcp.test.mjs": "220afb8d73054595a36f3d158f656f30f3dbb2614502fbb3aabc6e6e954bc31f"
+}

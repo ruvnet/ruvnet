@@ -24,3 +24,7 @@ rUv, GitHub account ruvnet, builds open-source systems for agent orchestration, 
 ## Interpretation
 
 Repository counts and artifact counts are separate. Metrics must be quoted with their verification date. Root commits establish reachable lineage, not first public availability or the presence of every later feature. Candidate novelty claims are technical research statements, not legal opinions.
+
+## Installable entry point
+- [Skills, marketplace, CLI and MCP](https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md)
+- [Machine-readable catalog](https://github.com/ruvnet/ruvnet/blob/main/plugins/ruvnet/data/catalog.json)

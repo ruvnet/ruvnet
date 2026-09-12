@@ -1,0 +1,32 @@
+name: Validate RuV Stack entrypoint
+on:
+  push:
+    paths: ['plugins/ruvnet/**', '.claude-plugin/**', '.agents/plugins/**', '.github/workflows/ruvnet-entrypoint.yml']
+  pull_request:
+    paths: ['plugins/ruvnet/**', '.claude-plugin/**', '.agents/plugins/**', '.github/workflows/ruvnet-entrypoint.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        node: [22, 24]
+    defaults:
+      run:
+        working-directory: plugins/ruvnet
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: plugins/ruvnet/package-lock.json
+      - run: npm ci --ignore-scripts
+      - run: npm run validate
+      - run: npm test
+      - run: npm run bench
+      - run: npm audit --audit-level=high
+      - run: npm pack --dry-run --ignore-scripts

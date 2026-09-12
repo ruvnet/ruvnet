@@ -1,0 +1,13 @@
+{
+  "name": "ruvnet",
+  "version": "0.1.0",
+  "description": "Your entry point to the RuV Stack: discovery, federation and governed MetaHarness integration.",
+  "author": {
+    "name": "rUv",
+    "url": "https://github.com/ruvnet"
+  },
+  "homepage": "https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md",
+  "repository": "https://github.com/ruvnet/ruvnet",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ruvnet-federation": {
+      "type": "http",
+      "url": "https://x.ruv.io/mcp"
+    }
+  }
+}

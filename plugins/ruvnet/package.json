@@ -1,0 +1,36 @@
+{
+  "name": "@ruvnet/entrypoint",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only RuV Stack discovery, integration plans, CLI and MCP",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ruvnet": "bin/ruvnet.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "data",
+    "skills",
+    "docs",
+    ".mcp.json",
+    ".claude-plugin",
+    ".codex-plugin",
+    "scripts",
+    "test",
+    "bench"
+  ],
+  "scripts": {
+    "test": "node --test test/core.test.mjs test/mcp.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "bench": "node bench/run.mjs",
+    "mcp": "node bin/ruvnet.mjs mcp",
+    "check": "npm run validate && npm test && npm run bench"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0"
+  }
+}

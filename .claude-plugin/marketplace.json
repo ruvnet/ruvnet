@@ -1,0 +1,18 @@
+{
+  "name": "ruvnet",
+  "owner": {
+    "name": "rUv",
+    "url": "https://github.com/ruvnet"
+  },
+  "metadata": {
+    "description": "The RuV Stack entry point"
+  },
+  "plugins": [
+    {
+      "name": "ruvnet",
+      "source": "./plugins/ruvnet",
+      "description": "RuV Stack skills and the federation MCP connector",
+      "version": "0.1.0"
+    }
+  ]
+}

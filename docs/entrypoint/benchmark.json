@@ -1,0 +1,30 @@
+{
+  "kind": "local-dispatch-benchmark",
+  "node": "v24.19.0",
+  "platform": "linux",
+  "arch": "x64",
+  "projects": 10,
+  "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+  "samples": 10000,
+  "discoveryMs": {
+    "p50": 0.0007419999999953575,
+    "p95": 0.001011999999995794
+  },
+  "coldCliSamples": 20,
+  "coldCliMs": {
+    "p50": 59.33800700000006,
+    "p95": 62.99981600000012
+  },
+  "rssBytes": 48050176,
+  "excludes": [
+    "model inference",
+    "semantic recall",
+    "network latency",
+    "host UI installation",
+    "end-to-end agent quality"
+  ],
+  "gates": {
+    "discoveryP95Below5ms": true,
+    "coldCliP95Below1000ms": true
+  }
+}
