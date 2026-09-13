@@ -156,7 +156,10 @@
   },
   "ci": {
     "workflow": "https://github.com/ruvnet/ruvnet/actions/workflows/ruvnet-entrypoint.yml",
-    "status": "pending push"
+    "candidateCommit": "e1f7d7303c94c1e2d12ea1a610bb6102bb4baee3",
+    "candidateRun": "https://github.com/ruvnet/ruvnet/actions/runs/34751619074",
+    "status": "success",
+    "node22": "success",
+    "node24": "success"
   }
 }
-
