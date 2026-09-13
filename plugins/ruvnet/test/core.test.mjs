@@ -19,7 +19,7 @@ test('hostile goal remains data and cannot alter fixed command templates',()=>{
  assert.equal(r.goal,goal);assert.equal(r.executed,false);assert.ok(!JSON.stringify(r.metaharness.argvTemplates).includes(goal));assert.equal(r.phases.length,5);assert.ok(Object.values(r.gate).every(Boolean));
 });
 test('all supported hosts and dispatch paths',()=>{
- for(const h of HOSTS){const c=connect(h);assert.equal(c.remoteMcp,'https://x.ruv.io/mcp');assert.ok(!JSON.stringify(c).includes('Authorization:'));}
+ for(const h of HOSTS){const c=connect(h);assert.equal(c.remoteMcp,h==='chatgpt'?'https://x.ruv.io/chatgpt/mcp':'https://x.ruv.io/mcp');assert.ok(!JSON.stringify(c).includes('Authorization:'));}
  const c=connect('stdio').config.mcpServers['ruvnet-guide'];assert.ok(c.args[0].endsWith('/bin/ruvnet.mjs'));assert.equal(c.args[1],'mcp');
  const ruflo=dispatch('ruvnet_project',{id:'ruflo'});assert.equal(ruflo.id,'ruflo');assert.match(ruflo.upstream.revision,/^[0-9a-f]{40}$/);
  const feed=dispatch('ruvnet_changes',{limit:2});assert.equal(feed.changes.length,2);assert.match(feed.note,/not a live feed/);

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "candidate": "host-specific-federation-endpoints",
+  "hypothesis": "Routing ChatGPT to Ruflo's public review MCP profile while preserving the legacy MCP route for other hosts will make the entry point's connection guidance compatible with the deployed gateway without expanding local authority.",
+  "baseline": "7caac54359a89b3fb8192be6cb8b9a5252beb13b",
+  "heldOutChecks": [
+    "ChatGPT connection guidance returns https://x.ruv.io/chatgpt/mcp",
+    "Claude connection guidance retains https://x.ruv.io/mcp",
+    "stdio connection guidance retains the local read-only server configuration",
+    "CLI connect chatgpt emits the review endpoint",
+    "MCP ruvnet_connect emits the same host-specific endpoint",
+    "unknown hosts and extra arguments fail closed"
+  ],
+  "acceptance": {
+    "heldOutChecksPassed": 6,
+    "existingTestsPassed": true,
+    "validationPassed": true,
+    "liveChatGptEndpointCompatible": true,
+    "dependencyAuditHighOrCritical": 0,
+    "securityScanHighOrCritical": 0,
+    "metaharnessHardConstraints": "6/6",
+    "discoveryP95RegressionMaximumPercent": 20,
+    "coldCliP95RegressionMaximumPercent": 20,
+    "coldCliP95AbsoluteAllowanceMs": 5,
+    "rssIncreaseMaximumBytes": 5242880
+  },
+  "memoryDecision": {
+    "ruvectorWasm": "defer until at least 100 provenance records support a leakage-free retrieval comparison",
+    "gnn": "reject for this ten-project static catalog unless a held-out graph task demonstrates at least ten percentage points of task-success gain"
+  }
+}

@@ -6,6 +6,7 @@ const root=fileURLToPath(new URL('../',import.meta.url)),json=p=>JSON.parse(read
 for(const p of ['.claude-plugin/plugin.json','.codex-plugin/plugin.json']){const m=json(p);assert.equal(m.name,'ruvnet');assert.equal(m.version,pkg.version);assert.ok(existsSync(resolve(root,m.skills)));assert.ok(existsSync(resolve(root,m.mcpServers)));}
 assert.deepEqual(json('.mcp.json'),{mcpServers:{'ruvnet-federation':{type:'http',url:'https://x.ruv.io/mcp'}}});
 const catalog=json('data/catalog.json');assert.equal(new Set(catalog.projects.map(p=>p.id)).size,catalog.projects.length);
+assert.equal(catalog.federation.chatgptMcp,'https://x.ruv.io/chatgpt/mcp');
 for(const p of catalog.projects){assert.ok(p.boundary);for(const url of [p.repository,p.docs])assert.equal(new URL(url).hostname,'github.com');}
 const upstream=json('data/upstream.json');
 assert.match(upstream.observedAt,/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/);
@@ -13,5 +14,5 @@ assert.equal(new Set(upstream.sources.map(source=>source.id)).size,upstream.sour
 for(const source of upstream.sources){assert.ok(catalog.projects.some(project=>project.id===source.id));assert.match(source.revision,/^[0-9a-f]{40}$/);assert.equal(source.license,'MIT');assert.equal(new URL(source.repository).hostname,'github.com');}
 for(const change of upstream.changes){assert.ok(upstream.sources.some(source=>source.id===change.project));assert.match(change.revision,/^[0-9a-f]{40}$/);assert.equal(new URL(change.evidence).hostname,'github.com');}
 for(const skill of readdirSync(resolve(root,'skills'))){const file=resolve(root,'skills',skill,'SKILL.md'),text=readFileSync(file,'utf8');assert.ok(text.startsWith('---\nname: '+skill+'\n'));assert.match(text,/\ndescription: .+/);assert.ok(!text.includes('[TODO:'));for(const m of text.matchAll(/\]\(([^)]+)\)/g))if(!m[1].startsWith('https:'))assert.ok(existsSync(resolve(dirname(file),m[1])),m[1]);}
-const repo=resolve(root,'../..');if(existsSync(resolve(repo,'.claude-plugin/marketplace.json'))){const a=JSON.parse(readFileSync(resolve(repo,'.claude-plugin/marketplace.json')));assert.equal(a.name,'ruvnet');assert.equal(resolve(repo,a.plugins[0].source),resolve(root));const b=JSON.parse(readFileSync(resolve(repo,'.agents/plugins/marketplace.json')));assert.equal(resolve(repo,b.plugins[0].source.path),resolve(root));assert.equal(b.plugins[0].policy.installation,'AVAILABLE');}
-console.log('PASS: manifests, marketplace paths, skill references, catalog and fixed MCP endpoint');
+const repo=resolve(root,'../..');if(existsSync(resolve(repo,'.claude-plugin/marketplace.json'))){const a=JSON.parse(readFileSync(resolve(repo,'.claude-plugin/marketplace.json')));assert.equal(a.name,'ruvnet');assert.equal(a.plugins[0].version,pkg.version);assert.equal(resolve(repo,a.plugins[0].source),resolve(root));const b=JSON.parse(readFileSync(resolve(repo,'.agents/plugins/marketplace.json')));assert.equal(resolve(repo,b.plugins[0].source.path),resolve(root));assert.equal(b.plugins[0].policy.installation,'AVAILABLE');}
+console.log('PASS: manifests, marketplace paths, skill references, catalog and host-specific MCP endpoints');

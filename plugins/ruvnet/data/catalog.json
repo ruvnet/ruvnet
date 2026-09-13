@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-09-12",
+  "reviewedAt": "2026-09-13",
   "source": "https://github.com/ruvnet/ruvnet",
-  "federation": {"website":"https://x.ruv.io","mcp":"https://x.ruv.io/mcp","dashboard":"https://ruflo-federation.ruv.chatgpt.site/","relay":"wss://relay.ruv.io"},
+  "federation": {"website":"https://x.ruv.io","mcp":"https://x.ruv.io/mcp","chatgptMcp":"https://x.ruv.io/chatgpt/mcp","dashboard":"https://ruflo-federation.ruv.chatgpt.site/","relay":"wss://relay.ruv.io"},
   "projects": [
     {"id":"ruflo","name":"Ruflo","layer":"orchestration","repository":"https://github.com/ruvnet/ruflo","docs":"https://github.com/ruvnet/ruflo/blob/main/README.md","summary":"Coordinate agents, route work, and operate federated swarms.","keywords":["swarm","agents","coordinate","orchestration","federation","nostr","ans"],"boundary":"Check the live tools and claims ledger. A gateway signature is not a personal signature."},
     {"id":"metaharness","name":"MetaHarness","layer":"harness","repository":"https://github.com/ruvnet/metaharness","docs":"https://github.com/ruvnet/metaharness/blob/main/docs/USERGUIDE.md","summary":"Generate a repository-specific agent harness with CLI, MCP, skills and evaluation gates.","keywords":["harness","metaharness","cli","mcp","repository","repo","scaffold","generate","darwin","evaluation"],"boundary":"Generation creates a candidate. Build, test and evaluate it before granting execution or promotion authority."},

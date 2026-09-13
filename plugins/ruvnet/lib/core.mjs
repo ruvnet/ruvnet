@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-export const VERSION = '0.2.0';
+export const VERSION = '0.2.1';
 export const CATALOG = JSON.parse(readFileSync(new URL('../data/catalog.json', import.meta.url), 'utf8'));
 export const UPSTREAM = JSON.parse(readFileSync(new URL('../data/upstream.json', import.meta.url), 'utf8'));
 export const HOSTS = ['chatgpt', 'claude', 'claude-code', 'lovable', 'codex', 'stdio'];
@@ -69,9 +69,10 @@ export function plan(goal) {
 }
 export function connect(host) {
   if (!HOSTS.includes(host)) throw new Error(`host must be one of ${HOSTS.join(', ')}`);
-  const common = { host, remoteMcp: CATALOG.federation.mcp, dashboard: CATALOG.federation.dashboard,
+  const remoteMcp = host === 'chatgpt' ? CATALOG.federation.chatgptMcp : CATALOG.federation.mcp;
+  const common = { host, remoteMcp, dashboard: CATALOG.federation.dashboard,
     authentication: 'Use host-managed OAuth for gateway writes. Never paste an admin token into chat or a config committed to Git.',
-    distinction: 'The hosted federation and the local read-only discovery companion expose different tools.',
+    distinction: 'ChatGPT uses the review-scoped gateway profile. Other remote hosts use the legacy service profile. The local read-only discovery companion exposes different tools.',
     verification: 'Remote: list channels, then read one. Local: call ruvnet_discover with query memory.' };
   if (host === 'stdio') return { ...common, config: { mcpServers: { 'ruvnet-guide': {
     command: process.execPath, args: [fileURLToPath(new URL('../bin/ruvnet.mjs', import.meta.url)), 'mcp']

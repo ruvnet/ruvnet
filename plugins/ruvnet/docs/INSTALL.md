@@ -19,10 +19,11 @@ Source: [Claude Code marketplace installation](https://code.claude.com/docs/en/p
 
 ## ChatGPT, Claude chat and Lovable
 
-Add this remote MCP URL through the host's custom connector flow:
+Add the host-specific remote MCP URL through the custom connector flow:
 
 ```text
-https://x.ruv.io/mcp
+ChatGPT: https://x.ruv.io/chatgpt/mcp
+Claude chat and Lovable: https://x.ruv.io/mcp
 ```
 
 | Host | Connection | Verify |

@@ -1,0 +1,937 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-13",
+  "design": "15 interleaved baseline/candidate pairs; each process ran 10000 discovery samples and 20 cold CLI samples",
+  "baselineRevision": "7caac54359a89b3fb8192be6cb8b9a5252beb13b",
+  "candidate": "host-specific-federation-endpoints",
+  "seed": null,
+  "hardware": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "architecture": "x64"
+  },
+  "summary": {
+    "baselineMedian": {
+      "coldCliP95Ms": 70.72213300000004,
+      "discoveryP95Ms": 0.0012619999999969878,
+      "rssBytes": 47890432
+    },
+    "candidateMedian": {
+      "coldCliP95Ms": 73.264093,
+      "discoveryP95Ms": 0.0009920000000036566,
+      "rssBytes": 47714304
+    },
+    "change": {
+      "coldCliP95Percent": 3.5942920443306825,
+      "discoveryP95Percent": -21.394611726939427,
+      "rssBytes": -176128
+    }
+  },
+  "raw": {
+    "baseline": [
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 60.950691000000006,
+          "p95": 66.42534999999998
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007409999999978822,
+          "p95": 0.0009420000000019968
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47955968,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 68.23622699999987,
+          "p95": 123.00329699999998
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.000750999999993951,
+          "p95": 0.0010109999999912134
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47841280,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 63.929831000000036,
+          "p95": 71.93358
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007810000000034734,
+          "p95": 0.0015920000000022583
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47796224,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 66.37093599999997,
+          "p95": 78.93672500000002
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0009809999999959018
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47058944,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 65.68245100000001,
+          "p95": 72.901367
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007610000000042305,
+          "p95": 0.0012619999999969878
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 46981120,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 63.033072000000004,
+          "p95": 82.84219299999995
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0015319999999974243
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47558656,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 60.177280999999994,
+          "p95": 64.59187999999995
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0014419999999972788
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47902720,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 59.389274,
+          "p95": 68.97521699999993
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007810000000034734,
+          "p95": 0.0014630000000011023
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 48345088,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 59.98033000000001,
+          "p95": 65.98807599999999
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0009320000000059281
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47570944,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 60.511393,
+          "p95": 69.27907699999992
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007420000000024629,
+          "p95": 0.000960999999996659
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 48345088,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 60.656660999999986,
+          "p95": 91.30211099999997
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007610000000042305,
+          "p95": 0.0013520000000042387
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 48230400,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 60.254412,
+          "p95": 68.61255799999998
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0013519999999971333
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 48144384,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 62.94324199999994,
+          "p95": 67.47250699999995
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007409999999978822,
+          "p95": 0.0009409999999974161
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 48066560,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 63.552550999999994,
+          "p95": 77.28588500000001
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007710000000002992,
+          "p95": 0.001582000000013295
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47890432,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "9f8fa56ca8c0c3293af4041d63c216cbf8b8e4081d369de07f63a809c233f25d",
+        "coldCliMs": {
+          "p50": 61.90430600000013,
+          "p95": 70.72213300000004
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.000750999999993951,
+          "p95": 0.0009809999999959018
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47575040,
+        "samples": 10000
+      }
+    ],
+    "candidate": [
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 62.886100000000056,
+          "p95": 86.58047799999997
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0009920000000036566
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47661056,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 69.4139130000001,
+          "p95": 80.30688799999996
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0010109999999912134
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47898624,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 64.816754,
+          "p95": 76.35481600000003
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007310000000018135,
+          "p95": 0.0011310000000008813
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47984640,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 66.98489300000006,
+          "p95": 73.264093
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007420000000024629,
+          "p95": 0.0009419999999948914
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47796224,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 62.327117000000044,
+          "p95": 91.89081499999992
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007609999999971251,
+          "p95": 0.0009820000000004825
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47878144,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 62.30673599999997,
+          "p95": 66.522471
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007409999999978822,
+          "p95": 0.0009919999999965512
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47464448,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 59.725087999999914,
+          "p95": 70.63853200000001
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.000960999999996659
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47276032,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 60.72652100000005,
+          "p95": 71.28475200000003
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007610000000042305,
+          "p95": 0.0011920000000031905
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47013888,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 60.63657499999999,
+          "p95": 67.330109
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007419999999953575,
+          "p95": 0.0009310000000013474
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 48005120,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 59.49400600000001,
+          "p95": 64.71172900000005
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0014419999999972788
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47542272,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 60.78796699999998,
+          "p95": 69.05473099999999
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0009410000000045216
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 48066560,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 66.05684800000006,
+          "p95": 87.00848900000005
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007310000000018135,
+          "p95": 0.0009510000000005903
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47681536,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 61.97490400000004,
+          "p95": 75.06108700000004
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0015830000000036648
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47878144,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 60.826451000000006,
+          "p95": 71.37272899999994
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0010120000000028995
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47714304,
+        "samples": 10000
+      },
+      {
+        "arch": "x64",
+        "catalogSha256": "c30fec0d5974166429e7913e2f64125b4201db4e11ac7674641c41c884a44ccb",
+        "coldCliMs": {
+          "p50": 64.15176199999996,
+          "p95": 85.98182500000007
+        },
+        "coldCliSamples": 20,
+        "discoveryMs": {
+          "p50": 0.0007409999999978822,
+          "p95": 0.0010109999999983188
+        },
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "coldCliP95Below1000ms": true,
+          "discoveryP95Below5ms": true
+        },
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "projects": 10,
+        "rssBytes": 47132672,
+        "samples": 10000
+      }
+    ]
+  }
+}
+

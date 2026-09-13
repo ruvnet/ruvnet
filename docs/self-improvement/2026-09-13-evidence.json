@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-13",
+  "decision": "accept",
+  "baseline": "7caac54359a89b3fb8192be6cb8b9a5252beb13b",
+  "candidate": "host-specific-federation-endpoints",
+  "upstream": {
+    "observedAt": "2026-09-13T10:08:28Z",
+    "sources": [
+      {
+        "project": "ruflo",
+        "revision": "b02c0cacec225deea01f586b66a9694393369432",
+        "license": "MIT",
+        "changedSincePrior": true
+      },
+      {
+        "project": "metaharness",
+        "revision": "d5833dc6512ac1adeeef91a331c29055cd8a4dbb",
+        "license": "MIT",
+        "changedSincePrior": false
+      },
+      {
+        "project": "ruvector",
+        "revision": "edaffffb3b85768eb1f3ec1f683b7f46f0506af4",
+        "license": "MIT",
+        "changedSincePrior": false
+      },
+      {
+        "project": "agentdb",
+        "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+        "license": "MIT",
+        "changedSincePrior": false
+      }
+    ],
+    "correction": {
+      "project": "agentdb",
+      "priorRecordedRevision": "e4c22eea45ab2f2526b690b41a02cc6800718985",
+      "verifiedRevision": "e4c22eea45abb27dd47a8d4db40a6c71c576fde8"
+    }
+  },
+  "heldOut": {
+    "baseline": {
+      "passed": 3,
+      "total": 6
+    },
+    "candidate": {
+      "passed": 6,
+      "total": 6
+    }
+  },
+  "liveCompatibility": {
+    "url": "https://x.ruv.io/chatgpt/mcp",
+    "observedAt": "2026-09-13T10:11:57Z",
+    "httpStatus": 200,
+    "protocolVersion": "2025-03-26",
+    "server": "ruflo-x-gateway-public",
+    "serverVersion": "0.7.2",
+    "listedTools": 12,
+    "secretNamedInputFields": 0
+  },
+  "benchmarks": {
+    "raw": "2026-09-13-benchmarks.json",
+    "baselineMedian": {
+      "coldCliP95Ms": 70.72213300000004,
+      "discoveryP95Ms": 0.0012619999999969878,
+      "rssBytes": 47890432
+    },
+    "candidateMedian": {
+      "coldCliP95Ms": 73.264093,
+      "discoveryP95Ms": 0.0009920000000036566,
+      "rssBytes": 47714304
+    },
+    "change": {
+      "coldCliP95Percent": 3.5942920443306825,
+      "discoveryP95Percent": -21.394611726939427,
+      "rssBytes": -176128
+    },
+    "initialSequentialRunNote": "An unpaired sequential comparison showed a 44.4% discovery p95 regression on a sub-microsecond operation. A 15-pair interleaved rerun reversed the direction and is the promotion comparison; the instability is disclosed rather than interpreted as a speedup."
+  },
+  "tests": {
+    "groupsPassed": 8,
+    "groupsFailed": 0
+  },
+  "validation": {
+    "plugin": true,
+    "skillsPassed": 4,
+    "skillsFailed": 0,
+    "packageFiles": 18,
+    "compressedBytes": 16814
+  },
+  "metaharness": {
+    "package": "metaharness@0.4.16",
+    "scope": "plugins/ruvnet",
+    "hardConstraints": "6/6",
+    "baseline": {
+      "harnessFit": 60,
+      "compileConfidence": 65,
+      "taskCoverage": 84,
+      "toolSafety": 90,
+      "memoryUsefulness": 38
+    },
+    "candidate": {
+      "harnessFit": 60,
+      "compileConfidence": 65,
+      "taskCoverage": 84,
+      "toolSafety": 90,
+      "memoryUsefulness": 38
+    },
+    "note": "Scores are unchanged heuristics; held-out checks prove the functional gain. Scoring repository root yields 5/6 because the package is nested, so the bounded plugin surface is the recorded target."
+  },
+  "security": {
+    "rufloPackage": "@claude-flow/cli@3.25.6",
+    "lockfileSha256": "39980df6995809a768647410c4fbbaf056bdefe4a3104034d9551d10ba03c957",
+    "deepScan": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "dependencyScan": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "npmAudit": {
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "totalDependenciesReported": 94
+    },
+    "secretScan": {
+      "findings": 0,
+      "filesReportedByScanner": 5
+    },
+    "manualTrackedFileCredentialPatternHits": 0,
+    "threatScan": {
+      "indicators": 0,
+      "filesReportedByScanner": 4
+    },
+    "limitations": "Ruflo secret and threat scanners reported narrow file coverage. Results are not proof of complete security."
+  },
+  "memoryExperiment": {
+    "ruvectorRevision": "edaffffb3b85768eb1f3ec1f683b7f46f0506af4",
+    "agentdbRevision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+    "ruvectorWasm": "deferred",
+    "gnn": "rejected for this workload",
+    "reason": "The eligible corpus remains ten static projects and six change records, below the frozen 100-record minimum. No training, persistent learning or WASM acceleration was run or claimed.",
+    "futureGate": {
+      "minimumRecords": 100,
+      "minimumTaskSuccessGainPercentagePoints": 10,
+      "p95MaximumMs": 20,
+      "memoryMaximumBytes": 134217728
+    }
+  },
+  "ci": {
+    "workflow": "https://github.com/ruvnet/ruvnet/actions/workflows/ruvnet-entrypoint.yml",
+    "status": "pending push"
+  }
+}
+
