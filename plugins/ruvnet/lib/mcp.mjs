@@ -27,7 +27,7 @@ export function dispatch(name, args = {}) {
 }
 const resources = [
   { uri: 'ruv://catalog', name: 'RuV Stack catalog', mimeType: 'application/json', value: CATALOG },
-  { uri: 'ruv://changes', name: 'Reviewed RuV upstream changes', mimeType: 'application/json', value: changes(20) },
+  { uri: 'ruv://changes', name: 'Reviewed RuV upstream changes', mimeType: 'application/json' },
   { uri: 'ruv://federation', name: 'Federation endpoints and authority', mimeType: 'application/json', value: connect('chatgpt') }
 ];
 export function createServer() {
@@ -41,7 +41,7 @@ export function createServer() {
   server.setRequestHandler(ReadResourceRequestSchema, async request => {
     const r = resources.find(r => r.uri === request.params.uri);
     if (!r) throw new Error('Unknown resource URI');
-    return { contents: [{ uri: r.uri, mimeType: r.mimeType, text: JSON.stringify(r.value) }] };
+    return { contents: [{ uri: r.uri, mimeType: r.mimeType, text: JSON.stringify(r.uri === 'ruv://changes' ? changes(20) : r.value) }] };
   });
   server.setRequestHandler(ListPromptsRequestSchema, async () => ({ prompts: [{ name: 'ruvnet-start', description: 'Start a bounded RuV Stack integration', arguments: [{ name: 'goal', description: 'The user-authorized objective', required: true }] }] }));
   server.setRequestHandler(GetPromptRequestSchema, async request => {
