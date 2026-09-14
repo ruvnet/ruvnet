@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-14",
+  "candidate": "bounded-upstream-snapshot-freshness",
+  "hypothesis": "Adding deterministic freshness and clock-skew metadata to the reviewed upstream snapshot will prevent hosts from silently treating stale provenance as current without expanding the companion's read-only authority.",
+  "baseline": "270fd513548e93862d59af8f22954c72686fb191",
+  "heldOutChecks": [
+    "a snapshot younger than 72 hours reports current",
+    "a snapshot exactly 72 hours old reports stale",
+    "a future observation reports clock-skew rather than current",
+    "an invalid observation timestamp fails closed",
+    "CLI changes output includes the deterministic freshness state and expiry",
+    "MCP ruvnet_changes exposes the same freshness metadata without adding write authority"
+  ],
+  "acceptance": {
+    "heldOutChecksPassed": 6,
+    "existingTestsPassed": true,
+    "validationPassed": true,
+    "dependencyAuditHighOrCritical": 0,
+    "securityScanHighOrCritical": 0,
+    "metaharnessHardConstraints": "6/6",
+    "discoveryP95RegressionMaximumPercent": 20,
+    "coldCliP95RegressionMaximumPercent": 20,
+    "coldCliP95AbsoluteAllowanceMs": 5,
+    "rssIncreaseMaximumBytes": 5242880
+  },
+  "memoryDecision": {
+    "ruvectorWasm": "defer until at least 100 sanitized provenance records support a leakage-free retrieval comparison with exact lookup",
+    "gnn": "reject for the current ten-project, six-change corpus unless a held-out graph task demonstrates at least ten percentage points of task-success gain"
+  },
+  "forecast": {
+    "prediction": "Within 90 days, agent-memory interfaces will increasingly require freshness and provenance state to keep retrieved evidence from influencing actions after it expires.",
+    "confidencePercent": 80,
+    "falsifiableCriterion": "By 2026-12-13, at least two primary agent-memory implementations or interoperability specifications expose explicit temporal freshness, expiry, or invalidation metadata in a public interface."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-14",
+  "seed": 20260914,
+  "runtime": {"node":"v24.19.0","platform":"linux","arch":"x64"},
+  "method": {"pairs":15,"ordering":"alternating baseline/candidate","discoverySamplesPerRun":10000,"coldCliStartsPerRun":1},
+  "baseline": [
+    {"discoveryP95Ms":0.001416000000006079,"coldCliMs":88.688134,"rssBytes":46858240},
+    {"discoveryP95Ms":0.001522000000008461,"coldCliMs":102.234653,"rssBytes":47300608},
+    {"discoveryP95Ms":0.0017160000000018272,"coldCliMs":92.59141299999999,"rssBytes":47243264},
+    {"discoveryP95Ms":0.001958999999999378,"coldCliMs":108.789019,"rssBytes":47161344},
+    {"discoveryP95Ms":0.0019670000000076016,"coldCliMs":104.42478700000001,"rssBytes":47194112},
+    {"discoveryP95Ms":0.0016450000000105547,"coldCliMs":116.461063,"rssBytes":46907392},
+    {"discoveryP95Ms":0.00145700000000204,"coldCliMs":105.80317099999999,"rssBytes":47112192},
+    {"discoveryP95Ms":0.001429000000001679,"coldCliMs":93.537465,"rssBytes":46665728},
+    {"discoveryP95Ms":0.0016260000000016817,"coldCliMs":114.37538599999999,"rssBytes":47407104},
+    {"discoveryP95Ms":0.0015410000000031232,"coldCliMs":89.11439999999999,"rssBytes":46997504},
+    {"discoveryP95Ms":0.0015659999999968477,"coldCliMs":87.16959700000001,"rssBytes":46899200},
+    {"discoveryP95Ms":0.0016480000000029804,"coldCliMs":100.324881,"rssBytes":46743552},
+    {"discoveryP95Ms":0.0017449999999996635,"coldCliMs":89.690574,"rssBytes":46809088},
+    {"discoveryP95Ms":0.0017089999999910788,"coldCliMs":104.709556,"rssBytes":46772224},
+    {"discoveryP95Ms":0.001810999999989349,"coldCliMs":106.760085,"rssBytes":47468544}
+  ],
+  "candidate": [
+    {"discoveryP95Ms":0.0020740000000074588,"coldCliMs":89.328087,"rssBytes":46964736},
+    {"discoveryP95Ms":0.0015970000000038453,"coldCliMs":101.53867300000002,"rssBytes":47222784},
+    {"discoveryP95Ms":0.0014560000000045648,"coldCliMs":90.336136,"rssBytes":46809088},
+    {"discoveryP95Ms":0.0015920000000022583,"coldCliMs":96.70605499999999,"rssBytes":46653440},
+    {"discoveryP95Ms":0.0015519999999895617,"coldCliMs":99.975253,"rssBytes":46858240},
+    {"discoveryP95Ms":0.0014649999999960528,"coldCliMs":92.296226,"rssBytes":46792704},
+    {"discoveryP95Ms":0.0017410000000097625,"coldCliMs":97.22982900000001,"rssBytes":47198208},
+    {"discoveryP95Ms":0.0014700000000118507,"coldCliMs":81.628428,"rssBytes":47284224},
+    {"discoveryP95Ms":0.0017449999999996635,"coldCliMs":93.77013199999999,"rssBytes":47415296},
+    {"discoveryP95Ms":0.001452000000000453,"coldCliMs":85.67342099999999,"rssBytes":47308800},
+    {"discoveryP95Ms":0.0014409999999998035,"coldCliMs":92.66616399999998,"rssBytes":47280128},
+    {"discoveryP95Ms":0.0016310000000032687,"coldCliMs":102.03414899999999,"rssBytes":46882816},
+    {"discoveryP95Ms":0.0014509999999887668,"coldCliMs":98.000183,"rssBytes":47423488},
+    {"discoveryP95Ms":0.0016710000000017544,"coldCliMs":98.11179200000001,"rssBytes":47083520},
+    {"discoveryP95Ms":0.0018149999999934607,"coldCliMs":97.65663500000001,"rssBytes":47210496}
+  ],
+  "summary": {
+    "baseline":{"discoveryP95MedianMs":0.0016450000000105547,"coldCliMedianMs":102.234653,"coldCliP95Ms":116.461063,"rssMedianBytes":46997504},
+    "candidate":{"discoveryP95MedianMs":0.0015920000000022583,"coldCliMedianMs":96.70605499999999,"coldCliP95Ms":102.03414899999999,"rssMedianBytes":47198208},
+    "delta":{"discoveryP95Percent":-3.2218844989639117,"coldCliP95Percent":-12.387757443017676,"coldCliP95Ms":-14.42691400000001,"rssBytes":200704}
+  },
+  "limitations":["Single shared managed runner","Sub-microsecond discovery differences are timing noise, not a speed claim","Cold CLI excludes MCP negotiation, network latency, model inference and host UI"]
+}

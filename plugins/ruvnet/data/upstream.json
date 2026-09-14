@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "observedAt": "2026-09-13T10:08:28Z",
+  "observedAt": "2026-09-14T10:17:06Z",
   "retention": "This file is a reviewed current snapshot. Dated reports under docs/self-improvement preserve prior observations.",
   "sources": [
-    {"id":"ruflo","repository":"https://github.com/ruvnet/ruflo","revision":"b02c0cacec225deea01f586b66a9694393369432","committedAt":"2026-09-12T15:32:31Z","license":"MIT"},
+    {"id":"ruflo","repository":"https://github.com/ruvnet/ruflo","revision":"1992ffb020fd461a7c2a3bb64f30476a0c5d2d26","committedAt":"2026-09-14T06:53:20Z","license":"MIT"},
     {"id":"metaharness","repository":"https://github.com/ruvnet/metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","committedAt":"2026-09-05T15:29:24Z","license":"MIT"},
     {"id":"ruvector","repository":"https://github.com/ruvnet/RuVector","revision":"edaffffb3b85768eb1f3ec1f683b7f46f0506af4","committedAt":"2026-09-05T19:03:34Z","license":"MIT"},
     {"id":"agentdb","repository":"https://github.com/ruvnet/agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","committedAt":"2026-07-30T00:59:00Z","license":"MIT"}
