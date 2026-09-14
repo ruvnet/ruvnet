@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-14",
+  "decision": "accept",
+  "baseline": "270fd513548e93862d59af8f22954c72686fb191",
+  "candidateCommit": "3d8635856d62f1f0d0ca483fdc0a3e4899870937",
+  "candidate": "bounded-upstream-snapshot-freshness",
+  "version": "0.2.2",
+  "upstream": {
+    "observedAt": "2026-09-14T10:17:06Z",
+    "sources": [
+      {"project":"ruflo","revision":"1992ffb020fd461a7c2a3bb64f30476a0c5d2d26","license":"MIT","changedSincePrior":true,"incorporated":"source-head provenance only; the change was telemetry data, not a product capability"},
+      {"project":"metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","license":"MIT","changedSincePrior":false},
+      {"project":"ruvector","revision":"edaffffb3b85768eb1f3ec1f683b7f46f0506af4","license":"MIT","changedSincePrior":false},
+      {"project":"agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","license":"MIT","changedSincePrior":false}
+    ],
+    "xRuvIo":{"version":"0.7.2","routes":["/mcp","/chatgpt/mcp"]}
+  },
+  "heldOut":{"baseline":{"passed":1,"total":6,"note":"The invalid-timestamp check threw only because the API was absent."},"candidate":{"passed":6,"total":6}},
+  "tests":{"groupsPassed":9,"groupsFailed":0},
+  "validation":{"plugin":true,"skillsPassed":4,"skillsFailed":0,"marketplaceSchemas":2,"packageFiles":18,"compressedBytes":17560,"unpackedBytes":51600},
+  "benchmarks": {
+    "raw":"2026-09-14-benchmarks.json",
+    "pairs":15,
+    "baseline":{"discoveryP95MedianMs":0.0016450000000105547,"coldCliP95Ms":116.461063,"rssMedianBytes":46997504},
+    "candidate":{"discoveryP95MedianMs":0.0015920000000022583,"coldCliP95Ms":102.03414899999999,"rssMedianBytes":47198208},
+    "delta":{"discoveryP95Percent":-3.2218844989639117,"coldCliP95Percent":-12.387757443017676,"rssBytes":200704},
+    "interpretation":"regression gates passed; timing deltas are not claimed as speed gains"
+  },
+  "metaharness":{"package":"metaharness@0.4.16","scope":"plugins/ruvnet","hardConstraints":"6/6","baseline":{"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},"candidate":{"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38}},
+  "security": {
+    "rufloPackage":"@claude-flow/cli@3.25.6",
+    "deepCodeScan":{"critical":0,"high":0,"medium":0,"low":0},
+    "deepDependencyScan":{"critical":0,"high":0,"medium":0,"low":0},
+    "npmAudit":{"critical":0,"high":0,"moderate":0,"low":0,"totalDependenciesReported":94},
+    "secretScan":{"findings":0,"filesReportedByScanner":5},
+    "manualTrackedFileCredentialPatternHits":0,
+    "threatScan":{"indicators":0,"filesReportedByScanner":4},
+    "limitations":"Secret and STRIDE scanners reported narrow file coverage. Results are not proof of complete security."
+  },
+  "memoryExperiment":{"catalogProjects":10,"changeRecords":6,"ruvectorWasm":"deferred","gnn":"rejected for this workload","persistentLearning":"not implemented","reason":"Corpus remains below the frozen 100-record minimum.","futureGate":{"minimumRecords":100,"minimumTaskSuccessGainPercentagePoints":10,"p95MaximumMs":20,"memoryMaximumBytes":134217728}},
+  "forecast":{"prediction":"Interfaces will increasingly surface freshness or invalidation state for cached evidence.","confidencePercent":80,"horizonDate":"2026-12-13","criterion":"At least two interoperable agent-memory protocols or major hosted connector interfaces expose freshness, expiry, or invalidation fields to clients.","sources":["https://arxiv.org/abs/2605.23986","https://arxiv.org/abs/2608.04746","https://blog.modelcontextprotocol.io/posts/2026-07-28/"]},
+  "ci":{"run":"https://github.com/ruvnet/ruvnet/actions/runs/34833003257","status":"success","node22":"success","node24":"success"},
+  "dashboard":"https://ruvnet-harness-evidence.ruv.chatgpt.site"
+}
