@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-15",
+  "seed": null,
+  "runtime": {
+    "node": "v24.19.0",
+    "npm": "11.9.0",
+    "platform": "linux",
+    "arch": "x64",
+    "kernel": "6.18.44",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "memoryTotalBytes": 23109898240
+  },
+  "method": {
+    "pairs": 15,
+    "ordering": "alternating baseline/candidate",
+    "discoverySamplesPerRun": 10000,
+    "coldCliStartsPerRun": 20
+  },
+  "baseline": [
+    {
+      "discoveryP95Ms": 0.0016820000000024038,
+      "coldCliP95Ms": 74.11013200000002,
+      "rssBytes": 47644672
+    },
+    {
+      "discoveryP95Ms": 0.0014129999999994425,
+      "coldCliP95Ms": 76.125272,
+      "rssBytes": 47501312
+    },
+    {
+      "discoveryP95Ms": 0.0016719999999992297,
+      "coldCliP95Ms": 78.776591,
+      "rssBytes": 47738880
+    },
+    {
+      "discoveryP95Ms": 0.0009919999999965512,
+      "coldCliP95Ms": 70.323802,
+      "rssBytes": 46960640
+    },
+    {
+      "discoveryP95Ms": 0.001102000000003045,
+      "coldCliP95Ms": 67.51741899999979,
+      "rssBytes": 47464448
+    },
+    {
+      "discoveryP95Ms": 0.0009720000000044138,
+      "coldCliP95Ms": 66.19303000000002,
+      "rssBytes": 47792128
+    },
+    {
+      "discoveryP95Ms": 0.0013719999999963761,
+      "coldCliP95Ms": 69.47777100000002,
+      "rssBytes": 47505408
+    },
+    {
+      "discoveryP95Ms": 0.0014419999999972788,
+      "coldCliP95Ms": 89.01068100000009,
+      "rssBytes": 48078848
+    },
+    {
+      "discoveryP95Ms": 0.0009510000000005903,
+      "coldCliP95Ms": 82.06476699999996,
+      "rssBytes": 47144960
+    },
+    {
+      "discoveryP95Ms": 0.0009919999999965512,
+      "coldCliP95Ms": 79.19635799999999,
+      "rssBytes": 47312896
+    },
+    {
+      "discoveryP95Ms": 0.0011720000000039477,
+      "coldCliP95Ms": 71.5330570000001,
+      "rssBytes": 48332800
+    },
+    {
+      "discoveryP95Ms": 0.0013319999999978904,
+      "coldCliP95Ms": 76.48136200000005,
+      "rssBytes": 47980544
+    },
+    {
+      "discoveryP95Ms": 0.0015619999999998413,
+      "coldCliP95Ms": 67.62865099999999,
+      "rssBytes": 47501312
+    },
+    {
+      "discoveryP95Ms": 0.0009720000000044138,
+      "coldCliP95Ms": 66.175838,
+      "rssBytes": 47951872
+    },
+    {
+      "discoveryP95Ms": 0.001462000000003627,
+      "coldCliP95Ms": 65.58959000000004,
+      "rssBytes": 47640576
+    }
+  ],
+  "candidate": [
+    {
+      "discoveryP95Ms": 0.001632000000000744,
+      "coldCliP95Ms": 178.16925099999992,
+      "rssBytes": 47468544
+    },
+    {
+      "discoveryP95Ms": 0.0014929999999964139,
+      "coldCliP95Ms": 67.423206,
+      "rssBytes": 47996928
+    },
+    {
+      "discoveryP95Ms": 0.0013719999999963761,
+      "coldCliP95Ms": 67.305813,
+      "rssBytes": 47591424
+    },
+    {
+      "discoveryP95Ms": 0.0015020000000021128,
+      "coldCliP95Ms": 77.56903199999999,
+      "rssBytes": 48013312
+    },
+    {
+      "discoveryP95Ms": 0.0011319999999983565,
+      "coldCliP95Ms": 72.138058,
+      "rssBytes": 47386624
+    },
+    {
+      "discoveryP95Ms": 0.001221999999998502,
+      "coldCliP95Ms": 67.60245099999997,
+      "rssBytes": 47747072
+    },
+    {
+      "discoveryP95Ms": 0.0009519999999980655,
+      "coldCliP95Ms": 68.085455,
+      "rssBytes": 48074752
+    },
+    {
+      "discoveryP95Ms": 0.0015720000000101209,
+      "coldCliP95Ms": 87.64458399999995,
+      "rssBytes": 47919104
+    },
+    {
+      "discoveryP95Ms": 0.0010520000000013852,
+      "coldCliP95Ms": 91.364102,
+      "rssBytes": 47984640
+    },
+    {
+      "discoveryP95Ms": 0.0009919999999965512,
+      "coldCliP95Ms": 93.02856799999995,
+      "rssBytes": 47566848
+    },
+    {
+      "discoveryP95Ms": 0.001401999999998793,
+      "coldCliP95Ms": 71.210771,
+      "rssBytes": 47587328
+    },
+    {
+      "discoveryP95Ms": 0.0009510000000005903,
+      "coldCliP95Ms": 69.98852699999998,
+      "rssBytes": 48074752
+    },
+    {
+      "discoveryP95Ms": 0.0013319999999978904,
+      "coldCliP95Ms": 65.80374700000002,
+      "rssBytes": 47747072
+    },
+    {
+      "discoveryP95Ms": 0.0009319999999988227,
+      "coldCliP95Ms": 70.89779200000001,
+      "rssBytes": 47378432
+    },
+    {
+      "discoveryP95Ms": 0.0009709999999998331,
+      "coldCliP95Ms": 73.464293,
+      "rssBytes": 47759360
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "discoveryP95MedianMs": 0.0013319999999978904,
+      "coldCliP95MedianMs": 71.5330570000001,
+      "rssMedianBytes": 47640576
+    },
+    "candidate": {
+      "discoveryP95MedianMs": 0.001221999999998502,
+      "coldCliP95MedianMs": 71.210771,
+      "rssMedianBytes": 47747072
+    },
+    "delta": {
+      "discoveryP95Percent": -8.25825825822542,
+      "coldCliP95Percent": -0.45054134901588844,
+      "coldCliP95Ms": -0.3222860000001049,
+      "rssBytes": 106496
+    }
+  },
+  "limitations": [
+    "Single shared managed runner",
+    "No random inputs; seed is null",
+    "Sub-microsecond discovery differences are timing noise, not a speed claim",
+    "Cold CLI excludes MCP negotiation, network latency, model inference and host UI"
+  ]
+}
+

@@ -4,16 +4,16 @@ import { VERSION, discover, project, changes, plan, connect } from '../lib/core.
 async function main(args) {
   const [command, ...rest] = args;
   if (!command || command === 'help' || command === '--help') {
-    console.log(`RuV Stack entrypoint ${VERSION}\n\nruvnet catalog [keywords]    Discover source-linked projects\nruvnet project <id>          Inspect one project with upstream provenance\nruvnet changes [limit]       Reviewed upstream changes and evidence\nruvnet plan <goal>           Advisory MetaHarness integration plan\nruvnet connect <host>        chatgpt, claude, claude-code, lovable, codex, stdio\nruvnet mcp                   Local read-only MCP over stdio\n\nNo shell execution, repository writes, network calls or federation signing.\nHosted federation: ChatGPT https://x.ruv.io/chatgpt/mcp · other hosts https://x.ruv.io/mcp\nInstall: https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md`);
+    console.log(`RuV Stack entrypoint ${VERSION}\n\nruvnet catalog [keywords]                  Discover source-linked projects\nruvnet project <id>                        Inspect one project with upstream provenance\nruvnet changes [limit] [project] [kind]    Filter reviewed upstream changes\nruvnet plan <goal>                         Advisory MetaHarness integration plan\nruvnet connect <host>                      chatgpt, claude, claude-code, lovable, codex, stdio\nruvnet mcp                                 Local read-only MCP over stdio\n\nNo shell execution, repository writes, network calls or federation signing.\nHosted federation: ChatGPT https://x.ruv.io/chatgpt/mcp · other hosts https://x.ruv.io/mcp\nInstall: https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md`);
     return;
   }
   if (command === '--version' && !rest.length) return console.log(VERSION);
   if (command === 'mcp' && !rest.length) return (await import('../lib/mcp.mjs')).serve();
   let result;
   if (command === 'catalog') result = discover(rest.join(' '), 10);
-  else if (command === 'changes' && rest.length <= 1) {
+  else if (command === 'changes' && rest.length <= 3) {
     const limit = rest.length ? Number(rest[0]) : 10;
-    result = changes(limit);
+    result = changes(limit, Date.now(), { ...(rest[1] === undefined ? {} : { project: rest[1] }), ...(rest[2] === undefined ? {} : { kind: rest[2] }) });
   }
   else if (command === 'plan') result = plan(rest.join(' '));
   else if (command === 'project' && rest.length === 1) result = project(rest[0]);
