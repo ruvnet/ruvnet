@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-16",
+  "decision": "accept",
+  "baseline": "390ef0640edea6b8af95ded3f64b58a0d671fc09",
+  "candidateCommit": "d5d6c0064800db526d9ab09c43b892cbe70c6315",
+  "candidate": "snapshot-bound-change-feed-cursors",
+  "version": "0.4.0",
+  "upstream": {
+    "observedAt": "2026-09-16T10:39:15Z",
+    "sources": [
+      {"project":"ruflo","revision":"a65bdf683a73dcc1f20d455658daab1cca07306b","license":"MIT","changedSincePrior":true,"incorporated":"Ruflo 3.42.1 plus learning-mode, persistent-graph, witness-resolution and federation-envelope records"},
+      {"project":"metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","license":"MIT","changedSincePrior":false},
+      {"project":"ruvector","revision":"115de07ce5222b761cc32bf1d9133247c753091b","license":"MIT","changedSincePrior":true,"incorporated":"HNSW stored-point correctness, RVF string-ID floor, dependency CVE updates and exact min-cut/spatial work records"},
+      {"project":"agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","license":"MIT","changedSincePrior":false},
+      {"project":"dream-machine","revision":"3edd426f6c9c4b1e80235f7447dc863e749345cc","license":"MIT","changedSincePrior":false,"incorporated":false},
+      {"project":"autogenous","revision":"905aa6cbe213392f8b3cab5d4f17bc3a48e0a509","license":"MIT","changedSincePrior":true,"incorporated":"incremental streaming relevance and receipt-number diagnostics records"},
+      {"project":"rvm","revision":"0973d77e5a9e99065376e8ef772a4a1d16e88c75","license":"no SPDX license detected by GitHub API","changedSincePrior":false,"incorporated":false}
+    ],
+    "licenseCorrection": "Prior reports incorrectly grouped RVM with MIT repositories; the GitHub license API reports no detectable license for the pinned RVM revision.",
+    "newRecordsIncorporated": 11,
+    "xRuvIo": {"version":"0.7.2","routes":["/mcp","/chatgpt/mcp"],"changedSincePrior":false}
+  },
+  "heldOut": {"baseline":{"passed":0,"total":6},"candidate":{"passed":6,"total":6}},
+  "tests": {"groupsPassed":10,"groupsFailed":0,"node22":true,"node24":true},
+  "validation": {"plugin":true,"skillsPassed":4,"marketplaceSchemas":2,"packageFiles":18,"compressedBytes":22239,"unpackedBytes":68303,"lockfileSha256":"b2be58253dd469d3ad51c8e384cec2cbe7f4d92c1673c183e7f944d2ac14261d"},
+  "benchmarks": {
+    "raw":"2026-09-16-benchmarks.json",
+    "pairs":15,
+    "baseline":{"discoveryP95MedianMs":0.0010420000000053165,"coldCliP95MedianMs":75.29527600000006,"rssMedianBytes":47865856},
+    "candidate":{"discoveryP95MedianMs":0.0011719999999968422,"coldCliP95MedianMs":77.11065500000007,"rssMedianBytes":47759360},
+    "delta":{"discoveryP95Percent":12.476007676666267,"coldCliP95Percent":2.4110131424446943,"coldCliP95Ms":1.8153790000000072,"rssBytes":-106496},
+    "interpretation":"All frozen regression gates passed; timing changes are not claimed as speed improvements."
+  },
+  "metaharness": {"package":"metaharness@0.4.16","scope":"plugins/ruvnet","hardConstraints":"6/6","baseline":{"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},"candidate":{"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38}},
+  "security": {
+    "rufloPackage":"@claude-flow/cli@3.25.6",
+    "deepCodeScan":{"critical":0,"high":0,"medium":0,"low":0},
+    "deepDependencyScan":{"critical":0,"high":0,"medium":0,"low":0},
+    "npmAudit":{"critical":0,"high":0,"moderate":0,"low":0},
+    "secretScan":{"findings":0,"filesReportedByScanner":5},
+    "manualTrackedFileCredentialPatternHits":0,
+    "threatScan":{"indicators":0,"filesReportedByScanner":4},
+    "trustBoundaries":["CLI positional arguments","MCP tool arguments","opaque cursor input","reviewed upstream JSON","host interpretation of annotations and linked evidence"],
+    "mitigations":["96-character cursor bound","schema and runtime format validation","snapshot and exact-filter fingerprint binding","read-only MCP annotations and implementation","72-hour freshness state","64 KiB MCP frame bound"],
+    "residualRisks":["Cursor fingerprints are public consistency checks, not authorization or secret MACs","MCP annotations are advisory to hosts","the reviewed snapshot can become stale","linked upstream claims were not independently reproduced","secret and STRIDE scanners reported narrow coverage"],
+    "limitations":"Zero reported findings is not proof of complete security."
+  },
+  "memoryExperiment": {
+    "catalogProjects":10,"changeRecords":28,"eligiblePublicRecords":38,
+    "ruvectorRevision":"115de07ce5222b761cc32bf1d9133247c753091b",
+    "supportedApisInspected":["ruvector VectorDB with flat and HNSW indexes","@ruvector/wasm VectorDB and corrected adapter","ruvector-gnn-rerank research surface","exact min-cut and spatial routing additions"],
+    "exactBaseline":"current allow-listed filtering and cursor paging",
+    "ruvectorWasm":"deferred","gnn":"rejected for this workload","persistentLearning":"not implemented",
+    "reason":"The sanitized corpus remains below the frozen 100-record minimum. Pinned documentation still states WASM HNSW is inactive, raw WASM metadata does not round-trip, and GNN reranking is not automatic in VectorDB.search. New min-cut/spatial support does not establish retrieval benefit on this corpus.",
+    "futureGate":{"minimumRecords":100,"minimumTaskSuccessGainPercentagePoints":10,"p95MaximumMs":20,"memoryMaximumBytes":134217728,"requiredAblations":["exact filters","vector only","exact plus vector fusion","GNN rerank","shuffled-graph control"]}
+  },
+  "forecast": {
+    "prediction":"Within 90 days, agent registries and provenance ledgers will increasingly bind opaque continuation cursors to snapshot or query identity instead of exposing reusable offsets.",
+    "status":"prediction, not established result","confidencePercent":85,"horizonDate":"2026-12-15",
+    "criterion":"At least two primary agent-memory, MCP, or tool-registry implementations newly publish snapshot-, revision-, or query-bound cursor invalidation semantics for provenance retrieval.",
+    "sources":["https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/pagination","https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/caching","https://arxiv.org/abs/2605.11032"],
+    "priorForecastsExpired":[]
+  },
+  "ci":{"run":"https://github.com/ruvnet/ruvnet/actions/runs/35087352221","status":"success","node22":"success","node24":"success"},
+  "dashboard":"https://ruvnet-harness-evidence.ruv.chatgpt.site"
+}
