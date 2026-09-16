@@ -67,11 +67,11 @@ Copy the returned `config.mcpServers.ruvnet-guide` object into a host that suppo
 | --- | --- |
 | `ruvnet_discover` | Search the dated catalog by exact keyword overlap. |
 | `ruvnet_project` | Read a project, source links and its maturity boundary. |
-| `ruvnet_changes` | Read the reviewed upstream snapshot with exact revisions, evidence links and freshness; optionally filter by the schema's exact `project` and `kind` enum values. |
+| `ruvnet_changes` | Page through the reviewed upstream snapshot with exact revisions, evidence links and freshness; optionally filter by the schema's exact `project` and `kind` enum values. |
 | `ruvnet_plan` | Return an advisory SPARC/MetaHarness plan, without executing it. |
 | `ruvnet_connect` | Return connection guidance; it does not change configuration. |
 
-Resources: `ruv://catalog`, `ruv://changes`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. The changes resource is the unfiltered reviewed snapshot; use the tool or `changes [limit] [project] [kind]` for exact filters. Inspect `freshness.state` before relying on the data; `stale` begins at 72 hours and `clock-skew` means the observation appears to be in the future. An empty filtered result is not evidence that upstream has no matching change. A remote-only host cannot connect directly to local stdio.
+Resources: `ruv://catalog`, `ruv://changes`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. The changes resource returns the first unfiltered page. For more results, pass the returned opaque `nextCursor` to `ruvnet_changes` with the same `project` and `kind` filters, or run `changes [limit] [project] [kind] [cursor]`. A cursor is bound to its reviewed snapshot and filters; if it is rejected after a refresh, start again from the first page. Inspect `freshness.state` before relying on the data; `stale` begins at 72 hours and `clock-skew` means the observation appears to be in the future. An empty filtered result is not evidence that upstream has no matching change. A remote-only host cannot connect directly to local stdio.
 
 ## Codex repository marketplace
 
@@ -107,6 +107,6 @@ npm run check
 npm audit
 ```
 
-Acceptance: the official MCP SDK client can initialize the local server, call all four tools, read both resources and get the prompt; unknown paths and write-like arguments fail. For remote acceptance, list channels and read one; do not publish a test message without authorization.
+Acceptance: the official MCP SDK client can initialize the local server, call all five tools, read all three resources and get the prompt; unknown paths, invalid cursors and write-like arguments fail. For remote acceptance, list channels and read one; do not publish a test message without authorization.
 
 To remove, uninstall the plugin through your host and remove only the `ruvnet-guide` local server entry. Revoke the federation OAuth grant if it is no longer needed. Removing a local plugin is not the same as revoking OAuth or deleting a personal Nostr key.

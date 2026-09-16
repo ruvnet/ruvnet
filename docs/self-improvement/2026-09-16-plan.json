@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-16",
+  "candidate": "snapshot-bound-change-feed-cursors",
+  "hypothesis": "Adding deterministic opaque cursors bound to the reviewed snapshot and exact filters will let hosts retrieve every provenance record without duplicates or cross-filter reuse now that the feed exceeds its 20-record response limit, while preserving the companion's offline read-only boundary.",
+  "baseline": "390ef0640edea6b8af95ded3f64b58a0d671fc09",
+  "heldOutChecks": [
+    "the first limited page returns a next cursor, total matches and the newest records in stable order",
+    "following the cursor returns the exact next records without overlap or gaps",
+    "project and kind filters remain applied across every continued page",
+    "tampered, stale-snapshot and cross-filter cursors fail closed",
+    "CLI continuation matches library pagination and invalid cursors exit nonzero",
+    "MCP exposes the cursor schema, preserves read-only annotations, returns the same continued page and rejects invalid cursors"
+  ],
+  "acceptance": {
+    "heldOutChecksPassed": 6,
+    "existingTestsPassed": true,
+    "validationPassed": true,
+    "dependencyAuditHighOrCritical": 0,
+    "securityScanHighOrCritical": 0,
+    "metaharnessHardConstraints": "6/6",
+    "discoveryP95RegressionMaximumPercent": 20,
+    "coldCliP95RegressionMaximumPercent": 20,
+    "coldCliP95AbsoluteAllowanceMs": 5,
+    "rssIncreaseMaximumBytes": 5242880
+  },
+  "memoryDecision": {
+    "ruvectorWasm": "defer until at least 100 sanitized provenance records support leakage-free exact, vector and fused retrieval comparisons",
+    "gnn": "reject for the current corpus unless a held-out graph task demonstrates at least ten percentage points of task-success gain over exact filtering and a shuffled-graph control"
+  },
+  "forecast": {
+    "prediction": "Within 90 days, agent registries and provenance ledgers will increasingly bind opaque continuation cursors to a snapshot or query identity rather than expose reusable offsets.",
+    "confidencePercent": 85,
+    "falsifiableCriterion": "By 2026-12-15, at least two primary agent-memory, MCP, or tool-registry implementations newly publish snapshot-, revision-, or query-bound cursor invalidation semantics for provenance retrieval."
+  }
+}
