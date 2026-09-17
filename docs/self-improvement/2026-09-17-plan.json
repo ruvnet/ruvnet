@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-17",
+  "candidate": "content-addressed-snapshot-contract",
+  "hypothesis": "Adding a deterministic snapshot identifier and an optional expected-snapshot precondition will let hosts detect mid-session provenance rollover before mixing pages, while preserving the companion's offline read-only boundary.",
+  "baseline": "846201b3baa898349f43a09348a7981353c27c6a",
+  "heldOutChecks": [
+    "every change page exposes a deterministic sha256 snapshot identifier",
+    "the identifier remains stable for identical evidence and changes when evidence changes",
+    "a matching expected snapshot continues to the exact next page without overlap or gaps",
+    "a mismatched expected snapshot fails closed before returning records",
+    "CLI accepts a matching snapshot precondition and rejects a mismatch with a nonzero exit",
+    "MCP exposes the snapshot precondition, rejects a mismatch, and the changes resource reports the same identifier"
+  ],
+  "acceptance": {
+    "heldOutChecksPassed": 6,
+    "existingTestsPassed": true,
+    "validationPassed": true,
+    "dependencyAuditHighOrCritical": 0,
+    "securityScanHighOrCritical": 0,
+    "metaharnessHardConstraints": "6/6",
+    "discoveryP95RegressionMaximumPercent": 20,
+    "coldCliP95RegressionMaximumPercent": 20,
+    "coldCliP95AbsoluteAllowanceMs": 5,
+    "rssIncreaseMaximumBytes": 5242880
+  },
+  "memoryDecision": {
+    "ruvectorWasm": "defer retrieval adoption until at least 100 sanitized provenance records support leakage-free exact, vector and fused comparisons; separately record the new supported MinCut WASM capability",
+    "gnn": "reject for the current corpus unless a held-out graph task demonstrates at least ten percentage points of task-success gain over exact filtering and a shuffled-graph control"
+  },
+  "forecast": {
+    "prediction": "Within 90 days, agent evidence and memory interfaces will increasingly expose content-addressed snapshot or receipt identifiers so caches, replay and audit can fail closed across state transitions.",
+    "confidencePercent": 82,
+    "horizonDate": "2026-12-16",
+    "falsifiableCriterion": "By 2026-12-16, at least two primary agent-memory, MCP, or run-evidence implementations newly publish digest-, receipt-, or revision-bound snapshot metadata used for cache invalidation or replay verification."
+  }
+}

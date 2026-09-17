@@ -67,11 +67,11 @@ Copy the returned `config.mcpServers.ruvnet-guide` object into a host that suppo
 | --- | --- |
 | `ruvnet_discover` | Search the dated catalog by exact keyword overlap. |
 | `ruvnet_project` | Read a project, source links and its maturity boundary. |
-| `ruvnet_changes` | Page through the reviewed upstream snapshot with exact revisions, evidence links and freshness; optionally filter by the schema's exact `project` and `kind` enum values. |
+| `ruvnet_changes` | Page through one content-addressed upstream snapshot with exact revisions, evidence links and freshness; optionally filter by the schema's exact `project` and `kind` enum values. |
 | `ruvnet_plan` | Return an advisory SPARC/MetaHarness plan, without executing it. |
 | `ruvnet_connect` | Return connection guidance; it does not change configuration. |
 
-Resources: `ruv://catalog`, `ruv://changes`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. The changes resource returns the first unfiltered page. For more results, pass the returned opaque `nextCursor` to `ruvnet_changes` with the same `project` and `kind` filters, or run `changes [limit] [project] [kind] [cursor]`. A cursor is bound to its reviewed snapshot and filters; if it is rejected after a refresh, start again from the first page. Inspect `freshness.state` before relying on the data; `stale` begins at 72 hours and `clock-skew` means the observation appears to be in the future. An empty filtered result is not evidence that upstream has no matching change. A remote-only host cannot connect directly to local stdio.
+Resources: `ruv://catalog`, `ruv://changes`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. The changes resource returns the first unfiltered page. For more results, pass the returned opaque `nextCursor` and `snapshotId` to `ruvnet_changes` with the same filters, or run `changes [limit] [project] [kind] [cursor] [snapshot-id]`. The identifier covers the reviewed observation time, sources and ordered records. If its precondition is rejected after a refresh, discard cached pages and start again without the cursor or identifier. It checks consistency; it is not an authorization token or signature. Inspect `freshness.state` before relying on the data; `stale` begins at 72 hours and `clock-skew` means the observation appears to be in the future. An empty filtered result is not evidence that upstream has no matching change. A remote-only host cannot connect directly to local stdio.
 
 ## Codex repository marketplace
 

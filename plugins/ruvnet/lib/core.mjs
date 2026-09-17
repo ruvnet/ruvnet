@@ -2,13 +2,33 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 
-export const VERSION = '0.4.0';
+export const VERSION = '0.5.0';
 export const FRESHNESS_MAX_AGE_HOURS = 72;
 export const CATALOG = JSON.parse(readFileSync(new URL('../data/catalog.json', import.meta.url), 'utf8'));
 export const UPSTREAM = JSON.parse(readFileSync(new URL('../data/upstream.json', import.meta.url), 'utf8'));
 export const HOSTS = ['chatgpt', 'claude', 'claude-code', 'lovable', 'codex', 'stdio'];
 export const CHANGE_PROJECTS = UPSTREAM.sources.map(source => source.id);
 export const CHANGE_KINDS = [...new Set(UPSTREAM.changes.map(change => change.kind))].sort();
+function canonical(value, seen = new WeakSet()) {
+  if (value === null || typeof value === 'string' || typeof value === 'boolean') return JSON.stringify(value);
+  if (typeof value === 'number') {
+    if (!Number.isFinite(value)) throw new Error('snapshot evidence must contain finite JSON values');
+    return JSON.stringify(value);
+  }
+  if (!value || typeof value !== 'object' || seen.has(value)) throw new Error('snapshot evidence must be acyclic JSON data');
+  seen.add(value);
+  const result = Array.isArray(value)
+    ? `[${value.map(item => canonical(item, seen)).join(',')}]`
+    : `{${Object.keys(value).sort().map(key => `${JSON.stringify(key)}:${canonical(value[key], seen)}`).join(',')}}`;
+  seen.delete(value);
+  return result;
+}
+export function snapshotIdentity(upstream = UPSTREAM) {
+  if (!upstream || typeof upstream !== 'object' || !Array.isArray(upstream.sources) || !Array.isArray(upstream.changes)) throw new Error('snapshot evidence must contain sources and changes arrays');
+  const evidence = { schemaVersion: upstream.schemaVersion, observedAt: upstream.observedAt, sources: upstream.sources, changes: upstream.changes };
+  return `sha256:${createHash('sha256').update(canonical(evidence)).digest('hex')}`;
+}
+export const SNAPSHOT_ID = snapshotIdentity();
 const words = value => value.toLowerCase().match(/[a-z0-9]+/g) || [];
 const index = new Map();
 for (const project of CATALOG.projects) {
@@ -55,7 +75,7 @@ export function snapshotFreshness(observedAt, now = Date.now()) {
   };
 }
 function cursorFingerprint(filters, offset) {
-  return createHash('sha256').update(JSON.stringify({ version: 1, observedAt: UPSTREAM.observedAt, filters, offset })).digest('base64url').slice(0, 16);
+  return createHash('sha256').update(JSON.stringify({ version: 1, snapshotId: SNAPSHOT_ID, filters, offset })).digest('base64url').slice(0, 16);
 }
 function encodeCursor(filters, offset) {
   return `v1.${cursorFingerprint(filters, offset)}.${offset.toString(36)}`;
@@ -71,7 +91,7 @@ function decodeCursor(cursor, filters, total) {
   }
   return offset;
 }
-export function changes(limit = 10, now = Date.now(), filters = {}, cursor) {
+export function changes(limit = 10, now = Date.now(), filters = {}, cursor, expectedSnapshot) {
   if (!Number.isInteger(limit) || limit < 1 || limit > 20) throw new Error('limit must be an integer from 1 to 20');
   if (!filters || typeof filters !== 'object' || Array.isArray(filters) || Object.keys(filters).some(key => !['project', 'kind'].includes(key))) {
     throw new Error('filters must be an object containing only project and kind');
@@ -85,12 +105,18 @@ export function changes(limit = 10, now = Date.now(), filters = {}, cursor) {
     applied.kind = text(filters.kind, 'kind', 64);
     if (!CHANGE_KINDS.includes(applied.kind)) throw new Error(`kind must be one of ${CHANGE_KINDS.join(', ')}`);
   }
+  if (expectedSnapshot !== undefined) {
+    const checked = text(expectedSnapshot, 'snapshotId', 71);
+    if (!/^sha256:[a-f0-9]{64}$/.test(checked)) throw new Error('snapshotId must be a sha256 content identifier');
+    if (checked !== SNAPSHOT_ID) throw new Error('snapshot changed; restart without cursor or snapshotId');
+  }
   const freshness = snapshotFreshness(UPSTREAM.observedAt, now);
   const matches = UPSTREAM.changes.filter(change =>
     (!applied.project || change.project === applied.project) && (!applied.kind || change.kind === applied.kind));
   const offset = decodeCursor(cursor, applied, matches.length);
   const nextOffset = offset + limit;
   return {
+    snapshotId: SNAPSHOT_ID,
     observedAt: UPSTREAM.observedAt,
     freshness,
     sourceCount: UPSTREAM.sources.length,
