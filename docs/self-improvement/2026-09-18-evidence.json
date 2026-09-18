@@ -1,9 +1,9 @@
 {
   "date": "2026-09-18",
   "baselineCommit": "7965670321cce42b7db65138c0a8f40ddb5d584c",
-  "candidateCommit": null,
+  "candidateCommit": "919e4274f51c533c92bf1386d5d19f39d33c98df",
   "finalCommit": null,
-  "decision": "accept-pending-publish",
+  "decision": "accept",
   "candidate": "explainable-reviewed-change-search",
   "version": "0.6.0",
   "snapshotId": "sha256:e210ac1827e6b13d5abfba717cf1b10c7dc7c02a410224996cd646541e31ceb2",
@@ -94,6 +94,6 @@
     "sources": ["https://github.com/ruvnet/ruflo/releases/tag/v3.42.4","https://arxiv.org/abs/2603.16171","https://arxiv.org/abs/2605.06132"],
     "priorForecastsExpired": []
   },
-  "ci": null,
+  "ci": {"run":"https://github.com/ruvnet/ruvnet/actions/runs/35334295913","status":"success","node22":"success","node24":"success"},
   "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
 }
