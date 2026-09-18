@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-18",
+  "baselineCommit": "7965670321cce42b7db65138c0a8f40ddb5d584c",
+  "candidateCommit": null,
+  "finalCommit": null,
+  "decision": "accept-pending-publish",
+  "candidate": "explainable-reviewed-change-search",
+  "version": "0.6.0",
+  "snapshotId": "sha256:e210ac1827e6b13d5abfba717cf1b10c7dc7c02a410224996cd646541e31ceb2",
+  "evaluation": {
+    "heldOutRunner": "/workspace/scratch/fd7c4c948d76/heldout-20260918.mjs",
+    "baselinePassed": 0,
+    "candidatePassed": 6,
+    "total": 6,
+    "note": "The CLI hostile-input case uses a newline because Node rejects NUL bytes before spawning a child; the MCP case independently sends and rejects NUL."
+  },
+  "metaharness": {
+    "package": "metaharness@0.4.16",
+    "scope": "plugins/ruvnet",
+    "hardConstraints": "6/6",
+    "baseline": {"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "candidate": {"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "claimBoundary": "The unchanged heuristic score is not evidence of improvement; the held-out checks establish the measured task gain."
+  },
+  "benchmark": {
+    "rawPath": "2026-09-18-benchmarks.json",
+    "seed": 1729,
+    "alternatingPairs": 15,
+    "perRun": {"discoveryCalls":10000,"coldCliStarts":20},
+    "node": "v24.19.0",
+    "platform": "linux-x64",
+    "median": {
+      "discoveryP95Ms": {"baseline":0.0012720000000001619,"candidate":0.0013819999999995503,"deltaPercent":8.647798742089186},
+      "coldCliP95Ms": {"baseline":68.912239,"candidate":70.007,"deltaMs":1.0947610000000054,"deltaPercent":1.5886307220405405},
+      "rssBytes": {"baseline":47669248,"candidate":47931392,"deltaBytes":262144,"deltaPercent":0.5499226671249247}
+    },
+    "gatesPassed": true
+  },
+  "validation": {
+    "testGroupsPassed": 12,
+    "nodeVersions": ["22", "24"],
+    "node22Note": "Passed with NODE_NO_WARNINGS=1 because npx node@22 emitted an environment proxy experimental warning to stderr that is unrelated to package behavior.",
+    "skillsPassed": 4,
+    "marketplaceSchemas": 2,
+    "mcpTools": 6,
+    "mcpResources": 3,
+    "packageFiles": 18,
+    "compressedBytes": 25464,
+    "unpackedBytes": 81227,
+    "lockfileSha256": "f1df970be4a274af051dba370b297884f07ccf254d71aac6fb216d1342893674"
+  },
+  "security": {
+    "rufloPackage": "@claude-flow/cli@3.25.6",
+    "deepCodeScan": {"critical":0,"high":0,"medium":0,"low":0},
+    "deepDependencyScan": {"critical":0,"high":0,"medium":0,"low":0},
+    "npmAudit": {"critical":0,"high":0,"moderate":0,"low":0},
+    "secretScan": {"findings":0,"filesReportedByScanner":5},
+    "manualTrackedFileCredentialPatternHits": 0,
+    "threatScan": {"indicators":0,"filesReportedByScanner":4},
+    "trustBoundaries": ["CLI positional arguments", "MCP tool arguments and schemas", "reviewed upstream JSON", "host interpretation of rawRelevance", "linked untrusted evidence"],
+    "mitigations": ["200-character query and 20-result limits", "control-character rejection", "exact project/kind enums", "deterministic exact-token scoring", "read-only offline execution", "72-hour freshness state", "64 KiB MCP frame bound"],
+    "residualRisks": ["Exact token search can miss synonyms and morphology", "rawRelevance can be overinterpreted by hosts despite labeling", "reviewed evidence can become stale", "MCP annotations are advisory", "secret and STRIDE scanners reported narrow coverage"],
+    "limitations": "Zero reported findings is not proof of complete security."
+  },
+  "upstream": {
+    "observedAt": "2026-09-18T10:09:43Z",
+    "sources": [
+      {"project":"ruflo","revision":"e558f0c0fc29c1a658085f6e6f80ad27d4fe811f","release":"3.42.4","license":"MIT","changedSincePrior":true,"incorporated":"release and SmartRetrieval raw relevance versus RRF ranking-score correction"},
+      {"project":"metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","license":"MIT","changedSincePrior":false},
+      {"project":"ruvector","revision":"b336fbae8b15a5a487fc3e7c14a80dcb4984b04a","license":"MIT","changedSincePrior":false},
+      {"project":"agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","license":"MIT","changedSincePrior":false},
+      {"project":"dream-machine","revision":"3edd426f6c9c4b1e80235f7447dc863e749345cc","license":"MIT","changedSincePrior":false,"incorporated":false},
+      {"project":"autogenous","revision":"905aa6cbe213392f8b3cab5d4f17bc3a48e0a509","license":"MIT","changedSincePrior":false,"incorporated":false},
+      {"project":"rvm","revision":"0973d77e5a9e99065376e8ef772a4a1d16e88c75","license":"no SPDX license detected by GitHub API","changedSincePrior":false,"incorporated":false}
+    ],
+    "newRecordsIncorporated": 2,
+    "xRuvIo": {"version":"0.7.2","routes":["/mcp","/chatgpt/mcp"],"changedSincePrior":false}
+  },
+  "memory": {
+    "eligibleSanitizedRecords": 48,
+    "exactCandidateImplemented": true,
+    "persistentVectorMemoryImplemented": false,
+    "wasmAccelerationImplemented": false,
+    "gnnTrainingImplemented": false,
+    "decision": "RuVector WASM and GNN remain deferred below the frozen 100-record gate; exact-token retrieval is the measured baseline and no learning claim is made.",
+    "futureAcceptance": "Compare exact, vector-only, fusion, GNN reranking and shuffled-graph controls on held-out tasks; require at least +10 percentage points task success and report relevance, p50/p95 latency, cold start, RSS, artifact size, seeds and reproducibility."
+  },
+  "forecast": {
+    "prediction": "Within 90 days, agent-memory retrieval interfaces will increasingly distinguish raw retrieval relevance from downstream ranking or confidence and expose enough match provenance to audit threshold behavior.",
+    "status": "prediction, not established result",
+    "confidencePercent": 84,
+    "horizonDate": "2026-12-17",
+    "criterion": "At least two primary agent-memory implementations or interoperability specifications newly publish separate raw-relevance and ranking/confidence fields plus regression tests or threshold semantics.",
+    "sources": ["https://github.com/ruvnet/ruflo/releases/tag/v3.42.4","https://arxiv.org/abs/2603.16171","https://arxiv.org/abs/2605.06132"],
+    "priorForecastsExpired": []
+  },
+  "ci": null,
+  "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
+}

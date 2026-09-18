@@ -1,0 +1,1136 @@
+{
+  "seed": 1729,
+  "pairs": 15,
+  "node": "v24.19.0",
+  "platform": "linux",
+  "arch": "x64",
+  "samples": [
+    {
+      "pair": 0,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007609999999971251,
+          "p95": 0.0014230000000026166
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.69372599999997,
+          "p95": 70.22766999999999
+        },
+        "rssBytes": 48336896,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.000752000000005637,
+          "p95": 0.001401999999998793
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.251374999999996,
+          "p95": 77.26966600000003
+        },
+        "rssBytes": 48058368,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 1,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.00143200000000121
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.567316000000005,
+          "p95": 67.57293100000004
+        },
+        "rssBytes": 47652864,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0010809999999992215,
+          "p95": 0.0014719999999996958
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 64.05142699999999,
+          "p95": 70.687999
+        },
+        "rssBytes": 47882240,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 2,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007610000000042305,
+          "p95": 0.0013419999999939591
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.31640900000002,
+          "p95": 66.73117300000001
+        },
+        "rssBytes": 48107520,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007409999999978822,
+          "p95": 0.0009919999999965512
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.367549,
+          "p95": 67.08782399999996
+        },
+        "rssBytes": 47448064,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 3,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.000750999999993951,
+          "p95": 0.0009610000000037644
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.849412,
+          "p95": 68.82725099999993
+        },
+        "rssBytes": 47910912,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0013420000000010646
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 64.266459,
+          "p95": 67.722578
+        },
+        "rssBytes": 48058368,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 4,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007710000000002992,
+          "p95": 0.0011620000000007735
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 63.88975800000003,
+          "p95": 69.78732600000001
+        },
+        "rssBytes": 47906816,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0013220000000018217
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 64.29561900000004,
+          "p95": 73.02055099999995
+        },
+        "rssBytes": 47677440,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 5,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007420000000024629,
+          "p95": 0.0009319999999988227
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 64.94845199999997,
+          "p95": 71.54387700000007
+        },
+        "rssBytes": 47448064,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0013319999999978904
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 64.06937200000004,
+          "p95": 73.33393900000004
+        },
+        "rssBytes": 47362048,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 6,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0019729999999995584
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 63.34354499999995,
+          "p95": 75.431241
+        },
+        "rssBytes": 48099328,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.0010309999999975616
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.27336100000002,
+          "p95": 67.66523700000005
+        },
+        "rssBytes": 47136768,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 7,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007710000000002992,
+          "p95": 0.0013819999999924448
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.48858599999994,
+          "p95": 71.94955000000004
+        },
+        "rssBytes": 47824896,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0009620000000012396
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.07771200000002,
+          "p95": 70.007
+        },
+        "rssBytes": 47931392,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 8,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007710000000002992,
+          "p95": 0.0015220000000013556
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.37622099999999,
+          "p95": 71.54271300000005
+        },
+        "rssBytes": 47312896,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007409999999978822,
+          "p95": 0.0009409999999974161
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 63.80951099999993,
+          "p95": 68.30516699999998
+        },
+        "rssBytes": 47366144,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 9,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007519999999985316,
+          "p95": 0.0009720000000044138
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 63.37735100000009,
+          "p95": 72.19681500000002
+        },
+        "rssBytes": 47869952,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007519999999985316,
+          "p95": 0.001401999999998793
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.50145199999997,
+          "p95": 68.39235200000007
+        },
+        "rssBytes": 47448064,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 10,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007409999999978822,
+          "p95": 0.0009610000000037644
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.7989,
+          "p95": 69.07003700000018
+        },
+        "rssBytes": 47546368,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0012720000000001619
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 63.63190399999999,
+          "p95": 68.912239
+        },
+        "rssBytes": 48103424,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 11,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0013420000000010646
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.49126299999989,
+          "p95": 64.11393199999998
+        },
+        "rssBytes": 47910912,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0015020000000021128
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.32256799999993,
+          "p95": 75.75329099999999
+        },
+        "rssBytes": 47763456,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 12,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.000750999999993951,
+          "p95": 0.0013019999999954734
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 63.558565,
+          "p95": 67.63385199999999
+        },
+        "rssBytes": 48013312,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007809999999963679,
+          "p95": 0.001452000000000453
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.17199700000003,
+          "p95": 71.169261
+        },
+        "rssBytes": 47669248,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 13,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007519999999985316,
+          "p95": 0.001011999999995794
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 61.17085400000002,
+          "p95": 67.45499800000005
+        },
+        "rssBytes": 47599616,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007410000000049877,
+          "p95": 0.001452000000000453
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 62.25508100000002,
+          "p95": 67.12798000000004
+        },
+        "rssBytes": 48230400,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    },
+    {
+      "pair": 14,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007510000000010564,
+          "p95": 0.0013819999999995503
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 64.15845300000001,
+          "p95": 80.29526900000019
+        },
+        "rssBytes": 47996928,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      },
+      "baseline": {
+        "kind": "local-dispatch-benchmark",
+        "node": "v24.19.0",
+        "platform": "linux",
+        "arch": "x64",
+        "projects": 10,
+        "catalogSha256": "35f530503473131b84f4baa020f6efe09747cb09651aaa958a2165d7854ea561",
+        "samples": 10000,
+        "discoveryMs": {
+          "p50": 0.0007610000000042305,
+          "p95": 0.0015420000000005984
+        },
+        "coldCliSamples": 20,
+        "coldCliMs": {
+          "p50": 64.06630000000007,
+          "p95": 71.264409
+        },
+        "rssBytes": 47546368,
+        "excludes": [
+          "model inference",
+          "semantic recall",
+          "network latency",
+          "host UI installation",
+          "end-to-end agent quality"
+        ],
+        "gates": {
+          "discoveryP95Below5ms": true,
+          "coldCliP95Below1000ms": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "discoveryP95Ms": {
+      "baseline": [
+        0.001401999999998793,
+        0.00143200000000121,
+        0.0009919999999965512,
+        0.0009610000000037644,
+        0.0013220000000018217,
+        0.0009319999999988227,
+        0.0010309999999975616,
+        0.0013819999999924448,
+        0.0009409999999974161,
+        0.0009720000000044138,
+        0.0012720000000001619,
+        0.0013420000000010646,
+        0.001452000000000453,
+        0.001011999999995794,
+        0.0015420000000005984
+      ],
+      "candidate": [
+        0.0014230000000026166,
+        0.0014719999999996958,
+        0.0013419999999939591,
+        0.0013420000000010646,
+        0.0011620000000007735,
+        0.0013319999999978904,
+        0.0019729999999995584,
+        0.0009620000000012396,
+        0.0015220000000013556,
+        0.001401999999998793,
+        0.0009610000000037644,
+        0.0015020000000021128,
+        0.0013019999999954734,
+        0.001452000000000453,
+        0.0013819999999995503
+      ],
+      "baselineMedian": 0.0012720000000001619,
+      "candidateMedian": 0.0013819999999995503,
+      "delta": 0.00010999999999938836,
+      "deltaPercent": 8.647798742089186
+    },
+    "coldCliP95Ms": {
+      "baseline": [
+        77.26966600000003,
+        67.57293100000004,
+        67.08782399999996,
+        68.82725099999993,
+        73.02055099999995,
+        71.54387700000007,
+        67.66523700000005,
+        71.94955000000004,
+        68.30516699999998,
+        72.19681500000002,
+        68.912239,
+        64.11393199999998,
+        71.169261,
+        67.45499800000005,
+        71.264409
+      ],
+      "candidate": [
+        70.22766999999999,
+        70.687999,
+        66.73117300000001,
+        67.722578,
+        69.78732600000001,
+        73.33393900000004,
+        75.431241,
+        70.007,
+        71.54271300000005,
+        68.39235200000007,
+        69.07003700000018,
+        75.75329099999999,
+        67.63385199999999,
+        67.12798000000004,
+        80.29526900000019
+      ],
+      "baselineMedian": 68.912239,
+      "candidateMedian": 70.007,
+      "delta": 1.0947610000000054,
+      "deltaPercent": 1.5886307220405405
+    },
+    "rssBytes": {
+      "baseline": [
+        48058368,
+        47652864,
+        47448064,
+        47910912,
+        47677440,
+        47448064,
+        47136768,
+        47824896,
+        47366144,
+        47869952,
+        48103424,
+        47910912,
+        47669248,
+        47599616,
+        47546368
+      ],
+      "candidate": [
+        48336896,
+        47882240,
+        48107520,
+        48058368,
+        47906816,
+        47362048,
+        48099328,
+        47931392,
+        47312896,
+        47448064,
+        47546368,
+        47763456,
+        48013312,
+        48230400,
+        47996928
+      ],
+      "baselineMedian": 47669248,
+      "candidateMedian": 47931392,
+      "delta": 262144,
+      "deltaPercent": 0.5499226671249247
+    }
+  }
+}
