@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "observedAt": "2026-09-18T10:09:43Z",
+  "observedAt": "2026-09-19T10:47:25Z",
   "retention": "This file is a reviewed current snapshot. Dated reports under docs/self-improvement preserve prior observations.",
   "sources": [
     {"id":"ruflo","repository":"https://github.com/ruvnet/ruflo","revision":"e558f0c0fc29c1a658085f6e6f80ad27d4fe811f","committedAt":"2026-09-17T21:35:43Z","license":"MIT"},

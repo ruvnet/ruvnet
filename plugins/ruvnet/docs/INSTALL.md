@@ -50,6 +50,7 @@ node bin/ruvnet.mjs catalog memory
 node bin/ruvnet.mjs changes 5
 node bin/ruvnet.mjs changes 5 ruflo security
 node bin/ruvnet.mjs search 5 raw retrieval ranking
+node bin/ruvnet.mjs search 5 --min-raw-relevance 1 raw retrieval ranking
 node bin/ruvnet.mjs plan "Build a repository harness with persistent memory"
 node bin/ruvnet.mjs connect chatgpt
 ```
@@ -69,7 +70,7 @@ Copy the returned `config.mcpServers.ruvnet-guide` object into a host that suppo
 | `ruvnet_discover` | Search the dated catalog by exact keyword overlap. |
 | `ruvnet_project` | Read a project, source links and its maturity boundary. |
 | `ruvnet_changes` | Page through one content-addressed upstream snapshot with exact revisions, evidence links and freshness; optionally filter by the schema's exact `project` and `kind` enum values. |
-| `ruvnet_search_changes` | Search reviewed records by exact token overlap with matched terms and a raw overlap fraction; no semantic similarity or confidence is inferred. |
+| `ruvnet_search_changes` | Search reviewed records by exact token overlap with matched terms and a raw overlap fraction; optionally set `minRawRelevance` from 0 to 1 to remove partial lexical matches. No semantic similarity, ranking confidence, answer confidence or utility is inferred. |
 | `ruvnet_plan` | Return an advisory SPARC/MetaHarness plan, without executing it. |
 | `ruvnet_connect` | Return connection guidance; it does not change configuration. |
 

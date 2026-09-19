@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-19",
+  "candidate": "raw-relevance-threshold",
+  "hypothesis": "Adding an optional bounded minimum raw-relevance gate to exact-token change search will let hosts remove partial-match noise without conflating lexical relevance with ranking confidence or answer utility.",
+  "baseline": "015725be93fadb3484474cae218cdc51dba2372b",
+  "heldOutChecks": [
+    "default search behavior remains unchanged when the gate is omitted",
+    "a minimum raw relevance of 1 returns only the full raw-retrieval-ranking match",
+    "the gate is applied to raw relevance before result limiting and preserves deterministic order",
+    "project and kind filters intersect with the raw-relevance gate",
+    "CLI and MCP return equivalent gated results and reject out-of-range or hostile values",
+    "a gated no-match query returns an empty result set without confidence, utility or semantic inference"
+  ],
+  "acceptance": {
+    "heldOutChecksPassed": 6,
+    "existingTestsPassed": true,
+    "validationPassed": true,
+    "dependencyAuditHighOrCritical": 0,
+    "securityScanHighOrCritical": 0,
+    "metaharnessHardConstraints": "6/6",
+    "discoveryP95RegressionMaximumPercent": 20,
+    "coldCliP95RegressionMaximumPercent": 20,
+    "coldCliP95AbsoluteAllowanceMs": 5,
+    "rssIncreaseMaximumBytes": 5242880
+  },
+  "memoryDecision": {
+    "exactBaseline": "unweighted exact-token overlap with optional project and kind filters",
+    "candidate": "optional threshold over the already exposed raw token-overlap fraction",
+    "ruvectorWasm": "defer until at least 100 sanitized provenance records support leakage-free exact, vector and fused comparisons",
+    "gnn": "reject unless a held-out graph task demonstrates at least ten percentage points of task-success gain over exact retrieval and a shuffled-graph control"
+  },
+  "forecast": {
+    "prediction": "Within 60 days, agent-memory retrieval interfaces will increasingly expose a configurable retrieval-relevance gate that is explicitly separate from answer confidence, downstream ranking and value-of-information decisions.",
+    "confidencePercent": 82,
+    "horizonDate": "2026-11-18",
+    "falsifiableCriterion": "By 2026-11-18, at least two primary agent-memory implementations or interoperability specifications newly document a raw retrieval threshold or risk-coverage control separately from answer confidence or downstream ranking."
+  }
+}
