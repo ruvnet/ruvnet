@@ -1,9 +1,9 @@
 {
   "date": "2026-09-20",
   "baselineCommit": "a7375c617f705c4ac0bb74726f32272beaa5a12f",
-  "candidateCommit": null,
+  "candidateCommit": "dcbc0b3515f79804f176196433ddb7156b29b4cc",
   "finalCommit": null,
-  "decision": "accept-pending-publish",
+  "decision": "accept",
   "candidate": "snapshot-bound-search-pagination",
   "version": "0.8.0",
   "snapshotId": "sha256:82ea2a40f7ad537bb1bc4dcae7b70aecfdfe83e034a7eccc95e8f690cde94078",
@@ -103,6 +103,6 @@
     "sources": ["https://arxiv.org/abs/2607.25904","https://arxiv.org/abs/2608.17659","https://arxiv.org/abs/2608.26546","https://modelcontextprotocol.io/specification/2026-07-28/schema"],
     "priorForecastsExpired": []
   },
-  "ci": {"runUrl":null,"status":"pending","node22":"pending","node24":"pending"},
+  "ci": {"runUrl":"https://github.com/ruvnet/ruvnet/actions/runs/35507767558","status":"success","node22":"success","node24":"success"},
   "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
 }
