@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-20",
+  "baselineCommit": "a7375c617f705c4ac0bb74726f32272beaa5a12f",
+  "candidateCommit": null,
+  "finalCommit": null,
+  "decision": "accept-pending-publish",
+  "candidate": "snapshot-bound-search-pagination",
+  "version": "0.8.0",
+  "snapshotId": "sha256:82ea2a40f7ad537bb1bc4dcae7b70aecfdfe83e034a7eccc95e8f690cde94078",
+  "evaluation": {
+    "heldOutRunnerSha256": "838bfd271acf4a2938b1ab15b39e07ad40c5582b1105710ed85190bf2d4b0f6e",
+    "baselinePassed": 1,
+    "candidatePassed": 6,
+    "total": 6,
+    "baselineGap": {"query":"ruflo","minimumRawRelevance":1,"totalMatches":25,"reachableWithoutCursor":20}
+  },
+  "metaharness": {
+    "package": "metaharness@0.4.16",
+    "scope": "plugins/ruvnet",
+    "hardConstraints": "6/6",
+    "baseline": {"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "candidate": {"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "claimBoundary": "The unchanged heuristic score is not evidence of improvement; frozen held-out traversal checks establish the measured task gain."
+  },
+  "benchmark": {
+    "rawPath": "2026-09-20-benchmarks.json",
+    "runnerSha256": "8d31a5c15c95c03a01688f34d62a5a0193a5ff8970713ad5e68fd7545c5cb342",
+    "seed": 1729,
+    "alternatingPairs": 15,
+    "perArmPerPair": {"exactSearchCalls":10000,"coldCliStarts":20},
+    "node": "v24.19.0",
+    "platform": "linux-x64",
+    "median": {
+      "hotSearchP95Ms": {"baseline":0.126606,"candidate":0.143341,"deltaMs":0.016735,"deltaPercent":13.218173},
+      "coldCliP95Ms": {"baseline":62.098634,"candidate":62.553980,"deltaMs":0.455346,"deltaPercent":0.733263},
+      "rssBytes": {"baseline":53284864,"candidate":54022144,"deltaBytes":737280}
+    },
+    "gatesPassed": true
+  },
+  "validation": {
+    "testGroupsPassed": 14,
+    "nodeVersions": ["22.23.2","24.19.0"],
+    "node22Note": "Passed with NODE_NO_WARNINGS=1 because the managed proxy emits an experimental Undici warning on stderr unrelated to package behavior.",
+    "skillsPassed": 4,
+    "marketplaceSchemas": 2,
+    "mcpTools": 6,
+    "mcpResources": 3,
+    "packageFiles": 18,
+    "compressedBytes": 27939,
+    "unpackedBytes": 93249,
+    "dependencyClosureSha256": "084b16e3f9e1d06fe293bcaef9b776c652ace9db31a3f95b387e3e010fb93bec",
+    "lockfileSha256": "878a4bbf3da30ef8711857eed09d93796e40f137932e037ddc45af37d09655a6"
+  },
+  "security": {
+    "rufloPackage": "@claude-flow/cli@3.25.6",
+    "deepCodeScan": {"critical":0,"high":0,"medium":0,"low":0},
+    "deepDependencyScan": {"critical":0,"high":0,"medium":0,"low":0},
+    "npmAudit": {"critical":0,"high":0,"moderate":0,"low":0},
+    "secretScan": {"findings":0,"filesReportedByScanner":5},
+    "threatScan": {"indicators":0,"filesReportedByScanner":4},
+    "trustBoundaries": ["opaque cursor parsing","query/filter/threshold/snapshot binding","MCP JSON schema plus runtime validation","reviewed upstream JSON","linked untrusted evidence"],
+    "mitigations": ["SHA-256 snapshot precondition","deterministic truncated SHA-256 cursor binding over the snapshot and canonical query inputs","bounded offset and page size","exact project/kind enums","read-only offline execution","72-hour freshness state","64 KiB MCP frame bound"],
+    "residualRisks": ["cursor fingerprints are neither authentication nor deliberate-tamper resistance","reviewed evidence can become stale","MCP annotations are advisory","secret and STRIDE scanners reported narrow coverage"],
+    "limitations": "Zero reported findings is not proof of complete security."
+  },
+  "ruos": {
+    "machineId": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "status": "INCONCLUSIVE",
+    "reasonCodes": ["LIVENESS_UNPROVEN","COMPLETION_RECEIPT_NOT_PERSISTED","SCREENSHOT_RECEIPT_NOT_PERSISTED"],
+    "details": "The dedicated candidate desktop remained ready with null last_heartbeat_at before and after the single fixed probe. One true command and one screenshot were invoked exactly once, but the collector failed while serializing returned image data and persisted no command or screenshot receipt. No retry was made and no success was inferred.",
+    "upstreamVerifier": {"revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","preflightSha256":"e2643a4c0bf8271a297c36c74c830dd285938f8a534da53f604f7983c22330dd","receiptVerifierSha256":"330189c4f31af1ab1dae37b97269cbc51834884f5a357415fb364c67932bb5eb","focusedTests":"59/59"},
+    "claimBoundary": "No tenant, workload, user-journey, desktop success, deployment or promotion claim is made."
+  },
+  "upstream": {
+    "observedAt": "2026-09-20T11:05:24Z",
+    "sources": [
+      {"project":"ruflo","revision":"e558f0c0fc29c1a658085f6e6f80ad27d4fe811f","release":"3.42.4","license":"MIT","changedSincePrior":false},
+      {"project":"metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","release":"0.4.4","license":"MIT","changedSincePrior":false},
+      {"project":"ruvector","revision":"b336fbae8b15a5a487fc3e7c14a80dcb4984b04a","release":"ruvector-v0.2.40","license":"MIT","changedSincePrior":false},
+      {"project":"agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","license":"MIT","changedSincePrior":false},
+      {"project":"dream-machine","revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","license":"MIT","changedSincePrior":true,"incorporated":true,"reviewNote":"Signed, CI-green and merged to main; GitHub reports no formal review submission."},
+      {"project":"autogenous","revision":"905aa6cbe213392f8b3cab5d4f17bc3a48e0a509","license":"MIT","changedSincePrior":false},
+      {"project":"rvm","revision":"0973d77e5a9e99065376e8ef772a4a1d16e88c75","license":"MIT OR Apache-2.0 declared; license files absent","changedSincePrior":false,"incorporated":false}
+    ],
+    "newRecordsIncorporated": 2,
+    "xRuvIo": {"version":"0.7.2","routes":["/mcp","/chatgpt/mcp"],"changedSincePrior":false}
+  },
+  "memory": {
+    "eligibleSanitizedRecords": 51,
+    "exactCandidateImplemented": true,
+    "persistentVectorMemoryImplemented": false,
+    "wasmAccelerationImplemented": false,
+    "gnnTrainingImplemented": false,
+    "decision": "RuVector WASM and GNN remain deferred below the frozen 100-record gate. The candidate pages deterministic exact-token retrieval and makes no learning claim.",
+    "futureAcceptance": "Compare exact, vector-only, fusion, GNN reranking and shuffled-graph controls on held-out tasks; require at least +10 percentage points task success and report relevance, p50/p95 latency, cold start, RSS, artifact size, seeds and reproducibility."
+  },
+  "forecast": {
+    "prediction": "Desktop-agent evaluation will increasingly require both authoritative post-execution state and visual evidence, classifying missing or mismatched evidence as INCONCLUSIVE rather than PASS.",
+    "status": "prediction, not established result",
+    "confidencePercent": 87,
+    "horizonDate": "2026-12-19",
+    "criterion": "At least two new primary benchmark implementations or reviewed interoperability contracts require both authoritative state and visual evidence.",
+    "sources": ["https://arxiv.org/abs/2607.25904","https://arxiv.org/abs/2608.17659","https://arxiv.org/abs/2608.26546","https://modelcontextprotocol.io/specification/2026-07-28/schema"],
+    "priorForecastsExpired": []
+  },
+  "ci": {"runUrl":null,"status":"pending","node22":"pending","node24":"pending"},
+  "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
+}

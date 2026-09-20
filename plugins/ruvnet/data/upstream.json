@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
-  "observedAt": "2026-09-19T10:47:25Z",
+  "observedAt": "2026-09-20T11:05:24Z",
   "retention": "This file is a reviewed current snapshot. Dated reports under docs/self-improvement preserve prior observations.",
   "sources": [
     {"id":"ruflo","repository":"https://github.com/ruvnet/ruflo","revision":"e558f0c0fc29c1a658085f6e6f80ad27d4fe811f","committedAt":"2026-09-17T21:35:43Z","license":"MIT"},
     {"id":"metaharness","repository":"https://github.com/ruvnet/metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","committedAt":"2026-09-05T15:29:24Z","license":"MIT"},
     {"id":"ruvector","repository":"https://github.com/ruvnet/RuVector","revision":"b336fbae8b15a5a487fc3e7c14a80dcb4984b04a","committedAt":"2026-09-16T20:32:22Z","license":"MIT"},
     {"id":"agentdb","repository":"https://github.com/ruvnet/agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","committedAt":"2026-07-30T00:59:00Z","license":"MIT"},
+    {"id":"dream-machine","repository":"https://github.com/ruvnet/dream-machine","revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","committedAt":"2026-09-20T03:11:32Z","license":"MIT"},
     {"id":"autogenous","repository":"https://github.com/ruvnet/autogenous","revision":"905aa6cbe213392f8b3cab5d4f17bc3a48e0a509","committedAt":"2026-09-16T01:58:33Z","license":"MIT"}
   ],
   "changes": [
+    {"id":"dream-machine-ruos-evaluation-receipts","project":"dream-machine","revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","committedAt":"2026-09-20T03:11:32Z","kind":"evaluation","summary":"Adds an opt-in governed ruOS evaluation boundary with frozen commit, evaluator, workload, environment, tenant, assertion, screenshot and completion-provenance checks; receipts explicitly carry no merge authority.","evidence":"https://github.com/ruvnet/dream-machine/commit/aa931caad5dd0108253645bba0ab1481ad7da0ee"},
+    {"id":"dream-machine-ruos-preflight-inconclusive","project":"dream-machine","revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","committedAt":"2026-09-20T03:11:32Z","kind":"negative-result","summary":"Records a live ruOS transport preflight as INCONCLUSIVE because the command response lacked authoritative exit and completion metadata despite returning real screenshot bytes; stdout and pixels alone were not promoted to success.","evidence":"https://github.com/ruvnet/dream-machine/blob/aa931caad5dd0108253645bba0ab1481ad7da0ee/docs/dream-cycle/2026-09-20-ruos-integration.md"},
     {"id":"ruflo-3-42-4-release","project":"ruflo","revision":"e558f0c0fc29c1a658085f6e6f80ad27d4fe811f","committedAt":"2026-09-17T21:35:43Z","kind":"release","summary":"Ruflo 3.42.4 corrects smart-memory search score semantics and adds upstream regression coverage; its documented reasoning-bank and vector-backend bridge limitation remains open.","evidence":"https://github.com/ruvnet/ruflo/releases/tag/v3.42.4"},
     {"id":"ruflo-smart-search-score-semantics","project":"ruflo","revision":"702d146178214aab4ad41d00ac8b47767dbd6649","committedAt":"2026-09-17T18:35:18Z","kind":"correctness","summary":"Separates raw retrieval relevance from the SmartRetrieval RRF ranking score, preserving threshold evaluation before RRF, MMR and recency transformations; this does not resolve the documented reasoning-bank or vector-backend bridge fallback.","evidence":"https://github.com/ruvnet/ruflo/commit/702d146178214aab4ad41d00ac8b47767dbd6649"},
     {"id":"ruvector-napi-binaries-refresh","project":"ruvector","revision":"b336fbae8b15a5a487fc3e7c14a80dcb4984b04a","committedAt":"2026-09-16T20:32:22Z","kind":"compatibility","summary":"Refreshes generated NAPI-RS binaries across supported target platforms; no performance claim is inferred from the artifact update.","evidence":"https://github.com/ruvnet/RuVector/commit/b336fbae8b15a5a487fc3e7c14a80dcb4984b04a"},

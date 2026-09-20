@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-20",
+  "frozenBeforeImplementation": true,
+  "baselineCommit": "a7375c617f705c4ac0bb74726f32272beaa5a12f",
+  "candidate": "snapshot-bound-search-pagination",
+  "hypothesis": "Adding snapshot-, query-, filter-, and threshold-bound cursors to exact reviewed-change search will make every matching record reachable without mixing pages from different evidence views or expanding the companion's read-only authority.",
+  "motivation": {
+    "measuredBaselineGap": "searchChanges('ruflo', 20, {}, now, 1) reports 25 matches but returns 20 with no continuation cursor.",
+    "priorCondition": "The 2026-09-19 report deferred search cursors until thresholded results exceeded one page; that condition is now met.",
+    "upstream": "Dream Machine aa931caad5dd0108253645bba0ab1481ad7da0ee adds governed ruOS preflight and receipt validation. It is reviewed evidence, not code copied into this companion."
+  },
+  "heldOut": [
+    "a 20-record first page for full-overlap query ruflo exposes its snapshot, offset, total and an opaque continuation cursor",
+    "continuation returns the remaining records and concatenation equals an independently computed exact-match oracle without gaps or duplicates",
+    "small-page traversal terminates and visits every match exactly once",
+    "malformed, changed-snapshot, cross-query, cross-filter and cross-threshold cursor reuse fails closed",
+    "omitted pagination preserves deterministic one-page and no-match search behavior",
+    "the reviewed Dream Machine source and governed ruOS receipt/preflight records are revision-pinned and searchable without claiming live evaluation"
+  ],
+  "acceptance": {
+    "heldOut": "6/6 and strictly better than baseline",
+    "tests": "all existing and new tests pass on Node 22 and 24",
+    "schemas": "both marketplace schemas, four skills, six MCP tools and three resources validate",
+    "metaharness": "metaharness@0.4.16 retains 6/6 hard constraints; score alone is not proof",
+    "security": "zero confirmed high or critical findings; scanner coverage and residual risk disclosed",
+    "performance": {
+      "design": "15 alternating pairs; 10000 exact-search calls and 20 cold CLI starts per arm per pair; seed 1729",
+      "searchP95": "candidate no more than 20 percent and 0.05 ms above baseline median",
+      "coldCliP95": "candidate no more than 20 percent and 5 ms above baseline median",
+      "rss": "candidate no more than 5242880 bytes above baseline median"
+    },
+    "package": "dependency lock unchanged, package closure validates and compressed archive remains below 40000 bytes"
+  },
+  "ruos": {
+    "machineId": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "selection": "Existing dedicated evolution-candidate desktop; no retained activity was reported. The personal Mac and other shared desktops are excluded.",
+    "preflight": "Run exactly one harmless true command and one real screenshot through authorized tools. Require status ok, numeric exitCode 0, completionVersion 1 and completionVerified true plus actual image bytes.",
+    "verifier": "Trusted Dream Machine scripts/ruos-preflight.mjs at aa931caad5dd0108253645bba0ab1481ad7da0ee.",
+    "decision": "Missing liveness, isolation, completion provenance or pixels is INCONCLUSIVE. Preflight never authorizes promotion."
+  },
+  "memory": {
+    "baseline": "deterministic exact search",
+    "gate": 100,
+    "eligibleRecordsBeforeCandidate": 48,
+    "decision": "Do not add RuVector, WASM or GNN complexity below the frozen record gate."
+  },
+  "rollback": "Revert the candidate commit; version 0.7.0 search behavior remains the parent."
+}
