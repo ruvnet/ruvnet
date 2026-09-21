@@ -98,7 +98,7 @@ Contribution graph totals were not re-derived for this window. They can include 
 | Known npm packages listing `ruvnet` as maintainer | at least 383 |
 | npm download events across the known set, rolling 365 days, 2025-09-07 through 2026-09-06 | at least 74,976,706 |
 | Rust crates owned by `ruvnet` | 416 |
-| Cumulative Rust crate downloads (verified 2026-09-14) | 1,594,305 |
+| Cumulative Rust crate downloads (verified 2026-09-21) | 1,638,911 |
 | Ownership verified PyPI packages | 8 |
 | Hugging Face models, spaces, and datasets | 22 |
 
