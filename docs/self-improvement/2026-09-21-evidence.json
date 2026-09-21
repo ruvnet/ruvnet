@@ -1,7 +1,7 @@
 {
   "date": "2026-09-21",
   "baselineCommit": "93f13794ec5c14b858a48b3f1cf770becdbc5592",
-  "candidateCommit": null,
+  "candidateCommit": "b0025003cdb40282d91cd1dbf2191a7c9912b397",
   "finalCommit": null,
   "decision": "accept",
   "candidate": "cli-search-filter-parity",
@@ -105,6 +105,6 @@
     "sources": ["https://arxiv.org/abs/2607.10059","https://huggingface.co/datasets/antiquality/agentabstain","https://modelcontextprotocol.io/specification/2026-07-28/server/tools"],
     "priorForecastsExpired": []
   },
-  "ci": {"runUrl":null,"status":"pending","node22":"pending","node24":"pending"},
+  "ci": {"runUrl":"https://github.com/ruvnet/ruvnet/actions/runs/35589204536","status":"success","node22":"success","node24":"success"},
   "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
 }
