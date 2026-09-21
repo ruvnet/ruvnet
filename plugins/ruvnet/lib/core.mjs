@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 
-export const VERSION = '0.8.0';
+export const VERSION = '0.9.0';
 export const FRESHNESS_MAX_AGE_HOURS = 72;
 export const CATALOG = JSON.parse(readFileSync(new URL('../data/catalog.json', import.meta.url), 'utf8'));
 export const UPSTREAM = JSON.parse(readFileSync(new URL('../data/upstream.json', import.meta.url), 'utf8'));

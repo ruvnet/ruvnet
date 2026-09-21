@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "observedAt": "2026-09-20T11:05:24Z",
+  "observedAt": "2026-09-21T10:14:18Z",
   "retention": "This file is a reviewed current snapshot. Dated reports under docs/self-improvement preserve prior observations.",
   "sources": [
-    {"id":"ruflo","repository":"https://github.com/ruvnet/ruflo","revision":"e558f0c0fc29c1a658085f6e6f80ad27d4fe811f","committedAt":"2026-09-17T21:35:43Z","license":"MIT"},
+    {"id":"ruflo","repository":"https://github.com/ruvnet/ruflo","revision":"a4f219935ff4035421bc01157a5a1abc74529ad2","committedAt":"2026-09-20T13:44:15Z","license":"MIT"},
     {"id":"metaharness","repository":"https://github.com/ruvnet/metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","committedAt":"2026-09-05T15:29:24Z","license":"MIT"},
     {"id":"ruvector","repository":"https://github.com/ruvnet/RuVector","revision":"b336fbae8b15a5a487fc3e7c14a80dcb4984b04a","committedAt":"2026-09-16T20:32:22Z","license":"MIT"},
     {"id":"agentdb","repository":"https://github.com/ruvnet/agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","committedAt":"2026-07-30T00:59:00Z","license":"MIT"},
@@ -11,6 +11,8 @@
     {"id":"autogenous","repository":"https://github.com/ruvnet/autogenous","revision":"905aa6cbe213392f8b3cab5d4f17bc3a48e0a509","committedAt":"2026-09-16T01:58:33Z","license":"MIT"}
   ],
   "changes": [
+    {"id":"ruflo-streaming-swarm-proposal","project":"ruflo","revision":"a4f219935ff4035421bc01157a5a1abc74529ad2","committedAt":"2026-09-20T13:44:15Z","kind":"proposal","summary":"Proposes making swarm start a streaming, steerable, long-horizon orchestrator with explicit artifacts and summaries; this ADR is proposed design only, not implemented autonomous execution.","evidence":"https://github.com/ruvnet/ruflo/commit/a4f219935ff4035421bc01157a5a1abc74529ad2"},
+    {"id":"ruflo-swarm-start-execution-gap","project":"ruflo","revision":"a4f219935ff4035421bc01157a5a1abc74529ad2","committedAt":"2026-09-20T13:44:15Z","kind":"negative-result","summary":"Documents that the current swarm start path initializes coordination and returns without executing the objective, producing no task artifacts unless a separate execution driver is invoked.","evidence":"https://github.com/ruvnet/ruflo/blob/a4f219935ff4035421bc01157a5a1abc74529ad2/v3/docs/adr/ADR-385-streaming-interactive-long-horizon-swarm-execution.md"},
     {"id":"dream-machine-ruos-evaluation-receipts","project":"dream-machine","revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","committedAt":"2026-09-20T03:11:32Z","kind":"evaluation","summary":"Adds an opt-in governed ruOS evaluation boundary with frozen commit, evaluator, workload, environment, tenant, assertion, screenshot and completion-provenance checks; receipts explicitly carry no merge authority.","evidence":"https://github.com/ruvnet/dream-machine/commit/aa931caad5dd0108253645bba0ab1481ad7da0ee"},
     {"id":"dream-machine-ruos-preflight-inconclusive","project":"dream-machine","revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","committedAt":"2026-09-20T03:11:32Z","kind":"negative-result","summary":"Records a live ruOS transport preflight as INCONCLUSIVE because the command response lacked authoritative exit and completion metadata despite returning real screenshot bytes; stdout and pixels alone were not promoted to success.","evidence":"https://github.com/ruvnet/dream-machine/blob/aa931caad5dd0108253645bba0ab1481ad7da0ee/docs/dream-cycle/2026-09-20-ruos-integration.md"},
     {"id":"ruflo-3-42-4-release","project":"ruflo","revision":"e558f0c0fc29c1a658085f6e6f80ad27d4fe811f","committedAt":"2026-09-17T21:35:43Z","kind":"release","summary":"Ruflo 3.42.4 corrects smart-memory search score semantics and adds upstream regression coverage; its documented reasoning-bank and vector-backend bridge limitation remains open.","evidence":"https://github.com/ruvnet/ruflo/releases/tag/v3.42.4"},

@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-21",
+  "baselineCommit": "93f13794ec5c14b858a48b3f1cf770becdbc5592",
+  "candidateCommit": null,
+  "finalCommit": null,
+  "decision": "accept",
+  "candidate": "cli-search-filter-parity",
+  "version": "0.9.0",
+  "snapshotId": "sha256:1076a4a7341ec81186dad051f3f576246ab3ade1716e7db1397d4a3582bdd3d8",
+  "evaluation": {
+    "heldOutRunnerSha256": "265bcb6c6b5c2b081300f08acfbc1680fd8e51cad0706840ad1f5bd44ee2f101",
+    "baselinePassed": 1,
+    "candidatePassed": 6,
+    "total": 6,
+    "measuredGap": "CLI rejected --project and --kind even though core and MCP supported the same exact filters."
+  },
+  "metaharness": {
+    "package": "metaharness@0.4.16",
+    "scope": "plugins/ruvnet",
+    "hardConstraints": "6/6",
+    "baseline": {"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "candidate": {"harnessFit":60,"compileConfidence":65,"taskCoverage":84,"toolSafety":90,"memoryUsefulness":38},
+    "claimBoundary": "The unchanged heuristic score is not evidence of improvement; the frozen held-out CLI/MCP parity checks establish the measured task gain."
+  },
+  "benchmark": {
+    "rawPath": "2026-09-21-benchmarks.json",
+    "workerSha256": "4c18ff0aeaa033f919116de8b53bca1f2786c72aeb0122cc1dfcced5dcc1d06c",
+    "runnerSha256": "da217ceda8eff5e36eab37c613ca2dd8ca15724b2cc42a0ab5526f443bab4afd",
+    "seed": 1729,
+    "alternatingPairs": 15,
+    "perArmPerPair": {"filteredExactSearchCalls":10000,"coldCliStarts":20},
+    "node": "v24.19.0",
+    "platform": "linux-x64",
+    "median": {
+      "hotSearchP95Ms": {"baseline":0.098249,"candidate":0.114212,"deltaMs":0.015963,"deltaPercent":16.247494},
+      "coldCliP95Ms": {"baseline":72.753179,"candidate":67.708408,"deltaMs":-5.044771,"deltaPercent":-6.93409},
+      "rssBytes": {"baseline":53223424,"candidate":53092352,"deltaBytes":-131072}
+    },
+    "gatesPassed": true
+  },
+  "validation": {
+    "testGroupsPassed": 15,
+    "nodeVersions": ["22.23.2","24.19.0"],
+    "node22Note": "Passed with NODE_NO_WARNINGS=1 because the managed proxy emits an experimental Undici warning on stderr unrelated to package behavior.",
+    "skillsPassed": 4,
+    "marketplaceSchemas": 2,
+    "mcpTools": 6,
+    "mcpResources": 3,
+    "packageFiles": 18,
+    "compressedBytes": 28657,
+    "unpackedBytes": 96431,
+    "dependencyClosureSha256": "e089156f5c3aba4b7843ea8a7801d8374269393cf8051717bbb1654e809a04bd",
+    "lockfileSha256": "bc3eb6e10748b183958d1cdf2a16f50cac581e65e3022c7a67344c63893c5173"
+  },
+  "security": {
+    "rufloPackage": "@claude-flow/cli@3.25.6",
+    "deepCodeScan": {"critical":0,"high":0,"medium":0,"low":0},
+    "deepDependencyScan": {"critical":0,"high":0,"medium":0,"low":0},
+    "npmAudit": {"critical":0,"high":0,"moderate":0,"low":0},
+    "secretScan": {"findings":0,"filesReportedByScanner":5},
+    "threatScan": {"indicators":0,"filesReportedByScanner":4},
+    "trustBoundaries": ["CLI option parsing","exact project/kind enums","snapshot-bound cursor parsing","MCP JSON schema plus runtime validation","reviewed upstream JSON","linked untrusted evidence"],
+    "mitigations": ["duplicate and missing option rejection","control-character rejection","exact source enums","filter-bound SHA-256 cursor fingerprint","read-only offline execution","72-hour freshness state","64 KiB MCP frame bound"],
+    "residualRisks": ["cursor fingerprints are consistency bindings, not authentication","reviewed evidence can become stale","MCP annotations are advisory","secret and STRIDE scanners reported narrow coverage"],
+    "limitations": "Zero reported findings is not proof of complete security."
+  },
+  "ruos": {
+    "machineId": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "status": "INCONCLUSIVE",
+    "reasonCodes": ["LIVENESS_UNPROVEN","COMPLETION_RECEIPT_NOT_PERSISTED","SCREENSHOT_RECEIPT_NOT_PERSISTED","TENANT_UNVERIFIED"],
+    "details": "Every candidate desktop had null last_heartbeat_at and fleet peer telemetry was unavailable. One frozen true command and one screenshot request were issued exactly once to the dedicated evolution-candidate desktop, but the collection wrapper failed before persisting returned command or image evidence. No retry was made and no success was inferred.",
+    "upstreamVerifier": {"revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","preflightSha256":"e2643a4c0bf8271a297c36c74c830dd285938f8a534da53f604f7983c22330dd","receiptVerifierSha256":"330189c4f31af1ab1dae37b97269cbc51834884f5a357415fb364c67932bb5eb","focusedTests":"59/59"},
+    "claimBoundary": "No tenant, workload, user-journey, desktop success, deployment or customer-value claim is made."
+  },
+  "upstream": {
+    "observedAt": "2026-09-21T10:14:18Z",
+    "sources": [
+      {"project":"ruflo","revision":"a4f219935ff4035421bc01157a5a1abc74529ad2","release":"3.42.4","license":"MIT","compatibility":"Node >=20","changedSincePrior":true,"incorporated":true,"reviewNote":"GitHub-verified and merged through PR 3258 with successful checks; Reviews API reports no formal review submission."},
+      {"project":"metaharness","revision":"d5833dc6512ac1adeeef91a331c29055cd8a4dbb","release":"0.4.4","license":"MIT","compatibility":"Node >=20; Rust 1.85","changedSincePrior":false},
+      {"project":"ruvector","revision":"b336fbae8b15a5a487fc3e7c14a80dcb4984b04a","release":"ruvector-v0.2.40","license":"MIT","compatibility":"root npm Node >=18","changedSincePrior":false},
+      {"project":"agentdb","revision":"6cdefe451f6afe7395bc88d3587a0225d161089b","release":null,"license":"MIT","compatibility":"Node >=18","changedSincePrior":false},
+      {"project":"dream-machine","revision":"aa931caad5dd0108253645bba0ab1481ad7da0ee","release":"0.1.0","license":"MIT","compatibility":"Node ^22.13 or ^24","changedSincePrior":false},
+      {"project":"autogenous","revision":"905aa6cbe213392f8b3cab5d4f17bc3a48e0a509","release":"radio-moe-v0.3.1","license":"MIT","compatibility":"Rust 1.74","changedSincePrior":false},
+      {"project":"rvm","revision":"0973d77e5a9e99065376e8ef772a4a1d16e88c75","release":"1.7.0","license":"MIT OR Apache-2.0 declared; license files absent","compatibility":"Rust 1.77","changedSincePrior":false,"incorporated":false}
+    ],
+    "newRecordsIncorporated": 2,
+    "recordBoundary": "ADR-385 is Proposed. Its streaming execution, steering, AgentDB, learning, federation and horizon-tracking design is neither implemented nor measured.",
+    "xRuvIo": {"version":"0.7.2","routes":["/mcp","/chatgpt/mcp"],"changedSincePrior":false}
+  },
+  "memory": {
+    "eligibleSanitizedRecords": 53,
+    "exactCandidateImplemented": true,
+    "persistentVectorMemoryImplemented": false,
+    "wasmAccelerationImplemented": false,
+    "gnnTrainingImplemented": false,
+    "decision": "RuVector WASM and GNN remain deferred below the frozen 100-record gate. The candidate exposes existing exact filters and makes no learning claim.",
+    "futureAcceptance": "Compare exact, vector-only, fusion, GNN reranking and shuffled-graph controls on held-out tasks; require at least +10 percentage points task success and report relevance, p50/p95 latency, cold start, RSS, artifact size, seeds and reproducibility."
+  },
+  "forecast": {
+    "prediction": "Agent-harness promotion suites will increasingly use paired should-act/should-abstain cases and count any commit-class side effect before abstention as failure.",
+    "status": "prediction, not established result",
+    "confidencePercent": 84,
+    "horizonDate": "2026-12-20",
+    "criterion": "At least two new primary benchmark implementations or reviewed harnesses publish paired act/abstain suites with deterministic side-effect checks and separately reported paired accuracy.",
+    "sources": ["https://arxiv.org/abs/2607.10059","https://huggingface.co/datasets/antiquality/agentabstain","https://modelcontextprotocol.io/specification/2026-07-28/server/tools"],
+    "priorForecastsExpired": []
+  },
+  "ci": {"runUrl":null,"status":"pending","node22":"pending","node24":"pending"},
+  "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
+}

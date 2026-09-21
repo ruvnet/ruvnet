@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-21",
+  "frozenAt": "2026-09-21T10:14:18Z",
+  "frozenBeforeImplementation": true,
+  "baselineCommit": "93f13794ec5c14b858a48b3f1cf770becdbc5592",
+  "targetBranch": "main",
+  "targetHeadAtFreeze": "93f13794ec5c14b858a48b3f1cf770becdbc5592",
+  "candidate": "cli-search-filter-parity",
+  "hypothesis": "Adding exact --project and --kind filters to CLI search will make the CLI reach the same reviewed evidence views already available through core and MCP, while preserving snapshot-bound pagination, read-only authority and fixed performance limits.",
+  "motivation": {
+    "measuredBaselineGap": "Core and MCP accept project and kind search filters, while the CLI rejects both as unknown options.",
+    "acceptedUnintegrated": "None. Every earlier accepted entrypoint candidate is an ancestor of current main; vector/WASM/GNN work is deferred, not accepted.",
+    "upstream": "Ruflo a4f219935ff4035421bc01157a5a1abc74529ad2 adds only proposed ADR-385 and confirms swarm start currently configures then returns without executing the objective. Separate proposal and negative-result records preserve that boundary; neither is implemented capability."
+  },
+  "evaluator": {
+    "path": "/workspace/scratch/fd7c4c948d76/heldout-20260921.mjs",
+    "sha256": "265bcb6c6b5c2b081300f08acfbc1680fd8e51cad0706840ad1f5bd44ee2f101",
+    "authority": "external read-only held-out runner; not shipped with the candidate"
+  },
+  "heldOut": [
+    "--project ruflo memory equals an independently computed core oracle and contains only Ruflo records",
+    "--kind security security equals an independently computed core oracle and contains only security records",
+    "combined dream-machine/evaluation filters return only the reviewed ruOS evaluation receipt record",
+    "project filtering composes with threshold and pagination, traverses every result exactly once, and a changed filter rejects the cursor",
+    "missing, duplicate, unknown, control-character and authority-expanding options fail nonzero with no JSON stdout",
+    "CLI and MCP expose identical snapshot, filters, ordering, results, threshold and continuation state"
+  ],
+  "acceptance": {
+    "heldOut": "6/6 and strictly better than baseline at no more than 1/6",
+    "tests": "all existing and new tests pass on Node 22 and 24",
+    "schemas": "both marketplace schemas, four skills, six MCP tools and three resources validate",
+    "metaharness": "metaharness@0.4.16 retains 6/6 hard constraints; score alone is not proof",
+    "security": "zero confirmed high or critical findings; scanner coverage and residual risk disclosed",
+    "performance": {
+      "design": "15 alternating pairs; 10000 filtered exact-search calls and 20 cold CLI starts per arm per pair; seed 1729",
+      "searchP95": "candidate no more than 20 percent and 0.05 ms above baseline median",
+      "coldCliP95": "candidate no more than 20 percent and 5 ms above baseline median",
+      "rss": "candidate no more than 5242880 bytes above baseline median"
+    },
+    "package": "dependency lock normalized closure unchanged, package validates and compressed archive remains below 40000 bytes"
+  },
+  "ruos": {
+    "runNonce": "7114e9c4-51a9-403c-b5c8-4c55a4185ee3",
+    "machineId": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "selection": "Existing dedicated evolution-candidate desktop; the personal Mac and shared desktops are excluded.",
+    "baseline": "93f13794ec5c14b858a48b3f1cf770becdbc5592",
+    "candidate": "cli-search-filter-parity working tree before commit",
+    "target": "ruvnet/ruvnet main at 93f13794ec5c14b858a48b3f1cf770becdbc5592",
+    "evaluator": "trusted Dream Machine main verifier at aa931caad5dd0108253645bba0ab1481ad7da0ee",
+    "workloadDigest": "sha256:265bcb6c6b5c2b081300f08acfbc1680fd8e51cad0706840ad1f5bd44ee2f101",
+    "environmentDigest": "sha256:22a56a1e0851f817a0aead47b6b154ea1920e6fbf5374d1ad87bed076e8d3079",
+    "expectedTenant": "authenticated-current-tenant-undisclosed",
+    "assertionIds": ["executor-status-ok", "numeric-exit-code-zero", "completion-version-one", "completion-verified", "fresh-screenshot-bytes", "no-human-takeover"],
+    "minimumSamples": 1,
+    "freshnessSeconds": 120,
+    "regressionThresholds": {"heldOutMinimum": 6, "coldCliP95Percent": 20, "coldCliP95AbsoluteMs": 5, "rssBytes": 5242880},
+    "preflight": "Run at most one harmless true command and one screenshot. Require a current heartbeat, isolation, status ok, numeric exitCode 0, completionVersion 1, completionVerified true, authenticated expected tenant and actual image bytes.",
+    "decision": "Current status is not live: last_heartbeat_at is null and fleet peer telemetry is unavailable. Missing liveness, isolation, completion provenance, tenant binding or pixels is INCONCLUSIVE. Preflight cannot authorize promotion."
+  },
+  "memory": {
+    "baseline": "deterministic exact search",
+    "gate": 100,
+    "eligibleRecordsBeforeCandidate": 51,
+    "expectedAfterReviewedRufloRecords": 53,
+    "decision": "Do not add RuVector, WASM or GNN complexity below the frozen record gate."
+  },
+  "forecast": {
+    "prediction": "Agent-harness promotion suites will increasingly use paired should-act/should-abstain cases and count any commit-class side effect before abstention as failure.",
+    "confidencePercent": 84,
+    "horizonDate": "2026-12-20",
+    "criterion": "At least two new primary benchmark implementations or reviewed harnesses publish paired act/abstain suites with deterministic side-effect checks and separately reported paired accuracy."
+  },
+  "rollback": "Revert the candidate commit; version 0.8.0 behavior remains its parent."
+}

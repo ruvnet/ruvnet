@@ -1,6 +1,6 @@
 {
   "name": "ruvnet",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Discover and integrate the RuV Stack with bounded skills and the Ruflo federation.",
   "author": {
     "name": "rUv",
