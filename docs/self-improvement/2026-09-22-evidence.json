@@ -1,9 +1,9 @@
 {
   "date": "2026-09-22",
   "baselineCommit": "cb3b080282aaad13fdc5dec4b45265f997a940b3",
-  "candidateCommit": null,
+  "candidateCommit": "7be0b02509b240ccc14a8884190d217a4060ff64",
   "finalCommit": null,
-  "decision": "accept-pending-exact-candidate-ci",
+  "decision": "accept",
   "candidate": "cli-changes-named-option-parity",
   "version": "0.10.0",
   "snapshotId": "sha256:96737b8cdbec3b0906591f97eb7c64e5c362cb4c750a7104898a7c6c738f3db9",
@@ -115,6 +115,6 @@
     "sources": ["https://arxiv.org/abs/2509.24002", "https://arxiv.org/abs/2601.06112", "https://arxiv.org/abs/2608.14711"],
     "priorForecastsExpired": []
   },
-  "ci": {"runUrl": null, "status": "pending-exact-candidate", "node22": null, "node24": null},
+  "ci": {"runUrl": "https://github.com/ruvnet/ruvnet/actions/runs/35721437188", "status": "success", "node22": "success", "node24": "success"},
   "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
 }
