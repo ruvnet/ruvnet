@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-22",
+  "frozenAt": "2026-09-22T10:51:00Z",
+  "frozenBeforeImplementation": true,
+  "baselineCommit": "cb3b080282aaad13fdc5dec4b45265f997a940b3",
+  "targetBranch": "main",
+  "targetHeadAtFreeze": "cb3b080282aaad13fdc5dec4b45265f997a940b3",
+  "candidate": "cli-changes-named-option-parity",
+  "hypothesis": "Adding exact named --project, --kind, --cursor and --snapshot-id options to CLI changes will expose the reviewed evidence views already available through core and MCP, including cross-project negative results, while preserving legacy positional compatibility, snapshot-bound pagination, read-only authority and fixed performance limits.",
+  "motivation": {
+    "measuredBaselineGap": "Core and MCP support project-only and kind-only change views. CLI positional syntax cannot express a kind-only view and treats named options as project identifiers.",
+    "acceptedUnintegrated": "None. Every accepted entrypoint candidate through 0.9.0 is an ancestor of current main; vector/WASM/GNN work is deferred, not accepted.",
+    "forecast": "Yesterday's should-act/should-abstain forecast makes cross-project negative-result retrieval a useful deterministic evidence view without adding decision automation. Today's separate forecast tests whether repeated-run reliability becomes a promotion requirement for future stateful MCP evaluation."
+  },
+  "evaluator": {
+    "path": "/workspace/scratch/fd7c4c948d76/heldout-20260922.mjs",
+    "sha256": "4d6c6b950ed9a52f94d906bef884c8cf5a20220bbda5be6ee653f600236dacab",
+    "authority": "external read-only held-out runner; not shipped with the candidate"
+  },
+  "baselineResult": {
+    "passed": 1,
+    "total": 6
+  },
+  "heldOut": [
+    "named kind-only negative-result view matches an independent core oracle and contains only negative results",
+    "named project-only Ruflo view matches an independent core oracle and contains only Ruflo records",
+    "combined named filters equal legacy positional output and legacy behavior remains compatible",
+    "named filters compose with pagination and snapshot preconditions; changed filters or snapshot fail closed",
+    "missing, duplicate, unknown, control-character, authority-expanding and mixed named/positional forms fail nonzero with no JSON stdout",
+    "CLI and MCP expose identical snapshot, filters, ordering, results and continuation state; omitted named options preserve defaults"
+  ],
+  "acceptance": {
+    "heldOut": "6/6 and strictly better than the frozen 1/6 baseline",
+    "tests": "all existing and new tests pass on Node 22 and 24",
+    "schemas": "both marketplace schemas, four skills, six MCP tools and three resources validate",
+    "metaharness": "metaharness@0.4.16 retains 6/6 hard constraints; heuristic score alone is not proof",
+    "security": "zero confirmed high or critical findings; scanner coverage and residual risk disclosed",
+    "performance": {
+      "design": "15 alternating pairs; 10000 filtered changes calls and 20 cold CLI starts per arm per pair; seed 1729",
+      "changesP95": "candidate no more than 20 percent and 0.05 ms above baseline median",
+      "coldCliP95": "candidate no more than 20 percent and 5 ms above baseline median",
+      "rss": "candidate no more than 5242880 bytes above baseline median"
+    },
+    "package": "normalized dependency closure unchanged, package validates and compressed archive remains below 40000 bytes"
+  },
+  "ruos": {
+    "runNonce": "0e88a97f-46bc-4e56-9f19-76fb1b402526",
+    "machineId": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "selection": "Existing dedicated evolution-candidate desktop; the personal Mac and unrelated desktops are excluded.",
+    "baseline": "cb3b080282aaad13fdc5dec4b45265f997a940b3",
+    "candidate": "cli-changes-named-option-parity working tree before commit",
+    "target": "ruvnet/ruvnet main at cb3b080282aaad13fdc5dec4b45265f997a940b3",
+    "evaluator": "trusted Dream Machine main verifier at aa931caad5dd0108253645bba0ab1481ad7da0ee",
+    "workloadDigest": "sha256:4d6c6b950ed9a52f94d906bef884c8cf5a20220bbda5be6ee653f600236dacab",
+    "environmentDigest": "sha256:fd7fa8a65fbc116a1d58df9972a691b3042173ceddd57167816921eaca30915d",
+    "expectedTenant": "authenticated-current-tenant-undisclosed",
+    "assertionIds": ["executor-status-ok", "numeric-exit-code-zero", "completion-version-one", "completion-verified", "fresh-screenshot-bytes", "no-human-takeover"],
+    "minimumSamples": 1,
+    "freshnessSeconds": 120,
+    "regressionThresholds": {"heldOutMinimum": 6, "coldCliP95Percent": 20, "coldCliP95AbsoluteMs": 5, "rssBytes": 5242880},
+    "preflight": "This CLI-only candidate does not change desktop control, MCP UI, OAuth or a graphical user journey. A live desktop probe is not required for promotion. If attempted, require a current heartbeat before one harmless command and one screenshot.",
+    "decision": "All candidate desktops have null last_heartbeat_at and peer telemetry is unavailable. Live desktop status is INCONCLUSIVE; do not issue an evidence-free probe or infer readiness from provisioning state."
+  },
+  "memory": {
+    "baseline": "deterministic exact search",
+    "gate": 100,
+    "eligibleRecordsBeforeUpstreamReview": 53,
+    "decision": "Do not add RuVector, WASM or GNN complexity below the frozen record gate."
+  },
+  "forecast": {
+    "prediction": "Agent-harness promotion reports will increasingly require independent repeated-run reliability, such as strict pass^k or a bounded flake rate, alongside single-run success for stateful MCP workflows.",
+    "confidencePercent": 82,
+    "horizonDate": "2026-12-21",
+    "criterion": "At least two new primary benchmark implementations or reviewed production harnesses published after 2026-09-22 report fixed-workload results from at least four isolated independent runs per task and use all-runs success or a bounded-flake threshold as a promotion gate."
+  },
+  "rollback": "Revert the candidate commit; version 0.9.0 behavior remains its parent."
+}

@@ -49,6 +49,8 @@ npm ci --ignore-scripts
 node bin/ruvnet.mjs catalog memory
 node bin/ruvnet.mjs changes 5
 node bin/ruvnet.mjs changes 5 ruflo security
+node bin/ruvnet.mjs changes 5 --kind negative-result
+node bin/ruvnet.mjs changes 5 --project ruflo --kind security
 node bin/ruvnet.mjs search 5 raw retrieval ranking
 node bin/ruvnet.mjs search 5 --min-raw-relevance 1 raw retrieval ranking
 node bin/ruvnet.mjs search 5 --project ruflo --kind security federation policy
@@ -71,12 +73,12 @@ Copy the returned `config.mcpServers.ruvnet-guide` object into a host that suppo
 | --- | --- |
 | `ruvnet_discover` | Search the dated catalog by exact keyword overlap. |
 | `ruvnet_project` | Read a project, source links and its maturity boundary. |
-| `ruvnet_changes` | Page through one content-addressed upstream snapshot with exact revisions, evidence links and freshness; optionally filter by the schema's exact `project` and `kind` enum values. |
+| `ruvnet_changes` | Page through one content-addressed upstream snapshot with exact revisions, evidence links and freshness; optionally filter by the schema's exact `project` and `kind` enum values. CLI named options are `--project`, `--kind`, `--cursor`, and `--snapshot-id`; the original positional form remains supported. |
 | `ruvnet_search_changes` | Search and page reviewed records by exact token overlap with matched terms and a raw overlap fraction; optionally filter by exact `project` or `kind` and set `minRawRelevance` from 0 to 1. CLI flags are `--project`, `--kind`, and `--min-raw-relevance`; MCP uses the corresponding fields. Continue with the identical query, filters and threshold plus the returned cursor and snapshot ID. No semantic similarity, ranking confidence, answer confidence or utility is inferred. |
 | `ruvnet_plan` | Return an advisory SPARC/MetaHarness plan, without executing it. |
 | `ruvnet_connect` | Return connection guidance; it does not change configuration. |
 
-Resources: `ruv://catalog`, `ruv://changes`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. Both change listing and exact search return opaque continuation cursors bound to the content snapshot and their complete query state. Continue with the returned `nextCursor` and `snapshotId` without changing filters, query or threshold. CLI search accepts `--project`, `--kind`, `--cursor`, and `--snapshot-id`; MCP uses `project`, `kind`, `cursor`, and `snapshotId`. If a precondition is rejected, discard cached pages and restart without either value. Snapshot identifiers and receipt hashes bind content; they are not authorization tokens, signatures or proof of successful execution. Inspect `freshness.state` before relying on the data; `stale` begins at 72 hours and `clock-skew` means the observation appears to be in the future. An empty result is not evidence that upstream has no matching change. A remote-only host cannot connect directly to local stdio.
+Resources: `ruv://catalog`, `ruv://changes`, `ruv://federation`. Prompt: `ruvnet-start` with a `goal` argument. The local process has no HTTP listener, network tools, shell execution or mutable memory. Both change listing and exact search return opaque continuation cursors bound to the content snapshot and their complete query state. Continue with the returned `nextCursor` and `snapshotId` without changing filters, query or threshold. CLI changes and search accept `--project`, `--kind`, `--cursor`, and `--snapshot-id`; MCP uses `project`, `kind`, `cursor`, and `snapshotId`. Search additionally accepts `--min-raw-relevance`. Do not mix the changes command's named mode with its legacy positional mode. If a precondition is rejected, discard cached pages and restart without either value. Snapshot identifiers and receipt hashes bind content; they are not authorization tokens, signatures or proof of successful execution. Inspect `freshness.state` before relying on the data; `stale` begins at 72 hours and `clock-skew` means the observation appears to be in the future. An empty result is not evidence that upstream has no matching change. A remote-only host cannot connect directly to local stdio.
 
 ## Codex repository marketplace
 

@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-22",
+  "baselineCommit": "cb3b080282aaad13fdc5dec4b45265f997a940b3",
+  "candidateCommit": null,
+  "finalCommit": null,
+  "decision": "accept-pending-exact-candidate-ci",
+  "candidate": "cli-changes-named-option-parity",
+  "version": "0.10.0",
+  "snapshotId": "sha256:96737b8cdbec3b0906591f97eb7c64e5c362cb4c750a7104898a7c6c738f3db9",
+  "lifecycle": {
+    "proposed": true,
+    "reproduced": true,
+    "integrationReady": true,
+    "merged": false,
+    "deployed": false,
+    "verified": false,
+    "reverted": false,
+    "claimBoundary": "Acceptance is not deployment or delivered customer value."
+  },
+  "evaluation": {
+    "heldOutRunnerSha256": "4d6c6b950ed9a52f94d906bef884c8cf5a20220bbda5be6ee653f600236dacab",
+    "baselinePassed": 1,
+    "candidatePassed": 6,
+    "total": 6,
+    "independentReview": "accept",
+    "measuredGap": "Core and MCP supported project-only and kind-only change views, while the CLI could not express kind-only or named views."
+  },
+  "metaharness": {
+    "package": "metaharness@0.4.16",
+    "scope": "plugins/ruvnet",
+    "hardConstraints": "6/6",
+    "softConstraints": "3/4",
+    "claimBoundary": "The heuristic is a structural check; the frozen held-out CLI/MCP parity checks establish the measured gain."
+  },
+  "benchmark": {
+    "rawPath": "2026-09-22-benchmarks.json",
+    "rawSha256": "8ed3eab612d4e747a9ec7a985dd8e00cc7fd225a2b443aa088a2b929df5d07fb",
+    "runnerSha256": "459deefc34e3bf3ebf69039e12f22a6c5dd9a7f93889ab8bf31c798002fe7899",
+    "seed": 1729,
+    "alternatingPairs": 15,
+    "perArmPerPair": {"filteredChangeCalls": 10000, "coldCliStarts": 20},
+    "node": "v24.19.0",
+    "platform": "linux-x64",
+    "median": {
+      "hotSearchP95Ms": {"baseline": 0.0012920000008307397, "candidate": 0.0013020000005781185, "deltaMs": 0.000009999999747378752, "deltaPercent": 0.7739937879991391},
+      "coldCliP95Ms": {"baseline": 66.90961799999991, "candidate": 67.79722099999981, "deltaMs": 0.8876029999998991, "deltaPercent": 1.3265701203075175},
+      "rssBytes": {"baseline": 62803968, "candidate": 62672896, "deltaBytes": -131072}
+    },
+    "gatesPassed": true
+  },
+  "validation": {
+    "testGroupsPassed": 16,
+    "nodeVersions": ["22", "24"],
+    "skillsPassed": 4,
+    "marketplaceSchemas": 2,
+    "mcpTools": 6,
+    "mcpResources": 3,
+    "packageFiles": 18,
+    "compressedBytes": 30097,
+    "unpackedBytes": 103484,
+    "dependencyClosureSha256": "1f864e45fa38fa42e139b0e20523b90a2b97c06fc7c51f674234177e86e5e75c",
+    "candidateLockfileSha256": "5031c3259ba1bb94fa3cb156d4688faceee8cde83fe0bbb5403cd83aeeb1e3b3"
+  },
+  "security": {
+    "rufloPackage": "@claude-flow/cli@3.25.6",
+    "deepCodeScan": {"critical": 0, "high": 0, "medium": 0, "low": 0},
+    "deepDependencyScan": {"critical": 0, "high": 0, "medium": 0, "low": 0},
+    "npmAudit": {"critical": 0, "high": 0, "moderate": 0, "low": 0},
+    "secretScan": {"findings": 0, "filesReportedByScanner": 5},
+    "threatScan": {"indicators": 0, "filesReportedByScanner": 4},
+    "authorityChange": "none",
+    "limitations": "Zero reported findings is not proof of complete security; secret and STRIDE scanner coverage is narrow."
+  },
+  "ruos": {
+    "runNonce": "0e88a97f-46bc-4e56-9f19-76fb1b402526",
+    "machineId": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "status": "INCONCLUSIVE",
+    "probeIssued": false,
+    "reasonCodes": ["LIVENESS_UNPROVEN", "PEER_TELEMETRY_UNAVAILABLE", "LIVE_RECEIPT_NOT_REQUIRED_FOR_CLI_ONLY_CHANGE"],
+    "details": "All candidate desktops had null last_heartbeat_at. The frozen candidate does not affect desktop control, MCP UI, OAuth or a graphical user journey, so no evidence-free live probe was issued and live status was not used for promotion.",
+    "upstreamVerifier": {"revision": "aa931caad5dd0108253645bba0ab1481ad7da0ee", "preflightSha256": "e2643a4c0bf8271a297c36c74c830dd285938f8a534da53f604f7983c22330dd", "receiptVerifierSha256": "330189c4f31af1ab1dae37b97269cbc51834884f5a357415fb364c67932bb5eb", "focusedTests": "59/59"},
+    "claimBoundary": "No live tenant, workload, user-journey, desktop success, external deployment or customer-value claim is made."
+  },
+  "upstream": {
+    "observedAt": "2026-09-22T11:04:56Z",
+    "sources": [
+      {"project": "ruflo", "revision": "9c61c86f06b439af2a95085ae9bb0ca839662e41", "release": "3.42.5 npm; GitHub release 3.42.4", "license": "MIT", "compatibility": "Node >=20", "changedSincePrior": true, "incorporated": true},
+      {"project": "metaharness", "revision": "d5833dc6512ac1adeeef91a331c29055cd8a4dbb", "release": "0.4.4", "license": "MIT", "compatibility": "Node >=20; Rust 1.85", "changedSincePrior": false},
+      {"project": "ruvector", "revision": "fad751b21bc41f27809147cb7ac8b75b4ffdb890", "release": "ruvector-v0.2.40; npm ruvector 0.3.2", "license": "MIT", "compatibility": "Node >=20 root; new packages Node >=18", "changedSincePrior": true, "incorporated": true},
+      {"project": "agentdb", "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b", "release": "3.0.0-alpha.20", "license": "MIT", "compatibility": "Node >=18", "changedSincePrior": false},
+      {"project": "dream-machine", "revision": "aa931caad5dd0108253645bba0ab1481ad7da0ee", "release": "0.1.0", "license": "MIT", "compatibility": "Node ^22.13 or ^24", "changedSincePrior": false},
+      {"project": "autogenous", "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509", "release": "radio-moe-v0.3.1", "license": "MIT", "compatibility": "Rust 1.74", "changedSincePrior": false},
+      {"project": "rvm", "revision": "0973d77e5a9e99065376e8ef772a4a1d16e88c75", "release": "1.7.0", "license": "MIT OR Apache-2.0 declared; license files absent", "compatibility": "Rust 1.77", "changedSincePrior": false, "incorporated": false}
+    ],
+    "newRecordsIncorporated": 6,
+    "recordBoundary": "Upstream capabilities and failures are recorded separately. KGE is not GNN; WASM was not runtime-benchmarked here; failed calibration and adversarial gates are not promoted as successes.",
+    "xRuvIo": {"version": "0.7.2", "routes": ["/mcp", "/chatgpt/mcp"], "changedSincePrior": false}
+  },
+  "memory": {
+    "eligibleSanitizedRecords": 59,
+    "exactCandidateImplemented": true,
+    "coordinationPatternStored": true,
+    "coordinationPatternDimensions": 384,
+    "persistentVectorMemoryImplementedInProduct": false,
+    "wasmAccelerationImplementedInProduct": false,
+    "gnnTrainingImplemented": false,
+    "decision": "Product RuVector, WASM and GNN remain deferred below the frozen 100-record gate; no autonomous-learning claim is made."
+  },
+  "forecast": {
+    "prediction": "Agent-harness promotion reports will increasingly require independent repeated-run reliability, such as strict all-runs success or a bounded flake rate, alongside single-run success for stateful MCP workflows.",
+    "status": "prediction, not established result",
+    "confidencePercent": 82,
+    "horizonDate": "2026-12-21",
+    "criterion": "At least two new primary benchmark implementations or reviewed production harnesses published after 2026-09-22 report fixed-workload results from at least four isolated independent runs per task and use all-runs success or a bounded-flake threshold as a promotion gate.",
+    "sources": ["https://arxiv.org/abs/2509.24002", "https://arxiv.org/abs/2601.06112", "https://arxiv.org/abs/2608.14711"],
+    "priorForecastsExpired": []
+  },
+  "ci": {"runUrl": null, "status": "pending-exact-candidate", "node22": null, "node24": null},
+  "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
+}

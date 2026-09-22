@@ -4,16 +4,38 @@ import { VERSION, discover, project, changes, searchChanges, plan, connect } fro
 async function main(args) {
   const [command, ...rest] = args;
   if (!command || command === 'help' || command === '--help') {
-    console.log(`RuV Stack entrypoint ${VERSION}\n\nruvnet catalog [keywords]                                         Discover source-linked projects\nruvnet project <id>                                               Inspect one project with upstream provenance\nruvnet changes [limit] [project] [kind] [cursor] [snapshot-id]    Page one reviewed snapshot\nruvnet search [limit] [options] <keywords...>                     Search and page reviewed exact-token matches\n  --project <id>  --kind <kind>  --min-raw-relevance 0..1\n  --cursor <cursor>  --snapshot-id <id>\nruvnet plan <goal>                                                Advisory MetaHarness integration plan\nruvnet connect <host>                                             chatgpt, claude, claude-code, lovable, codex, stdio\nruvnet mcp                                                        Local read-only MCP over stdio\n\nNo shell execution, repository writes, network calls or federation signing.\nHosted federation: ChatGPT https://x.ruv.io/chatgpt/mcp · other hosts https://x.ruv.io/mcp\nInstall: https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md`);
+    console.log(`RuV Stack entrypoint ${VERSION}\n\nruvnet catalog [keywords]                                         Discover source-linked projects\nruvnet project <id>                                               Inspect one project with upstream provenance\nruvnet changes [limit] [options]                                  Page one reviewed snapshot\n  --project <id>  --kind <kind>  --cursor <cursor>  --snapshot-id <id>\n  legacy: changes [limit] [project] [kind] [cursor] [snapshot-id]\nruvnet search [limit] [options] <keywords...>                     Search and page reviewed exact-token matches\n  --project <id>  --kind <kind>  --min-raw-relevance 0..1\n  --cursor <cursor>  --snapshot-id <id>\nruvnet plan <goal>                                                Advisory MetaHarness integration plan\nruvnet connect <host>                                             chatgpt, claude, claude-code, lovable, codex, stdio\nruvnet mcp                                                        Local read-only MCP over stdio\n\nNo shell execution, repository writes, network calls or federation signing.\nHosted federation: ChatGPT https://x.ruv.io/chatgpt/mcp · other hosts https://x.ruv.io/mcp\nInstall: https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md`);
     return;
   }
   if (command === '--version' && !rest.length) return console.log(VERSION);
   if (command === 'mcp' && !rest.length) return (await import('../lib/mcp.mjs')).serve();
   let result;
   if (command === 'catalog') result = discover(rest.join(' '), 10);
-  else if (command === 'changes' && rest.length <= 5) {
-    const limit = rest.length ? Number(rest[0]) : 10;
-    result = changes(limit, Date.now(), { ...(rest[1] === undefined ? {} : { project: rest[1] }), ...(rest[2] === undefined ? {} : { kind: rest[2] }) }, rest[3], rest[4]);
+  else if (command === 'changes') {
+    const parts = [...rest];
+    const limit = /^\d+$/.test(parts[0] || '') ? Number(parts.shift()) : 10;
+    if (parts.some(part => part.startsWith('--'))) {
+      const takeOption = name => {
+        const indexes = parts.flatMap((part, index) => part === name ? [index] : []);
+        if (indexes.length > 1 || (indexes.length && (indexes[0] + 1 >= parts.length || parts[indexes[0] + 1].startsWith('--')))) throw new Error(`Invalid ${name} arguments`);
+        if (!indexes.length) return undefined;
+        const value = parts[indexes[0] + 1];
+        parts.splice(indexes[0], 2);
+        return value;
+      };
+      const projectId = takeOption('--project');
+      const kind = takeOption('--kind');
+      const cursor = takeOption('--cursor');
+      const snapshotId = takeOption('--snapshot-id');
+      if (parts.length) throw new Error('Unknown or mixed changes arguments');
+      result = changes(limit, Date.now(), {
+        ...(projectId === undefined ? {} : { project: projectId }),
+        ...(kind === undefined ? {} : { kind })
+      }, cursor, snapshotId);
+    } else {
+      if (parts.length > 4) throw new Error('Invalid changes arguments');
+      result = changes(limit, Date.now(), { ...(parts[0] === undefined ? {} : { project: parts[0] }), ...(parts[1] === undefined ? {} : { kind: parts[1] }) }, parts[2], parts[3]);
+    }
   }
   else if (command === 'search') {
     const parts = [...rest];
