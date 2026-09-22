@@ -11,9 +11,9 @@
     "proposed": true,
     "reproduced": true,
     "integrationReady": true,
-    "merged": false,
+    "merged": true,
     "deployed": false,
-    "verified": false,
+    "verified": true,
     "reverted": false,
     "claimBoundary": "Acceptance is not deployment or delivered customer value."
   },
@@ -115,6 +115,12 @@
     "sources": ["https://arxiv.org/abs/2509.24002", "https://arxiv.org/abs/2601.06112", "https://arxiv.org/abs/2608.14711"],
     "priorForecastsExpired": []
   },
-  "ci": {"runUrl": "https://github.com/ruvnet/ruvnet/actions/runs/35721437188", "status": "success", "node22": "success", "node24": "success"},
+  "ci": {
+    "candidateRunUrl": "https://github.com/ruvnet/ruvnet/actions/runs/35721437188",
+    "mainRunUrl": "https://github.com/ruvnet/ruvnet/actions/runs/35721685503",
+    "status": "success",
+    "node22": "success",
+    "node24": "success"
+  },
   "dashboard": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
 }
