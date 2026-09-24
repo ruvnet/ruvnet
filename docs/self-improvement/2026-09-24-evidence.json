@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-24",
+  "baseline": "e0d2b530d25ed68a0c8bd7cf739cf04e61a95ef1",
+  "candidate": {
+    "id": "cli-catalog-named-limit-parity",
+    "version": "0.11.0-local-candidate",
+    "state": "rejected",
+    "promotion": "not-pushed",
+    "reason": "The frozen hot-discovery p95 gate failed: 23.569% regression exceeded the 20% relative ceiling, although the absolute increase was only 0.000210 ms and remained below the separate 0.05 ms ceiling.",
+    "heldOut": { "baseline": "1/6", "candidate": "6/6" },
+    "tests": { "groups": 17, "node22": "pass", "node24": "pass" },
+    "metaharness": { "package": "metaharness@0.4.16", "hard": "6/6", "soft": "3/4", "scaffoldReady": true, "proofBoundary": "heuristic constraints are not proof of improvement" },
+    "performance": {
+      "seed": 1729,
+      "seedUsage": "metadata only; the runner uses deterministic alternating pair order and no RNG",
+      "pairs": 15,
+      "hotCallsPerArmPerPair": 10000,
+      "coldStartsPerArmPerPair": 20,
+      "baseline": { "hotP95Ms": 0.000891, "coldP95Ms": 72.026233, "rssBytes": 47259648 },
+      "candidate": { "hotP95Ms": 0.001101, "coldP95Ms": 70.286753, "rssBytes": 47501312 },
+      "delta": { "hotP95Ms": 0.000210, "hotP95Percent": 23.569024, "coldP95Ms": -1.739480, "coldP95Percent": -2.415065, "rssBytes": 241664 },
+      "gates": { "hot": false, "cold": true, "rss": true },
+      "raw": "2026-09-24-benchmarks.json"
+    },
+    "package": { "compressedBytes": 31235, "files": 18, "dependencyClosureEntries": 94, "dependencyClosureSha256": "a446f93b8faffb2072a14d62742ddd46cc13a44182ca6f710812fded0e3ab428", "closureUnchanged": true },
+    "authority": { "mcpTools": 6, "mcpResources": 3, "skills": 4, "marketplaces": 2, "expanded": false }
+  },
+  "evaluationAmendment": {
+    "originalRunnerSha256": "de869cc6885672662714dbf28301622905e956c93a0d1808069625cbc674e52c",
+    "amendedRunnerSha256": "62c8ae4b20bbe10e0d7129cb329c3ed3dd03d6a8de8ccb04aa93fad47ddf9fd6",
+    "amendedAt": "2026-09-24T10:23:44Z",
+    "change": "Successful MCP CallToolResult accepts omitted isError rather than requiring the optional property to equal false.",
+    "timing": "before candidate scoring",
+    "baselineReproduced": "1/6",
+    "limitation": "The original runner artifact was not retained; the one-line textual amendment and both hashes are the available audit evidence."
+  },
+  "upstream": {
+    "cutoff": "2026-09-22T11:04:56Z",
+    "observedAt": "2026-09-24T10:21:04Z",
+    "sources": [
+      { "id": "ruflo", "revision": "0a96fb8857dabd343d71d76c3ca703100a2923bc", "release": "v3.44.0", "license": "MIT", "compatibility": "Node >=20", "changed": true },
+      { "id": "metaharness", "revision": "d5833dc6512ac1adeeef91a331c29055cd8a4dbb", "release": "v0.4.4; scorer package 0.4.16", "license": "MIT", "compatibility": "Node >=20; Rust 1.85", "changed": false },
+      { "id": "ruvector", "revision": "5356a84e2f784a33fa497da2e73440d469eb5542", "release": "GitHub ruvector-v0.2.40; npm ruvector 0.3.3", "license": "MIT", "compatibility": "Node >=20 for ruvector; related packages >=18", "changed": true },
+      { "id": "agentdb", "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b", "release": "3.0.0-alpha.20", "license": "MIT", "compatibility": "Node >=18", "changed": false },
+      { "id": "dream-machine", "revision": "aa931caad5dd0108253645bba0ab1481ad7da0ee", "release": "v0.1.0", "license": "MIT", "compatibility": "Node ^22.13 || ^24", "changed": false },
+      { "id": "autogenous", "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509", "release": "radio-moe-v0.3.1", "license": "MIT", "compatibility": "Rust 1.74", "changed": false },
+      { "id": "rvm", "revision": "0973d77e5a9e99065376e8ef772a4a1d16e88c75", "release": "v1.7.0", "license": "declared MIT OR Apache-2.0; license texts absent", "compatibility": "Rust 1.77", "changed": false }
+    ],
+    "reviewedChanges": [
+      { "id": "ruflo-honest-learning-counts", "revision": "9e71cf66d23017ab3d6f19fa676282cad2949544", "decision": "reviewed-not-incorporated", "boundary": "reporting integrity, not learning quality" },
+      { "id": "ruflo-router-benchmark-no-promotion", "revision": "82dac70fd785c9127df69f6b25d35f26f054557e", "decision": "reviewed-not-incorporated", "boundary": "all candidates missed the frozen upstream gate" },
+      { "id": "ruvector-mcp-intelligence-durable-save", "revision": "33cad219a82c2d7f15f173f0bef1d4fc27af79f2", "decision": "reviewed-not-incorporated", "boundary": "upstream durability, not RuVnet learning" },
+      { "id": "ruvector-graph-metadata-roundtrip", "revision": "33cad219a82c2d7f15f173f0bef1d4fc27af79f2", "decision": "reviewed-not-incorporated" },
+      { "id": "ruvector-quantize-fail-closed", "revision": "33cad219a82c2d7f15f173f0bef1d4fc27af79f2", "decision": "reviewed-not-incorporated", "boundary": "negative-result safety; real writer unimplemented" },
+      { "id": "ruvector-filter-recursive-serde-fix", "revision": "7f114e5d427ac9e3377b76aaf5c4d3e5cceecca5", "decision": "reviewed-not-incorporated", "boundary": "WASM filter compatibility, not acceleration" }
+    ],
+    "xRuvIo": { "gateway": "0.7.2", "mcp": "/mcp", "chatgptMcp": "/chatgpt/mcp", "oauthScopes": ["swarm:read", "swarm:publish"], "status": "unchanged" }
+  },
+  "security": {
+    "rufloCli": "3.25.6",
+    "deepCode": { "critical": 0, "high": 0, "medium": 0, "low": 0 },
+    "dependencies": { "critical": 0, "high": 0, "medium": 0, "low": 0 },
+    "npmAudit": { "critical": 0, "high": 0, "total": 0, "productionDependencies": 95 },
+    "secretScannerFiles": 5,
+    "strideScannerFiles": 4,
+    "limitation": "Scanner coverage is limited and no claim of complete security is made."
+  },
+  "memory": {
+    "eligibleRecordsAfterReviewedUpstream": 65,
+    "gate": 100,
+    "exactBaseline": "implemented",
+    "vectorRetrieval": "deferred",
+    "wasmAcceleration": "not implemented",
+    "gnnTraining": "not implemented",
+    "persistentProductLearning": "not implemented",
+    "coordinationMemoryWrite": "skipped because the candidate failed its frozen acceptance gate"
+  },
+  "ruos": {
+    "status": "INCONCLUSIVE",
+    "liveProbeRequired": false,
+    "liveProbeIssued": false,
+    "desktopHeartbeat": null,
+    "trustedEvaluatorRevision": "aa931caad5dd0108253645bba0ab1481ad7da0ee",
+    "offlineVerifierTests": "59/59 pass",
+    "boundary": "No live desktop, tenant, authoritative completion, screenshot or customer journey was established."
+  },
+  "forecast": {
+    "type": "prediction",
+    "confidence": 0.84,
+    "horizon": "2026-12-23",
+    "prediction": "Agent and MCP promotion suites will add version-evolution compatibility lanes using historical or deterministically mutated tool schemas, with compatibility regression separate from pinned-version success.",
+    "falsifiableCriterion": "At least two primary benchmark implementations or reviewed production harnesses published or materially revised after 2026-09-24 test at least three interface states per workload and expose a separate compatibility delta or blocking threshold.",
+    "priorForecastExpired": false,
+    "sources": [
+      "https://arxiv.org/abs/2607.14642",
+      "https://github.com/modelcontextprotocol/conformance",
+      "https://github.com/eval-sys/mcpmark/pull/264"
+    ]
+  },
+  "delivery": {
+    "sourceChange": "not promoted",
+    "candidateCi": "not run because the frozen local performance gate rejected before promotion",
+    "reportOnlyValidation": "Node 22 and 24: validator and 16/16 baseline test groups pass",
+    "reportCommit": null,
+    "reportCi": null,
+    "sites": "pending"
+  },
+  "independentReview": {
+    "decision": "reject",
+    "reason": "The frozen conjunctive hot-latency rule failed and cannot be reinterpreted after measurement.",
+    "additionalLimitations": [
+      "The benchmark was bound to a local worktree label rather than an exact candidate commit or source digest.",
+      "The held-out runner itself verified default behavior; six-tool and three-resource counts came from the regression suite.",
+      "The benchmark seed is metadata because the fixed alternating order uses no RNG."
+    ]
+  },
+  "limitations": [
+    "The hot microbenchmark operates near timer resolution and the absolute regression was negligible, but the frozen relative threshold was not amended after observation.",
+    "Upstream focused results were reviewed, not independently reproduced in RuVnet.",
+    "No live ruOS desktop evidence exists.",
+    "No vector, WASM acceleration, GNN or autonomous-learning value is claimed."
+  ],
+  "nextHypothesis": "Evaluate version-evolution compatibility receipts for CLI/MCP schemas while keeping the exact retrieval baseline and the 100-record semantic-memory gate."
+}

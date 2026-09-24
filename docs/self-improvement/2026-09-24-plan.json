@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-24",
+  "status": "frozen-before-candidate",
+  "baseline": "e0d2b530d25ed68a0c8bd7cf739cf04e61a95ef1",
+  "target": "refs/heads/main",
+  "acceptedButUnintegrated": [],
+  "candidate": {
+    "id": "cli-catalog-named-limit-parity",
+    "hypothesis": "Adding a position-independent, fail-closed --limit 1..10 option to the catalog CLI will make the existing bounded core and MCP discovery behavior available to shell users without changing default output or authority.",
+    "scope": [
+      "CLI argument parsing and help",
+      "portable skill and installation documentation",
+      "marketplace/plugin version metadata",
+      "tests and reviewed upstream evidence"
+    ],
+    "authority": "read-only, offline, no new tool, resource, network, shell, write, credential or federation capability"
+  },
+  "heldOut": {
+    "runner": "../heldout-20260924.mjs",
+    "originalSha256": "de869cc6885672662714dbf28301622905e956c93a0d1808069625cbc674e52c",
+    "amendedSha256": "62c8ae4b20bbe10e0d7129cb329c3ed3dd03d6a8de8ccb04aa93fad47ddf9fd6",
+    "amendedAt": "2026-09-24T10:23:44Z",
+    "amendment": "Before scoring the candidate, the runner's SDK success assertion was corrected from isError === false to isError !== true because successful MCP CallToolResult objects omit the optional isError field. The corrected runner reproduced the same frozen 1/6 baseline. The original runner artifact was not retained, so the textual one-line amendment and both hashes are the available audit evidence.",
+    "baselinePassed": 1,
+    "total": 6,
+    "groups": [
+      "catalog --limit 1 memory equals the core discover oracle",
+      "empty-query catalog --limit 3 returns the canonical first three projects",
+      "flag-first and flag-last calls agree while ordinary multiword queries remain intact",
+      "missing, duplicate, equals-form, out-of-range, non-integer, control, unknown and authority-expanding input fails closed without stdout",
+      "four official-SDK stdio sessions return the same one-result discovery receipt as CLI and core",
+      "the default catalog memory output remains unchanged; the separate regression suite must verify the six-tool, three-resource authority surface"
+    ]
+  },
+  "acceptance": {
+    "heldOut": "6/6 and strictly better than baseline",
+    "node": [22, 24],
+    "existingTests": "all pass",
+    "marketplaces": 2,
+    "skills": 4,
+    "mcpTools": 6,
+    "mcpResources": 3,
+    "metaharness": "metaharness@0.4.16, 6/6 hard constraints",
+    "performance": {
+      "seed": 1729,
+      "pairs": 15,
+      "hotCallsPerArmPerPair": 10000,
+      "coldStartsPerArmPerPair": 20,
+      "hotP95MaximumRegression": "both <=20% and <=0.05 ms absolute",
+      "coldP95MaximumRegression": "both <=20% and <=5 ms absolute",
+      "rssMaximumRegressionBytes": 5242880
+    },
+    "package": "normalized dependency closure unchanged and compressed archive below 40000 bytes",
+    "security": "no high/critical npm audit finding; pinned Ruflo scans complete with coverage limitations disclosed",
+    "promotion": "independent review, candidate CI, exact main-head recheck, fast-forward only, post-promotion CI"
+  },
+  "ruvectorWorkstream": {
+    "eligibleRecordsBeforeRefresh": 59,
+    "minimumRecords": 100,
+    "baseline": "exact lexical retrieval",
+    "decision": "defer product vector retrieval, WASM acceleration and GNN learning below the frozen corpus gate",
+    "futureArms": ["exact", "vector-only", "fusion", "GNN rerank", "shuffled-graph control"],
+    "futureMinimumGain": "10 percentage points held-out task success"
+  },
+  "ruos": {
+    "runNonce": "f6d9072a-edf8-4f0b-b3a6-ab515391fecf",
+    "status": "INCONCLUSIVE",
+    "liveProbeRequired": false,
+    "reason": "The scoped change is a local read-only CLI parser addition and does not affect a desktop journey, MCP UI, OAuth or graphical control.",
+    "candidateDesktop": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "candidateDesktopHeartbeat": null,
+    "evaluatorRevision": "aa931caad5dd0108253645bba0ab1481ad7da0ee",
+    "evaluatorSha256": "330189c4f31af1ab1dae37b97269cbc51834884f5a357415fb364c67932bb5eb",
+    "preflightSha256": "e2643a4c0bf8271a297c36c74c830dd285938f8a534da53f604f7983c22330dd",
+    "offlineVerifierTests": "59/59 pass",
+    "expectedTenant": null,
+    "assertionIds": [],
+    "minimumSamples": 0
+  },
+  "forecast": {
+    "prediction": "Agent and MCP promotion suites will add a version-evolution compatibility lane using historical or deterministically mutated tool schemas, reporting compatibility regression separately from pinned-version success.",
+    "confidence": 0.84,
+    "horizon": "2026-12-23",
+    "falsifiableCriterion": "At least two primary benchmark implementations or reviewed production harnesses published or materially revised after 2026-09-24 test at least three interface states per workload and expose a separate compatibility delta or blocking threshold.",
+    "priorForecastExpired": false
+  }
+}
