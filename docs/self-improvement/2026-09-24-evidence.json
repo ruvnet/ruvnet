@@ -101,9 +101,17 @@
     "sourceChange": "not promoted",
     "candidateCi": "not run because the frozen local performance gate rejected before promotion",
     "reportOnlyValidation": "Node 22 and 24: validator and 16/16 baseline test groups pass",
-    "reportCommit": null,
+    "reportCommit": "4a165f54c1e57e1f1a6a7ac0cf9bf2181344d610",
     "reportCi": null,
-    "sites": "pending"
+    "sites": {
+      "projectId": "appgprj_6aa529f096ac8191b708898ad9e6ef2d",
+      "sourceCommit": "f4b37f26dfbfc4076049ee70c88b607efc8fa40f",
+      "deploymentId": "appgdep_6ab50008f54c8191bd91e9c0f52a9764",
+      "versionId": "appgprj_6aa529f096ac8191b708898ad9e6ef2d~appgver_a4302fb108588191b2dc994ad982977d",
+      "status": "succeeded",
+      "audience": "owner-only",
+      "url": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
+    }
   },
   "independentReview": {
     "decision": "reject",
