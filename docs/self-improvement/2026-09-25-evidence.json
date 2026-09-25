@@ -1,0 +1,260 @@
+{
+  "date": "2026-09-25",
+  "baseline": "211f5751515446a3d994d43adacc5d5fba7d18dc",
+  "candidate": {
+    "id": "reviewed-upstream-evidence-refresh",
+    "commit": "71085634192d721beab7fc4b4b9eabc1b727097f",
+    "version": "0.10.1-local-candidate",
+    "state": "rejected",
+    "promotion": "not-pushed",
+    "reason": "The frozen hot-search p95 gate failed: 20.119191649123902% regression exceeded the 20% ceiling, although the absolute increase was 0.026940000001559383 ms and passed the separate 0.05 ms ceiling.",
+    "snapshotId": "sha256:d27c8abb1ab9f48689d2bde29ee4a88c4165d6cf5d7932b890ba410405211a62",
+    "heldOut": {
+      "baseline": "1/6",
+      "candidate": "6/6",
+      "runnerSha256": "a51ab5d5510fbf090f191c6a9ff1718c960d6f4a240e393523fa59cd38eaf909",
+      "evaluatorChangedAfterCandidateScoring": false
+    },
+    "tests": {
+      "groups": 17,
+      "node22": "pass after removing proxy variables that caused an experimental runtime warning on stderr",
+      "node24": "pass"
+    },
+    "metaharness": {
+      "package": "metaharness@0.4.16",
+      "hard": "6/6",
+      "harnessFit": 60,
+      "compileConfidence": 65,
+      "taskCoverage": 84,
+      "toolSafety": 90,
+      "memoryUsefulness": 38,
+      "scaffoldReady": true,
+      "proofBoundary": "Heuristic constraints and scores are not proof of improvement."
+    },
+    "performance": {
+      "runnerSha256": "8249c7bdc011fc3a1b1c1581aef7d56c3b5fe642a9caaeca84fff4c0d9cd57bb",
+      "rawSha256": "648c37403067da79d4f112ff2d70e99b3d6a224b887f9bf81d5a62048749e350",
+      "seed": 1729,
+      "seedUsage": "metadata only; fixed alternating order and no RNG",
+      "pairs": 15,
+      "hotCallsPerArmPerPair": 10000,
+      "coldStartsPerArmPerPair": 20,
+      "measurementValid": true,
+      "baseline": {
+        "hotP95Ms": 0.13390199999776087,
+        "coldP95Ms": 66.2843969999958,
+        "rssBytes": 39976960
+      },
+      "candidate": {
+        "hotP95Ms": 0.16084199999932025,
+        "coldP95Ms": 66.3452879999968,
+        "rssBytes": 40108032
+      },
+      "delta": {
+        "hotP95Ms": 0.026940000001559383,
+        "hotP95Percent": 20.119191649123902,
+        "coldP95Ms": 0.06089100000099279,
+        "coldP95Percent": 0.09186324799936862,
+        "rssBytes": 131072
+      },
+      "gates": {
+        "hot": false,
+        "cold": true,
+        "rss": true
+      },
+      "raw": "2026-09-25-benchmarks.json"
+    },
+    "package": {
+      "compressedBytes": 31437,
+      "unpackedBytes": 108038,
+      "files": 18,
+      "dependencyClosureEntries": 94,
+      "dependencyClosureSha256": "084b16e3f9e1d06fe293bcaef9b776c652ace9db31a3f95b387e3e010fb93bec",
+      "closureUnchanged": true
+    },
+    "authority": {
+      "mcpTools": 6,
+      "mcpResources": 3,
+      "skills": 4,
+      "marketplaces": 2,
+      "expanded": false
+    }
+  },
+  "upstream": {
+    "observedAt": "2026-09-25T10:15:00Z",
+    "sources": [
+      {
+        "id": "ruflo",
+        "revision": "88955d9fa9c60836a3f9a3d0e47fcabdc5af4ff5",
+        "release": "v3.45.0",
+        "license": "MIT",
+        "compatibility": "Node >=20",
+        "changed": true
+      },
+      {
+        "id": "metaharness",
+        "revision": "d5833dc6512ac1adeeef91a331c29055cd8a4dbb",
+        "release": "v0.4.4; scorer package 0.4.16",
+        "license": "MIT",
+        "compatibility": "Node >=20; Rust 1.85",
+        "changed": false
+      },
+      {
+        "id": "ruvector",
+        "revision": "5356a84e2f784a33fa497da2e73440d469eb5542",
+        "release": "GitHub ruvector-v0.2.40; npm ruvector 0.3.3",
+        "license": "MIT",
+        "compatibility": "Node >=20 for ruvector; related packages >=18; Rust 1.77",
+        "changed": false
+      },
+      {
+        "id": "agentdb",
+        "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+        "release": "npm 3.0.0-alpha.20",
+        "license": "MIT",
+        "compatibility": "Node >=18",
+        "changed": false
+      },
+      {
+        "id": "dream-machine",
+        "revision": "aa931caad5dd0108253645bba0ab1481ad7da0ee",
+        "release": "v0.1.0",
+        "license": "MIT",
+        "compatibility": "Node ^22.13 or ^24",
+        "changed": false
+      },
+      {
+        "id": "autogenous",
+        "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+        "release": "radio-moe-v0.3.1",
+        "license": "MIT",
+        "compatibility": "Rust 1.74",
+        "changed": false
+      },
+      {
+        "id": "rvm",
+        "revision": "0973d77e5a9e99065376e8ef772a4a1d16e88c75",
+        "release": "v1.7.0",
+        "license": "manifest declares MIT OR Apache-2.0; root license texts absent",
+        "compatibility": "Rust 1.77",
+        "changed": false
+      }
+    ],
+    "candidateRecords": [
+      "ruflo-honest-learning-counts",
+      "ruflo-router-benchmark-no-promotion",
+      "ruvector-mcp-intelligence-durable-save",
+      "ruvector-graph-metadata-roundtrip",
+      "ruvector-quantize-fail-closed",
+      "ruvector-filter-recursive-serde-fix"
+    ],
+    "newlyReviewedNotInCandidate": [
+      {
+        "id": "ruflo-memory-exact-pin-and-stale-doctor",
+        "revision": "88955d9fa9c60836a3f9a3d0e47fcabdc5af4ff5",
+        "limitations": "No formal PR review; one unexplained CI failure followed by a same-SHA rerun; 99 build-output witness entries were carried forward; the wrapper still permits a stale CLI range."
+      },
+      {
+        "id": "ruflo-init-test-home-isolation",
+        "revision": "c815ccdeed7fa94b5bb1e8337d9811b70e610de6",
+        "limitations": "Test-only safety isolation; no runtime capability or formal PR review."
+      }
+    ],
+    "incorporation": "none because the candidate failed its frozen performance gate",
+    "xRuvIo": {
+      "gateway": "0.7.2",
+      "mcp": "/mcp",
+      "chatgptMcp": "/chatgpt/mcp",
+      "oauthScopes": ["swarm:read", "swarm:publish"],
+      "status": "unchanged"
+    }
+  },
+  "security": {
+    "rufloCli": "3.25.6",
+    "deepAll": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "npmAudit": {
+      "critical": 0,
+      "high": 0,
+      "total": 0,
+      "productionDependencies": 95
+    },
+    "limitation": "The scanner reported no known issues but its coverage is limited; this is not a complete-security claim."
+  },
+  "memory": {
+    "shippedEligibleRecords": 59,
+    "candidateEligibleRecords": 65,
+    "reviewedEligibleRecordsIncludingNewRuflo": 67,
+    "gate": 100,
+    "exactBaseline": "implemented",
+    "vectorRetrieval": "deferred",
+    "wasmAcceleration": "not implemented",
+    "gnnTraining": "not implemented",
+    "persistentProductLearning": "not implemented",
+    "coordinationMemoryWrite": "skipped because the candidate failed its frozen acceptance gate"
+  },
+  "ruos": {
+    "status": "INCONCLUSIVE",
+    "liveProbeRequired": false,
+    "liveProbeIssued": false,
+    "desktopHeartbeat": null,
+    "trustedEvaluatorRevision": "aa931caad5dd0108253645bba0ab1481ad7da0ee",
+    "runbookSha256": "b10cb10844a6dbf045c80e0d814fd8c2c379e77eae007c4000cd37df4eabb2eb",
+    "preflightSha256": "e2643a4c0bf8271a297c36c74c830dd285938f8a534da53f604f7983c22330dd",
+    "evaluationSha256": "330189c4f31af1ab1dae37b97269cbc51834884f5a357415fb364c67932bb5eb",
+    "boundary": "No live desktop, tenant, authoritative completion, screenshot or customer journey was established; a local data refresh did not require a desktop probe."
+  },
+  "forecast": {
+    "type": "prediction",
+    "confidence": 0.81,
+    "horizon": "2027-01-23",
+    "prediction": "Agent-memory and retrieval promotion suites will require state-conditioned, set-level evidence sufficiency, so individually relevant but collectively incomplete top-k results cannot pass.",
+    "falsifiableCriterion": "At least two primary benchmarks or reviewed production harnesses first published or materially revised after 2026-09-25 must include grouped evidence requirements, a held-out split, an exact set-completeness or coverage metric and a downstream missing-group ablation; fewer than two falsifies the prediction.",
+    "priorForecastExpired": false,
+    "sources": [
+      "https://arxiv.org/abs/2609.20050",
+      "https://github.com/LordTARN1SHED/SERBench",
+      "https://arxiv.org/abs/2608.10108",
+      "https://arxiv.org/abs/2607.26072",
+      "https://github.com/microsoft/STATE-Bench/blob/main/docs/AGENT_LEARNING_TRACK.md"
+    ]
+  },
+  "delivery": {
+    "sourceChange": "not promoted",
+    "candidateCi": "not run because the frozen local performance gate rejected before promotion",
+    "reportOnlyValidation": "Node 22 and 24: validator and 16/16 shipped-baseline test groups pass; all report JSON parses and git diff check passes",
+    "reportCommit": null,
+    "reportCi": null,
+    "sites": {
+      "projectId": "appgprj_6aa529f096ac8191b708898ad9e6ef2d",
+      "status": "pending",
+      "audience": "owner-only",
+      "url": "https://ruvnet-harness-evidence.ruv.chatgpt.site"
+    }
+  },
+  "independentReview": {
+    "decision": "reject",
+    "reason": "The valid hot-search measurement exceeded the frozen relative ceiling; passing absolute, cold and RSS gates cannot override the conjunctive rule.",
+    "verified": [
+      "candidate is exactly bound to the frozen-plan parent",
+      "runner hashes match the plan",
+      "rejected catalog parser is absent",
+      "tools, MCP runtime code, skills and dependencies are unchanged",
+      "origin/main remains 211f575 and the candidate is not promoted"
+    ]
+  },
+  "limitations": [
+    "The candidate failed a conjunctive threshold by 0.119 percentage points and was not promoted; the threshold was not reinterpreted.",
+    "Upstream results were reviewed as public evidence, not independently reproduced in RuVnet.",
+    "The initial Node 22 npx run emitted an experimental proxy warning on stderr; the same exact tests passed with proxy variables removed.",
+    "Held-out groups 4 and 5 inspect raw snapshot records and boundaries; exact-search journeys are exercised by groups 2 and 3 plus the regression suite.",
+    "Tool, resource and marketplace counts come partly from the separate regression and validator suites rather than solely from the held-out runner.",
+    "No live ruOS desktop evidence exists.",
+    "No vector, WASM acceleration, GNN or autonomous-learning value is claimed."
+  ],
+  "nextHypothesis": "Evaluate set-complete exact retrieval over a larger reviewed corpus, retaining explicit negative-result and provenance groups; do not introduce RuVector or GNN complexity before the 100-record gate."
+}

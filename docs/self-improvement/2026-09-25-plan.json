@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-25",
+  "status": "frozen-before-candidate",
+  "baseline": "211f5751515446a3d994d43adacc5d5fba7d18dc",
+  "target": "refs/heads/main",
+  "acceptedButUnintegrated": [],
+  "priorRejectedCandidate": {
+    "id": "cli-catalog-named-limit-parity",
+    "decision": "not-retried",
+    "reason": "The 2026-09-24 candidate failed its frozen hot-p95 gate; no rejected parser code is included in this data-only experiment."
+  },
+  "candidate": {
+    "id": "reviewed-upstream-evidence-refresh",
+    "version": "0.10.1",
+    "hypothesis": "Adding the six independently reviewed Ruflo and RuVector records to the read-only provenance snapshot will improve held-out exact evidence retrieval from 1/6 to 6/6 while preserving all 48 prior records, default behavior and authority.",
+    "scope": [
+      "reviewed upstream data and current source-head metadata",
+      "patch version metadata",
+      "tests and documentation"
+    ],
+    "excluded": [
+      "the rejected catalog limit parser",
+      "upstream runtime code",
+      "new vector, WASM, GNN or autonomous-learning functionality",
+      "the two newly reviewed Ruflo 3.45.0 records, which remain reviewed-not-incorporated for a separate bounded experiment"
+    ],
+    "authority": "read-only, offline, no new tool, resource, network, shell, write, credential or federation capability"
+  },
+  "heldOut": {
+    "runner": "../heldout-20260925.mjs",
+    "sha256": "a51ab5d5510fbf090f191c6a9ff1718c960d6f4a240e393523fa59cd38eaf909",
+    "baselinePassed": 1,
+    "total": 6,
+    "groups": [
+      "the snapshot contains 54 unique records, current pinned source heads, a fixed observation time and a new deterministic identity",
+      "honest learning-count reporting is exact-search retrievable and explicitly bounded to reporting integrity",
+      "the router benchmark is a negative result retaining 197 prompts, 113 held-out prompts, no winner and an unchanged default",
+      "durable intelligence save and graph-metadata round-trip evidence retain atomic, quarantine and reserved-key boundaries",
+      "quantize fail-closed and recursive WASM filter serialization retain unimplemented-writer and no-acceleration boundaries",
+      "all 48 prior records remain byte-canonical and ordered, least-privilege surfaces remain fixed, CLI retrieval works and the old snapshot fails closed"
+    ]
+  },
+  "acceptance": {
+    "heldOut": "6/6 and strictly better than the frozen 1/6 baseline; evaluator must not change after candidate scoring",
+    "node": [22, 24],
+    "existingTests": "all pass",
+    "marketplaces": 2,
+    "skills": 4,
+    "mcpTools": 6,
+    "mcpResources": 3,
+    "metaharness": "metaharness@0.4.16, 6/6 hard constraints; heuristic status is not proof",
+    "performance": {
+      "runner": "../benchmark-20260925.mjs",
+      "sha256": "8249c7bdc011fc3a1b1c1581aef7d56c3b5fe642a9caaeca84fff4c0d9cd57bb",
+      "seed": 1729,
+      "seedUsage": "metadata only; fixed alternating order and no RNG",
+      "pairs": 15,
+      "hotCallsPerArmPerPair": 10000,
+      "coldStartsPerArmPerPair": 20,
+      "workload": "memory quantize graph metadata learning router",
+      "measurementValidity": "baseline hot p95 must be at least 0.01 ms; otherwise INCONCLUSIVE and no promotion",
+      "hotP95MaximumRegression": "both <=20% and <=0.05 ms absolute",
+      "coldP95MaximumRegression": "both <=20% and <=5 ms absolute",
+      "rssMaximumRegressionBytes": 5242880
+    },
+    "package": "normalized 94-entry dependency closure byte-identical, no new dependency, valid package, 18 files and compressed archive below 40000 bytes",
+    "security": "npm audit has no high/critical finding; pinned Ruflo code, dependency, secret and STRIDE scans complete with coverage limitations disclosed",
+    "promotion": "candidate bound to an exact commit, independent review, candidate CI, exact main-head recheck, fast-forward only and post-promotion CI"
+  },
+  "upstreamCutoff": {
+    "observedAt": "2026-09-25T10:15:00Z",
+    "ruflo": "88955d9fa9c60836a3f9a3d0e47fcabdc5af4ff5",
+    "metaharness": "d5833dc6512ac1adeeef91a331c29055cd8a4dbb",
+    "ruvector": "5356a84e2f784a33fa497da2e73440d469eb5542",
+    "agentdb": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+    "dreamMachine": "aa931caad5dd0108253645bba0ab1481ad7da0ee",
+    "autogenous": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+    "rvm": "0973d77e5a9e99065376e8ef772a4a1d16e88c75"
+  },
+  "ruvectorWorkstream": {
+    "shippedEligibleRecordsBeforeRefresh": 59,
+    "reviewedEligibleRecordsAfterRefresh": 65,
+    "minimumRecords": 100,
+    "baseline": "exact lexical retrieval",
+    "decision": "defer product vector retrieval, WASM acceleration and GNN learning below the frozen corpus gate",
+    "futureArms": ["exact", "vector-only", "fusion", "GNN rerank", "shuffled-graph control"],
+    "futureMinimumGain": "10 percentage points held-out downstream task success"
+  },
+  "ruos": {
+    "runNonce": "c3d6e616-8c19-482d-8558-0285533471b0",
+    "status": "INCONCLUSIVE",
+    "liveProbeRequired": false,
+    "reason": "The candidate changes reviewed local data only and does not affect a desktop journey, desktop control, MCP UI, OAuth or graphical performance.",
+    "candidateDesktop": "59fc0c7fcdd873c1eba47092dfee29e2",
+    "candidateDesktopHeartbeat": null,
+    "evaluatorRevision": "aa931caad5dd0108253645bba0ab1481ad7da0ee",
+    "runbookSha256": "b10cb10844a6dbf045c80e0d814fd8c2c379e77eae007c4000cd37df4eabb2eb",
+    "evaluatorSha256": "330189c4f31af1ab1dae37b97269cbc51834884f5a357415fb364c67932bb5eb",
+    "preflightSha256": "e2643a4c0bf8271a297c36c74c830dd285938f8a534da53f604f7983c22330dd",
+    "expectedTenant": null,
+    "assertionIds": [],
+    "minimumSamples": 0
+  },
+  "forecast": {
+    "type": "prediction",
+    "prediction": "Agent-memory and retrieval promotion suites will require state-conditioned, set-level evidence sufficiency, so individually relevant but collectively incomplete top-k results cannot pass.",
+    "confidence": 0.81,
+    "horizon": "2027-01-23",
+    "falsifiableCriterion": "At least two primary benchmarks or reviewed production harnesses first published or materially revised after 2026-09-25 must include grouped evidence requirements, a held-out split, an exact set-completeness or coverage metric and a downstream missing-group ablation; fewer than two falsifies the prediction.",
+    "priorForecastExpired": false,
+    "sources": [
+      "https://arxiv.org/abs/2609.20050",
+      "https://github.com/LordTARN1SHED/SERBench",
+      "https://arxiv.org/abs/2608.10108",
+      "https://arxiv.org/abs/2607.26072",
+      "https://github.com/microsoft/STATE-Bench/blob/main/docs/AGENT_LEARNING_TRACK.md"
+    ]
+  }
+}
