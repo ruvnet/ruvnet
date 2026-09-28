@@ -98,7 +98,7 @@ Contribution graph totals were not re-derived for this window. They can include 
 | Known npm packages listing `ruvnet` as maintainer | at least 383 |
 | npm download events across the known set, rolling 365 days, 2025-09-07 through 2026-09-06 | at least 74,976,706 |
 | Rust crates owned by `ruvnet` | 416 |
-| Cumulative Rust crate downloads (verified 2026-09-21) | 1,638,911 |
+| Cumulative Rust crate downloads (verified 2026-09-28) | 1,706,476 |
 | Ownership verified PyPI packages | 8 |
 | Hugging Face models, spaces, and datasets | 22 |
 
@@ -111,7 +111,7 @@ The known npm catalog sustained **13.2 million to 14.5 million monthly downloads
 <!-- registry-download-chart:start -->
 ## npm download growth
 
-Monthly downloads across all 383 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
+Monthly downloads across all 385 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
 
 ```mermaid
 xychart-beta
