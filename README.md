@@ -20,6 +20,32 @@ This ecosystem is published through one developer account. Repositories can incl
 
 [Core stack](#how-the-stack-fits-together) · [August update](#august-2026-update) · [Recent projects](#recent-public-source-delta) · [Package index](docs/ruvnet-packages.md) · [Provenance dossier](docs/ruvnet-prior-art.md) · [Machine readable metrics](data/metrics.json) · [Citation](CITATION.cff)
 
+## Weekly evidence — 2026-W40
+
+The first versioned weekly portfolio edition separates source availability, measured behavior, delivery state, and customer outcomes. Its eight public claim cards are projected as readable Markdown, normalized SQLite, and a genuine native RVF container with exact numeric-ID lookup. The generator and verifier remain review candidates; no learning, novelty, release, deployment, or delivered-value claim is inferred from the artifact.
+
+| Capability | Current evidence state |
+| --- | --- |
+| Ruflo standalone MCP repair | Source merged; observed registry remediation not yet published |
+| QuDAG wrapper completion | Reproduced 12/12 locally; draft and release workflows remain red |
+| Dream Machine ruOS verifier | Merged; live desktop outcomes remain unverified |
+| Core Memory RVF adapter | CI-qualified proposal; independent review and merge pending |
+| RuVnet portable plugin | Both marketplace schemas and package closure pass; exact-main host suite is 15/16 because a wall-clock freshness assertion is non-hermetic |
+
+[W40 readable projection](docs/evidence/2026-W40.md) · [canonical records](https://github.com/ruvnet/core-memory/tree/evidence/2026-W40-rsi-flywheel/docs/weekly/2026-W40) · [native SQLite/RVF snapshot](https://github.com/ruvnet/core-memory/tree/evidence-snapshots/2026-W40/docs/weekly/2026-W40)
+
+Verified commands for this revision:
+
+```bash
+cd plugins/ruvnet
+npm ci --ignore-scripts
+npm run validate
+npm pack --dry-run --json
+npm audit --json
+```
+
+`npm test` is intentionally not listed as green: it currently exposes the time-sensitive freshness expectation recorded in the W40 evidence set.
+
 <!-- github-public-metrics:start -->
 ## GitHub reach
 
