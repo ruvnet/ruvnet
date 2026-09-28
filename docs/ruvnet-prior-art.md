@@ -685,3 +685,7 @@ This table preserves 247 rows visible to the authenticated inventory process on 
 - **Validation invariant:** a current-public claim should return HTTP 200 to an unauthenticated reader and should name a feature commit, evidence path or test, release or registry timestamp, claim predicate, and prior-art cutoff. Rows that do not meet that invariant remain historical lineage notes rather than conclusive prior-art proof.
 
 *Built from GitHub repository metadata and git history. Repository lineage, public availability, feature evidence, adoption metrics, and novelty are separate evidentiary layers and are reported as such.*
+
+## 2026-W40 evidence edition
+
+The [2026-W40 weekly projection](evidence/2026-W40.md) adds stable claim IDs, immutable source revisions where available, content hashes, evidence classes, limitations, corrections, and delivery states across Markdown, SQLite, and native RVF. It preserves unknown first-public-availability dates as unknown. The edition does not turn repository history, a digest, a vector match, or an originating-team measurement into a novelty, inventorship, legal-priority, independent-validation, or delivered-value claim.
