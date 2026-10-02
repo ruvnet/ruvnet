@@ -23,7 +23,6 @@ jobs:
           const fs = require('fs');
 
           const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-          const fmt = n => new Intl.NumberFormat('en-US').format(n);
           const iso = d => d.toISOString().slice(0, 10);
 
           async function fetchJson(url, options = {}, attempts = 12) {
@@ -193,6 +192,9 @@ jobs:
               npm: {
                 maintainer: 'ruvnet',
                 package_count: npmPackages.length,
+                download_package_count: npmPackages.length,
+                inventory_verified_at: now.toISOString(),
+                downloads_verified_at: new Date().toISOString(),
                 downloads: npm.downloads,
                 period_start: start,
                 period_end: end,
@@ -200,10 +202,11 @@ jobs:
                 monthly_period_start: chartStart,
                 monthly_period_end: chartEnd,
                 monthly_downloads: monthly.rows,
-                counting_rule: 'Sum of npm point-download counts for every public package whose metadata lists ruvnet as a maintainer, including scoped and platform packages.'
+                counting_rule: 'Sum of npm point-download counts for the known maintainer-search set listing ruvnet, including scoped and platform packages.'
               },
               crates_io: {
                 user_id: 339999,
+                verified_at: new Date().toISOString(),
                 crate_count: crates.length,
                 cumulative_downloads: crateDownloads,
                 counting_rule: 'Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999.'
@@ -226,70 +229,8 @@ jobs:
             };
             fs.writeFileSync(metricsPath, JSON.stringify(metrics, null, 2) + '\n');
 
-            const readmePath = 'README.md';
-            let readme = fs.readFileSync(readmePath, 'utf8');
-            readme = readme.replace(
-              /\| Cumulative Rust crate downloads(?: \(verified [^)]+\))? \| [^\n]+/,
-              `| Cumulative Rust crate downloads (verified ${iso(now)}) | ${fmt(crateDownloads)} |`
-            );
-            readme = readme.replace(
-              /\| npm downloads, rolling 365 days \([^)]+\) \| [^\n]+/,
-              `| npm downloads, rolling 365 days (${start}–${end}) | ${fmt(npm.downloads)} |`
-            );
-
-            const chartLabels = monthly.rows.map(row => {
-              const [year, month] = row.month.split('-').map(Number);
-              return `"${new Date(Date.UTC(year, month - 1, 1)).toLocaleString('en-US', {month: 'short', year: 'numeric', timeZone: 'UTC'})}"`;
-            }).join(', ');
-            const chartValues = monthly.rows.map(row => Number((row.downloads / 1_000_000).toFixed(3)));
-            const chartMax = Math.max(1, Math.ceil(Math.max(...chartValues)));
-            const chart = [
-              '<!-- registry-download-chart:start -->',
-              '## npm download growth',
-              '',
-              `Monthly downloads across all ${npmPackages.length} npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.`,
-              '',
-              '```mermaid',
-              'xychart-beta',
-              '    title "rUv npm ecosystem: monthly downloads"',
-              `    x-axis [${chartLabels}]`,
-              `    y-axis "Downloads (millions)" 0 --> ${chartMax}`,
-              `    line [${chartValues.join(', ')}]`,
-              '```',
-              '',
-              `**Period:** ${chartStart} through ${chartEnd} · **Source:** official npm daily range API · Scoped, unscoped, and target-specific platform packages included. Download events are not unique users.`,
-              '<!-- registry-download-chart:end -->'
-            ].join('\n');
-            const chartPattern = /<!-- registry-download-chart:start -->[\s\S]*?<!-- registry-download-chart:end -->/;
-            if (chartPattern.test(readme)) readme = readme.replace(chartPattern, chart);
-            else readme = readme.replace('\n## Start here', `\n${chart}\n\n## Start here`);
-            readme = readme.replaceAll('1,035,139 cumulative crate downloads', `${fmt(crateDownloads)} cumulative crate downloads`);
-            readme = readme.replaceAll('1,035,139 crate downloads', `${fmt(crateDownloads)} crate downloads`);
-            fs.writeFileSync(readmePath, readme);
-
-            const packageDoc = 'docs/ruvnet-packages.md';
-            let doc = fs.readFileSync(packageDoc, 'utf8');
-            doc = doc.replace(
-              /\*\*\d+\*\* Rust crates \([\d,]+ cumulative downloads\)/,
-              `**${crates.length}** Rust crates (${fmt(crateDownloads)} cumulative downloads)`
-            );
-            doc = doc.replace(
-              /The exact npm recount is \*\*[\d,]+ downloads\*\* across \d+ maintained packages for the complete 365-day window \*\*\d{4}-\d{2}-\d{2} through \d{4}-\d{2}-\d{2}\*\*\./,
-              `The exact npm recount is **${fmt(npm.downloads)} downloads** across ${npmPackages.length} maintained packages for the complete 365-day window **${start} through ${end}**.`
-            );
-            doc = doc.replace(
-              /crates\.io reports \*\*[\d,]+ cumulative downloads\*\* across \d+ crates\./,
-              `crates.io reports **${fmt(crateDownloads)} cumulative downloads** across ${crates.length} crates.`
-            );
-            doc = doc.replace(
-              /^\| \[crates\.io\]\([^\n]+$/m,
-              `| [crates.io](https://crates.io/users/ruvnet) | **${crates.length}** | ${fmt(crateDownloads)} cumulative |`
-            );
-            doc = doc.replace(
-              /^\| \[npm\]\([^\n]+$/m,
-              `| [npm](https://www.npmjs.com/~ruvnet) | **${npmPackages.length}** | **${fmt(npm.downloads)}** during ${start}–${end} |`
-            );
-            fs.writeFileSync(packageDoc, doc);
+            require('child_process').execFileSync(process.execPath, ['scripts/render-registry-metrics.mjs'], {stdio: 'inherit'});
+            require('child_process').execFileSync(process.execPath, ['scripts/verify-profile.mjs'], {stdio: 'inherit'});
 
             console.log(JSON.stringify(result, null, 2));
           })().catch(error => {

@@ -10,6 +10,11 @@ rUv, GitHub account ruvnet, builds open-source systems for agent orchestration, 
 - Ruflo: https://github.com/ruvnet/ruflo
 - MetaHarness: https://github.com/ruvnet/metaharness
 - RuVector: https://github.com/ruvnet/RuVector
+- RVF: https://www.npmjs.com/package/@ruvector/rvf
+- RVForge: https://www.npmjs.com/package/@ruvector/rvforge
+- Autogenous: https://github.com/ruvnet/autogenous
+- APx: https://github.com/ruvnet/APx
+- rGi: https://github.com/ruvnet/rGi
 - RVM: https://github.com/ruvnet/rvm
 
 ## Canonical documentation
@@ -20,6 +25,9 @@ rUv, GitHub account ruvnet, builds open-source systems for agent orchestration, 
 - Project data: https://github.com/ruvnet/ruvnet/blob/main/data/projects.json
 - Metrics data: https://github.com/ruvnet/ruvnet/blob/main/data/metrics.json
 - Evidence model: https://github.com/ruvnet/ruvnet/blob/main/data/claims.json
+
+- October proof: https://github.com/ruvnet/ruvnet/blob/main/docs/proof/2026-10-02.md
+- Source and publication receipts: https://github.com/ruvnet/ruvnet/blob/main/data/proof-2026-10-02.json
 
 ## Interpretation
 

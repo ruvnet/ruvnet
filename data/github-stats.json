@@ -1,51 +1,56 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-09-07T00:00:00Z",
+  "verified_at": "2026-10-02T02:50:46.605846+00:00",
   "source": "https://api.github.com",
   "counting_rule": "Owned repositories from /users/ruvnet/repos?type=owner, paginated. Nonfork totals exclude repositories where fork is true. Watchers use subscribers_count, not stargazers.",
   "account": {
-    "followers": 11352,
-    "public_repositories": 215,
-    "owned_public_nonfork_repositories": 190,
+    "followers": 11634,
+    "public_repositories": 221,
+    "owned_public_nonfork_repositories": 196,
     "public_forks": 25,
-    "stars_across_owned_nonfork": 180252,
-    "aggregate_downstream_forks_of_owned_nonfork": 24203
+    "stars_across_owned_nonfork": 185968,
+    "aggregate_downstream_forks_of_owned_nonfork": 24914
   },
   "flagships": [
     {
       "name": "RuView",
-      "stars": 92749,
-      "forks": 12303,
-      "watchers": 855
+      "stars": 95890,
+      "forks": 12655,
+      "watchers": 872,
+      "source": "https://api.github.com/repos/ruvnet/RuView"
     },
     {
       "name": "ruflo",
-      "stars": 71415,
-      "forks": 8461,
-      "watchers": 454
+      "stars": 73670,
+      "forks": 8754,
+      "watchers": 464,
+      "source": "https://api.github.com/repos/ruvnet/ruflo"
     },
     {
       "name": "RuVector",
-      "stars": 4477,
-      "forks": 591,
-      "watchers": 38
+      "stars": 4531,
+      "forks": 607,
+      "watchers": 36,
+      "source": "https://api.github.com/repos/ruvnet/RuVector"
     },
     {
       "name": "metaharness",
-      "stars": 637,
-      "forks": 75,
-      "watchers": 1
+      "stars": 682,
+      "forks": 86,
+      "watchers": 3,
+      "source": "https://api.github.com/repos/ruvnet/metaharness"
     },
     {
       "name": "rvm",
-      "stars": 145,
-      "forks": 30,
-      "watchers": 0
+      "stars": 147,
+      "forks": 31,
+      "watchers": 0,
+      "source": "https://api.github.com/repos/ruvnet/rvm"
     }
   ],
   "concentration": {
-    "two_flagship_share_of_owned_nonfork_stars": 0.911,
-    "two_flagship_share_of_aggregate_forks": 0.858
+    "two_flagship_share_of_owned_nonfork_stars": 0.91177,
+    "two_flagship_share_of_aggregate_forks": 0.859316
   },
   "traffic_rolling_14_days": {
     "note": "Owner-only endpoint (/repos/{owner}/{repo}/traffic). Not publicly reproducible. Clone and view counts are events; uniques are GitHub's deduplicated counts. Combined uniques sum two repositories and may double count.",
@@ -60,7 +65,9 @@
       "unique_cloners": 5235,
       "views": 104365,
       "unique_visitors": 36532
-    }
+    },
+    "verified_at": "2026-09-07T00:00:00Z",
+    "status": "historical; owner traffic endpoint was unavailable during October refresh"
   },
   "activity_2026_08_10_to_2026_09_07": {
     "owned_nonfork_repositories_created": 14,
@@ -68,5 +75,14 @@
     "owned_nonfork_repositories_pushed": 29,
     "commit_search_matches": 2313,
     "commit_search_query": "author:ruvnet committer-date:2026-08-10..2026-09-07"
+  },
+  "inventory": "data/snapshots/2026-10-02/github-inventory.json",
+  "activity_2026_09_08_to_snapshot": {
+    "window_start": "2026-09-08T00:00:00Z",
+    "window_end": "2026-10-02T02:50:46.605846+00:00",
+    "owned_nonfork_repositories_created": 6,
+    "public_forks_created": 0,
+    "owned_nonfork_repositories_with_latest_push_in_window": 41,
+    "note": "Latest pushed_at is repository metadata, not a commit count or full push-event history. Current public inventory only."
   }
 }

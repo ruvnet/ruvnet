@@ -1,0 +1,161 @@
+{
+  "retrieved_at": "2026-10-02T02:52:53.923400+00:00",
+  "repositories": [
+    {
+      "name": "agents-of-the-dawm",
+      "full_name": "ruvnet/agents-of-the-dawm",
+      "html_url": "https://github.com/ruvnet/agents-of-the-dawm",
+      "description": null,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "created_at": "2026-09-24T21:12:12Z",
+      "pushed_at": "2026-09-25T00:54:27Z",
+      "updated_at": "2026-09-24T21:34:36Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "default_branch": "main",
+      "language": null,
+      "head_sha": "ffdf270c94d50af8c0057f96268d9d6ef2b2484c",
+      "roots": [
+        {
+          "sha": "c12b365928985da76284c3e8cb34048de9823b5b",
+          "author_date": "2026-09-24T21:24:00Z",
+          "committer_date": "2026-09-24T21:24:00Z",
+          "subject": "Initialize repository for game design review"
+        }
+      ],
+      "readme_source": "https://github.com/ruvnet/agents-of-the-dawm/blob/ffdf270c94d50af8c0057f96268d9d6ef2b2484c/README.md"
+    },
+    {
+      "name": "APx",
+      "full_name": "ruvnet/APx",
+      "html_url": "https://github.com/ruvnet/APx",
+      "description": "APx, or Agentic Power, is a framework for measuring the useful work produced by agent systems\u2014not just how long agents run or how many tasks they complete. It evaluates output by task, quality, cost, safety, and the amount of human effort required.",
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "created_at": "2026-09-08T12:35:39Z",
+      "pushed_at": "2026-09-08T13:20:05Z",
+      "updated_at": "2026-09-26T06:42:18Z",
+      "stargazers_count": 4,
+      "forks_count": 1,
+      "default_branch": "main",
+      "language": "TypeScript",
+      "head_sha": "4fb3093329c0839ad95a3033ec2553513c3351ea",
+      "roots": [
+        {
+          "sha": "bdaf73a85fd26eb23f30a61e9f847f5fa4704133",
+          "author_date": "2026-09-08T08:35:39-04:00",
+          "committer_date": "2026-09-08T08:35:39-04:00",
+          "subject": "Initial commit"
+        }
+      ],
+      "readme_source": "https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/README.md"
+    },
+    {
+      "name": "mcp-studio",
+      "full_name": "ruvnet/mcp-studio",
+      "html_url": "https://github.com/ruvnet/mcp-studio",
+      "description": null,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "created_at": "2026-09-17T17:53:44Z",
+      "pushed_at": "2026-09-18T01:11:19Z",
+      "updated_at": "2026-09-28T21:07:01Z",
+      "stargazers_count": 2,
+      "forks_count": 2,
+      "default_branch": "main",
+      "language": "TypeScript",
+      "head_sha": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+      "roots": [
+        {
+          "sha": "ef25446d1787d36d91453ede4e86ec546e715821",
+          "author_date": "2026-09-17T13:53:45-04:00",
+          "committer_date": "2026-09-17T13:53:45-04:00",
+          "subject": "Initial commit"
+        }
+      ],
+      "readme_source": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md"
+    },
+    {
+      "name": "rGi",
+      "full_name": "ruvnet/rGi",
+      "html_url": "https://github.com/ruvnet/rGi",
+      "description": "A perpetual agentic runtime for Artificial General Intelligence built on the ruvstack ",
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "created_at": "2026-09-08T12:19:25Z",
+      "pushed_at": "2026-09-09T02:02:25Z",
+      "updated_at": "2026-09-26T06:42:19Z",
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "default_branch": "main",
+      "language": "TypeScript",
+      "head_sha": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421",
+      "roots": [
+        {
+          "sha": "764f3d9a235ad74e664fc932228922a3f72beb22",
+          "author_date": "2026-09-08T08:19:26-04:00",
+          "committer_date": "2026-09-08T08:19:26-04:00",
+          "subject": "Initial commit"
+        }
+      ],
+      "readme_source": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/README.md"
+    },
+    {
+      "name": "rultra",
+      "full_name": "ruvnet/rultra",
+      "html_url": "https://github.com/ruvnet/rultra",
+      "description": "Self-optimizing Raspberry Pi 5 / CrowPi sensor box in Rust. One trait over every device with verification provenance in the type system, plus a governed evolution loop (autogenous fitness gate, canary, verified rollback, signed witness chain).",
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "created_at": "2026-09-11T22:42:33Z",
+      "pushed_at": "2026-09-16T15:25:54Z",
+      "updated_at": "2026-09-21T20:25:06Z",
+      "stargazers_count": 9,
+      "forks_count": 0,
+      "default_branch": "main",
+      "language": "Rust",
+      "head_sha": "03e4a7e039c9ee6e47193f77127d8d35f7830ed2",
+      "roots": [
+        {
+          "sha": "856bf2e604adeb4620f5ee0f6ac6f528be46605d",
+          "author_date": "2026-09-11T18:42:33-04:00",
+          "committer_date": "2026-09-11T18:42:33-04:00",
+          "subject": "feat: rultra \u2014 unified sensing surface with verification provenance"
+        }
+      ],
+      "readme_source": "https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/README.md"
+    },
+    {
+      "name": "ruPet",
+      "full_name": "ruvnet/ruPet",
+      "html_url": "https://github.com/ruvnet/ruPet",
+      "description": "A friendly animated robot pet for the ChatGPT and Codex desktop pet system.",
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "created_at": "2026-09-22T15:55:11Z",
+      "pushed_at": "2026-09-22T16:05:09Z",
+      "updated_at": "2026-09-30T21:08:43Z",
+      "stargazers_count": 9,
+      "forks_count": 0,
+      "default_branch": "main",
+      "language": null,
+      "head_sha": "ec2737995cdf74ef28a59ddd6d38e1c721fe0636",
+      "roots": [
+        {
+          "sha": "6ce45f30799904773cec9c8fd5a3d59b76527634",
+          "author_date": "2026-09-22T11:55:11-04:00",
+          "committer_date": "2026-09-22T11:55:11-04:00",
+          "subject": "Publish ruPet desktop companion with installation guide"
+        }
+      ],
+      "readme_source": "https://github.com/ruvnet/ruPet/blob/ec2737995cdf74ef28a59ddd6d38e1c721fe0636/README.md"
+    }
+  ]
+}

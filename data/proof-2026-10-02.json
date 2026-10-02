@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-10-02T02:50:46.605846+00:00",
+  "scope": "October 2026 profile evidence refresh",
+  "baseline_profile_commit": "765f4ed581f2c56a7d4cdaad7b278df90b4d59bb",
+  "source_heads": {
+    "RuVector": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+    "ruflo": "1c78a51d42166cc111e5c24bcf0bb89c51295105",
+    "metaharness": "9ce8b8dd89045c3b9a1f809ae58f3589029db4a4",
+    "autogenous": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509"
+  },
+  "sources": [
+    {
+      "repository": "ruvnet/agents-of-the-dawm",
+      "commit": "ffdf270c94d50af8c0057f96268d9d6ef2b2484c",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/agents-of-the-dawm/blob/ffdf270c94d50af8c0057f96268d9d6ef2b2484c/README.md",
+      "sha256": "fccb162cf4fc8993c5d67509676edf27c115dc79c94df1a02dcbdf146f717df6",
+      "evidence_class": "source inspection; root history verified"
+    },
+    {
+      "repository": "ruvnet/ruPet",
+      "commit": "ec2737995cdf74ef28a59ddd6d38e1c721fe0636",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/ruPet/blob/ec2737995cdf74ef28a59ddd6d38e1c721fe0636/README.md",
+      "sha256": "0083a66d00274a10503aebe12b75e669c8333951cb0afc3516bb705ea2fbdbc0",
+      "evidence_class": "source inspection; root history verified"
+    },
+    {
+      "repository": "ruvnet/mcp-studio",
+      "commit": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md",
+      "sha256": "47b538da5507d796ae812b7da1371fec2799a9d1271920d91bc61a2fd78d791c",
+      "evidence_class": "source inspection; root history verified"
+    },
+    {
+      "repository": "ruvnet/rultra",
+      "commit": "03e4a7e039c9ee6e47193f77127d8d35f7830ed2",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/README.md",
+      "sha256": "6149af85b181ba1fd69c33f8190950133d60575095479826261bf674f746f6e8",
+      "evidence_class": "source inspection; root history verified"
+    },
+    {
+      "repository": "ruvnet/APx",
+      "commit": "4fb3093329c0839ad95a3033ec2553513c3351ea",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/README.md",
+      "sha256": "d74f72e885ec682cd8a44d01b5edd1343919afee714c685226cabec202ea679f",
+      "evidence_class": "source inspection; root history verified"
+    },
+    {
+      "repository": "ruvnet/rGi",
+      "commit": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/README.md",
+      "sha256": "c29f8c87b6f225198f8ee50ed4aa97b871c5c4bad8559b90d3bfd00802e21072",
+      "evidence_class": "source inspection; root history verified"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "crates/rvf/README.md",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/README.md",
+      "sha256": "f8e3574d62217e5a6930adf2dc2a4d66184b10d3401cc7d74e5159903f79215d",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "1349cf538819f5a4a3be74090e05634a6ba38166"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "crates/rvf/rvf-crypto/README.md",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-crypto/README.md",
+      "sha256": "6a80e40ab0d59608d4a6961ae6f4bc666ce02845d5e6d92f323fc5185a165ff4",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "e4f6d80a836aec67181840f2001ef654a473ade1"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "crates/rvf/rvf-runtime/tests/witness_e2e.rs",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-runtime/tests/witness_e2e.rs",
+      "sha256": "d7896cd838dfcd64e0f4cb0a0da56dae16556be5e5dac182ee3f45041dc76c33",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "c87769214cd0398e7e8e66bc299d52c0ef56acc1"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "crates/rvf/rvf-wire/README.md",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-wire/README.md",
+      "sha256": "cb3c7080edd87e4f2f1ac944801935a32c7cbbd20bf68a5123fa218771e5d524",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "8b1e11c124392fd1b5ee592ca915067825db7892"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "crates/rvf/rvf-wire/tests/wire_contract_golden.rs",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-wire/tests/wire_contract_golden.rs",
+      "sha256": "d51675c2124091af1d67530feebfd48b56475fe990395a18d6c5b6e03f88360b",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "6b2eca40cb2316886c31b6b144c0c225ecaa0a65"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "docs/adr/ADR-351-ruvector-edge-multitenant-services.md",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/docs/adr/ADR-351-ruvector-edge-multitenant-services.md",
+      "sha256": "8d4a1ae52917c954ce9673a6392d01ccc498f1ec58d1ca17772462bba6329683",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "0e456a847b6d5c0153f4633c23bb76678798a96b"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "npm/packages/kge/README.md",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/npm/packages/kge/README.md",
+      "sha256": "84639f6726b9385ac870b58237902b5662b035624ff113811c5af0eddde7a2be",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "e56bfc2eb7e54e2416dafded04c435b683b677ad"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "npm/packages/rvf/README.md",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/npm/packages/rvf/README.md",
+      "sha256": "dd307073f66bdc65e7656f000d906ec2dd98325bc543586153a4a4a776a87a1a",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "c6d8d702c8bda66b8d896c66fdb1ed36977865fc"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "5a93328f2fceb0307c25929ed38cd7a0911fdf00",
+      "path": "npm/packages/rvforge/README.md",
+      "url": "https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/npm/packages/rvforge/README.md",
+      "sha256": "f716e0b758c8e3e69f9502852ba671154d584ad49279dd930be3099a55862672",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "67c22de2f06a759d0a8fb255c689e462392018a0"
+    },
+    {
+      "repository": "ruvnet/autogenous",
+      "commit": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md",
+      "sha256": "9d3bbcef507a5c10ac219d712649a1243de89a54279c6eaeaba7b943f1c12257",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "bd6ebc9870c7e34881b031389715e48a6840cf4c"
+    },
+    {
+      "repository": "ruvnet/metaharness",
+      "commit": "9ce8b8dd89045c3b9a1f809ae58f3589029db4a4",
+      "path": "README.md",
+      "url": "https://github.com/ruvnet/metaharness/blob/9ce8b8dd89045c3b9a1f809ae58f3589029db4a4/README.md",
+      "sha256": "d532bc52c422bdb9cb793720e573e81edb35c80ee116b086c6b41b1e2db3db69",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "1a84a4d9af3fd40152b6a22797a4a966ef04791a"
+    },
+    {
+      "repository": "ruvnet/metaharness",
+      "commit": "9ce8b8dd89045c3b9a1f809ae58f3589029db4a4",
+      "path": "docs/adrs/ADR-318-multi-generation-improvement-proof.md",
+      "url": "https://github.com/ruvnet/metaharness/blob/9ce8b8dd89045c3b9a1f809ae58f3589029db4a4/docs/adrs/ADR-318-multi-generation-improvement-proof.md",
+      "sha256": "989a39c4292b4bf930bc9b8cc9174bf93f3ba8dd114a90208d84642d6d7aa8e6",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "2ecf97529cbb7f16bed8731ec66611dddcf2bb1c"
+    },
+    {
+      "repository": "ruvnet/ruflo",
+      "commit": "1c78a51d42166cc111e5c24bcf0bb89c51295105",
+      "path": "data/clone-data.proof.json",
+      "url": "https://github.com/ruvnet/ruflo/blob/1c78a51d42166cc111e5c24bcf0bb89c51295105/data/clone-data.proof.json",
+      "sha256": "efe9e8969d2c9ca2a2b5f1183500b377eb7d2ebbfe38cbb1a772a3ca81efbd2b",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "3abe1a1d15de413db16a091ed8a2717754e1edc0"
+    },
+    {
+      "repository": "ruvnet/ruflo",
+      "commit": "1c78a51d42166cc111e5c24bcf0bb89c51295105",
+      "path": "plugins/ruflo-mods/README.md",
+      "url": "https://github.com/ruvnet/ruflo/blob/1c78a51d42166cc111e5c24bcf0bb89c51295105/plugins/ruflo-mods/README.md",
+      "sha256": "a5a5564a0067319f34cf7a0a3c2780da7a39afac4e8cc4c3709e974b2f2bdf91",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "18e0980cc968d139ddb502cb657d1c41d6e291a0"
+    },
+    {
+      "repository": "ruvnet/ruflo",
+      "commit": "1c78a51d42166cc111e5c24bcf0bb89c51295105",
+      "path": "plugins/ruflo-rvf/README.md",
+      "url": "https://github.com/ruvnet/ruflo/blob/1c78a51d42166cc111e5c24bcf0bb89c51295105/plugins/ruflo-rvf/README.md",
+      "sha256": "bcfeecf56550c87827f7ea1e648b64ffa0afa32cddccec57907f0e752fd00e1a",
+      "evidence_class": "source inspected; upstream product tests not rerun",
+      "git_blob_sha": "389ca42937bdce5f3ae8407bc3caa4570a1e0425"
+    }
+  ],
+  "registry_releases": [
+    {
+      "name": "metaharness",
+      "latest": "0.4.17",
+      "created": "2026-06-14T15:49:04.529Z",
+      "published": "2026-09-26T15:49:41.835Z",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/agent-harness-generator.git",
+        "type": "git",
+        "directory": "packages/create-agent-harness"
+      },
+      "gitHead": null,
+      "dist": {
+        "shasum": "16d50c3cea2834fa3bab1878c49cd4638285a760",
+        "tarball": "https://registry.npmjs.org/metaharness/-/metaharness-0.4.17.tgz",
+        "fileCount": 525,
+        "integrity": "sha512-1FKNb4FQjKGdROX/Jy+P8rjFyCq+kxrfXpKIwIaTqSpepkTsMxr925R72OVE8wUaznMXS0bEOBs116KFgqZHow==",
+        "signatures": [
+          {
+            "sig": "MEUCIQDy+8NdbN9/GGLGh2ujvz9/pNGMUDFY4BuI1UdFqF6vLQIgRq1zmzcLMg9pRQDXkvugzB4ComybFL2Iqm+U/nWCcw8=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIEdhLOn42/tIFjRg+epfXhPI0kixI55T3s8thG0PkEiQAiEAoHm/iUqnatSoxE3sQCSXM2FgheD/mi++Qd1hiMEAl/g="
+          }
+        ],
+        "unpackedSize": 1339598
+      }
+    },
+    {
+      "name": "ruflo",
+      "latest": "3.50.0",
+      "created": "2026-02-16T16:29:45.936Z",
+      "published": "2026-10-02T00:21:04.035Z",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/claude-flow.git",
+        "type": "git",
+        "directory": "ruflo"
+      },
+      "gitHead": null,
+      "dist": {
+        "shasum": "98f806108c052013bbe87dfd3ea5ad5a5840f1ca",
+        "tarball": "https://registry.npmjs.org/ruflo/-/ruflo-3.50.0.tgz",
+        "fileCount": 526,
+        "integrity": "sha512-BTBxRXAJed/pDfq9OV+KRqMl/ztMLErn2RIq0OKT4n8C4yqCsIcZ6CoN8LzH7qF3b7JpD2cM0rqN9uZ7vwfgHQ==",
+        "signatures": [
+          {
+            "sig": "MEQCIGeMRzok9o1W9NJi4Ft2SN6pDQ1iHIF92mfOkcLm/cklAiA77OAS5gDpX7FEkxfQo9eFyrxoumBGZ0W2uh8yZpLhng==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIQDezkKupNSKORxKjWILME8Nv6s1Mu89EGdZ2l3Yp4ECiwIgQehe/0TBK7jPqAHjQnJMxKHojaDK9ze+qmqBJiPWoZU="
+          }
+        ],
+        "unpackedSize": 8176527
+      }
+    },
+    {
+      "name": "@ruvector/kge",
+      "latest": "0.2.0",
+      "created": "2026-09-21T18:09:01.679Z",
+      "published": "2026-09-28T23:30:33.661Z",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruvector.git",
+        "type": "git",
+        "directory": "npm/packages/kge"
+      },
+      "gitHead": "e7b0bc37e4042382a7d981ce03e03aa1e5db35a6",
+      "dist": {
+        "shasum": "e3ce3c17a6acca929f408446dab98695e7bfa0c2",
+        "tarball": "https://registry.npmjs.org/@ruvector/kge/-/kge-0.2.0.tgz",
+        "fileCount": 80,
+        "integrity": "sha512-WwfysfBa3/3HVmSLrwVvso+TuFp8rOubUJZIsoOUaWbLidzYvw35zuQthKhxSzH0wJE4CybJYVwOkCeyOZMCMA==",
+        "signatures": [
+          {
+            "sig": "MEUCIDAiB1lmQa3R61N/b+PyMlPJa+RXNWnu8LF82AOnpZ5IAiEArB0GtRGyEiWS2rEaf8oIUKrhEfaCbgDPnE7uxroGYR4=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEYCIQDfNoP/CZhojpA/K4xDbi2VtFBiEYwftFAokiKUS5+WDQIhALoISl3/Fk9Itm2ZSN5PDG+14wRT9asqnune/N9JC0Pb"
+          }
+        ],
+        "unpackedSize": 11418975
+      }
+    },
+    {
+      "name": "@ruvector/rvf",
+      "latest": "0.3.4",
+      "created": "2026-02-14T16:37:27.664Z",
+      "published": "2026-07-28T04:44:03.686Z",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruvector.git",
+        "type": "git"
+      },
+      "gitHead": null,
+      "dist": {
+        "shasum": "af086294b1b52932b2d3114787ba02606c3de65a",
+        "tarball": "https://registry.npmjs.org/@ruvector/rvf/-/rvf-0.3.4.tgz",
+        "fileCount": 17,
+        "integrity": "sha512-hl/v3MOMKZ3JsNLwEoZ7pMmKZ+FZZspoXwo3qJ5Bf+qCFiuIrdUDBtQoyEdtOK7GD8eUu5u37Wv/BQX1GjW1HQ==",
+        "signatures": [
+          {
+            "sig": "MEQCIFolxWIJuXl2K4nrwHvj3kOaP6u5ZNYgj0QCzkW+vlO9AiAwUW62Qg0+qbyeuJqIpcRPBdXjHw+6m/NDJ7FolFJ8oA==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 156711
+      }
+    },
+    {
+      "name": "@ruvector/rvforge",
+      "latest": "0.2.0",
+      "created": "2026-08-04T11:14:50.400Z",
+      "published": "2026-08-05T15:53:40.597Z",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruvnet/ruvector.git",
+        "directory": "npm/packages/forge"
+      },
+      "gitHead": "86062a2e13f0aac9e9e13549ede7d842a10cf851",
+      "dist": {
+        "integrity": "sha512-KJf2fVjZDRfo/lWSgoKYNUqo3m4uFRyVrvEEbAWPuC/FmX97CA8ndiGPW5TOLb3SBJ1U/xTpHekEcosNK+SZ6A==",
+        "shasum": "3d5263aeffeb29850133f635fbeb427878fb70b0",
+        "tarball": "https://registry.npmjs.org/@ruvector/rvforge/-/rvforge-0.2.0.tgz",
+        "fileCount": 99,
+        "unpackedSize": 581271,
+        "signatures": [
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEQCIDF72gy6R7ZVx1JimXHBIbmnYPljbC/U//mY4edFS3hUAiA1wIw0yMs/OcKs39m446niwvMeYZas9h+F1zatLn5QQw=="
+          }
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Source presence and published versions verified; upstream test suites and benchmark claims were not rerun.",
+    "Source commits establish presence at the inspected revision, not earliest invention.",
+    "The published Ruflo 3.50.0 release is opt in for Mods; later main changes have different defaults.",
+    "RVForge stages bundles; native installer assembly remains separate.",
+    "October npm download collection unavailable; September 28 download evidence retained without redating.",
+    "Owner-only GitHub traffic was not refreshed.",
+    "SHA256 fingerprints bind bytes only; they are not trusted signatures, legal priority or proof that a measured claim is true."
+  ],
+  "files": [
+    {
+      "path": "data/snapshots/2026-10-02/crates-inventory.json",
+      "sha256": "2a5a209b7ada5e134a806856645c2867a1da78b75beb754439e5d0f111afbba9"
+    },
+    {
+      "path": "data/snapshots/2026-10-02/github-baseline-2026-09-07.json",
+      "sha256": "38bd61f6ed3e6104cf408271c2a1628637962aad34ed2a9560038c478d15a6cb"
+    },
+    {
+      "path": "data/snapshots/2026-10-02/github-inventory.json",
+      "sha256": "ee0ca8cd4154e5b4e3dee6fb6ad6638b6ba3909fb6bafd9b221ede37f0415ce8"
+    },
+    {
+      "path": "data/snapshots/2026-10-02/new-projects.json",
+      "sha256": "65a7f1c29051461b79789156c43ba2a509c356e6bd5df7c81a772be1ddbd431a"
+    },
+    {
+      "path": "data/snapshots/2026-10-02/npm-inventory.json",
+      "sha256": "af3d30d68be1965032db59cd0b60900974bb975fbba45ac0c9557817ac730b75"
+    },
+    {
+      "path": "data/snapshots/2026-10-02/registry-baseline-2026-09-28.json",
+      "sha256": "47583b4558eb378847c20bf9dda6789b785ea601f19e3e30b65e89aec3ed15da"
+    }
+  ],
+  "release_receipts": [
+    {
+      "repository": "ruvnet/ruflo",
+      "release_id": 401451937,
+      "tag": "v3.50.0",
+      "published_at": "2026-10-02T00:26:27Z",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.50.0",
+      "source_url": "https://api.github.com/repos/ruvnet/ruflo/releases/401451937",
+      "body_sha256": "15d08eb5428cb8bc0ce64a92dcdd6a520b0873ecf4922d8c8489785a62e4cf21",
+      "release_source_commit": "27982983ea6cdc4767c0b6614a4ad9a9d9497cce",
+      "classification": "upstream release report, not an independent test run"
+    }
+  ],
+  "profile_validation": {
+    "status": "PASS",
+    "command": "node scripts/verify-profile.mjs",
+    "new_project_histories": 6,
+    "source_receipts": 21,
+    "snapshot_hashes": 6,
+    "local_markdown_links": 42,
+    "renderer_idempotent": true,
+    "tampered_snapshot_rejected": true,
+    "future_registry_refresh_fixture_passed": true,
+    "future_fixture_is_synthetic": true,
+    "workflow_javascript_syntax": "PASS",
+    "scope": "Profile consistency and refresh behavior only; not upstream product qualification."
+  }
+}

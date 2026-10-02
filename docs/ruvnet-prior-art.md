@@ -1,6 +1,6 @@
 # ruvnet — account-wide repository lineage and public prior-art dossier
 
-A dated, commit-anchored working record of repositories associated with the **[ruvnet](https://github.com/ruvnet)** GitHub user account. The June table is preserved as a historical snapshot; the July reconciliation distinguishes what remains public, what is an owned non-fork, and what is a fork. Two kinds of evidence are kept separate:
+A dated, commit-anchored working record of repositories associated with the **[ruvnet](https://github.com/ruvnet)** GitHub user account. The June table is preserved as a historical snapshot; the July and October reconciliations distinguish dated public inventories, owned nonfork repositories, and forks. Two kinds of evidence are kept separate:
 
 - **Repository lineage:** a root commit proves that the current repository history contains that commit and its self-asserted Git author date. It does not prove when GitHub first served the commit, when the repository became public, or when a later feature appeared. Repository `created_at`, release timestamps, registry publication records, feature commits, tests, and independent archives are stronger public-appearance evidence.
 - **Claimed novelty (scoped candidate):** where a project appears to contain a first-of-its-kind combination or application, the claim is written as an explicit predicate with named prior art. A repository root is a lineage anchor, not by itself proof that every current feature existed at genesis.
@@ -11,7 +11,44 @@ Confidence reflects how defensible the scoped predicate is against the named pri
 
 > **Technical and legal scope:** This is a technical provenance record and non-exhaustive related-work review, not a patentability, inventorship, freedom-to-operate, or legal prior-art opinion. Items published after a claim cutoff are subsequent related work, not prior art against that cutoff.
 
-## Account lineage at a glance
+## October 2026 provenance delta
+
+Observed October 2, 2026 UTC, during the October 1 Toronto profile refresh. The current public API inventory contains **221 repositories: 196 owned nonfork repositories and 25 forks**. Across owned nonfork repositories it records **185,968 stars** and **24,914 downstream forks**. [Captured inventory](../data/snapshots/2026-10-02/github-inventory.json) and [proof receipts](../data/proof-2026-10-02.json) preserve the population and source revisions.
+
+Six currently public nonfork repositories have creation dates after September 7. Root commits below were obtained from complete cloned history with `git rev-list --max-parents=0 HEAD`. The root is a lineage anchor; the inspected head is the evidence for the current description. GitHub creation does not establish when a previously private repository became public.
+
+| Repository | Created UTC | Reachable root | Inspected head | Evidence boundary |
+| --- | --- | --- | --- | --- |
+| [agents-of-the-dawm](https://github.com/ruvnet/agents-of-the-dawm) | 2026-09-24 | [`c12b3659`](https://github.com/ruvnet/agents-of-the-dawm/commit/c12b365928985da76284c3e8cb34048de9823b5b) | [`ffdf270c`](https://github.com/ruvnet/agents-of-the-dawm/commit/ffdf270c94d50af8c0057f96268d9d6ef2b2484c) | Design proposal; proposed ADRs and no playable implementation. |
+| [ruPet](https://github.com/ruvnet/ruPet) | 2026-09-22 | [`6ce45f30`](https://github.com/ruvnet/ruPet/commit/6ce45f30799904773cec9c8fd5a3d59b76527634) | [`ec273799`](https://github.com/ruvnet/ruPet/commit/ec2737995cdf74ef28a59ddd6d38e1c721fe0636) | Artwork and animation package, not an autonomous agent runtime. |
+| [mcp-studio](https://github.com/ruvnet/mcp-studio) | 2026-09-17 | [`ef25446d`](https://github.com/ruvnet/mcp-studio/commit/ef25446d1787d36d91453ede4e86ec546e715821) | [`1de79b28`](https://github.com/ruvnet/mcp-studio/commit/1de79b28e679ea39937df54586cc9bdcffdf4cdc) | MCP application starter with deterministic example tools. |
+| [rultra](https://github.com/ruvnet/rultra) | 2026-09-11 | [`856bf2e6`](https://github.com/ruvnet/rultra/commit/856bf2e604adeb4620f5ee0f6ac6f528be46605d) | [`03e4a7e0`](https://github.com/ruvnet/rultra/commit/03e4a7e039c9ee6e47193f77127d8d35f7830ed2) | Governed Pi sensor prototype; published observations are hardware specific. |
+| [APx](https://github.com/ruvnet/APx) | 2026-09-08 | [`bdaf73a8`](https://github.com/ruvnet/APx/commit/bdaf73a85fd26eb23f30a61e9f847f5fa4704133) | [`4fb30933`](https://github.com/ruvnet/APx/commit/4fb3093329c0839ad95a3033ec2553513c3351ea) | Runnable scoring harness; synthetic human baselines in the tutorial. |
+| [rGi](https://github.com/ruvnet/rGi) | 2026-09-08 | [`764f3d9a`](https://github.com/ruvnet/rGi/commit/764f3d9a235ad74e664fc932228922a3f72beb22) | [`2dd6adb5`](https://github.com/ruvnet/rGi/commit/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421) | Experimental persistent runtime; no demonstrated AGI. |
+
+### Feature evidence and publication dates
+
+| Feature | Evidence observed | What the evidence establishes |
+| --- | --- | --- |
+| Ruflo Mods and swarm pane | [3.50.0 release](https://github.com/ruvnet/ruflo/releases/tag/v3.50.0), published October 2 UTC; npm version 3.50.0 | A published integration of routing, tool checks, learning signals and session controls; release reports are not a new independent benchmark |
+| Mods default installation and repair | [Inspected main](https://github.com/ruvnet/ruflo/commit/1c78a51d42166cc111e5c24bcf0bb89c51295105) | Later source changes; the 3.50.0 release itself documents opt in behavior |
+| RVF portable memory | [`@ruvector/rvf` 0.3.4](https://www.npmjs.com/package/@ruvector/rvf/v/0.3.4), published July 28; [wire tests](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-wire/tests/wire_contract_golden.rs) | SDK publication and exact format test source at the inspected revision; no claim that every feature existed at the RuVector root |
+| RVF witness and governance records | [Integration tests](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-runtime/tests/witness_e2e.rs) | Source for tamper checks, costs, policy results, and recorded evidence; not independent confirmation of the truth of each event |
+| RVForge | [`@ruvector/rvforge` 0.2.0](https://www.npmjs.com/package/@ruvector/rvforge/v/0.2.0), published August 5 | Artifact authoring, validation and staged target bundles; not a claim of finished native installers |
+| RuVector KGE | [`@ruvector/kge` 0.2.0](https://www.npmjs.com/package/@ruvector/kge/v/0.2.0), published September 28 | Local packaging of established graph embedding methods and governed optimization |
+| Multi generation improvement verification | [MetaHarness commit](https://github.com/ruvnet/metaharness/commit/9ce8b8dd89045c3b9a1f809ae58f3589029db4a4), September 27 | Evidence verifier source with controls and reviewer identity boundaries; not demonstrated recursive self improvement |
+
+Registry publication timestamps and package integrity strings are retained in the [machine readable receipt](../data/proof-2026-10-02.json). Source inspection was performed for this refresh; upstream product test suites and performance experiments were not rerun.
+
+### Prior work and claim scope
+
+RVF combines portable state and evidence in a segmented artifact. The underlying ideas have prior work: [GGUF](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md) stores model metadata and tensor payloads; content addressing, append only logs, signatures, and copy on write storage are established techniques. This update documents RVF's implementation and integration boundaries without asserting invention of those primitives or global priority.
+
+KGE explicitly builds on [Holographic Embeddings of Knowledge Graphs](https://arxiv.org/abs/1510.04935), first submitted in 2015, and related established embedding methods. Its contribution here is the RuVector implementation, local bindings, and evaluation workflow. The algorithm family is not claimed as a new invention.
+
+APx, rGi, rultra, MCP Studio, ruPet, and the game proposal receive provenance entries, not new first claims. The older candidate novelty assessments below retain their original dates and qualifiers. A new novelty claim would need an exact feature predicate, dated feature evidence, and a separate related work search.
+
+## Historical account lineage at a glance
 
 - **Historical June 13 index:** 247 repository rows derived from an authenticated account inventory that reported 296 entries. Because that source included non-public state, the 247-row table is preserved as a historical authenticated snapshot, not described as a current public or non-fork count.
 - **Live July 11 account surface:** 197 public repositories, comprising 173 owned non-forks and 24 forks.

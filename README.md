@@ -12,58 +12,60 @@
 
 > **Start with the RuV Stack:** [Install skills + marketplace](docs/entrypoint/INSTALL.md) · [CLI / MCP guide](plugins/ruvnet/docs/INSTALL.md#local-cli-and-mcp-companion) · [MetaHarness](https://github.com/ruvnet/metaharness)
 > Claude Code: `/plugin marketplace add ruvnet/ruvnet`, then `/plugin install ruvnet@ruvnet`.
-> Reviewed changes: `node plugins/ruvnet/bin/ruvnet.mjs changes 5 --kind security` · snapshot-bound exact evidence with auditable filters and continuation cursors · [Harness evidence](https://ruvnet-harness-evidence.ruv.chatgpt.site)
+> Reviewed changes: `node plugins/ruvnet/bin/ruvnet.mjs changes 5 --kind security` · snapshot-bound exact evidence with auditable filters and continuation cursors · [Harness evidence](docs/self-improvement/2026-09-25.md)
 
-> **September 2026:** RuView and Ruflo remain the two distribution anchors. Fourteen repositories were added since August 10, weighted toward governed evolution and agent operations: Dream Machine, Autogenous, ruClip, openAVO, LatentMesh, and MoE Foundry.
+> **October 2026:** The stack is becoming a continuous operating environment. Ruflo brings coordination into Claude Code through Mods. RVF carries memory and evidence between sessions. APx asks whether the work was useful. Six new public repositories extend the stack into persistent runtimes, edge sensing, MCP applications, and creative tools.
 
 This ecosystem is published through one developer account. Repositories can include community contributions, automation, generated artifacts, and imported history. The evidence files keep those categories separate.
 
-[Core stack](#how-the-stack-fits-together) · [August update](#august-2026-update) · [Recent projects](#recent-public-source-delta) · [Package index](docs/ruvnet-packages.md) · [Provenance dossier](docs/ruvnet-prior-art.md) · [Machine readable metrics](data/metrics.json) · [Citation](CITATION.cff)
+[Core stack](#how-the-stack-fits-together) · [October update](#october-2026-update) · [September update](#september-2026-update) · [RVF](#rvf-memory-that-travels-with-its-evidence) · [Proof](docs/proof/2026-10-02.md) · [Recent projects](#recent-public-source-delta) · [Package index](docs/ruvnet-packages.md) · [Provenance dossier](docs/ruvnet-prior-art.md) · [Machine readable metrics](data/metrics.json) · [Citation](CITATION.cff)
 
 <!-- github-public-metrics:start -->
 ## GitHub reach
 
-Public GitHub API snapshot verified **September 7, 2026**.
+Public GitHub API snapshot verified **October 2, 2026 UTC** (October 1 in Toronto). [Captured inventory](data/snapshots/2026-10-02/github-inventory.json).
 
 | Measure | Verified value |
 | --- | ---: |
-| Followers | 11,352 |
-| Public repositories | 215 |
-| Owned public nonfork repositories | 190 |
+| Followers | 11,634 |
+| Public repositories | 221 |
+| Owned public nonfork repositories | 196 |
 | Public repositories that are forks | 25 |
-| Stars across owned public nonfork repositories | 180,252 |
-| Aggregate downstream forks of owned nonfork repositories | 24,203 |
+| Stars across owned public nonfork repositories | 185,968 |
+| Aggregate downstream forks of owned nonfork repositories | 24,914 |
 
 ### Flagship repository traction
 
 | Project | Stars | Forks | Watchers | Purpose |
 | --- | ---: | ---: | ---: | --- |
-| [RuView](https://github.com/ruvnet/RuView) | 92,749 | 12,303 | 855 | Camera free WiFi spatial intelligence, presence, pose, and vital signal research |
-| [Ruflo](https://github.com/ruvnet/ruflo) | 71,415 | 8,461 | 454 | Agent orchestration, swarms, routing, memory, and self learning workflows |
-| [RuVector](https://github.com/ruvnet/RuVector) | 4,477 | 591 | 38 | Real time vector, graph, temporal, and adaptive memory infrastructure |
-| [MetaHarness](https://github.com/ruvnet/metaharness) | 637 | 75 | 1 | Portable agent harness generation, evaluation, and bounded evolution across ten hosts |
-| [RVM](https://github.com/ruvnet/rvm) | 145 | 30 | 0 | Capability controlled execution infrastructure for agentic systems |
+| [RuView](https://github.com/ruvnet/RuView) | 95,890 | 12,655 | 872 | Camera free WiFi spatial intelligence and sensing research |
+| [ruflo](https://github.com/ruvnet/ruflo) | 73,670 | 8,754 | 464 | Agent orchestration, Mods, swarms, routing, and learning workflows |
+| [RuVector](https://github.com/ruvnet/RuVector) | 4,531 | 607 | 36 | Vector, graph, temporal, and adaptive memory infrastructure |
+| [metaharness](https://github.com/ruvnet/metaharness) | 682 | 86 | 3 | Portable harness generation, evaluation, and bounded evolution |
+| [rvm](https://github.com/ruvnet/rvm) | 147 | 31 | 0 | Capability controlled execution infrastructure |
 
-The two flagships account for **91.1% of owned public nonfork portfolio stars** and **85.8% of aggregate downstream forks**. That concentration is both the strongest distribution wedge and the main portfolio dependency.
+RuView and Ruflo account for **91.2% of owned public nonfork stars** and **85.9% of downstream forks**. They remain the distribution anchors for the wider stack.
 <!-- github-public-metrics:end -->
 
-### Change since August 10
+### Change since September 7
 
-| Measure | August 10 | September 7 | Change |
+| Measure | September 7 | October 2 UTC | Change |
 | --- | ---: | ---: | ---: |
-| Followers | 10,880 | 11,352 | 4.3% |
-| RuView stars | 89,184 | 92,749 | 4.0% |
-| Ruflo stars | 67,549 | 71,415 | 5.7% |
-| RuVector stars | 4,411 | 4,477 | 1.5% |
-| MetaHarness stars | 565 | 637 | 12.7% |
-| Stars across owned nonfork repositories | 172,270 | 180,252 | 4.6% |
-| Rust crates | 398 | 416 | 4.5% |
-| Known npm packages | 370 | 383 | 3.5% |
-| Public repositories | 200 | 215 | 7.5% |
+| Followers | 11,352 | 11,634 | 2.5% |
+| RuView stars | 92,749 | 95,890 | 3.4% |
+| Ruflo stars | 71,415 | 73,670 | 3.2% |
+| RuVector stars | 4,477 | 4,531 | 1.2% |
+| MetaHarness stars | 637 | 682 | 7.1% |
+| Stars across owned nonfork repositories | 180,252 | 185,968 | 3.2% |
+| Rust crates | 416 | 480 | 15.4% |
+| Known npm packages | 383 | 398 | 3.9% |
+| Public repositories | 215 | 221 | 2.8% |
+
+The [September baseline](data/snapshots/2026-10-02/github-baseline-2026-09-07.json) and prior monthly narrative remain available below. Repository and package counts describe publication surfaces, not independent products.
 
 ## Traffic and audience
 
-Rolling 14 day GitHub traffic API, read from the owner only endpoint and verified **September 7, 2026**. Unlike the previous owner reported figures, this snapshot includes unique counts.
+**Historical traffic snapshot, verified September 7, 2026.** These are the rolling 14 day counts captured then. The owner only endpoint was unavailable for this update; these values are not October traffic.
 
 | Signal | Ruflo | RuView | Combined |
 | --- | ---: | ---: | ---: |
@@ -75,43 +77,40 @@ Rolling 14 day GitHub traffic API, read from the owner only endpoint and verifie
 
 Clone events count git operations, not people; the unique columns are GitHub's own deduplicated counts for the same window. Combined unique figures are the sum of two repositories and will double count anyone who touched both. This profile does not convert clones, views, or package downloads into a monthly active user claim. The owner only traffic endpoint is not publicly reproducible, so these figures are re-derivable only by the account owner.
 
-Directly observable audience and activity signals:
+Current public activity signals, September 8 through the October 2 UTC snapshot:
 
-| Measure | Value | Window |
+| Measure | Value | Interpretation |
 | --- | ---: | --- |
-| GitHub followers | 11,352 | September 7 snapshot |
-| GitHub public commit search matches for author `ruvnet` | 2,313 | August 10 through September 7 |
-| Owned public nonfork repositories with pushes | 29 | August 10 through September 7 |
-| New owned public nonfork repositories | 14 | August 10 through September 7 |
-| New public fork repositories | 1 | August 10 through September 7 |
+| GitHub followers | 11,634 | Accounts following ruvnet |
+| Owned public nonfork repositories with a latest push in the window | 41 | Repository metadata, not individual push or commit events |
+| New owned public nonfork repositories | 6 | GitHub creation dates within the window |
+| New public fork repositories | 0 | Excluded from owned nonfork totals |
 
-Commit search counts are reproducible with `author:ruvnet committer-date:2026-08-10..2026-09-07` against the GitHub search API. The same query for the previous window returns 149, against the 121 recorded on August 10 at 12:46 UTC; the difference is the remainder of that partial day. Search totals include merge and automated commits, so they measure commit objects rather than hand written changes.
-
-Contribution graph totals were not re-derived for this window. They can include commits, pull requests, issues, reviews, and anonymized private activity, so they are not a commit count and are not carried forward here.
+Commit search and contribution graph totals were not recounted for this update. The earlier **2,313** public commit search matches remain a historical August 10 through September 7 measurement, preserved in the September baseline.
 
 <!-- package-public-metrics:start -->
 ## Package distribution
 
-| Measure | Verified value |
-| --- | ---: |
-| Published registry and Hugging Face artifacts | at least 829 |
-| Known npm packages listing `ruvnet` as maintainer | at least 383 |
-| npm download events across the known set, rolling 365 days, 2025-09-07 through 2026-09-06 | at least 74,976,706 |
-| Rust crates owned by `ruvnet` | 416 |
-| Cumulative Rust crate downloads (verified 2026-09-28) | 1,706,476 |
-| Ownership verified PyPI packages | 8 |
-| Hugging Face models, spaces, and datasets | 22 |
+| Measure | Verified value | Evidence date |
+| --- | ---: | --- |
+| Published registry and Hugging Face artifacts | at least 908 | Mixed dates below |
+| Known npm packages listing `ruvnet` as maintainer | at least 398 | 2026-10-02 UTC |
+| npm downloads, rolling 365 days (2025-09-28 through 2026-09-27) | 83,340,503 | 2026-09-28; 385 package cohort |
+| Rust crates owned by `ruvnet` | 480 | 2026-10-02 UTC |
+| Cumulative Rust crate downloads (verified 2026-10-02) | 1,759,429 | 2026-10-02 UTC |
+| Ownership verified PyPI packages | 8 | July 12, 2026; historical |
+| Hugging Face models, spaces, and datasets | 22 | July 12, 2026; historical |
 
-The npm and crates.io snapshot was assembled at **2026-09-07T05:44:15Z** from official APIs by the weekly [refresh workflow](.github/workflows/refresh-registry-metrics.yml).
+The current npm inventory contains **398 packages**. Download evidence retains its **2026-09-28** verification date and **385 package cohort**. The newer download refresh was unavailable; no extrapolation is applied. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
 
-The known npm catalog sustained **13.2 million to 14.5 million monthly downloads** from June through August 2026. Those three months produced **41,899,558 downloads**, equal to **55.9%** of the rolling year total. August closed at **13,159,983**, 7.8% below July, the third consecutive monthly decline from the May peak of 15,580,340. Package inventory expanded across the same period, so this is a portfolio distribution trend rather than same cohort user growth.
+Package downloads include CI, reinstallations and platform packages. They do not establish unique users. The [weekly refresh](.github/workflows/refresh-registry-metrics.yml) updates these measurements from official APIs.
 <!-- package-public-metrics:end -->
 
 
 <!-- registry-download-chart:start -->
 ## npm download growth
 
-Monthly downloads across all 385 npm packages maintained by ruvnet. The chart uses the latest 12 complete UTC calendar months; figures are millions of package downloads.
+Monthly downloads across the 385 package cohort verified 2026-09-28. This dated series covers 2025-09-01 through 2026-08-31; it is not extended beyond the measured window.
 
 ```mermaid
 xychart-beta
@@ -121,12 +120,64 @@ xychart-beta
     line [0.132, 0.284, 0.401, 0.43, 1.673, 1.97, 4.889, 6.162, 15.58, 14.465, 14.274, 13.16]
 ```
 
-**Period:** 2025-09-01 through 2026-08-31 · **Source:** official npm daily range API · Scoped, unscoped, and target-specific platform packages included. Download events are not unique users.
+**Source:** official npm daily range API. Figures are millions of download events, including scoped, unscoped, and platform packages. Download events are not unique users.
 <!-- registry-download-chart:end -->
+
+## October 2026 update
+
+September was about connecting the parts. An agent needs somewhere to work, memory it can carry forward, and a way to show what happened. The work increasingly lives in those connections: Ruflo inside the coding session, RVF between sessions, RuVector behind the memory, and MetaHarness around the decision to keep a change.
+
+Ruflo 3.50.0 brings Mods into that loop: prompt routing, tool checks, edit learning, cost controls, and a live swarm pane. The published release keeps Mods opt in and preserves classic hooks as the fallback. Later main commits add default installation and marketplace repair. The release and the moving branch are different evidence points.
+
+RVF gives that continuity a concrete form. Memory, metadata, model payloads, and provenance can travel together in a file that a receiver can inspect. RVForge adds authoring, validation, and target staging. The useful boundary is simple: carrying a capability does not grant permission to execute it.
+
+The six new public repositories extend the same idea. APx measures accepted work against a human reference. rGi keeps an agent loop durable across restarts. rultra brings governed adaptation to a Pi sensor box. MCP Studio makes the tools accessible through an application. ruPet and Agents of the Dawm explore a more human interface to the work, with the latter still a design proposal.
+
+The direction is continuous software with an accountable history. More useful work, less repeated setup, and evidence that survives the session that produced it.
+
+### New public projects
+
+Creation dates are GitHub metadata. Status is scoped to the inspected source revision; stars use the October 2 UTC inventory.
+
+| Project | Created | What it adds | Status | Stars |
+| --- | --- | --- | --- | ---: |
+| [agents-of-the-dawm](https://github.com/ruvnet/agents-of-the-dawm/blob/ffdf270c94d50af8c0057f96268d9d6ef2b2484c/README.md) | 2026-09-24 | Game design research | Design proposal | 0 |
+| [ruPet](https://github.com/ruvnet/ruPet/blob/ec2737995cdf74ef28a59ddd6d38e1c721fe0636/README.md) | 2026-09-22 | Desktop companion | Published asset package | 9 |
+| [mcp-studio](https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md) | 2026-09-17 | MCP application starter | Runnable application starter | 2 |
+| [rultra](https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/README.md) | 2026-09-11 | Governed edge sensing | Hardware prototype with published observations | 9 |
+| [APx](https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/README.md) | 2026-09-08 | Agentic productivity measurement | Runnable harness; synthetic tutorial | 4 |
+| [rGi](https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/README.md) | 2026-09-08 | Persistent agent runtime | Experimental runtime | 3 |
+
+### Existing systems, new capabilities
+
+| System | October evidence | Boundary |
+| --- | --- | --- |
+| [Ruflo 3.50.0](https://github.com/ruvnet/ruflo/releases/tag/v3.50.0) | Mods, swarm pane, and ruOS jobs integration | Release reports 16 Mods, 38 swarm, and 3 ruOS engine tests; not rerun for this profile |
+| [RuVector KGE 0.2.0](https://www.npmjs.com/package/@ruvector/kge/v/0.2.0) | Local knowledge graph scoring, training, evaluation and governed optimization | HolE and RotatE are established methods; training data and evaluation determine usefulness |
+| [RuVector edge services](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/docs/adr/ADR-351-ruvector-edge-multitenant-services.md) | Cloudflare service implementation and documented deployment evidence | ADR preserves remaining authorization, capacity, and client acceptance gates |
+| [MetaHarness improvement verifier](https://github.com/ruvnet/metaharness/blob/9ce8b8dd89045c3b9a1f809ae58f3589029db4a4/packages/flywheel/src/multigeneration-proof.ts) | Evidence classification across descendant generations, controls and reviewer receipts | Verifier behavior does not establish recursive self improvement |
+
+[Full proof record](docs/proof/2026-10-02.md) · [Commit and package receipts](data/proof-2026-10-02.json) · [October provenance delta](docs/ruvnet-prior-art.md#october-2026-provenance-delta)
+
+## RVF: memory that travels with its evidence
+
+**RVF is RuVector Format.** It packages segmented vector memory, metadata, model and compute payloads, lineage, and witness records. The aim is to carry useful state from a browser to a local runtime or a governed service without rebuilding the context at every step.
+
+| Piece | Responsibility | Evidence |
+| --- | --- | --- |
+| RVF format and SDK | Read, write, inspect and query portable memory | [SDK 0.3.4](https://www.npmjs.com/package/@ruvector/rvf/v/0.3.4), published July 28 |
+| Wire contract | Preserve exact segment and manifest bytes across readers | [Golden byte tests](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-wire/tests/wire_contract_golden.rs) |
+| Witness evidence | Bind recorded actions, outcomes, costs and policy results; detect tampering | [Witness integration tests](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-runtime/tests/witness_e2e.rs) |
+| RVForge | Author, validate and stage a canonical RVF for target platforms | [RVForge 0.2.0](https://www.npmjs.com/package/@ruvector/rvforge/v/0.2.0), published August 5 |
+| Ruflo integration | Portable agent memory and session persistence workflows | [RVF plugin contract](https://github.com/ruvnet/ruflo/blob/1c78a51d42166cc111e5c24bcf0bb89c51295105/plugins/ruflo-rvf/README.md) |
+
+An artifact checksum proves which bytes were examined. A valid signature binds those bytes to a key. Neither proves that the recorded observation is true, that an experiment generalizes, or that execution is authorized. Verification needs a trusted key, an explicit policy, and evidence for the actual workload.
+
+RVForge's current local build produces staged bundles. Native installer assembly, platform signing, and runtime validation are separate steps. Backend support varies across RVF native and WASM implementations. Ruflo's session encryption is opt in and does not automatically encrypt exported RVF bytes. These limits are part of the [published contracts](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/npm/packages/rvforge/README.md).
 
 ## September 2026 update
 
-Fourteen new owned public repositories were created between August 10 and September 7, the highest monthly count in the account's recent history. Star counts below are the September 7 snapshot; most of these are days old and have not had time to accumulate traction.
+Fourteen new owned public repositories were recorded between August 10 and September 7. This section preserves that historical snapshot. Star counts below are the September 7 snapshot; most of these are days old and have not had time to accumulate traction.
 
 | Project or release | Created | What it adds | ★ |
 | --- | --- | --- | ---: |
@@ -151,7 +202,7 @@ Accuracy and maturity statements in individual repositories still govern. RuFore
 
 ## How the stack fits together
 
-**RuView, rvCSI, and RuField perceive. WiFi Veil and RuCelium research sensing governance. Ruflo coordinates. MetaHarness generates and evolves the control plane. RuVector and AgenticOW remember. RVF packages state. RVForge stages it for targets. rvQR transfers it optically in alpha. RVM executes it.**
+**RuView, rvCSI, and RuField perceive. Ruflo coordinates. RuVector and AgenticOW remember. RVF carries state and evidence. RVForge stages it. RVM controls execution. MetaHarness evaluates change. Autogenous governs adaptation. APx measures useful work.**
 
 | Layer | Primary systems | Responsibility |
 | --- | --- | --- |
@@ -160,11 +211,13 @@ Accuracy and maturity statements in individual repositories still govern. RuFore
 | Agent control plane | [Ruflo](https://github.com/ruvnet/ruflo), [MetaHarness](https://github.com/ruvnet/metaharness) | Coordinate agents, route work, evaluate changes, and preserve receipts |
 | Learning memory | [RuVector](https://github.com/ruvnet/RuVector), [AgentDB](https://github.com/ruvnet/agentdb), [AgenticOW](https://github.com/ruvnet/agenticow) | Store vector, graph, temporal, episodic, and branchable memory |
 | Portable execution and transfer | [RVF](https://www.npmjs.com/package/@ruvector/rvf), [RVForge](https://www.npmjs.com/package/@ruvector/rvforge), [rvQR](https://github.com/ruvnet/rvQR), [RVM](https://github.com/ruvnet/rvm) | Package and verify agentic applications, stage target bundles, transfer them optically in alpha, and execute them under capability controls |
+| Governed adaptation | [Autogenous](https://github.com/ruvnet/autogenous), [Dream Machine](https://github.com/ruvnet/dream-machine), [rGi](https://github.com/ruvnet/rGi) | Preserve proposals, evaluations, durable outcomes, and promotion boundaries |
+| Useful work measurement | [APx](https://github.com/ruvnet/APx) | Compare accepted output with a matched human reference, including review, cost, and supervision |
 | World and research systems | [WorldGraph](https://github.com/ruvnet/worldgraph), [RuPixel](https://github.com/ruvnet/rupixel), [PhotonLayer](https://github.com/ruvnet/PhotonLayer), [Helix](https://github.com/ruvnet/helix) | Explore world models, visual retrieval, learned optics, and evidence gated decision support |
 
 ## Recent public source delta
 
-As of September 7, 2026, the account had added **32 owned public nonfork repositories** plus **6 public fork repositories** since June 13. Fork repositories are excluded from original work counts. The table is newest first.
+The October 2 UTC public inventory contains **38 owned nonfork repositories** and **6 fork repositories** created since June 13. The six newest are listed in the October update above. The table below preserves the September 7 project catalog; historical links may change availability. Nonfork status is an inventory classification, not sole authorship evidence.
 
 | Project | Created | Scope |
 | --- | --- | --- |
@@ -219,6 +272,7 @@ The [account wide provenance dossier](docs/ruvnet-prior-art.md) records reposito
 
 | Evidence | Purpose |
 | --- | --- |
+| [October proof record](docs/proof/2026-10-02.md) | Pinned source, registry releases, preserved limits, and a reproducible profile check |
 | [Machine readable metrics](data/metrics.json) | Current counts, windows, caveats, and source links |
 | [GitHub snapshot](data/github-stats.json) | Account, flagship, and recent repository traction from the public API |
 | [Registry snapshot](data/registry-stats.json) | Known set npm and crates.io counts, dated snapshots, and counting rules |
@@ -253,7 +307,7 @@ Long live ❤️ Open Source.
 Because the whole point of building in public is the **provenance**. These dossiers tie systems to their earliest reachable root commits as repository-lineage anchors, alongside GitHub creation metadata, registry timestamps, scoped candidate claims, and named related work. Git author dates do not by themselves prove when a repository became public or when a later feature first appeared.
 
 **Org & systems provenance**
-- **[ruvnet account-wide provenance dossier](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md)** — June 13, 2026 historical authenticated snapshot of 247 repository rows, plus detailed entries and scoped global-first candidate claims. The July reconciliation separates public repositories, owned sources, forks, imported history, and feature-level evidence requirements. GitHub exposed 215 public repositories at the September 7, 2026 snapshot, comprising 190 owned non-forks and 25 forks; the difference against the historical row count includes repositories since archived, renamed, made private, or removed. The dossier itself still reflects its July 11 reconciliation and has not been regenerated for this window.
+- **[ruvnet account wide provenance dossier](docs/ruvnet-prior-art.md)**: October 2 UTC reconciliation of 221 public repositories, with six new repository histories, pinned feature evidence, and explicit status boundaries. Earlier monthly tables remain dated historical records.
 - **[RuVector internal-systems dossier](https://gist.github.com/ruvnet/86d6968783ff1629e7481d9c92d0bed8)** — per-crate provenance for the RuVector self-learning vector DB (RVF, RVM, SONA, emergent-time, witness chain).
 
 **Claude-Flow / Ruflo — the harness**
@@ -261,7 +315,7 @@ Because the whole point of building in public is the **provenance**. These dossi
 - **[Prior-Art Dossier — Academic Edition](https://gist.github.com/ruvnet/1a88c9fc7b7eaa99b4ea2f0dd0891c49)** — the 31 firsts sorted into invention / implementation / engineering / integration, with dated industry-comparison tables and calibrated first-claim language.
 
 **Distribution surface**
-- **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)** — June 13, 2026 registry snapshot: **322 crates** (778k+ downloads) · **284 npm** (34M+ downloads/yr) · **8 PyPI** · **22 Hugging Face** models/spaces, grouped into 28 project families with links, dates, and per-package download counts. The September 7, 2026 live recount is **416 crates**, **1,547,212 crate downloads**, and **383 npm packages**; PyPI remains ownership-verified at 8 packages and Hugging Face remains verified at 22 artifacts across the `ruvnet` and `ruv` accounts. This catches the mono-repo sub-projects (RuVector's 99 crates + 141 npm at 24M downloads, the sublinear/temporal family, ruv-FANN / ruv-swarm, EXO-AI, RuVix kernel, AIMDS, Cognitum, Neural Trader) that a repo-level list misses.
+- **[Packages & Libraries Index](docs/ruvnet-packages.md)**: 480 Rust crates and at least 398 known npm packages in the October inventory. The separately dated download evidence, plus historical PyPI and Hugging Face counts, remains visible with its counting rules.
 
 *Repository lineage, public availability, feature evidence, adoption metrics, and novelty are separate evidentiary layers. Novelty statements remain scoped candidate claims until supported by feature commits, tests, release timestamps, and a dated prior-art search.*
 
@@ -321,7 +375,7 @@ The newest work, much of it shipped as crate/npm **families** rather than standa
 
 # 🗂️ Complete Prior-Art Index — every public repository (dated + starred)
 
-Historical June 13, 2026 snapshot of 248 owned non-fork repositories with a public genesis commit, each tied to its first commit. Some entries may since have been archived, renamed, made private, or removed; GitHub showed 215 public repositories at the September 7, 2026 snapshot. This is the dated provenance base — including older and smaller experiments missing from the curated lists above. Stars in this historical table are as of 2026-06-13; genesis date = author date of the repository's first commit (an upper bound on first appearance).
+Historical June 13, 2026 catalog with 248 rows and recorded root commits. This is not a current public inventory or a verified count of original projects. Availability and classification may have changed. Stars retain their June snapshot date. Genesis is the self asserted Git author date in the recorded lineage; it does not establish first public appearance. The October public inventory contains 221 repositories.
 
 <details><summary><b>Expand the full 248-repository prior-art index</b></summary>
 

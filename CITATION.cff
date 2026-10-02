@@ -7,7 +7,7 @@ authors:
 url: "https://github.com/ruvnet/ruvnet"
 repository-code: "https://github.com/ruvnet/ruvnet"
 license: "Please consult the license in each individual project repository"
-date-released: 2026-07-11
+date-released: 2026-10-02
 keywords:
   - agent orchestration
   - multi-agent systems

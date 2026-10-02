@@ -1,51 +1,41 @@
-# rUv — Packages & Libraries Index
+# rUv · Packages & Libraries Index
 
-Author: ruvnet (Reuven Cohen) · Initial snapshot 2026-06-13 · Live reconciliation 2026-07-11 ET / 2026-07-12 UTC
+Author: ruvnet (Reuven Cohen). Current inventory observed 2026-10-02 UTC. The detailed June and July catalog below remains a historical record.
 
-**At least 751 published artifacts across four public registries** — **480** Rust crates (1,706,476 cumulative downloads), **361** npm packages maintained by `ruvnet`, **8** ownership-verified PyPI libraries, and **22** Hugging Face models and spaces across the `ruvnet` and `ruv` accounts.
+**At least 908 published artifacts** across the known distribution surface: **480 Rust crates**, **398 known npm packages**, plus **8 PyPI packages** and **22 Hugging Face artifacts** retained from their July ownership checks. Packages, native target binaries, adapters, and examples are grouped under products; they are not 908 separate inventions.
 
-This is the **distribution surface** of the work catalogued in the [prior-art dossiers](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md). Where a git repository proves *authorship*, a published package proves *reach*: an immutable, timestamped, independently-installable artifact that anyone can pull down and verify. It is the strongest form of public provenance there is.
+Repository history records lineage. Registry versions record publication, with timestamps and package integrity metadata. Neither establishes sole authorship, independent adoption, or the truth of a benchmark claim.
 
-The June snapshot clustered 636 artifacts into 28 project families. The July reconciliation adds the MetaHarness, Helix, PhotonLayer, AgenticOW, AgentBBS, RuPixel, WorldGraph, and related distribution surfaces. Most remain sub-projects or target-specific binaries of a parent product, so raw registry counts must not be read as counts of independent products.
-
-Package downloads are not the whole story: some projects, most of all **RuView** at 80,073 stars and **ruflo** at 64,041 stars, carry reach as GitHub adoption rather than crate pulls. Stars and downloads are reported separately because they measure different things.
-
-*Live registry counts were verified July 11, 2026 ET / July 12 UTC from the official npm and crates.io APIs. The exact npm recount is **83,340,503 downloads** across 385 maintained packages for the complete 365-day window **2025-09-28 through 2026-09-27**. The older **34,447,577** figure is retained only as the June 13 historical snapshot. crates.io reports **1,706,476 cumulative downloads** across 480 crates. npm and crates.io counts include target-specific platform packages; registry ownership or maintainer status proves control of the publication surface, not sole authorship.*
-
+<!-- registry-summary:start -->
 ## Registry totals
 
-| Registry | Packages | Downloads |
-|---|---|---|
-| [crates.io](https://crates.io/users/ruvnet) | **480** | 1,706,476 cumulative |
-| [npm](https://www.npmjs.com/~ruvnet) | **385** | **83,340,503** during 2025-09-28–2026-09-27 |
-| [PyPI](https://pypi.org/user/ruvnet/) | **8** | ownership-verified |
-| [Hugging Face](https://huggingface.co/ruvnet) | **22** | 7,868 current API-reported model downloads |
+| Registry | Packages | Downloads | Verified |
+| --- | ---: | --- | --- |
+| [crates.io](https://crates.io/users/ruvnet) | 480 | 1,759,429 cumulative | 2026-10-02 UTC |
+| [npm](https://www.npmjs.com/~ruvnet) | at least 398 | 83,340,503 during 2025-09-28 through 2026-09-27; 385 package cohort | Inventory 2026-10-02; downloads 2026-09-28 |
+| [PyPI](https://pypi.org/user/ruvnet/) | 8 | Not aggregated | Historical ownership check, July 12, 2026 |
+| [Hugging Face](https://huggingface.co/ruvnet) | 22 | Not recounted | Historical inventory, July 12, 2026 |
 
-## Flagship projects by GitHub stars
+The current npm inventory contains **398 packages**. Download evidence retains its **2026-09-28** verification date and **385 package cohort**. The newer download refresh was unavailable; no extrapolation is applied. [Registry data](../data/registry-stats.json) retains exact windows and dates.
+<!-- registry-summary:end -->
 
-Package downloads are only one signal. For repositories like **RuView** the reach shows up as **stars and clones**, not crate pulls — so here is the star ranking (publicly verifiable on each repo page).
+## RVF and current package evidence
 
-| Repository | ★ Stars | Born | What it is |
-|---|---|---|---|
-| [RuView](https://github.com/ruvnet/RuView) | 80,073 | 2025-06-07 | Camera-free pose/vitals/presence from WiFi CSI |
-| [ruflo](https://github.com/ruvnet/ruflo) | 64,041 | 2025-06-02 | Agent meta-harness for Claude, Codex, Hermes, and related hosts |
-| [RuVector](https://github.com/ruvnet/RuVector) | 4,348 | 2025-11-19 | Self-learning vector and GNN memory DB in Rust |
-| [agentic-flow](https://github.com/ruvnet/agentic-flow) | 773 | 2024-09-02 | Multi-model router for Claude Code and Agent SDK |
-| [Bot-Generator-Bot](https://github.com/ruvnet/Bot-Generator-Bot) | 577 | 2023-04-02 | Prompt to generate ChatGPT bots |
-| [sparc](https://github.com/ruvnet/sparc) | 471 | 2024-10-07 | Five-phase AI development methodology |
-| [metaharness](https://github.com/ruvnet/metaharness) | 462 | 2026-06-13 | Verifiable generator and evolution layer for portable agent harnesses |
-| [open-claude-code](https://github.com/ruvnet/open-claude-code) | 447 | 2025-02-24 | Claude Code CLI reverse-engineered and rebuilt |
-| [rUv-dev](https://github.com/ruvnet/rUv-dev) | 425 | 2024-04-04 | AI-powered development using the rUv approach |
-| [ruv-FANN](https://github.com/ruvnet/ruv-FANN) | 370 | 2025-06-26 | Memory-safe Rust FANN neural-net library |
-| [SynthLang](https://github.com/ruvnet/SynthLang) | 263 | 2025-01-05 | Logographic prompt-compression language |
-| [dspy.ts](https://github.com/ruvnet/dspy.ts) | 262 | 2025-02-22 | DSPy for TypeScript and browser runtimes |
-| [daa](https://github.com/ruvnet/daa) | 246 | 2023-03-09 | Decentralized Autonomous Applications |
-| [QuDAG](https://github.com/ruvnet/QuDAG) | 189 | 2025-06-16 | Quantum-resistant DAG anonymous communications |
-| [FACT](https://github.com/ruvnet/FACT) | 178 | 2025-05-23 | Deterministic tool retrieval via MCP |
+| Package | Verified latest version | Published UTC | Purpose |
+| --- | --- | --- | --- |
+| [ruflo](https://www.npmjs.com/package/ruflo/v/3.50.0) | 3.50.0 | October 2 | Agent coordination and Claude Code Mods |
+| [metaharness](https://www.npmjs.com/package/metaharness/v/0.4.17) | 0.4.17 | September 26 | Harness generation and evaluation |
+| [@ruvector/rvf](https://www.npmjs.com/package/@ruvector/rvf/v/0.3.4) | 0.3.4 | July 28 | Unified RVF SDK |
+| [@ruvector/rvforge](https://www.npmjs.com/package/@ruvector/rvforge/v/0.2.0) | 0.2.0 | August 5 | RVF authoring, validation and staging |
+| [@ruvector/kge](https://www.npmjs.com/package/@ruvector/kge/v/0.2.0) | 0.2.0 | September 28 | Local knowledge graph embeddings and evaluation |
 
-**Repository reach (clone traffic).** Stars are the public proxy; raw clone volume is higher. At peak, **RuView** and **ruflo** each sustained roughly **300k–500k git clones per week** over a multi-month stretch (recently lower) — owner traffic analytics, since GitHub clone counts are visible only to repo admins and are not independently verifiable from outside. They are reported here for context, separate from the publicly-checkable star and download figures.
+These are registry versions, not a claim that every current main branch feature is included. The [proof receipts](../data/proof-2026-10-02.json) include publication times, package integrity strings, and inspected source commits.
 
----
+## Reproduce the inventory
+
+The [GitHub inventory](../data/snapshots/2026-10-02/github-inventory.json), [npm names](../data/snapshots/2026-10-02/npm-inventory.json), and [crates inventory](../data/snapshots/2026-10-02/crates-inventory.json) preserve the October counting inputs. The automated [registry refresh](../.github/workflows/refresh-registry-metrics.yml) uses official APIs. npm search can omit packages, so its count is a known set minimum.
+
+The current GitHub traction table is in the [profile](../README.md#github-reach). Historical stars and clone reports are not mixed into the registry totals.
 
 ## July 11 registry reconciliation
 

@@ -1,46 +1,59 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-09-28T05:48:16.071Z",
+  "verified_at": "2026-10-02T02:50:46.605846+00:00",
   "counts": {
-    "github_public_repositories": 215,
-    "github_owned_public_nonfork_repositories": 190,
-    "published_registry_and_huggingface_artifacts_minimum": 829,
+    "github_public_repositories": 221,
+    "github_owned_public_nonfork_repositories": 196,
+    "published_registry_and_huggingface_artifacts_minimum": 908,
     "rust_crates": 480,
-    "npm_packages": 385,
+    "npm_packages": 398,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 1706476,
+    "rust_crate_downloads_cumulative": 1759429,
     "github_public_forks": 25,
-    "github_followers": 11352,
-    "github_stars_owned_nonfork": 180252,
-    "github_aggregate_downstream_forks": 24203
+    "github_followers": 11634,
+    "github_stars_owned_nonfork": 185968,
+    "github_aggregate_downstream_forks": 24914
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
     "npm_snapshot_month": "2026-06"
   },
-  "recent_since": "2026-08-10T00:00:00Z",
+  "recent_since": "2026-09-08T00:00:00Z",
   "recent_activity": {
-    "window": "2026-08-10 through 2026-09-07",
-    "owned_source_repositories_created": 14,
-    "public_forks_created": 1,
-    "owned_nonfork_repositories_pushed": 29,
-    "commit_search_matches": 2313
+    "window_start": "2026-09-08T00:00:00Z",
+    "window_end": "2026-10-02T02:50:46.605846+00:00",
+    "owned_nonfork_repositories_created": 6,
+    "public_forks_created": 0,
+    "owned_nonfork_repositories_with_latest_push_in_window": 41,
+    "note": "Latest pushed_at is repository metadata, not a commit count or full push-event history. Current public inventory only."
   },
   "notes": [
-    "Repositories are separate from the artifact count.",
-    "Metrics are volatile and must be quoted with verified_at.",
-    "Forks are excluded from original-work claims.",
-    "GitHub counts verified 2026-09-07 from the public API; registry counts are refreshed by .github/workflows/refresh-registry-metrics.yml.",
-    "Commit search totals include merge and automated commits."
+    "Repositories and registry artifacts are separate counts.",
+    "Every metric must retain its own verification date and population.",
+    "Owned nonfork describes GitHub metadata, not sole authorship or originality.",
+    "Stars, clones and downloads do not establish unique users or revenue.",
+    "The aggregate artifact count combines current npm/crates inventory with 30 historically verified PyPI/Hugging Face artifacts.",
+    "The npm download cohort is 385 packages; the current inventory contains 398."
   ],
   "sources": [
-    "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md",
-    "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md"
+    "https://api.github.com/users/ruvnet",
+    "https://api.github.com/users/ruvnet/repos?type=owner&per_page=100",
+    "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet",
+    "https://crates.io/api/v1/crates?user_id=339999",
+    "data/proof-2026-10-02.json"
   ],
   "current_windows": {
     "npm_downloads_rolling_365_days": 83340503,
     "npm_period_start": "2025-09-28",
-    "npm_period_end": "2026-09-27"
+    "npm_period_end": "2026-09-27",
+    "npm_download_package_count": 385
+  },
+  "verification_dates": {
+    "github": "2026-10-02T02:50:46.605846+00:00",
+    "npm_inventory": "2026-10-02T02:50:46.605846+00:00",
+    "npm_downloads": "2026-09-28T05:48:16.071Z",
+    "crates_io": "2026-10-02T02:52:57.302624+00:00",
+    "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted"
   }
 }

@@ -1,6 +1,6 @@
 # rUv ecosystem entity glossary
 
-Verified July 11, 2026. This glossary gives people, search engines, and language models canonical names and relationships.
+Core glossary established July 11, 2026; RVF and October project relationships updated October 2 UTC. This glossary gives people, search engines, and language models canonical names and relationships.
 
 ## Identity
 
@@ -17,6 +17,19 @@ Verified July 11, 2026. This glossary gives people, search engines, and language
 | RuVector | ruvector | Adaptive vector, graph, temporal, and agent-memory infrastructure. It underpins multiple packages and integrations. |
 | AgentDB | agentdb | Agent-oriented memory product related to the wider RuVector memory stack; not a synonym for the entire RuVector ecosystem. |
 | RVM | ruvnet/rvm | Virtual machine and execution runtime in the agentic stack. Interpret RVM in this repository's context, not as a generic virtual-machine acronym. |
+
+## Portable state and new project relationships
+
+| Name | Meaning |
+| --- | --- |
+| RVF | RuVector Format. Segmented portable memory, model payloads and provenance; a format does not grant execution authority. |
+| RVForge | RVF authoring, validation and target staging tools. Staged bundles are distinct from completed native installers. |
+| Autogenous | Governed evolutionary change and promotion protocols. |
+| APx | Task specific measurement of accepted work relative to a human reference, with cost and supervision reported separately. |
+| rGi | Experimental persistent agent runtime. The name is not evidence of demonstrated AGI. |
+| rultra | Pi and CrowPi sensing prototype with explicit verification states and governed adaptation. |
+| MCP Studio | Web and embedded MCP application starter. |
+| ruPet | Desktop pet artwork and animation package. |
 
 ## Research systems
 

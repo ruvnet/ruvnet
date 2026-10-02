@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-09-07T00:00:00Z",
+  "source": "https://api.github.com",
+  "counting_rule": "Owned repositories from /users/ruvnet/repos?type=owner, paginated. Nonfork totals exclude repositories where fork is true. Watchers use subscribers_count, not stargazers.",
+  "account": {
+    "followers": 11352,
+    "public_repositories": 215,
+    "owned_public_nonfork_repositories": 190,
+    "public_forks": 25,
+    "stars_across_owned_nonfork": 180252,
+    "aggregate_downstream_forks_of_owned_nonfork": 24203
+  },
+  "flagships": [
+    {
+      "name": "RuView",
+      "stars": 92749,
+      "forks": 12303,
+      "watchers": 855
+    },
+    {
+      "name": "ruflo",
+      "stars": 71415,
+      "forks": 8461,
+      "watchers": 454
+    },
+    {
+      "name": "RuVector",
+      "stars": 4477,
+      "forks": 591,
+      "watchers": 38
+    },
+    {
+      "name": "metaharness",
+      "stars": 637,
+      "forks": 75,
+      "watchers": 1
+    },
+    {
+      "name": "rvm",
+      "stars": 145,
+      "forks": 30,
+      "watchers": 0
+    }
+  ],
+  "concentration": {
+    "two_flagship_share_of_owned_nonfork_stars": 0.911,
+    "two_flagship_share_of_aggregate_forks": 0.858
+  },
+  "traffic_rolling_14_days": {
+    "note": "Owner-only endpoint (/repos/{owner}/{repo}/traffic). Not publicly reproducible. Clone and view counts are events; uniques are GitHub's deduplicated counts. Combined uniques sum two repositories and may double count.",
+    "ruflo": {
+      "clones": 193522,
+      "unique_cloners": 12081,
+      "views": 95578,
+      "unique_visitors": 42129
+    },
+    "RuView": {
+      "clones": 24306,
+      "unique_cloners": 5235,
+      "views": 104365,
+      "unique_visitors": 36532
+    }
+  },
+  "activity_2026_08_10_to_2026_09_07": {
+    "owned_nonfork_repositories_created": 14,
+    "public_forks_created": 1,
+    "owned_nonfork_repositories_pushed": 29,
+    "commit_search_matches": 2313,
+    "commit_search_query": "author:ruvnet committer-date:2026-08-10..2026-09-07"
+  }
+}

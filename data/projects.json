@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-07-11",
+  "verified_at": "2026-10-02T02:50:46.605846+00:00",
   "identity": {
     "name": "rUv",
     "github_login": "ruvnet",
@@ -63,6 +63,88 @@
       "category": "world-modeling",
       "repository": "https://github.com/ruvnet/worldgraph",
       "summary": "Graph-based world-modeling research."
+    },
+    {
+      "name": "RVF",
+      "category": "portable-artifact",
+      "repository": "https://github.com/ruvnet/RuVector",
+      "package": "https://www.npmjs.com/package/@ruvector/rvf",
+      "summary": "RuVector Format for segmented vector memory, metadata, models, provenance and optional execution payloads."
+    },
+    {
+      "name": "RVForge",
+      "category": "artifact-tooling",
+      "repository": "https://github.com/ruvnet/RuVector",
+      "package": "https://www.npmjs.com/package/@ruvector/rvforge",
+      "summary": "Author, validate and stage RVF artifacts; staged bundles are not native installers."
+    },
+    {
+      "name": "Autogenous",
+      "category": "governed-evolution",
+      "repository": "https://github.com/ruvnet/autogenous",
+      "package": null,
+      "summary": "Governed candidate evaluation and promotion protocols."
+    },
+    {
+      "name": "KGE",
+      "category": "knowledge-graph-embeddings",
+      "repository": "https://github.com/ruvnet/RuVector",
+      "package": "https://www.npmjs.com/package/@ruvector/kge",
+      "summary": "Local HolE and RotatE implementations with train/evaluate/optimize workflows."
+    },
+    {
+      "name": "agents-of-the-dawm",
+      "category": "Game design research",
+      "repository": "https://github.com/ruvnet/agents-of-the-dawm",
+      "summary": "Floodline design proposal and proposed ADRs; no playable implementation in the repository.",
+      "created_at": "2026-09-24T21:12:12Z",
+      "source_commit": "ffdf270c94d50af8c0057f96268d9d6ef2b2484c",
+      "evidence": "https://github.com/ruvnet/agents-of-the-dawm/blob/ffdf270c94d50af8c0057f96268d9d6ef2b2484c/README.md"
+    },
+    {
+      "name": "ruPet",
+      "category": "Desktop companion",
+      "repository": "https://github.com/ruvnet/ruPet",
+      "summary": "Published artwork and animation metadata for an installable desktop pet.",
+      "created_at": "2026-09-22T15:55:11Z",
+      "source_commit": "ec2737995cdf74ef28a59ddd6d38e1c721fe0636",
+      "evidence": "https://github.com/ruvnet/ruPet/blob/ec2737995cdf74ef28a59ddd6d38e1c721fe0636/README.md"
+    },
+    {
+      "name": "mcp-studio",
+      "category": "MCP application starter",
+      "repository": "https://github.com/ruvnet/mcp-studio",
+      "summary": "Shared MCP server, embedded widget, resource and prompt inspection, and Cognitum authentication.",
+      "created_at": "2026-09-17T17:53:44Z",
+      "source_commit": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+      "evidence": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md"
+    },
+    {
+      "name": "rultra",
+      "category": "Governed edge sensing",
+      "repository": "https://github.com/ruvnet/rultra",
+      "summary": "Pi 5 and CrowPi sensor interfaces, typed verification states, fitness gates and recorded rollback.",
+      "created_at": "2026-09-11T22:42:33Z",
+      "source_commit": "03e4a7e039c9ee6e47193f77127d8d35f7830ed2",
+      "evidence": "https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/README.md"
+    },
+    {
+      "name": "APx",
+      "category": "Agentic productivity measurement",
+      "repository": "https://github.com/ruvnet/APx",
+      "summary": "Runnable specification and scoring harness; tutorial baselines are synthetic.",
+      "created_at": "2026-09-08T12:35:39Z",
+      "source_commit": "4fb3093329c0839ad95a3033ec2553513c3351ea",
+      "evidence": "https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/README.md"
+    },
+    {
+      "name": "rGi",
+      "category": "Persistent agent runtime",
+      "repository": "https://github.com/ruvnet/rGi",
+      "summary": "Experimental Rust/WASM policy kernel and Node supervisor with durable receipts and uncertain-action reconciliation.",
+      "created_at": "2026-09-08T12:19:25Z",
+      "source_commit": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421",
+      "evidence": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/README.md"
     }
   ]
 }

@@ -1,0 +1,3846 @@
+{
+  "retrieved_at": "2026-10-02T02:52:57.302624+00:00",
+  "user_id": 339999,
+  "crates": [
+    {
+      "id": "agentic-jujutsu",
+      "max_version": "1.0.1",
+      "downloads": 359,
+      "created_at": "2025-11-09T23:04:57.867024Z",
+      "updated_at": "2025-11-10T04:23:02.433638Z",
+      "repository": "https://github.com/ruvnet/agentic-flow"
+    },
+    {
+      "id": "agentic-payments",
+      "max_version": "0.1.0",
+      "downloads": 369,
+      "created_at": "2025-09-30T02:50:22.745680Z",
+      "updated_at": "2025-09-30T02:50:22.745680Z",
+      "repository": "https://github.com/agentic-catalog/agentic-payments"
+    },
+    {
+      "id": "agentic-robotics-core",
+      "max_version": "0.1.2",
+      "downloads": 806,
+      "created_at": "2025-11-15T19:20:01.999074Z",
+      "updated_at": "2025-11-15T20:07:27.312107Z",
+      "repository": "https://github.com/ruvnet/vibecast"
+    },
+    {
+      "id": "agentic-robotics-embedded",
+      "max_version": "0.1.2",
+      "downloads": 125,
+      "created_at": "2025-11-15T19:21:19.084582Z",
+      "updated_at": "2025-11-15T21:31:24.645385Z",
+      "repository": "https://github.com/ruvnet/vibecast"
+    },
+    {
+      "id": "agentic-robotics-mcp",
+      "max_version": "0.1.2",
+      "downloads": 120,
+      "created_at": "2025-11-15T19:21:01.233443Z",
+      "updated_at": "2025-11-15T20:21:01.989333Z",
+      "repository": "https://github.com/ruvnet/vibecast"
+    },
+    {
+      "id": "agentic-robotics-node",
+      "max_version": "0.1.1",
+      "downloads": 86,
+      "created_at": "2025-11-15T19:21:42.884726Z",
+      "updated_at": "2025-11-15T20:01:36.273638Z",
+      "repository": "https://github.com/ruvnet/vibecast"
+    },
+    {
+      "id": "agentic-robotics-rt",
+      "max_version": "0.1.2",
+      "downloads": 125,
+      "created_at": "2025-11-15T19:20:43.857922Z",
+      "updated_at": "2025-11-15T21:31:00.850786Z",
+      "repository": "https://github.com/ruvnet/vibecast"
+    },
+    {
+      "id": "aimds-analysis",
+      "max_version": "0.1.1",
+      "downloads": 2208,
+      "created_at": "2025-10-27T16:38:37.859330Z",
+      "updated_at": "2026-05-14T02:37:03.459792Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "aimds-core",
+      "max_version": "0.2.0",
+      "downloads": 4887,
+      "created_at": "2025-10-27T14:10:18.078889Z",
+      "updated_at": "2026-05-15T03:26:10.860525Z",
+      "repository": "https://github.com/your-org/aimds"
+    },
+    {
+      "id": "aimds-detection",
+      "max_version": "0.1.1",
+      "downloads": 2150,
+      "created_at": "2025-10-27T16:35:07.419053Z",
+      "updated_at": "2026-05-14T02:36:56.171764Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "aimds-response",
+      "max_version": "0.1.1",
+      "downloads": 1972,
+      "created_at": "2025-10-27T16:42:38.599590Z",
+      "updated_at": "2026-05-14T02:37:08.475743Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "bit-parallel-search",
+      "max_version": "0.1.0",
+      "downloads": 433,
+      "created_at": "2025-09-28T01:20:35.464919Z",
+      "updated_at": "2025-09-28T01:20:35.464919Z",
+      "repository": "https://github.com/ruvnet/bit-parallel-search"
+    },
+    {
+      "id": "bitchat-qudag",
+      "max_version": "0.1.0",
+      "downloads": 493,
+      "created_at": "2025-07-16T00:54:19.291875Z",
+      "updated_at": "2025-07-16T00:54:19.291875Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "claude-parser",
+      "max_version": "1.0.5",
+      "downloads": 918,
+      "created_at": "2025-06-30T16:43:30.654713Z",
+      "updated_at": "2025-07-02T20:43:38.814963Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "claude_market",
+      "max_version": "0.1.1",
+      "downloads": 791,
+      "created_at": "2025-07-13T15:23:28.196601Z",
+      "updated_at": "2025-07-13T15:23:28.196601Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Mesh"
+    },
+    {
+      "id": "code-mesh-cli",
+      "max_version": "0.1.0",
+      "downloads": 515,
+      "created_at": "2025-07-16T15:18:42.058447Z",
+      "updated_at": "2025-07-16T15:18:42.058447Z",
+      "repository": "https://github.com/ruvnet/code-mesh"
+    },
+    {
+      "id": "code-mesh-core",
+      "max_version": "0.1.0",
+      "downloads": 1282,
+      "created_at": "2025-07-16T15:14:52.938141Z",
+      "updated_at": "2025-07-16T15:14:52.938141Z",
+      "repository": "https://github.com/ruvnet/code-mesh"
+    },
+    {
+      "id": "code-mesh-tui",
+      "max_version": "0.1.0",
+      "downloads": 495,
+      "created_at": "2025-07-16T15:18:36.886842Z",
+      "updated_at": "2025-07-16T15:18:36.886842Z",
+      "repository": "https://github.com/ruvnet/code-mesh"
+    },
+    {
+      "id": "code-mesh-wasm",
+      "max_version": "0.1.0",
+      "downloads": 465,
+      "created_at": "2025-07-16T15:21:27.918493Z",
+      "updated_at": "2025-07-16T15:21:27.918493Z",
+      "repository": "https://github.com/ruvnet/code-mesh"
+    },
+    {
+      "id": "cog-ha-matter",
+      "max_version": "0.3.0",
+      "downloads": 23,
+      "created_at": "2026-05-25T15:01:14.930688Z",
+      "updated_at": "2026-05-25T15:01:14.930688Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "cog-person-count",
+      "max_version": "0.3.0",
+      "downloads": 24,
+      "created_at": "2026-05-25T14:51:34.694876Z",
+      "updated_at": "2026-05-25T14:51:34.694876Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "cog-pose-estimation",
+      "max_version": "0.3.0",
+      "downloads": 24,
+      "created_at": "2026-05-25T14:52:04.701973Z",
+      "updated_at": "2026-05-25T14:52:04.701973Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "cognitum-gate-kernel",
+      "max_version": "0.1.1",
+      "downloads": 51797,
+      "created_at": "2026-01-17T19:36:08.591319Z",
+      "updated_at": "2026-02-23T03:05:34.306958Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "cognitum-gate-tilezero",
+      "max_version": "0.1.1",
+      "downloads": 25093,
+      "created_at": "2026-01-17T19:31:20.810449Z",
+      "updated_at": "2026-01-17T19:35:26.533846Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "cognitum-one",
+      "max_version": "0.3.0",
+      "downloads": 104,
+      "created_at": "2026-04-29T18:06:08.433433Z",
+      "updated_at": "2026-07-19T19:58:02.126348Z",
+      "repository": "https://github.com/cognitum-one/sdks"
+    },
+    {
+      "id": "cognitum-rs",
+      "max_version": "0.1.0",
+      "downloads": 28,
+      "created_at": "2026-03-14T16:30:07.895488Z",
+      "updated_at": "2026-03-14T16:30:07.895488Z",
+      "repository": "https://github.com/ruvnet/cognitum"
+    },
+    {
+      "id": "conformal-prediction",
+      "max_version": "2.0.0",
+      "downloads": 482,
+      "created_at": "2025-11-15T17:52:48.773212Z",
+      "updated_at": "2025-11-15T17:52:48.773212Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "cuda-rust-wasm",
+      "max_version": "0.1.7",
+      "downloads": 2309,
+      "created_at": "2025-07-12T16:19:07.030145Z",
+      "updated_at": "2026-02-09T15:55:55.424991Z",
+      "repository": "https://github.com/vibecast/cuda-rust-wasm"
+    },
+    {
+      "id": "daa-ai",
+      "max_version": "0.2.1",
+      "downloads": 2974,
+      "created_at": "2025-06-24T13:24:09.832799Z",
+      "updated_at": "2025-06-25T13:51:52.812985Z",
+      "repository": "https://github.com/ruvnet/daa"
+    },
+    {
+      "id": "daa-chain",
+      "max_version": "0.2.0",
+      "downloads": 1169,
+      "created_at": "2025-06-24T13:23:42.540853Z",
+      "updated_at": "2025-06-24T14:33:43.530357Z",
+      "repository": "https://github.com/ruvnet/daa"
+    },
+    {
+      "id": "daa-cli",
+      "max_version": "0.2.0",
+      "downloads": 925,
+      "created_at": "2025-06-24T13:37:34.663188Z",
+      "updated_at": "2025-06-24T14:38:57.833526Z",
+      "repository": "https://github.com/ruvnet/daa"
+    },
+    {
+      "id": "daa-economy",
+      "max_version": "0.2.1",
+      "downloads": 2020,
+      "created_at": "2025-06-24T13:23:13.066116Z",
+      "updated_at": "2025-06-25T13:49:25.528370Z",
+      "repository": "https://github.com/ruvnet/daa"
+    },
+    {
+      "id": "daa-orchestrator",
+      "max_version": "0.2.0",
+      "downloads": 1172,
+      "created_at": "2025-06-24T13:24:38.055957Z",
+      "updated_at": "2025-06-24T14:37:21.172065Z",
+      "repository": "https://github.com/ruvnet/daa"
+    },
+    {
+      "id": "daa-prime-cli",
+      "max_version": "0.2.1",
+      "downloads": 926,
+      "created_at": "2025-06-25T15:42:05.443150Z",
+      "updated_at": "2025-06-25T16:09:11.360986Z",
+      "repository": "https://github.com/example/prime-rust"
+    },
+    {
+      "id": "daa-prime-coordinator",
+      "max_version": "0.2.1",
+      "downloads": 1149,
+      "created_at": "2025-06-25T15:32:38.928503Z",
+      "updated_at": "2025-06-25T16:08:39.406868Z",
+      "repository": "https://github.com/example/prime-rust"
+    },
+    {
+      "id": "daa-prime-core",
+      "max_version": "0.2.1",
+      "downloads": 1908,
+      "created_at": "2025-06-25T15:20:48.311074Z",
+      "updated_at": "2025-06-25T15:59:14.358035Z",
+      "repository": "https://github.com/example/prime-rust"
+    },
+    {
+      "id": "daa-prime-dht",
+      "max_version": "0.2.1",
+      "downloads": 1684,
+      "created_at": "2025-06-25T15:25:44.449280Z",
+      "updated_at": "2025-06-25T16:02:13.765008Z",
+      "repository": "https://github.com/example/prime-rust"
+    },
+    {
+      "id": "daa-prime-trainer",
+      "max_version": "0.2.1",
+      "downloads": 1455,
+      "created_at": "2025-06-25T15:29:10.251109Z",
+      "updated_at": "2025-06-25T16:05:27.005063Z",
+      "repository": "https://github.com/example/prime-rust"
+    },
+    {
+      "id": "daa-rules",
+      "max_version": "0.2.1",
+      "downloads": 2868,
+      "created_at": "2025-06-24T13:22:44.159694Z",
+      "updated_at": "2025-06-25T12:55:06.590790Z",
+      "repository": "https://github.com/daa-hq/daa-sdk"
+    },
+    {
+      "id": "delta-behavior",
+      "max_version": "0.1.0",
+      "downloads": 29,
+      "created_at": "2026-01-28T04:20:43.931160Z",
+      "updated_at": "2026-01-28T04:20:43.931160Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "emergent-time",
+      "max_version": "2.2.4",
+      "downloads": 48,
+      "created_at": "2026-06-13T15:42:25.587705Z",
+      "updated_at": "2026-06-13T15:46:08.734770Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-backend-classical",
+      "max_version": "0.1.1",
+      "downloads": 875,
+      "created_at": "2025-12-02T04:12:11.252865Z",
+      "updated_at": "2026-02-27T16:26:23.807823Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-core",
+      "max_version": "0.1.1",
+      "downloads": 1953,
+      "created_at": "2025-12-02T04:00:08.597475Z",
+      "updated_at": "2026-02-27T16:23:31.642050Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-exotic",
+      "max_version": "0.1.1",
+      "downloads": 714,
+      "created_at": "2025-12-02T04:08:41.962518Z",
+      "updated_at": "2026-02-27T16:24:05.020660Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-federation",
+      "max_version": "0.1.1",
+      "downloads": 877,
+      "created_at": "2025-12-02T04:08:05.922348Z",
+      "updated_at": "2026-02-27T16:23:54.920845Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-hypergraph",
+      "max_version": "0.1.1",
+      "downloads": 90,
+      "created_at": "2025-12-02T04:05:37.216578Z",
+      "updated_at": "2026-02-27T16:23:46.785342Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-manifold",
+      "max_version": "0.1.1",
+      "downloads": 702,
+      "created_at": "2025-12-02T04:06:17.031555Z",
+      "updated_at": "2026-02-27T16:23:50.294854Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-node",
+      "max_version": "0.1.0",
+      "downloads": 44,
+      "created_at": "2025-12-02T04:33:56.971282Z",
+      "updated_at": "2025-12-02T04:33:56.971282Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-temporal",
+      "max_version": "0.1.1",
+      "downloads": 1215,
+      "created_at": "2025-12-02T04:04:49.386571Z",
+      "updated_at": "2026-02-27T16:23:42.114717Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "exo-wasm",
+      "max_version": "0.1.0",
+      "downloads": 46,
+      "created_at": "2025-12-02T04:21:17.127140Z",
+      "updated_at": "2025-12-02T04:21:17.127140Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "fact-tools",
+      "max_version": "1.0.0",
+      "downloads": 661,
+      "created_at": "2025-07-31T20:18:20.183260Z",
+      "updated_at": "2025-07-31T20:18:20.183260Z",
+      "repository": "https://github.com/ruvnet/FACT"
+    },
+    {
+      "id": "fact-wasm-core",
+      "max_version": "1.0.0",
+      "downloads": 429,
+      "created_at": "2025-08-01T03:56:29.232273Z",
+      "updated_at": "2025-08-01T03:56:29.232273Z",
+      "repository": "https://github.com/ruvnet/FACT"
+    },
+    {
+      "id": "geometric-langlands",
+      "max_version": "0.2.2",
+      "downloads": 1506,
+      "created_at": "2025-07-19T13:20:48.403138Z",
+      "updated_at": "2025-07-19T16:01:35.239316Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "geometric-langlands-cli",
+      "max_version": "0.2.0",
+      "downloads": 452,
+      "created_at": "2025-07-19T15:38:34.069212Z",
+      "updated_at": "2025-07-19T15:38:34.069212Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "goalie",
+      "max_version": "1.0.3",
+      "downloads": 844,
+      "created_at": "2025-09-28T23:09:17.029377Z",
+      "updated_at": "2025-09-29T15:24:59.667270Z",
+      "repository": "https://github.com/ruvnet/goalie"
+    },
+    {
+      "id": "governance",
+      "max_version": "0.1.0",
+      "downloads": 292,
+      "created_at": "2025-11-13T19:21:30.882979Z",
+      "updated_at": "2025-11-13T19:21:30.882979Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "helix-bioage",
+      "max_version": "0.1.2",
+      "downloads": 124,
+      "created_at": "2026-06-26T20:01:44.301318Z",
+      "updated_at": "2026-06-26T21:08:22.188974Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-cohort",
+      "max_version": "0.1.2",
+      "downloads": 64,
+      "created_at": "2026-07-01T14:34:01.979143Z",
+      "updated_at": "2026-07-01T14:34:01.979143Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-connect",
+      "max_version": "0.1.2",
+      "downloads": 83,
+      "created_at": "2026-06-26T20:01:55.059866Z",
+      "updated_at": "2026-07-01T14:35:45.768072Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-demo",
+      "max_version": "0.1.2",
+      "downloads": 24,
+      "created_at": "2026-07-01T16:54:25.523694Z",
+      "updated_at": "2026-07-01T16:54:25.523694Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-embed",
+      "max_version": "0.1.2",
+      "downloads": 63,
+      "created_at": "2026-07-01T15:21:23.868583Z",
+      "updated_at": "2026-07-01T15:21:23.868583Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-escalation",
+      "max_version": "0.1.2",
+      "downloads": 202,
+      "created_at": "2026-07-01T14:34:04.513413Z",
+      "updated_at": "2026-07-01T14:34:04.513413Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-evidence",
+      "max_version": "0.1.2",
+      "downloads": 216,
+      "created_at": "2026-06-26T15:34:19.978099Z",
+      "updated_at": "2026-07-01T14:35:48.500447Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-evolve",
+      "max_version": "0.1.2",
+      "downloads": 23,
+      "created_at": "2026-07-01T16:01:22.147751Z",
+      "updated_at": "2026-07-01T16:01:22.147751Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-fed",
+      "max_version": "0.1.2",
+      "downloads": 23,
+      "created_at": "2026-07-01T14:34:06.507037Z",
+      "updated_at": "2026-07-01T14:34:06.507037Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-focus",
+      "max_version": "0.1.2",
+      "downloads": 120,
+      "created_at": "2026-06-26T20:02:16.002293Z",
+      "updated_at": "2026-07-01T14:35:50.806515Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-genome",
+      "max_version": "0.1.2",
+      "downloads": 83,
+      "created_at": "2026-06-26T20:02:05.560101Z",
+      "updated_at": "2026-07-01T14:35:53.238713Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-llm",
+      "max_version": "0.1.2",
+      "downloads": 23,
+      "created_at": "2026-07-01T14:34:12.992889Z",
+      "updated_at": "2026-07-01T14:34:12.992889Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-neural",
+      "max_version": "0.1.2",
+      "downloads": 64,
+      "created_at": "2026-07-01T15:01:22.144220Z",
+      "updated_at": "2026-07-01T15:01:22.144220Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-numeric",
+      "max_version": "0.1.2",
+      "downloads": 276,
+      "created_at": "2026-06-26T15:34:03.465986Z",
+      "updated_at": "2026-07-01T14:34:14.493788Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-ocr",
+      "max_version": "0.1.2",
+      "downloads": 64,
+      "created_at": "2026-07-01T15:11:22.923173Z",
+      "updated_at": "2026-07-01T15:11:22.923173Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-ontology",
+      "max_version": "0.1.2",
+      "downloads": 65,
+      "created_at": "2026-07-01T14:34:17.030839Z",
+      "updated_at": "2026-07-01T14:34:17.030839Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-pipeline",
+      "max_version": "0.1.2",
+      "downloads": 137,
+      "created_at": "2026-07-01T15:31:21.202385Z",
+      "updated_at": "2026-07-01T15:31:21.202385Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-provenance",
+      "max_version": "0.1.2",
+      "downloads": 623,
+      "created_at": "2026-06-26T15:33:59.641789Z",
+      "updated_at": "2026-07-01T14:34:18.438841Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-refranges",
+      "max_version": "0.1.2",
+      "downloads": 88,
+      "created_at": "2026-06-26T21:07:18.987321Z",
+      "updated_at": "2026-06-26T21:08:34.691271Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-retrieval",
+      "max_version": "0.1.2",
+      "downloads": 102,
+      "created_at": "2026-07-01T14:41:22.107965Z",
+      "updated_at": "2026-07-01T14:41:22.107965Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-score",
+      "max_version": "0.1.2",
+      "downloads": 159,
+      "created_at": "2026-06-26T15:33:48.818685Z",
+      "updated_at": "2026-07-01T14:35:40.602002Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-sensing",
+      "max_version": "0.1.2",
+      "downloads": 64,
+      "created_at": "2026-07-01T14:51:22.506820Z",
+      "updated_at": "2026-07-01T14:51:22.506820Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-timeline",
+      "max_version": "0.1.2",
+      "downloads": 122,
+      "created_at": "2026-06-26T20:02:26.459402Z",
+      "updated_at": "2026-07-01T14:35:56.255408Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-vault",
+      "max_version": "0.1.2",
+      "downloads": 24,
+      "created_at": "2026-07-01T14:27:19.493999Z",
+      "updated_at": "2026-07-01T14:27:19.493999Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-verifier",
+      "max_version": "0.1.2",
+      "downloads": 23,
+      "created_at": "2026-07-01T15:41:22.180628Z",
+      "updated_at": "2026-07-01T15:41:22.180628Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-vision",
+      "max_version": "0.1.2",
+      "downloads": 23,
+      "created_at": "2026-07-01T15:51:21.707340Z",
+      "updated_at": "2026-07-01T15:51:21.707340Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-visual",
+      "max_version": "0.1.2",
+      "downloads": 83,
+      "created_at": "2026-06-26T15:33:38.314347Z",
+      "updated_at": "2026-07-01T14:35:43.604156Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "helix-wasm",
+      "max_version": "0.1.2",
+      "downloads": 23,
+      "created_at": "2026-07-01T16:11:21.448255Z",
+      "updated_at": "2026-07-01T16:11:21.448255Z",
+      "repository": "https://github.com/ruvnet/helix"
+    },
+    {
+      "id": "homecore",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 180,
+      "created_at": "2026-07-31T14:38:29.499786Z",
+      "updated_at": "2026-07-31T14:38:29.499786Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-api",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 42,
+      "created_at": "2026-07-31T15:01:58.492770Z",
+      "updated_at": "2026-07-31T15:01:58.492770Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-assist",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 42,
+      "created_at": "2026-07-31T14:44:37.789323Z",
+      "updated_at": "2026-07-31T14:44:37.789323Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-automation",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 61,
+      "created_at": "2026-07-31T14:43:55.725858Z",
+      "updated_at": "2026-07-31T14:43:55.725858Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-hap",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 48,
+      "created_at": "2026-07-31T14:45:21.164130Z",
+      "updated_at": "2026-07-31T14:45:21.164130Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-migrate",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 42,
+      "created_at": "2026-07-31T14:46:00.001597Z",
+      "updated_at": "2026-07-31T14:46:00.001597Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-plugins",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 42,
+      "created_at": "2026-07-31T14:46:32.718152Z",
+      "updated_at": "2026-07-31T14:46:32.718152Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-recorder",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 61,
+      "created_at": "2026-07-31T14:51:45.651606Z",
+      "updated_at": "2026-07-31T14:51:45.651606Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "homecore-server",
+      "max_version": "0.1.0-alpha.0",
+      "downloads": 19,
+      "created_at": "2026-07-31T15:11:52.693746Z",
+      "updated_at": "2026-07-31T15:11:52.693746Z",
+      "repository": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "id": "intrinsic-dim",
+      "max_version": "0.0.0",
+      "downloads": 232,
+      "created_at": "2025-09-27T22:57:45.210854Z",
+      "updated_at": "2025-09-27T22:57:45.210854Z",
+      "repository": "https://github.com/ruvnet/intrinsic-dim"
+    },
+    {
+      "id": "kimi-expert-analyzer",
+      "max_version": "0.1.1",
+      "downloads": 453,
+      "created_at": "2025-07-13T20:58:12.762678Z",
+      "updated_at": "2025-07-13T20:58:12.762678Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Mesh"
+    },
+    {
+      "id": "kimi-fann-core",
+      "max_version": "0.1.4",
+      "downloads": 1211,
+      "created_at": "2025-07-13T20:54:59.139903Z",
+      "updated_at": "2025-07-14T01:50:53.533423Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Neural-Mesh"
+    },
+    {
+      "id": "latentmesh-thoughtmap",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T14:29:47.337647Z",
+      "updated_at": "2026-09-26T14:29:47.337647Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "lean-agentic",
+      "max_version": "0.1.0",
+      "downloads": 84619,
+      "created_at": "2025-10-25T14:55:49.609391Z",
+      "updated_at": "2025-10-25T14:55:49.609391Z",
+      "repository": "https://github.com/agenticsorg/lean-agentic"
+    },
+    {
+      "id": "leanr-rag-gateway",
+      "max_version": "0.1.0",
+      "downloads": 391,
+      "created_at": "2025-10-25T14:57:02.574421Z",
+      "updated_at": "2025-10-25T14:57:02.574421Z",
+      "repository": "https://github.com/agenticsorg/lean-agentic"
+    },
+    {
+      "id": "leanr-wasm",
+      "max_version": "0.1.0",
+      "downloads": 235,
+      "created_at": "2025-10-25T14:56:56.519572Z",
+      "updated_at": "2025-10-25T14:56:56.519572Z",
+      "repository": "https://github.com/agenticsorg/lean-agentic"
+    },
+    {
+      "id": "mcp-gate",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T14:30:33.021797Z",
+      "updated_at": "2026-09-26T14:30:33.021797Z",
+      "repository": "https://github.com/ruvector/ruvector"
+    },
+    {
+      "id": "micro-hnsw-wasm",
+      "max_version": "2.3.0",
+      "downloads": 51,
+      "created_at": "2025-12-02T03:21:15.225152Z",
+      "updated_at": "2025-12-02T03:21:15.225152Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "micro_cartan_attn",
+      "max_version": "0.2.0",
+      "downloads": 753,
+      "created_at": "2025-08-01T04:38:26.115223Z",
+      "updated_at": "2025-08-01T14:39:31.552663Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "micro_core",
+      "max_version": "0.2.0",
+      "downloads": 1408,
+      "created_at": "2025-08-01T04:10:10.451215Z",
+      "updated_at": "2025-08-01T14:31:06.922633Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "micro_metrics",
+      "max_version": "0.2.0",
+      "downloads": 990,
+      "created_at": "2025-08-01T04:34:05.325036Z",
+      "updated_at": "2025-08-01T14:37:43.092869Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "micro_routing",
+      "max_version": "0.2.0",
+      "downloads": 987,
+      "created_at": "2025-08-01T04:37:01.574345Z",
+      "updated_at": "2025-08-01T14:37:18.236089Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "micro_swarm",
+      "max_version": "0.2.0",
+      "downloads": 766,
+      "created_at": "2025-08-01T04:39:15.331798Z",
+      "updated_at": "2025-08-01T14:59:18.724363Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "midstream",
+      "max_version": "0.2.0",
+      "downloads": 24,
+      "created_at": "2026-05-13T18:33:16.886507Z",
+      "updated_at": "2026-05-13T18:33:16.886507Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "midstreamer-attractor",
+      "max_version": "0.2.1",
+      "downloads": 66705,
+      "created_at": "2025-10-27T16:24:26.210811Z",
+      "updated_at": "2026-05-14T02:06:35.821047Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "midstreamer-neural-solver",
+      "max_version": "0.2.1",
+      "downloads": 2786,
+      "created_at": "2025-10-27T16:21:12.653407Z",
+      "updated_at": "2026-05-14T02:06:40.746595Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "midstreamer-quic",
+      "max_version": "0.3.0",
+      "downloads": 48841,
+      "created_at": "2025-10-27T16:27:44.225247Z",
+      "updated_at": "2026-05-15T03:25:57.415345Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "midstreamer-scheduler",
+      "max_version": "0.2.1",
+      "downloads": 49590,
+      "created_at": "2025-10-27T15:47:54.024006Z",
+      "updated_at": "2026-05-14T02:06:25.490535Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "midstreamer-strange-loop",
+      "max_version": "0.2.1",
+      "downloads": 2446,
+      "created_at": "2025-10-27T16:31:02.280296Z",
+      "updated_at": "2026-05-14T02:06:46.090362Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "midstreamer-temporal-compare",
+      "max_version": "0.2.1",
+      "downloads": 66949,
+      "created_at": "2025-10-27T15:30:46.291321Z",
+      "updated_at": "2026-05-14T02:06:16.940006Z",
+      "repository": "https://github.com/ruvnet/midstream"
+    },
+    {
+      "id": "nano-consciousness",
+      "max_version": "0.1.0",
+      "downloads": 572,
+      "created_at": "2025-09-22T12:45:14.832074Z",
+      "updated_at": "2025-09-22T12:45:14.832074Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "nanosecond-scheduler",
+      "max_version": "0.1.1",
+      "downloads": 53650,
+      "created_at": "2025-09-21T22:54:39.057532Z",
+      "updated_at": "2025-09-24T02:16:57.719360Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "neural-trader-predictor",
+      "max_version": "0.1.0",
+      "downloads": 298,
+      "created_at": "2025-11-15T18:29:49.946213Z",
+      "updated_at": "2025-11-15T18:29:49.946213Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "neuro-divergent",
+      "max_version": "0.1.0",
+      "downloads": 518,
+      "created_at": "2025-06-27T04:53:25.969895Z",
+      "updated_at": "2025-06-27T04:53:25.969895Z",
+      "repository": "https://github.com/your-org/ruv-FANN"
+    },
+    {
+      "id": "neuro-divergent-core",
+      "max_version": "0.1.0",
+      "downloads": 1136,
+      "created_at": "2025-06-27T03:38:29.018096Z",
+      "updated_at": "2025-06-27T03:38:29.018096Z",
+      "repository": "https://github.com/your-org/ruv-FANN"
+    },
+    {
+      "id": "neuro-divergent-models",
+      "max_version": "0.1.0",
+      "downloads": 913,
+      "created_at": "2025-06-27T03:49:00.044407Z",
+      "updated_at": "2025-06-27T03:49:00.044407Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "neuro-divergent-registry",
+      "max_version": "0.1.0",
+      "downloads": 938,
+      "created_at": "2025-06-27T03:40:42.258948Z",
+      "updated_at": "2025-06-27T03:40:42.258948Z",
+      "repository": null
+    },
+    {
+      "id": "neuro-divergent-training",
+      "max_version": "0.1.0",
+      "downloads": 489,
+      "created_at": "2025-06-27T04:57:52.407373Z",
+      "updated_at": "2025-06-27T04:57:52.407373Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "neurodna",
+      "max_version": "0.0.2",
+      "downloads": 815,
+      "created_at": "2025-07-12T04:37:52.983448Z",
+      "updated_at": "2025-07-12T05:21:13.933049Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "nt-agentdb-client",
+      "max_version": "1.0.0",
+      "downloads": 485,
+      "created_at": "2025-11-13T19:03:22.756014Z",
+      "updated_at": "2025-11-13T19:03:22.756014Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-backtesting",
+      "max_version": "1.0.0",
+      "downloads": 290,
+      "created_at": "2025-11-13T16:23:56.268792Z",
+      "updated_at": "2025-11-13T16:23:56.268792Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-core",
+      "max_version": "1.0.0",
+      "downloads": 2032,
+      "created_at": "2025-11-13T16:11:49.707923Z",
+      "updated_at": "2025-11-13T16:11:49.707923Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-execution",
+      "max_version": "1.0.0",
+      "downloads": 287,
+      "created_at": "2025-11-13T16:32:50.942694Z",
+      "updated_at": "2025-11-13T16:32:50.942694Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-features",
+      "max_version": "1.0.0",
+      "downloads": 283,
+      "created_at": "2025-11-13T16:17:11.145327Z",
+      "updated_at": "2025-11-13T16:17:11.145327Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-market-data",
+      "max_version": "1.0.0",
+      "downloads": 362,
+      "created_at": "2025-11-13T16:17:58.046361Z",
+      "updated_at": "2025-11-13T16:17:58.046361Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-memory",
+      "max_version": "1.0.0",
+      "downloads": 316,
+      "created_at": "2025-11-13T19:04:39.522715Z",
+      "updated_at": "2025-11-13T19:04:39.522715Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-napi-bindings",
+      "max_version": "1.0.0",
+      "downloads": 281,
+      "created_at": "2025-11-13T19:11:51.111517Z",
+      "updated_at": "2025-11-13T19:11:51.111517Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-neural",
+      "max_version": "1.0.0",
+      "downloads": 285,
+      "created_at": "2025-11-13T19:05:15.682824Z",
+      "updated_at": "2025-11-13T19:05:15.682824Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-portfolio",
+      "max_version": "1.0.0",
+      "downloads": 288,
+      "created_at": "2025-11-13T16:18:32.636702Z",
+      "updated_at": "2025-11-13T16:18:32.636702Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-streaming",
+      "max_version": "1.0.0",
+      "downloads": 48,
+      "created_at": "2025-11-13T19:03:57.637684Z",
+      "updated_at": "2025-11-13T19:03:57.637684Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nt-utils",
+      "max_version": "1.0.0",
+      "downloads": 50,
+      "created_at": "2025-11-13T16:16:32.380839Z",
+      "updated_at": "2025-11-13T16:16:32.380839Z",
+      "repository": "https://github.com/ruvnet/neural-trader"
+    },
+    {
+      "id": "nvsim",
+      "max_version": "0.3.1",
+      "downloads": 39,
+      "created_at": "2026-07-31T03:51:18.384931Z",
+      "updated_at": "2026-07-31T03:51:18.384931Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "nvsim-server",
+      "max_version": "0.3.1",
+      "downloads": 14,
+      "created_at": "2026-07-31T04:21:56.931030Z",
+      "updated_at": "2026-07-31T04:21:56.931030Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "opencv-core",
+      "max_version": "4.8.1",
+      "downloads": 1352,
+      "created_at": "2025-07-12T17:24:14.238570Z",
+      "updated_at": "2025-07-12T20:24:38.878877Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "opencv-sdk",
+      "max_version": "4.8.1",
+      "downloads": 859,
+      "created_at": "2025-07-12T17:26:50.068706Z",
+      "updated_at": "2025-07-12T20:26:28.334530Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "opencv-wasm",
+      "max_version": "4.8.1",
+      "downloads": 1100,
+      "created_at": "2025-07-12T17:25:58.093078Z",
+      "updated_at": "2025-07-12T20:25:32.890088Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ospipe",
+      "max_version": "0.1.0",
+      "downloads": 28,
+      "created_at": "2026-02-13T03:02:19.125682Z",
+      "updated_at": "2026-02-13T03:02:19.125682Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "photonlayer-bench",
+      "max_version": "0.1.0",
+      "downloads": 13,
+      "created_at": "2026-09-26T14:30:50.671106Z",
+      "updated_at": "2026-09-26T14:30:50.671106Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "photonlayer-cli",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T14:31:17.052565Z",
+      "updated_at": "2026-09-26T14:31:17.052565Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "photonlayer-core",
+      "max_version": "0.1.0",
+      "downloads": 27,
+      "created_at": "2026-06-18T05:41:24.476889Z",
+      "updated_at": "2026-06-18T05:41:24.476889Z",
+      "repository": "https://github.com/ruvnet/PhotonLayer"
+    },
+    {
+      "id": "photonlayer-ruvector",
+      "max_version": "0.1.0",
+      "downloads": 13,
+      "created_at": "2026-09-26T14:31:08.882536Z",
+      "updated_at": "2026-09-26T14:31:08.882536Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "photonlayer-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T14:31:25.611216Z",
+      "updated_at": "2026-09-26T14:31:25.611216Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "prime-radiant",
+      "max_version": "0.1.0",
+      "downloads": 32,
+      "created_at": "2026-01-23T02:24:14.163327Z",
+      "updated_at": "2026-01-23T02:24:14.163327Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "qudag",
+      "max_version": "1.4.0",
+      "downloads": 4210,
+      "created_at": "2025-06-20T18:08:53.116073Z",
+      "updated_at": "2025-06-23T21:00:22.300200Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-cli",
+      "max_version": "0.5.0",
+      "downloads": 4138,
+      "created_at": "2025-06-20T18:11:41.330585Z",
+      "updated_at": "2025-06-23T20:59:10.672100Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-crypto",
+      "max_version": "0.5.1",
+      "downloads": 7311,
+      "created_at": "2025-06-20T18:01:05.953620Z",
+      "updated_at": "2025-06-24T02:20:19.757553Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-dag",
+      "max_version": "0.5.0",
+      "downloads": 5960,
+      "created_at": "2025-06-20T18:02:22.529716Z",
+      "updated_at": "2025-06-23T20:51:18.494141Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-exchange",
+      "max_version": "0.2.0",
+      "downloads": 576,
+      "created_at": "2025-06-23T20:56:00.369757Z",
+      "updated_at": "2025-06-23T20:56:00.369757Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-exchange-core",
+      "max_version": "0.4.0",
+      "downloads": 2727,
+      "created_at": "2025-06-23T00:35:35.685499Z",
+      "updated_at": "2025-06-23T20:55:00.426538Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-exchange-standalone-cli",
+      "max_version": "0.3.1",
+      "downloads": 1253,
+      "created_at": "2025-06-23T00:38:06.644260Z",
+      "updated_at": "2025-06-23T02:28:28.953174Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-mcp",
+      "max_version": "0.5.0",
+      "downloads": 2634,
+      "created_at": "2025-06-21T23:42:06.058777Z",
+      "updated_at": "2025-06-23T20:57:34.783479Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-network",
+      "max_version": "0.5.0",
+      "downloads": 5139,
+      "created_at": "2025-06-20T18:04:57.301441Z",
+      "updated_at": "2025-06-23T20:52:31.517897Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-protocol",
+      "max_version": "0.5.0",
+      "downloads": 4230,
+      "created_at": "2025-06-20T18:07:04.583469Z",
+      "updated_at": "2025-06-23T20:53:53.222512Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-vault-core",
+      "max_version": "0.5.1",
+      "downloads": 4696,
+      "created_at": "2025-06-21T15:19:15.376420Z",
+      "updated_at": "2025-06-24T03:08:06.693161Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qudag-wasm",
+      "max_version": "0.1.0",
+      "downloads": 534,
+      "created_at": "2025-06-22T16:50:12.426300Z",
+      "updated_at": "2025-06-22T16:50:12.426300Z",
+      "repository": "https://github.com/ruvnet/QuDAG"
+    },
+    {
+      "id": "qvm-scheduler",
+      "max_version": "0.1.0",
+      "downloads": 441,
+      "created_at": "2025-08-11T18:57:37.816616Z",
+      "updated_at": "2025-08-11T18:57:37.816616Z",
+      "repository": "https://github.com/ruvnet/Quantum-Virtual-Machine"
+    },
+    {
+      "id": "rucelium-abi",
+      "max_version": "0.1.0",
+      "downloads": 41,
+      "created_at": "2026-08-02T13:58:29.191030Z",
+      "updated_at": "2026-08-02T13:58:29.191030Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rucelium-calibration",
+      "max_version": "0.1.0",
+      "downloads": 18,
+      "created_at": "2026-08-02T13:58:32.395860Z",
+      "updated_at": "2026-08-02T13:58:32.395860Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rucelium-core",
+      "max_version": "0.1.0",
+      "downloads": 137,
+      "created_at": "2026-08-02T13:58:24.339378Z",
+      "updated_at": "2026-08-02T13:58:24.339378Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rucelium-ingest",
+      "max_version": "0.1.0",
+      "downloads": 17,
+      "created_at": "2026-08-02T14:31:12.564031Z",
+      "updated_at": "2026-08-02T14:31:12.564031Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rucelium-notary",
+      "max_version": "0.1.0",
+      "downloads": 18,
+      "created_at": "2026-08-02T13:58:35.516507Z",
+      "updated_at": "2026-08-02T13:58:35.516507Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rucelium-policy",
+      "max_version": "0.1.0",
+      "downloads": 18,
+      "created_at": "2026-08-02T13:58:38.799907Z",
+      "updated_at": "2026-08-02T13:58:38.799907Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rucelium-store",
+      "max_version": "0.1.0",
+      "downloads": 18,
+      "created_at": "2026-08-02T14:01:43.170276Z",
+      "updated_at": "2026-08-02T14:01:43.170276Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rucelium-worldgraph",
+      "max_version": "0.1.0",
+      "downloads": 17,
+      "created_at": "2026-08-02T14:11:50.183549Z",
+      "updated_at": "2026-08-02T14:11:50.183549Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rufield-adapters",
+      "max_version": "0.1.0",
+      "downloads": 19,
+      "created_at": "2026-08-02T14:21:11.376676Z",
+      "updated_at": "2026-08-02T14:21:11.376676Z",
+      "repository": "https://github.com/ruvnet/RuCelium"
+    },
+    {
+      "id": "rufield-core",
+      "max_version": "0.1.0",
+      "downloads": 283,
+      "created_at": "2026-07-14T17:14:41.272254Z",
+      "updated_at": "2026-07-14T17:14:41.272254Z",
+      "repository": "https://github.com/ruvnet/rufield"
+    },
+    {
+      "id": "rufield-fusion",
+      "max_version": "0.1.0",
+      "downloads": 171,
+      "created_at": "2026-07-14T17:17:32.533972Z",
+      "updated_at": "2026-07-14T17:17:32.533972Z",
+      "repository": "https://github.com/ruvnet/rufield"
+    },
+    {
+      "id": "rufield-privacy",
+      "max_version": "0.1.0",
+      "downloads": 151,
+      "created_at": "2026-07-14T17:15:11.180084Z",
+      "updated_at": "2026-07-14T17:15:11.180084Z",
+      "repository": "https://github.com/ruvnet/rufield"
+    },
+    {
+      "id": "rufield-provenance",
+      "max_version": "0.1.0",
+      "downloads": 206,
+      "created_at": "2026-07-14T17:15:06.573644Z",
+      "updated_at": "2026-07-14T17:15:06.573644Z",
+      "repository": "https://github.com/ruvnet/rufield"
+    },
+    {
+      "id": "ruflo-watermark",
+      "max_version": "0.3.1",
+      "downloads": 77,
+      "created_at": "2026-08-15T23:45:34.399545Z",
+      "updated_at": "2026-08-16T02:09:54.703366Z",
+      "repository": "https://github.com/ruvnet/ai-text-watermark"
+    },
+    {
+      "id": "rulake",
+      "max_version": "2.2.0",
+      "downloads": 35,
+      "created_at": "2026-04-26T16:14:30.687348Z",
+      "updated_at": "2026-04-26T16:14:30.687348Z",
+      "repository": "https://github.com/ruvnet/RuLake"
+    },
+    {
+      "id": "ruqu",
+      "max_version": "0.1.32",
+      "downloads": 28,
+      "created_at": "2026-01-17T19:31:56.980573Z",
+      "updated_at": "2026-01-17T19:31:56.980573Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-algorithms",
+      "max_version": "2.0.5",
+      "downloads": 330,
+      "created_at": "2026-02-08T17:05:53.831209Z",
+      "updated_at": "2026-02-12T18:39:42.258004Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-core",
+      "max_version": "2.0.5",
+      "downloads": 539,
+      "created_at": "2026-02-08T17:05:44.978766Z",
+      "updated_at": "2026-02-12T18:39:32.690624Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-exotic",
+      "max_version": "2.0.5",
+      "downloads": 75,
+      "created_at": "2026-02-08T17:05:58.120942Z",
+      "updated_at": "2026-02-12T18:39:45.947587Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-neural-decoder",
+      "max_version": "0.1.32",
+      "downloads": 25,
+      "created_at": "2026-01-18T00:55:13.609636Z",
+      "updated_at": "2026-01-18T00:55:13.609636Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-qarlp",
+      "max_version": "0.1.32",
+      "downloads": 25,
+      "created_at": "2026-01-18T00:07:54.927122Z",
+      "updated_at": "2026-01-18T00:07:54.927122Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-qear",
+      "max_version": "0.1.32",
+      "downloads": 24,
+      "created_at": "2026-01-18T00:11:24.483398Z",
+      "updated_at": "2026-01-18T00:11:24.483398Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-qflg",
+      "max_version": "0.1.32",
+      "downloads": 22,
+      "created_at": "2026-01-18T00:21:56.988528Z",
+      "updated_at": "2026-01-18T00:21:56.988528Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-qgat-mol",
+      "max_version": "0.1.32",
+      "downloads": 23,
+      "created_at": "2026-01-18T00:31:32.638117Z",
+      "updated_at": "2026-01-18T00:31:32.638117Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-quantum-monitor",
+      "max_version": "0.1.32",
+      "downloads": 24,
+      "created_at": "2026-01-18T00:45:37.042205Z",
+      "updated_at": "2026-01-18T00:45:37.042205Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-vq-nas",
+      "max_version": "0.1.32",
+      "downloads": 24,
+      "created_at": "2026-01-18T00:08:37.827910Z",
+      "updated_at": "2026-01-18T00:08:37.827910Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruqu-wasm",
+      "max_version": "2.0.5",
+      "downloads": 72,
+      "created_at": "2026-02-08T17:06:19.956258Z",
+      "updated_at": "2026-02-12T18:39:53.770878Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruv-fann",
+      "max_version": "0.2.1",
+      "downloads": 5603,
+      "created_at": "2025-06-26T18:17:42.099797Z",
+      "updated_at": "2026-05-23T07:23:18.997156Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-neural-cli",
+      "max_version": "0.1.0",
+      "downloads": 30,
+      "created_at": "2026-03-09T15:04:59.845017Z",
+      "updated_at": "2026-03-09T15:04:59.845017Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-core",
+      "max_version": "0.2.0-alpha.1",
+      "downloads": 931,
+      "created_at": "2026-03-09T14:03:12.367656Z",
+      "updated_at": "2026-08-03T18:55:03.482903Z",
+      "repository": "https://github.com/ruvnet/ruv-neural"
+    },
+    {
+      "id": "ruv-neural-decoder",
+      "max_version": "0.1.0",
+      "downloads": 125,
+      "created_at": "2026-03-09T14:23:08.409971Z",
+      "updated_at": "2026-03-09T14:23:08.409971Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-embed",
+      "max_version": "0.1.0",
+      "downloads": 128,
+      "created_at": "2026-03-09T14:04:41.892445Z",
+      "updated_at": "2026-03-09T14:04:41.892445Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-esp32",
+      "max_version": "0.1.0",
+      "downloads": 29,
+      "created_at": "2026-03-09T14:35:01.265016Z",
+      "updated_at": "2026-03-09T14:35:01.265016Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-graph",
+      "max_version": "0.1.0",
+      "downloads": 223,
+      "created_at": "2026-03-09T14:46:42.930313Z",
+      "updated_at": "2026-03-09T14:46:42.930313Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-memory",
+      "max_version": "0.1.0",
+      "downloads": 125,
+      "created_at": "2026-03-09T14:11:59.243271Z",
+      "updated_at": "2026-03-09T14:11:59.243271Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-mincut",
+      "max_version": "0.1.0",
+      "downloads": 221,
+      "created_at": "2026-03-09T14:04:21.978057Z",
+      "updated_at": "2026-03-09T14:04:21.978057Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-neurosleep",
+      "max_version": "0.2.0-alpha.1",
+      "downloads": 16,
+      "created_at": "2026-08-03T18:55:27.884019Z",
+      "updated_at": "2026-08-03T18:55:27.884019Z",
+      "repository": "https://github.com/ruvnet/ruv-neural"
+    },
+    {
+      "id": "ruv-neural-sensor",
+      "max_version": "0.1.0",
+      "downloads": 123,
+      "created_at": "2026-03-09T14:03:31.896024Z",
+      "updated_at": "2026-03-09T14:03:31.896024Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-signal",
+      "max_version": "0.2.0-alpha.1",
+      "downloads": 351,
+      "created_at": "2026-03-09T14:04:01.694473Z",
+      "updated_at": "2026-08-03T18:55:16.400119Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-neural-viz",
+      "max_version": "0.1.0",
+      "downloads": 128,
+      "created_at": "2026-03-09T14:52:48.133967Z",
+      "updated_at": "2026-03-09T14:52:48.133967Z",
+      "repository": null
+    },
+    {
+      "id": "ruv-swarm-agents",
+      "max_version": "1.0.5",
+      "downloads": 2263,
+      "created_at": "2025-06-30T04:39:18.982381Z",
+      "updated_at": "2025-07-02T20:47:20.160527Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-cli",
+      "max_version": "0.2.0",
+      "downloads": 994,
+      "created_at": "2025-06-30T11:31:09.142980Z",
+      "updated_at": "2025-06-30T16:48:08.381929Z",
+      "repository": "https://github.com/ruv-fann/ruv-swarm"
+    },
+    {
+      "id": "ruv-swarm-core",
+      "max_version": "1.0.6",
+      "downloads": 4851,
+      "created_at": "2025-06-30T04:36:26.138197Z",
+      "updated_at": "2025-07-03T18:18:22.301549Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-daa",
+      "max_version": "1.0.6",
+      "downloads": 1227,
+      "created_at": "2025-07-03T18:19:30.247561Z",
+      "updated_at": "2025-07-03T18:19:30.247561Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-mcp",
+      "max_version": "0.2.0",
+      "downloads": 943,
+      "created_at": "2025-06-30T11:27:56.196614Z",
+      "updated_at": "2025-06-30T16:46:01.939936Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-ml",
+      "max_version": "1.0.5",
+      "downloads": 2051,
+      "created_at": "2025-06-30T04:39:56.050459Z",
+      "updated_at": "2025-07-02T20:41:42.953257Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-ml-training",
+      "max_version": "1.0.5",
+      "downloads": 1096,
+      "created_at": "2025-06-30T16:48:49.834269Z",
+      "updated_at": "2025-07-02T20:45:12.601166Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-persistence",
+      "max_version": "1.0.5",
+      "downloads": 2130,
+      "created_at": "2025-06-30T04:37:38.191681Z",
+      "updated_at": "2025-07-02T20:37:26.416697Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-transport",
+      "max_version": "1.0.5",
+      "downloads": 1813,
+      "created_at": "2025-06-30T04:41:17.178082Z",
+      "updated_at": "2025-07-02T20:39:37.562131Z",
+      "repository": "https://github.com/ruvnet/ruv-FANN"
+    },
+    {
+      "id": "ruv-swarm-wasm",
+      "max_version": "1.0.5",
+      "downloads": 1340,
+      "created_at": "2025-06-30T11:32:21.699079Z",
+      "updated_at": "2025-07-02T20:58:01.810716Z",
+      "repository": null
+    },
+    {
+      "id": "ruvector-acorn",
+      "max_version": "2.3.0",
+      "downloads": 12,
+      "created_at": "2026-09-26T14:42:34.719326Z",
+      "updated_at": "2026-09-26T14:42:34.719326Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-acorn-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T14:54:03.617969Z",
+      "updated_at": "2026-09-26T14:54:03.617969Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-adaptive-ann",
+      "max_version": "2.3.0",
+      "downloads": 15,
+      "created_at": "2026-07-27T16:57:57.962690Z",
+      "updated_at": "2026-07-27T16:57:57.962690Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-agent-memory",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T15:05:49.055287Z",
+      "updated_at": "2026-09-26T15:05:49.055287Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-attention",
+      "max_version": "2.3.0",
+      "downloads": 80901,
+      "created_at": "2025-11-30T21:02:24.079163Z",
+      "updated_at": "2026-09-26T15:06:10.803393Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-attention-node",
+      "max_version": "2.3.0",
+      "downloads": 91,
+      "created_at": "2025-12-09T01:22:50.041160Z",
+      "updated_at": "2026-09-26T15:06:26.439275Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-attention-unified-wasm",
+      "max_version": "0.1.0",
+      "downloads": 23,
+      "created_at": "2026-02-23T13:29:21.979314Z",
+      "updated_at": "2026-02-23T13:29:21.979314Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-attention-wasm",
+      "max_version": "2.3.0",
+      "downloads": 124,
+      "created_at": "2025-12-09T01:22:41.070087Z",
+      "updated_at": "2026-09-26T15:06:39.816149Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-attn-mincut",
+      "max_version": "2.3.0",
+      "downloads": 59133,
+      "created_at": "2026-02-20T18:33:16.518650Z",
+      "updated_at": "2026-09-26T15:06:44.795356Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-bounded-rag",
+      "max_version": "2.3.0",
+      "downloads": 15,
+      "created_at": "2026-07-27T16:56:08.121267Z",
+      "updated_at": "2026-07-27T16:56:08.121267Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-capgated",
+      "max_version": "2.3.0",
+      "downloads": 31,
+      "created_at": "2026-06-25T20:16:46.982694Z",
+      "updated_at": "2026-09-26T15:06:51.362350Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-cli",
+      "max_version": "2.3.0",
+      "downloads": 395,
+      "created_at": "2025-11-20T22:38:04.565556Z",
+      "updated_at": "2026-09-26T15:07:26.293650Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-cluster",
+      "max_version": "2.3.0",
+      "downloads": 2392,
+      "created_at": "2025-11-26T16:11:35.797331Z",
+      "updated_at": "2026-09-26T15:07:39.411508Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-cluster-rag",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T15:18:46.370161Z",
+      "updated_at": "2026-09-26T15:18:46.370161Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-cnn",
+      "max_version": "2.3.0",
+      "downloads": 170,
+      "created_at": "2026-03-11T18:51:21.916027Z",
+      "updated_at": "2026-09-26T15:18:58.592523Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-cnn-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T15:30:08.268171Z",
+      "updated_at": "2026-09-26T15:30:08.268171Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-cognitive-container",
+      "max_version": "2.3.0",
+      "downloads": 240,
+      "created_at": "2026-02-23T03:05:07.436267Z",
+      "updated_at": "2026-09-26T15:30:19.111389Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-coherence",
+      "max_version": "2.3.0",
+      "downloads": 380,
+      "created_at": "2026-02-20T18:33:12.430250Z",
+      "updated_at": "2026-09-26T14:31:02.140104Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-coherence-hnsw",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T15:41:31.878787Z",
+      "updated_at": "2026-09-26T15:41:31.878787Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-collections",
+      "max_version": "2.3.0",
+      "downloads": 1366,
+      "created_at": "2025-11-26T16:08:22.032551Z",
+      "updated_at": "2026-09-26T15:41:48.748780Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-consciousness",
+      "max_version": "2.3.0",
+      "downloads": 51,
+      "created_at": "2026-03-31T20:41:39.763610Z",
+      "updated_at": "2026-09-26T15:42:22.099966Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-consciousness-wasm",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T15:42:31.153239Z",
+      "updated_at": "2026-09-26T15:42:31.153239Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-context",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-27T00:07:54.207381Z",
+      "updated_at": "2026-09-27T00:07:54.207381Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-core",
+      "max_version": "2.3.1",
+      "downloads": 202012,
+      "created_at": "2025-11-20T20:39:59.496904Z",
+      "updated_at": "2026-09-26T23:02:13.090496Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-crv",
+      "max_version": "0.1.1",
+      "downloads": 16673,
+      "created_at": "2026-02-08T16:50:51.256384Z",
+      "updated_at": "2026-02-08T16:53:38.094139Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-dag",
+      "max_version": "2.3.0",
+      "downloads": 651,
+      "created_at": "2025-12-30T15:50:31.427460Z",
+      "updated_at": "2026-09-26T15:42:50.573417Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-dag-wasm",
+      "max_version": "0.1.0",
+      "downloads": 28,
+      "created_at": "2025-12-30T15:52:17.776540Z",
+      "updated_at": "2025-12-30T15:52:17.776540Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-data-framework",
+      "max_version": "0.3.0",
+      "downloads": 60,
+      "created_at": "2026-01-05T18:51:20.131655Z",
+      "updated_at": "2026-01-05T19:50:27.118526Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-decompiler",
+      "max_version": "2.3.0",
+      "downloads": 14,
+      "created_at": "2026-09-26T15:54:01.476053Z",
+      "updated_at": "2026-09-26T15:54:01.476053Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-decompiler-wasm",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T16:05:10.468859Z",
+      "updated_at": "2026-09-26T16:05:10.468859Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-delta-consensus",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T16:16:19.275Z",
+      "updated_at": "2026-09-26T16:16:19.275Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-delta-core",
+      "max_version": "0.1.0",
+      "downloads": 169,
+      "created_at": "2026-02-13T02:46:57.903648Z",
+      "updated_at": "2026-02-13T02:46:57.903648Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-delta-graph",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T16:27:34.192081Z",
+      "updated_at": "2026-09-26T16:27:34.192081Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-delta-index",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T16:38:40.824666Z",
+      "updated_at": "2026-09-26T16:38:40.824666Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-delta-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T16:49:55.182777Z",
+      "updated_at": "2026-09-26T16:49:55.182777Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-diskann",
+      "max_version": "2.3.2",
+      "downloads": 870,
+      "created_at": "2026-04-06T22:10:01.332079Z",
+      "updated_at": "2026-07-27T17:54:17.838248Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-diskann-node",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T17:01:11.233551Z",
+      "updated_at": "2026-09-26T17:01:11.233551Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-dither",
+      "max_version": "0.1.0",
+      "downloads": 1143,
+      "created_at": "2026-02-27T16:15:08.311305Z",
+      "updated_at": "2026-02-27T16:15:08.311305Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-diverse-beam",
+      "max_version": "2.3.0",
+      "downloads": 15,
+      "created_at": "2026-07-27T16:55:35.892156Z",
+      "updated_at": "2026-07-27T16:55:35.892156Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-domain-expansion",
+      "max_version": "2.3.0",
+      "downloads": 3058,
+      "created_at": "2026-02-16T14:05:00.187862Z",
+      "updated_at": "2026-09-26T17:01:23.791231Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-domain-expansion-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-27T00:19:27.742275Z",
+      "updated_at": "2026-09-27T00:19:27.742275Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-economy-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T17:01:35.865671Z",
+      "updated_at": "2026-09-26T17:01:35.865671Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-embed-core",
+      "max_version": "2.4.0",
+      "downloads": 27,
+      "created_at": "2026-09-26T17:24:11.719725Z",
+      "updated_at": "2026-09-28T21:51:24.768240Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-entropy-ann",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T17:35:25.160695Z",
+      "updated_at": "2026-09-26T17:35:25.160695Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-exotic-wasm",
+      "max_version": "2.3.0",
+      "downloads": 30,
+      "created_at": "2026-03-25T15:10:42.997334Z",
+      "updated_at": "2026-09-26T17:35:50.928949Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-filter",
+      "max_version": "2.3.0",
+      "downloads": 1507,
+      "created_at": "2025-11-26T16:07:58.101051Z",
+      "updated_at": "2026-09-23T18:09:40.128675Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-fpga-transformer",
+      "max_version": "0.1.0",
+      "downloads": 26,
+      "created_at": "2026-02-15T06:34:57.462700Z",
+      "updated_at": "2026-02-15T06:34:57.462700Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-fpga-transformer-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T17:47:22.120666Z",
+      "updated_at": "2026-09-26T17:47:22.120666Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-gnn",
+      "max_version": "2.3.0",
+      "downloads": 21132,
+      "created_at": "2025-11-26T17:26:24.620540Z",
+      "updated_at": "2026-09-26T15:07:00.996883Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-gnn-node",
+      "max_version": "2.3.0",
+      "downloads": 141,
+      "created_at": "2025-11-26T17:45:32.674673Z",
+      "updated_at": "2026-09-26T17:47:35.937350Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-gnn-rerank",
+      "max_version": "2.3.0",
+      "downloads": 30,
+      "created_at": "2026-06-18T00:21:09.444998Z",
+      "updated_at": "2026-09-26T17:47:50.099262Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-gnn-wasm",
+      "max_version": "2.3.0",
+      "downloads": 105,
+      "created_at": "2025-11-26T17:43:35.349710Z",
+      "updated_at": "2026-09-26T17:48:04.490759Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph",
+      "max_version": "2.3.2",
+      "downloads": 8212,
+      "created_at": "2025-11-26T17:28:32.235611Z",
+      "updated_at": "2026-09-26T23:02:23.490738Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph-condense",
+      "max_version": "2.3.0",
+      "downloads": 12,
+      "created_at": "2026-09-26T17:59:15.430884Z",
+      "updated_at": "2026-09-26T17:59:15.430884Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph-condense-wasm",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T18:10:31.270692Z",
+      "updated_at": "2026-09-26T18:10:31.270692Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph-node",
+      "max_version": "2.3.0",
+      "downloads": 295,
+      "created_at": "2025-11-26T18:02:20.908135Z",
+      "updated_at": "2026-09-27T00:08:16.452162Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph-transformer",
+      "max_version": "2.3.0",
+      "downloads": 37,
+      "created_at": "2026-02-25T13:31:25.030136Z",
+      "updated_at": "2026-09-26T18:10:53.856125Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph-transformer-node",
+      "max_version": "2.3.0",
+      "downloads": 31,
+      "created_at": "2026-03-25T15:11:55.931693Z",
+      "updated_at": "2026-09-26T18:11:02.926923Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph-transformer-wasm",
+      "max_version": "2.3.0",
+      "downloads": 36,
+      "created_at": "2026-02-25T13:31:20.070487Z",
+      "updated_at": "2026-09-26T18:11:09.842821Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-graph-wasm",
+      "max_version": "2.3.0",
+      "downloads": 136,
+      "created_at": "2025-11-26T17:47:16.594878Z",
+      "updated_at": "2026-09-26T18:11:18.683711Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-hnsw-repair",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T18:11:25.033805Z",
+      "updated_at": "2026-09-26T18:11:25.033805Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-hybrid",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T18:22:31.128183Z",
+      "updated_at": "2026-09-26T18:22:31.128183Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-hyperbolic-hnsw",
+      "max_version": "0.1.0",
+      "downloads": 51605,
+      "created_at": "2026-01-23T02:19:38.851500Z",
+      "updated_at": "2026-01-23T02:19:38.851500Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-kge",
+      "max_version": "2.4.0",
+      "downloads": 28,
+      "created_at": "2026-09-26T18:33:42.886502Z",
+      "updated_at": "2026-09-28T21:52:00.064727Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-kge-ffi",
+      "max_version": "2.4.0",
+      "downloads": 19,
+      "created_at": "2026-09-26T18:45:01.857798Z",
+      "updated_at": "2026-09-28T21:52:14.375026Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-kge-wasm",
+      "max_version": "2.4.0",
+      "downloads": 19,
+      "created_at": "2026-09-26T18:56:21.717364Z",
+      "updated_at": "2026-09-28T21:52:34.668453Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-learning-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T19:07:34.546830Z",
+      "updated_at": "2026-09-26T19:07:34.546830Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-lsm-ann",
+      "max_version": "2.3.0",
+      "downloads": 30,
+      "created_at": "2026-06-21T23:03:25.254580Z",
+      "updated_at": "2026-09-26T19:07:47.083931Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-math",
+      "max_version": "2.3.0",
+      "downloads": 1909,
+      "created_at": "2026-01-11T16:52:52.810851Z",
+      "updated_at": "2026-09-26T15:06:02.981259Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-math-wasm",
+      "max_version": "2.3.0",
+      "downloads": 33,
+      "created_at": "2026-01-11T16:53:59.985802Z",
+      "updated_at": "2026-09-26T19:08:00.004024Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-matryoshka",
+      "max_version": "2.3.0",
+      "downloads": 28,
+      "created_at": "2026-06-21T23:03:43.525649Z",
+      "updated_at": "2026-09-26T19:08:09.620641Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-maxsim",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T19:19:22.223027Z",
+      "updated_at": "2026-09-26T19:19:22.223027Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-memopt",
+      "max_version": "0.5.0",
+      "downloads": 176,
+      "created_at": "2026-01-24T18:06:39.086744Z",
+      "updated_at": "2026-01-29T03:18:19.943297Z",
+      "repository": "https://github.com/ruvnet/optimizer"
+    },
+    {
+      "id": "ruvector-memory-admission",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T19:30:34.448691Z",
+      "updated_at": "2026-09-26T19:30:34.448691Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-metrics",
+      "max_version": "2.3.0",
+      "downloads": 809,
+      "created_at": "2025-11-26T16:02:05.692720Z",
+      "updated_at": "2026-09-26T19:30:48.163604Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-mincut",
+      "max_version": "2.3.1",
+      "downloads": 167624,
+      "created_at": "2025-12-25T16:45:45.455884Z",
+      "updated_at": "2026-09-26T15:10:46.005325Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-mincut-gated-transformer",
+      "max_version": "0.1.0",
+      "downloads": 23824,
+      "created_at": "2025-12-29T19:13:00.284285Z",
+      "updated_at": "2025-12-29T19:13:00.284285Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-mincut-gated-transformer-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T19:42:00.179699Z",
+      "updated_at": "2026-09-26T19:42:00.179699Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-mincut-node",
+      "max_version": "2.3.0",
+      "downloads": 71,
+      "created_at": "2025-12-29T19:14:31.542441Z",
+      "updated_at": "2026-09-16T17:21:59.467081Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-mincut-wasm",
+      "max_version": "2.3.0",
+      "downloads": 70,
+      "created_at": "2025-12-29T19:14:07.300937Z",
+      "updated_at": "2026-09-16T17:22:24.831761Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-namespace-merge",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T19:43:02.169Z",
+      "updated_at": "2026-09-26T19:43:02.169Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-nervous-system",
+      "max_version": "2.3.0",
+      "downloads": 1367,
+      "created_at": "2025-12-29T19:13:17.291303Z",
+      "updated_at": "2026-09-26T19:43:59.097158Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-nervous-system-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-27T00:30:41.057481Z",
+      "updated_at": "2026-09-27T00:30:41.057481Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-node",
+      "max_version": "2.3.0",
+      "downloads": 142,
+      "created_at": "2025-11-20T21:25:58.889724Z",
+      "updated_at": "2026-09-27T00:08:05.290680Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-onnx-embeddings",
+      "max_version": "0.1.0",
+      "downloads": 513,
+      "created_at": "2025-12-31T03:36:55.829655Z",
+      "updated_at": "2025-12-31T03:36:55.829655Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-onnx-embeddings-wasm",
+      "max_version": "0.1.2",
+      "downloads": 67,
+      "created_at": "2025-12-31T04:01:11.065089Z",
+      "updated_at": "2025-12-31T05:02:11.903698Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-perception",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T20:06:20.569348Z",
+      "updated_at": "2026-09-26T20:06:20.569348Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-postgres",
+      "max_version": "2.0.6",
+      "downloads": 459,
+      "created_at": "2025-12-03T04:03:30.122311Z",
+      "updated_at": "2026-07-28T04:07:18.053872Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-pq-search",
+      "max_version": "2.3.0",
+      "downloads": 29,
+      "created_at": "2026-06-21T23:05:19.127681Z",
+      "updated_at": "2026-09-26T20:06:32.737428Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-profiler",
+      "max_version": "2.3.0",
+      "downloads": 65,
+      "created_at": "2026-02-20T18:43:54.975850Z",
+      "updated_at": "2026-09-26T20:06:37.223622Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-proof-gate",
+      "max_version": "0.1.0",
+      "downloads": 25,
+      "created_at": "2026-06-18T00:21:29.106477Z",
+      "updated_at": "2026-06-18T00:21:29.106477Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-query-cache",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T20:17:58.798637Z",
+      "updated_at": "2026-09-26T20:17:58.798637Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-rabitq",
+      "max_version": "2.3.0",
+      "downloads": 500,
+      "created_at": "2026-04-24T14:19:11.793466Z",
+      "updated_at": "2026-09-26T20:18:09.990516Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-rabitq-wasm",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T20:29:21.959411Z",
+      "updated_at": "2026-09-26T20:29:21.959411Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-raft",
+      "max_version": "2.3.0",
+      "downloads": 3461,
+      "created_at": "2025-11-26T16:09:29.770375Z",
+      "updated_at": "2026-09-26T20:29:33.983005Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-rairs",
+      "max_version": "0.1.0",
+      "downloads": 20,
+      "created_at": "2026-05-12T13:48:05.023783Z",
+      "updated_at": "2026-05-12T13:48:05.023783Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-recall-bounded",
+      "max_version": "2.3.0",
+      "downloads": 14,
+      "created_at": "2026-07-27T16:57:07.001976Z",
+      "updated_at": "2026-07-27T16:57:07.001976Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-replication",
+      "max_version": "2.3.0",
+      "downloads": 2257,
+      "created_at": "2025-11-26T16:26:35.859724Z",
+      "updated_at": "2026-09-26T20:29:43.842891Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-retrieval-receipt",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T20:40:57.068948Z",
+      "updated_at": "2026-09-26T20:40:57.068948Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-robotics",
+      "max_version": "0.1.0",
+      "downloads": 30,
+      "created_at": "2026-02-27T15:47:00.993588Z",
+      "updated_at": "2026-02-27T15:47:00.993588Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-router-cli",
+      "max_version": "2.3.0",
+      "downloads": 177,
+      "created_at": "2025-11-21T15:11:08.415724Z",
+      "updated_at": "2026-09-26T20:41:10.202552Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-router-core",
+      "max_version": "2.3.0",
+      "downloads": 1469,
+      "created_at": "2025-11-21T15:07:32.815511Z",
+      "updated_at": "2026-09-26T17:01:46.328712Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-router-ffi",
+      "max_version": "2.3.0",
+      "downloads": 345,
+      "created_at": "2025-11-21T15:11:19.308136Z",
+      "updated_at": "2026-09-26T20:41:21.201573Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-router-wasm",
+      "max_version": "2.3.0",
+      "downloads": 183,
+      "created_at": "2025-11-21T15:11:25.153696Z",
+      "updated_at": "2026-09-26T20:41:31.403015Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-rulake",
+      "max_version": "2.3.0",
+      "downloads": 31,
+      "created_at": "2026-04-24T14:19:23.122235Z",
+      "updated_at": "2026-09-26T20:41:41.521773Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-scipix",
+      "max_version": "2.3.0",
+      "downloads": 219,
+      "created_at": "2025-11-29T22:33:37.834308Z",
+      "updated_at": "2026-09-26T20:42:09.314469Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-security",
+      "max_version": "0.1.0",
+      "downloads": 52,
+      "created_at": "2026-01-08T03:54:25.241720Z",
+      "updated_at": "2026-01-08T03:54:25.241720Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-server",
+      "max_version": "2.3.0",
+      "downloads": 404,
+      "created_at": "2025-11-26T17:30:03.701448Z",
+      "updated_at": "2026-09-26T20:42:27.869517Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-snapshot",
+      "max_version": "2.3.0",
+      "downloads": 698,
+      "created_at": "2025-11-26T16:08:52.163831Z",
+      "updated_at": "2026-09-26T20:42:48.917745Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-solver",
+      "max_version": "2.3.0",
+      "downloads": 61625,
+      "created_at": "2026-02-20T18:33:03.859929Z",
+      "updated_at": "2026-09-26T15:42:05.524319Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-solver-node",
+      "max_version": "2.3.0",
+      "downloads": 71,
+      "created_at": "2026-02-20T18:33:41.211863Z",
+      "updated_at": "2026-09-26T20:42:55.793932Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-solver-wasm",
+      "max_version": "2.3.0",
+      "downloads": 67,
+      "created_at": "2026-02-20T18:33:35.472235Z",
+      "updated_at": "2026-09-26T20:43:02.738282Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-sona",
+      "max_version": "0.2.1",
+      "downloads": 53843,
+      "created_at": "2025-12-03T05:32:24.228425Z",
+      "updated_at": "2026-06-27T16:58:24.105289Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-spann",
+      "max_version": "0.1.0",
+      "downloads": 21,
+      "created_at": "2026-06-25T20:16:17.636688Z",
+      "updated_at": "2026-06-25T20:16:17.636688Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-sparse-inference",
+      "max_version": "2.3.0",
+      "downloads": 300,
+      "created_at": "2026-01-05T04:40:00.444907Z",
+      "updated_at": "2026-09-26T20:43:19.561541Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-sparsifier",
+      "max_version": "2.3.0",
+      "downloads": 131,
+      "created_at": "2026-03-20T14:38:12.969449Z",
+      "updated_at": "2026-09-26T15:42:15.950454Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-sparsifier-wasm",
+      "max_version": "2.3.0",
+      "downloads": 32,
+      "created_at": "2026-03-20T14:38:22.286883Z",
+      "updated_at": "2026-09-26T20:43:26.021906Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-speculative-ann",
+      "max_version": "2.3.0",
+      "downloads": 19,
+      "created_at": "2026-07-27T16:54:57.141876Z",
+      "updated_at": "2026-07-27T16:54:57.141876Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-staged-workspace",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T20:43:31.302309Z",
+      "updated_at": "2026-09-26T20:43:31.302309Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-streaming-qng",
+      "max_version": "2.3.0",
+      "downloads": 8,
+      "created_at": "2026-09-26T20:54:38.497220Z",
+      "updated_at": "2026-09-26T20:54:38.497220Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-temporal-coherence",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T21:05:52.740093Z",
+      "updated_at": "2026-09-26T21:05:52.740093Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-temporal-tensor",
+      "max_version": "2.3.0",
+      "downloads": 57139,
+      "created_at": "2026-02-08T16:44:30.952913Z",
+      "updated_at": "2026-09-26T21:06:05.036611Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-temporal-tensor-wasm",
+      "max_version": "2.3.0",
+      "downloads": 8,
+      "created_at": "2026-09-26T21:17:13.557643Z",
+      "updated_at": "2026-09-26T21:17:13.557643Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-timesfm",
+      "max_version": "2.2.4",
+      "downloads": 20,
+      "created_at": "2026-06-27T15:04:26.376390Z",
+      "updated_at": "2026-06-27T15:04:26.376390Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-tiny-dancer-core",
+      "max_version": "2.3.0",
+      "downloads": 892,
+      "created_at": "2025-11-21T21:42:52.233774Z",
+      "updated_at": "2026-09-26T14:30:01.276780Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-tiny-dancer-node",
+      "max_version": "2.3.0",
+      "downloads": 169,
+      "created_at": "2025-11-21T21:48:09.210296Z",
+      "updated_at": "2026-09-26T21:17:26.603194Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-tiny-dancer-wasm",
+      "max_version": "2.3.0",
+      "downloads": 160,
+      "created_at": "2025-11-21T21:45:36.692432Z",
+      "updated_at": "2026-09-26T21:17:36.920957Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-turboquant",
+      "max_version": "2.3.0",
+      "downloads": 2107,
+      "created_at": "2026-09-26T21:28:47.983923Z",
+      "updated_at": "2026-09-26T21:28:47.983923Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-turbovec",
+      "max_version": "2.3.0",
+      "downloads": 19,
+      "created_at": "2026-07-27T18:06:58.774197Z",
+      "updated_at": "2026-07-27T18:06:58.774197Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-typesafe-core",
+      "max_version": "2.4.0",
+      "downloads": 47,
+      "created_at": "2026-09-26T17:12:57.285062Z",
+      "updated_at": "2026-09-28T21:51:12.868078Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-typesafe-ffi",
+      "max_version": "2.4.0",
+      "downloads": 18,
+      "created_at": "2026-09-26T21:40:05.252374Z",
+      "updated_at": "2026-09-28T21:51:38.999736Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-typesafe-wasm",
+      "max_version": "2.4.0",
+      "downloads": 19,
+      "created_at": "2026-09-26T21:51:19.764332Z",
+      "updated_at": "2026-09-28T21:51:51.837608Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-verified",
+      "max_version": "0.1.1",
+      "downloads": 267,
+      "created_at": "2026-02-24T23:19:58.040989Z",
+      "updated_at": "2026-02-25T03:22:37.603117Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-verified-wasm",
+      "max_version": "0.1.1",
+      "downloads": 40,
+      "created_at": "2026-02-24T23:22:16.224658Z",
+      "updated_at": "2026-02-25T03:22:45.607856Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvector-wasm",
+      "max_version": "2.3.0",
+      "downloads": 155,
+      "created_at": "2025-11-20T22:28:39.312816Z",
+      "updated_at": "2026-09-26T21:51:29.540036Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruview-unified",
+      "max_version": "0.3.1",
+      "downloads": 17,
+      "created_at": "2026-07-31T03:57:45.810309Z",
+      "updated_at": "2026-07-31T03:57:45.810309Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "ruvix-aarch64",
+      "max_version": "0.1.0",
+      "downloads": 22,
+      "created_at": "2026-03-14T18:42:13.663078Z",
+      "updated_at": "2026-03-14T18:42:13.663078Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-bcm2711",
+      "max_version": "0.1.0",
+      "downloads": 118,
+      "created_at": "2026-03-14T19:23:33.689878Z",
+      "updated_at": "2026-03-14T19:23:33.689878Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-boot",
+      "max_version": "0.1.0",
+      "downloads": 25,
+      "created_at": "2026-03-14T15:42:51.749072Z",
+      "updated_at": "2026-03-14T15:42:51.749072Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-cap",
+      "max_version": "0.1.0",
+      "downloads": 641,
+      "created_at": "2026-03-14T15:12:56.659660Z",
+      "updated_at": "2026-03-14T15:12:56.659660Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-cli",
+      "max_version": "0.1.0",
+      "downloads": 24,
+      "created_at": "2026-03-14T19:45:28.827865Z",
+      "updated_at": "2026-03-14T19:45:28.827865Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-dma",
+      "max_version": "0.1.0",
+      "downloads": 23,
+      "created_at": "2026-03-14T19:13:15.716243Z",
+      "updated_at": "2026-03-14T19:13:15.716243Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-drivers",
+      "max_version": "0.1.0",
+      "downloads": 202,
+      "created_at": "2026-03-14T18:52:33.164902Z",
+      "updated_at": "2026-03-14T18:52:33.164902Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-dtb",
+      "max_version": "0.1.0",
+      "downloads": 116,
+      "created_at": "2026-03-14T18:25:02.363612Z",
+      "updated_at": "2026-03-14T18:25:02.363612Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-fs",
+      "max_version": "0.1.0",
+      "downloads": 24,
+      "created_at": "2026-03-14T18:25:14.235790Z",
+      "updated_at": "2026-03-14T18:25:14.235790Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-hal",
+      "max_version": "0.1.0",
+      "downloads": 503,
+      "created_at": "2026-03-14T18:24:42.144083Z",
+      "updated_at": "2026-03-14T18:24:42.144083Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-net",
+      "max_version": "0.1.0",
+      "downloads": 24,
+      "created_at": "2026-03-14T18:25:04.966014Z",
+      "updated_at": "2026-03-14T18:25:04.966014Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-nucleus",
+      "max_version": "0.1.0",
+      "downloads": 121,
+      "created_at": "2026-03-14T15:53:29.521491Z",
+      "updated_at": "2026-03-14T15:53:29.521491Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-physmem",
+      "max_version": "0.1.0",
+      "downloads": 23,
+      "created_at": "2026-03-14T18:24:59.653986Z",
+      "updated_at": "2026-03-14T18:24:59.653986Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-proof",
+      "max_version": "0.1.0",
+      "downloads": 229,
+      "created_at": "2026-03-14T15:13:23.150490Z",
+      "updated_at": "2026-03-14T15:13:23.150490Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-qemu-swarm",
+      "max_version": "0.1.0",
+      "downloads": 24,
+      "created_at": "2026-03-14T19:55:56.252566Z",
+      "updated_at": "2026-03-14T19:55:56.252566Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-queue",
+      "max_version": "0.1.0",
+      "downloads": 295,
+      "created_at": "2026-03-14T15:13:18.157917Z",
+      "updated_at": "2026-03-14T15:13:18.157917Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-region",
+      "max_version": "0.1.0",
+      "downloads": 454,
+      "created_at": "2026-03-14T15:13:00.897326Z",
+      "updated_at": "2026-03-14T15:13:00.897326Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-rpi-boot",
+      "max_version": "0.1.0",
+      "downloads": 23,
+      "created_at": "2026-03-14T19:33:53.769586Z",
+      "updated_at": "2026-03-14T19:33:53.769586Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-sched",
+      "max_version": "0.1.0",
+      "downloads": 27,
+      "created_at": "2026-03-14T15:21:46.875662Z",
+      "updated_at": "2026-03-14T15:21:46.875662Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-shell",
+      "max_version": "0.1.0",
+      "downloads": 24,
+      "created_at": "2026-03-14T18:31:35.637210Z",
+      "updated_at": "2026-03-14T18:31:35.637210Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-smp",
+      "max_version": "0.1.0",
+      "downloads": 25,
+      "created_at": "2026-03-14T19:02:57.214810Z",
+      "updated_at": "2026-03-14T19:02:57.214810Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-types",
+      "max_version": "0.1.0",
+      "downloads": 1667,
+      "created_at": "2026-03-14T15:11:42.796310Z",
+      "updated_at": "2026-03-14T15:11:42.796310Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvix-vecgraph",
+      "max_version": "0.1.0",
+      "downloads": 27,
+      "created_at": "2026-03-14T15:32:15.579478Z",
+      "updated_at": "2026-03-14T15:32:15.579478Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvllm",
+      "max_version": "2.4.0",
+      "downloads": 52798,
+      "created_at": "2025-12-12T20:04:08.686578Z",
+      "updated_at": "2026-09-28T21:52:47.989833Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvllm-cli",
+      "max_version": "2.4.0",
+      "downloads": 88,
+      "created_at": "2026-05-05T12:34:10.471576Z",
+      "updated_at": "2026-09-28T21:53:24.319520Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvllm-esp32",
+      "max_version": "0.3.2",
+      "downloads": 130,
+      "created_at": "2025-12-26T01:49:06.546162Z",
+      "updated_at": "2025-12-26T21:54:08.027652Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvllm-wasm",
+      "max_version": "2.0.2",
+      "downloads": 40,
+      "created_at": "2026-01-22T05:23:36.203320Z",
+      "updated_at": "2026-09-26T21:51:41.117964Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "ruvllm_retrieval_diffusion",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T21:51:50.244955Z",
+      "updated_at": "2026-09-26T21:51:50.244955Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "ruvllm_sparse_attention",
+      "max_version": "0.1.1",
+      "downloads": 38,
+      "created_at": "2026-05-07T14:10:34.984544Z",
+      "updated_at": "2026-05-07T14:50:57.859670Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-a2a",
+      "max_version": "0.1.0",
+      "downloads": 13,
+      "created_at": "2026-09-26T22:36:59.183882Z",
+      "updated_at": "2026-09-26T22:36:59.183882Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-acp",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T23:10:50.484755Z",
+      "updated_at": "2026-09-26T23:10:50.484755Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-backends",
+      "max_version": "0.1.0",
+      "downloads": 22,
+      "created_at": "2026-09-26T22:14:22.324377Z",
+      "updated_at": "2026-09-26T22:14:22.324377Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-cli",
+      "max_version": "0.1.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T23:11:12.319312Z",
+      "updated_at": "2026-09-26T23:11:12.319312Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-core",
+      "max_version": "0.1.0",
+      "downloads": 23,
+      "created_at": "2026-09-26T22:03:03.028403Z",
+      "updated_at": "2026-09-26T22:03:03.028403Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-mcp",
+      "max_version": "0.1.0",
+      "downloads": 9,
+      "created_at": "2026-09-26T23:22:30.729508Z",
+      "updated_at": "2026-09-26T23:22:30.729508Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-middleware",
+      "max_version": "0.1.0",
+      "downloads": 20,
+      "created_at": "2026-09-26T22:25:38.009829Z",
+      "updated_at": "2026-09-26T22:25:38.009829Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-subagents",
+      "max_version": "0.1.0",
+      "downloads": 15,
+      "created_at": "2026-09-26T22:59:29.283812Z",
+      "updated_at": "2026-09-26T22:59:29.283812Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-tools",
+      "max_version": "0.1.0",
+      "downloads": 19,
+      "created_at": "2026-09-26T22:48:11.849481Z",
+      "updated_at": "2026-09-26T22:48:11.849481Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvagent-wasm",
+      "max_version": "0.2.0",
+      "downloads": 9,
+      "created_at": "2026-09-26T23:33:40.274791Z",
+      "updated_at": "2026-09-26T23:33:40.274791Z",
+      "repository": "https://github.com/ruvnet/RuVector"
+    },
+    {
+      "id": "rvcsi-adapter-file",
+      "max_version": "0.3.1",
+      "downloads": 244,
+      "created_at": "2026-05-13T02:50:38.545837Z",
+      "updated_at": "2026-05-13T03:24:26.679171Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-adapter-nexmon",
+      "max_version": "0.3.1",
+      "downloads": 289,
+      "created_at": "2026-05-13T02:50:42.250735Z",
+      "updated_at": "2026-05-13T03:24:31.786880Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-cli",
+      "max_version": "0.3.1",
+      "downloads": 68,
+      "created_at": "2026-05-13T03:22:33.084897Z",
+      "updated_at": "2026-05-13T03:24:53.782531Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-core",
+      "max_version": "0.3.1",
+      "downloads": 535,
+      "created_at": "2026-05-13T02:50:14.801133Z",
+      "updated_at": "2026-05-13T03:24:15.682155Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-dsp",
+      "max_version": "0.3.1",
+      "downloads": 244,
+      "created_at": "2026-05-13T02:50:32.060192Z",
+      "updated_at": "2026-05-13T03:24:19.809309Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-events",
+      "max_version": "0.3.1",
+      "downloads": 241,
+      "created_at": "2026-05-13T02:50:35.060871Z",
+      "updated_at": "2026-05-13T03:24:23.046142Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-node",
+      "max_version": "0.3.1",
+      "downloads": 39,
+      "created_at": "2026-05-13T03:12:37.445513Z",
+      "updated_at": "2026-05-13T03:24:47.773015Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-runtime",
+      "max_version": "0.3.1",
+      "downloads": 189,
+      "created_at": "2026-05-13T03:02:40.253098Z",
+      "updated_at": "2026-05-13T03:24:41.679996Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvcsi-ruvector",
+      "max_version": "0.3.1",
+      "downloads": 243,
+      "created_at": "2026-05-13T02:53:35.570866Z",
+      "updated_at": "2026-05-13T03:24:35.637216Z",
+      "repository": "https://github.com/ruvnet/rvcsi"
+    },
+    {
+      "id": "rvdna",
+      "max_version": "0.3.0",
+      "downloads": 205,
+      "created_at": "2026-02-12T15:40:33.562428Z",
+      "updated_at": "2026-02-22T16:01:19.156911Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-cli",
+      "max_version": "0.1.0",
+      "downloads": 112,
+      "created_at": "2026-02-14T17:51:45.317702Z",
+      "updated_at": "2026-02-14T17:51:45.317702Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-crypto",
+      "max_version": "0.2.0",
+      "downloads": 2676,
+      "created_at": "2026-02-14T16:41:23.085749Z",
+      "updated_at": "2026-02-16T14:04:39.413494Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-ebpf",
+      "max_version": "0.1.0",
+      "downloads": 22,
+      "created_at": "2026-02-14T17:12:19.061485Z",
+      "updated_at": "2026-02-14T17:12:19.061485Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-federation",
+      "max_version": "0.1.0",
+      "downloads": 37,
+      "created_at": "2026-02-27T15:07:37.695796Z",
+      "updated_at": "2026-02-27T15:07:37.695796Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-forge-core",
+      "max_version": "2.3.0",
+      "downloads": 13,
+      "created_at": "2026-09-26T23:44:56.570850Z",
+      "updated_at": "2026-09-26T23:44:56.570850Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-import",
+      "max_version": "0.1.0",
+      "downloads": 27,
+      "created_at": "2026-02-14T17:42:27.834964Z",
+      "updated_at": "2026-02-14T17:42:27.834964Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-index",
+      "max_version": "0.2.0",
+      "downloads": 937,
+      "created_at": "2026-02-14T16:36:58.953200Z",
+      "updated_at": "2026-06-11T23:43:57.079029Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-kernel",
+      "max_version": "0.1.0",
+      "downloads": 24,
+      "created_at": "2026-02-14T17:02:13.572636Z",
+      "updated_at": "2026-02-14T17:02:13.572636Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-launch",
+      "max_version": "0.1.0",
+      "downloads": 132,
+      "created_at": "2026-02-14T17:22:21.569876Z",
+      "updated_at": "2026-02-14T17:22:21.569876Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-manifest",
+      "max_version": "0.1.0",
+      "downloads": 219,
+      "created_at": "2026-02-14T16:36:45.680331Z",
+      "updated_at": "2026-02-14T16:36:45.680331Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-quant",
+      "max_version": "0.2.0",
+      "downloads": 931,
+      "created_at": "2026-02-14T16:36:48.959791Z",
+      "updated_at": "2026-06-11T23:44:11.684146Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-runtime",
+      "max_version": "0.3.2",
+      "downloads": 3709,
+      "created_at": "2026-02-14T16:52:52.040198Z",
+      "updated_at": "2026-07-28T04:53:19.103077Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-server",
+      "max_version": "0.1.0",
+      "downloads": 136,
+      "created_at": "2026-02-14T17:32:24.815790Z",
+      "updated_at": "2026-02-14T17:32:24.815790Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-types",
+      "max_version": "0.2.2",
+      "downloads": 8856,
+      "created_at": "2026-02-14T16:36:30.106122Z",
+      "updated_at": "2026-09-26T23:01:49.916149Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvf-wire",
+      "max_version": "0.1.1",
+      "downloads": 1315,
+      "created_at": "2026-02-14T16:36:38.451276Z",
+      "updated_at": "2026-09-26T23:02:01.984459Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvforge-registry",
+      "max_version": "2.3.0",
+      "downloads": 10,
+      "created_at": "2026-09-26T23:56:10.729949Z",
+      "updated_at": "2026-09-26T23:56:10.729949Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvlite",
+      "max_version": "0.3.1",
+      "downloads": 151,
+      "created_at": "2025-12-29T19:15:00.397018Z",
+      "updated_at": "2026-03-25T15:04:26.568125Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "rvm-anchor",
+      "max_version": "0.1.1",
+      "downloads": 15,
+      "created_at": "2026-08-23T16:51:21.431632Z",
+      "updated_at": "2026-08-23T16:51:21.431632Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-boot",
+      "max_version": "0.1.1",
+      "downloads": 18,
+      "created_at": "2026-08-23T18:11:21.961070Z",
+      "updated_at": "2026-08-23T18:11:21.961070Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-cap",
+      "max_version": "0.1.1",
+      "downloads": 134,
+      "created_at": "2026-08-23T16:47:40.945149Z",
+      "updated_at": "2026-08-23T16:47:40.945149Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-coherence",
+      "max_version": "0.1.1",
+      "downloads": 15,
+      "created_at": "2026-08-23T18:21:23.447660Z",
+      "updated_at": "2026-08-23T18:21:23.447660Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-context",
+      "max_version": "0.1.1",
+      "downloads": 31,
+      "created_at": "2026-08-23T17:41:23.528346Z",
+      "updated_at": "2026-08-23T17:41:23.528346Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-hal",
+      "max_version": "0.1.1",
+      "downloads": 29,
+      "created_at": "2026-08-23T16:47:43.488215Z",
+      "updated_at": "2026-08-23T16:47:43.488215Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-host",
+      "max_version": "0.1.1",
+      "downloads": 31,
+      "created_at": "2026-08-23T18:31:22.351640Z",
+      "updated_at": "2026-08-23T18:31:22.351640Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-launch",
+      "max_version": "0.1.1",
+      "downloads": 15,
+      "created_at": "2026-08-23T18:41:24.326212Z",
+      "updated_at": "2026-08-23T18:41:24.326212Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-memory",
+      "max_version": "0.1.1",
+      "downloads": 33,
+      "created_at": "2026-08-23T16:47:46.509509Z",
+      "updated_at": "2026-08-23T16:47:46.509509Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-partition",
+      "max_version": "0.1.1",
+      "downloads": 91,
+      "created_at": "2026-08-23T17:01:21.653532Z",
+      "updated_at": "2026-08-23T17:01:21.653532Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-proof",
+      "max_version": "0.1.1",
+      "downloads": 43,
+      "created_at": "2026-08-23T17:11:23.491395Z",
+      "updated_at": "2026-08-23T17:11:23.491395Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-rvf",
+      "max_version": "0.1.1",
+      "downloads": 57,
+      "created_at": "2026-08-23T17:21:22.966435Z",
+      "updated_at": "2026-08-23T17:21:22.966435Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-sched",
+      "max_version": "0.1.1",
+      "downloads": 43,
+      "created_at": "2026-08-23T17:51:23.339732Z",
+      "updated_at": "2026-08-23T17:51:23.339732Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-security",
+      "max_version": "0.1.1",
+      "downloads": 19,
+      "created_at": "2026-08-23T17:31:23.230300Z",
+      "updated_at": "2026-08-23T17:31:23.230300Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-types",
+      "max_version": "0.1.1",
+      "downloads": 184,
+      "created_at": "2026-08-23T16:47:29.507344Z",
+      "updated_at": "2026-08-23T16:47:29.507344Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-wasm",
+      "max_version": "0.1.1",
+      "downloads": 45,
+      "created_at": "2026-08-23T18:01:23.281454Z",
+      "updated_at": "2026-08-23T18:01:23.281454Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "rvm-witness",
+      "max_version": "0.1.1",
+      "downloads": 151,
+      "created_at": "2026-08-23T16:47:50.394560Z",
+      "updated_at": "2026-08-23T16:47:50.394560Z",
+      "repository": "https://github.com/ruvnet/rvm"
+    },
+    {
+      "id": "sevensense-analysis",
+      "max_version": "0.1.0",
+      "downloads": 264,
+      "created_at": "2026-01-16T13:41:29.166184Z",
+      "updated_at": "2026-01-16T13:41:29.166184Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "sevensense-api",
+      "max_version": "0.1.0",
+      "downloads": 24,
+      "created_at": "2026-01-16T14:01:17.632202Z",
+      "updated_at": "2026-01-16T14:01:17.632202Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "sevensense-audio",
+      "max_version": "0.1.0",
+      "downloads": 261,
+      "created_at": "2026-01-16T13:39:27.839853Z",
+      "updated_at": "2026-01-16T13:39:27.839853Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "sevensense-core",
+      "max_version": "0.1.0",
+      "downloads": 789,
+      "created_at": "2026-01-16T13:38:21.987385Z",
+      "updated_at": "2026-01-16T13:38:21.987385Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "sevensense-embedding",
+      "max_version": "0.1.0",
+      "downloads": 143,
+      "created_at": "2026-01-16T13:39:57.792621Z",
+      "updated_at": "2026-01-16T13:39:57.792621Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "sevensense-interpretation",
+      "max_version": "0.1.0",
+      "downloads": 143,
+      "created_at": "2026-01-16T13:51:28.965868Z",
+      "updated_at": "2026-01-16T13:51:28.965868Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "sevensense-learning",
+      "max_version": "0.1.0",
+      "downloads": 145,
+      "created_at": "2026-01-16T13:40:06.201280Z",
+      "updated_at": "2026-01-16T13:40:06.201280Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "sevensense-vector",
+      "max_version": "0.1.0",
+      "downloads": 488,
+      "created_at": "2026-01-16T13:39:36.465491Z",
+      "updated_at": "2026-01-16T13:39:36.465491Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "strange-loop",
+      "max_version": "0.3.0",
+      "downloads": 54763,
+      "created_at": "2025-09-23T22:02:45.910346Z",
+      "updated_at": "2025-09-25T23:19:52.035989Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "subjective-time-expansion",
+      "max_version": "0.1.2",
+      "downloads": 53581,
+      "created_at": "2025-09-26T02:37:43.589884Z",
+      "updated_at": "2025-09-26T02:53:36.483224Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "sublinear",
+      "max_version": "0.3.3",
+      "downloads": 990,
+      "created_at": "2025-09-20T03:42:57.203827Z",
+      "updated_at": "2026-05-23T07:26:21.040451Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "swe-bench-adapter",
+      "max_version": "0.2.0",
+      "downloads": 487,
+      "created_at": "2025-06-30T16:46:37.490328Z",
+      "updated_at": "2025-06-30T16:46:37.490328Z",
+      "repository": "https://github.com/ruv-fann/ruv-swarm"
+    },
+    {
+      "id": "synaptic-daa-swarm",
+      "max_version": "0.1.0",
+      "downloads": 825,
+      "created_at": "2025-07-13T13:29:30.900023Z",
+      "updated_at": "2025-07-13T13:29:30.900023Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Mesh"
+    },
+    {
+      "id": "synaptic-mesh-cli",
+      "max_version": "0.1.1",
+      "downloads": 864,
+      "created_at": "2025-07-13T13:31:00.054749Z",
+      "updated_at": "2025-07-13T15:29:28.319012Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Mesh"
+    },
+    {
+      "id": "synaptic-neural-mesh",
+      "max_version": "0.1.0",
+      "downloads": 1060,
+      "created_at": "2025-07-13T13:25:17.633192Z",
+      "updated_at": "2025-07-13T13:25:17.633192Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Mesh"
+    },
+    {
+      "id": "synaptic-neural-wasm",
+      "max_version": "0.1.0",
+      "downloads": 827,
+      "created_at": "2025-07-13T13:23:03.481210Z",
+      "updated_at": "2025-07-13T13:23:03.481210Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Mesh"
+    },
+    {
+      "id": "synaptic-qudag-core",
+      "max_version": "0.1.0",
+      "downloads": 1250,
+      "created_at": "2025-07-13T13:19:30.664908Z",
+      "updated_at": "2025-07-13T13:19:30.664908Z",
+      "repository": "https://github.com/ruvnet/Synaptic-Mesh"
+    },
+    {
+      "id": "temporal-attractor-studio",
+      "max_version": "0.1.0",
+      "downloads": 52578,
+      "created_at": "2025-09-27T14:04:08.573702Z",
+      "updated_at": "2025-09-27T14:04:08.573702Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "temporal-compare",
+      "max_version": "0.5.0",
+      "downloads": 1038,
+      "created_at": "2025-09-27T17:46:01.296088Z",
+      "updated_at": "2025-09-27T19:48:09.284082Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "temporal-lead-solver",
+      "max_version": "0.1.0",
+      "downloads": 333,
+      "created_at": "2025-09-20T03:38:13.076323Z",
+      "updated_at": "2025-09-20T03:38:13.076323Z",
+      "repository": "https://github.com/ruvnet/sublinear-time-solver"
+    },
+    {
+      "id": "temporal-neural-solver",
+      "max_version": "0.1.2",
+      "downloads": 47536,
+      "created_at": "2025-09-20T20:25:28.243441Z",
+      "updated_at": "2025-09-20T20:49:47.985581Z",
+      "repository": "https://github.com/temporal-neural-solver/tns"
+    },
+    {
+      "id": "thermorust",
+      "max_version": "0.1.0",
+      "downloads": 1143,
+      "created_at": "2026-02-27T16:15:11.766801Z",
+      "updated_at": "2026-02-27T16:15:11.766801Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "timesfm",
+      "max_version": "2.2.4",
+      "downloads": 90,
+      "created_at": "2026-06-25T13:11:28.266723Z",
+      "updated_at": "2026-06-27T15:04:00.013898Z",
+      "repository": "https://github.com/ruvnet/ruvector"
+    },
+    {
+      "id": "veritas-nexus",
+      "max_version": "0.1.0",
+      "downloads": 528,
+      "created_at": "2025-06-28T22:15:16.720198Z",
+      "updated_at": "2025-06-28T22:15:16.720198Z",
+      "repository": "https://github.com/ruv-FANN/veritas-nexus"
+    },
+    {
+      "id": "wifi-densepose-aether",
+      "max_version": "0.3.0",
+      "downloads": 16,
+      "created_at": "2026-07-31T04:02:51.430979Z",
+      "updated_at": "2026-07-31T04:02:51.430979Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-api",
+      "max_version": "0.3.0",
+      "downloads": 60,
+      "created_at": "2026-03-01T06:31:25.304263Z",
+      "updated_at": "2026-03-02T13:35:59.840938Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-bfld",
+      "max_version": "0.3.1",
+      "downloads": 244,
+      "created_at": "2026-05-25T00:27:16.438059Z",
+      "updated_at": "2026-05-29T13:28:44.806520Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-calibration",
+      "max_version": "0.3.0",
+      "downloads": 88,
+      "created_at": "2026-06-12T20:57:27.731057Z",
+      "updated_at": "2026-06-12T20:57:27.731057Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-cli",
+      "max_version": "0.3.1",
+      "downloads": 109,
+      "created_at": "2026-03-01T08:02:56.914410Z",
+      "updated_at": "2026-06-12T20:57:36.468692Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-config",
+      "max_version": "0.3.0",
+      "downloads": 59,
+      "created_at": "2026-03-01T06:31:20.298889Z",
+      "updated_at": "2026-03-02T13:34:36.009043Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-core",
+      "max_version": "0.3.2",
+      "downloads": 1069,
+      "created_at": "2026-03-01T06:31:17.753638Z",
+      "updated_at": "2026-07-26T22:15:30.202515Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-db",
+      "max_version": "0.3.0",
+      "downloads": 58,
+      "created_at": "2026-03-01T06:31:22.781873Z",
+      "updated_at": "2026-03-02T13:34:43.536470Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-desktop",
+      "max_version": "0.3.1",
+      "downloads": 17,
+      "created_at": "2026-07-31T04:12:10.345567Z",
+      "updated_at": "2026-07-31T04:12:10.345567Z",
+      "repository": null
+    },
+    {
+      "id": "wifi-densepose-engine",
+      "max_version": "0.3.1",
+      "downloads": 190,
+      "created_at": "2026-05-29T13:30:02.041926Z",
+      "updated_at": "2026-07-14T17:25:23.020059Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-geo",
+      "max_version": "0.1.0",
+      "downloads": 6548,
+      "created_at": "2026-05-29T13:28:35.453087Z",
+      "updated_at": "2026-05-29T13:28:35.453087Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-hardware",
+      "max_version": "0.3.2",
+      "downloads": 361,
+      "created_at": "2026-03-01T06:31:30.375135Z",
+      "updated_at": "2026-07-26T22:16:34.650878Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-mat",
+      "max_version": "0.3.2",
+      "downloads": 336,
+      "created_at": "2026-03-01T07:31:28.593116Z",
+      "updated_at": "2026-07-26T22:22:06.915807Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-nn",
+      "max_version": "0.3.2",
+      "downloads": 581,
+      "created_at": "2026-03-01T07:01:59.945570Z",
+      "updated_at": "2026-07-26T22:19:37.521408Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-occworld-candle",
+      "max_version": "0.3.1",
+      "downloads": 18,
+      "created_at": "2026-07-31T04:02:09.018078Z",
+      "updated_at": "2026-07-31T04:02:09.018078Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-pointcloud",
+      "max_version": "0.1.0",
+      "downloads": 17,
+      "created_at": "2026-07-31T04:00:28.409082Z",
+      "updated_at": "2026-07-31T04:00:28.409082Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-rufield",
+      "max_version": "0.3.0",
+      "downloads": 121,
+      "created_at": "2026-07-14T17:25:54.826032Z",
+      "updated_at": "2026-07-14T17:25:54.826032Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-ruvector",
+      "max_version": "0.3.3",
+      "downloads": 714,
+      "created_at": "2026-03-01T16:07:18.380902Z",
+      "updated_at": "2026-07-26T22:19:57.718799Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-sar",
+      "max_version": "0.3.1",
+      "downloads": 17,
+      "created_at": "2026-07-31T03:30:07.906763Z",
+      "updated_at": "2026-07-31T03:30:07.906763Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-sensing-server",
+      "max_version": "0.3.4",
+      "downloads": 337,
+      "created_at": "2026-03-01T07:21:13.084054Z",
+      "updated_at": "2026-07-14T17:36:50.715679Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-signal",
+      "max_version": "0.3.6",
+      "downloads": 1019,
+      "created_at": "2026-03-01T07:11:31.552739Z",
+      "updated_at": "2026-07-26T22:19:08.370150Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-train",
+      "max_version": "0.3.3",
+      "downloads": 166,
+      "created_at": "2026-03-01T07:42:49.022297Z",
+      "updated_at": "2026-07-26T22:21:04.760254Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-vitals",
+      "max_version": "0.3.3",
+      "downloads": 126,
+      "created_at": "2026-03-01T06:41:56.407510Z",
+      "updated_at": "2026-07-28T02:51:28.713924Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-wasm",
+      "max_version": "0.3.1",
+      "downloads": 83,
+      "created_at": "2026-03-01T07:52:57.394618Z",
+      "updated_at": "2026-07-26T22:22:37.829833Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-wifiscan",
+      "max_version": "0.3.2",
+      "downloads": 423,
+      "created_at": "2026-03-01T06:51:15.530386Z",
+      "updated_at": "2026-07-26T22:15:57.157963Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    },
+    {
+      "id": "wifi-densepose-worldgraph",
+      "max_version": "0.3.2",
+      "downloads": 6561,
+      "created_at": "2026-05-29T13:29:57.218437Z",
+      "updated_at": "2026-07-14T17:13:44.023505Z",
+      "repository": "https://github.com/ruvnet/worldgraph"
+    },
+    {
+      "id": "wifi-densepose-worldmodel",
+      "max_version": "0.3.1",
+      "downloads": 41,
+      "created_at": "2026-05-29T22:43:50.861014Z",
+      "updated_at": "2026-06-09T17:32:59.959560Z",
+      "repository": "https://github.com/ruvnet/wifi-densepose"
+    }
+  ]
+}

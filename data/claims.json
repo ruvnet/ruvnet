@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-07-11",
+  "verified_at": "2026-10-02",
   "scope": "Technical provenance index, not a patentability, inventorship, freedom-to-operate, or legal prior-art opinion.",
   "evidence_model": [
     {
@@ -47,7 +47,10 @@
     "Git author dates are self-asserted lineage metadata.",
     "Imported history can predate repository creation.",
     "A root commit does not prove later feature presence.",
-    "Candidate claims must retain their complete combined predicate and confidence level."
+    "Candidate claims must retain their complete combined predicate and confidence level.",
+    "Repository creation metadata does not establish the date a private repository became public.",
+    "An artifact checksum or signature establishes byte integrity or key binding, not the truth of a recorded observation.",
+    "Published release behavior is distinct from later main branch source."
   ],
   "canonical_dossier": "https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-prior-art.md"
 }
