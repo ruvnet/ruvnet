@@ -94,14 +94,14 @@ Commit search and contribution graph totals were not recounted for this update. 
 | Measure | Verified value | Evidence date |
 | --- | ---: | --- |
 | Published registry and Hugging Face artifacts | at least 908 | Mixed dates below |
-| Known npm packages listing `ruvnet` as maintainer | at least 398 | 2026-10-02 UTC |
-| npm downloads, rolling 365 days (2025-09-28 through 2026-09-27) | 83,340,503 | 2026-09-28; 385 package cohort |
-| Rust crates owned by `ruvnet` | 480 | 2026-10-02 UTC |
-| Cumulative Rust crate downloads (verified 2026-10-02) | 1,759,429 | 2026-10-02 UTC |
+| Known npm packages listing `ruvnet` as maintainer | at least 398 | 2026-10-05 UTC |
+| npm downloads, rolling 365 days (2025-10-05 through 2026-10-04) | 91,172,864 | 2026-10-05; 398 package cohort |
+| Rust crates owned by `ruvnet` | 480 | 2026-10-05 UTC |
+| Cumulative Rust crate downloads (verified 2026-10-05) | 1,774,282 | 2026-10-05 UTC |
 | Ownership verified PyPI packages | 8 | July 12, 2026; historical |
 | Hugging Face models, spaces, and datasets | 22 | July 12, 2026; historical |
 
-The current npm inventory contains **398 packages**. Download evidence retains its **2026-09-28** verification date and **385 package cohort**. The newer download refresh was unavailable; no extrapolation is applied. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
+The npm inventory and download recount cover the same **398 package cohort**, verified **2026-10-05 UTC**. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
 
 Package downloads include CI, reinstallations and platform packages. They do not establish unique users. The [weekly refresh](.github/workflows/refresh-registry-metrics.yml) updates these measurements from official APIs.
 <!-- package-public-metrics:end -->
@@ -110,14 +110,14 @@ Package downloads include CI, reinstallations and platform packages. They do not
 <!-- registry-download-chart:start -->
 ## npm download growth
 
-Monthly downloads across the 385 package cohort verified 2026-09-28. This dated series covers 2025-09-01 through 2026-08-31; it is not extended beyond the measured window.
+Monthly downloads across the 398 package cohort verified 2026-10-05. This dated series covers 2025-10-01 through 2026-09-30; it is not extended beyond the measured window.
 
 ```mermaid
 xychart-beta
     title "rUv npm ecosystem: monthly downloads"
-    x-axis ["Sep 2025", "Oct 2025", "Nov 2025", "Dec 2025", "Jan 2026", "Feb 2026", "Mar 2026", "Apr 2026", "May 2026", "Jun 2026", "Jul 2026", "Aug 2026"]
+    x-axis ["Oct 2025", "Nov 2025", "Dec 2025", "Jan 2026", "Feb 2026", "Mar 2026", "Apr 2026", "May 2026", "Jun 2026", "Jul 2026", "Aug 2026", "Sep 2026"]
     y-axis "Downloads (millions)" 0 --> 16
-    line [0.132, 0.284, 0.401, 0.43, 1.673, 1.97, 4.889, 6.162, 15.58, 14.465, 14.274, 13.16]
+    line [0.299, 0.401, 0.43, 1.673, 1.97, 4.889, 6.162, 15.58, 14.465, 14.826, 13.681, 15.121]
 ```
 
 **Source:** official npm daily range API. Figures are millions of download events, including scoped, unscoped, and platform packages. Download events are not unique users.

@@ -1,23 +1,22 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T02:52:57.302624+00:00",
+  "generated_at": "2026-10-05T05:57:34.350Z",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 398,
-    "downloads": 83340503,
-    "period_start": "2025-09-28",
-    "period_end": "2026-09-27",
+    "download_package_count": 398,
+    "inventory_verified_at": "2026-10-05T05:38:04.062Z",
+    "downloads_verified_at": "2026-10-05T05:57:34.350Z",
+    "downloads": 91172864,
+    "period_start": "2025-10-05",
+    "period_end": "2026-10-04",
     "period_days": 365,
-    "monthly_period_start": "2025-09-01",
-    "monthly_period_end": "2026-08-31",
+    "monthly_period_start": "2025-10-01",
+    "monthly_period_end": "2026-09-30",
     "monthly_downloads": [
       {
-        "month": "2025-09",
-        "downloads": 131997
-      },
-      {
         "month": "2025-10",
-        "downloads": 283989
+        "downloads": 299028
       },
       {
         "month": "2025-11",
@@ -53,27 +52,24 @@
       },
       {
         "month": "2026-07",
-        "downloads": 14274162
+        "downloads": 14825512
       },
       {
         "month": "2026-08",
-        "downloads": 13159983
+        "downloads": 13680577
+      },
+      {
+        "month": "2026-09",
+        "downloads": 15120919
       }
     ],
-    "counting_rule": "Current inventory is the known npm maintainer-search set listing ruvnet. Download totals cover the separately dated download_package_count cohort, including scoped and platform packages.",
-    "inventory_verified_at": "2026-10-02T02:50:46.605846+00:00",
-    "inventory_source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet",
-    "inventory_path": "data/snapshots/2026-10-02/npm-inventory.json",
-    "download_package_count": 385,
-    "downloads_verified_at": "2026-09-28T05:48:16.071Z",
-    "downloads_status": "Retained last successful automated download recount; October download refresh unavailable."
+    "counting_rule": "Sum of npm point-download counts for the known maintainer-search set listing ruvnet, including scoped and platform packages."
   },
   "crates_io": {
     "user_id": 339999,
+    "verified_at": "2026-10-05T05:57:34.350Z",
     "crate_count": 480,
-    "cumulative_downloads": 1759429,
-    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999.",
-    "verified_at": "2026-10-02T02:52:57.302624+00:00",
-    "inventory_path": "data/snapshots/2026-10-02/crates-inventory.json"
+    "cumulative_downloads": 1774282,
+    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   }
 }

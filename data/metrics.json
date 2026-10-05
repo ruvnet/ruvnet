@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-02T02:50:46.605846+00:00",
+  "verified_at": "2026-10-05T05:57:34.350Z",
   "counts": {
     "github_public_repositories": 221,
     "github_owned_public_nonfork_repositories": 196,
@@ -9,7 +9,7 @@
     "npm_packages": 398,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 1759429,
+    "rust_crate_downloads_cumulative": 1774282,
     "github_public_forks": 25,
     "github_followers": 11634,
     "github_stars_owned_nonfork": 185968,
@@ -34,7 +34,7 @@
     "Owned nonfork describes GitHub metadata, not sole authorship or originality.",
     "Stars, clones and downloads do not establish unique users or revenue.",
     "The aggregate artifact count combines current npm/crates inventory with 30 historically verified PyPI/Hugging Face artifacts.",
-    "The npm download cohort is 385 packages; the current inventory contains 398."
+    "The npm download cohort is 398 packages; the current inventory contains 398."
   ],
   "sources": [
     "https://api.github.com/users/ruvnet",
@@ -44,16 +44,16 @@
     "data/proof-2026-10-02.json"
   ],
   "current_windows": {
-    "npm_downloads_rolling_365_days": 83340503,
-    "npm_period_start": "2025-09-28",
-    "npm_period_end": "2026-09-27",
-    "npm_download_package_count": 385
+    "npm_downloads_rolling_365_days": 91172864,
+    "npm_period_start": "2025-10-05",
+    "npm_period_end": "2026-10-04",
+    "npm_download_package_count": 398
   },
   "verification_dates": {
     "github": "2026-10-02T02:50:46.605846+00:00",
-    "npm_inventory": "2026-10-02T02:50:46.605846+00:00",
-    "npm_downloads": "2026-09-28T05:48:16.071Z",
-    "crates_io": "2026-10-02T02:52:57.302624+00:00",
+    "npm_inventory": "2026-10-05T05:38:04.062Z",
+    "npm_downloads": "2026-10-05T05:57:34.350Z",
+    "crates_io": "2026-10-05T05:57:34.350Z",
     "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted"
   }
 }
