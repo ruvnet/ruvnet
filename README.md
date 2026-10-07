@@ -45,6 +45,8 @@ This ecosystem is published through one developer account. Repositories can incl
 
 The connections describe complementary roles. Each project has its own interfaces, maturity, and evidence; this is a conceptual map, not a claim that every system is already integrated.
 
+![Inside the capability loop: illustrated memory layers, coordination routes and evaluation traces](assets/ruvnet/capability-cutaway.svg)
+
 ## From signal to useful work
 
 ![From signal to useful work](assets/ruvnet/journey.svg)
@@ -80,6 +82,25 @@ Pick a capability to explore its implementation, interfaces and examples.
 </table>
 
 [All layers and related projects](#how-the-stack-fits-together) · [Package inventory](docs/ruvnet-packages.md) · [Installation guide](docs/entrypoint/INSTALL.md)
+
+### Expand the constellation
+
+Follow the surrounding projects into persistent memory, spatial evidence, review workflows, and useful work measurement.
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/ruvnet/agentdb"><img src="assets/ruvnet/project-agentdb.svg" width="580" alt="AgentDB: persistent memory for agent workflows. Explore the repository." /></a></td>
+<td width="50%"><a href="https://github.com/ruvnet/agenticow"><img src="assets/ruvnet/project-agenticow.svg" width="580" alt="AgenticOW: branchable agent memory. Explore the repository." /></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/ruvnet/rvcsi"><img src="assets/ruvnet/project-rvcsi.svg" width="580" alt="rvCSI: wireless channel observations. Explore the repository." /></a></td>
+<td width="50%"><a href="https://github.com/ruvnet/rufield"><img src="assets/ruvnet/project-rufield.svg" width="580" alt="RuField: spatial and multimodal evidence. Explore the repository." /></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/ruvnet/dream-machine"><img src="assets/ruvnet/project-dream-machine.svg" width="580" alt="Dream Machine: proposals, evaluation and outcomes. Explore the repository." /></a></td>
+<td width="50%"><a href="https://github.com/ruvnet/APx"><img src="assets/ruvnet/project-apx.svg" width="580" alt="APx: measure useful accepted work. Explore the repository." /></a></td>
+</tr>
+</table>
 
 ## Choose your entry point
 
