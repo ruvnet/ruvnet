@@ -11,6 +11,8 @@
 
 [![rUv ecosystem dashboard: published npm downloads, GitHub reach, connected capabilities and two-snapshot project momentum](assets/ruvnet/dashboard.svg)](docs/visual-profile.md)
 
+[![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner.svg)](https://cognitum.one)
+
 # rUv · Open source AI systems
 
 **rUv** ([`ruvnet`](https://github.com/ruvnet)) builds open source infrastructure for agent orchestration, adaptive memory, vector intelligence, portable runtimes, and privacy preserving spatial sensing. The core stack is [RuView](https://github.com/ruvnet/RuView), [Ruflo](https://github.com/ruvnet/ruflo), [RuVector](https://github.com/ruvnet/RuVector), [MetaHarness](https://github.com/ruvnet/metaharness), [RVF](https://www.npmjs.com/package/@ruvector/rvf), and [RVM](https://github.com/ruvnet/rvm).
