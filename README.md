@@ -1,5 +1,7 @@
 ![rUv](assets/ruv-neon.gif)
 
+[![rUv ecosystem dashboard: published npm downloads, GitHub reach, connected capabilities and two-snapshot project momentum](assets/ruvnet/dashboard.svg)](docs/visual-profile.md)
+
 # rUv · Open source AI systems
 
 **rUv** ([`ruvnet`](https://github.com/ruvnet)) builds open source infrastructure for agent orchestration, adaptive memory, vector intelligence, portable runtimes, and privacy preserving spatial sensing. The core stack is [RuView](https://github.com/ruvnet/RuView), [Ruflo](https://github.com/ruvnet/ruflo), [RuVector](https://github.com/ruvnet/RuVector), [MetaHarness](https://github.com/ruvnet/metaharness), [RVF](https://www.npmjs.com/package/@ruvector/rvf), and [RVM](https://github.com/ruvnet/rvm).
@@ -19,6 +21,48 @@
 This ecosystem is published through one developer account. Repositories can include community contributions, automation, generated artifacts, and imported history. The evidence files keep those categories separate.
 
 [Core stack](#how-the-stack-fits-together) · [October update](#october-2026-update) · [September update](#september-2026-update) · [RVF](#rvf-memory-that-travels-with-its-evidence) · [Proof](docs/proof/2026-10-02.md) · [Recent projects](#recent-public-source-delta) · [Package index](docs/ruvnet-packages.md) · [Provenance dossier](docs/ruvnet-prior-art.md) · [Machine readable metrics](data/metrics.json) · [Citation](CITATION.cff)
+
+
+## Explore the constellation
+
+![A constellation of capabilities](assets/ruvnet/constellation.svg)
+
+**One ecosystem, many ways in.** Start with the problem you want to solve. Follow the constellation from observations to memory, coordinated work, portable execution, and evaluated outcomes.
+
+![rUv constellation: perceive with RuView, remember with RuVector, coordinate with Ruflo, execute with RVF and RVM, evaluate with MetaHarness and APx, adapt with Autogenous](assets/ruvnet/constellation-map.svg)
+
+The connections describe complementary roles. Each project has its own interfaces, maturity, and evidence; this is a conceptual map, not a claim that every system is already integrated.
+
+## From signal to useful work
+
+![From signal to useful work](assets/ruvnet/journey.svg)
+
+Imagine a system that can observe a space, retain useful context, coordinate a response, and assess what happened. These projects explore different parts of that journey.
+
+| Chapter | Systems to explore | What the layer contributes | Follow the story |
+| --- | --- | --- | --- |
+| **01 · Perceive** | [RuView](https://github.com/ruvnet/RuView), [rvCSI](https://github.com/ruvnet/rvcsi), [RuField](https://github.com/ruvnet/rufield) | Turn RF and multimodal observations into spatial evidence | Begin with the sensing method and its documented limits |
+| **02 · Remember** | [RuVector](https://github.com/ruvnet/RuVector), [AgentDB](https://github.com/ruvnet/agentdb), [AgenticOW](https://github.com/ruvnet/agenticow) | Keep vector, graph, temporal, episodic, and branchable context | Choose the memory model that fits the task |
+| **03 · Coordinate** | [Ruflo](https://github.com/ruvnet/ruflo) | Organize agents, route tasks, and share context | Move from a single task to coordinated work |
+| **04 · Carry and execute** | [RVF](https://www.npmjs.com/package/@ruvector/rvf), [RVForge](https://www.npmjs.com/package/@ruvector/rvforge), [RVM](https://github.com/ruvnet/rvm) | Package state and evidence, stage bundles, and control execution capabilities | Preserve what travels and constrain what runs |
+| **05 · Evaluate** | [MetaHarness](https://github.com/ruvnet/metaharness), [APx](https://github.com/ruvnet/APx) | Evaluate changes and compare useful accepted output with a matched reference | Ask what improved and what evidence supports it |
+| **06 · Adapt** | [Autogenous](https://github.com/ruvnet/autogenous), [Dream Machine](https://github.com/ruvnet/dream-machine) | Preserve proposals, evaluations, outcomes, and promotion boundaries | Make adaptation reviewable |
+
+## Choose your entry point
+
+![Choose your entry point](assets/ruvnet/build.svg)
+
+| I want to… | Start here | Then explore |
+| --- | --- | --- |
+| Coordinate agents around a real task | [Ruflo](https://github.com/ruvnet/ruflo) | [Stack installation](docs/entrypoint/INSTALL.md) and [CLI / MCP guide](plugins/ruvnet/docs/INSTALL.md#local-cli-and-mcp-companion) |
+| Add retrieval or persistent memory | [RuVector](https://github.com/ruvnet/RuVector) | [AgentDB](https://github.com/ruvnet/agentdb) and [RVF](#rvf-memory-that-travels-with-its-evidence) |
+| Explore spatial sensing | [RuView](https://github.com/ruvnet/RuView) | [rvCSI](https://github.com/ruvnet/rvcsi) and the project's hardware and validation requirements |
+| Evaluate a proposed improvement | [MetaHarness](https://github.com/ruvnet/metaharness) | [Harness evidence](docs/self-improvement/2026-09-25.md) and [APx](https://github.com/ruvnet/APx) |
+| Inspect what the public numbers mean | [Machine readable metrics](data/metrics.json) | [Counting rules](#read-the-metrics-correctly), [proof](docs/proof/2026-10-02.md), and [visual source guide](docs/visual-profile.md) |
+
+![Reach, with receipts](assets/ruvnet/evidence.svg)
+
+The dashboard above is generated from this repository's published JSON. Downloads are events, stars cover owned public nonfork repositories, and the project traces connect only two measured snapshots. The dates and counting rules below are part of the numbers.
 
 <!-- github-public-metrics:start -->
 ## GitHub reach
@@ -123,6 +167,8 @@ xychart-beta
 **Source:** official npm daily range API. Figures are millions of download events, including scoped, unscoped, and platform packages. Download events are not unique users.
 <!-- registry-download-chart:end -->
 
+![An ecosystem in motion](assets/ruvnet/evolution.svg)
+
 ## October 2026 update
 
 September was about connecting the parts. An agent needs somewhere to work, memory it can carry forward, and a way to show what happened. The work increasingly lives in those connections: Ruflo inside the coding session, RVF between sessions, RuVector behind the memory, and MetaHarness around the decision to keep a change.
@@ -158,6 +204,8 @@ Creation dates are GitHub metadata. Status is scoped to the inspected source rev
 | [MetaHarness improvement verifier](https://github.com/ruvnet/metaharness/blob/9ce8b8dd89045c3b9a1f809ae58f3589029db4a4/packages/flywheel/src/multigeneration-proof.ts) | Evidence classification across descendant generations, controls and reviewer receipts | Verifier behavior does not establish recursive self improvement |
 
 [Full proof record](docs/proof/2026-10-02.md) · [Commit and package receipts](data/proof-2026-10-02.json) · [October provenance delta](docs/ruvnet-prior-art.md#october-2026-provenance-delta)
+
+![Memory that travels](assets/ruvnet/memory.svg)
 
 ## RVF: memory that travels with its evidence
 

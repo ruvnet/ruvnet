@@ -1,0 +1,42 @@
+name: Render visual profile
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'data/metrics.json'
+      - 'data/registry-stats.json'
+      - 'data/github-stats.json'
+      - 'data/snapshots/2026-10-02/github-baseline-2026-09-07.json'
+      - 'scripts/render-visual-profile.py'
+      - 'scripts/render-constellation.py'
+      - 'scripts/templates/ruvnet-dashboard.svg'
+      - 'scripts/tests/test_visual_profile.py'
+permissions:
+  contents: write
+concurrency:
+  group: refresh-registry-metrics
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Render published data and illustrations
+        run: |
+          python3 scripts/render-visual-profile.py
+          python3 scripts/render-constellation.py
+          python3 -m unittest discover -s scripts/tests
+          node scripts/verify-profile.mjs
+      - name: Commit changed visuals
+        run: |
+          git add assets/ruvnet
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'refresh visual profile from published snapshots'
+          git push
