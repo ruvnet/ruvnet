@@ -45,3 +45,38 @@ for i,(x,y,role,names,sub,kind,color) in enumerate(nodes):
 s+=txt(30,640,'Explore each project for its own interfaces, maturity and evidence.',11)+txt(1170,640,'MOTION IS DECORATIVE',10,anchor='end')+'</svg>'
 (OUT/'constellation-map.svg').write_text(s)
 print('Rendered six chapter headers and constellation map')
+
+# Taller chapter art and project cards. No metrics are duplicated in these assets.
+extra=[('distribution','07','Published across the stack','npm / Rust / Python / models and spaces','runtime','#9de8d0'),('provenance','08','Evidence is part of the interface','Source / snapshot / counting rule / reproducible check','proof','#a5b5ff'),('archive','09','Explore the deeper archive','Project lineage, earlier snapshots and the complete catalog','memory','#f6a675')]
+for name,num,title,sub,kind,color in extra:
+    s=start(1200,160,title,sub)
+    s+=txt(30,35,f'RUVNET / {num}',11,color)+txt(30,78,title,29,'#edf3ff')+txt(30,109,sub,13)
+    s+=f'<path d="M30 140H1170" stroke="#23344b"/><path class="signal" d="M30 140H1170" stroke="{color}"/>'
+    s+=f'<g transform="translate(1100 75)"><circle class="orbit" r="55" fill="none" stroke="{color}" stroke-dasharray="30 8 2 8"/>'+icon(kind,color)+'</g></svg>'
+    (OUT/f'{name}.svg').write_text(s)
+projects=[('ruflo','Ruflo','COORDINATE','Bring agents, tasks and context together.','agents','#a5b5ff'),('ruvector','RuVector','REMEMBER','Vector and graph intelligence for memory.','memory','#9de8d0'),('ruview','RuView','PERCEIVE','Explore spatial intelligence through RF.','sense','#f6a675'),('metaharness','MetaHarness','EVALUATE','Make proposed improvements testable.','evaluate','#a5b5ff'),('rvf','RVF + RVM','CARRY AND EXECUTE','Portable state. Controlled execution.','runtime','#9de8d0'),('autogenous','Autogenous','ADAPT','Preserve proposals and promotion gates.','proof','#f6a675')]
+for index,(slug,name,role,sub,kind,color) in enumerate(projects):
+    s=start(580,210,name,sub)
+    s+=f'<path d="M20 20H48M20 20V48M560 190H532M560 190V162" fill="none" stroke="{color}"/>'
+    s+=txt(32,43,f'0{index+1} / {role}',12,color)+txt(32,94,name,32,'#edf3ff')+txt(32,132,sub,12)
+    s+=txt(32,181,'EXPLORE PROJECT  ↗',11,color)
+    s+=f'<g transform="translate(492 76)"><circle class="orbit" r="47" fill="none" stroke="{color}" stroke-opacity=".5" stroke-dasharray="25 9 2 9"/>'+icon(kind,color)+'</g>'
+    s+=f'<path d="M260 177H548" stroke="#26364a"/><path class="signal" style="animation-delay:-{index}s" d="M260 177H548" stroke="{color}"/></svg>'
+    (OUT/f'project-{slug}.svg').write_text(s)
+
+def ribbon(filename,title,subtitle,steps):
+    s=start(1200,260,title,subtitle)
+    s+=txt(30,35,title,15,'#edf3ff')+txt(30,58,subtitle,11)
+    for i,(label,detail,kind,color) in enumerate(steps):
+        x=30+295*i
+        if i<3:
+            s+=f'<path class="signal" d="M{x+250} 150H{x+295}" stroke="{color}"/><path d="M{x+285} 145L{x+292} 150 {x+285} 155" fill="none" stroke="{color}"/>'
+        s+=f'<rect x="{x}" y="85" width="255" height="145" rx="10" fill="#0d1726" stroke="#263b52"/>'
+        s+=f'<g transform="translate({x+48} 137)">'+icon(kind,color)+'</g>'
+        s+=txt(x+92,131,f'0{i+1}',11,color)+txt(x+92,156,label,17,'#eef4ff')+txt(x+16,208,detail,11)
+    s+='</svg>';(OUT/filename).write_text(s)
+ribbon('memory-journey.svg','MEMORY THAT CAN MOVE','Conceptual lifecycle. Follow project documentation for supported formats and interfaces.',[
+ ('Remember','RuVector / persistent context','memory','#9de8d0'),('Package','RVF / state and evidence','runtime','#a5b5ff'),('Stage','RVForge / target bundles','agents','#f6a675'),('Execute','RVM / capability controls','proof','#9de8d0')])
+ribbon('evidence-chain.svg','FROM SOURCE TO VISIBLE EVIDENCE','Committed snapshots keep measurement windows separate from decorative motion.',[
+ ('Source','GitHub / npm / crates.io','sense','#f6a675'),('Snapshot','JSON / dates / scope','memory','#9de8d0'),('Verify','Claims / links / receipts','proof','#a5b5ff'),('Render','SVG / Markdown / workflow','evaluate','#9de8d0')])
+print('Rendered project cards, lifecycle illustrations and supporting banners')

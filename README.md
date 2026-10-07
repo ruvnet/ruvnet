@@ -6,6 +6,9 @@
 
 **rUv** ([`ruvnet`](https://github.com/ruvnet)) builds open source infrastructure for agent orchestration, adaptive memory, vector intelligence, portable runtimes, and privacy preserving spatial sensing. The core stack is [RuView](https://github.com/ruvnet/RuView), [Ruflo](https://github.com/ruvnet/ruflo), [RuVector](https://github.com/ruvnet/RuVector), [MetaHarness](https://github.com/ruvnet/metaharness), [RVF](https://www.npmjs.com/package/@ruvector/rvf), and [RVM](https://github.com/ruvnet/rvm).
 
+<details>
+<summary><strong>Connect your agents: federation, skills, CLI and MCP</strong></summary>
+
 > [!TIP]
 > **Your team. Your agents. One federation.**
 > Coordinate at [x.ruv.io](https://x.ruv.io) · [RuFlo federation dashboard](https://ruflo-federation.ruv.chatgpt.site/)
@@ -16,11 +19,20 @@
 > Claude Code: `/plugin marketplace add ruvnet/ruvnet`, then `/plugin install ruvnet@ruvnet`.
 > Reviewed changes: `node plugins/ruvnet/bin/ruvnet.mjs changes 5 --kind security` · snapshot-bound exact evidence with auditable filters and continuation cursors · [Harness evidence](docs/self-improvement/2026-09-25.md)
 
+</details>
+
 > **October 2026:** The stack is becoming a continuous operating environment. Ruflo brings coordination into Claude Code through Mods. RVF carries memory and evidence between sessions. APx asks whether the work was useful. Six new public repositories extend the stack into persistent runtimes, edge sensing, MCP applications, and creative tools.
 
 This ecosystem is published through one developer account. Repositories can include community contributions, automation, generated artifacts, and imported history. The evidence files keep those categories separate.
 
-[Core stack](#how-the-stack-fits-together) · [October update](#october-2026-update) · [September update](#september-2026-update) · [RVF](#rvf-memory-that-travels-with-its-evidence) · [Proof](docs/proof/2026-10-02.md) · [Recent projects](#recent-public-source-delta) · [Package index](docs/ruvnet-packages.md) · [Provenance dossier](docs/ruvnet-prior-art.md) · [Machine readable metrics](data/metrics.json) · [Citation](CITATION.cff)
+<p align="center">
+  <a href="#explore-the-constellation">Constellation</a> ·
+  <a href="#meet-the-core-systems">Core systems</a> ·
+  <a href="#choose-your-entry-point">Get started</a> ·
+  <a href="#github-reach">Reach</a> ·
+  <a href="#october-2026-update">What is new</a> ·
+  <a href="#evidence-and-provenance">Evidence</a>
+</p>
 
 
 ## Explore the constellation
@@ -39,14 +51,35 @@ The connections describe complementary roles. Each project has its own interface
 
 Imagine a system that can observe a space, retain useful context, coordinate a response, and assess what happened. These projects explore different parts of that journey.
 
-| Chapter | Systems to explore | What the layer contributes | Follow the story |
-| --- | --- | --- | --- |
-| **01 · Perceive** | [RuView](https://github.com/ruvnet/RuView), [rvCSI](https://github.com/ruvnet/rvcsi), [RuField](https://github.com/ruvnet/rufield) | Turn RF and multimodal observations into spatial evidence | Begin with the sensing method and its documented limits |
-| **02 · Remember** | [RuVector](https://github.com/ruvnet/RuVector), [AgentDB](https://github.com/ruvnet/agentdb), [AgenticOW](https://github.com/ruvnet/agenticow) | Keep vector, graph, temporal, episodic, and branchable context | Choose the memory model that fits the task |
-| **03 · Coordinate** | [Ruflo](https://github.com/ruvnet/ruflo) | Organize agents, route tasks, and share context | Move from a single task to coordinated work |
-| **04 · Carry and execute** | [RVF](https://www.npmjs.com/package/@ruvector/rvf), [RVForge](https://www.npmjs.com/package/@ruvector/rvforge), [RVM](https://github.com/ruvnet/rvm) | Package state and evidence, stage bundles, and control execution capabilities | Preserve what travels and constrain what runs |
-| **05 · Evaluate** | [MetaHarness](https://github.com/ruvnet/metaharness), [APx](https://github.com/ruvnet/APx) | Evaluate changes and compare useful accepted output with a matched reference | Ask what improved and what evidence supports it |
-| **06 · Adapt** | [Autogenous](https://github.com/ruvnet/autogenous), [Dream Machine](https://github.com/ruvnet/dream-machine) | Preserve proposals, evaluations, outcomes, and promotion boundaries | Make adaptation reviewable |
+| Step | Purpose | Systems |
+| :--- | :--- | :--- |
+| **01 · Perceive** | Turn observations into spatial evidence | RuView · rvCSI · RuField |
+| **02 · Remember** | Retain vector, graph and episodic context | RuVector · AgentDB · AgenticOW |
+| **03 · Coordinate** | Route tasks and share context | Ruflo |
+| **04 · Execute** | Carry state and control capabilities | RVF · RVForge · RVM |
+| **05 · Evaluate** | Test changes and measure useful output | MetaHarness · APx |
+| **06 · Adapt** | Preserve proposals and promotion boundaries | Autogenous · Dream Machine |
+
+## Meet the core systems
+
+Pick a capability to explore its implementation, interfaces and examples.
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/ruvnet/ruflo"><img src="assets/ruvnet/project-ruflo.svg" width="580" alt="Ruflo: coordinate agents, tasks and context. Explore the repository." /></a></td>
+<td width="50%"><a href="https://github.com/ruvnet/RuVector"><img src="assets/ruvnet/project-ruvector.svg" width="580" alt="RuVector: vector and graph intelligence for memory. Explore the repository." /></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/ruvnet/RuView"><img src="assets/ruvnet/project-ruview.svg" width="580" alt="RuView: spatial intelligence through RF. Explore the repository." /></a></td>
+<td><a href="https://github.com/ruvnet/metaharness"><img src="assets/ruvnet/project-metaharness.svg" width="580" alt="MetaHarness: evaluate proposed improvements. Explore the repository." /></a></td>
+</tr>
+<tr>
+<td><a href="#rvf-memory-that-travels-with-its-evidence"><img src="assets/ruvnet/project-rvf.svg" width="580" alt="RVF and RVM: portable state and controlled execution. Read the memory chapter." /></a></td>
+<td><a href="https://github.com/ruvnet/autogenous"><img src="assets/ruvnet/project-autogenous.svg" width="580" alt="Autogenous: proposals and promotion boundaries. Explore the repository." /></a></td>
+</tr>
+</table>
+
+[All layers and related projects](#how-the-stack-fits-together) · [Package inventory](docs/ruvnet-packages.md) · [Installation guide](docs/entrypoint/INSTALL.md)
 
 ## Choose your entry point
 
@@ -132,6 +165,8 @@ Current public activity signals, September 8 through the October 2 UTC snapshot:
 
 Commit search and contribution graph totals were not recounted for this update. The earlier **2,313** public commit search matches remain a historical August 10 through September 7 measurement, preserved in the September baseline.
 
+![Published across the stack: registry packages and model artifacts](assets/ruvnet/distribution.svg)
+
 <!-- package-public-metrics:start -->
 ## Package distribution
 
@@ -208,6 +243,8 @@ Creation dates are GitHub metadata. Status is scoped to the inspected source rev
 ![Memory that travels](assets/ruvnet/memory.svg)
 
 ## RVF: memory that travels with its evidence
+
+![Portable memory lifecycle: RuVector remembers, RVF packages, RVForge stages, RVM executes](assets/ruvnet/memory-journey.svg)
 
 **RVF is RuVector Format.** It packages segmented vector memory, metadata, model and compute payloads, lineage, and witness records. The aim is to carry useful state from a browser to a local runtime or a governed service without rebuilding the context at every step.
 
@@ -316,6 +353,10 @@ The [account wide provenance dossier](docs/ruvnet-prior-art.md) records reposito
 | crates.io downloads | Cumulative crate fetch events | Current active users |
 | Contributions | Activity visible on the public GitHub profile across several event types | Commits alone, effort hours, or necessarily public repository activity |
 
+![Evidence is part of the interface](assets/ruvnet/provenance.svg)
+
+![Evidence chain: collect sources, commit dated JSON snapshots, verify receipts, render SVG and Markdown](assets/ruvnet/evidence-chain.svg)
+
 ## Evidence and provenance
 
 | Evidence | Purpose |
@@ -350,7 +391,16 @@ Long live ❤️ Open Source.
 
 ---
 
-# 📜 Prior-Art Dossier (commit-proof, dated)
+## Project archive
+
+![Explore the deeper archive](assets/ruvnet/archive.svg)
+
+The catalog below preserves earlier descriptions and dated snapshots. Use the current evidence tables above for present inventory counts. Relative dates in the archive belong to their original snapshot.
+
+<details>
+<summary><strong>Open the full project catalog and prior art records</strong></summary>
+
+## 📜 Prior-Art Dossier (commit-proof, dated)
 
 Because the whole point of building in public is the **provenance**. These dossiers tie systems to their earliest reachable root commits as repository-lineage anchors, alongside GitHub creation metadata, registry timestamps, scoped candidate claims, and named related work. Git author dates do not by themselves prove when a repository became public or when a later feature first appeared.
 
@@ -367,7 +417,7 @@ Because the whole point of building in public is the **provenance**. These dossi
 
 *Repository lineage, public availability, feature evidence, adoption metrics, and novelty are separate evidentiary layers. Novelty statements remain scoped candidate claims until supported by feature commits, tests, release timestamps, and a dated prior-art search.*
 
-# 🚩 Flagship Systems (2024–2026)
+## 🚩 Flagship Systems (2024–2026)
 
 The current core stack. Each row shows the **earliest reachable root commit** as a lineage anchor and a **live star badge**. A root commit is not by itself proof of the repository's first public date or of every current feature. Newer and larger than most of the catalog below, these were missing from the historical lists. *(Row order reflects stars at last edit; the badges themselves stay current.)*
 
@@ -399,7 +449,7 @@ The current core stack. Each row shows the **earliest reachable root commit** as
 | [VIVIAN](https://github.com/ruvnet/VIVIAN) | Vector Index Virtual Infrastructure for Autonomous Networks | 2023-03-31 | ![stars](https://img.shields.io/github/stars/ruvnet/VIVIAN?style=flat&label=%E2%98%85&color=gold) | [`e8dc86d5`](https://github.com/ruvnet/VIVIAN/commit/e8dc86d5) |
 | [vibecast](https://github.com/ruvnet/vibecast) | Weekly Vibecast Live coding sessions with rUv. Check branches for each | 2025-05-01 | ![stars](https://img.shields.io/github/stars/ruvnet/vibecast?style=flat&label=%E2%98%85&color=gold) | [`2fdbbc51`](https://github.com/ruvnet/vibecast/commit/2fdbbc51) |
 
-# 🆕 Latest Projects (late 2025 – 2026)
+## 🆕 Latest Projects (late 2025 – 2026)
 
 The newest work, much of it shipped as crate/npm **families** rather than standalone repos — so it doesn't show up in a repository list. Full package detail: **[Packages & Libraries Index](https://github.com/ruvnet/ruvnet/blob/main/docs/ruvnet-packages.md)**.
 
@@ -421,7 +471,7 @@ The newest work, much of it shipped as crate/npm **families** rather than standa
 | **AIMDS** | 2025-10-27 | AI Manipulation Defense System: fast-path detection, deep behavioral analysis, adaptive meta-learning response | [crate](https://crates.io/crates/aimds-core) |
 | **Lean-Agentic** | 2025-10-25 | Hash-consed dependency RAG gateway with multi-lane cost routing and verification | [crate](https://crates.io/crates/lean-agentic) |
 
-# 🗂️ Complete Prior-Art Index — every public repository (dated + starred)
+## 🗂️ Complete Prior-Art Index — every public repository (dated + starred)
 
 Historical June 13, 2026 catalog with 248 rows and recorded root commits. This is not a current public inventory or a verified count of original projects. Availability and classification may have changed. Stars retain their June snapshot date. Genesis is the self asserted Git author date in the recorded lineage; it does not establish first public appearance. The October public inventory contains 221 repositories.
 
@@ -680,7 +730,7 @@ Historical June 13, 2026 catalog with 248 rows and recorded root commits. This i
 
 </details>
 
-# AI Frameworks and Libraries
+## AI Frameworks and Libraries
 
 Core frameworks and libraries for building AI-powered applications and intelligent systems.
 
@@ -705,7 +755,7 @@ Core frameworks and libraries for building AI-powered applications and intellige
 | 🔊 **Ultrasonic Agentics** - Secure steganographic framework for embedding invisible AI commands and data in audio and video | [Link](https://github.com/ruvnet/ultrasonic) |
 | 📡 **WiFi-DensePose** - Privacy-first human pose estimation using WiFi CSI data with real-time multi-person tracking and enterprise-ready API | [Link](https://github.com/ruvnet/wifi-densepose) |
 
-# Agentic Systems and Automation
+## Agentic Systems and Automation
 
 Projects focused on intelligent agent systems, automation, and autonomous operations.
 
@@ -731,7 +781,7 @@ Projects focused on intelligent agent systems, automation, and autonomous operat
 | 📡 **Agentic Edge Functions** - Foundation for distributed autonomous AI agents operating at the network edge with low latency | [Link](https://github.com/agenticsorg/edge-agents/) |
 | 🛰️ **Agentic Preview** - Asynchronous FastAPI backend service for deploying preview environments using Fly.io | [Link](https://github.com/ruvnet/agentic-preview) |
 
-# Chatbots and Conversational AI
+## Chatbots and Conversational AI
 
 Projects enhancing communication through AI-driven chatbots, voice interactions, and prompt engineering.
 
@@ -746,7 +796,7 @@ Projects enhancing communication through AI-driven chatbots, voice interactions,
 | 📊 **SynthLang** - Mathematically-structured prompt optimization tool that reduces AI costs and increases processing speed | [Link](https://github.com/ruvnet/SynthLang) |
 | 📞 **Voicebot** - AI-driven mock interviews and voice interactions via phone calls, using Flask | [Link](https://github.com/ruvnet/voicebot) |
 
-# Developer Tools and Utilities
+## Developer Tools and Utilities
 
 Tools to streamline coding, deployment, and project management.
 
@@ -776,7 +826,7 @@ Tools to streamline coding, deployment, and project management.
 | --- | --- |
 | 🌐 **Auto-Browser** - AI-powered web automation tool that enables complex interactions through natural language commands | [Link](https://github.com/ruvnet/auto-browser) |
 
-# Data Analysis and Modeling
+## Data Analysis and Modeling
 
 Projects leveraging AI for data manipulation, analysis, reporting, and predictive modeling.
 
@@ -801,7 +851,7 @@ Projects leveraging AI for data manipulation, analysis, reporting, and predictiv
 | 🤖 **Sentient Systems: Declarative Cognitive Architecture** - Bridging technology with human cognition and consciousness | [Link](https://gist.github.com/ruvnet/4b8e75ea2e4f18bd72da1ac43a1a2a64) |
 | 🍓 **Strawberry Phi** - Fine-tuning app for OpenAI's GPT models | [Link](https://github.com/ruvnet/strawberry-phi) |
 
-# UI/UX and Visualization
+## UI/UX and Visualization
 
 Projects enhancing user interfaces and experiences through AI.
 
@@ -814,7 +864,7 @@ Projects enhancing user interfaces and experiences through AI.
 | 💻 **rUvix** - Retro-futuristic terminal interface showcasing agentic engineering services and vibe coding | [Link](https://github.com/ruvnet/vibing) |
 | 🗂️ **supa-ruv** - Everything you need to use Supabase + AI | [Link](https://github.com/ruvnet/supa-ruv) |
 
-# Cloud and Infrastructure
+## Cloud and Infrastructure
 
 Tools for cloud development, deployment, and infrastructure management.
 
@@ -826,7 +876,7 @@ Tools for cloud development, deployment, and infrastructure management.
 | 🔭 **q-space** - Deployment wizard for quantum computing applications using Azure Quantum and Functions | [Link](https://github.com/ruvnet/q-space) |
 | 🗂️ **supa-ruv** - Resources for using Supabase with AI projects | [Link](https://github.com/ruvnet/supa-ruv) |
 
-# Quantum Computing
+## Quantum Computing
 
 Explorations into quantum computing applications and intelligent agents.
 
@@ -838,7 +888,7 @@ Explorations into quantum computing applications and intelligent agents.
 | 💰 **Quantum Cryptocurrency** - Next-generation cryptocurrency platform leveraging quantum computing for enhanced security and scalability | [Link](https://github.com/ruvnet/quantum_cryptocurrency) |
 | 🔭 **Quantum Magnetic Navigation** - A navigation system that uses quantum magnetometers to provide precise positioning in GPS-denied environments. | [Link](https://github.com/ruvnet/quantum-magnetic-navigation) |
 
-# Media and Content Processing
+## Media and Content Processing
 
 Projects involving media capture, processing, and AI-based content analysis.
 
@@ -848,7 +898,7 @@ Projects involving media capture, processing, and AI-based content analysis.
 | 🔥 **Fireflies Webhook** - Webhook endpoint for Fireflies transcripts with intent detection | [Link](https://github.com/ruvnet/fireflies-webook) |
 | 📚 **Story Development Toolkit** - Python libraries designed to help generate engaging and coherent stories | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
 
-# Distributed Systems and Swarm Computing
+## Distributed Systems and Swarm Computing
 
 Exploring swarm intelligence and distributed algorithms.
 
@@ -857,7 +907,7 @@ Exploring swarm intelligence and distributed algorithms.
 | 📹 **AWS ECS Video Processor** - Framework for deploying a video processing service on AWS ECS | [Link](https://gist.github.com/ruvnet/06b397b596a75fb5614215f3d4f78973) |
 | 🐝 **Basic SWARM Algorithm** - Swarm computing algorithm performing basic functions | [Link](https://gist.github.com/ruvnet/c0acb81e02cb5c052e1def32e3f8df04) |
 
-# Web Development and APIs
+## Web Development and APIs
 
 Projects focused on web development and API integration.
 
@@ -865,7 +915,7 @@ Projects focused on web development and API integration.
 | --- | --- |
 | 🤖 **Agentic_Robots.txt** - Extended protocol framework for autonomous agent interaction with web applications | [Link](https://github.com/agenticsorg/agentic-robots-txt) |
 
-# Other Notable Projects
+## Other Notable Projects
 
 Miscellaneous projects that don't fit into other categories.
 
@@ -887,7 +937,7 @@ https://github.com/ruvnet/chatgpt-openai-api-plugin
 The Hugging Face API plugin for ChatGPT is a powerful integration that allows ChatGPT to interact with the Hugging Face platform, a leading provider of natural language processing (NLP) models, datasets, and tools. 
 https://github.com/ruvnet/Surfer/tree/chatgpt-huggingface-plugin
 
-# Rust Crates (crates.io)
+## Rust Crates (crates.io)
 
 High-performance Rust libraries and tools for distributed systems, quantum computing, and AI infrastructure.
 
@@ -921,3 +971,8 @@ High-performance Rust libraries and tools for distributed systems, quantum compu
 | 🧮 **sublinear** - High-performance sublinear-time solver for asymmetric diagonally dominant systems | 10 days ago | [Link](https://crates.io/crates/sublinear) |
 
 View all 82 crates at [crates.io/users/ruvnet](https://crates.io/users/ruvnet)
+
+
+</details>
+
+[Back to the constellation](#explore-the-constellation) · [Browse all repositories](https://github.com/ruvnet?tab=repositories) · [Read the source guide](docs/visual-profile.md)
