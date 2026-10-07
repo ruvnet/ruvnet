@@ -1,5 +1,14 @@
 ![rUv](assets/ruv-neon.gif)
 
+<p align="center">
+  <a href="https://github.com/ruvnet/ruflo"><img src="assets/ruvnet/badge-ruflo.svg" height="24" alt="Ruflo" /></a>
+  <a href="https://github.com/ruvnet/RuVector"><img src="assets/ruvnet/badge-ruvector.svg" height="24" alt="RuVector" /></a>
+  <a href="https://github.com/ruvnet/RuView"><img src="assets/ruvnet/badge-ruview.svg" height="24" alt="RuView" /></a>
+  <a href="https://github.com/ruvnet/metaharness"><img src="assets/ruvnet/badge-metaharness.svg" height="24" alt="MetaHarness" /></a>
+  <a href="https://www.npmjs.com/package/@ruvector/rvf"><img src="assets/ruvnet/badge-rvf.svg" height="24" alt="RVF" /></a>
+  <a href="https://github.com/ruvnet/rvm"><img src="assets/ruvnet/badge-rvm.svg" height="24" alt="RVM" /></a>
+</p>
+
 [![rUv ecosystem dashboard: published npm downloads, GitHub reach, connected capabilities and two-snapshot project momentum](assets/ruvnet/dashboard.svg)](docs/visual-profile.md)
 
 # rUv · Open source AI systems

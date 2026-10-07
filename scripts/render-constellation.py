@@ -147,3 +147,11 @@ for kind,color in [('sense','#f6a675'),('memory','#9de8d0'),('agents','#a5b5ff')
     s=start(112,112,kind+' capability icon','Decorative animated symbol. Does not indicate service status.')
     s+='<g transform="translate(56 56)">'+icon(kind,color)+f'<g class="satellite"><circle cx="45" r="2" fill="{color}"/></g></g></svg>'
     (OUT/f'icon-{kind}.svg').write_text(s)
+
+# Compact linked badges for the README's top navigation bar.
+badges=[('ruflo','Ruflo',88,'#a5b5ff'),('ruvector','RuVector',108,'#9de8d0'),('ruview','RuView',96,'#f6a675'),('metaharness','MetaHarness',134,'#a5b5ff'),('rvf','RVF',72,'#9de8d0'),('rvm','RVM',72,'#f6a675')]
+for index,(slug,label,width,color) in enumerate(badges):
+    badge=f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="24" viewBox="0 0 {width} 24" role="img" aria-labelledby="title"><title id="title">Explore {label}</title><style>
+    text{{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}}.accent{{stroke-dasharray:18 180;animation:travel 7s linear infinite;animation-delay:-{index}s}}.mark{{transform-origin:12px 12px;animation:rotate 12s linear infinite;animation-delay:-{index}s}}@keyframes travel{{to{{stroke-dashoffset:-198}}}}@keyframes rotate{{to{{transform:rotate(360deg)}}}}@media(prefers-reduced-motion:reduce){{*{{animation:none!important}}}}
+    </style><rect x=".5" y=".5" width="{width-1}" height="23" rx="5" fill="#0c1422" stroke="#29384c"/><path d="M25 5V19" stroke="#29384c"/><path class="mark" d="M12 6L18 12 12 18 6 12Z" stroke="{color}" fill="none"/><circle cx="12" cy="12" r="1.5" fill="{color}"/><text x="34" y="16" font-size="11" fill="#e4ecf7">{label}</text><path class="accent" d="M5 23H{width-5}" stroke="{color}" stroke-width="1"/></svg>'''
+    (OUT/f'badge-{slug}.svg').write_text(badge)
