@@ -16,8 +16,18 @@ CSS += """
 @keyframes glint{0%,25%,100%{opacity:.1}45%,65%{opacity:.8}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}.sonar,.scanline{display:none}}
 """
+CSS += """
+.edgeglow{stroke-dasharray:10 90;animation:edgeglow 9s linear infinite}.sheen{animation:sheen 11s ease-in-out infinite;opacity:0}.iconhalo{animation:iconhalo 5s ease-in-out infinite}.beacon{animation:beacon 4s ease-in-out infinite}.chevron{animation:chevron 3s ease-in-out infinite}.highlight{animation:highlight 6s ease-in-out infinite}
+@keyframes edgeglow{to{stroke-dashoffset:-100}}
+@keyframes sheen{0%,15%{transform:translateX(-200px);opacity:0}25%{opacity:.07}65%{transform:translateX(var(--travel));opacity:.07}75%,100%{transform:translateX(var(--travel));opacity:0}}
+@keyframes iconhalo{50%{opacity:.18}}
+@keyframes beacon{50%{opacity:.35}}
+@keyframes chevron{50%{transform:translateX(5px)}}
+@keyframes highlight{0%,100%{stroke-opacity:.2}50%{stroke-opacity:.8}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.sheen,.edgeglow{display:none}}
+"""
 def start(w,h,title,desc):
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc"><title id="title">{escape(title)}</title><desc id="desc">{escape(desc)}</desc><defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#163047" stroke-opacity=".3"/></pattern><radialGradient id="halo"><stop stop-color="#233759"/><stop offset="1" stop-color="#080e19"/></radialGradient></defs><style>{CSS}</style><rect width="{w}" height="{h}" rx="14" fill="#080e19"/><rect width="{w}" height="{h}" rx="14" fill="url(#grid)"/>'''
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc"><title id="title">{escape(title)}</title><desc id="desc">{escape(desc)}</desc><defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#163047" stroke-opacity=".3"/></pattern><radialGradient id="halo"><stop stop-color="#233759"/><stop offset="1" stop-color="#080e19"/></radialGradient><linearGradient id="sheen"><stop stop-color="#9de8d0" stop-opacity="0"/><stop offset=".5" stop-color="#d5eaff"/><stop offset="1" stop-color="#a5b5ff" stop-opacity="0"/></linearGradient><clipPath id="panelclip"><rect width="{w}" height="{h}" rx="14"/></clipPath></defs><style>{CSS}</style><rect width="{w}" height="{h}" rx="14" fill="#080e19"/><rect width="{w}" height="{h}" rx="14" fill="url(#grid)"/><g clip-path="url(#panelclip)" aria-hidden="true"><rect class="sheen" opacity="0" style="--travel:{w+200}px" x="-180" width="180" height="{h}" fill="url(#sheen)"/><rect class="edgeglow" x="1" y="1" width="{w-2}" height="{h-2}" rx="14" pathLength="100" stroke="#9de8d0" stroke-opacity=".55" fill="none"/></g>'''
 def txt(x,y,s,size=14,color='#a7b8ce',anchor='start'):
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" text-anchor="{anchor}">{escape(s)}</text>'
 def icon(kind,color):
@@ -29,7 +39,7 @@ def icon(kind,color):
     'runtime':'<path d="M0-30L27-15V15L0 30-27 15V-15ZM-27-15L0 0 27-15M0 0V30"/><path class="signal" d="M0-30V0L-27 15"/>',
     'evaluate':'<path d="M-28-27V27H30M-20 14L-8 2 4 8 25-16"/><circle cx="25" cy="-16" r="6"/><path d="M-20-20H5M-20-12H-4"/>',
     'proof':'<path d="M0-30L25-20V3Q25 22 0 32Q-25 22-25 3V-20ZM-12 0L-2 10 15-10"/>'}
-    art=shapes[kind]
+    art='<circle class="iconhalo" r="39" fill="currentColor" fill-opacity=".06" stroke="none"/>'+shapes[kind]
     if kind=='sense':
         art+='<circle class="sonar" r="25"/><circle class="sonar" style="animation-delay:-2s" r="25"/><g class="sweep"><path d="M0 0L29-18A34 34 0 0 1 34 0Z" fill="currentColor" fill-opacity=".2" stroke="none"/></g>'
     elif kind=='memory':
@@ -90,7 +100,8 @@ for index,(slug,name,role,sub,kind,color) in enumerate(projects):
     s=start(580,270,name,sub)
     s+=f'<path d="M20 20H48M20 20V48M560 250H532M560 250V222" fill="none" stroke="{color}"/>'
     s+=txt(32,43,f'0{index+1} / {role}',12,color)+txt(32,94,name,32,'#edf3ff')+txt(32,132,sub,12)
-    s+=txt(32,243,'EXPLORE PROJECT  ↗',12,color)
+    s+=txt(32,243,'EXPLORE PROJECT',12,color)
+    s+=f'<g transform="translate(183 237)"><path class="chevron" d="M-4-5L2 0-4 5M3-5L9 0 3 5" fill="none" stroke="{color}"/></g><path class="highlight" d="M32 105H208" stroke="{color}" stroke-width="2"/><circle class="beacon" cx="548" cy="32" r="3" fill="{color}"/>'
     s+=f'<g transform="translate(492 76)"><circle class="orbit" r="47" fill="none" stroke="{color}" stroke-opacity=".5" stroke-dasharray="25 9 2 9"/>'+icon(kind,color)+'</g>'
     # Decorative topology: layered routes, travelling highlights and phased nodes.
     s+=f'<g stroke="{color}" fill="none" opacity=".65"><path d="M34 194H120L148 170H240L270 204H380L408 178H548" stroke-opacity=".2"/><path class="route" style="animation-delay:-{index*.4}s" d="M34 194H120L148 170H240L270 204H380L408 178H548"/><path d="M34 211H166L192 187H320L348 221H548" stroke-opacity=".2"/>'
@@ -130,3 +141,9 @@ for i,(title,sub,kind,color) in enumerate([('MEMORY','Retain context','memory','
     if i<2:s+=f'<path class="route" d="M{x+350} 211H{x+395}" fill="none" stroke="{color}" stroke-width="2"/>'
 s+=txt(30,388,'Roles connect the story. Each project documents its own supported interfaces.',11)
 s+='</svg>';(OUT/'capability-cutaway.svg').write_text(s)
+
+# Small standalone icons can also be reused in other Markdown documents.
+for kind,color in [('sense','#f6a675'),('memory','#9de8d0'),('agents','#a5b5ff'),('runtime','#9de8d0'),('evaluate','#f6a675'),('proof','#a5b5ff')]:
+    s=start(112,112,kind+' capability icon','Decorative animated symbol. Does not indicate service status.')
+    s+='<g transform="translate(56 56)">'+icon(kind,color)+f'<g class="satellite"><circle cx="45" r="2" fill="{color}"/></g></g></svg>'
+    (OUT/f'icon-{kind}.svg').write_text(s)

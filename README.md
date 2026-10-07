@@ -66,6 +66,17 @@ Imagine a system that can observe a space, retain useful context, coordinate a r
 
 Pick a capability to explore its implementation, interfaces and examples.
 
+<p align="center">
+  <a href="https://github.com/ruvnet/RuView" title="Perceive"><img src="assets/ruvnet/icon-sense.svg" width="56" height="56" alt="Perceive" /></a>
+  <a href="https://github.com/ruvnet/RuVector" title="Remember"><img src="assets/ruvnet/icon-memory.svg" width="56" height="56" alt="Remember" /></a>
+  <a href="https://github.com/ruvnet/ruflo" title="Coordinate"><img src="assets/ruvnet/icon-agents.svg" width="56" height="56" alt="Coordinate" /></a>
+  <a href="https://github.com/ruvnet/rvm" title="Execute"><img src="assets/ruvnet/icon-runtime.svg" width="56" height="56" alt="Execute" /></a>
+  <a href="https://github.com/ruvnet/metaharness" title="Evaluate"><img src="assets/ruvnet/icon-evaluate.svg" width="56" height="56" alt="Evaluate" /></a>
+  <a href="https://github.com/ruvnet/autogenous" title="Adapt"><img src="assets/ruvnet/icon-proof.svg" width="56" height="56" alt="Adapt" /></a>
+</p>
+
+<p align="center"><sub>Perceive · Remember · Coordinate · Execute · Evaluate · Adapt</sub></p>
+
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/ruvnet/ruflo"><img src="assets/ruvnet/project-ruflo.svg" width="580" alt="Ruflo: coordinate agents, tasks and context. Explore the repository." /></a></td>
