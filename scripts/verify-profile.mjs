@@ -41,6 +41,26 @@ assert.equal(npm.monthly_downloads.length, 12);
 assert.equal(npm.monthly_downloads[0].month, npm.monthly_period_start.slice(0, 7));
 assert.equal(npm.monthly_downloads.at(-1).month, npm.monthly_period_end.slice(0, 7));
 if (npm.inventory_path) assert.equal(json(npm.inventory_path).packages.length, npm.package_count);
+if (npm.current_month) {
+  const partial = npm.current_month;
+  assert.ok(partial.month > npm.monthly_downloads.at(-1).month);
+  assert.equal(partial.period_start, partial.month + '-01');
+  assert.equal(partial.period_end.slice(0, 7), partial.month);
+  assert.ok(Number.isSafeInteger(partial.downloads) && partial.downloads >= 0);
+}
+if (npm.downloads_evidence_path) {
+  const receipt = json(npm.downloads_evidence_path);
+  assert.equal(receipt.packages.length, npm.download_package_count);
+  assert.equal(new Set(receipt.packages.map(p => p.package)).size, npm.download_package_count);
+  assert.equal(receipt.rolling_start, npm.period_start);
+  assert.equal(receipt.rolling_end, npm.period_end);
+  assert.equal(receipt.packages.reduce((sum, p) => sum + p.rolling_365_days, 0), npm.downloads);
+  assert.equal(receipt.daily_totals.filter(p => p.day >= npm.period_start && p.day <= npm.period_end).reduce((sum, p) => sum + p.downloads, 0), npm.downloads);
+  for (const row of [...npm.monthly_downloads, ...(npm.current_month ? [npm.current_month] : [])]) {
+    assert.equal(receipt.packages.reduce((sum, p) => sum + p.monthly_downloads[row.month], 0), row.downloads);
+    assert.equal(receipt.daily_totals.filter(p => p.day.startsWith(row.month)).reduce((sum, p) => sum + p.downloads, 0), row.downloads);
+  }
+}
 if (crates.inventory_path) {
   const list = json(crates.inventory_path).crates;
   assert.equal(list.length, crates.crate_count);

@@ -116,6 +116,7 @@ jobs:
 
           async function npmMonthlyDownloads(packages, start, end) {
             const totals = new Map();
+            let latestPositiveDay = null;
             const missing = [];
             let cursor = 0;
 
@@ -128,6 +129,7 @@ jobs:
                   missing.push(name);
                 } else {
                   for (const point of body.downloads) {
+                    if (Number(point.downloads) > 0 && (!latestPositiveDay || point.day > latestPositiveDay)) latestPositiveDay = point.day;
                     const month = point.day.slice(0, 7);
                     totals.set(month, (totals.get(month) || 0) + Number(point.downloads || 0));
                   }
@@ -145,7 +147,7 @@ jobs:
               rows.push({month, downloads: totals.get(month) || 0});
               cursorDate.setUTCMonth(cursorDate.getUTCMonth() + 1);
             }
-            return {rows, missing};
+            return {rows, missing, latestPositiveDay};
           }
 
           async function crateInventory() {
@@ -177,7 +179,7 @@ jobs:
 
             const npmPackages = await npmInventory();
             const npm = await npmDownloads(npmPackages, start, end);
-            const monthly = await npmMonthlyDownloads(npmPackages, chartStart, chartEnd);
+            const monthly = await npmMonthlyDownloads(npmPackages, chartStart, end);
             const crates = await crateInventory();
             const crateDownloads = crates.reduce((sum, crate) => sum + Number(crate.downloads || 0), 0);
 
@@ -201,7 +203,15 @@ jobs:
                 period_days: 365,
                 monthly_period_start: chartStart,
                 monthly_period_end: chartEnd,
-                monthly_downloads: monthly.rows,
+                monthly_downloads: monthly.rows.filter(row => row.month <= chartEnd.slice(0, 7)),
+                ...(monthly.latestPositiveDay > chartEnd ? {current_month: {
+                  month: monthly.latestPositiveDay.slice(0, 7),
+                  downloads: monthly.rows.find(row => row.month === monthly.latestPositiveDay.slice(0, 7)).downloads,
+                  period_start: monthly.latestPositiveDay.slice(0, 7) + '-01',
+                  period_end: monthly.latestPositiveDay,
+                  status: 'partial month; trailing all-zero days not treated as complete',
+                  verified_at: new Date().toISOString()
+                }} : {}),
                 counting_rule: 'Sum of npm point-download counts for the known maintainer-search set listing ruvnet, including scoped and platform packages.'
               },
               crates_io: {

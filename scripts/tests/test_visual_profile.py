@@ -13,6 +13,17 @@ visual=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(visual)
 
 class VisualProfileTest(unittest.TestCase):
+    def test_partial_month_is_counted_once_and_dated(self):
+        n=json.loads((ROOT/'data/registry-stats.json').read_text())['npm']
+        n['current_month']={'month':'2026-10','downloads':7654321,'period_end':'2026-10-05'}
+        rows=visual.chart_rows(n)
+        self.assertEqual(len(rows),13)
+        self.assertEqual(sum(x['downloads'] for x in rows),sum(x['downloads'] for x in n['monthly_downloads'])+7654321)
+        self.assertTrue(rows[-1]['partial'])
+        self.assertEqual(visual.chart_end(n),'2026-10-05')
+        n['current_month']['month']=n['monthly_downloads'][-1]['month']
+        with self.assertRaises(AssertionError):visual.chart_rows(n)
+
     def test_published_values_and_chart_refresh_together(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
@@ -27,6 +38,7 @@ class VisualProfileTest(unittest.TestCase):
                 r['npm']['downloads']=123456789
                 r['npm']['monthly_downloads'][-1]['downloads']=20000000
                 r['generated_at']='2026-11-05T00:00:00Z'
+                r['npm']['downloads_verified_at']='2026-11-05T00:00:00Z'
                 registry.write_text(json.dumps(r))
                 github=root/'data/github-stats.json';g=json.loads(github.read_text())
                 g['account']['followers']=12345
@@ -35,7 +47,7 @@ class VisualProfileTest(unittest.TestCase):
                 github.write_text(json.dumps(g));visual.render()
                 final=output.read_text();self.assertIn('123,456,789',final);self.assertNotIn('91,172,864',final)
                 growth=(root/'assets/ruvnet/npm-cumulative-growth.svg').read_text()
-                expected=sum(row['downloads'] for row in r['npm']['monthly_downloads'])
+                expected=sum(row['downloads'] for row in visual.chart_rows(r['npm']))
                 self.assertIn(f'{expected:,}',growth)
                 self.assertIn('not lifetime downloads',growth)
                 self.assertNotIn('91,172,864',growth)

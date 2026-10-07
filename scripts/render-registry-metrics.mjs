@@ -42,17 +42,19 @@ ${explanation} [Registry evidence](data/registry-stats.json) records both popula
 
 Package downloads include CI, reinstallations and platform packages. They do not establish unique users. The [weekly refresh](.github/workflows/refresh-registry-metrics.yml) updates these measurements from official APIs.`);
 const monthly = npm.monthly_downloads;
-const cumulative = monthly.reduce((sum, row) => sum + row.downloads, 0);
+const chartMonthly = npm.current_month ? [...monthly, {...npm.current_month, partial: true}] : monthly;
+const chartEnd = npm.current_month?.period_end || npm.monthly_period_end;
+const cumulative = chartMonthly.reduce((sum, row) => sum + row.downloads, 0);
 const multiple = monthly[0].downloads ? (monthly.at(-1).downloads / monthly[0].downloads).toFixed(1) : null;
 let running = 0;
-const history = monthly.map(row => `| ${row.month} | ${format(row.downloads)} | ${format(running += row.downloads)} |`).join('\n');
+const history = chartMonthly.map(row => `| ${row.month}${row.partial ? " (partial)" : ""} | ${format(row.downloads)} | ${format(running += row.downloads)} |`).join('\n');
 readme = replaceBlock(readme, 'registry-download-chart', `## npm download growth
 
 [![Animated cumulative npm downloads across the measured calendar months](assets/ruvnet/npm-cumulative-growth.svg)](data/registry-stats.json)
 
-**${format(cumulative)} download events** accumulated from **${npm.monthly_period_start} through ${npm.monthly_period_end}** across the verified **${format(cohort)} package cohort**.${multiple ? ` Monthly volume grew **${multiple} times**, comparing ${monthly[0].month} with ${monthly.at(-1).month}.` : ''}
+**${format(cumulative)} download events** accumulated from **${npm.monthly_period_start} through ${chartEnd}** across the verified **${format(cohort)} package cohort**.${multiple ? ` Complete month volume grew **${multiple} times**, comparing ${monthly[0].month} with ${monthly.at(-1).month}.` : ''}
 
-The curve sums measured monthly downloads on a linear scale. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **${downloadDate} UTC**.
+The curve sums measured monthly downloads on a linear scale.${npm.current_month ? ` The final month is partial, through **${chartEnd}**.` : ""} It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **${downloadDate} UTC**.
 
 <details>
 <summary>Inspect monthly downloads and cumulative totals</summary>

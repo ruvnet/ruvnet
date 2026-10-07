@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T05:57:34.350Z",
+  "generated_at": "2026-10-07T01:45:43.897220Z",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 398,
     "download_package_count": 398,
-    "inventory_verified_at": "2026-10-05T05:38:04.062Z",
-    "downloads_verified_at": "2026-10-05T05:57:34.350Z",
-    "downloads": 91172864,
-    "period_start": "2025-10-05",
-    "period_end": "2026-10-04",
+    "inventory_verified_at": "2026-10-07T01:45:43.897220Z",
+    "downloads_verified_at": "2026-10-07T01:45:43.897220Z",
+    "downloads": 93143654,
+    "period_start": "2025-10-06",
+    "period_end": "2026-10-05",
     "period_days": 365,
     "monthly_period_start": "2025-10-01",
     "monthly_period_end": "2026-09-30",
@@ -40,11 +40,11 @@
       },
       {
         "month": "2026-04",
-        "downloads": 6162357
+        "downloads": 6176221
       },
       {
         "month": "2026-05",
-        "downloads": 15580340
+        "downloads": 15967146
       },
       {
         "month": "2026-06",
@@ -63,7 +63,17 @@
         "downloads": 15120919
       }
     ],
-    "counting_rule": "Sum of npm point-download counts for the known maintainer-search set listing ruvnet, including scoped and platform packages."
+    "counting_rule": "Sum of official npm daily range counts across the verified 398-package maintainer cohort, including scoped and platform packages. Trailing all-zero cohort days are excluded as not yet confirmed complete.",
+    "inventory_path": "data/snapshots/2026-10-07/npm-inventory.json",
+    "downloads_evidence_path": "data/snapshots/2026-10-07/npm-downloads.json",
+    "current_month": {
+      "month": "2026-10",
+      "downloads": 3267087,
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-05",
+      "status": "partial month; trailing all-zero API days excluded",
+      "verified_at": "2026-10-07T01:45:43.897220Z"
+    }
   },
   "crates_io": {
     "user_id": 339999,

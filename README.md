@@ -216,14 +216,14 @@ Commit search and contribution graph totals were not recounted for this update. 
 | Measure | Verified value | Evidence date |
 | --- | ---: | --- |
 | Published registry and Hugging Face artifacts | at least 908 | Mixed dates below |
-| Known npm packages listing `ruvnet` as maintainer | at least 398 | 2026-10-05 UTC |
-| npm downloads, rolling 365 days (2025-10-05 through 2026-10-04) | 91,172,864 | 2026-10-05; 398 package cohort |
+| Known npm packages listing `ruvnet` as maintainer | at least 398 | 2026-10-07 UTC |
+| npm downloads, rolling 365 days (2025-10-06 through 2026-10-05) | 93,143,654 | 2026-10-07; 398 package cohort |
 | Rust crates owned by `ruvnet` | 480 | 2026-10-05 UTC |
 | Cumulative Rust crate downloads (verified 2026-10-05) | 1,774,282 | 2026-10-05 UTC |
 | Ownership verified PyPI packages | 8 | July 12, 2026; historical |
 | Hugging Face models, spaces, and datasets | 22 | July 12, 2026; historical |
 
-The npm inventory and download recount cover the same **398 package cohort**, verified **2026-10-05 UTC**. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
+The npm inventory and download recount cover the same **398 package cohort**, verified **2026-10-07 UTC**. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
 
 Package downloads include CI, reinstallations and platform packages. They do not establish unique users. The [weekly refresh](.github/workflows/refresh-registry-metrics.yml) updates these measurements from official APIs.
 <!-- package-public-metrics:end -->
@@ -234,9 +234,9 @@ Package downloads include CI, reinstallations and platform packages. They do not
 
 [![Animated cumulative npm downloads across the measured calendar months](assets/ruvnet/npm-cumulative-growth.svg)](data/registry-stats.json)
 
-**89,498,074 download events** accumulated from **2025-10-01 through 2026-09-30** across the verified **398 package cohort**. Monthly volume grew **50.6 times**, comparing 2025-10 with 2026-09.
+**93,165,831 download events** accumulated from **2025-10-01 through 2026-10-05** across the verified **398 package cohort**. Complete month volume grew **50.6 times**, comparing 2025-10 with 2026-09.
 
-The curve sums measured monthly downloads on a linear scale. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **2026-10-05 UTC**.
+The curve sums measured monthly downloads on a linear scale. The final month is partial, through **2026-10-05**. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **2026-10-07 UTC**.
 
 <details>
 <summary>Inspect monthly downloads and cumulative totals</summary>
@@ -249,12 +249,13 @@ The curve sums measured monthly downloads on a linear scale. It is cumulative wi
 | 2026-01 | 1,672,584 | 2,803,161 |
 | 2026-02 | 1,970,435 | 4,773,596 |
 | 2026-03 | 4,889,360 | 9,662,956 |
-| 2026-04 | 6,162,357 | 15,825,313 |
-| 2026-05 | 15,580,340 | 31,405,653 |
-| 2026-06 | 14,465,413 | 45,871,066 |
-| 2026-07 | 14,825,512 | 60,696,578 |
-| 2026-08 | 13,680,577 | 74,377,155 |
-| 2026-09 | 15,120,919 | 89,498,074 |
+| 2026-04 | 6,176,221 | 15,839,177 |
+| 2026-05 | 15,967,146 | 31,806,323 |
+| 2026-06 | 14,465,413 | 46,271,736 |
+| 2026-07 | 14,825,512 | 61,097,248 |
+| 2026-08 | 13,680,577 | 74,777,825 |
+| 2026-09 | 15,120,919 | 89,898,744 |
+| 2026-10 (partial) | 3,267,087 | 93,165,831 |
 
 </details>
 
