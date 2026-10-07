@@ -168,8 +168,8 @@ for k in range(-10,11):
 for y in [245,258,276,301,334,376]:
     s+=f'<path d="M0 {y}H1200"/>'
 s+='</g>'
-for side,cx in enumerate([125,1075]):
-    s+=f'<g transform="translate({cx} 177)"><ellipse rx="139" ry="125" fill="url(#glow)"/><g transform="rotate(-24) scale(1 .38)"><circle r="141" fill="none" stroke="#50cbd6" stroke-opacity=".3"/><g class="orb"><circle cx="141" r="5" fill="#9af5e9"/><circle cx="-141" r="3" fill="#39c4d6"/></g></g>'
+for side,cx in enumerate([930]):
+    s+=f'<g transform="translate({cx} 177)"><ellipse rx="270" ry="195" fill="url(#glow)"/><g transform="rotate(-24) scale(1 .38)"><circle r="205" fill="none" stroke="#50cbd6" stroke-opacity=".65"/><g class="orb"><circle cx="205" r="5" fill="#9af5e9"/><circle cx="-205" r="3" fill="#39c4d6"/></g></g>'
     frames=[]
     for frame in range(25):
         angle=2*math.pi*frame/24+side*.6
@@ -177,26 +177,26 @@ for side,cx in enumerate([125,1075]):
         for x,y,z in [(-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)]:
             xx=x*math.cos(angle)+z*math.sin(angle);zz=-x*math.sin(angle)+z*math.cos(angle)
             yy=y*math.cos(.4)-zz*math.sin(.4);depth=y*math.sin(.4)+zz*math.cos(.4)
-            scale=60/(1+depth*.16);points.append((xx*scale,yy*scale))
+            scale=96/(1+depth*.16);points.append((xx*scale,yy*scale))
         frames.append(points)
     for animated in [True,False]:
         s+=f'<g class="{ "motion" if animated else "still"}">'
         for i,j in [(0,1),(1,2),(2,3),(3,0),(4,5),(5,6),(6,7),(7,4),(0,4),(1,5),(2,6),(3,7)]:
             values=[f'M{pts[i][0]:.2f} {pts[i][1]:.2f}L{pts[j][0]:.2f} {pts[j][1]:.2f}' for pts in frames]
-            s+=f'<path d="{values[0]}" stroke="#72dbde" stroke-opacity=".45" fill="none">'
-            if animated:s+=f'<animate attributeName="d" values="{ ";".join(values)}" dur="16s" repeatCount="indefinite"/>'
+            s+=f'<path d="{values[0]}" stroke="#72dbde" stroke-opacity=".85" stroke-width="1.5" fill="none">'
+            if animated:s+=f'<animate attributeName="d" values="{ ";".join(values)}" dur="8s" repeatCount="indefinite"/>'
             s+='</path>'
         for i in range(8):
             s+=f'<circle cx="{frames[0][i][0]:.2f}" cy="{frames[0][i][1]:.2f}" r="2.2" fill="#b0f8ed">'
             if animated:
                 for coord,axis in enumerate(['cx','cy']):
                     values=';'.join(f'{pts[i][coord]:.2f}' for pts in frames)
-                    s+=f'<animate attributeName="{axis}" values="{values}" dur="16s" repeatCount="indefinite"/>'
+                    s+=f'<animate attributeName="{axis}" values="{values}" dur="8s" repeatCount="indefinite"/>'
             s+='</circle>'
         s+='</g>'
     s+='</g>'
-for side in [0,1]:
-    x0=100 if side==0 else 1100
+for side in [1]:
+    x0=930
     s+=f'<g class="field" style="animation-delay:-{side*3}s">'
     for row in range(9):
         points=[]
@@ -209,5 +209,5 @@ for side in [0,1]:
         for col in range(0,13,3):
             x,y=points[col];s+=f'<circle class="dot" style="animation-delay:-{(row+col)*.3}s" cx="{x:.1f}" cy="{y:.1f}" r="1.5" fill="#8fe4dd" opacity=".45"/>'
     s+='</g>'
-s+='''</g><rect x="453" y="28" width="294" height="30" rx="15" fill="#08191f" stroke="#20505b"/><circle class="dot" cx="474" cy="43" r="3" fill="#71edce"/><text x="610" y="47" text-anchor="middle" font-size="11" letter-spacing="3" fill="#bdd4dc">COGNITUM ONE</text><text class="resolve" x="600" y="124" text-anchor="middle" font-size="52" font-weight="600" letter-spacing="-2" fill="#f0f8fa">Ambient Intelligence</text><text x="846" y="94" font-size="12" fill="#d7e6ec">™</text><text class="code mono" x="390" y="116" font-size="16" letter-spacing="10" fill="#8fe4dd">· : + · : · + : ·</text><text class="resolve" style="animation-delay:.16s" x="600" y="165" text-anchor="middle" font-size="23" fill="#a6bdc8">at the edge of the</text><text class="resolve" style="animation-delay:.32s" x="600" y="224" text-anchor="middle" font-size="56" font-weight="600" letter-spacing="-2" fill="url(#world)">Physical World</text><text class="mono" x="600" y="259" text-anchor="middle" font-size="11" letter-spacing="3" fill="#9ebbc7">PERCEPTION / MEMORY / ACTION</text><rect class="breathe" x="440" y="277" width="320" height="64" rx="17" fill="#44e4db" opacity=".12"/><rect x="449" y="284" width="302" height="52" rx="11" fill="url(#cta)"/><rect class="ctaline" x="449" y="284" width="302" height="52" rx="11" fill="none" stroke="#efffff" stroke-width="1.5"/><text x="586" y="317" text-anchor="middle" font-size="21" font-weight="700" fill="#05232c">Explore Cognitum</text><g transform="translate(714 310)"><circle r="16" fill="#062b35" fill-opacity=".12"/><path class="arrow" d="M-7 0H7M1-6L7 0 1 6" fill="none" stroke="#05232c" stroke-width="2"/></g><path d="M470 353H730" stroke="#19414a"/><path class="signal" d="M470 353H730" stroke="#6bdbdb"/></svg>'''
-(OUT/'cognitum-banner.svg').write_text(s)
+s+='''</g><rect x="60" y="28" width="294" height="30" rx="15" fill="#08191f" stroke="#20505b"/><circle class="dot" cx="81" cy="43" r="3" fill="#71edce"/><text x="207" y="47" text-anchor="middle" font-size="11" letter-spacing="3" fill="#bdd4dc">COGNITUM ONE</text><text class="resolve" x="60" y="124" text-anchor="start" font-size="50" font-weight="600" letter-spacing="-2" fill="#f0f8fa">Ambient Intelligence</text><text x="538" y="92" font-size="12" fill="#d7e6ec">™</text><text class="code mono" x="65" y="116" font-size="16" letter-spacing="10" fill="#8fe4dd">· : + · : · + : ·</text><text class="resolve" style="animation-delay:.16s" x="62" y="165" text-anchor="start" font-size="23" fill="#a6bdc8">at the edge of the</text><text class="resolve" style="animation-delay:.32s" x="60" y="224" text-anchor="start" font-size="56" font-weight="600" letter-spacing="-2" fill="url(#world)">Physical World</text><text class="mono" x="63" y="259" text-anchor="start" font-size="11" letter-spacing="3" fill="#9ebbc7">PERCEPTION / MEMORY / ACTION</text><rect class="breathe" x="51" y="277" width="378" height="64" rx="17" fill="#44e4db" opacity=".12"/><rect x="60" y="284" width="360" height="52" rx="11" fill="url(#cta)"/><rect class="ctaline" x="60" y="284" width="360" height="52" rx="11" fill="none" stroke="#efffff" stroke-width="1.5"/><text x="222" y="317" text-anchor="middle" font-size="21" font-weight="700" fill="#05232c">Build with Cognitum</text><g transform="translate(388 310)"><circle r="16" fill="#062b35" fill-opacity=".12"/><path class="arrow" d="M-7 0H7M1-6L7 0 1 6" fill="none" stroke="#05232c" stroke-width="2"/></g><path d="M60 353H420" stroke="#19414a"/><path class="signal" d="M60 353H420" stroke="#6bdbdb"/></svg>'''
+(OUT/'cognitum-banner-v2.svg').write_text(s)

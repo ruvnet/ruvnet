@@ -11,7 +11,7 @@
 
 [![rUv ecosystem dashboard: published npm downloads, GitHub reach, connected capabilities and two-snapshot project momentum](assets/ruvnet/dashboard.svg)](docs/visual-profile.md)
 
-[![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner.svg)](https://cognitum.one)
+[![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner-v2.svg)](https://cognitum.one)
 
 # rUv · Open source AI systems
 
