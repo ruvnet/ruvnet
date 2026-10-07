@@ -158,9 +158,43 @@ for index,(slug,label,width,color) in enumerate(badges):
 
 # Cognitum homepage hero adaptation, observed 2026-10-07.
 # Source: cognitum.one, Index-BtuD0syC.css and homepage hero text.
-s='''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc"><title id="title">Cognitum One: Ambient Intelligence at the edge of the Physical World</title><desc id="desc">Explore Cognitum One at cognitum.one. A homepage inspired banner with teal gradients, a dark atmosphere and animated signal fields.</desc><defs><radialGradient id="bg"><stop stop-color="#0b2c35"/><stop offset="1" stop-color="#030a10"/></radialGradient><linearGradient id="world" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a5efe4"/><stop offset=".6" stop-color="#19cddd"/><stop offset="1" stop-color="#4bc5e8"/></linearGradient><radialGradient id="glow"><stop stop-color="#19cddd" stop-opacity=".15"/><stop offset="1" stop-color="#19cddd" stop-opacity="0"/></radialGradient><clipPath id="clip"><rect x="1" y="1" width="1198" height="368" rx="16"/></clipPath></defs><style>
-text{font-family:Outfit,Inter,Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}.signal{stroke-dasharray:3 22;animation:signal 9s linear infinite}.field{animation:field 8s ease-in-out infinite;transform-origin:center}.resolve{animation:resolve 1.6s ease-out both}.dot{animation:dot 4s ease-in-out infinite}.arrow{animation:arrow 3s ease-in-out infinite}.code{opacity:0;animation:code 1.6s ease-out both}@keyframes signal{to{stroke-dashoffset:-150}}@keyframes field{50%{opacity:.5;transform:translateY(-6px)}}@keyframes resolve{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}@keyframes dot{50%{opacity:.25}}@keyframes arrow{50%{transform:translateX(4px)}}@keyframes code{0%,15%{opacity:0}25%,65%{opacity:.7}100%{opacity:0}}@media(prefers-reduced-motion:reduce){*{animation:none!important}.code{display:none}}
+s='''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc"><title id="title">Cognitum One: Ambient Intelligence at the edge of the Physical World</title><desc id="desc">Explore Cognitum One at cognitum.one. A homepage inspired banner with teal gradients, a dark atmosphere and animated signal fields.</desc><defs><radialGradient id="bg"><stop stop-color="#0b2c35"/><stop offset="1" stop-color="#030a10"/></radialGradient><linearGradient id="world" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a5efe4"/><stop offset=".6" stop-color="#19cddd"/><stop offset="1" stop-color="#4bc5e8"/></linearGradient><radialGradient id="glow"><stop stop-color="#19cddd" stop-opacity=".15"/><stop offset="1" stop-color="#19cddd" stop-opacity="0"/></radialGradient><linearGradient id="cta" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5fff0"/><stop offset="1" stop-color="#27cede"/></linearGradient><clipPath id="clip"><rect x="1" y="1" width="1198" height="368" rx="16"/></clipPath></defs><style>
+text{font-family:Outfit,Inter,Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}.signal{stroke-dasharray:3 22;animation:signal 9s linear infinite}.field{animation:field 8s ease-in-out infinite;transform-origin:center}.resolve{animation:resolve 1.6s ease-out both}.dot{animation:dot 4s ease-in-out infinite}.arrow{animation:arrow 3s ease-in-out infinite}.code{opacity:0;animation:code 1.6s ease-out both}@keyframes signal{to{stroke-dashoffset:-150}}@keyframes field{50%{opacity:.5;transform:translateY(-6px)}}@keyframes resolve{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}@keyframes dot{50%{opacity:.25}}@keyframes arrow{50%{transform:translateX(4px)}}@keyframes code{0%,15%{opacity:0}25%,65%{opacity:.7}100%{opacity:0}}.still{display:none}.frame{opacity:0;animation:frame 16s steps(1,end) infinite}.frame.first{opacity:1}.floor{animation:floor 8s linear infinite;transform-origin:600px 230px}.orb{animation:orbit3d 20s linear infinite;transform-origin:0 0}.breathe{animation:breathe 4s ease-in-out infinite}.ctaline{stroke-dasharray:45 620;animation:signal 6s linear infinite}@keyframes frame{0%,4.166%{opacity:1}4.167%,100%{opacity:0}}@keyframes floor{0%{transform:scaleY(.75);opacity:.1}50%{opacity:.3}100%{transform:scaleY(1.2);opacity:.1}}@keyframes orbit3d{to{transform:rotate(360deg)}}@keyframes breathe{50%{opacity:.4}}@media(prefers-reduced-motion:reduce){*{animation:none!important}.code,.motion{display:none}.still{display:inline}}
 </style><rect x=".5" y=".5" width="1199" height="369" rx="16" fill="url(#bg)" stroke="#17404b"/><g clip-path="url(#clip)"><ellipse cx="270" cy="170" rx="380" ry="280" fill="url(#glow)"/><ellipse cx="940" cy="240" rx="360" ry="240" fill="url(#glow)"/>'''
+# Perspective ground and preprojected rotating solids stay behind all text.
+s+='<g class="floor" stroke="#2c8d9d" fill="none" opacity=".2">'
+for k in range(-10,11):
+    s+=f'<path d="M{600+k*24} 230L{600+k*145} 390"/>'
+for y in [245,258,276,301,334,376]:
+    s+=f'<path d="M0 {y}H1200"/>'
+s+='</g>'
+for side,cx in enumerate([125,1075]):
+    s+=f'<g transform="translate({cx} 177)"><ellipse rx="139" ry="125" fill="url(#glow)"/><g transform="rotate(-24) scale(1 .38)"><circle r="141" fill="none" stroke="#50cbd6" stroke-opacity=".3"/><g class="orb"><circle cx="141" r="5" fill="#9af5e9"/><circle cx="-141" r="3" fill="#39c4d6"/></g></g>'
+    frames=[]
+    for frame in range(25):
+        angle=2*math.pi*frame/24+side*.6
+        points=[]
+        for x,y,z in [(-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)]:
+            xx=x*math.cos(angle)+z*math.sin(angle);zz=-x*math.sin(angle)+z*math.cos(angle)
+            yy=y*math.cos(.4)-zz*math.sin(.4);depth=y*math.sin(.4)+zz*math.cos(.4)
+            scale=60/(1+depth*.16);points.append((xx*scale,yy*scale))
+        frames.append(points)
+    for animated in [True,False]:
+        s+=f'<g class="{ "motion" if animated else "still"}">'
+        for i,j in [(0,1),(1,2),(2,3),(3,0),(4,5),(5,6),(6,7),(7,4),(0,4),(1,5),(2,6),(3,7)]:
+            values=[f'M{pts[i][0]:.2f} {pts[i][1]:.2f}L{pts[j][0]:.2f} {pts[j][1]:.2f}' for pts in frames]
+            s+=f'<path d="{values[0]}" stroke="#72dbde" stroke-opacity=".45" fill="none">'
+            if animated:s+=f'<animate attributeName="d" values="{ ";".join(values)}" dur="16s" repeatCount="indefinite"/>'
+            s+='</path>'
+        for i in range(8):
+            s+=f'<circle cx="{frames[0][i][0]:.2f}" cy="{frames[0][i][1]:.2f}" r="2.2" fill="#b0f8ed">'
+            if animated:
+                for coord,axis in enumerate(['cx','cy']):
+                    values=';'.join(f'{pts[i][coord]:.2f}' for pts in frames)
+                    s+=f'<animate attributeName="{axis}" values="{values}" dur="16s" repeatCount="indefinite"/>'
+            s+='</circle>'
+        s+='</g>'
+    s+='</g>'
 for side in [0,1]:
     x0=100 if side==0 else 1100
     s+=f'<g class="field" style="animation-delay:-{side*3}s">'
@@ -171,9 +205,9 @@ for side in [0,1]:
             y=180+(row-4)*20+math.sin(col*.55+row*.28)*22
             points.append((x,y))
         d='M'+'L'.join(f'{x:.1f} {y:.1f}' for x,y in points)
-        s+=f'<path d="{d}" fill="none" stroke="#35bfcb" stroke-opacity=".12"/><path class="signal" style="animation-delay:-{row*.4}s" d="{d}" fill="none" stroke="#9de8de" stroke-opacity=".38"/>'
+        s+=f'<path d="{d}" fill="none" stroke="#35bfcb" stroke-opacity=".06"/><path class="signal" style="animation-delay:-{row*.4}s" d="{d}" fill="none" stroke="#9de8de" stroke-opacity=".15"/>'
         for col in range(0,13,3):
             x,y=points[col];s+=f'<circle class="dot" style="animation-delay:-{(row+col)*.3}s" cx="{x:.1f}" cy="{y:.1f}" r="1.5" fill="#8fe4dd" opacity=".45"/>'
     s+='</g>'
-s+='''</g><rect x="453" y="28" width="294" height="30" rx="15" fill="#08191f" stroke="#20505b"/><circle class="dot" cx="474" cy="43" r="3" fill="#71edce"/><text x="610" y="47" text-anchor="middle" font-size="11" letter-spacing="3" fill="#bdd4dc">COGNITUM ONE</text><text class="resolve" x="600" y="124" text-anchor="middle" font-size="52" font-weight="600" letter-spacing="-2" fill="#f0f8fa">Ambient Intelligence</text><text x="846" y="94" font-size="12" fill="#d7e6ec">™</text><text class="code mono" x="390" y="116" font-size="16" letter-spacing="10" fill="#8fe4dd">· : + · : · + : ·</text><text class="resolve" style="animation-delay:.16s" x="600" y="165" text-anchor="middle" font-size="23" fill="#a6bdc8">at the edge of the</text><text class="resolve" style="animation-delay:.32s" x="600" y="224" text-anchor="middle" font-size="56" font-weight="600" letter-spacing="-2" fill="url(#world)">Physical World</text><text class="mono" x="600" y="259" text-anchor="middle" font-size="11" letter-spacing="3" fill="#9ebbc7">PERCEPTION / MEMORY / ACTION</text><rect x="485" y="286" width="230" height="46" rx="10" fill="#102e37" stroke="#36bbc8" stroke-opacity=".65"/><text x="588" y="315" text-anchor="middle" font-size="16" font-weight="500" fill="#dffaf6">Explore cognitum.one</text><g transform="translate(686 309)"><path class="arrow" d="M-7 0H7M1-6L7 0 1 6" fill="none" stroke="#8fe4dd" stroke-width="1.5"/></g><path d="M470 353H730" stroke="#19414a"/><path class="signal" d="M470 353H730" stroke="#6bdbdb"/></svg>'''
+s+='''</g><rect x="453" y="28" width="294" height="30" rx="15" fill="#08191f" stroke="#20505b"/><circle class="dot" cx="474" cy="43" r="3" fill="#71edce"/><text x="610" y="47" text-anchor="middle" font-size="11" letter-spacing="3" fill="#bdd4dc">COGNITUM ONE</text><text class="resolve" x="600" y="124" text-anchor="middle" font-size="52" font-weight="600" letter-spacing="-2" fill="#f0f8fa">Ambient Intelligence</text><text x="846" y="94" font-size="12" fill="#d7e6ec">™</text><text class="code mono" x="390" y="116" font-size="16" letter-spacing="10" fill="#8fe4dd">· : + · : · + : ·</text><text class="resolve" style="animation-delay:.16s" x="600" y="165" text-anchor="middle" font-size="23" fill="#a6bdc8">at the edge of the</text><text class="resolve" style="animation-delay:.32s" x="600" y="224" text-anchor="middle" font-size="56" font-weight="600" letter-spacing="-2" fill="url(#world)">Physical World</text><text class="mono" x="600" y="259" text-anchor="middle" font-size="11" letter-spacing="3" fill="#9ebbc7">PERCEPTION / MEMORY / ACTION</text><rect class="breathe" x="440" y="277" width="320" height="64" rx="17" fill="#44e4db" opacity=".12"/><rect x="449" y="284" width="302" height="52" rx="11" fill="url(#cta)"/><rect class="ctaline" x="449" y="284" width="302" height="52" rx="11" fill="none" stroke="#efffff" stroke-width="1.5"/><text x="586" y="317" text-anchor="middle" font-size="21" font-weight="700" fill="#05232c">Explore Cognitum</text><g transform="translate(714 310)"><circle r="16" fill="#062b35" fill-opacity=".12"/><path class="arrow" d="M-7 0H7M1-6L7 0 1 6" fill="none" stroke="#05232c" stroke-width="2"/></g><path d="M470 353H730" stroke="#19414a"/><path class="signal" d="M470 353H730" stroke="#6bdbdb"/></svg>'''
 (OUT/'cognitum-banner.svg').write_text(s)
