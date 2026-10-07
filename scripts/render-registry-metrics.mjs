@@ -42,21 +42,28 @@ ${explanation} [Registry evidence](data/registry-stats.json) records both popula
 
 Package downloads include CI, reinstallations and platform packages. They do not establish unique users. The [weekly refresh](.github/workflows/refresh-registry-metrics.yml) updates these measurements from official APIs.`);
 const monthly = npm.monthly_downloads;
-const labels = monthly.map(row => JSON.stringify(new Date(`${row.month}-01T00:00:00Z`).toLocaleString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }))).join(', ');
-const values = monthly.map(row => Number((row.downloads / 1e6).toFixed(3)));
+const cumulative = monthly.reduce((sum, row) => sum + row.downloads, 0);
+const multiple = monthly[0].downloads ? (monthly.at(-1).downloads / monthly[0].downloads).toFixed(1) : null;
+let running = 0;
+const history = monthly.map(row => `| ${row.month} | ${format(row.downloads)} | ${format(running += row.downloads)} |`).join('\n');
 readme = replaceBlock(readme, 'registry-download-chart', `## npm download growth
 
-Monthly downloads across the ${format(cohort)} package cohort verified ${downloadDate}. This dated series covers ${npm.monthly_period_start} through ${npm.monthly_period_end}; it is not extended beyond the measured window.
+[![Animated cumulative npm downloads across the measured calendar months](assets/ruvnet/npm-cumulative-growth.svg)](data/registry-stats.json)
 
-\`\`\`mermaid
-xychart-beta
-    title "rUv npm ecosystem: monthly downloads"
-    x-axis [${labels}]
-    y-axis "Downloads (millions)" 0 --> ${Math.max(1, Math.ceil(Math.max(...values)))}
-    line [${values.join(', ')}]
-\`\`\`
+**${format(cumulative)} download events** accumulated from **${npm.monthly_period_start} through ${npm.monthly_period_end}** across the verified **${format(cohort)} package cohort**.${multiple ? ` Monthly volume grew **${multiple} times**, comparing ${monthly[0].month} with ${monthly.at(-1).month}.` : ''}
 
-**Source:** official npm daily range API. Figures are millions of download events, including scoped, unscoped, and platform packages. Download events are not unique users.`);
+The curve sums measured monthly downloads on a linear scale. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **${downloadDate} UTC**.
+
+<details>
+<summary>Inspect monthly downloads and cumulative totals</summary>
+
+| Month | Monthly events | Cumulative events |
+| --- | ---: | ---: |
+${history}
+
+</details>
+
+**Source:** [published registry snapshot](data/registry-stats.json), collected from the official npm daily range API. Includes scoped, unscoped and platform packages. Download events include CI and reinstalls; they are not unique users.`);
 save('README.md', readme);
 let doc = read('docs/ruvnet-packages.md');
 doc = doc.replace(/Current inventory observed [^.]+\./, `Current inventory observed ${inventoryDate} UTC.`);

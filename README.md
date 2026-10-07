@@ -232,17 +232,33 @@ Package downloads include CI, reinstallations and platform packages. They do not
 <!-- registry-download-chart:start -->
 ## npm download growth
 
-Monthly downloads across the 398 package cohort verified 2026-10-05. This dated series covers 2025-10-01 through 2026-09-30; it is not extended beyond the measured window.
+[![Animated cumulative npm downloads across the measured calendar months](assets/ruvnet/npm-cumulative-growth.svg)](data/registry-stats.json)
 
-```mermaid
-xychart-beta
-    title "rUv npm ecosystem: monthly downloads"
-    x-axis ["Oct 2025", "Nov 2025", "Dec 2025", "Jan 2026", "Feb 2026", "Mar 2026", "Apr 2026", "May 2026", "Jun 2026", "Jul 2026", "Aug 2026", "Sep 2026"]
-    y-axis "Downloads (millions)" 0 --> 16
-    line [0.299, 0.401, 0.43, 1.673, 1.97, 4.889, 6.162, 15.58, 14.465, 14.826, 13.681, 15.121]
-```
+**89,498,074 download events** accumulated from **2025-10-01 through 2026-09-30** across the verified **398 package cohort**. Monthly volume grew **50.6 times**, comparing 2025-10 with 2026-09.
 
-**Source:** official npm daily range API. Figures are millions of download events, including scoped, unscoped, and platform packages. Download events are not unique users.
+The curve sums measured monthly downloads on a linear scale. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **2026-10-05 UTC**.
+
+<details>
+<summary>Inspect monthly downloads and cumulative totals</summary>
+
+| Month | Monthly events | Cumulative events |
+| --- | ---: | ---: |
+| 2025-10 | 299,028 | 299,028 |
+| 2025-11 | 401,442 | 700,470 |
+| 2025-12 | 430,107 | 1,130,577 |
+| 2026-01 | 1,672,584 | 2,803,161 |
+| 2026-02 | 1,970,435 | 4,773,596 |
+| 2026-03 | 4,889,360 | 9,662,956 |
+| 2026-04 | 6,162,357 | 15,825,313 |
+| 2026-05 | 15,580,340 | 31,405,653 |
+| 2026-06 | 14,465,413 | 45,871,066 |
+| 2026-07 | 14,825,512 | 60,696,578 |
+| 2026-08 | 13,680,577 | 74,377,155 |
+| 2026-09 | 15,120,919 | 89,498,074 |
+
+</details>
+
+**Source:** [published registry snapshot](data/registry-stats.json), collected from the official npm daily range API. Includes scoped, unscoped and platform packages. Download events include CI and reinstalls; they are not unique users.
 <!-- registry-download-chart:end -->
 
 ![An ecosystem in motion](assets/ruvnet/evolution.svg)

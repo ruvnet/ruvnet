@@ -34,6 +34,11 @@ class VisualProfileTest(unittest.TestCase):
                     if entry['name']=='ruflo':entry['stars']=70000
                 github.write_text(json.dumps(g));visual.render()
                 final=output.read_text();self.assertIn('123,456,789',final);self.assertNotIn('91,172,864',final)
+                growth=(root/'assets/ruvnet/npm-cumulative-growth.svg').read_text()
+                expected=sum(row['downloads'] for row in r['npm']['monthly_downloads'])
+                self.assertIn(f'{expected:,}',growth)
+                self.assertIn('not lifetime downloads',growth)
+                self.assertNotIn('91,172,864',growth)
                 self.assertIn('12,345',final);self.assertIn('2026-11-05',final)
                 self.assertIn('70,000 ★',final);self.assertIn('-1,415 stars',final)
                 ns={'s':visual.NS}
