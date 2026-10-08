@@ -15,12 +15,14 @@ spec.loader.exec_module(visual)
 class VisualProfileTest(unittest.TestCase):
     def test_partial_month_is_counted_once_and_dated(self):
         n=json.loads((ROOT/'data/registry-stats.json').read_text())['npm']
-        n['current_month']={'month':'2026-10','downloads':7654321,'period_end':'2026-10-05'}
+        year,month=map(int,n['monthly_downloads'][-1]['month'].split('-'))
+        next_month=f'{year+(month==12):04d}-{month%12+1:02d}'
+        n['current_month']={'month':next_month,'downloads':7654321,'period_end':next_month+'-05'}
         rows=visual.chart_rows(n)
-        self.assertEqual(len(rows),13)
+        self.assertEqual(len(rows),len(n['monthly_downloads'])+1)
         self.assertEqual(sum(x['downloads'] for x in rows),sum(x['downloads'] for x in n['monthly_downloads'])+7654321)
         self.assertTrue(rows[-1]['partial'])
-        self.assertEqual(visual.chart_end(n),'2026-10-05')
+        self.assertEqual(visual.chart_end(n),next_month+'-05')
         n['current_month']['month']=n['monthly_downloads'][-1]['month']
         with self.assertRaises(AssertionError):visual.chart_rows(n)
 

@@ -36,8 +36,10 @@ assert.equal(metrics.counts.rust_crate_downloads_cumulative, crates.cumulative_d
 assert.equal(metrics.counts.published_registry_and_huggingface_artifacts_minimum, npm.package_count + crates.crate_count + metrics.counts.pypi_packages + metrics.counts.huggingface_models_and_spaces);
 assert.equal(metrics.current_windows.npm_downloads_rolling_365_days, npm.downloads);
 assert.equal(metrics.current_windows.npm_download_package_count, npm.download_package_count);
+assert.equal(npm.monthly_period_start, '2025-10-01', 'Keep the milestone cumulative start fixed');
 assert.equal((Date.parse(npm.period_end) - Date.parse(npm.period_start)) / 86400000 + 1, 365);
-assert.equal(npm.monthly_downloads.length, 12);
+const monthIndex = value => Number(value.slice(0, 4)) * 12 + Number(value.slice(5, 7));
+assert.equal(npm.monthly_downloads.length, monthIndex(npm.monthly_period_end) - monthIndex(npm.monthly_period_start) + 1);
 assert.equal(npm.monthly_downloads[0].month, npm.monthly_period_start.slice(0, 7));
 assert.equal(npm.monthly_downloads.at(-1).month, npm.monthly_period_end.slice(0, 7));
 if (npm.inventory_path) assert.equal(json(npm.inventory_path).packages.length, npm.package_count);
@@ -54,8 +56,31 @@ if (npm.downloads_evidence_path) {
   assert.equal(new Set(receipt.packages.map(p => p.package)).size, npm.download_package_count);
   assert.equal(receipt.rolling_start, npm.period_start);
   assert.equal(receipt.rolling_end, npm.period_end);
+  assert.equal(receipt.reported_through, npm.period_end);
+  assert.equal(receipt.daily_totals.filter(row => row.downloads > 0).at(-1).day, npm.period_end, 'Do not advance beyond reported cohort activity');
   assert.equal(receipt.packages.reduce((sum, p) => sum + p.rolling_365_days, 0), npm.downloads);
   assert.equal(receipt.daily_totals.filter(p => p.day >= npm.period_start && p.day <= npm.period_end).reduce((sum, p) => sum + p.downloads, 0), npm.downloads);
+  if (receipt.incremental_evidence_path) {
+    const delta = json(receipt.incremental_evidence_path);
+    const baseline = json(receipt.baseline_path);
+    assert.equal(delta.baseline_path, receipt.baseline_path);
+    assert.equal(delta.package_count, npm.download_package_count);
+    assert.equal(delta.responses.length, npm.download_package_count);
+    assert.deepEqual(delta.responses.map(row => row.package).sort(), receipt.packages.map(row => row.package).sort());
+    assert.equal(delta.downloads, 0, 'This retained-baseline audit supports zero deltas only');
+    assert.equal(Date.parse(delta.period_start), Date.parse(baseline.reported_through) + 86400000);
+    assert.equal(delta.period_end, receipt.requested_end);
+    assert.equal(receipt.reported_through, baseline.reported_through);
+    assert.deepEqual(receipt.packages, baseline.packages, 'Retained package evidence must equal its baseline');
+    for (const row of delta.responses) {
+      assert.equal(row.downloads, 0);
+      assert.equal(row.period_start, delta.period_start);
+      assert.equal(row.period_end, delta.period_end);
+      assert.match(row.source, /^https:\/\/api\.npmjs\.org\/downloads\/(?:point|range)\//);
+      assert.match(row.response_sha256, /^[0-9a-f]{64}$/);
+    }
+    assert.ok(receipt.daily_totals.filter(row => row.day >= delta.period_start).every(row => row.downloads === 0));
+  }
   for (const row of [...npm.monthly_downloads, ...(npm.current_month ? [npm.current_month] : [])]) {
     assert.equal(receipt.packages.reduce((sum, p) => sum + p.monthly_downloads[row.month], 0), row.downloads);
     assert.equal(receipt.daily_totals.filter(p => p.day.startsWith(row.month)).reduce((sum, p) => sum + p.downloads, 0), row.downloads);

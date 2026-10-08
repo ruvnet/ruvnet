@@ -22,9 +22,11 @@ function replaceBlock(text, name, body) {
   if (!expression.test(text)) throw new Error(`Missing ${name} markers`);
   return text.replace(expression, `<!-- ${name}:start -->\n${body}\n<!-- ${name}:end -->`);
 }
-const explanation = retained
+const explanation = npm.incremental_check
+  ? `The same **${format(cohort)} package cohort** was checked **${date(npm.incremental_check.verified_at)} UTC**. The **${date(npm.incremental_check.baseline_verified_at)} historical baseline** is retained after official zero-download checks for **${npm.incremental_check.period_start} through ${npm.incremental_check.period_end}**. The measured-through date remains **${npm.period_end}**; trailing all-zero API days are not treated as complete.`
+  : retained
   ? `The current npm inventory contains **${format(npm.package_count)} packages**. Download evidence retains its **${downloadDate}** verification date and **${format(cohort)} package cohort**. The newer download refresh was unavailable; no extrapolation is applied.`
-  : `The npm inventory and download recount cover the same **${format(cohort)} package cohort**, verified **${downloadDate} UTC**.`;
+  : `The npm inventory and download evidence cover the same **${format(cohort)} package cohort**, verified **${downloadDate} UTC**.`;
 let readme = read('README.md');
 readme = replaceBlock(readme, 'package-public-metrics', `## Package distribution
 
