@@ -1036,3 +1036,8 @@ View all 82 crates at [crates.io/users/ruvnet](https://crates.io/users/ruvnet)
 </details>
 
 [Back to the constellation](#explore-the-constellation) · [Browse all repositories](https://github.com/ruvnet?tab=repositories) · [Read the source guide](docs/visual-profile.md)
+
+
+### Daily ecosystem statistics
+
+[Latest ecosystem report](docs/ecosystem-metrics.md) · [Running totals and coverage](data/ecosystem-running-totals.json)

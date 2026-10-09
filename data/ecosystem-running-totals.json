@@ -1,0 +1,1328 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-10-09T11:55:54.172981+00:00",
+  "github": {
+    "verified_at": "2026-10-09T11:53:27.579192+00:00",
+    "followers": 11721,
+    "all_owned": {
+      "repositories": 222,
+      "stars": 187952,
+      "forks": 25162,
+      "open_issues_and_prs": 2516,
+      "archived": 0
+    },
+    "nonfork": {
+      "repositories": 196,
+      "stars": 187692,
+      "forks": 25084,
+      "open_issues_and_prs": 2507,
+      "archived": 0
+    },
+    "top_repositories": [
+      {
+        "name": "RuView",
+        "stars": 97006,
+        "forks": 12749
+      },
+      {
+        "name": "ruflo",
+        "stars": 74171,
+        "forks": 8815
+      },
+      {
+        "name": "RuVector",
+        "stars": 4555,
+        "forks": 609
+      },
+      {
+        "name": "agentic-flow",
+        "stars": 819,
+        "forks": 178
+      },
+      {
+        "name": "metaharness",
+        "stars": 694,
+        "forks": 88
+      },
+      {
+        "name": "Bot-Generator-Bot",
+        "stars": 585,
+        "forks": 125
+      },
+      {
+        "name": "open-claude-code",
+        "stars": 517,
+        "forks": 164
+      },
+      {
+        "name": "sparc",
+        "stars": 477,
+        "forks": 90
+      },
+      {
+        "name": "rUv-dev",
+        "stars": 428,
+        "forks": 81
+      },
+      {
+        "name": "ruv-FANN",
+        "stars": 385,
+        "forks": 109
+      }
+    ],
+    "clones": null,
+    "views": null,
+    "traffic_status": "Unavailable: connected GitHub interface lacks traffic permission",
+    "source": "https://api.github.com/users/ruvnet/repos?type=owner&per_page=100",
+    "coverage": "All public owned repositories, pagination reconciled to public_repos"
+  },
+  "activity": {
+    "issues_opened": {
+      "count": 206,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20created%3A2026-09-25..2026-10-08",
+      "incomplete_results": false
+    },
+    "issues_closed": {
+      "count": 156,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20closed%3A2026-09-25..2026-10-08",
+      "incomplete_results": false
+    },
+    "prs_opened": {
+      "count": 685,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20created%3A2026-09-25..2026-10-08",
+      "incomplete_results": false
+    },
+    "prs_merged": {
+      "count": 461,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20merged%3A2026-09-25..2026-10-08",
+      "incomplete_results": false
+    },
+    "verified_at": "2026-10-09T11:53:45.842060+00:00"
+  },
+  "npm": {
+    "period_start": "2026-09-25",
+    "period_end": "2026-10-08",
+    "observed_downloads": 3098208,
+    "expected_packages": 398,
+    "collected_packages": 110,
+    "errors": [
+      {
+        "package": "@cognitum/ruos",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@dream-machine/compile",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@dream-machine/ledger",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@dream-machine/memory",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@dream-machine/schedule",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@dream-machine/witness",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@foxruv/cf-doctor",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@foxruv/e2b-runner",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@foxruv/iris",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@foxruv/iris-agentic-synth",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@foxruv/iris-core",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@foxruv/iris-ultrathink",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@foxruv/nova-medicina",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/agntcy",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/avo",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/aws-finops",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/claude-code",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/codex",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/coding",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/copilot",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/darwin",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/devops",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/education",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-ads",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-aws",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-azure",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-bio",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-datadog",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-fhir",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-gcp",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-github",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-huggingface",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-iot",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-nasa",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-pinecone",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-qiskit",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-slack",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-stripe",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-supabase",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-twilio",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/example-web3",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/field-memory",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/flywheel",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/gaming",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/github-actions",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/harness",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/hermes",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/horizon",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-claude-code",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-codex",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-copilot",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-github-actions",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-hermes",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-openclaw",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-opencode",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-pi-dev",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-prime-agent",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/host-rvm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/jujutsu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/kernel",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/legal",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/oo-agents",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/openclaw",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/opencode",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/pi-dev",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/projects",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/radio",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/redblue",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/repo-maintainer",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/research",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/router",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/rvm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/sales",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/sdk",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/support",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/trading",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/turn-credit",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/vertical-base",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/vertical-trading",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/weight-eft",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/workspace-lens",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@metaharness/workspace-probe",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/agentic-accounting-agents",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/agentic-accounting-cli",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/agentic-accounting-core",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/agentic-accounting-mcp",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/agentic-accounting-rust-core",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/agentic-accounting-types",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/backend",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/backtesting",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/benchoptimizer",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/brokers",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/core",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/e2b-strategies",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/example-dynamic-pricing",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/example-energy-forecasting",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/mcp",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/mcp-protocol",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/neural",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/neuro-divergent",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/news-trading",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/portfolio",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/prediction-markets",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/predictor",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/risk",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/sports-betting",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/strategies",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@neural-trader/syndicate",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@qudag/cli",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@qudag/mcp-sse",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@qudag/mcp-stdio",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@qudag/napi-core",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruv/rvcsi",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruv/sparc-ui",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/acorn-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/agentic-integration",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/agentic-synth",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/agentic-synth-examples",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention-unified-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/attention-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/burst-scaling",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/cli",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/cluster",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/cnn",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/core",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/diskann",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/diskann-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/diskann-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/diskann-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/diskann-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/diskann-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/economy-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/edge",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/edge-full",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/edge-net",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/emergent-time",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/exotic-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/gnn",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-node-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-node-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-node-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer-linux-arm64-musl",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer-linux-x64-musl",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-transformer-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/graph-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/kge",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/kge-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/kge-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/kge-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/kge-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/kge-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/learning-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/math-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/mincut-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/nervous-system-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/neural-trader-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/node",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/node-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/node-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/node-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/node-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/node-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ospipe",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ospipe-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/pi-brain",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/postgres-cli",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rabitq-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/raft",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/replication",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ruvllm-cli",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ruvllm-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ruvllm-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ruvllm-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ruvllm-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ruvllm-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/ruvllm-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvagent-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvdna",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-mcp-server",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-node",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-node-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-node-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-node-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-node-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-node-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-solver",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvf-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvforge",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/rvlite",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/scipix",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/server",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona-linux-x64-musl",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona-win32-arm64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/sona-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/spiking-neural",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-linux-arm64-musl",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-linux-x64-musl",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-win32-arm64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/tiny-dancer-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/typesafe",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/typesafe-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/typesafe-darwin-x64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/typesafe-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/typesafe-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/typesafe-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvector/wasm-unified",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/agent-harness-generator",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/bmssp",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/open-claude-code",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/ruvector-verified-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/ruview",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/ruview-kernel",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/ruvn",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/rvagent",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "@ruvnet/strange-loop",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "agent-booster",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "bmssp-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "claude-flow",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "claude-flow-v3",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "cogmusic",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "consciousness-explorer",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "create-sparc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "cuda-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "dream-machine",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "dspy.ts",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "flow-nexus",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "goalie",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "homecore",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "lean-agentic",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "llm-stream-reformat",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "metaharness",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "midstreamer",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "neural-trader",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "prime-radiant-advanced-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "psycho-symbolic-integration",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "psycho-symbolic-reasoner",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "qudag",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "radio-moe",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "research-swarm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "rucelium-harness",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruflo",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruflo-graph-intelligence",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "rulake-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "rupixel",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruv-swarm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvbot",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvdrone",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-attention-unified-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-attention-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-core",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-core-darwin-arm64",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-core-linux-arm64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-core-linux-x64-gnu",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-core-win32-x64-msvc",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-extensions",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-gnn-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-graph-transformer-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-mragent",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-onnx-embeddings-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-sona",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "ruvector-wasm",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "wifi-densepose-sar-harness",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "package": "worldgraphs",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "daily": {
+      "2026-09-25": 178889,
+      "2026-09-26": 211237,
+      "2026-09-27": 381738,
+      "2026-09-28": 397236,
+      "2026-09-29": 397440,
+      "2026-09-30": 180792,
+      "2026-10-01": 204370,
+      "2026-10-02": 206896,
+      "2026-10-03": 205574,
+      "2026-10-04": 179039,
+      "2026-10-05": 281594,
+      "2026-10-06": 0,
+      "2026-10-07": 273403,
+      "2026-10-08": 0
+    },
+    "note": "Observed API values; recent zero days may reflect reporting delay. Not lifetime downloads."
+  },
+  "crates_io": {
+    "crate_count": 480,
+    "cumulative_downloads": 1803303,
+    "verified_at": "2026-10-09T11:55:42.347527+00:00",
+    "source": "https://crates.io/api/v1/crates?user_id=339999"
+  },
+  "release_assets": {
+    "coverage": "Five flagship repositories only",
+    "repositories": [
+      {
+        "repository": "RuView",
+        "subscribers": 871,
+        "release_count": 349,
+        "release_asset_downloads": 105075
+      },
+      {
+        "repository": "ruflo",
+        "error": "HTTP Error 422: Unprocessable Entity"
+      },
+      {
+        "repository": "RuVector",
+        "subscribers": 36,
+        "release_count": 47,
+        "release_asset_downloads": 767
+      },
+      {
+        "repository": "agentic-flow",
+        "subscribers": 14,
+        "release_count": 25,
+        "release_asset_downloads": 0
+      },
+      {
+        "repository": "metaharness",
+        "subscribers": 3,
+        "release_count": 4,
+        "release_asset_downloads": 0
+      }
+    ]
+  },
+  "uncollected": [
+    "All-repository subscribers, release assets, commits, contributors and Actions statistics"
+  ],
+  "validation": {
+    "github_pagination_reconciled": true,
+    "ledger_unique_keys": 1540,
+    "replay_idempotent": true,
+    "daily_reconciliation": true
+  }
+}
