@@ -86,7 +86,7 @@
     "note": "Latest pushed_at is repository metadata, not a commit count or full push-event history. Current public inventory only."
   },
   "current_collection": {
-    "verified_at": "2026-10-09T11:53:27.579192+00:00",
+    "verified_at": "2026-10-09T12:14:43.561449+00:00",
     "followers": 11721,
     "all_owned": {
       "repositories": 222,
@@ -181,6 +181,57 @@
       "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20merged%3A2026-09-25..2026-10-08",
       "incomplete_results": false
     },
-    "verified_at": "2026-10-09T11:53:45.842060+00:00"
+    "verified_at": "2026-10-09T12:16:32.611500+00:00"
+  },
+  "release_assets": {
+    "coverage": "All 222 public owned repositories",
+    "releases": 2333,
+    "published_in_14_day_window": 47,
+    "current_asset_downloads": 108022,
+    "retained_observed_downloads": 108022,
+    "retained_missing_assets": 0,
+    "source": "https://api.github.com/repos/{owner}/{repo}/releases",
+    "subscribers": 1759
+  },
+  "actions_last_14_complete_utc_days": {
+    "window_start": "2026-09-25",
+    "window_end": "2026-10-08",
+    "repositories": 222,
+    "runs": 6230,
+    "api_reported_total_runs": 7730,
+    "complete_repositories": 221,
+    "incomplete_repositories": [
+      {
+        "repository": "ruvnet/ruflo",
+        "collected": 1000,
+        "api_total": 2500,
+        "error": "Daily query exceeded 1000"
+      }
+    ],
+    "conclusions": {
+      "success": 4284,
+      "failure": 706,
+      "cancelled": 462,
+      "action_required": 753,
+      "pending": 11,
+      "skipped": 14
+    },
+    "statuses": {
+      "completed": 6219,
+      "queued": 11
+    },
+    "counting_rule": "Unique workflow run IDs created during the UTC window; repeat attempts are not additional runs."
+  },
+  "current_open_items": {
+    "open_issues": {
+      "count": 1467,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20is%3Aopen%20is%3Apublic",
+      "checked_at": "2026-10-09T12:19:30.822Z"
+    },
+    "open_prs": {
+      "count": 1047,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20is%3Aopen%20is%3Apublic",
+      "checked_at": "2026-10-09T12:19:31.525Z"
+    }
   }
 }

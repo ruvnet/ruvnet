@@ -1,0 +1,2299 @@
+{
+  "summary": {
+    "verified_at": "2026-10-09T12:14:43.561449+00:00",
+    "followers": 11721,
+    "all_owned": {
+      "repositories": 222,
+      "stars": 187952,
+      "forks": 25162,
+      "open_issues_and_prs": 2516,
+      "archived": 0
+    },
+    "nonfork": {
+      "repositories": 196,
+      "stars": 187692,
+      "forks": 25084,
+      "open_issues_and_prs": 2507,
+      "archived": 0
+    },
+    "top_repositories": [
+      {
+        "name": "RuView",
+        "stars": 97006,
+        "forks": 12749
+      },
+      {
+        "name": "ruflo",
+        "stars": 74171,
+        "forks": 8815
+      },
+      {
+        "name": "RuVector",
+        "stars": 4555,
+        "forks": 609
+      },
+      {
+        "name": "agentic-flow",
+        "stars": 819,
+        "forks": 178
+      },
+      {
+        "name": "metaharness",
+        "stars": 694,
+        "forks": 88
+      },
+      {
+        "name": "Bot-Generator-Bot",
+        "stars": 585,
+        "forks": 125
+      },
+      {
+        "name": "open-claude-code",
+        "stars": 517,
+        "forks": 164
+      },
+      {
+        "name": "sparc",
+        "stars": 477,
+        "forks": 90
+      },
+      {
+        "name": "rUv-dev",
+        "stars": 428,
+        "forks": 81
+      },
+      {
+        "name": "ruv-FANN",
+        "stars": 385,
+        "forks": 109
+      }
+    ],
+    "clones": null,
+    "views": null,
+    "traffic_status": "Unavailable: connected GitHub interface lacks traffic permission",
+    "source": "https://api.github.com/users/ruvnet/repos?type=owner&per_page=100",
+    "coverage": "All public owned repositories, pagination reconciled to public_repos"
+  },
+  "repositories": [
+    {
+      "id": 619229217,
+      "full_name": "ruvnet/2BotTalk",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 16,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-26T18:53:33Z"
+    },
+    {
+      "id": 984296555,
+      "full_name": "ruvnet/Agent-Name-Service",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 82,
+      "forks_count": 24,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-10T23:30:08Z"
+    },
+    {
+      "id": 1283378037,
+      "full_name": "ruvnet/AgentBBS",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 32,
+      "forks_count": 6,
+      "open_issues_count": 8,
+      "pushed_at": "2026-09-27T15:12:56Z"
+    },
+    {
+      "id": 1078622207,
+      "full_name": "ruvnet/agentdb",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 91,
+      "forks_count": 14,
+      "open_issues_count": 12,
+      "pushed_at": "2026-07-30T00:59:01Z"
+    },
+    {
+      "id": 819037008,
+      "full_name": "ruvnet/agentic-artifacts",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 15,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-24T14:36:38Z"
+    },
+    {
+      "id": 812429497,
+      "full_name": "ruvnet/agentic-capacity-exchange",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 13,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-08T21:54:11Z"
+    },
+    {
+      "id": 817456735,
+      "full_name": "ruvnet/agentic-dashboard",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 7,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-19T18:50:40Z"
+    },
+    {
+      "id": 812839960,
+      "full_name": "ruvnet/agentic-devops",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 53,
+      "forks_count": 29,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-11T01:35:05Z"
+    },
+    {
+      "id": 981399488,
+      "full_name": "ruvnet/agentic-difusion",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 39,
+      "forks_count": 14,
+      "open_issues_count": 0,
+      "pushed_at": "2025-05-12T14:49:46Z"
+    },
+    {
+      "id": 800184784,
+      "full_name": "ruvnet/agentic-employment",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 57,
+      "forks_count": 11,
+      "open_issues_count": 1,
+      "pushed_at": "2024-06-26T23:03:47Z"
+    },
+    {
+      "id": 851311691,
+      "full_name": "ruvnet/agentic-flow",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 819,
+      "forks_count": 178,
+      "open_issues_count": 112,
+      "pushed_at": "2026-09-16T04:15:35Z"
+    },
+    {
+      "id": 848347123,
+      "full_name": "ruvnet/agentic-flows",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 4,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2024-08-27T15:41:11Z"
+    },
+    {
+      "id": 819980375,
+      "full_name": "ruvnet/agentic-gradio",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 6,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-25T15:00:23Z"
+    },
+    {
+      "id": 842623977,
+      "full_name": "ruvnet/agentic-music",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2024-08-14T18:17:36Z"
+    },
+    {
+      "id": 868123090,
+      "full_name": "ruvnet/agentic-preview",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 14,
+      "forks_count": 8,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-11T04:47:21Z"
+    },
+    {
+      "id": 809063199,
+      "full_name": "ruvnet/agentic-reports",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 53,
+      "forks_count": 8,
+      "open_issues_count": 3,
+      "pushed_at": "2026-09-11T01:36:53Z"
+    },
+    {
+      "id": 833274917,
+      "full_name": "ruvnet/agentic-robotics",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 39,
+      "forks_count": 10,
+      "open_issues_count": 1,
+      "pushed_at": "2026-05-23T08:38:51Z"
+    },
+    {
+      "id": 875277219,
+      "full_name": "ruvnet/agentic-scraper",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 11,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-21T13:55:55Z"
+    },
+    {
+      "id": 867836348,
+      "full_name": "ruvnet/agentic-search",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 44,
+      "forks_count": 16,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-10T23:31:10Z"
+    },
+    {
+      "id": 882495346,
+      "full_name": "ruvnet/agentic-security",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 50,
+      "forks_count": 22,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T09:32:46Z"
+    },
+    {
+      "id": 810916651,
+      "full_name": "ruvnet/agentic-voice",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 126,
+      "forks_count": 37,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-10T23:30:03Z"
+    },
+    {
+      "id": 1283237512,
+      "full_name": "ruvnet/agenticow",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 55,
+      "forks_count": 8,
+      "open_issues_count": 2,
+      "pushed_at": "2026-07-04T02:08:52Z"
+    },
+    {
+      "id": 979049359,
+      "full_name": "ruvnet/agentics-meetup",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2025-05-06T23:21:50Z"
+    },
+    {
+      "id": 857931457,
+      "full_name": "ruvnet/agenticsjs",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 33,
+      "forks_count": 7,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-25T05:10:15Z"
+    },
+    {
+      "id": 1386371040,
+      "full_name": "ruvnet/agents-of-the-dawm",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 1,
+      "forks_count": 1,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-25T00:54:27Z"
+    },
+    {
+      "id": 731670597,
+      "full_name": "ruvnet/agentX",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 5,
+      "forks_count": 2,
+      "open_issues_count": 1,
+      "pushed_at": "2023-12-14T15:59:47Z"
+    },
+    {
+      "id": 823829047,
+      "full_name": "ruvnet/agentXNG",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 16,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2024-07-05T14:46:15Z"
+    },
+    {
+      "id": 802231174,
+      "full_name": "ruvnet/agileagents",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 45,
+      "forks_count": 18,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-27T15:14:34Z"
+    },
+    {
+      "id": 915335945,
+      "full_name": "ruvnet/ai-browse",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 6,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2025-01-11T15:29:57Z"
+    },
+    {
+      "id": 616735458,
+      "full_name": "ruvnet/Ai-Code-Generator-",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 13,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-21T19:37:07Z"
+    },
+    {
+      "id": 805862950,
+      "full_name": "ruvnet/ai-gist",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 17,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-26T05:10:16Z"
+    },
+    {
+      "id": 804527908,
+      "full_name": "ruvnet/ai-stream",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-24T04:18:25Z"
+    },
+    {
+      "id": 1335501129,
+      "full_name": "ruvnet/ai-text-watermark",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 29,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2026-08-16T02:57:24Z"
+    },
+    {
+      "id": 805379818,
+      "full_name": "ruvnet/ai-video",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 47,
+      "forks_count": 11,
+      "open_issues_count": 1,
+      "pushed_at": "2024-05-24T14:05:55Z"
+    },
+    {
+      "id": 915460172,
+      "full_name": "ruvnet/AiCodeCalc",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 17,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2025-01-12T16:46:18Z"
+    },
+    {
+      "id": 618981247,
+      "full_name": "ruvnet/AIConverse",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 6,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-25T22:48:12Z"
+    },
+    {
+      "id": 889077096,
+      "full_name": "ruvnet/aido",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 39,
+      "forks_count": 19,
+      "open_issues_count": 1,
+      "pushed_at": "2024-11-15T19:24:58Z"
+    },
+    {
+      "id": 797438402,
+      "full_name": "ruvnet/AiHCC",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 25,
+      "forks_count": 3,
+      "open_issues_count": 1,
+      "pushed_at": "2024-05-07T23:38:08Z"
+    },
+    {
+      "id": 856434892,
+      "full_name": "ruvnet/aihl",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 20,
+      "forks_count": 10,
+      "open_issues_count": 6,
+      "pushed_at": "2024-11-13T19:07:59Z"
+    },
+    {
+      "id": 615841397,
+      "full_name": "ruvnet/aiscreenplay",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 18,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-18T20:44:27Z"
+    },
+    {
+      "id": 616756123,
+      "full_name": "ruvnet/AiToml",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 69,
+      "forks_count": 12,
+      "open_issues_count": 1,
+      "pushed_at": "2023-03-21T05:20:18Z"
+    },
+    {
+      "id": 1038254139,
+      "full_name": "ruvnet/alienator",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 17,
+      "forks_count": 7,
+      "open_issues_count": 0,
+      "pushed_at": "2025-08-14T22:54:45Z"
+    },
+    {
+      "id": 876865121,
+      "full_name": "ruvnet/anthropic-quickstarts",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 8,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-22T17:09:03Z"
+    },
+    {
+      "id": 617725600,
+      "full_name": "ruvnet/AP-Casper",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 2,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-23T16:46:29Z"
+    },
+    {
+      "id": 1361369515,
+      "full_name": "ruvnet/APx",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2026-09-08T13:20:05Z"
+    },
+    {
+      "id": 626087952,
+      "full_name": "ruvnet/ARCADIA",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 56,
+      "forks_count": 17,
+      "open_issues_count": 0,
+      "pushed_at": "2025-10-20T23:47:48Z"
+    },
+    {
+      "id": 919539952,
+      "full_name": "ruvnet/auto-browser",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 100,
+      "forks_count": 27,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-10T23:31:45Z"
+    },
+    {
+      "id": 629146052,
+      "full_name": "ruvnet/Auto-GPT",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2023-04-17T18:05:18Z"
+    },
+    {
+      "id": 1335586813,
+      "full_name": "ruvnet/autogenous",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 38,
+      "forks_count": 6,
+      "open_issues_count": 3,
+      "pushed_at": "2026-09-16T01:58:33Z"
+    },
+    {
+      "id": 801575814,
+      "full_name": "ruvnet/aws-dev",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 22,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-20T21:50:26Z"
+    },
+    {
+      "id": 1346512473,
+      "full_name": "ruvnet/batvu",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 7,
+      "forks_count": 1,
+      "open_issues_count": 2,
+      "pushed_at": "2026-08-26T12:09:44Z"
+    },
+    {
+      "id": 622702308,
+      "full_name": "ruvnet/Bot-Generator-Bot",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 585,
+      "forks_count": 125,
+      "open_issues_count": 4,
+      "pushed_at": "2026-09-11T02:08:49Z"
+    },
+    {
+      "id": 1338398968,
+      "full_name": "ruvnet/buzz",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2026-08-18T15:00:24Z"
+    },
+    {
+      "id": 620451943,
+      "full_name": "ruvnet/chatgpt-aws-price-list-plugin",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-28T18:01:37Z"
+    },
+    {
+      "id": 1056356904,
+      "full_name": "ruvnet/chatgpt-dev-mode",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 28,
+      "forks_count": 11,
+      "open_issues_count": 8,
+      "pushed_at": "2025-09-13T23:11:14Z"
+    },
+    {
+      "id": 631334034,
+      "full_name": "ruvnet/chatgpt-openai-api-plugin",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 148,
+      "forks_count": 25,
+      "open_issues_count": 1,
+      "pushed_at": "2023-05-02T01:48:25Z"
+    },
+    {
+      "id": 618254924,
+      "full_name": "ruvnet/ChatGPT-Trading-Bot-for-KuCoin",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 23,
+      "forks_count": 7,
+      "open_issues_count": 1,
+      "pushed_at": "2023-03-24T04:22:48Z"
+    },
+    {
+      "id": 618120669,
+      "full_name": "ruvnet/chatgpt_plugin_python",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 97,
+      "forks_count": 16,
+      "open_issues_count": 1,
+      "pushed_at": "2023-03-23T20:10:05Z"
+    },
+    {
+      "id": 620402851,
+      "full_name": "ruvnet/chatgpt_tatum_plugin",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 12,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-28T16:32:58Z"
+    },
+    {
+      "id": 1000843936,
+      "full_name": "ruvnet/claude-test",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 13,
+      "forks_count": 13,
+      "open_issues_count": 1,
+      "pushed_at": "2025-06-24T21:06:29Z"
+    },
+    {
+      "id": 1020477827,
+      "full_name": "ruvnet/code-mesh",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 39,
+      "forks_count": 12,
+      "open_issues_count": 20,
+      "pushed_at": "2025-10-27T04:43:52Z"
+    },
+    {
+      "id": 806230014,
+      "full_name": "ruvnet/codecraft",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 12,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-26T20:10:41Z"
+    },
+    {
+      "id": 629112358,
+      "full_name": "ruvnet/CodeGPT",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 5,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2023-04-17T16:49:26Z"
+    },
+    {
+      "id": 981400212,
+      "full_name": "ruvnet/codespaces-jupyter",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 5,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2025-03-26T14:44:55Z"
+    },
+    {
+      "id": 985967042,
+      "full_name": "ruvnet/codex-one",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 28,
+      "forks_count": 7,
+      "open_issues_count": 2,
+      "pushed_at": "2025-05-19T23:51:16Z"
+    },
+    {
+      "id": 719309040,
+      "full_name": "ruvnet/coding-wingman",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 28,
+      "forks_count": 11,
+      "open_issues_count": 0,
+      "pushed_at": "2023-11-16T15:40:49Z"
+    },
+    {
+      "id": 1223865123,
+      "full_name": "ruvnet/cognitum-claude-plugin",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2026-04-29T15:51:49Z"
+    },
+    {
+      "id": 1218407270,
+      "full_name": "ruvnet/Connectome-OS",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 10,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2026-04-23T04:24:36Z"
+    },
+    {
+      "id": 619302736,
+      "full_name": "ruvnet/console-streamer",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-26T20:53:26Z"
+    },
+    {
+      "id": 874866335,
+      "full_name": "ruvnet/contextual-retrevial",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-18T15:50:52Z"
+    },
+    {
+      "id": 1282455349,
+      "full_name": "ruvnet/CVE-bench",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 25,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-27T22:35:21Z"
+    },
+    {
+      "id": 611963846,
+      "full_name": "ruvnet/daa",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 255,
+      "forks_count": 45,
+      "open_issues_count": 1,
+      "pushed_at": "2026-05-23T09:01:49Z"
+    },
+    {
+      "id": 457397459,
+      "full_name": "ruvnet/dapp-list",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 8,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2022-02-28T15:33:27Z"
+    },
+    {
+      "id": 902504854,
+      "full_name": "ruvnet/deco",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 5,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2024-12-12T17:39:12Z"
+    },
+    {
+      "id": 879506175,
+      "full_name": "ruvnet/demo-proxy-app",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 5,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-28T04:48:06Z"
+    },
+    {
+      "id": 1174785116,
+      "full_name": "ruvnet/Dossier",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 36,
+      "forks_count": 9,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T07:51:28Z"
+    },
+    {
+      "id": 1333521428,
+      "full_name": "ruvnet/dream-machine",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 37,
+      "forks_count": 11,
+      "open_issues_count": 57,
+      "pushed_at": "2026-10-09T09:36:21Z"
+    },
+    {
+      "id": 1004611295,
+      "full_name": "ruvnet/dreamfactory",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 11,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2025-06-19T04:09:30Z"
+    },
+    {
+      "id": 860500846,
+      "full_name": "ruvnet/drupal",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 4,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-20T16:14:40Z"
+    },
+    {
+      "id": 857531313,
+      "full_name": "ruvnet/drupaljs",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 39,
+      "forks_count": 5,
+      "open_issues_count": 3,
+      "pushed_at": "2026-06-04T13:35:29Z"
+    },
+    {
+      "id": 937189446,
+      "full_name": "ruvnet/dspy.ts",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 272,
+      "forks_count": 36,
+      "open_issues_count": 6,
+      "pushed_at": "2026-05-23T09:30:38Z"
+    },
+    {
+      "id": 972900319,
+      "full_name": "ruvnet/dynamo-mcp",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 54,
+      "forks_count": 15,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-11T01:37:04Z"
+    },
+    {
+      "id": 861069130,
+      "full_name": "ruvnet/Electo1",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 7,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-22T00:24:41Z"
+    },
+    {
+      "id": 861767217,
+      "full_name": "ruvnet/electo1-js",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 14,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-23T14:52:37Z"
+    },
+    {
+      "id": 1341949270,
+      "full_name": "ruvnet/Event-Horizon",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2026-08-21T15:37:29Z"
+    },
+    {
+      "id": 1280708204,
+      "full_name": "ruvnet/experiments",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 7,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-25T21:34:32Z"
+    },
+    {
+      "id": 989009933,
+      "full_name": "ruvnet/FACT",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 182,
+      "forks_count": 45,
+      "open_issues_count": 3,
+      "pushed_at": "2026-05-23T07:27:49Z"
+    },
+    {
+      "id": 894546491,
+      "full_name": "ruvnet/federated-mcp",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 65,
+      "forks_count": 18,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-10T23:28:29Z"
+    },
+    {
+      "id": 871349080,
+      "full_name": "ruvnet/fireflies-webook",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 22,
+      "forks_count": 7,
+      "open_issues_count": 1,
+      "pushed_at": "2024-11-01T17:14:11Z"
+    },
+    {
+      "id": 1044433672,
+      "full_name": "ruvnet/flow-nexus",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 106,
+      "forks_count": 26,
+      "open_issues_count": 21,
+      "pushed_at": "2025-09-10T22:44:36Z"
+    },
+    {
+      "id": 987841928,
+      "full_name": "ruvnet/GenAI-Superstream",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 62,
+      "forks_count": 20,
+      "open_issues_count": 0,
+      "pushed_at": "2025-05-22T20:33:47Z"
+    },
+    {
+      "id": 906025473,
+      "full_name": "ruvnet/genesis",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 45,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2025-09-05T15:23:05Z"
+    },
+    {
+      "id": 725751420,
+      "full_name": "ruvnet/gpts",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 304,
+      "forks_count": 78,
+      "open_issues_count": 1,
+      "pushed_at": "2024-07-18T20:35:05Z"
+    },
+    {
+      "id": 1342337511,
+      "full_name": "ruvnet/Group-Field-Theory",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 4,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2026-08-22T02:08:28Z"
+    },
+    {
+      "id": 726953186,
+      "full_name": "ruvnet/guardrail",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 155,
+      "forks_count": 28,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-10T23:30:06Z"
+    },
+    {
+      "id": 921222359,
+      "full_name": "ruvnet/hacker-league",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 33,
+      "forks_count": 12,
+      "open_issues_count": 0,
+      "pushed_at": "2025-02-06T17:43:37Z"
+    },
+    {
+      "id": 1282401255,
+      "full_name": "ruvnet/hackerone",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 19,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-29T14:34:22Z"
+    },
+    {
+      "id": 1410298366,
+      "full_name": "ruvnet/harness-sdk",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2026-10-08T12:31:13Z"
+    },
+    {
+      "id": 1280870466,
+      "full_name": "ruvnet/helix",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 48,
+      "forks_count": 9,
+      "open_issues_count": 0,
+      "pushed_at": "2026-08-04T01:51:41Z"
+    },
+    {
+      "id": 933871971,
+      "full_name": "ruvnet/hello_world_agent",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 99,
+      "forks_count": 30,
+      "open_issues_count": 0,
+      "pushed_at": "2025-03-08T23:19:24Z"
+    },
+    {
+      "id": 857356910,
+      "full_name": "ruvnet/hft",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 4,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-14T12:50:11Z"
+    },
+    {
+      "id": 972126418,
+      "full_name": "ruvnet/image-agent",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2025-04-25T18:09:58Z"
+    },
+    {
+      "id": 859638565,
+      "full_name": "ruvnet/infinity-ui",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 10,
+      "forks_count": 7,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-19T02:55:56Z"
+    },
+    {
+      "id": 913374812,
+      "full_name": "ruvnet/inflight",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 45,
+      "forks_count": 12,
+      "open_issues_count": 0,
+      "pushed_at": "2025-01-09T17:33:12Z"
+    },
+    {
+      "id": 1337850913,
+      "full_name": "ruvnet/LatentMesh",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 26,
+      "forks_count": 3,
+      "open_issues_count": 9,
+      "pushed_at": "2026-09-16T13:02:38Z"
+    },
+    {
+      "id": 855431037,
+      "full_name": "ruvnet/llamastack",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 45,
+      "forks_count": 13,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-10T22:07:55Z"
+    },
+    {
+      "id": 1335580282,
+      "full_name": "ruvnet/llm-stream-reformat",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 20,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2026-08-17T13:36:17Z"
+    },
+    {
+      "id": 879004447,
+      "full_name": "ruvnet/local-logic",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 16,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-29T03:33:24Z"
+    },
+    {
+      "id": 1133661421,
+      "full_name": "ruvnet/marketing",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 129,
+      "forks_count": 44,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T07:58:57Z"
+    },
+    {
+      "id": 809205250,
+      "full_name": "ruvnet/markov-chains",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 12,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-02T03:21:22Z"
+    },
+    {
+      "id": 1374840839,
+      "full_name": "ruvnet/mcp-studio",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 2,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2026-09-18T01:11:19Z"
+    },
+    {
+      "id": 1268611404,
+      "full_name": "ruvnet/metaharness",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 694,
+      "forks_count": 88,
+      "open_issues_count": 147,
+      "pushed_at": "2026-10-09T11:46:30Z"
+    },
+    {
+      "id": 812442828,
+      "full_name": "ruvnet/micro-agent",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 15,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-08T23:12:35Z"
+    },
+    {
+      "id": 913037731,
+      "full_name": "ruvnet/midstream",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 149,
+      "forks_count": 39,
+      "open_issues_count": 39,
+      "pushed_at": "2026-09-27T15:13:02Z"
+    },
+    {
+      "id": 1352771956,
+      "full_name": "ruvnet/minitoo-control",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-01T07:13:02Z"
+    },
+    {
+      "id": 1358318728,
+      "full_name": "ruvnet/MoE-Foundry",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 14,
+      "forks_count": 1,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-05T15:56:20Z"
+    },
+    {
+      "id": 1203401573,
+      "full_name": "ruvnet/musica",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 60,
+      "forks_count": 14,
+      "open_issues_count": 8,
+      "pushed_at": "2026-08-19T21:20:10Z"
+    },
+    {
+      "id": 1102727757,
+      "full_name": "ruvnet/musicai",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 29,
+      "forks_count": 13,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T08:38:47Z"
+    },
+    {
+      "id": 924786226,
+      "full_name": "ruvnet/nova",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 42,
+      "forks_count": 21,
+      "open_issues_count": 0,
+      "pushed_at": "2025-01-31T02:54:40Z"
+    },
+    {
+      "id": 1216319430,
+      "full_name": "ruvnet/obsidian-brain",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 32,
+      "forks_count": 16,
+      "open_issues_count": 1,
+      "pushed_at": "2026-05-23T07:49:51Z"
+    },
+    {
+      "id": 904888428,
+      "full_name": "ruvnet/omnipotent",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 24,
+      "forks_count": 8,
+      "open_issues_count": 1,
+      "pushed_at": "2025-03-04T17:43:44Z"
+    },
+    {
+      "id": 937678230,
+      "full_name": "ruvnet/onnx-agent",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 25,
+      "forks_count": 6,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-11T01:40:59Z"
+    },
+    {
+      "id": 984124806,
+      "full_name": "ruvnet/open-agentics",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 11,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2025-05-15T00:45:04Z"
+    },
+    {
+      "id": 938364389,
+      "full_name": "ruvnet/open-claude-code",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 517,
+      "forks_count": 164,
+      "open_issues_count": 7,
+      "pushed_at": "2026-10-09T03:25:51Z"
+    },
+    {
+      "id": 812283125,
+      "full_name": "ruvnet/open-space",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 15,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-08T13:49:01Z"
+    },
+    {
+      "id": 709350456,
+      "full_name": "ruvnet/openai-cost-estimator",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 15,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2023-10-24T15:10:31Z"
+    },
+    {
+      "id": 614493411,
+      "full_name": "ruvnet/openai_devops",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 71,
+      "forks_count": 5,
+      "open_issues_count": 1,
+      "pushed_at": "2023-03-15T21:14:16Z"
+    },
+    {
+      "id": 1343123502,
+      "full_name": "ruvnet/openAVO",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 18,
+      "forks_count": 1,
+      "open_issues_count": 1,
+      "pushed_at": "2026-08-22T20:02:31Z"
+    },
+    {
+      "id": 629202990,
+      "full_name": "ruvnet/p2pGPT",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 7,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2023-04-17T20:55:14Z"
+    },
+    {
+      "id": 621509821,
+      "full_name": "ruvnet/paris",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 34,
+      "forks_count": 8,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-30T20:47:53Z"
+    },
+    {
+      "id": 879914841,
+      "full_name": "ruvnet/phoenix",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-28T19:09:46Z"
+    },
+    {
+      "id": 958021178,
+      "full_name": "ruvnet/phone-agent",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 19,
+      "forks_count": 9,
+      "open_issues_count": 0,
+      "pushed_at": "2025-04-04T16:11:29Z"
+    },
+    {
+      "id": 1272987676,
+      "full_name": "ruvnet/PhotonLayer",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 21,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-18T18:01:09Z"
+    },
+    {
+      "id": 805910025,
+      "full_name": "ruvnet/pipackager",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 12,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-26T05:42:47Z"
+    },
+    {
+      "id": 601361596,
+      "full_name": "ruvnet/powerprompt",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 22,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2023-02-15T05:18:49Z"
+    },
+    {
+      "id": 635967510,
+      "full_name": "ruvnet/Prompt-Engine",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 91,
+      "forks_count": 17,
+      "open_issues_count": 1,
+      "pushed_at": "2023-05-03T23:18:12Z"
+    },
+    {
+      "id": 615759203,
+      "full_name": "ruvnet/promptlang",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 136,
+      "forks_count": 16,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-10T23:28:22Z"
+    },
+    {
+      "id": 805880888,
+      "full_name": "ruvnet/pygentic",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 29,
+      "forks_count": 10,
+      "open_issues_count": 0,
+      "pushed_at": "2024-06-01T17:43:00Z"
+    },
+    {
+      "id": 805630609,
+      "full_name": "ruvnet/q-space",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 11,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-26T13:33:22Z"
+    },
+    {
+      "id": 723067454,
+      "full_name": "ruvnet/q-star",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 96,
+      "forks_count": 26,
+      "open_issues_count": 5,
+      "pushed_at": "2024-01-31T15:43:27Z"
+    },
+    {
+      "id": 968651953,
+      "full_name": "ruvnet/quantum-magnetic-navigation",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 52,
+      "forks_count": 22,
+      "open_issues_count": 1,
+      "pushed_at": "2025-04-18T14:48:07Z"
+    },
+    {
+      "id": 1036078467,
+      "full_name": "ruvnet/Quantum-Virtual-Machine",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 17,
+      "forks_count": 7,
+      "open_issues_count": 1,
+      "pushed_at": "2025-08-11T19:07:58Z"
+    },
+    {
+      "id": 901362641,
+      "full_name": "ruvnet/quantum_cryptocurrency",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 27,
+      "forks_count": 9,
+      "open_issues_count": 1,
+      "pushed_at": "2024-12-10T21:21:38Z"
+    },
+    {
+      "id": 1002704385,
+      "full_name": "ruvnet/QuDAG",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 198,
+      "forks_count": 63,
+      "open_issues_count": 7,
+      "pushed_at": "2026-09-26T07:01:49Z"
+    },
+    {
+      "id": 783492334,
+      "full_name": "ruvnet/r-flow",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 7,
+      "forks_count": 3,
+      "open_issues_count": 1,
+      "pushed_at": "2024-04-08T02:10:22Z"
+    },
+    {
+      "id": 902079934,
+      "full_name": "ruvnet/reflective-engineer",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 58,
+      "forks_count": 18,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-11T01:35:08Z"
+    },
+    {
+      "id": 1281267214,
+      "full_name": "ruvnet/Repo-Explainer",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 20,
+      "forks_count": 2,
+      "open_issues_count": 1,
+      "pushed_at": "2026-06-27T14:48:05Z"
+    },
+    {
+      "id": 1284096753,
+      "full_name": "ruvnet/retort",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 8,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-29T14:19:36Z"
+    },
+    {
+      "id": 617471514,
+      "full_name": "ruvnet/retro-ai-ui",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 16,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2024-04-06T15:52:31Z"
+    },
+    {
+      "id": 1361350545,
+      "full_name": "ruvnet/rGi",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 2,
+      "forks_count": 1,
+      "open_issues_count": 4,
+      "pushed_at": "2026-09-09T02:02:25Z"
+    },
+    {
+      "id": 972415370,
+      "full_name": "ruvnet/Roo-Code-Docs",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2025-04-25T03:55:09Z"
+    },
+    {
+      "id": 961418967,
+      "full_name": "ruvnet/roomodes",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 12,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2025-04-06T13:37:58Z"
+    },
+    {
+      "id": 1320225472,
+      "full_name": "ruvnet/RuCelium",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 35,
+      "forks_count": 4,
+      "open_issues_count": 2,
+      "pushed_at": "2026-08-02T13:57:55Z"
+    },
+    {
+      "id": 1353952562,
+      "full_name": "ruvnet/ruClip",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 19,
+      "forks_count": 5,
+      "open_issues_count": 53,
+      "pushed_at": "2026-10-09T08:32:34Z"
+    },
+    {
+      "id": 1200513662,
+      "full_name": "ruvnet/rudevolution",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 151,
+      "forks_count": 30,
+      "open_issues_count": 3,
+      "pushed_at": "2026-10-09T12:07:14Z"
+    },
+    {
+      "id": 1268921937,
+      "full_name": "ruvnet/rufield",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 38,
+      "forks_count": 6,
+      "open_issues_count": 8,
+      "pushed_at": "2026-09-28T21:04:30Z"
+    },
+    {
+      "id": 995029641,
+      "full_name": "ruvnet/ruflo",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 74171,
+      "forks_count": 8815,
+      "open_issues_count": 1012,
+      "pushed_at": "2026-10-09T06:25:01Z"
+    },
+    {
+      "id": 1354097838,
+      "full_name": "ruvnet/RuForecast",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2026-09-03T14:38:00Z"
+    },
+    {
+      "id": 1220060237,
+      "full_name": "ruvnet/RuLake",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 14,
+      "forks_count": 9,
+      "open_issues_count": 4,
+      "pushed_at": "2026-10-02T19:16:29Z"
+    },
+    {
+      "id": 1366750859,
+      "full_name": "ruvnet/rultra",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 0,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-16T15:25:54Z"
+    },
+    {
+      "id": 859936201,
+      "full_name": "ruvnet/runme",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-19T14:40:42Z"
+    },
+    {
+      "id": 1352005291,
+      "full_name": "ruvnet/ruos",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 13,
+      "forks_count": 4,
+      "open_issues_count": 1,
+      "pushed_at": "2026-08-31T04:54:49Z"
+    },
+    {
+      "id": 1213884774,
+      "full_name": "ruvnet/ruos-macair",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 10,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2026-04-18T03:23:17Z"
+    },
+    {
+      "id": 1381872479,
+      "full_name": "ruvnet/ruPet",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2026-09-22T16:05:09Z"
+    },
+    {
+      "id": 1280664963,
+      "full_name": "ruvnet/rupixel",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 44,
+      "forks_count": 8,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-26T15:47:45Z"
+    },
+    {
+      "id": 1272534358,
+      "full_name": "ruvnet/ruqu",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 11,
+      "forks_count": 3,
+      "open_issues_count": 7,
+      "pushed_at": "2026-10-03T02:59:23Z"
+    },
+    {
+      "id": 982299299,
+      "full_name": "ruvnet/ruv-code",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 13,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2025-05-14T15:23:53Z"
+    },
+    {
+      "id": 782143036,
+      "full_name": "ruvnet/rUv-dev",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 428,
+      "forks_count": 81,
+      "open_issues_count": 6,
+      "pushed_at": "2026-05-23T08:10:05Z"
+    },
+    {
+      "id": 1271486548,
+      "full_name": "ruvnet/ruv-drone",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 29,
+      "forks_count": 4,
+      "open_issues_count": 2,
+      "pushed_at": "2026-09-16T21:11:20Z"
+    },
+    {
+      "id": 864539613,
+      "full_name": "ruvnet/ruv-engineer",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 14,
+      "forks_count": 8,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-28T15:00:16Z"
+    },
+    {
+      "id": 795528441,
+      "full_name": "ruvnet/rUv-Enterprise-AI-Guide",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 94,
+      "forks_count": 19,
+      "open_issues_count": 2,
+      "pushed_at": "2024-05-03T18:54:22Z"
+    },
+    {
+      "id": 1009254201,
+      "full_name": "ruvnet/ruv-FANN",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 385,
+      "forks_count": 109,
+      "open_issues_count": 38,
+      "pushed_at": "2026-08-09T01:18:46Z"
+    },
+    {
+      "id": 1266708706,
+      "full_name": "ruvnet/ruv-neural",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 35,
+      "forks_count": 8,
+      "open_issues_count": 1,
+      "pushed_at": "2026-08-09T02:02:06Z"
+    },
+    {
+      "id": 1096000352,
+      "full_name": "ruvnet/ruv.io",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 21,
+      "forks_count": 12,
+      "open_issues_count": 1,
+      "pushed_at": "2025-11-16T14:57:47Z"
+    },
+    {
+      "id": 728401234,
+      "full_name": "ruvnet/ruvbot",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 50,
+      "forks_count": 13,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T09:35:19Z"
+    },
+    {
+      "id": 1099547803,
+      "full_name": "ruvnet/RuVector",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 4555,
+      "forks_count": 609,
+      "open_issues_count": 314,
+      "pushed_at": "2026-10-09T08:09:15Z"
+    },
+    {
+      "id": 628494106,
+      "full_name": "ruvnet/rUvGPT",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 5,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2023-04-16T05:41:09Z"
+    },
+    {
+      "id": 629112123,
+      "full_name": "ruvnet/ruvGPT2",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 7,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2023-04-17T16:37:00Z"
+    },
+    {
+      "id": 997737944,
+      "full_name": "ruvnet/RuView",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 97006,
+      "forks_count": 12749,
+      "open_issues_count": 394,
+      "pushed_at": "2026-10-09T06:28:05Z"
+    },
+    {
+      "id": 1271574062,
+      "full_name": "ruvnet/ruvn",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 14,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-16T19:59:40Z"
+    },
+    {
+      "id": 625978582,
+      "full_name": "ruvnet/ruvnet",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 257,
+      "forks_count": 41,
+      "open_issues_count": 0,
+      "pushed_at": "2026-10-09T11:56:32Z"
+    },
+    {
+      "id": 1237259513,
+      "full_name": "ruvnet/rvcsi",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 25,
+      "forks_count": 4,
+      "open_issues_count": 1,
+      "pushed_at": "2026-08-24T00:26:29Z"
+    },
+    {
+      "id": 1272532777,
+      "full_name": "ruvnet/rvdna",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 14,
+      "forks_count": 1,
+      "open_issues_count": 2,
+      "pushed_at": "2026-07-31T04:41:37Z"
+    },
+    {
+      "id": 1287403486,
+      "full_name": "ruvnet/rvFACE",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 28,
+      "forks_count": 3,
+      "open_issues_count": 2,
+      "pushed_at": "2026-07-02T19:25:58Z"
+    },
+    {
+      "id": 1201348589,
+      "full_name": "ruvnet/rvm",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 149,
+      "forks_count": 32,
+      "open_issues_count": 36,
+      "pushed_at": "2026-10-08T12:19:15Z"
+    },
+    {
+      "id": 1320966506,
+      "full_name": "ruvnet/rvQR",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 16,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2026-08-04T14:16:57Z"
+    },
+    {
+      "id": 993871216,
+      "full_name": "ruvnet/SAFLA",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 161,
+      "forks_count": 59,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T09:02:02Z"
+    },
+    {
+      "id": 734866020,
+      "full_name": "ruvnet/santa-ai-workshop",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 6,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2023-12-22T21:14:33Z"
+    },
+    {
+      "id": 1265259377,
+      "full_name": "ruvnet/skygraph",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 40,
+      "forks_count": 10,
+      "open_issues_count": 1,
+      "pushed_at": "2026-06-14T20:30:44Z"
+    },
+    {
+      "id": 797834917,
+      "full_name": "ruvnet/socket",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-08T15:57:10Z"
+    },
+    {
+      "id": 1277070566,
+      "full_name": "ruvnet/SonicChamber",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 10,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-22T19:30:01Z"
+    },
+    {
+      "id": 868947806,
+      "full_name": "ruvnet/sparc",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 477,
+      "forks_count": 90,
+      "open_issues_count": 37,
+      "pushed_at": "2026-10-03T08:34:00Z"
+    },
+    {
+      "id": 978888660,
+      "full_name": "ruvnet/sparc-ide",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 36,
+      "forks_count": 16,
+      "open_issues_count": 0,
+      "pushed_at": "2025-05-06T22:14:06Z"
+    },
+    {
+      "id": 856598621,
+      "full_name": "ruvnet/strawberry-phi",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 59,
+      "forks_count": 25,
+      "open_issues_count": 0,
+      "pushed_at": "2024-09-13T06:01:13Z"
+    },
+    {
+      "id": 616172848,
+      "full_name": "ruvnet/streamlit-example",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 17,
+      "forks_count": 4,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-20T13:21:40Z"
+    },
+    {
+      "id": 1060352647,
+      "full_name": "ruvnet/sublinear-time-solver",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 91,
+      "forks_count": 35,
+      "open_issues_count": 3,
+      "pushed_at": "2026-08-02T19:08:12Z"
+    },
+    {
+      "id": 805522096,
+      "full_name": "ruvnet/supa-ruv",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 19,
+      "forks_count": 9,
+      "open_issues_count": 0,
+      "pushed_at": "2024-05-24T21:07:50Z"
+    },
+    {
+      "id": 848969420,
+      "full_name": "ruvnet/supabase-authentication",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 18,
+      "forks_count": 6,
+      "open_issues_count": 0,
+      "pushed_at": "2024-08-30T16:13:10Z"
+    },
+    {
+      "id": 627245480,
+      "full_name": "ruvnet/Surfer",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 89,
+      "forks_count": 22,
+      "open_issues_count": 4,
+      "pushed_at": "2023-04-23T17:25:09Z"
+    },
+    {
+      "id": 76870881,
+      "full_name": "ruvnet/SVGart",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "pushed_at": "2016-12-19T21:27:18Z"
+    },
+    {
+      "id": 620481115,
+      "full_name": "ruvnet/Swagger-ChatGPT-Plugin-Creator",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 46,
+      "forks_count": 14,
+      "open_issues_count": 2,
+      "pushed_at": "2023-04-06T22:20:23Z"
+    },
+    {
+      "id": 1018554801,
+      "full_name": "ruvnet/swarm-world",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 21,
+      "forks_count": 9,
+      "open_issues_count": 2,
+      "pushed_at": "2025-07-12T16:08:19Z"
+    },
+    {
+      "id": 874937493,
+      "full_name": "ruvnet/swirl-search",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 9,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2024-10-30T19:02:36Z"
+    },
+    {
+      "id": 895270916,
+      "full_name": "ruvnet/symbolic-scribe",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 88,
+      "forks_count": 24,
+      "open_issues_count": 1,
+      "pushed_at": "2026-06-15T15:44:43Z"
+    },
+    {
+      "id": 1018759832,
+      "full_name": "ruvnet/Synaptic-Mesh",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 83,
+      "forks_count": 20,
+      "open_issues_count": 12,
+      "pushed_at": "2026-05-23T09:04:23Z"
+    },
+    {
+      "id": 912254237,
+      "full_name": "ruvnet/SynthLang",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 267,
+      "forks_count": 62,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T09:30:14Z"
+    },
+    {
+      "id": 926227859,
+      "full_name": "ruvnet/tariffic",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 4,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2025-04-07T17:31:36Z"
+    },
+    {
+      "id": 884603323,
+      "full_name": "ruvnet/test-react-lib",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2024-11-08T20:35:14Z"
+    },
+    {
+      "id": 616078772,
+      "full_name": "ruvnet/textclassifier",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 20,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2023-03-19T15:06:21Z"
+    },
+    {
+      "id": 1104054029,
+      "full_name": "ruvnet/tribe-knowledgegraph",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 8,
+      "forks_count": 5,
+      "open_issues_count": 0,
+      "pushed_at": "2025-11-25T17:23:58Z"
+    },
+    {
+      "id": 998648206,
+      "full_name": "ruvnet/ultrasonic",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 103,
+      "forks_count": 37,
+      "open_issues_count": 1,
+      "pushed_at": "2026-09-10T23:28:29Z"
+    },
+    {
+      "id": 1271594085,
+      "full_name": "ruvnet/unsorry",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "pushed_at": "2026-06-16T20:26:42Z"
+    },
+    {
+      "id": 616635475,
+      "full_name": "ruvnet/vcbot",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 22,
+      "forks_count": 4,
+      "open_issues_count": 1,
+      "pushed_at": "2023-03-21T03:45:52Z"
+    },
+    {
+      "id": 976155469,
+      "full_name": "ruvnet/vibecast",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 46,
+      "forks_count": 19,
+      "open_issues_count": 10,
+      "pushed_at": "2026-09-17T18:57:15Z"
+    },
+    {
+      "id": 952163261,
+      "full_name": "ruvnet/vibing",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 11,
+      "forks_count": 7,
+      "open_issues_count": 0,
+      "pushed_at": "2025-03-20T21:26:37Z"
+    },
+    {
+      "id": 1178196707,
+      "full_name": "ruvnet/video-sync",
+      "fork": true,
+      "archived": false,
+      "stargazers_count": 6,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "pushed_at": "2026-05-23T08:01:22Z"
+    },
+    {
+      "id": 621991494,
+      "full_name": "ruvnet/VIVIAN",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 45,
+      "forks_count": 11,
+      "open_issues_count": 0,
+      "pushed_at": "2023-04-02T05:46:28Z"
+    },
+    {
+      "id": 845624399,
+      "full_name": "ruvnet/voicebot",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 102,
+      "forks_count": 27,
+      "open_issues_count": 0,
+      "pushed_at": "2025-01-31T17:16:49Z"
+    },
+    {
+      "id": 972827380,
+      "full_name": "ruvnet/vsc-remote-mcp",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 16,
+      "forks_count": 12,
+      "open_issues_count": 0,
+      "pushed_at": "2025-04-27T15:50:10Z"
+    },
+    {
+      "id": 1329055709,
+      "full_name": "ruvnet/wifi-veil",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 26,
+      "forks_count": 3,
+      "open_issues_count": 1,
+      "pushed_at": "2026-08-09T18:21:20Z"
+    },
+    {
+      "id": 1271497073,
+      "full_name": "ruvnet/worldgraph",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 28,
+      "forks_count": 2,
+      "open_issues_count": 6,
+      "pushed_at": "2026-09-07T01:04:12Z"
+    },
+    {
+      "id": 1008497251,
+      "full_name": "ruvnet/yyz-agentics-june",
+      "fork": false,
+      "archived": false,
+      "stargazers_count": 33,
+      "forks_count": 15,
+      "open_issues_count": 2,
+      "pushed_at": "2025-06-25T16:46:04Z"
+    }
+  ]
+}

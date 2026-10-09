@@ -1,16 +1,18 @@
 # Ecosystem metrics
 
-Collected October 9, 2026. GitHub snapshot: 2026-10-09T11:53:27.579192+00:00. Public repositories only.
+Verified October 9, 2026. Public repositories only. GitHub counts: 2026-10-09T12:14:43.561449+00:00.
 
 | Metric | Count |
 | --- | ---: |
 | Public owned repositories | 222 |
-| Original repositories (nonfork) | 196 |
-| Stars, all owned | 187,952 |
-| Stars, originals | 187,692 |
-| Forks, all owned | 25,162 |
+| Original repositories | 196 |
+| Stars across all owned repos | 187,952 |
+| Stars across originals | 187,692 |
+| Forks across all owned repos | 25,162 |
 | Followers | 11,721 |
-| Open issues and PRs combined | 2,516 |
+| Repository subscriptions | 1,759 |
+| Published releases | 2,333 |
+| Current release asset downloads | 108,022 |
 | Rust crates | 480 |
 | crates.io cumulative downloads | 1,803,303 |
 
@@ -22,19 +24,29 @@ Collected October 9, 2026. GitHub snapshot: 2026-10-09T11:53:27.579192+00:00. Pu
 | Issues closed | 156 |
 | PRs opened | 685 |
 | PRs merged | 461 |
+| Releases published | 47 |
+| Workflow runs enumerated (partial) | 6,230 |
+| Successful workflow runs | 4,284 |
+| Failed workflow runs | 706 |
 
-Search results are current indexed public issue/PR counts, not an immutable event log.
+Workflow coverage is incomplete for Ruflo; the JSON report records expected and collected counts. Workflow outcomes below are current conclusions of unique runs, not all retry attempts or measures of product reliability. Cancelled, skipped and unfinished runs are recorded separately in the JSON report.
 
-## Downloads and traffic
+## npm downloads
 
-npm returned 3,098,208 downloads across 110 of 398 packages for September 25 through October 8. This is PARTIAL: 288 packages returned HTTP 429. Recent zero days may be reporting delays. The previous complete rolling-year snapshot is retained in data/registry-stats.json and is not a fresh result from this run.
+Observed 9,854,546 downloads across 398 of 398 packages for September 25 through October 8. Status: complete API responses, provider latency may remain. Recent zero days can reflect provider reporting delay. This window is not a lifetime count. Previous complete rolling-year figures retain their original verification dates in data/registry-stats.json.
 
-Clones and views: unavailable because the connected GitHub interface lacks traffic access. No zero count or lifetime estimate is substituted.
+## Coverage and gaps
 
-Release asset coverage: four successful flagship repositories, totaling 105,842 downloads; Ruflo request failed with HTTP 422. This is not an ecosystem total. All-repository subscribers, commits, contributors and Actions were not collected.
+All 222 public repositories were enumerated. Repository subscriptions and releases have complete pagination. Workflow queries were partitioned by UTC date where necessary; 221 of 222 repository queries are complete. Ruflo remains partial because of API result limits. Open public issues and PRs are 1,467 and 1,047; indexed search sum can differ from repository metadata (2,516 combined) because the sources are not an atomic snapshot.
 
-## Running totals and validation
+Clones and page views remain unavailable: the connected GitHub interface lacks Administration read permission and a traffic endpoint. Historical traffic is retained separately and never reported as current. Commits and contributors were not refreshed.
 
-[data/ecosystem-running-totals.json](../data/ecosystem-running-totals.json) records source timestamps, coverage, errors and separate totals. [Daily npm ledger](../data/ecosystem-daily-ledger.json) uses package and UTC day keys; observed window begins September 25, 2026. Partial observations are not lifetime totals. Replaying all 1,540 entries leaves the count unchanged. GitHub pagination reconciled to 222 public repositories; daily npm sums reconcile to 3,098,208.
+## Running totals and verification
 
-[Source evidence](../data/snapshots/2026-10-09/ecosystem-evidence.json). Historical clone figures are not included in current totals.
+[Running totals](../data/ecosystem-running-totals.json), [daily npm ledger](../data/ecosystem-daily-ledger.json), and [release asset ledger](../data/release-asset-ledger.json) keep sources separate. Daily npm keys combine provider, package, metric and UTC date. Revised cells replace prior observations; overlapping windows are never added. Missing release assets retain their last observed values and are flagged.
+
+Validation passed: 5,572 unique daily keys, unchanged totals after replay, daily sum reconciliation, all repository and release pages accounted for; Actions coverage gaps explicitly recorded. [Dated evidence](../data/snapshots/2026-10-09/).
+
+## Progress toward 100 million
+
+Observed combined registry downloads: 95,790,408; remaining: 4,209,592. Basis: npm since October 1, 2025 plus cumulative crates.io. New npm observations after October 5 are added once to the preserved baseline. This is an observed lower bound, with provider reporting latency and package coverage disclosed above. Clones and release assets are excluded from this milestone.
