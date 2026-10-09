@@ -13,6 +13,28 @@ visual=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(visual)
 
 class VisualProfileTest(unittest.TestCase):
+    def test_dashboard_uses_running_milestone_without_relabeling_npm_chart(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            for rel in ['data/metrics.json','data/registry-stats.json','data/github-stats.json','data/ecosystem-running-totals.json','data/snapshots/2026-10-02/github-baseline-2026-09-07.json','scripts/templates/ruvnet-dashboard.svg']:
+                dest=root/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/rel,dest)
+            original=visual.ROOT
+            try:
+                visual.ROOT=root
+                running=json.loads((root/'data/ecosystem-running-totals.json').read_text())
+                milestone=running['download_milestone']
+                milestone.update(npm_observed_total=98000000,crates_io_cumulative=3000000,combined_observed=101000000,remaining=0)
+                (root/'data/ecosystem-running-totals.json').write_text(json.dumps(running))
+                visual.render()
+                svg=(root/'assets/ruvnet/dashboard.svg').read_text()
+                self.assertIn('101,000,000',svg)
+                self.assertIn('0.00M TO GO',svg)
+                self.assertIn('NPM SINCE OCT 2025 + CRATES TOTAL',svg)
+                self.assertIn('NPM / CUMULATIVE DOWNLOADS',svg)
+                group=ET.fromstring(svg).find('.//{'+visual.NS+'}g[@id="download-milestone"]')
+                self.assertEqual(float(list(group)[1].get('width')),365)
+            finally:visual.ROOT=original
+
     def test_partial_month_is_counted_once_and_dated(self):
         n=json.loads((ROOT/'data/registry-stats.json').read_text())['npm']
         year,month=map(int,n['monthly_downloads'][-1]['month'].split('-'))

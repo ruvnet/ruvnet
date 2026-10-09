@@ -10,4 +10,6 @@ Validate ledger uniqueness, replay idempotence, total reconciliation, pagination
 
 ## Acceptance
 
+After updating the JSON sources, run `python3 scripts/render-visual-profile.py` and include the regenerated profile SVGs in the same metrics commit. The dashboard headline uses `download_milestone` from `data/ecosystem-running-totals.json`; its npm growth chart retains the separate registry date window. Verify the milestone sum, remaining count, source dates and SVG rendering before publishing. If rendering cannot run, explicitly report the dashboard as stale rather than claiming it refreshed.
+
 Replaying an identical snapshot must leave every running total unchanged. Every published total must include source, time window, cohort, coverage and missing-data status. No overlapping window totals may be added together.

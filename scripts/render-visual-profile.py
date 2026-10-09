@@ -60,6 +60,17 @@ def render():
     g = read('data/github-stats.json')
     b = read('data/snapshots/2026-10-02/github-baseline-2026-09-07.json')
     n = r['npm']; a = g['account']; c = m['counts']
+    running_path = ROOT / 'data/ecosystem-running-totals.json'
+    running = read('data/ecosystem-running-totals.json') if running_path.exists() else {}
+    milestone = running.get('download_milestone')
+    current = running.get('github')
+    if current:
+        g = dict(g, verified_at=current['verified_at'], flagships=current['top_repositories'])
+        a = dict(a, stars_across_owned_nonfork=current['nonfork']['stars'],
+                 owned_public_nonfork_repositories=current['nonfork']['repositories'],
+                 public_repositories=current['all_owned']['repositories'],
+                 public_forks=current['all_owned']['repositories']-current['nonfork']['repositories'],
+                 followers=current['followers'])
     root = ET.parse(ROOT / 'scripts/templates/ruvnet-dashboard.svg').getroot()
     def put(x, y, value):
         matches = [e for e in root.iter(f'{{{NS}}}text') if e.get('x') == str(x) and e.get('y') == str(y)]
@@ -73,6 +84,21 @@ def render():
     put(34,182,f"NPM DOWNLOADS / {n['period_days']} DAYS")
     put(34,222,f"{n['downloads']:,}")
     put(34,248,f"{n['download_package_count']} PKGS · {n['period_start']} → {n['period_end']}")
+    if milestone:
+        total = milestone['combined_observed']; target = milestone['target']
+        assert total == milestone['npm_observed_total'] + milestone['crates_io_cumulative']
+        assert milestone['remaining'] == max(0, target-total)
+        progress = min(1, max(0, total/target))
+        put(34,182,'REGISTRY DOWNLOADS / OBSERVED')
+        put(34,222,f'{total:,}')
+        put(34,248,'NPM SINCE OCT 2025 + CRATES TOTAL')
+        root.find(f'{{{NS}}}desc').text += f" Combined registry milestone: {total:,} observed download events; {milestone['remaining']:,} remaining to {target:,}. npm since 2025-10-01 plus cumulative crates.io. Provider reporting delays may remain. Milestone verified {running['verified_at'][:10]}."
+        badge = ET.Element(f'{{{NS}}}g', {'id':'download-milestone'})
+        ET.SubElement(badge,f'{{{NS}}}rect',{'x':'800','y':'86','width':'365','height':'6','rx':'3','fill':'#243249'})
+        ET.SubElement(badge,f'{{{NS}}}rect',{'x':'800','y':'86','width':f'{365*progress:.2f}','height':'6','rx':'3','fill':'#9de8d0'})
+        ET.SubElement(badge,f'{{{NS}}}text',{'x':'1165','y':'115','font-size':'12','fill':'#9de8d0','text-anchor':'end'}).text=f'{progress:.2%} OF 100M / {milestone["remaining"]/1e6:.2f}M TO GO'
+        loader=next(e for e in root if e.get('class')=='gameboot')
+        root.insert(list(root).index(loader),badge)
     put(334,182,'STARS / NONFORK REPOS')
     put(334,222,f"{a['stars_across_owned_nonfork']:,}")
     put(334,248,f"{a['owned_public_nonfork_repositories']} NONFORK REPOS · {gd}")
@@ -132,6 +158,8 @@ def render():
         for child in list(parent):
             if child.get('class')=='historydot': parent.remove(child)
     put(54,784,f'GITHUB: {g["verified_at"][:10]} · NPM: {n["downloads_verified_at"][:10]}')
+    if milestone:
+        put(54,784,f'MILESTONE: {running["verified_at"][:10]} · OBSERVED EVENTS · RECENT DATA MAY LAG')
     put(600,757,f'REPO GENERATED {rd} · RUST VERIFIED {date(r["crates_io"]["verified_at"])}')
     out=ROOT/'assets/ruvnet/dashboard.svg';out.parent.mkdir(parents=True,exist_ok=True)
     ET.ElementTree(root).write(out,encoding='unicode')

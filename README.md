@@ -9,7 +9,7 @@
   <a href="https://github.com/ruvnet/rvm"><img src="assets/ruvnet/badge-rvm.svg" height="24" alt="RVM" /></a>
 </p>
 
-[![rUv ecosystem dashboard: published npm downloads, GitHub reach, connected capabilities and two-snapshot project momentum](assets/ruvnet/dashboard.svg)](docs/visual-profile.md)
+[![rUv ecosystem dashboard: observed registry downloads, progress toward 100 million, current GitHub reach and dated npm growth](assets/ruvnet/dashboard.svg)](docs/ecosystem-metrics.md)
 
 [![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner-v2.svg)](https://cognitum.one)
 
