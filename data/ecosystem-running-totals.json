@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-09T12:27:32.576884+00:00",
+  "verified_at": "2026-10-09T13:22:12.821735Z",
   "github": {
     "verified_at": "2026-10-09T12:14:43.561449+00:00",
     "followers": 11721,
@@ -219,10 +219,10 @@
   "download_milestone": {
     "target": 100000000,
     "basis": "npm observed since 2025-10-01 plus crates.io cumulative; download events, not unique users",
-    "npm_baseline_downloads": 93165831,
-    "npm_baseline_through": "2026-10-05",
-    "npm_increment_observed": 821274,
-    "npm_increment_start": "2026-10-06",
+    "npm_baseline_downloads": 93987105,
+    "npm_baseline_through": "2026-10-07",
+    "npm_increment_observed": 0,
+    "npm_increment_start": "2026-10-08",
     "npm_increment_end": "2026-10-08",
     "npm_increment_package_coverage": 398,
     "npm_expected_packages": 398,
@@ -230,9 +230,24 @@
     "crates_io_cumulative": 1803303,
     "combined_observed": 95790408,
     "remaining": 4209592,
-    "status": "Observed lower bound; recent zero days may reflect reporting latency",
-    "baseline_source": "data/snapshots/2026-10-08/npm-downloads.json",
-    "increment_source": "data/snapshots/2026-10-09/npm-14-day-observations.json"
+    "status": "Observed lower bound; complete API responses may contain provider reporting gaps",
+    "baseline_source": "data/snapshots/2026-10-09/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-10-09/npm-downloads.json",
+    "npm_verified_at": "2026-10-09T13:22:12.821735Z",
+    "npm_reported_through": "2026-10-07",
+    "crates_io_verified_at": "2026-10-09T12:19:26.812924Z",
+    "internal_all_zero_cohort_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06"
+    ],
+    "trailing_all_zero_days_excluded": [
+      "2026-10-08"
+    ]
   },
   "snapshot_delta": {
     "repositories": 0,

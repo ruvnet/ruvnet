@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T12:27:32.576884+00:00",
+  "generated_at": "2026-10-09T13:22:12.821735Z",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 398,
     "download_package_count": 398,
-    "inventory_verified_at": "2026-10-08T12:02:06.378264Z",
-    "downloads_verified_at": "2026-10-08T12:19:16.410934Z",
-    "downloads": 93143654,
-    "period_start": "2025-10-06",
-    "period_end": "2026-10-05",
+    "inventory_verified_at": "2026-10-09T12:19:05.288730Z",
+    "downloads_verified_at": "2026-10-09T13:22:12.821735Z",
+    "downloads": 93957380,
+    "period_start": "2025-10-08",
+    "period_end": "2026-10-07",
     "period_days": 365,
     "monthly_period_start": "2025-10-01",
     "monthly_period_end": "2026-09-30",
@@ -63,25 +63,29 @@
         "downloads": 15120919
       }
     ],
-    "counting_rule": "Sum of official npm daily range counts across the verified 398-package maintainer cohort, including scoped and platform packages. The 2026-10-07 historical baseline is retained after same-cohort official zero-delta checks for 2026-10-06 through 2026-10-07. Trailing all-zero cohort days remain excluded as not yet confirmed complete.",
-    "inventory_path": "data/snapshots/2026-10-08/npm-inventory.json",
-    "downloads_evidence_path": "data/snapshots/2026-10-08/npm-downloads.json",
     "current_month": {
       "month": "2026-10",
-      "downloads": 3267087,
+      "downloads": 4088361,
       "period_start": "2026-10-01",
-      "period_end": "2026-10-05",
-      "status": "partial month; trailing all-zero API days excluded",
-      "verified_at": "2026-10-08T12:19:16.410934Z"
-    },
-    "incremental_check": {
-      "baseline_verified_at": "2026-10-07T01:45:43.897220Z",
-      "verified_at": "2026-10-08T12:19:16.410934Z",
-      "period_start": "2026-10-06",
       "period_end": "2026-10-07",
-      "downloads": 0,
-      "package_count": 398
+      "status": "partial month; observed lower bound; all-zero cohort days may be reporting gaps",
+      "verified_at": "2026-10-09T13:22:12.821735Z"
     },
+    "inventory_path": "data/snapshots/2026-10-09/npm-inventory.json",
+    "downloads_evidence_path": "data/snapshots/2026-10-09/npm-downloads.json",
+    "counting_rule": "Sum of official npm daily range counts across the verified 398-package maintainer cohort, including scoped and platform packages. Fixed milestone start: 2025-10-01. The separate rolling 365-day window ends at the last positive cohort day. All-zero cohort days may reflect provider reporting gaps; observed events are a lower bound.",
+    "internal_all_zero_cohort_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06"
+    ],
+    "trailing_all_zero_days_excluded": [
+      "2026-10-08"
+    ],
     "latest_14_day_collection": {
       "period_start": "2026-09-25",
       "period_end": "2026-10-08",

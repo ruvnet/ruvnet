@@ -33,7 +33,7 @@ Workflow coverage is incomplete for Ruflo; the JSON report records expected and 
 
 ## npm downloads
 
-Observed 9,854,546 downloads across 398 of 398 packages for September 25 through October 8. Status: complete API responses, provider latency may remain. Recent zero days can reflect provider reporting delay. This window is not a lifetime count. Previous complete rolling-year figures retain their original verification dates in data/registry-stats.json.
+Observed 9,854,546 downloads across 398 of 398 packages for September 25 through October 8. Status: complete API responses, provider latency may remain. Recent zero days can reflect provider reporting delay. This window is not a lifetime count. The separate long-window registry audit now has complete responses for all 398 packages, with latest positive cohort activity through 2026-10-07; its precise dates and provider-gap caveats are recorded in [registry data](../data/registry-stats.json).
 
 ## Coverage and gaps
 
@@ -49,4 +49,4 @@ Validation passed: 5,572 unique daily keys, unchanged totals after replay, daily
 
 ## Progress toward 100 million
 
-Observed combined registry downloads: 95,790,408; remaining: 4,209,592. Basis: npm since October 1, 2025 plus cumulative crates.io. New npm observations after October 5 are added once to the preserved baseline. This is an observed lower bound, with provider reporting latency and package coverage disclosed above. Clones and release assets are excluded from this milestone.
+Observed combined registry downloads: 95,790,408; remaining: 4,209,592. Basis: npm since October 1, 2025 plus cumulative crates.io. The npm component is 93,987,105, reconciled from all 398 official per-package range responses through the latest positive cohort day, 2026-10-07; the Rust component is 1,803,303, verified 2026-10-09T12:19:26.812924Z. This is an observed lower bound: 7 internal all-zero cohort days may be provider reporting gaps, and trailing all-zero days do not advance the npm window. Clones and release assets are excluded from this milestone. [Full npm evidence](../data/snapshots/2026-10-09/npm-downloads.json).
