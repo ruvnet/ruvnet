@@ -349,6 +349,12 @@ RVForge's current local build produces staged bundles. Native installer assembly
 
 ![Evidence chain: collect sources, commit dated JSON snapshots, verify receipts, render SVG and Markdown](assets/ruvnet/evidence-chain.svg)
 
+## The rUv approach to intellectual property
+
+Build in public. Publish working code, dated evidence, and reproducible results. Credit the foundational research and distinguish original contributions from integration and implementation. The [prior art dossier](docs/ruvnet-prior-art.md) records lineage and scoped novelty claims; each repository's license governs reuse.
+
+[Cognitum One](https://cognitum.one/) builds commercial value through enterprise integration, hardware, governance, support, and deployment expertise. Public provenance documents contributions; it does not by itself establish patent rights or exclusive ownership.
+
 ## Evidence and provenance
 
 | Evidence | Purpose |
