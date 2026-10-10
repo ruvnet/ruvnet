@@ -48,6 +48,8 @@ This ecosystem is published through one developer account. Repositories can incl
 
 ## Explore the constellation
 
+**The ruv:// nexus:** [manifest contract](docs/ruv-manifest.md) · [public capability catalog](docs/ruv-catalog.md) · [machine index](data/ruv/index.json) · [root manifest](manifest.ruv). Source-pinned discovery across the constellation, with proposed integrations distinguished from tested behavior.
+
 ![A constellation of capabilities](assets/ruvnet/constellation.svg)
 
 **One ecosystem, many ways in.** Start with the problem you want to solve. Follow the constellation from observations to memory, coordinated work, portable execution, and evaluated outcomes.

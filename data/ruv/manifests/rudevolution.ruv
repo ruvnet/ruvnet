@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/rudevolution/resources/manifest.ruv",
+  "name": "rudevolution",
+  "summary": "Statically analyze JavaScript bundles into weighted reference graphs. Propose module boundaries and identifier names with confidence metadata. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Module/name recovery is heuristic and may change behavior. Integrity witnesses do not establish authorship, original intent or behavioral equivalence. Clean-room workflow is a developer preview.",
+  "repository": {
+    "url": "https://github.com/ruvnet/rudevolution",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "bundle-analysis",
+      "description": "Statically analyze JavaScript bundles into weighted reference graphs.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md",
+          "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "module-inference",
+      "description": "Propose module boundaries and identifier names with confidence metadata.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md",
+          "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "integrity-witnesses",
+      "description": "Emit SHA3-256 content integrity witnesses without proving behavioral equivalence.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md",
+          "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "clean-room-handoff",
+      "description": "Signed interface-only specification handoff to isolated implementation rooms.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md",
+          "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/package.json",
+      "kind": "source"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "references",
+      "target": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/Cargo.toml",
+          "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+          "kind": "source"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "b99ec70c780e249b151de5c32ee9839784671962",
+    "observedAt": "2026-10-10T02:57:47.895580Z"
+  }
+}

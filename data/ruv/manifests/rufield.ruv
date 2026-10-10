@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/rufield/resources/manifest.ruv",
+  "name": "rufield",
+  "summary": "Normalize sensing modalities into common events, tensors, privacy and provenance. Replay captured CSI from files with explicitly unvalidated motion/presence proxies. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Reference benchmark is SYNTHETIC; CSI file replay is unlabeled and not live hardware or validated accuracy. BatVu source recordings are simulator output.",
+  "repository": {
+    "url": "https://github.com/ruvnet/rufield",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "field-event-spec",
+      "description": "Normalize sensing modalities into common events, tensors, privacy and provenance.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md",
+          "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "csi-replay",
+      "description": "Replay captured CSI from files with explicitly unvalidated motion/presence proxies.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md",
+          "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "ultrasonic-replay",
+      "description": "Ingest BatVu simulator range profiles under simulation trust.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md",
+          "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "privacy-provenance",
+      "description": "Privacy-aware, provenance-rich event model for ambient sensing.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md",
+          "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+    "observedAt": "2026-10-10T02:57:45.150068Z"
+  }
+}

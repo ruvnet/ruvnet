@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+  "name": "midstream",
+  "summary": "Analyze, score and intervene on streams while tokens arrive. Temporal pattern comparison via DTW, LCS and edit distance. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README advertises MSRV 1.81, but root Cargo.toml requires Rust 1.88; use package-specific manifests for build requirements.",
+  "repository": {
+    "url": "https://github.com/ruvnet/midstream",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "inflight-analysis",
+      "description": "Analyze, score and intervene on streams while tokens arrive.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md",
+          "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "temporal-comparison",
+      "description": "Temporal pattern comparison via DTW, LCS and edit distance.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md",
+          "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "quic-multistream",
+      "description": "QUIC multi-stream transport as a separately composed library.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md",
+          "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "dynamical-analysis",
+      "description": "Attractor and phase-space analysis for streams.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md",
+          "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+    "observedAt": "2026-10-10T02:57:25.799949Z"
+  }
+}
