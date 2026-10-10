@@ -1,3 +1,5 @@
+![rUv](assets/ruv-neon.gif)
+
 # Reuven Cohen (rUv): Open Source Agentic AI and Cognitum One
 
 [Reuven Cohen](https://ruv.io/), known as **rUv** and **ruvnet** on GitHub, is the Founder and Chief AI Officer of [Cognitum One](https://cognitum.one/). The **ruvnet open source AI stack** provides agent orchestration, vector and graph memory, camera free WiFi sensing, portable runtimes, and agent evaluation.
@@ -7,8 +9,6 @@
 * [RuView](https://github.com/ruvnet/RuView): WiFi spatial sensing.
 * [Cognitum One](https://cognitum.one/): Commercial deployment and governance.
 * [ruOS](https://ruos.cognitum.one/): Enterprise agent computers.
-
-![rUv](assets/ruv-neon.gif)
 
 <p align="center">
   <a href="https://github.com/ruvnet/ruflo"><img src="assets/ruvnet/badge-ruflo.svg" height="24" alt="Ruflo" /></a>
