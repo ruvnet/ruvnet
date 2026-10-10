@@ -14,7 +14,7 @@
     "monthly_period_start": "2025-10-01",
     "inventory_path": "data/snapshots/2026-10-10/npm-inventory.json",
     "downloads_evidence_path": "data/snapshots/2026-10-10/npm-downloads.json",
-    "counting_rule": "Sum of official npm daily range counts across the verified 398-package maintainer cohort, including scoped and platform packages. Trailing all-zero cohort days are excluded as not yet confirmed complete.",
+    "counting_rule": "Sum of official npm daily range counts across the verified 398-package maintainer cohort, including scoped and platform packages. Fixed milestone start: 2025-10-01. The separate rolling 365-day window ends at the last positive cohort day. All-zero cohort days may reflect provider reporting gaps; observed events are a lower bound.",
     "monthly_period_end": "2026-09-30",
     "monthly_downloads": [
       {
@@ -71,9 +71,21 @@
       "downloads": 4635991,
       "period_start": "2026-10-01",
       "period_end": "2026-10-08",
-      "status": "partial month; trailing all-zero API days excluded",
+      "status": "partial month; observed lower bound; all-zero cohort days may be reporting gaps",
       "verified_at": "2026-10-10T12:52:30.469257Z"
-    }
+    },
+    "internal_all_zero_cohort_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06"
+    ],
+    "trailing_all_zero_days_excluded": [
+      "2026-10-09"
+    ]
   },
   "crates_io": {
     "user_id": 339999,
