@@ -31,6 +31,8 @@
 
 ### rUv's work in agentic engineering
 
+[![Animated history of rUv's work: 2023 AI tools, 2024 SPARC, 2025 Claude Flow lineage, and 2026 governed systems](assets/ruvnet/engineering-history.svg)](docs/ruvnet-prior-art.md)
+
 Reuven Cohen's early agentic engineering work spans [AI tools and plugins in 2023](docs/ruvnet-prior-art.md), [SPARC development workflows](https://github.com/ruvnet/sparc), and the Claude Flow lineage that became [Ruflo](https://github.com/ruvnet/ruflo). That work evolved into coordinated swarms, adaptive memory, portable runtimes, and governed improvement through RuVector, RVF, RVM, and MetaHarness. [Dated evidence and scoped pioneering claims](docs/ruvnet-prior-art.md) document specific contributions alongside earlier related work.
 
 <details>
@@ -320,6 +322,8 @@ RVForge's current local build produces staged bundles. Native installer assembly
 
 ## How the stack fits together
 
+[![Animated governed agent workflow: context, coordination and execution, evaluation, revision, and retention under policy](assets/ruvnet/governed-workflow.svg)](https://github.com/ruvnet/metaharness)
+
 **RuView, rvCSI, and RuField perceive. Ruflo coordinates. RuVector and AgenticOW remember. RVF carries state and evidence. RVForge stages it. RVM controls execution. MetaHarness evaluates change. Autogenous governs adaptation. APx measures useful work.**
 
 | Layer | Primary systems | Responsibility |
@@ -350,6 +354,8 @@ RVForge's current local build produces staged bundles. Native installer assembly
 ![Evidence chain: collect sources, commit dated JSON snapshots, verify receipts, render SVG and Markdown](assets/ruvnet/evidence-chain.svg)
 
 ## The rUv approach to intellectual property
+
+[![Animated rUv IP approach: build in public, preserve dated evidence, and deliver commercial value through Cognitum One](assets/ruvnet/open-ip.svg)](docs/ruvnet-prior-art.md)
 
 Build in public. Publish working code, dated evidence, and reproducible results. Credit the foundational research and distinguish original contributions from integration and implementation. The [prior art dossier](docs/ruvnet-prior-art.md) records lineage and scoped novelty claims; each repository's license governs reuse.
 
