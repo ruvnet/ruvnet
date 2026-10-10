@@ -19,6 +19,16 @@ Start with [Ruflo for AI agent orchestration](https://github.com/ruvnet/ruflo), 
 
 [![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner-v2.svg)](https://cognitum.one)
 
+## Contrastive AI: learn what fits, detect what breaks
+
+[Our contrastive AI approach](https://github.com/ruvnet/RuView/issues/87) combines similarity learning with structural checks: bring related observations together, separate mismatches, measure drift, and gate updates against explicit constraints. RuVector supplies the memory and graph substrate; agent harnesses use that context to guide and evaluate work. Performance and reliability depend on the workload and validation.
+
+[![Contrastive AI concept: related observations converge, mismatches separate, and structural checks gate memory updates](assets/ruvnet/contrastive-ai.svg)](https://github.com/ruvnet/RuView/issues/87)
+
+### A brief history of agentic engineering
+
+Reuven Cohen's early agentic engineering work spans [AI tools and plugins in 2023](docs/ruvnet-prior-art.md), [SPARC development workflows](https://github.com/ruvnet/sparc), and the Claude Flow lineage that became [Ruflo](https://github.com/ruvnet/ruflo). That work evolved into coordinated swarms, adaptive memory, portable runtimes, and governed improvement through RuVector, RVF, RVM, and MetaHarness. [Dated evidence and scoped pioneering claims](docs/ruvnet-prior-art.md) document specific contributions alongside earlier related work.
+
 ## What is Cognitum One?
 
 [Cognitum One](https://cognitum.one/) brings the open source ruvnet stack into enterprise hardware, software, deployment services, and governance systems. ruvnet is the public development ecosystem for experiments, reusable libraries, and community contributions; Cognitum One builds supported, sovereign deployments on that foundation.
