@@ -1,8 +1,8 @@
 ![rUv](assets/ruv-neon.gif)
 
-# Reuven Cohen (rUv): Open Source Agentic AI and Cognitum One
+# Reuven Cohen (rUv): Agentic Engineering, Open Source AI, and Contrastive Intelligence
 
-[Reuven Cohen](https://ruv.io/), known as **rUv** and **ruvnet** on GitHub, is the Founder and Chief AI Officer of [Cognitum One](https://cognitum.one/). The **ruvnet open source AI stack** provides agent orchestration, vector and graph memory, camera free WiFi sensing, portable runtimes, and agent evaluation.
+[Reuven Cohen](https://ruv.io/), known as **rUv** and **ruvnet**, builds AI systems that perceive, remember, coordinate, act, and improve. His work connects agentic engineering, contrastive intelligence, and open source infrastructure through Ruflo, RuVector, RuView, MetaHarness, RVF, and RVM. He is Founder and Chief AI Officer of [Cognitum One](https://cognitum.one/), the commercial enterprise layer built on this foundation.
 
 * [Ruflo](https://github.com/ruvnet/ruflo): AI agent orchestration.
 * [RuVector](https://github.com/ruvnet/RuVector): Vector search and agent memory.
@@ -23,43 +23,15 @@
 
 [![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner-v2.svg)](https://cognitum.one)
 
-## Contrastive AI: learn what fits, detect what breaks
+## rUv's contrastive AI approach
 
 [Our contrastive AI approach](https://github.com/ruvnet/RuView/issues/87) combines similarity learning with structural checks: bring related observations together, separate mismatches, measure drift, and gate updates against explicit constraints. RuVector supplies the memory and graph substrate; agent harnesses use that context to guide and evaluate work. Performance and reliability depend on the workload and validation.
 
 [![Contrastive AI concept: related observations converge, mismatches separate, and structural checks gate memory updates](assets/ruvnet/contrastive-ai.svg)](https://github.com/ruvnet/RuView/issues/87)
 
-### A brief history of agentic engineering
+### rUv's work in agentic engineering
 
 Reuven Cohen's early agentic engineering work spans [AI tools and plugins in 2023](docs/ruvnet-prior-art.md), [SPARC development workflows](https://github.com/ruvnet/sparc), and the Claude Flow lineage that became [Ruflo](https://github.com/ruvnet/ruflo). That work evolved into coordinated swarms, adaptive memory, portable runtimes, and governed improvement through RuVector, RVF, RVM, and MetaHarness. [Dated evidence and scoped pioneering claims](docs/ruvnet-prior-art.md) document specific contributions alongside earlier related work.
-
-## What is Cognitum One?
-
-[Cognitum One](https://cognitum.one/) brings the open source ruvnet stack into enterprise hardware, software, deployment services, and governance systems. ruvnet is the public development ecosystem for experiments, reusable libraries, and community contributions; Cognitum One builds supported, sovereign deployments on that foundation.
-
-The platform spans public cloud, customer infrastructure, and the low power edge. Private deployments can operate without external cloud services when the required models, dependencies, and integrations are available locally.
-
-### How do System 0, System 1, and System 2 fit together?
-
-| System | Role | Core technologies |
-| :--- | :--- | :--- |
-| **System 0: Sense & Respond** | Observe the physical environment and act locally | Cognitum Seed edge hardware, a WebAssembly (WASM) runtime, on device vector storage, and [Cognitum RuView](https://cognitum.one/ruview) WiFi Channel State Information (CSI) sensing |
-| **System 1: Learn & Remember** | Ground work in local data and retain context | [RuVector](https://github.com/ruvnet/RuVector) memory and retrieval, with development tools for private data grounding |
-| **System 2: Reason & Orchestrate** | Coordinate specialized agents and evaluate their work | [Ruflo](https://github.com/ruvnet/ruflo), [MetaHarness](https://github.com/ruvnet/metaharness), and enterprise deployment services |
-
-[ruOS](https://ruos.cognitum.one/) provides the agentic desktop and execution environment connecting these capabilities to applications, files, and terminals.
-
-### What is ruOS?
-
-Cognitum One [announced ruOS on October 6, 2026](https://www.businesswire.com/news/home/20261006476353/en/). Teams of agents work inside managed Linux environments on infrastructure the customer controls, with persistent RuVector context, Ruflo coordination, and MetaHarness evaluation. Administrators define access, approval requirements, and action policies.
-
-ruOS ships as a standard `.deb` package and supports local and virtual deployments. Restricted network and air gapped operation requires locally available models and dependencies. [Explore ruOS](https://ruos.cognitum.one/) · [Public ruOS repository](https://github.com/ruvnet/ruos) · [Cognitum repositories](https://github.com/cognitum-one)
-
-### Leadership and advisors
-
-[Reuven “rUv” Cohen](https://ruv.io/) is Founder and Chief AI Officer; [D. Christopher Keil](https://cognitum.one/team) is Founding CEO. Founding advisors and investors include Mark B. Templeton, former CEO of Citrix; Dr. Greg Lavender, former CTO of Intel; and John McKinley, former President of AOL Technologies.
-
-Strategic advisors include Adrian Cockcroft, Sean Patterson, Tom Lounibos, Jason La Barbera, Stuart Kerr, and Mark Allen, MD, bringing experience across cloud architecture, product, capital, AI workforce adoption, growth, and healthcare. [Meet the team](https://cognitum.one/team) · [Advisory team announcement](https://www.businesswire.com/news/home/20260902303667/en/)
 
 <details>
 <summary><strong>Connect your agents: federation, skills, CLI and MCP</strong></summary>
@@ -158,6 +130,34 @@ Follow the surrounding projects into persistent memory, spatial evidence, review
 <td width="50%"><a href="https://github.com/ruvnet/APx"><img src="assets/ruvnet/project-apx.svg" width="580" alt="APx: measure useful accepted work. Explore the repository." /></a></td>
 </tr>
 </table>
+
+## What is Cognitum One?
+
+[Cognitum One](https://cognitum.one/) brings the open source ruvnet stack into enterprise hardware, software, deployment services, and governance systems. ruvnet is the public development ecosystem for experiments, reusable libraries, and community contributions; Cognitum One builds supported, sovereign deployments on that foundation.
+
+The platform spans public cloud, customer infrastructure, and the low power edge. Private deployments can operate without external cloud services when the required models, dependencies, and integrations are available locally.
+
+### How do System 0, System 1, and System 2 fit together?
+
+| System | Role | Core technologies |
+| :--- | :--- | :--- |
+| **System 0: Sense & Respond** | Observe the physical environment and act locally | Cognitum Seed edge hardware, a WebAssembly (WASM) runtime, on device vector storage, and [Cognitum RuView](https://cognitum.one/ruview) WiFi Channel State Information (CSI) sensing |
+| **System 1: Learn & Remember** | Ground work in local data and retain context | [RuVector](https://github.com/ruvnet/RuVector) memory and retrieval, with development tools for private data grounding |
+| **System 2: Reason & Orchestrate** | Coordinate specialized agents and evaluate their work | [Ruflo](https://github.com/ruvnet/ruflo), [MetaHarness](https://github.com/ruvnet/metaharness), and enterprise deployment services |
+
+[ruOS](https://ruos.cognitum.one/) provides the agentic desktop and execution environment connecting these capabilities to applications, files, and terminals.
+
+### What is ruOS?
+
+Cognitum One [announced ruOS on October 6, 2026](https://www.businesswire.com/news/home/20261006476353/en/). Teams of agents work inside managed Linux environments on infrastructure the customer controls, with persistent RuVector context, Ruflo coordination, and MetaHarness evaluation. Administrators define access, approval requirements, and action policies.
+
+ruOS ships as a standard `.deb` package and supports local and virtual deployments. Restricted network and air gapped operation requires locally available models and dependencies. [Explore ruOS](https://ruos.cognitum.one/) · [Public ruOS repository](https://github.com/ruvnet/ruos) · [Cognitum repositories](https://github.com/cognitum-one)
+
+### Leadership and advisors
+
+[Reuven “rUv” Cohen](https://ruv.io/) is Founder and Chief AI Officer; [D. Christopher Keil](https://cognitum.one/team) is Founding CEO. Founding advisors and investors include Mark B. Templeton, former CEO of Citrix; Dr. Greg Lavender, former CTO of Intel; and John McKinley, former President of AOL Technologies.
+
+Strategic advisors include Adrian Cockcroft, Sean Patterson, Tom Lounibos, Jason La Barbera, Stuart Kerr, and Mark Allen, MD, bringing experience across cloud architecture, product, capital, AI workforce adoption, growth, and healthcare. [Meet the team](https://cognitum.one/team) · [Advisory team announcement](https://www.businesswire.com/news/home/20260902303667/en/)
 
 ## Choose your entry point
 
