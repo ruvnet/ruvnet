@@ -143,28 +143,28 @@ The dashboard above is generated from this repository's published JSON. Download
 <!-- github-public-metrics:start -->
 ## GitHub reach
 
-Public GitHub API snapshot verified **October 2, 2026 UTC** (October 1 in Toronto). [Captured inventory](data/snapshots/2026-10-02/github-inventory.json).
+Public GitHub API snapshot verified **October 10, 2026 UTC**. [Captured inventory](data/snapshots/2026-10-10/github-inventory.json).
 
 | Measure | Verified value |
 | --- | ---: |
-| Followers | 11,634 |
-| Public repositories | 221 |
+| Followers | 11,726 |
+| Public repositories | 222 |
 | Owned public nonfork repositories | 196 |
-| Public repositories that are forks | 25 |
-| Stars across owned public nonfork repositories | 185,968 |
-| Aggregate downstream forks of owned nonfork repositories | 24,914 |
+| Public repositories that are forks | 26 |
+| Stars across owned public nonfork repositories | 187,869 |
+| Aggregate downstream forks of owned nonfork repositories | 25,122 |
 
 ### Flagship repository traction
 
-| Project | Stars | Forks | Watchers | Purpose |
-| --- | ---: | ---: | ---: | --- |
-| [RuView](https://github.com/ruvnet/RuView) | 95,890 | 12,655 | 872 | Camera free WiFi spatial intelligence and sensing research |
-| [ruflo](https://github.com/ruvnet/ruflo) | 73,670 | 8,754 | 464 | Agent orchestration, Mods, swarms, routing, and learning workflows |
-| [RuVector](https://github.com/ruvnet/RuVector) | 4,531 | 607 | 36 | Vector, graph, temporal, and adaptive memory infrastructure |
-| [metaharness](https://github.com/ruvnet/metaharness) | 682 | 86 | 3 | Portable harness generation, evaluation, and bounded evolution |
-| [rvm](https://github.com/ruvnet/rvm) | 147 | 31 | 0 | Capability controlled execution infrastructure |
+| Project | Stars | Forks | Subscribers |
+| --- | ---: | ---: | ---: |
+| [RuView](https://github.com/ruvnet/RuView) | 97,106 | 12,756 | 870 |
+| [ruflo](https://github.com/ruvnet/ruflo) | 74,236 | 8,826 | 458 |
+| [RuVector](https://github.com/ruvnet/RuVector) | 4,555 | 611 | 37 |
+| [agentic-flow](https://github.com/ruvnet/agentic-flow) | 818 | 178 | 14 |
+| [metaharness](https://github.com/ruvnet/metaharness) | 696 | 88 | 3 |
 
-RuView and Ruflo account for **91.2% of owned public nonfork stars** and **85.9% of downstream forks**. They remain the distribution anchors for the wider stack.
+RuView and Ruflo account for **91.2% of owned public nonfork stars** and **85.9% of downstream forks**.
 <!-- github-public-metrics:end -->
 
 ### Change since September 7
@@ -216,14 +216,14 @@ Commit search and contribution graph totals were not recounted for this update. 
 | Measure | Verified value | Evidence date |
 | --- | ---: | --- |
 | Published registry and Hugging Face artifacts | at least 908 | Mixed dates below |
-| Known npm packages listing `ruvnet` as maintainer | at least 398 | 2026-10-09 UTC |
-| npm downloads, rolling 365 days (2025-10-08 through 2026-10-07) | 93,957,380 | 2026-10-09; 398 package cohort |
-| Rust crates owned by `ruvnet` | 480 | 2026-10-09 UTC |
-| Cumulative Rust crate downloads (verified 2026-10-09) | 1,803,303 | 2026-10-09 UTC |
+| Known npm packages listing `ruvnet` as maintainer | at least 398 | 2026-10-10 UTC |
+| npm downloads, rolling 365 days (2025-10-09 through 2026-10-08) | 94,500,218 | 2026-10-10; 398 package cohort |
+| Rust crates owned by `ruvnet` | 480 | 2026-10-10 UTC |
+| Cumulative Rust crate downloads (verified 2026-10-10) | 1,815,085 | 2026-10-10 UTC |
 | Ownership verified PyPI packages | 8 | July 12, 2026; historical |
 | Hugging Face models, spaces, and datasets | 22 | July 12, 2026; historical |
 
-The npm inventory and download evidence cover the same **398 package cohort**, verified **2026-10-09 UTC**. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
+The npm inventory and download evidence cover the same **398 package cohort**, verified **2026-10-10 UTC**. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
 
 Package downloads include CI, reinstallations and platform packages. They do not establish unique users. The [weekly refresh](.github/workflows/refresh-registry-metrics.yml) updates these measurements from official APIs.
 <!-- package-public-metrics:end -->
@@ -234,9 +234,9 @@ Package downloads include CI, reinstallations and platform packages. They do not
 
 [![Animated cumulative npm downloads across the measured calendar months](assets/ruvnet/npm-cumulative-growth.svg)](data/registry-stats.json)
 
-**93,987,105 download events** accumulated from **2025-10-01 through 2026-10-07** across the verified **398 package cohort**. Complete month volume grew **50.6 times**, comparing 2025-10 with 2026-09.
+**94,534,735 download events** accumulated from **2025-10-01 through 2026-10-08** across the verified **398 package cohort**. Complete month volume grew **50.6 times**, comparing 2025-10 with 2026-09.
 
-The curve sums measured monthly downloads on a linear scale. The final month is partial, through **2026-10-07**. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **2026-10-09 UTC**.
+The curve sums measured monthly downloads on a linear scale. The final month is partial, through **2026-10-08**. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **2026-10-10 UTC**.
 
 <details>
 <summary>Inspect monthly downloads and cumulative totals</summary>
@@ -255,7 +255,7 @@ The curve sums measured monthly downloads on a linear scale. The final month is 
 | 2026-07 | 14,825,512 | 61,097,248 |
 | 2026-08 | 13,680,577 | 74,777,825 |
 | 2026-09 | 15,120,919 | 89,898,744 |
-| 2026-10 (partial) | 4,088,361 | 93,987,105 |
+| 2026-10 (partial) | 4,635,991 | 94,534,735 |
 
 </details>
 

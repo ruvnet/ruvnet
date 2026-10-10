@@ -1,17 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-09T13:22:12.821735Z",
+  "generated_at": "2026-10-10T12:53:06.788991Z",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 398,
     "download_package_count": 398,
-    "inventory_verified_at": "2026-10-09T12:19:05.288730Z",
-    "downloads_verified_at": "2026-10-09T13:22:12.821735Z",
-    "downloads": 93957380,
-    "period_start": "2025-10-08",
-    "period_end": "2026-10-07",
+    "inventory_verified_at": "2026-10-10T12:29:34.381566Z",
+    "downloads_verified_at": "2026-10-10T12:52:30.469257Z",
+    "downloads": 94500218,
+    "period_start": "2025-10-09",
+    "period_end": "2026-10-08",
     "period_days": 365,
     "monthly_period_start": "2025-10-01",
+    "inventory_path": "data/snapshots/2026-10-10/npm-inventory.json",
+    "downloads_evidence_path": "data/snapshots/2026-10-10/npm-downloads.json",
+    "counting_rule": "Sum of official npm daily range counts across the verified 398-package maintainer cohort, including scoped and platform packages. Trailing all-zero cohort days are excluded as not yet confirmed complete.",
     "monthly_period_end": "2026-09-30",
     "monthly_downloads": [
       {
@@ -65,48 +68,19 @@
     ],
     "current_month": {
       "month": "2026-10",
-      "downloads": 4088361,
+      "downloads": 4635991,
       "period_start": "2026-10-01",
-      "period_end": "2026-10-07",
-      "status": "partial month; observed lower bound; all-zero cohort days may be reporting gaps",
-      "verified_at": "2026-10-09T13:22:12.821735Z"
-    },
-    "inventory_path": "data/snapshots/2026-10-09/npm-inventory.json",
-    "downloads_evidence_path": "data/snapshots/2026-10-09/npm-downloads.json",
-    "counting_rule": "Sum of official npm daily range counts across the verified 398-package maintainer cohort, including scoped and platform packages. Fixed milestone start: 2025-10-01. The separate rolling 365-day window ends at the last positive cohort day. All-zero cohort days may reflect provider reporting gaps; observed events are a lower bound.",
-    "internal_all_zero_cohort_days": [
-      "2026-07-12",
-      "2026-08-14",
-      "2026-09-03",
-      "2026-09-07",
-      "2026-09-08",
-      "2026-09-15",
-      "2026-10-06"
-    ],
-    "trailing_all_zero_days_excluded": [
-      "2026-10-08"
-    ],
-    "latest_14_day_collection": {
-      "period_start": "2026-09-25",
       "period_end": "2026-10-08",
-      "observed_downloads": 9854546,
-      "expected_packages": 398,
-      "collected_packages": 398,
-      "status": "complete API responses, provider latency may remain",
-      "all_zero_cohort_days": [
-        "2026-10-06",
-        "2026-10-08"
-      ],
-      "note": "Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional.",
-      "evidence_path": "data/snapshots/2026-10-09/npm-14-day-observations.json"
+      "status": "partial month; trailing all-zero API days excluded",
+      "verified_at": "2026-10-10T12:52:30.469257Z"
     }
   },
   "crates_io": {
     "user_id": 339999,
-    "verified_at": "2026-10-09T12:19:26.812924Z",
+    "verified_at": "2026-10-10T12:53:06.788045Z",
     "crate_count": 480,
-    "cumulative_downloads": 1803303,
-    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999.",
-    "inventory_path": "data/snapshots/2026-10-09/crates-inventory.json"
+    "cumulative_downloads": 1815085,
+    "inventory_path": "data/snapshots/2026-10-10/crates-inventory.json",
+    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   }
 }

@@ -7,8 +7,8 @@
       "release_id": 399358022,
       "asset_id": 598747755,
       "name": "esp32-csi-node-firmware-4mb.tar.gz",
-      "downloads": 67,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 69,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|598747753": {
@@ -17,8 +17,8 @@
       "release_id": 399358022,
       "asset_id": 598747753,
       "name": "esp32-csi-node-firmware-8mb.tar.gz",
-      "downloads": 131,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 139,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|598747750": {
@@ -27,8 +27,8 @@
       "release_id": 399358022,
       "asset_id": 598747750,
       "name": "esp32-csi-node-firmware-c6-4mb.tar.gz",
-      "downloads": 48,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 51,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|598747748": {
@@ -37,8 +37,8 @@
       "release_id": 399358022,
       "asset_id": 598747748,
       "name": "SHA256SUMS.txt",
-      "downloads": 68,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 76,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|538390804": {
@@ -47,8 +47,8 @@
       "release_id": 379977595,
       "asset_id": 538390804,
       "name": "esp32-csi-node-v0.8.8-c6-4mb-flash-bundle.zip",
-      "downloads": 156,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 159,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|538390825": {
@@ -58,7 +58,7 @@
       "asset_id": 538390825,
       "name": "esp32-csi-node-v0.8.8-c6-4mb.bin",
       "downloads": 47,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|538390795": {
@@ -67,8 +67,8 @@
       "release_id": 379977595,
       "asset_id": 538390795,
       "name": "esp32-csi-node-v0.8.8-s3-4mb-flash-bundle.zip",
-      "downloads": 209,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 213,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|538390799": {
@@ -78,7 +78,7 @@
       "asset_id": 538390799,
       "name": "esp32-csi-node-v0.8.8-s3-4mb.bin",
       "downloads": 50,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|538390800": {
@@ -87,8 +87,8 @@
       "release_id": 379977595,
       "asset_id": 538390800,
       "name": "esp32-csi-node-v0.8.8-s3-8mb-flash-bundle.zip",
-      "downloads": 862,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 888,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|538390797": {
@@ -97,8 +97,8 @@
       "release_id": 379977595,
       "asset_id": 538390797,
       "name": "esp32-csi-node-v0.8.8-s3-8mb.bin",
-      "downloads": 104,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 107,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|538390833": {
@@ -107,8 +107,8 @@
       "release_id": 379977595,
       "asset_id": 538390833,
       "name": "SHA256SUMS.txt",
-      "downloads": 318,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 326,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482073589": {
@@ -118,7 +118,7 @@
       "asset_id": 482073589,
       "name": "ruview-v0.9.3-vendor-providers-beta.1-20260719000158.zip",
       "downloads": 106,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482073592": {
@@ -128,7 +128,7 @@
       "asset_id": 482073592,
       "name": "sensing-server-windows-x86_64.exe",
       "downloads": 238,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482073590": {
@@ -138,7 +138,7 @@
       "asset_id": 482073590,
       "name": "SHA256SUMS.txt",
       "downloads": 127,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482073591": {
@@ -148,7 +148,7 @@
       "asset_id": 482073591,
       "name": "vendor-rf-sim-windows-x86_64.exe",
       "downloads": 41,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482021480": {
@@ -158,7 +158,7 @@
       "asset_id": 482021480,
       "name": "qca9300-100frames.qcs1",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482021481": {
@@ -168,7 +168,7 @@
       "asset_id": 482021481,
       "name": "qcn9074-100frames.qcs1",
       "downloads": 14,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482021482": {
@@ -178,7 +178,7 @@
       "asset_id": 482021482,
       "name": "qcn9274-100frames.qcs1",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482021484": {
@@ -188,7 +188,7 @@
       "asset_id": 482021484,
       "name": "ruview-qualcomm-beta-20260718-224001.zip",
       "downloads": 14,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|482021485": {
@@ -198,7 +198,7 @@
       "asset_id": 482021485,
       "name": "SHA256SUMS-qualcomm-beta.1-20260718-224001.txt",
       "downloads": 12,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481978060": {
@@ -208,7 +208,7 @@
       "asset_id": 481978060,
       "name": "mt7981-100frames.mtc1",
       "downloads": 17,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481978064": {
@@ -218,7 +218,7 @@
       "asset_id": 481978064,
       "name": "mt7986-100frames.mtc1",
       "downloads": 14,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481978061": {
@@ -228,7 +228,7 @@
       "asset_id": 481978061,
       "name": "mt7996-100frames.mtc1",
       "downloads": 15,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481978063": {
@@ -238,7 +238,7 @@
       "asset_id": 481978063,
       "name": "ruview-mediatek-beta-20260718-220046.zip",
       "downloads": 17,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481978062": {
@@ -248,7 +248,7 @@
       "asset_id": 481978062,
       "name": "SHA256SUMS-mediatek-beta.1-20260718-220046.txt",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481902074": {
@@ -258,7 +258,7 @@
       "asset_id": 481902074,
       "name": "rtl8720f-synthetic-replay.bin",
       "downloads": 12,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481902076": {
@@ -268,7 +268,7 @@
       "asset_id": 481902076,
       "name": "ruview-v0.9.0-realtek-beta.1-SHA256SUMS-20260718193657.txt",
       "downloads": 15,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481902075": {
@@ -278,7 +278,7 @@
       "asset_id": 481902075,
       "name": "ruview-v0.9.0-realtek-beta.1-windows-x86_64-20260718193657.zip",
       "downloads": 23,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481842754": {
@@ -288,7 +288,7 @@
       "asset_id": 481842754,
       "name": "esp32-csi-node-v0.8.4-8mb-flash-bundle.zip",
       "downloads": 467,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|481842753": {
@@ -298,7 +298,7 @@
       "asset_id": 481842753,
       "name": "esp32-csi-node-v0.8.4-8mb.bin",
       "downloads": 132,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|459617398": {
@@ -308,7 +308,7 @@
       "asset_id": 459617398,
       "name": "bootloader.bin",
       "downloads": 1650,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|459617400": {
@@ -318,7 +318,7 @@
       "asset_id": 459617400,
       "name": "esp32-csi-node-s3-4mb.bin",
       "downloads": 680,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|459617399": {
@@ -328,7 +328,7 @@
       "asset_id": 459617399,
       "name": "esp32-csi-node-s3-8mb.bin",
       "downloads": 1209,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|459617401": {
@@ -338,7 +338,7 @@
       "asset_id": 459617401,
       "name": "ota_data_initial.bin",
       "downloads": 1117,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|459617407": {
@@ -348,7 +348,7 @@
       "asset_id": 459617407,
       "name": "partition-table-4mb.bin",
       "downloads": 484,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|459617402": {
@@ -358,7 +358,7 @@
       "asset_id": 459617402,
       "name": "partition-table.bin",
       "downloads": 1039,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|459617406": {
@@ -368,7 +368,7 @@
       "asset_id": 459617406,
       "name": "SHA256SUMS.txt",
       "downloads": 393,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|454776475": {
@@ -378,7 +378,7 @@
       "asset_id": 454776475,
       "name": "bootloader.bin",
       "downloads": 278,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|454776472": {
@@ -388,7 +388,7 @@
       "asset_id": 454776472,
       "name": "esp32-csi-node-s3-4mb.bin",
       "downloads": 138,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|454776473": {
@@ -398,7 +398,7 @@
       "asset_id": 454776473,
       "name": "esp32-csi-node-s3-8mb.bin",
       "downloads": 233,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|454776489": {
@@ -408,7 +408,7 @@
       "asset_id": 454776489,
       "name": "ota_data_initial.bin",
       "downloads": 211,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|454776474": {
@@ -418,7 +418,7 @@
       "asset_id": 454776474,
       "name": "partition-table-4mb.bin",
       "downloads": 118,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|454776471": {
@@ -428,7 +428,7 @@
       "asset_id": 454776471,
       "name": "partition-table.bin",
       "downloads": 206,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|450365182": {
@@ -437,8 +437,8 @@
       "release_id": 340897033,
       "asset_id": 450365182,
       "name": "bootloader.bin",
-      "downloads": 613,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 616,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|450365172": {
@@ -447,8 +447,8 @@
       "release_id": 340897033,
       "asset_id": 450365172,
       "name": "esp32-csi-node-s3-4mb.bin",
-      "downloads": 277,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 280,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|450365174": {
@@ -457,8 +457,8 @@
       "release_id": 340897033,
       "asset_id": 450365174,
       "name": "esp32-csi-node-s3-8mb.bin",
-      "downloads": 507,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 510,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|450365187": {
@@ -467,8 +467,8 @@
       "release_id": 340897033,
       "asset_id": 450365187,
       "name": "ota_data_initial.bin",
-      "downloads": 489,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 492,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|450365173": {
@@ -477,8 +477,8 @@
       "release_id": 340897033,
       "asset_id": 450365173,
       "name": "partition-table-4mb.bin",
-      "downloads": 254,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 257,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|450365175": {
@@ -487,8 +487,8 @@
       "release_id": 340897033,
       "asset_id": 450365175,
       "name": "partition-table.bin",
-      "downloads": 475,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 478,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791231": {
@@ -498,7 +498,7 @@
       "asset_id": 444791231,
       "name": "bootloader-c6.bin",
       "downloads": 35,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791234": {
@@ -508,7 +508,7 @@
       "asset_id": 444791234,
       "name": "bootloader.bin",
       "downloads": 78,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791232": {
@@ -518,7 +518,7 @@
       "asset_id": 444791232,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 33,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791235": {
@@ -528,7 +528,7 @@
       "asset_id": 444791235,
       "name": "esp32-csi-node-c6.bin",
       "downloads": 35,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791236": {
@@ -538,7 +538,7 @@
       "asset_id": 444791236,
       "name": "esp32-csi-node.bin",
       "downloads": 68,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791254": {
@@ -548,7 +548,7 @@
       "asset_id": 444791254,
       "name": "ota_data_initial.bin",
       "downloads": 87,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791262": {
@@ -558,7 +558,7 @@
       "asset_id": 444791262,
       "name": "partition-table-4mb.bin",
       "downloads": 25,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791263": {
@@ -568,7 +568,7 @@
       "asset_id": 444791263,
       "name": "partition-table-c6.bin",
       "downloads": 31,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791256": {
@@ -578,7 +578,7 @@
       "asset_id": 444791256,
       "name": "partition-table.bin",
       "downloads": 66,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|444791265": {
@@ -588,7 +588,7 @@
       "asset_id": 444791265,
       "name": "SHA256SUMS.txt",
       "downloads": 31,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839416": {
@@ -598,7 +598,7 @@
       "asset_id": 442839416,
       "name": "bootloader-c6.bin",
       "downloads": 82,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839394": {
@@ -608,7 +608,7 @@
       "asset_id": 442839394,
       "name": "bootloader-s3.bin",
       "downloads": 190,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839395": {
@@ -618,7 +618,7 @@
       "asset_id": 442839395,
       "name": "esp32-csi-node-c6-4mb.bin",
       "downloads": 65,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839403": {
@@ -628,7 +628,7 @@
       "asset_id": 442839403,
       "name": "esp32-csi-node-s3-8mb.bin",
       "downloads": 197,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839415": {
@@ -638,7 +638,7 @@
       "asset_id": 442839415,
       "name": "ota_data_initial-c6.bin",
       "downloads": 52,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839404": {
@@ -648,7 +648,7 @@
       "asset_id": 442839404,
       "name": "ota_data_initial-s3.bin",
       "downloads": 181,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839414": {
@@ -658,7 +658,7 @@
       "asset_id": 442839414,
       "name": "partition-table-c6.bin",
       "downloads": 55,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839399": {
@@ -668,7 +668,7 @@
       "asset_id": 442839399,
       "name": "partition-table-s3.bin",
       "downloads": 185,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|442839424": {
@@ -678,7 +678,7 @@
       "asset_id": 442839424,
       "name": "SHA256SUMS.txt",
       "downloads": 83,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|429793148": {
@@ -688,7 +688,7 @@
       "asset_id": 429793148,
       "name": "witness-bundle-ADR125-baba851a8.tar.gz",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994764": {
@@ -698,7 +698,7 @@
       "asset_id": 427994764,
       "name": "bootloader-c6.bin",
       "downloads": 247,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994755": {
@@ -707,8 +707,8 @@
       "release_id": 328346131,
       "asset_id": 427994755,
       "name": "bootloader-s3.bin",
-      "downloads": 686,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 687,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994759": {
@@ -718,7 +718,7 @@
       "asset_id": 427994759,
       "name": "esp32-csi-node-c6-4mb.bin",
       "downloads": 236,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994757": {
@@ -727,8 +727,8 @@
       "release_id": 328346131,
       "asset_id": 427994757,
       "name": "esp32-csi-node-s3-8mb.bin",
-      "downloads": 733,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 734,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994763": {
@@ -738,7 +738,7 @@
       "asset_id": 427994763,
       "name": "ota_data_initial-c6.bin",
       "downloads": 183,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994756": {
@@ -747,8 +747,8 @@
       "release_id": 328346131,
       "asset_id": 427994756,
       "name": "ota_data_initial-s3.bin",
-      "downloads": 633,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 634,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994762": {
@@ -758,7 +758,7 @@
       "asset_id": 427994762,
       "name": "partition-table-c6.bin",
       "downloads": 184,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994758": {
@@ -767,8 +767,8 @@
       "release_id": 328346131,
       "asset_id": 427994758,
       "name": "partition-table-s3.bin",
-      "downloads": 643,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 644,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427994766": {
@@ -778,7 +778,7 @@
       "asset_id": 427994766,
       "name": "SHA256SUMS.txt",
       "downloads": 294,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987955": {
@@ -788,7 +788,7 @@
       "asset_id": 427987955,
       "name": "bootloader-c6.bin",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987950": {
@@ -798,7 +798,7 @@
       "asset_id": 427987950,
       "name": "bootloader-s3.bin",
       "downloads": 19,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987951": {
@@ -808,7 +808,7 @@
       "asset_id": 427987951,
       "name": "esp32-csi-node-c6-4mb.bin",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987947": {
@@ -818,7 +818,7 @@
       "asset_id": 427987947,
       "name": "esp32-csi-node-s3-8mb.bin",
       "downloads": 17,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987956": {
@@ -828,7 +828,7 @@
       "asset_id": 427987956,
       "name": "ota_data_initial-c6.bin",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987948": {
@@ -838,7 +838,7 @@
       "asset_id": 427987948,
       "name": "ota_data_initial-s3.bin",
       "downloads": 17,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987954": {
@@ -848,7 +848,7 @@
       "asset_id": 427987954,
       "name": "partition-table-c6.bin",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987949": {
@@ -858,7 +858,7 @@
       "asset_id": 427987949,
       "name": "partition-table-s3.bin",
       "downloads": 17,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427987970": {
@@ -868,7 +868,7 @@
       "asset_id": 427987970,
       "name": "SHA256SUMS.txt",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979273": {
@@ -878,7 +878,7 @@
       "asset_id": 427979273,
       "name": "bootloader-c6.bin",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979268": {
@@ -888,7 +888,7 @@
       "asset_id": 427979268,
       "name": "bootloader-s3.bin",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979265": {
@@ -898,7 +898,7 @@
       "asset_id": 427979265,
       "name": "esp32-csi-node-c6-4mb.bin",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979266": {
@@ -908,7 +908,7 @@
       "asset_id": 427979266,
       "name": "esp32-csi-node-s3-8mb.bin",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979276": {
@@ -918,7 +918,7 @@
       "asset_id": 427979276,
       "name": "ota_data_initial-c6.bin",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979270": {
@@ -928,7 +928,7 @@
       "asset_id": 427979270,
       "name": "ota_data_initial-s3.bin",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979275": {
@@ -938,7 +938,7 @@
       "asset_id": 427979275,
       "name": "partition-table-c6.bin",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979267": {
@@ -948,7 +948,7 @@
       "asset_id": 427979267,
       "name": "partition-table-s3.bin",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427979279": {
@@ -958,7 +958,7 @@
       "asset_id": 427979279,
       "name": "SHA256SUMS.txt",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946660": {
@@ -968,7 +968,7 @@
       "asset_id": 427946660,
       "name": "bootloader-c6.bin",
       "downloads": 22,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946649": {
@@ -977,8 +977,8 @@
       "release_id": 328326594,
       "asset_id": 427946649,
       "name": "bootloader-s3.bin",
-      "downloads": 92,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 93,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427956344": {
@@ -988,7 +988,7 @@
       "asset_id": 427956344,
       "name": "COM12-v0.6.7-softap.log",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427956343": {
@@ -998,7 +998,7 @@
       "asset_id": 427956343,
       "name": "COM9-v0.6.7-regression.log",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427956345": {
@@ -1008,7 +1008,7 @@
       "asset_id": 427956345,
       "name": "esp32-csi-node-c6-4mb-softap.bin",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946653": {
@@ -1018,7 +1018,7 @@
       "asset_id": 427946653,
       "name": "esp32-csi-node-c6-4mb.bin",
       "downloads": 20,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427965125": {
@@ -1028,7 +1028,7 @@
       "asset_id": 427965125,
       "name": "esp32-csi-node-s3-4mb.bin",
       "downloads": 67,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946652": {
@@ -1037,8 +1037,8 @@
       "release_id": 328326594,
       "asset_id": 427946652,
       "name": "esp32-csi-node-s3-8mb.bin",
-      "downloads": 47,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 48,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946662": {
@@ -1048,7 +1048,7 @@
       "asset_id": 427946662,
       "name": "ota_data_initial-c6.bin",
       "downloads": 22,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946648": {
@@ -1057,8 +1057,8 @@
       "release_id": 328326594,
       "asset_id": 427946648,
       "name": "ota_data_initial-s3.bin",
-      "downloads": 88,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 89,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946661": {
@@ -1068,7 +1068,7 @@
       "asset_id": 427946661,
       "name": "partition-table-c6.bin",
       "downloads": 20,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427965126": {
@@ -1078,7 +1078,7 @@
       "asset_id": 427965126,
       "name": "partition-table-s3-4mb.bin",
       "downloads": 65,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427946654": {
@@ -1087,8 +1087,8 @@
       "release_id": 328326594,
       "asset_id": 427946654,
       "name": "partition-table-s3.bin",
-      "downloads": 42,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 43,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|427965128": {
@@ -1098,7 +1098,7 @@
       "asset_id": 427965128,
       "name": "SHA256SUMS.txt",
       "downloads": 25,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|426168920": {
@@ -1108,7 +1108,7 @@
       "asset_id": 426168920,
       "name": "bootloader.bin",
       "downloads": 636,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|426168917": {
@@ -1118,7 +1118,7 @@
       "asset_id": 426168917,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 310,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|426168916": {
@@ -1128,7 +1128,7 @@
       "asset_id": 426168916,
       "name": "esp32-csi-node.bin",
       "downloads": 576,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|426168919": {
@@ -1138,7 +1138,7 @@
       "asset_id": 426168919,
       "name": "ota_data_initial.bin",
       "downloads": 608,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|426168930": {
@@ -1148,7 +1148,7 @@
       "asset_id": 426168930,
       "name": "partition-table-4mb.bin",
       "downloads": 308,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|426168921": {
@@ -1158,7 +1158,7 @@
       "asset_id": 426168921,
       "name": "partition-table.bin",
       "downloads": 562,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|423612927": {
@@ -1167,8 +1167,8 @@
       "release_id": 324557881,
       "asset_id": 423612927,
       "name": "bootloader.bin",
-      "downloads": 545,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 546,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|423612924": {
@@ -1177,8 +1177,8 @@
       "release_id": 324557881,
       "asset_id": 423612924,
       "name": "esp32-csi-node-4mb.bin",
-      "downloads": 240,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 241,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|423612926": {
@@ -1187,8 +1187,8 @@
       "release_id": 324557881,
       "asset_id": 423612926,
       "name": "esp32-csi-node.bin",
-      "downloads": 450,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 451,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|423612923": {
@@ -1197,8 +1197,8 @@
       "release_id": 324557881,
       "asset_id": 423612923,
       "name": "ota_data_initial.bin",
-      "downloads": 414,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 415,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|423612937": {
@@ -1207,8 +1207,8 @@
       "release_id": 324557881,
       "asset_id": 423612937,
       "name": "partition-table-4mb.bin",
-      "downloads": 231,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 232,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|423612925": {
@@ -1217,8 +1217,8 @@
       "release_id": 324557881,
       "asset_id": 423612925,
       "name": "partition-table.bin",
-      "downloads": 405,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 406,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|414574886": {
@@ -1228,7 +1228,7 @@
       "asset_id": 414574886,
       "name": "bootloader.bin",
       "downloads": 790,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|414574894": {
@@ -1238,7 +1238,7 @@
       "asset_id": 414574894,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 452,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|414574891": {
@@ -1248,7 +1248,7 @@
       "asset_id": 414574891,
       "name": "esp32-csi-node.bin",
       "downloads": 694,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|414574897": {
@@ -1258,7 +1258,7 @@
       "asset_id": 414574897,
       "name": "ota_data_initial.bin",
       "downloads": 674,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|414574893": {
@@ -1268,7 +1268,7 @@
       "asset_id": 414574893,
       "name": "partition-table-4mb.bin",
       "downloads": 447,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|414574887": {
@@ -1278,7 +1278,7 @@
       "asset_id": 414574887,
       "name": "partition-table.bin",
       "downloads": 662,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|407392822": {
@@ -1288,7 +1288,7 @@
       "asset_id": 407392822,
       "name": "bootloader.bin",
       "downloads": 862,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|407392823": {
@@ -1298,7 +1298,7 @@
       "asset_id": 407392823,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 652,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|407392819": {
@@ -1308,7 +1308,7 @@
       "asset_id": 407392819,
       "name": "esp32-csi-node.bin",
       "downloads": 790,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|407392820": {
@@ -1318,7 +1318,7 @@
       "asset_id": 407392820,
       "name": "ota_data_initial.bin",
       "downloads": 772,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|407392858": {
@@ -1328,7 +1328,7 @@
       "asset_id": 407392858,
       "name": "partition-table-4mb.bin",
       "downloads": 608,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|407392818": {
@@ -1338,7 +1338,7 @@
       "asset_id": 407392818,
       "name": "partition-table.bin",
       "downloads": 754,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|400819749": {
@@ -1348,7 +1348,7 @@
       "asset_id": 400819749,
       "name": "bootloader.bin",
       "downloads": 838,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|400819752": {
@@ -1358,7 +1358,7 @@
       "asset_id": 400819752,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 631,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|400819748": {
@@ -1368,7 +1368,7 @@
       "asset_id": 400819748,
       "name": "esp32-csi-node.bin",
       "downloads": 833,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|400819746": {
@@ -1378,7 +1378,7 @@
       "asset_id": 400819746,
       "name": "ota_data_initial.bin",
       "downloads": 777,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|400819747": {
@@ -1388,7 +1388,7 @@
       "asset_id": 400819747,
       "name": "partition-table-4mb.bin",
       "downloads": 619,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|400819745": {
@@ -1398,7 +1398,7 @@
       "asset_id": 400819745,
       "name": "partition-table.bin",
       "downloads": 789,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|397835413": {
@@ -1408,7 +1408,7 @@
       "asset_id": 397835413,
       "name": "bootloader.bin",
       "downloads": 679,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|397835415": {
@@ -1418,7 +1418,7 @@
       "asset_id": 397835415,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 578,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|397835417": {
@@ -1428,7 +1428,7 @@
       "asset_id": 397835417,
       "name": "esp32-csi-node.bin",
       "downloads": 669,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|397835412": {
@@ -1438,7 +1438,7 @@
       "asset_id": 397835412,
       "name": "ota_data_initial.bin",
       "downloads": 658,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|397835424": {
@@ -1448,7 +1448,7 @@
       "asset_id": 397835424,
       "name": "partition-table-4mb.bin",
       "downloads": 573,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|397835414": {
@@ -1458,7 +1458,7 @@
       "asset_id": 397835414,
       "name": "partition-table.bin",
       "downloads": 657,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|390315642": {
@@ -1468,7 +1468,7 @@
       "asset_id": 390315642,
       "name": "wiflow-v1-lite.tar.gz",
       "downloads": 1015,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387938889": {
@@ -1478,7 +1478,7 @@
       "asset_id": 387938889,
       "name": "bootloader.bin",
       "downloads": 759,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387938890": {
@@ -1488,7 +1488,7 @@
       "asset_id": 387938890,
       "name": "esp32-csi-node.bin",
       "downloads": 735,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387938893": {
@@ -1498,7 +1498,7 @@
       "asset_id": 387938893,
       "name": "ota_data_initial.bin",
       "downloads": 713,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387938894": {
@@ -1508,7 +1508,7 @@
       "asset_id": 387938894,
       "name": "partition-table.bin",
       "downloads": 712,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387853897": {
@@ -1518,7 +1518,7 @@
       "asset_id": 387853897,
       "name": "bootloader.bin",
       "downloads": 610,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387853890": {
@@ -1528,7 +1528,7 @@
       "asset_id": 387853890,
       "name": "esp32-csi-node.bin",
       "downloads": 614,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387853893": {
@@ -1538,7 +1538,7 @@
       "asset_id": 387853893,
       "name": "ota_data_initial.bin",
       "downloads": 597,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387853894": {
@@ -1548,7 +1548,7 @@
       "asset_id": 387853894,
       "name": "partition-table.bin",
       "downloads": 600,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387853892": {
@@ -1558,7 +1558,7 @@
       "asset_id": 387853892,
       "name": "SHA256SUMS.txt",
       "downloads": 518,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387418915": {
@@ -1568,7 +1568,7 @@
       "asset_id": 387418915,
       "name": "bootloader.bin",
       "downloads": 549,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387418914": {
@@ -1578,7 +1578,7 @@
       "asset_id": 387418914,
       "name": "esp32-csi-node.bin",
       "downloads": 550,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387418918": {
@@ -1588,7 +1588,7 @@
       "asset_id": 387418918,
       "name": "ota_data_initial.bin",
       "downloads": 535,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387418916": {
@@ -1598,7 +1598,7 @@
       "asset_id": 387418916,
       "name": "partition-table.bin",
       "downloads": 539,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|387418917": {
@@ -1608,7 +1608,7 @@
       "asset_id": 387418917,
       "name": "SHA256SUMS.txt",
       "downloads": 504,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|385201317": {
@@ -1618,7 +1618,7 @@
       "asset_id": 385201317,
       "name": "bootloader.bin",
       "downloads": 670,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|385201312": {
@@ -1628,7 +1628,7 @@
       "asset_id": 385201312,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 560,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|385201314": {
@@ -1638,7 +1638,7 @@
       "asset_id": 385201314,
       "name": "esp32-csi-node.bin",
       "downloads": 638,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|385201316": {
@@ -1648,7 +1648,7 @@
       "asset_id": 385201316,
       "name": "ota_data_initial.bin",
       "downloads": 632,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|385201319": {
@@ -1658,7 +1658,7 @@
       "asset_id": 385201319,
       "name": "partition-table-4mb.bin",
       "downloads": 549,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|385201313": {
@@ -1668,7 +1668,7 @@
       "asset_id": 385201313,
       "name": "partition-table.bin",
       "downloads": 630,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|383565549": {
@@ -1678,7 +1678,7 @@
       "asset_id": 383565549,
       "name": "bootloader.bin",
       "downloads": 655,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|383565546": {
@@ -1688,7 +1688,7 @@
       "asset_id": 383565546,
       "name": "esp32-csi-node.bin",
       "downloads": 663,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|383565547": {
@@ -1698,7 +1698,7 @@
       "asset_id": 383565547,
       "name": "ota_data_initial.bin",
       "downloads": 640,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|383565548": {
@@ -1708,7 +1708,7 @@
       "asset_id": 383565548,
       "name": "partition-table.bin",
       "downloads": 639,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374480175": {
@@ -1718,7 +1718,7 @@
       "asset_id": 374480175,
       "name": "bootloader.bin",
       "downloads": 1447,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374480179": {
@@ -1728,7 +1728,7 @@
       "asset_id": 374480179,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 857,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374480174": {
@@ -1738,7 +1738,7 @@
       "asset_id": 374480174,
       "name": "esp32-csi-node.bin",
       "downloads": 1409,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374480176": {
@@ -1748,7 +1748,7 @@
       "asset_id": 374480176,
       "name": "ota_data_initial.bin",
       "downloads": 1391,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374480186": {
@@ -1758,7 +1758,7 @@
       "asset_id": 374480186,
       "name": "partition-table-4mb.bin",
       "downloads": 834,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374480182": {
@@ -1768,7 +1768,7 @@
       "asset_id": 374480182,
       "name": "partition-table.bin",
       "downloads": 1350,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374383200": {
@@ -1778,7 +1778,7 @@
       "asset_id": 374383200,
       "name": "bootloader.bin",
       "downloads": 572,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374383197": {
@@ -1788,7 +1788,7 @@
       "asset_id": 374383197,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 514,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374383196": {
@@ -1798,7 +1798,7 @@
       "asset_id": 374383196,
       "name": "esp32-csi-node.bin",
       "downloads": 566,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374383193": {
@@ -1808,7 +1808,7 @@
       "asset_id": 374383193,
       "name": "ota_data_initial.bin",
       "downloads": 566,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374383204": {
@@ -1818,7 +1818,7 @@
       "asset_id": 374383204,
       "name": "partition-table-4mb.bin",
       "downloads": 517,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374383203": {
@@ -1828,7 +1828,7 @@
       "asset_id": 374383203,
       "name": "partition-table.bin",
       "downloads": 561,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374377719": {
@@ -1838,7 +1838,7 @@
       "asset_id": 374377719,
       "name": "bootloader.bin",
       "downloads": 517,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374377720": {
@@ -1848,7 +1848,7 @@
       "asset_id": 374377720,
       "name": "esp32-csi-node-4mb.bin",
       "downloads": 510,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374377718": {
@@ -1858,7 +1858,7 @@
       "asset_id": 374377718,
       "name": "esp32-csi-node.bin",
       "downloads": 493,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374377717": {
@@ -1868,7 +1868,7 @@
       "asset_id": 374377717,
       "name": "ota_data_initial.bin",
       "downloads": 507,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374377722": {
@@ -1878,7 +1878,7 @@
       "asset_id": 374377722,
       "name": "partition-table-4mb.bin",
       "downloads": 509,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|374377721": {
@@ -1888,7 +1888,7 @@
       "asset_id": 374377721,
       "name": "partition-table.bin",
       "downloads": 493,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|373080414": {
@@ -1898,7 +1898,7 @@
       "asset_id": 373080414,
       "name": "bootloader.bin",
       "downloads": 506,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|373080413": {
@@ -1908,7 +1908,7 @@
       "asset_id": 373080413,
       "name": "esp32-csi-node.bin",
       "downloads": 509,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|373080415": {
@@ -1918,7 +1918,7 @@
       "asset_id": 373080415,
       "name": "partition-table.bin",
       "downloads": 505,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|372457299": {
@@ -1928,7 +1928,7 @@
       "asset_id": 372457299,
       "name": "bootloader.bin",
       "downloads": 617,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|372457301": {
@@ -1938,7 +1938,7 @@
       "asset_id": 372457301,
       "name": "esp32-csi-node.bin",
       "downloads": 602,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|372457302": {
@@ -1948,7 +1948,7 @@
       "asset_id": 372457302,
       "name": "ota_data_initial.bin",
       "downloads": 593,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|372457303": {
@@ -1958,7 +1958,7 @@
       "asset_id": 372457303,
       "name": "partition-table.bin",
       "downloads": 593,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|372457300": {
@@ -1968,7 +1968,7 @@
       "asset_id": 372457300,
       "name": "SHA256SUMS.txt",
       "downloads": 513,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370552623": {
@@ -1978,7 +1978,7 @@
       "asset_id": 370552623,
       "name": "RuView-Desktop-0.4.0-macos-arm64.zip",
       "downloads": 623,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370552621": {
@@ -1988,7 +1988,7 @@
       "asset_id": 370552621,
       "name": "RuView-Desktop-0.4.0-macos-x64.zip",
       "downloads": 520,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370517973": {
@@ -1998,7 +1998,7 @@
       "asset_id": 370517973,
       "name": "RuView.Desktop_0.4.0_aarch64.dmg",
       "downloads": 531,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370552622": {
@@ -2008,7 +2008,7 @@
       "asset_id": 370552622,
       "name": "RuView.Desktop_0.4.0_x64-setup.exe",
       "downloads": 822,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370552624": {
@@ -2018,7 +2018,7 @@
       "asset_id": 370552624,
       "name": "RuView.Desktop_0.4.0_x64_en-US.msi",
       "downloads": 681,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370577877": {
@@ -2028,7 +2028,7 @@
       "asset_id": 370577877,
       "name": "RuView-Desktop-0.4.1-macos-arm64.zip",
       "downloads": 682,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370577878": {
@@ -2038,7 +2038,7 @@
       "asset_id": 370577878,
       "name": "RuView-Desktop-0.4.1-macos-x64.zip",
       "downloads": 530,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370577879": {
@@ -2047,8 +2047,8 @@
       "release_id": 294985669,
       "asset_id": 370577879,
       "name": "RuView.Desktop_0.4.1_x64-setup.exe",
-      "downloads": 887,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 889,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370577876": {
@@ -2057,8 +2057,8 @@
       "release_id": 294985669,
       "asset_id": 370577876,
       "name": "RuView.Desktop_0.4.1_x64_en-US.msi",
-      "downloads": 696,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 697,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370887417": {
@@ -2068,7 +2068,7 @@
       "asset_id": 370887417,
       "name": "RuView-Desktop-0.4.0-macos-arm64.zip",
       "downloads": 534,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370887421": {
@@ -2078,7 +2078,7 @@
       "asset_id": 370887421,
       "name": "RuView-Desktop-0.4.0-macos-x64.zip",
       "downloads": 496,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370887418": {
@@ -2087,8 +2087,8 @@
       "release_id": 295224545,
       "asset_id": 370887418,
       "name": "RuView.Desktop_0.4.4_x64-setup.exe",
-      "downloads": 637,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 638,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370887420": {
@@ -2097,8 +2097,8 @@
       "release_id": 295224545,
       "asset_id": 370887420,
       "name": "RuView.Desktop_0.4.4_x64_en-US.msi",
-      "downloads": 563,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 564,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370980105": {
@@ -2108,7 +2108,7 @@
       "asset_id": 370980105,
       "name": "csi-activity.zip",
       "downloads": 607,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370980108": {
@@ -2118,7 +2118,7 @@
       "asset_id": 370980108,
       "name": "csi-respiration.zip",
       "downloads": 569,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370980106": {
@@ -2128,7 +2128,7 @@
       "asset_id": 370980106,
       "name": "csi-vitals.zip",
       "downloads": 572,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370249279": {
@@ -2138,7 +2138,7 @@
       "asset_id": 370249279,
       "name": "RuView-Desktop-0.3.0-macos-arm64.zip",
       "downloads": 533,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370249272": {
@@ -2148,7 +2148,7 @@
       "asset_id": 370249272,
       "name": "RuView-Desktop-0.3.0-macos-x64.zip",
       "downloads": 490,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370249274": {
@@ -2158,7 +2158,7 @@
       "asset_id": 370249274,
       "name": "RuView.Desktop_0.3.0_x64-setup.exe",
       "downloads": 592,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|370249271": {
@@ -2168,7 +2168,7 @@
       "asset_id": 370249271,
       "name": "RuView.Desktop_0.3.0_x64_en-US.msi",
       "downloads": 536,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|369819460": {
@@ -2177,8 +2177,8 @@
       "release_id": 294517071,
       "asset_id": 369819460,
       "name": "wifi-densepose-desktop.exe",
-      "downloads": 2926,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "downloads": 2927,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|367651014": {
@@ -2188,7 +2188,7 @@
       "asset_id": 367651014,
       "name": "bootloader.bin",
       "downloads": 656,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|367651015": {
@@ -2198,7 +2198,7 @@
       "asset_id": 367651015,
       "name": "esp32-csi-node.bin",
       "downloads": 660,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|367651013": {
@@ -2208,7 +2208,7 @@
       "asset_id": 367651013,
       "name": "flasher_args.json",
       "downloads": 602,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|367651012": {
@@ -2218,7 +2218,7 @@
       "asset_id": 367651012,
       "name": "partition-table.bin",
       "downloads": 672,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|367651011": {
@@ -2228,7 +2228,7 @@
       "asset_id": 367651011,
       "name": "provision.py",
       "downloads": 630,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365698065": {
@@ -2238,7 +2238,7 @@
       "asset_id": 365698065,
       "name": "bootloader.bin",
       "downloads": 715,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365698067": {
@@ -2248,7 +2248,7 @@
       "asset_id": 365698067,
       "name": "esp32-csi-node.bin",
       "downloads": 697,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365698064": {
@@ -2258,7 +2258,7 @@
       "asset_id": 365698064,
       "name": "flasher_args.json",
       "downloads": 633,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365698066": {
@@ -2268,7 +2268,7 @@
       "asset_id": 365698066,
       "name": "partition-table.bin",
       "downloads": 696,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365698062": {
@@ -2278,7 +2278,7 @@
       "asset_id": 365698062,
       "name": "provision.py",
       "downloads": 661,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365676202": {
@@ -2288,7 +2288,7 @@
       "asset_id": 365676202,
       "name": "bootloader.bin",
       "downloads": 1239,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365676205": {
@@ -2298,7 +2298,7 @@
       "asset_id": 365676205,
       "name": "esp32-csi-node.bin",
       "downloads": 1167,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365676203": {
@@ -2308,7 +2308,7 @@
       "asset_id": 365676203,
       "name": "partition-table.bin",
       "downloads": 1152,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|365676204": {
@@ -2318,7 +2318,7 @@
       "asset_id": 365676204,
       "name": "provision.py",
       "downloads": 1047,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|364538863": {
@@ -2328,7 +2328,7 @@
       "asset_id": 364538863,
       "name": "bootloader.bin",
       "downloads": 844,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|364538860": {
@@ -2338,7 +2338,7 @@
       "asset_id": 364538860,
       "name": "esp32-csi-node.bin",
       "downloads": 858,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|364538861": {
@@ -2348,7 +2348,7 @@
       "asset_id": 364538861,
       "name": "partition-table.bin",
       "downloads": 823,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|997737944|asset|364538862": {
@@ -2358,7 +2358,7 @@
       "asset_id": 364538862,
       "name": "provision.py",
       "downloads": 789,
-      "last_seen_at": "2026-10-09T12:15:34.601Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992982": {
@@ -2368,7 +2368,7 @@
       "asset_id": 590992982,
       "name": "ruvector-decision-esp32-full-factory.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992983": {
@@ -2378,7 +2378,7 @@
       "asset_id": 590992983,
       "name": "ruvector-decision-esp32-full-ota.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993035": {
@@ -2388,7 +2388,7 @@
       "asset_id": 590993035,
       "name": "ruvector-decision-esp32-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993036": {
@@ -2398,7 +2398,7 @@
       "asset_id": 590993036,
       "name": "ruvector-decision-esp32-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992946": {
@@ -2408,7 +2408,7 @@
       "asset_id": 590992946,
       "name": "ruvector-decision-esp32c2-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992941": {
@@ -2418,7 +2418,7 @@
       "asset_id": 590992941,
       "name": "ruvector-decision-esp32c2-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992943": {
@@ -2428,7 +2428,7 @@
       "asset_id": 590992943,
       "name": "ruvector-decision-esp32c2-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992944": {
@@ -2438,7 +2438,7 @@
       "asset_id": 590992944,
       "name": "ruvector-decision-esp32c2-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992938": {
@@ -2448,7 +2448,7 @@
       "asset_id": 590992938,
       "name": "ruvector-decision-esp32c3-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992961": {
@@ -2458,7 +2458,7 @@
       "asset_id": 590992961,
       "name": "ruvector-decision-esp32c3-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992957": {
@@ -2468,7 +2468,7 @@
       "asset_id": 590992957,
       "name": "ruvector-decision-esp32c3-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992960": {
@@ -2478,7 +2478,7 @@
       "asset_id": 590992960,
       "name": "ruvector-decision-esp32c3-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992962": {
@@ -2488,7 +2488,7 @@
       "asset_id": 590992962,
       "name": "ruvector-decision-esp32c3-usbjtag-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992963": {
@@ -2498,7 +2498,7 @@
       "asset_id": 590992963,
       "name": "ruvector-decision-esp32c3-usbjtag-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992966": {
@@ -2508,7 +2508,7 @@
       "asset_id": 590992966,
       "name": "ruvector-decision-esp32c6-full-factory.bin",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992974": {
@@ -2518,7 +2518,7 @@
       "asset_id": 590992974,
       "name": "ruvector-decision-esp32c6-full-ota.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992970": {
@@ -2528,7 +2528,7 @@
       "asset_id": 590992970,
       "name": "ruvector-decision-esp32c6-production-factory.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992973": {
@@ -2538,7 +2538,7 @@
       "asset_id": 590992973,
       "name": "ruvector-decision-esp32c6-production-ota.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992978": {
@@ -2548,7 +2548,7 @@
       "asset_id": 590992978,
       "name": "ruvector-decision-esp32c6-usbjtag-factory.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992980": {
@@ -2558,7 +2558,7 @@
       "asset_id": 590992980,
       "name": "ruvector-decision-esp32c6-usbjtag-ota.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992986": {
@@ -2568,7 +2568,7 @@
       "asset_id": 590992986,
       "name": "ruvector-decision-esp32h2-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992990": {
@@ -2578,7 +2578,7 @@
       "asset_id": 590992990,
       "name": "ruvector-decision-esp32h2-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590992999": {
@@ -2588,7 +2588,7 @@
       "asset_id": 590992999,
       "name": "ruvector-decision-esp32h2-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993000": {
@@ -2598,7 +2598,7 @@
       "asset_id": 590993000,
       "name": "ruvector-decision-esp32h2-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993004": {
@@ -2608,7 +2608,7 @@
       "asset_id": 590993004,
       "name": "ruvector-decision-esp32h2-usbjtag-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993006": {
@@ -2618,7 +2618,7 @@
       "asset_id": 590993006,
       "name": "ruvector-decision-esp32h2-usbjtag-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993008": {
@@ -2628,7 +2628,7 @@
       "asset_id": 590993008,
       "name": "ruvector-decision-esp32p4-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993021": {
@@ -2638,7 +2638,7 @@
       "asset_id": 590993021,
       "name": "ruvector-decision-esp32p4-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993022": {
@@ -2648,7 +2648,7 @@
       "asset_id": 590993022,
       "name": "ruvector-decision-esp32p4-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993024": {
@@ -2658,7 +2658,7 @@
       "asset_id": 590993024,
       "name": "ruvector-decision-esp32p4-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993027": {
@@ -2668,7 +2668,7 @@
       "asset_id": 590993027,
       "name": "ruvector-decision-esp32p4-usbjtag-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993030": {
@@ -2678,7 +2678,7 @@
       "asset_id": 590993030,
       "name": "ruvector-decision-esp32p4-usbjtag-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993038": {
@@ -2688,7 +2688,7 @@
       "asset_id": 590993038,
       "name": "ruvector-decision-esp32s2-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993039": {
@@ -2698,7 +2698,7 @@
       "asset_id": 590993039,
       "name": "ruvector-decision-esp32s2-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993042": {
@@ -2708,7 +2708,7 @@
       "asset_id": 590993042,
       "name": "ruvector-decision-esp32s2-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993048": {
@@ -2718,7 +2718,7 @@
       "asset_id": 590993048,
       "name": "ruvector-decision-esp32s2-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993046": {
@@ -2728,7 +2728,7 @@
       "asset_id": 590993046,
       "name": "ruvector-decision-esp32s3-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993053": {
@@ -2738,7 +2738,7 @@
       "asset_id": 590993053,
       "name": "ruvector-decision-esp32s3-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993056": {
@@ -2748,7 +2748,7 @@
       "asset_id": 590993056,
       "name": "ruvector-decision-esp32s3-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993057": {
@@ -2758,7 +2758,7 @@
       "asset_id": 590993057,
       "name": "ruvector-decision-esp32s3-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993060": {
@@ -2768,7 +2768,7 @@
       "asset_id": 590993060,
       "name": "ruvector-decision-esp32s3-usbjtag-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993063": {
@@ -2778,7 +2778,7 @@
       "asset_id": 590993063,
       "name": "ruvector-decision-esp32s3-usbjtag-ota.bin",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590993064": {
@@ -2788,7 +2788,7 @@
       "asset_id": 590993064,
       "name": "SHA256SUMS",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806915": {
@@ -2798,7 +2798,7 @@
       "asset_id": 590806915,
       "name": "ruvector-decision-esp32-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806916": {
@@ -2808,7 +2808,7 @@
       "asset_id": 590806916,
       "name": "ruvector-decision-esp32-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806954": {
@@ -2818,7 +2818,7 @@
       "asset_id": 590806954,
       "name": "ruvector-decision-esp32-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806957": {
@@ -2828,7 +2828,7 @@
       "asset_id": 590806957,
       "name": "ruvector-decision-esp32-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806887": {
@@ -2838,7 +2838,7 @@
       "asset_id": 590806887,
       "name": "ruvector-decision-esp32c2-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806885": {
@@ -2848,7 +2848,7 @@
       "asset_id": 590806885,
       "name": "ruvector-decision-esp32c2-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806886": {
@@ -2858,7 +2858,7 @@
       "asset_id": 590806886,
       "name": "ruvector-decision-esp32c2-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806890": {
@@ -2868,7 +2868,7 @@
       "asset_id": 590806890,
       "name": "ruvector-decision-esp32c2-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806889": {
@@ -2878,7 +2878,7 @@
       "asset_id": 590806889,
       "name": "ruvector-decision-esp32c3-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806895": {
@@ -2888,7 +2888,7 @@
       "asset_id": 590806895,
       "name": "ruvector-decision-esp32c3-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806896": {
@@ -2898,7 +2898,7 @@
       "asset_id": 590806896,
       "name": "ruvector-decision-esp32c3-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806897": {
@@ -2908,7 +2908,7 @@
       "asset_id": 590806897,
       "name": "ruvector-decision-esp32c3-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806900": {
@@ -2918,7 +2918,7 @@
       "asset_id": 590806900,
       "name": "ruvector-decision-esp32c6-full-factory.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806903": {
@@ -2928,7 +2928,7 @@
       "asset_id": 590806903,
       "name": "ruvector-decision-esp32c6-full-ota.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806911": {
@@ -2938,7 +2938,7 @@
       "asset_id": 590806911,
       "name": "ruvector-decision-esp32c6-production-factory.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806914": {
@@ -2948,7 +2948,7 @@
       "asset_id": 590806914,
       "name": "ruvector-decision-esp32c6-production-ota.bin",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806923": {
@@ -2958,7 +2958,7 @@
       "asset_id": 590806923,
       "name": "ruvector-decision-esp32h2-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806925": {
@@ -2968,7 +2968,7 @@
       "asset_id": 590806925,
       "name": "ruvector-decision-esp32h2-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806928": {
@@ -2978,7 +2978,7 @@
       "asset_id": 590806928,
       "name": "ruvector-decision-esp32h2-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806933": {
@@ -2988,7 +2988,7 @@
       "asset_id": 590806933,
       "name": "ruvector-decision-esp32h2-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806932": {
@@ -2998,7 +2998,7 @@
       "asset_id": 590806932,
       "name": "ruvector-decision-esp32p4-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806936": {
@@ -3008,7 +3008,7 @@
       "asset_id": 590806936,
       "name": "ruvector-decision-esp32p4-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806948": {
@@ -3018,7 +3018,7 @@
       "asset_id": 590806948,
       "name": "ruvector-decision-esp32p4-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806950": {
@@ -3028,7 +3028,7 @@
       "asset_id": 590806950,
       "name": "ruvector-decision-esp32p4-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806961": {
@@ -3038,7 +3038,7 @@
       "asset_id": 590806961,
       "name": "ruvector-decision-esp32s2-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806970": {
@@ -3048,7 +3048,7 @@
       "asset_id": 590806970,
       "name": "ruvector-decision-esp32s2-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806971": {
@@ -3058,7 +3058,7 @@
       "asset_id": 590806971,
       "name": "ruvector-decision-esp32s2-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806972": {
@@ -3068,7 +3068,7 @@
       "asset_id": 590806972,
       "name": "ruvector-decision-esp32s2-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806978": {
@@ -3078,7 +3078,7 @@
       "asset_id": 590806978,
       "name": "ruvector-decision-esp32s3-full-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806983": {
@@ -3088,7 +3088,7 @@
       "asset_id": 590806983,
       "name": "ruvector-decision-esp32s3-full-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806989": {
@@ -3098,7 +3098,7 @@
       "asset_id": 590806989,
       "name": "ruvector-decision-esp32s3-production-factory.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806990": {
@@ -3108,7 +3108,7 @@
       "asset_id": 590806990,
       "name": "ruvector-decision-esp32s3-production-ota.bin",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|590806992": {
@@ -3118,7 +3118,7 @@
       "asset_id": 590806992,
       "name": "SHA256SUMS",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|411320574": {
@@ -3128,7 +3128,7 @@
       "asset_id": 411320574,
       "name": "encoder.hef",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|409251817": {
@@ -3138,7 +3138,7 @@
       "asset_id": 409251817,
       "name": "ruvllm-esp32-esp32.bin",
       "downloads": 12,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|409251815": {
@@ -3148,7 +3148,7 @@
       "asset_id": 409251815,
       "name": "ruvllm-esp32-esp32c3.bin",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|409251816": {
@@ -3158,7 +3158,7 @@
       "asset_id": 409251816,
       "name": "ruvllm-esp32-esp32c6.bin",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|409251813": {
@@ -3168,7 +3168,7 @@
       "asset_id": 409251813,
       "name": "ruvllm-esp32-esp32s2.bin",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|409251814": {
@@ -3178,7 +3178,7 @@
       "asset_id": 409251814,
       "name": "ruvllm-esp32-esp32s3.bin",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|400934036": {
@@ -3188,7 +3188,7 @@
       "asset_id": 400934036,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|400934035": {
@@ -3198,7 +3198,7 @@
       "asset_id": 400934035,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|400934040": {
@@ -3208,7 +3208,7 @@
       "asset_id": 400934040,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|400934039": {
@@ -3218,7 +3218,7 @@
       "asset_id": 400934039,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|400934038": {
@@ -3228,7 +3228,7 @@
       "asset_id": 400934038,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|400934037": {
@@ -3237,8 +3237,8 @@
       "release_id": 311344436,
       "asset_id": 400934037,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
-      "downloads": 14,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "downloads": 15,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|400934033": {
@@ -3248,7 +3248,7 @@
       "asset_id": 400934033,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390471296": {
@@ -3258,7 +3258,7 @@
       "asset_id": 390471296,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390471295": {
@@ -3268,7 +3268,7 @@
       "asset_id": 390471295,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390471301": {
@@ -3278,7 +3278,7 @@
       "asset_id": 390471301,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390471297": {
@@ -3288,7 +3288,7 @@
       "asset_id": 390471297,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390471299": {
@@ -3298,7 +3298,7 @@
       "asset_id": 390471299,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390471298": {
@@ -3308,7 +3308,7 @@
       "asset_id": 390471298,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390471300": {
@@ -3318,7 +3318,7 @@
       "asset_id": 390471300,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390314967": {
@@ -3328,7 +3328,7 @@
       "asset_id": 390314967,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390314965": {
@@ -3338,7 +3338,7 @@
       "asset_id": 390314965,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390314968": {
@@ -3348,7 +3348,7 @@
       "asset_id": 390314968,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390314969": {
@@ -3358,7 +3358,7 @@
       "asset_id": 390314969,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390314966": {
@@ -3368,7 +3368,7 @@
       "asset_id": 390314966,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390314971": {
@@ -3378,7 +3378,7 @@
       "asset_id": 390314971,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|390314970": {
@@ -3388,7 +3388,7 @@
       "asset_id": 390314970,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|388982834": {
@@ -3398,7 +3398,7 @@
       "asset_id": 388982834,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|388982835": {
@@ -3408,7 +3408,7 @@
       "asset_id": 388982835,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|388982838": {
@@ -3418,7 +3418,7 @@
       "asset_id": 388982838,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|388982836": {
@@ -3428,7 +3428,7 @@
       "asset_id": 388982836,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|388982840": {
@@ -3438,7 +3438,7 @@
       "asset_id": 388982840,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|388982837": {
@@ -3448,7 +3448,7 @@
       "asset_id": 388982837,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|388982841": {
@@ -3458,7 +3458,7 @@
       "asset_id": 388982841,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|383142389": {
@@ -3468,7 +3468,7 @@
       "asset_id": 383142389,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|383142392": {
@@ -3478,7 +3478,7 @@
       "asset_id": 383142392,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 16,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|383142395": {
@@ -3488,7 +3488,7 @@
       "asset_id": 383142395,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|383142390": {
@@ -3498,7 +3498,7 @@
       "asset_id": 383142390,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 16,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|383142393": {
@@ -3508,7 +3508,7 @@
       "asset_id": 383142393,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|383142394": {
@@ -3518,7 +3518,7 @@
       "asset_id": 383142394,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 12,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|383142391": {
@@ -3528,7 +3528,7 @@
       "asset_id": 383142391,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|362247959": {
@@ -3538,7 +3538,7 @@
       "asset_id": 362247959,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|362247963": {
@@ -3548,7 +3548,7 @@
       "asset_id": 362247963,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 12,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|362247958": {
@@ -3558,7 +3558,7 @@
       "asset_id": 362247958,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|362247960": {
@@ -3568,7 +3568,7 @@
       "asset_id": 362247960,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 15,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|362247965": {
@@ -3578,7 +3578,7 @@
       "asset_id": 362247965,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 15,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|362247962": {
@@ -3588,7 +3588,7 @@
       "asset_id": 362247962,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|362247964": {
@@ -3598,7 +3598,7 @@
       "asset_id": 362247964,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359801059": {
@@ -3608,7 +3608,7 @@
       "asset_id": 359801059,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359801055": {
@@ -3618,7 +3618,7 @@
       "asset_id": 359801055,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359801056": {
@@ -3628,7 +3628,7 @@
       "asset_id": 359801056,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359801058": {
@@ -3638,7 +3638,7 @@
       "asset_id": 359801058,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359801061": {
@@ -3648,7 +3648,7 @@
       "asset_id": 359801061,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359801060": {
@@ -3658,7 +3658,7 @@
       "asset_id": 359801060,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359801057": {
@@ -3668,7 +3668,7 @@
       "asset_id": 359801057,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359836997": {
@@ -3678,7 +3678,7 @@
       "asset_id": 359836997,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359837000": {
@@ -3688,7 +3688,7 @@
       "asset_id": 359837000,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359836996": {
@@ -3698,7 +3698,7 @@
       "asset_id": 359836996,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359837001": {
@@ -3708,7 +3708,7 @@
       "asset_id": 359837001,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359836998": {
@@ -3718,7 +3718,7 @@
       "asset_id": 359836998,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359837003": {
@@ -3728,7 +3728,7 @@
       "asset_id": 359837003,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|359837002": {
@@ -3738,7 +3738,7 @@
       "asset_id": 359837002,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|356984012": {
@@ -3748,7 +3748,7 @@
       "asset_id": 356984012,
       "name": "checksums-sha256.txt",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|356984017": {
@@ -3758,7 +3758,7 @@
       "asset_id": 356984017,
       "name": "rvf-darwin-arm64",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|356984015": {
@@ -3768,7 +3768,7 @@
       "asset_id": 356984015,
       "name": "rvf-darwin-x64",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|356984010": {
@@ -3778,7 +3778,7 @@
       "asset_id": 356984010,
       "name": "rvf-linux-arm64",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|356984007": {
@@ -3788,7 +3788,7 @@
       "asset_id": 356984007,
       "name": "rvf-linux-x64",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|356984009": {
@@ -3798,7 +3798,7 @@
       "asset_id": 356984009,
       "name": "rvf-windows-x64.exe",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|341999110": {
@@ -3808,7 +3808,7 @@
       "asset_id": 341999110,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|341999105": {
@@ -3818,7 +3818,7 @@
       "asset_id": 341999105,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|341999106": {
@@ -3828,7 +3828,7 @@
       "asset_id": 341999106,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|341999107": {
@@ -3838,7 +3838,7 @@
       "asset_id": 341999107,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|341999104": {
@@ -3848,7 +3848,7 @@
       "asset_id": 341999104,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|341999109": {
@@ -3858,7 +3858,7 @@
       "asset_id": 341999109,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|341999108": {
@@ -3868,7 +3868,7 @@
       "asset_id": 341999108,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|339122756": {
@@ -3878,7 +3878,7 @@
       "asset_id": 339122756,
       "name": "ruvector-attention-darwin-arm64.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|339122755": {
@@ -3888,7 +3888,7 @@
       "asset_id": 339122755,
       "name": "ruvector-attention-darwin-x64.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|339122758": {
@@ -3898,7 +3898,7 @@
       "asset_id": 339122758,
       "name": "ruvector-attention-linux-arm64-gnu.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|339122757": {
@@ -3908,7 +3908,7 @@
       "asset_id": 339122757,
       "name": "ruvector-attention-linux-x64-gnu.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|339122761": {
@@ -3918,7 +3918,7 @@
       "asset_id": 339122761,
       "name": "ruvector-attention-wasm.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|339122760": {
@@ -3928,7 +3928,7 @@
       "asset_id": 339122760,
       "name": "ruvector-attention-win32-x64-msvc.tar.gz",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|339122759": {
@@ -3938,7 +3938,7 @@
       "asset_id": 339122759,
       "name": "ruvector-math-wasm.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|323943237": {
@@ -3948,7 +3948,7 @@
       "asset_id": 323943237,
       "name": "ruvector-gnn.linux-x64-gnu.node",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|323924932": {
@@ -3958,7 +3958,7 @@
       "asset_id": 323924932,
       "name": "ruvector-gnn.linux-x64-gnu.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322612204": {
@@ -3968,7 +3968,7 @@
       "asset_id": 322612204,
       "name": "ruvector-gnn.linux-x64-gnu.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322612117": {
@@ -3978,7 +3978,7 @@
       "asset_id": 322612117,
       "name": "ruvector.darwin-arm64.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322612043": {
@@ -3988,7 +3988,7 @@
       "asset_id": 322612043,
       "name": "ruvector.darwin-x64.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322612154": {
@@ -3998,7 +3998,7 @@
       "asset_id": 322612154,
       "name": "ruvector.linux-arm64-gnu.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322612048": {
@@ -4008,7 +4008,7 @@
       "asset_id": 322612048,
       "name": "ruvector.linux-x64-gnu.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322612016": {
@@ -4018,7 +4018,7 @@
       "asset_id": 322612016,
       "name": "ruvector.win32-x64-msvc.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322541615": {
@@ -4028,7 +4028,7 @@
       "asset_id": 322541615,
       "name": "ruvector-gnn.linux-x64-gnu.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322541479": {
@@ -4038,7 +4038,7 @@
       "asset_id": 322541479,
       "name": "ruvector.darwin-arm64.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322541418": {
@@ -4048,7 +4048,7 @@
       "asset_id": 322541418,
       "name": "ruvector.darwin-x64.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322541509": {
@@ -4058,7 +4058,7 @@
       "asset_id": 322541509,
       "name": "ruvector.linux-arm64-gnu.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322541453": {
@@ -4068,7 +4068,7 @@
       "asset_id": 322541453,
       "name": "ruvector.linux-x64-gnu.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|322541393": {
@@ -4078,7 +4078,7 @@
       "asset_id": 322541393,
       "name": "ruvector.win32-x64-msvc.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|321622651": {
@@ -4088,7 +4088,7 @@
       "asset_id": 321622651,
       "name": "ruvector-gnn.linux-x64-gnu.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|321622511": {
@@ -4098,7 +4098,7 @@
       "asset_id": 321622511,
       "name": "ruvector.darwin-arm64.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|321622465": {
@@ -4108,7 +4108,7 @@
       "asset_id": 321622465,
       "name": "ruvector.darwin-x64.node",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|321622534": {
@@ -4118,7 +4118,7 @@
       "asset_id": 321622534,
       "name": "ruvector.linux-arm64-gnu.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|321622496": {
@@ -4128,7 +4128,7 @@
       "asset_id": 321622496,
       "name": "ruvector.linux-x64-gnu.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1099547803|asset|321622421": {
@@ -4138,7 +4138,7 @@
       "asset_id": 321622421,
       "name": "ruvector.win32-x64-msvc.node",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:34.406Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|462803730": {
@@ -4148,7 +4148,7 @@
       "asset_id": 462803730,
       "name": "agentbbs-linux-x64",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|462803728": {
@@ -4158,7 +4158,7 @@
       "asset_id": 462803728,
       "name": "agentbbs-web-linux-x64",
       "downloads": 14,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|462803727": {
@@ -4168,7 +4168,7 @@
       "asset_id": 462803727,
       "name": "sha256sums.txt",
       "downloads": 17,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|462634040": {
@@ -4178,7 +4178,7 @@
       "asset_id": 462634040,
       "name": "agentbbs-linux-x64",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|462634041": {
@@ -4188,7 +4188,7 @@
       "asset_id": 462634041,
       "name": "agentbbs-web-linux-x64",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|462634039": {
@@ -4198,7 +4198,7 @@
       "asset_id": 462634039,
       "name": "sha256sums.txt",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|460646667": {
@@ -4208,7 +4208,7 @@
       "asset_id": 460646667,
       "name": "agentbbs-linux-x64",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|460646665": {
@@ -4218,7 +4218,7 @@
       "asset_id": 460646665,
       "name": "agentbbs-web-linux-x64",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1283378037|asset|460646666": {
@@ -4228,7 +4228,7 @@
       "asset_id": 460646666,
       "name": "sha256sums.txt",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:24.105Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1174785116|asset|368592485": {
@@ -4238,7 +4238,7 @@
       "asset_id": 368592485,
       "name": "Dossier.Desktop_0.1.0_aarch64.dmg",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:28.440Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1174785116|asset|368573210": {
@@ -4248,7 +4248,7 @@
       "asset_id": 368573210,
       "name": "Dossier.Desktop_0.1.0_x64-setup.exe",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:28.440Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1174785116|asset|368592484": {
@@ -4258,7 +4258,7 @@
       "asset_id": 368592484,
       "name": "Dossier.Desktop_0.1.0_x64.dmg",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:28.440Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1174785116|asset|368573209": {
@@ -4268,7 +4268,7 @@
       "asset_id": 368573209,
       "name": "Dossier.Desktop_0.1.0_x64_en-US.msi",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:28.440Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1174785116|asset|368573215": {
@@ -4278,7 +4278,7 @@
       "asset_id": 368573215,
       "name": "wyr-app.exe",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:28.440Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437448": {
@@ -4288,7 +4288,7 @@
       "asset_id": 486437448,
       "name": "Musica.VJ_0.8.3_aarch64.dmg",
       "downloads": 53,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437449": {
@@ -4298,7 +4298,7 @@
       "asset_id": 486437449,
       "name": "musica-vj-macos-app.zip",
       "downloads": 105,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437450": {
@@ -4308,7 +4308,7 @@
       "asset_id": 486437450,
       "name": "Musica.VJ_0.8.3_amd64.AppImage",
       "downloads": 38,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437451": {
@@ -4318,7 +4318,7 @@
       "asset_id": 486437451,
       "name": "Musica.VJ_0.8.3_x64-setup.exe.sig",
       "downloads": 18,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437452": {
@@ -4327,8 +4327,8 @@
       "release_id": 358335174,
       "asset_id": 486437452,
       "name": "latest.json",
-      "downloads": 368,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "downloads": 369,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437454": {
@@ -4338,7 +4338,7 @@
       "asset_id": 486437454,
       "name": "Musica.VJ.app.tar.gz.sig",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437455": {
@@ -4348,7 +4348,7 @@
       "asset_id": 486437455,
       "name": "Musica.VJ_0.8.3_amd64.AppImage.sig",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437456": {
@@ -4358,7 +4358,7 @@
       "asset_id": 486437456,
       "name": "Musica.VJ_0.8.3_x64-setup.exe",
       "downloads": 191,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437457": {
@@ -4368,7 +4368,7 @@
       "asset_id": 486437457,
       "name": "Musica.VJ.app.tar.gz",
       "downloads": 27,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|486437458": {
@@ -4378,7 +4378,7 @@
       "asset_id": 486437458,
       "name": "Musica.VJ_0.8.3_amd64.deb",
       "downloads": 20,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293525": {
@@ -4388,7 +4388,7 @@
       "asset_id": 485293525,
       "name": "Musica.VJ.app.tar.gz.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293526": {
@@ -4398,7 +4398,7 @@
       "asset_id": 485293526,
       "name": "Musica.VJ.app.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293527": {
@@ -4408,7 +4408,7 @@
       "asset_id": 485293527,
       "name": "Musica.VJ_0.8.2_amd64.AppImage",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293528": {
@@ -4418,7 +4418,7 @@
       "asset_id": 485293528,
       "name": "latest.json",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293529": {
@@ -4428,7 +4428,7 @@
       "asset_id": 485293529,
       "name": "Musica.VJ_0.8.2_aarch64.dmg",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293530": {
@@ -4438,7 +4438,7 @@
       "asset_id": 485293530,
       "name": "Musica.VJ_0.8.2_amd64.deb",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293531": {
@@ -4448,7 +4448,7 @@
       "asset_id": 485293531,
       "name": "musica-vj-macos-app.zip",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293532": {
@@ -4458,7 +4458,7 @@
       "asset_id": 485293532,
       "name": "Musica.VJ_0.8.2_amd64.AppImage.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293533": {
@@ -4468,7 +4468,7 @@
       "asset_id": 485293533,
       "name": "Musica.VJ_0.8.2_x64-setup.exe",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485293534": {
@@ -4478,7 +4478,7 @@
       "asset_id": 485293534,
       "name": "Musica.VJ_0.8.2_x64-setup.exe.sig",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257009": {
@@ -4488,7 +4488,7 @@
       "asset_id": 485257009,
       "name": "Musica.VJ_0.8.1_x64-setup.exe.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257010": {
@@ -4498,7 +4498,7 @@
       "asset_id": 485257010,
       "name": "musica-vj-macos-app.zip",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257011": {
@@ -4508,7 +4508,7 @@
       "asset_id": 485257011,
       "name": "Musica.VJ_0.8.1_amd64.AppImage.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257012": {
@@ -4518,7 +4518,7 @@
       "asset_id": 485257012,
       "name": "Musica.VJ_0.8.1_amd64.deb",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257013": {
@@ -4528,7 +4528,7 @@
       "asset_id": 485257013,
       "name": "Musica.VJ_0.8.1_amd64.AppImage",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257014": {
@@ -4538,7 +4538,7 @@
       "asset_id": 485257014,
       "name": "Musica.VJ_0.8.1_aarch64.dmg",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257015": {
@@ -4548,7 +4548,7 @@
       "asset_id": 485257015,
       "name": "Musica.VJ.app.tar.gz.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257016": {
@@ -4558,7 +4558,7 @@
       "asset_id": 485257016,
       "name": "latest.json",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257017": {
@@ -4568,7 +4568,7 @@
       "asset_id": 485257017,
       "name": "Musica.VJ_0.8.1_x64-setup.exe",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|485257018": {
@@ -4578,7 +4578,7 @@
       "asset_id": 485257018,
       "name": "Musica.VJ.app.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067819": {
@@ -4588,7 +4588,7 @@
       "asset_id": 484067819,
       "name": "Musica.VJ_0.8.0_aarch64.dmg",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067820": {
@@ -4598,7 +4598,7 @@
       "asset_id": 484067820,
       "name": "Musica.VJ.app.tar.gz.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067821": {
@@ -4608,7 +4608,7 @@
       "asset_id": 484067821,
       "name": "Musica.VJ_0.8.0_amd64.AppImage",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067822": {
@@ -4618,7 +4618,7 @@
       "asset_id": 484067822,
       "name": "Musica.VJ_0.8.0_x64-setup.exe.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067823": {
@@ -4628,7 +4628,7 @@
       "asset_id": 484067823,
       "name": "Musica.VJ_0.8.0_x64-setup.exe",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067824": {
@@ -4638,7 +4638,7 @@
       "asset_id": 484067824,
       "name": "Musica.VJ.app.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067825": {
@@ -4648,7 +4648,7 @@
       "asset_id": 484067825,
       "name": "Musica.VJ_0.8.0_amd64.AppImage.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067826": {
@@ -4658,7 +4658,7 @@
       "asset_id": 484067826,
       "name": "musica-vj-macos-app.zip",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067827": {
@@ -4668,7 +4668,7 @@
       "asset_id": 484067827,
       "name": "Musica.VJ_0.8.0_amd64.deb",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484067828": {
@@ -4678,7 +4678,7 @@
       "asset_id": 484067828,
       "name": "latest.json",
       "downloads": 12,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038430": {
@@ -4688,7 +4688,7 @@
       "asset_id": 484038430,
       "name": "Musica.VJ_0.7.0_amd64.AppImage.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038431": {
@@ -4698,7 +4698,7 @@
       "asset_id": 484038431,
       "name": "musica-vj-macos-app.zip",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038432": {
@@ -4708,7 +4708,7 @@
       "asset_id": 484038432,
       "name": "Musica.VJ.app.tar.gz.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038433": {
@@ -4718,7 +4718,7 @@
       "asset_id": 484038433,
       "name": "Musica.VJ_0.7.0_aarch64.dmg",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038434": {
@@ -4728,7 +4728,7 @@
       "asset_id": 484038434,
       "name": "Musica.VJ_0.7.0_x64-setup.exe",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038435": {
@@ -4738,7 +4738,7 @@
       "asset_id": 484038435,
       "name": "Musica.VJ_0.7.0_amd64.deb",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038436": {
@@ -4748,7 +4748,7 @@
       "asset_id": 484038436,
       "name": "Musica.VJ_0.7.0_x64-setup.exe.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038437": {
@@ -4758,7 +4758,7 @@
       "asset_id": 484038437,
       "name": "latest.json",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038438": {
@@ -4768,7 +4768,7 @@
       "asset_id": 484038438,
       "name": "Musica.VJ_0.7.0_amd64.AppImage",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|484038439": {
@@ -4778,7 +4778,7 @@
       "asset_id": 484038439,
       "name": "Musica.VJ.app.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992864": {
@@ -4788,7 +4788,7 @@
       "asset_id": 483992864,
       "name": "Musica.VJ_0.6.0_x64-setup.exe.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992865": {
@@ -4798,7 +4798,7 @@
       "asset_id": 483992865,
       "name": "Musica.VJ_0.6.0_amd64.AppImage",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992866": {
@@ -4808,7 +4808,7 @@
       "asset_id": 483992866,
       "name": "latest.json",
       "downloads": 7,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992867": {
@@ -4818,7 +4818,7 @@
       "asset_id": 483992867,
       "name": "Musica.VJ_0.6.0_amd64.AppImage.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992868": {
@@ -4828,7 +4828,7 @@
       "asset_id": 483992868,
       "name": "Musica.VJ_0.6.0_aarch64.dmg",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992869": {
@@ -4838,7 +4838,7 @@
       "asset_id": 483992869,
       "name": "Musica.VJ_0.6.0_x64-setup.exe",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992870": {
@@ -4848,7 +4848,7 @@
       "asset_id": 483992870,
       "name": "Musica.VJ.app.tar.gz.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992871": {
@@ -4858,7 +4858,7 @@
       "asset_id": 483992871,
       "name": "Musica.VJ_0.6.0_amd64.deb",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992872": {
@@ -4868,7 +4868,7 @@
       "asset_id": 483992872,
       "name": "Musica.VJ.app.tar.gz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483992873": {
@@ -4878,7 +4878,7 @@
       "asset_id": 483992873,
       "name": "musica-vj-macos-app.zip",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923056": {
@@ -4888,7 +4888,7 @@
       "asset_id": 483923056,
       "name": "Musica.VJ_0.5.0_x64-setup.exe.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923057": {
@@ -4898,7 +4898,7 @@
       "asset_id": 483923057,
       "name": "latest.json",
       "downloads": 9,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923058": {
@@ -4908,7 +4908,7 @@
       "asset_id": 483923058,
       "name": "Musica.VJ.app.tar.gz.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923059": {
@@ -4918,7 +4918,7 @@
       "asset_id": 483923059,
       "name": "Musica.VJ_0.5.0_aarch64.dmg",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923060": {
@@ -4928,7 +4928,7 @@
       "asset_id": 483923060,
       "name": "musica-vj-macos-app.zip",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923061": {
@@ -4938,7 +4938,7 @@
       "asset_id": 483923061,
       "name": "Musica.VJ_0.5.0_amd64.AppImage",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923062": {
@@ -4948,7 +4948,7 @@
       "asset_id": 483923062,
       "name": "Musica.VJ_0.5.0_amd64.deb",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923063": {
@@ -4958,7 +4958,7 @@
       "asset_id": 483923063,
       "name": "Musica.VJ_0.5.0_x64-setup.exe",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923064": {
@@ -4968,7 +4968,7 @@
       "asset_id": 483923064,
       "name": "Musica.VJ.app.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483923065": {
@@ -4978,7 +4978,7 @@
       "asset_id": 483923065,
       "name": "Musica.VJ_0.5.0_amd64.AppImage.sig",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483880822": {
@@ -4988,7 +4988,7 @@
       "asset_id": 483880822,
       "name": "Musica.VJ_0.4.2_aarch64.dmg",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483880823": {
@@ -4998,7 +4998,7 @@
       "asset_id": 483880823,
       "name": "musica-vj-macos-app.zip",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483880824": {
@@ -5008,7 +5008,7 @@
       "asset_id": 483880824,
       "name": "Musica.VJ_0.4.2_amd64.deb",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483880825": {
@@ -5018,7 +5018,7 @@
       "asset_id": 483880825,
       "name": "Musica.VJ_0.4.2_amd64.AppImage",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483880826": {
@@ -5028,7 +5028,7 @@
       "asset_id": 483880826,
       "name": "Musica.VJ_0.4.2_x64-setup.exe",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483806037": {
@@ -5038,7 +5038,7 @@
       "asset_id": 483806037,
       "name": "Musica.VJ_0.4.1_aarch64.dmg",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483806038": {
@@ -5048,7 +5048,7 @@
       "asset_id": 483806038,
       "name": "Musica.VJ_0.4.1_amd64.AppImage",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483806039": {
@@ -5058,7 +5058,7 @@
       "asset_id": 483806039,
       "name": "musica-vj-macos-app.zip",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483806040": {
@@ -5068,7 +5068,7 @@
       "asset_id": 483806040,
       "name": "Musica.VJ_0.4.1_x64-setup.exe",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483806041": {
@@ -5078,7 +5078,7 @@
       "asset_id": 483806041,
       "name": "Musica.VJ_0.4.1_amd64.deb",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483743743": {
@@ -5088,7 +5088,7 @@
       "asset_id": 483743743,
       "name": "Musica.VJ_0.4.0_aarch64.dmg",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483743744": {
@@ -5098,7 +5098,7 @@
       "asset_id": 483743744,
       "name": "Musica.VJ_0.4.0_amd64.deb",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483743745": {
@@ -5108,7 +5108,7 @@
       "asset_id": 483743745,
       "name": "Musica.VJ_0.4.0_x64-setup.exe",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483743746": {
@@ -5118,7 +5118,7 @@
       "asset_id": 483743746,
       "name": "musica-vj-macos-app.zip",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483743747": {
@@ -5128,7 +5128,7 @@
       "asset_id": 483743747,
       "name": "Musica.VJ_0.4.0_amd64.AppImage",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483576054": {
@@ -5138,7 +5138,7 @@
       "asset_id": 483576054,
       "name": "musica-vj-macos-app.zip",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483576058": {
@@ -5148,7 +5148,7 @@
       "asset_id": 483576058,
       "name": "Musica.VJ_0.3.1_amd64.AppImage",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483576060": {
@@ -5158,7 +5158,7 @@
       "asset_id": 483576060,
       "name": "Musica.VJ_0.3.1_aarch64.dmg",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483576063": {
@@ -5168,7 +5168,7 @@
       "asset_id": 483576063,
       "name": "Musica.VJ_0.3.1_amd64.deb",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483576064": {
@@ -5178,7 +5178,7 @@
       "asset_id": 483576064,
       "name": "Musica.VJ_0.3.1_x64-setup.exe",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483463823": {
@@ -5188,7 +5188,7 @@
       "asset_id": 483463823,
       "name": "musica-vj-macos-app.zip",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483463824": {
@@ -5198,7 +5198,7 @@
       "asset_id": 483463824,
       "name": "Musica.VJ_0.3.0_x64-setup.exe",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483463825": {
@@ -5208,7 +5208,7 @@
       "asset_id": 483463825,
       "name": "Musica.VJ_0.3.0_amd64.AppImage",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483463826": {
@@ -5218,7 +5218,7 @@
       "asset_id": 483463826,
       "name": "Musica.VJ_0.3.0_aarch64.dmg",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1203401573|asset|483463830": {
@@ -5228,7 +5228,7 @@
       "asset_id": 483463830,
       "name": "Musica.VJ_0.3.0_amd64.deb",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:30.881Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1216319430|asset|400982942": {
@@ -5238,7 +5238,7 @@
       "asset_id": 400982942,
       "name": "main.js",
       "downloads": 58,
-      "last_seen_at": "2026-10-09T12:15:31.056Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1216319430|asset|400982937": {
@@ -5247,8 +5247,8 @@
       "release_id": 311385274,
       "asset_id": 400982937,
       "name": "manifest.json",
-      "downloads": 440,
-      "last_seen_at": "2026-10-09T12:15:31.056Z",
+      "downloads": 441,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1216319430|asset|400982938": {
@@ -5258,7 +5258,7 @@
       "asset_id": 400982938,
       "name": "styles.css",
       "downloads": 56,
-      "last_seen_at": "2026-10-09T12:15:31.056Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1216319430|asset|400982940": {
@@ -5268,7 +5268,7 @@
       "asset_id": 400982940,
       "name": "versions.json",
       "downloads": 14,
-      "last_seen_at": "2026-10-09T12:15:31.056Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387952563": {
@@ -5278,7 +5278,7 @@
       "asset_id": 387952563,
       "name": "claude-code-v2.1.91-decompiled.js",
       "downloads": 111,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387952581": {
@@ -5288,7 +5288,7 @@
       "asset_id": 387952581,
       "name": "claude-code-v2.1.91-decompiled.js.gz",
       "downloads": 37,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387952606": {
@@ -5298,7 +5298,7 @@
       "asset_id": 387952606,
       "name": "claude-code-v2.1.91-modules.tar.gz",
       "downloads": 69,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387947692": {
@@ -5308,7 +5308,7 @@
       "asset_id": 387947692,
       "name": "claude-code-v2.0.77-decompiled.tar.gz",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387938496": {
@@ -5318,7 +5318,7 @@
       "asset_id": 387938496,
       "name": "claude-code-v2.0.62-decompiled.js",
       "downloads": 25,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387938518": {
@@ -5328,7 +5328,7 @@
       "asset_id": 387938518,
       "name": "claude-code-v2.0.62-decompiled.js.gz",
       "downloads": 8,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387938539": {
@@ -5338,7 +5338,7 @@
       "asset_id": 387938539,
       "name": "claude-code-v2.0.62-modules.tar.gz",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387938592": {
@@ -5348,7 +5348,7 @@
       "asset_id": 387938592,
       "name": "claude-code-v2.0.62-modules.zip",
       "downloads": 12,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387947682": {
@@ -5358,7 +5358,7 @@
       "asset_id": 387947682,
       "name": "claude-code-v1.0.128-decompiled.tar.gz",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1200513662|asset|387947649": {
@@ -5368,7 +5368,7 @@
       "asset_id": 387947649,
       "name": "claude-code-v0.2.126-decompiled.tar.gz",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:33.249Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1213884774|asset|399104007": {
@@ -5378,7 +5378,7 @@
       "asset_id": 399104007,
       "name": "ruos-macair-v0.2.0.img.gz.part-aa",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:33.621Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1213884774|asset|399104005": {
@@ -5388,7 +5388,7 @@
       "asset_id": 399104005,
       "name": "ruos-macair-v0.2.0.img.gz.part-ab",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:33.621Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1213884774|asset|398929100": {
@@ -5398,7 +5398,7 @@
       "asset_id": 398929100,
       "name": "ruos-macair-v0.1.0.img.gz.part-aa",
       "downloads": 5,
-      "last_seen_at": "2026-10-09T12:15:33.621Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1213884774|asset|398929098": {
@@ -5408,7 +5408,7 @@
       "asset_id": 398929098,
       "name": "ruos-macair-v0.1.0.img.gz.part-ab",
       "downloads": 6,
-      "last_seen_at": "2026-10-09T12:15:33.621Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|617485017": {
@@ -5418,7 +5418,7 @@
       "asset_id": 617485017,
       "name": "ruflo-console-workflows-narrow.gif",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|617485018": {
@@ -5428,7 +5428,7 @@
       "asset_id": 617485018,
       "name": "ruflo-console-workflows-wide.gif",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493602708": {
@@ -5438,7 +5438,7 @@
       "asset_id": 493602708,
       "name": "claude-flow-3.32.29.tgz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493602705": {
@@ -5448,7 +5448,7 @@
       "asset_id": 493602705,
       "name": "claude-flow-cli-3.32.29.tgz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493602707": {
@@ -5458,7 +5458,7 @@
       "asset_id": 493602707,
       "name": "claude-flow-codex-3.0.3.tgz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493602706": {
@@ -5468,7 +5468,7 @@
       "asset_id": 493602706,
       "name": "claude-flow-plugin-agent-federation-1.0.0-alpha.18.tgz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493602703": {
@@ -5478,7 +5478,7 @@
       "asset_id": 493602703,
       "name": "claude-flow-security-3.0.0-alpha.14.tgz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493602721": {
@@ -5488,7 +5488,7 @@
       "asset_id": 493602721,
       "name": "ruflo-3.32.29.tgz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493508348": {
@@ -5498,7 +5498,7 @@
       "asset_id": 493508348,
       "name": "claude-flow-3.32.27.tgz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493508346": {
@@ -5508,7 +5508,7 @@
       "asset_id": 493508346,
       "name": "claude-flow-cli-3.32.27.tgz",
       "downloads": 10,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493508351": {
@@ -5518,7 +5518,7 @@
       "asset_id": 493508351,
       "name": "claude-flow-security-3.0.0-alpha.13.tgz",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493508347": {
@@ -5528,7 +5528,7 @@
       "asset_id": 493508347,
       "name": "ruflo-3.32.27.tgz",
       "downloads": 11,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|995029641|asset|493508757": {
@@ -5538,7 +5538,7 @@
       "asset_id": 493508757,
       "name": "SHA256SUMS",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:33.289Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1381872479|asset|581746750": {
@@ -5548,7 +5548,7 @@
       "asset_id": 581746750,
       "name": "ruPet-skill.zip",
       "downloads": 4,
-      "last_seen_at": "2026-10-09T12:15:33.668Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1381872479|asset|581746749": {
@@ -5558,7 +5558,7 @@
       "asset_id": 581746749,
       "name": "ruPet.zip",
       "downloads": 13,
-      "last_seen_at": "2026-10-09T12:15:33.668Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1381872479|asset|581746751": {
@@ -5568,7 +5568,7 @@
       "asset_id": 581746751,
       "name": "SHA256SUMS.txt",
       "downloads": 1,
-      "last_seen_at": "2026-10-09T12:15:33.668Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1381872479|asset|581729102": {
@@ -5578,7 +5578,7 @@
       "asset_id": 581729102,
       "name": "ruPet.zip",
       "downloads": 0,
-      "last_seen_at": "2026-10-09T12:15:33.668Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773024": {
@@ -5588,7 +5588,7 @@
       "asset_id": 507773024,
       "name": "firmware-core-build-log.txt",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773020": {
@@ -5597,8 +5597,8 @@
       "release_id": 367551297,
       "asset_id": 507773020,
       "name": "veil_ris_controller_example-esp32s3.bin",
-      "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "downloads": 3,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773021": {
@@ -5608,7 +5608,7 @@
       "asset_id": 507773021,
       "name": "veil_ris_controller_example-esp32s3.elf",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773022": {
@@ -5617,8 +5617,8 @@
       "release_id": 367551297,
       "asset_id": 507773022,
       "name": "veil_sensing_detector_example-esp32s3.bin",
-      "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "downloads": 3,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773023": {
@@ -5628,7 +5628,7 @@
       "asset_id": 507773023,
       "name": "veil_sensing_detector_example-esp32s3.elf",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773039": {
@@ -5638,7 +5638,7 @@
       "asset_id": 507773039,
       "name": "wifi-veil-firmware-core-source.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773041": {
@@ -5648,7 +5648,7 @@
       "asset_id": 507773041,
       "name": "wifi-veil-firmware-esp32-source-and-examples-SYNTHETIC.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773042": {
@@ -5658,7 +5658,7 @@
       "asset_id": 507773042,
       "name": "wifi-veil-firmware-nexmon-source-SYNTHETIC.tar.gz",
       "downloads": 3,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773054": {
@@ -5668,7 +5668,7 @@
       "asset_id": 507773054,
       "name": "wifi-veil-firmware-openwifi-source-SYNTHETIC.tar.gz",
       "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     },
     "github|1329055709|asset|507773051": {
@@ -5677,11 +5677,61 @@
       "release_id": 367551297,
       "asset_id": 507773051,
       "name": "wifi-veil-firmware-openwrt-source-SYNTHETIC.tar.gz",
-      "downloads": 2,
-      "last_seen_at": "2026-10-09T12:15:36.950Z",
+      "downloads": 3,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
+      "missing_from_latest_inventory": false
+    },
+    "github|1203401573|asset|483061038": {
+      "repository_id": 1203401573,
+      "repository": "ruvnet/musica",
+      "release_id": 356504952,
+      "asset_id": 483061038,
+      "name": "Musica.VJ_0.1.0_x64-setup.exe",
+      "downloads": 0,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
+      "missing_from_latest_inventory": false
+    },
+    "github|1203401573|asset|483061039": {
+      "repository_id": 1203401573,
+      "repository": "ruvnet/musica",
+      "release_id": 356504952,
+      "asset_id": 483061039,
+      "name": "Musica.VJ_0.1.0_aarch64.dmg",
+      "downloads": 0,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
+      "missing_from_latest_inventory": false
+    },
+    "github|1203401573|asset|483061040": {
+      "repository_id": 1203401573,
+      "repository": "ruvnet/musica",
+      "release_id": 356504952,
+      "asset_id": 483061040,
+      "name": "Musica.VJ_0.1.0_amd64.AppImage",
+      "downloads": 0,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
+      "missing_from_latest_inventory": false
+    },
+    "github|1203401573|asset|483061041": {
+      "repository_id": 1203401573,
+      "repository": "ruvnet/musica",
+      "release_id": 356504952,
+      "asset_id": 483061041,
+      "name": "musica-vj-macos-app.zip",
+      "downloads": 0,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
+      "missing_from_latest_inventory": false
+    },
+    "github|1203401573|asset|483061042": {
+      "repository_id": 1203401573,
+      "repository": "ruvnet/musica",
+      "release_id": 356504952,
+      "asset_id": 483061042,
+      "name": "Musica.VJ_0.1.0_amd64.deb",
+      "downloads": 0,
+      "last_seen_at": "2026-10-10T12:37:17.982Z",
       "missing_from_latest_inventory": false
     }
   },
-  "updated_at": "2026-10-09T12:27:32.576884+00:00",
+  "updated_at": "2026-10-10T12:37:17.982Z",
   "counting_rule": "Latest provider cumulative count per stable repository and asset ID. Absent assets retained with last observation; deletions are not treated as zero."
 }

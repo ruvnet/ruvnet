@@ -1,113 +1,124 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-09T13:22:12.821735Z",
+  "verified_at": "2026-10-10T12:53:06.788991Z",
   "github": {
-    "verified_at": "2026-10-09T12:14:43.561449+00:00",
-    "followers": 11721,
+    "verified_at": "2026-10-10T12:37:17.982Z",
+    "followers": 11726,
     "all_owned": {
       "repositories": 222,
-      "stars": 187952,
-      "forks": 25162,
-      "open_issues_and_prs": 2516,
+      "stars": 188130,
+      "forks": 25201,
+      "subscribers": 1759,
+      "open_issues_and_prs": 2590,
       "archived": 0
     },
     "nonfork": {
       "repositories": 196,
-      "stars": 187692,
-      "forks": 25084,
-      "open_issues_and_prs": 2507,
+      "stars": 187869,
+      "forks": 25122,
+      "subscribers": 1756,
+      "open_issues_and_prs": 2580,
       "archived": 0
     },
     "top_repositories": [
       {
         "name": "RuView",
-        "stars": 97006,
-        "forks": 12749
+        "stars": 97106,
+        "forks": 12756,
+        "subscribers": 870
       },
       {
         "name": "ruflo",
-        "stars": 74171,
-        "forks": 8815
+        "stars": 74236,
+        "forks": 8826,
+        "subscribers": 458
       },
       {
         "name": "RuVector",
         "stars": 4555,
-        "forks": 609
+        "forks": 611,
+        "subscribers": 37
       },
       {
         "name": "agentic-flow",
-        "stars": 819,
-        "forks": 178
+        "stars": 818,
+        "forks": 178,
+        "subscribers": 14
       },
       {
         "name": "metaharness",
-        "stars": 694,
-        "forks": 88
+        "stars": 696,
+        "forks": 88,
+        "subscribers": 3
       },
       {
         "name": "Bot-Generator-Bot",
         "stars": 585,
-        "forks": 125
+        "forks": 126,
+        "subscribers": 15
       },
       {
         "name": "open-claude-code",
-        "stars": 517,
-        "forks": 164
+        "stars": 519,
+        "forks": 163,
+        "subscribers": 6
       },
       {
         "name": "sparc",
         "stars": 477,
-        "forks": 90
+        "forks": 90,
+        "subscribers": 13
       },
       {
         "name": "rUv-dev",
         "stars": 428,
-        "forks": 81
+        "forks": 81,
+        "subscribers": 17
       },
       {
         "name": "ruv-FANN",
         "stars": 385,
-        "forks": 109
+        "forks": 109,
+        "subscribers": 11
       }
     ],
     "clones": null,
     "views": null,
-    "traffic_status": "Unavailable: connected GitHub interface lacks traffic permission",
-    "source": "https://api.github.com/users/ruvnet/repos?type=owner&per_page=100",
-    "coverage": "All public owned repositories, pagination reconciled to public_repos"
+    "traffic_status": "Unavailable: connected GitHub interface lacks Administration read permission and does not expose repository traffic endpoints. Historical traffic remains preserved separately and is not current.",
+    "source": "data/snapshots/2026-10-10/github-inventory.json",
+    "coverage": "All public owned repositories; four connector pages reconciled to 222 distinct public repository IDs; private records excluded before storage"
   },
   "activity": {
     "issues_opened": {
-      "count": 206,
-      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20created%3A2026-09-25..2026-10-08",
-      "incomplete_results": false
+      "count": 219,
+      "incomplete_results": false,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20is%3Apublic%20created%3A2026-09-26..2026-10-09"
     },
     "issues_closed": {
-      "count": 156,
-      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20closed%3A2026-09-25..2026-10-08",
-      "incomplete_results": false
+      "count": 166,
+      "incomplete_results": false,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20is%3Apublic%20closed%3A2026-09-26..2026-10-09"
     },
     "prs_opened": {
-      "count": 685,
-      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20created%3A2026-09-25..2026-10-08",
-      "incomplete_results": false
+      "count": 715,
+      "incomplete_results": false,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20is%3Apublic%20created%3A2026-09-26..2026-10-09"
     },
     "prs_merged": {
-      "count": 461,
-      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20merged%3A2026-09-25..2026-10-08",
-      "incomplete_results": false
+      "count": 491,
+      "incomplete_results": false,
+      "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20is%3Apublic%20merged%3A2026-09-26..2026-10-09"
     },
-    "verified_at": "2026-10-09T12:16:32.611500+00:00"
+    "verified_at": "2026-10-10T12:37:17.982Z"
   },
   "npm": {
-    "period_start": "2026-09-25",
-    "period_end": "2026-10-08",
-    "observed_downloads": 9854546,
+    "period_start": "2026-09-26",
+    "period_end": "2026-10-09",
+    "observed_downloads": 9262643,
     "expected_packages": 398,
     "collected_packages": 398,
     "errors": [],
     "daily": {
-      "2026-09-25": 591903,
       "2026-09-26": 681535,
       "2026-09-27": 1276764,
       "2026-09-28": 1330116,
@@ -123,7 +134,6 @@
       "2026-10-08": 0
     },
     "daily_package_coverage": {
-      "2026-09-25": 398,
       "2026-09-26": 398,
       "2026-09-27": 398,
       "2026-09-28": 398,
@@ -138,6 +148,9 @@
       "2026-10-07": 398,
       "2026-10-08": 398
     },
+    "missing_days": [
+      "2026-10-09"
+    ],
     "status": "complete API responses, provider latency may remain",
     "all_zero_cohort_days": [
       "2026-10-06",
@@ -147,95 +160,140 @@
   },
   "crates_io": {
     "crate_count": 480,
-    "cumulative_downloads": 1803303,
-    "verified_at": "2026-10-09T12:19:26.812924Z",
+    "cumulative_downloads": 1815085,
+    "verified_at": "2026-10-10T12:53:06.788045Z",
     "source": "https://crates.io/api/v1/crates?user_id=339999"
   },
   "release_assets": {
     "coverage": "All 222 public owned repositories",
-    "releases": 2333,
-    "published_in_14_day_window": 47,
-    "current_asset_downloads": 108022,
-    "retained_observed_downloads": 108022,
+    "releases": 2339,
+    "published_in_14_day_window": 50,
+    "current_assets": 573,
+    "current_asset_downloads": 108131,
+    "retained_observed_downloads": 108131,
     "retained_missing_assets": 0,
     "source": "https://api.github.com/repos/{owner}/{repo}/releases",
+    "inventory_path": "data/snapshots/2026-10-10/github-release-inventory.json",
     "subscribers": 1759
   },
   "uncollected": [
     "Commits and contributors",
-    "Clones and views: connected GitHub interface lacks Administration read permission and traffic endpoint"
+    "Clones and views: connected GitHub interface lacks Administration read permission and does not expose repository traffic endpoints"
   ],
   "validation": {
     "github_pagination_reconciled": true,
+    "github_public_repository_ids_unique": true,
     "release_pagination_complete_repositories": 222,
     "actions_pagination_complete_repositories": 221,
     "unique_daily_keys": 5572,
     "replay_idempotent": true,
     "daily_total_reconciliation": true,
+    "download_milestone_reconciliation": true,
+    "release_asset_reconciliation": true,
     "unknown_not_zero": true,
-    "all_sources_public": true
+    "all_sources_public": true,
+    "missing_days_recorded": [
+      "2026-10-09"
+    ]
   },
   "actions": {
-    "window_start": "2026-09-25",
-    "window_end": "2026-10-08",
+    "window_start": "2026-09-26",
+    "window_end": "2026-10-09",
     "repositories": 222,
-    "runs": 6230,
-    "api_reported_total_runs": 7730,
+    "runs": 15991,
+    "api_reported_total_runs": 18818,
     "complete_repositories": 221,
     "incomplete_repositories": [
       {
         "repository": "ruvnet/ruflo",
-        "collected": 1000,
-        "api_total": 2500,
-        "error": "Daily query exceeded 1000"
+        "collected": 10472,
+        "api_total": 13299,
+        "error": "Five daily queries exceeded GitHub 1000-result pagination limit",
+        "incomplete_days": [
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-02",
+            "collected": 1000,
+            "api_total": 1137,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-03",
+            "collected": 1000,
+            "api_total": 1201,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-05",
+            "collected": 1000,
+            "api_total": 2500,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-07",
+            "collected": 1000,
+            "api_total": 1975,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-09",
+            "collected": 1000,
+            "api_total": 1014,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          }
+        ]
       }
     ],
     "conclusions": {
-      "success": 4284,
-      "failure": 706,
-      "cancelled": 462,
-      "action_required": 753,
+      "failure": 1323,
+      "success": 12663,
+      "cancelled": 732,
+      "action_required": 1248,
       "pending": 11,
       "skipped": 14
     },
     "statuses": {
-      "completed": 6219,
+      "completed": 15980,
       "queued": 11
     },
-    "counting_rule": "Unique workflow run IDs created during the UTC window; repeat attempts are not additional runs."
+    "counting_rule": "Unique workflow run IDs created during the UTC window; repeat attempts are not additional runs. High-volume repositories were partitioned by UTC date."
   },
   "open_items": {
     "open_issues": {
-      "count": 1467,
+      "count": 1484,
       "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Aissue%20is%3Aopen%20is%3Apublic",
-      "checked_at": "2026-10-09T12:19:30.822Z"
+      "checked_at": "2026-10-10T12:37:17.982Z"
     },
     "open_prs": {
-      "count": 1047,
+      "count": 1104,
       "source": "https://api.github.com/search/issues?per_page=1&q=user%3Aruvnet%20is%3Apr%20is%3Aopen%20is%3Apublic",
-      "checked_at": "2026-10-09T12:19:31.525Z"
+      "checked_at": "2026-10-10T12:37:17.982Z"
     }
   },
   "download_milestone": {
     "target": 100000000,
     "basis": "npm observed since 2025-10-01 plus crates.io cumulative; download events, not unique users",
-    "npm_baseline_downloads": 93987105,
-    "npm_baseline_through": "2026-10-07",
+    "npm_baseline_downloads": 94534735,
+    "npm_baseline_through": "2026-10-08",
     "npm_increment_observed": 0,
-    "npm_increment_start": "2026-10-08",
-    "npm_increment_end": "2026-10-08",
+    "npm_increment_start": null,
+    "npm_increment_end": null,
     "npm_increment_package_coverage": 398,
     "npm_expected_packages": 398,
-    "npm_observed_total": 93987105,
-    "crates_io_cumulative": 1803303,
-    "combined_observed": 95790408,
-    "remaining": 4209592,
+    "npm_observed_total": 94534735,
+    "crates_io_cumulative": 1815085,
+    "combined_observed": 96349820,
+    "remaining": 3650180,
     "status": "Observed lower bound; complete API responses may contain provider reporting gaps",
-    "baseline_source": "data/snapshots/2026-10-09/npm-downloads.json",
-    "increment_source": "data/snapshots/2026-10-09/npm-downloads.json",
-    "npm_verified_at": "2026-10-09T13:22:12.821735Z",
-    "npm_reported_through": "2026-10-07",
-    "crates_io_verified_at": "2026-10-09T12:19:26.812924Z",
+    "baseline_source": "data/snapshots/2026-10-10/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-10-10/npm-downloads.json",
+    "npm_verified_at": "2026-10-10T12:52:30.469257Z",
+    "npm_reported_through": "2026-10-08",
+    "crates_io_verified_at": "2026-10-10T12:53:06.788045Z",
     "internal_all_zero_cohort_days": [
       "2026-07-12",
       "2026-08-14",
@@ -246,12 +304,13 @@
       "2026-10-06"
     ],
     "trailing_all_zero_days_excluded": [
-      "2026-10-08"
+      "2026-10-09"
     ]
   },
   "snapshot_delta": {
     "repositories": 0,
-    "stars": 0,
-    "forks": 0
+    "stars": 178,
+    "forks": 39,
+    "followers": 5
   }
 }
