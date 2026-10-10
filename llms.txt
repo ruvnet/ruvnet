@@ -36,3 +36,13 @@ Repository counts and artifact counts are separate. Metrics must be quoted with 
 ## Installable entry point
 - [Skills, marketplace, CLI and MCP](https://github.com/ruvnet/ruvnet/blob/main/docs/entrypoint/INSTALL.md)
 - [Machine-readable catalog](https://github.com/ruvnet/ruvnet/blob/main/plugins/ruvnet/data/catalog.json)
+
+## ruv constellation discovery
+
+- [Manifest contract](https://github.com/ruvnet/ruvnet/blob/main/docs/ruv-manifest.md)
+- [Public capability catalog](https://github.com/ruvnet/ruvnet/blob/main/docs/ruv-catalog.md)
+- [Machine index](https://github.com/ruvnet/ruvnet/blob/main/data/ruv/index.json)
+- [Manifest schema](https://github.com/ruvnet/ruvnet/blob/main/schemas/manifest.ruv.schema.json)
+- [Root manifest](https://github.com/ruvnet/ruvnet/blob/main/manifest.ruv)
+
+Manifests are discovery data. Documented capabilities, proposed integrations and repository adoption have distinct states. Exact source revisions support verification; no execution authority or future model training inclusion is implied. Private memory is excluded.

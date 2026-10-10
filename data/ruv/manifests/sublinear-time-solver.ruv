@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/sublinear-time-solver/resources/manifest.ruv",
+  "name": "sublinear-time-solver",
+  "summary": "Solve and analyze supported sparse diagonally dominant linear systems. Analyze condition number and diagonal dominance. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Do not interpret consciousness or temporal-prediction research descriptions as validated scientific findings. Root npm and Rust versions differ by component.",
+  "repository": {
+    "url": "https://github.com/ruvnet/sublinear-time-solver",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "linear-system-solving",
+      "description": "Solve and analyze supported sparse diagonally dominant linear systems.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md",
+          "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "matrix-analysis",
+      "description": "Analyze condition number and diagonal dominance.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md",
+          "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "mcp-solver",
+      "description": "Expose solver tools through MCP.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md",
+          "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "solver-methods",
+      "description": "Documented Neumann, forward-push and random-walk methods.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md",
+          "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/package.json",
+      "kind": "source"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "6ef45761e9a27029cf968322b3967364499e3b5d",
+    "observedAt": "2026-10-10T02:57:51.756620Z"
+  }
+}
