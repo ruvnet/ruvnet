@@ -1,0 +1,506 @@
+{
+  "mission": "https://github.com/ruvnet/ruvnet/issues/2",
+  "nexus": "https://github.com/ruvnet/ruvnet/pull/3",
+  "publicPrs": [
+    {
+      "repo": "ruvnet/ruflo",
+      "base": "6c046548e29506be9bfd6640186d6e85a444e849",
+      "head": "2cc3ef30608f1498c83e51429301c70153638c68",
+      "url": "https://github.com/ruvnet/ruflo/pull/3971",
+      "number": 3971,
+      "id": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/rvm",
+      "base": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+      "head": "dc04e91f9ea108d041c606154e0d16ab14f5633a",
+      "url": "https://github.com/ruvnet/rvm/pull/81",
+      "number": 81,
+      "id": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/metaharness",
+      "base": "e0dfd44da72b7adfb7c57fdd42d124be58ed7086",
+      "head": "19f82a73b4378b422bff40c86024c42745c15c51",
+      "url": "https://github.com/ruvnet/metaharness/pull/388",
+      "number": 388,
+      "id": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/midstream",
+      "base": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+      "head": "b3e56943dab96be36fde66114ec2573e32bcac63",
+      "url": "https://github.com/ruvnet/midstream/pull/109",
+      "number": 109,
+      "id": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/QuDAG",
+      "base": "945fc6fc5ca2fd25ede088e6b612d8f27f670229",
+      "head": "86864a918f54101b1d9822e3459d716641e3a5c1",
+      "url": "https://github.com/ruvnet/QuDAG/pull/28",
+      "number": 28,
+      "id": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/autogenous",
+      "base": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+      "head": "a4d5fb8e77384de11fb1f6a0bdba2fd21c248266",
+      "url": "https://github.com/ruvnet/autogenous/pull/18",
+      "number": 18,
+      "id": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/dream-machine",
+      "base": "5707c825b2c065de44abed02594e1abf5eab95ea",
+      "head": "53e1654cbe52d134f54b910602d244661a52544c",
+      "url": "https://github.com/ruvnet/dream-machine/pull/163",
+      "number": 163,
+      "id": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/agentdb",
+      "base": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+      "head": "418e799ad2dbc8f4e1b5434629c8bc1d7bb30a00",
+      "url": "https://github.com/ruvnet/agentdb/pull/30",
+      "number": 30,
+      "id": "ruv://ruvnet/constellation/service/agentdb/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/LatentMesh",
+      "base": "df9270799a1391925c1840a1845a6d169aaa2d93",
+      "head": "05930c24689198f52cc371be9e2cd90682f17ed8",
+      "url": "https://github.com/ruvnet/LatentMesh/pull/31",
+      "number": 31,
+      "id": "ruv://ruvnet/constellation/service/latentmesh/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "base": "0ef6b96fe15e30b4a086992e47e18081a0ba37ce",
+      "head": "cae99b56385f275fb23b23074cb63d31b74aea88",
+      "url": "https://github.com/ruvnet/RuView/pull/2194",
+      "number": 2194,
+      "id": "ruv://ruvnet/constellation/service/ruview/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/agentic-flow",
+      "base": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69",
+      "head": "035402aec81d3023e1a3c00c55d902a3378dd77e",
+      "url": "https://github.com/ruvnet/agentic-flow/pull/240",
+      "number": 240,
+      "id": "ruv://ruvnet/constellation/service/agentic-flow/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/rufield",
+      "base": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+      "head": "4bf9a49d136da77da37fdb124676b2f4f8fea540",
+      "url": "https://github.com/ruvnet/rufield/pull/17",
+      "number": 17,
+      "id": "ruv://ruvnet/constellation/service/rufield/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/rudevolution",
+      "base": "b99ec70c780e249b151de5c32ee9839784671962",
+      "head": "b9cfb09c46fa07227e0a6534a7979ed72679e798",
+      "url": "https://github.com/ruvnet/rudevolution/pull/14",
+      "number": 14,
+      "id": "ruv://ruvnet/constellation/service/rudevolution/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/daa",
+      "base": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+      "head": "a4d58ff32aa6d3811b4b0aa9e64d43297e3c5367",
+      "url": "https://github.com/ruvnet/daa/pull/5",
+      "number": 5,
+      "id": "ruv://ruvnet/constellation/service/daa/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/sublinear-time-solver",
+      "base": "6ef45761e9a27029cf968322b3967364499e3b5d",
+      "head": "347f3dccd685284d4f94024d7aea6c081aedaf1b",
+      "url": "https://github.com/ruvnet/sublinear-time-solver/pull/67",
+      "number": 67,
+      "id": "ruv://ruvnet/constellation/service/sublinear-time-solver/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/helix",
+      "base": "e8d8fe780becff4d95008e052742e5c3b0ad3b5c",
+      "head": "c35fa348e90760c1b90f5d7d786100eb52402ff4",
+      "url": "https://github.com/ruvnet/helix/pull/9",
+      "number": 9,
+      "id": "ruv://ruvnet/constellation/service/helix/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/PhotonLayer",
+      "base": "fe86c9fad9a1572ce46e337f118656961bdf4ebb",
+      "head": "d74e5b5501a832ad724e593935b006b6e5061fac",
+      "url": "https://github.com/ruvnet/PhotonLayer/pull/1",
+      "number": 1,
+      "id": "ruv://ruvnet/constellation/service/photonlayer/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/worldgraph",
+      "base": "9b1c79c836cdacfb7b44f058c593157bac4c1dab",
+      "head": "20deb1d759b588fd69863d9d80070b9f9d383016",
+      "url": "https://github.com/ruvnet/worldgraph/pull/13",
+      "number": 13,
+      "id": "ruv://ruvnet/constellation/service/worldgraph/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/agents-of-the-dawm",
+      "base": "ffdf270c94d50af8c0057f96268d9d6ef2b2484c",
+      "head": "8231511ce64f55181715296a568a60474610b1c5",
+      "url": "https://github.com/ruvnet/agents-of-the-dawm/pull/3",
+      "number": 3,
+      "id": "ruv://ruvnet/constellation/service/agents-of-the-dawm/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/ruPet",
+      "base": "ec2737995cdf74ef28a59ddd6d38e1c721fe0636",
+      "head": "5e41a8b37372deab3789e2166a0912c4f3948b65",
+      "url": "https://github.com/ruvnet/ruPet/pull/1",
+      "number": 1,
+      "id": "ruv://ruvnet/constellation/service/rupet/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/mcp-studio",
+      "base": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+      "head": "f429e7e0e7e87f3033ff763db76c45fecd42f729",
+      "url": "https://github.com/ruvnet/mcp-studio/pull/1",
+      "number": 1,
+      "id": "ruv://ruvnet/constellation/service/mcp-studio/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/rultra",
+      "base": "03e4a7e039c9ee6e47193f77127d8d35f7830ed2",
+      "head": "3db02d712e5c3ae44c3170734c4752a6204c03e2",
+      "url": "https://github.com/ruvnet/rultra/pull/3",
+      "number": 3,
+      "id": "ruv://ruvnet/constellation/service/rultra/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/APx",
+      "base": "4fb3093329c0839ad95a3033ec2553513c3351ea",
+      "head": "f0ad06dc45c95d1ef00f036b6030a101ae17f2bb",
+      "url": "https://github.com/ruvnet/APx/pull/1",
+      "number": 1,
+      "id": "ruv://ruvnet/constellation/service/apx/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/rGi",
+      "base": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421",
+      "head": "f5db75ae3ef4d82d662d809eb890dbd8a313d0f1",
+      "url": "https://github.com/ruvnet/rGi/pull/7",
+      "number": 7,
+      "id": "ruv://ruvnet/constellation/service/rgi/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/ruClip",
+      "base": "6e73a8f060bcbb69965a50ffe4627e33622d4094",
+      "head": "d612934eada030d1ab0b3a708e0177c9eab41c7c",
+      "url": "https://github.com/ruvnet/ruClip/pull/66",
+      "number": 66,
+      "id": "ruv://ruvnet/constellation/service/ruclip/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/AgentBBS",
+      "base": "9f2dd89f50f0a56b439b94b60817eeac6a71cf0f",
+      "head": "907a6c3348e7cc75eb836e325b15fb17a85dcf30",
+      "url": "https://github.com/ruvnet/AgentBBS/pull/20",
+      "number": 20,
+      "id": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    },
+    {
+      "repo": "ruvnet/Agent-Name-Service",
+      "base": "0565783df31da2d98729c27f02551f49478b8393",
+      "head": "9a6fbf621c7bedede1fda0b9c5fc8d23d3d57bfb",
+      "url": "https://github.com/ruvnet/Agent-Name-Service/pull/5",
+      "number": 5,
+      "id": "ruv://ruvnet/constellation/service/agent-name-service/resources/manifest.ruv",
+      "status": "pending_pr",
+      "draft": true
+    }
+  ],
+  "blocked": [
+    {
+      "repository": "ruvnet/RuVector",
+      "issue": "https://github.com/ruvnet/RuVector/issues/1137",
+      "reason": "Required build not verified"
+    },
+    {
+      "repository": "ruvnet/ruv-FANN",
+      "issue": "https://github.com/ruvnet/ruv-FANN/issues/196",
+      "reason": "Required build not verified"
+    }
+  ],
+  "federation": {
+    "status": "unavailable",
+    "observations": [
+      "identity internal error",
+      "claims internal error",
+      "sync internal error",
+      "identity retry internal error"
+    ],
+    "published": false
+  },
+  "privateMemory": {
+    "status": "prepared-not-published",
+    "reason": "Signed intent and result ledger required by private repository instructions; authorized live ledger unavailable"
+  },
+  "verification": {
+    "remoteManifestAndReadmePairs": [
+      {
+        "repo": "ruvnet/ruflo",
+        "head": "2cc3ef30608f1498c83e51429301c70153638c68",
+        "manifestBlob": "d2d249ab474bc2babc7613d8e9ec519ce4abe88e",
+        "readmeBlob": "7a727919fc1205e7cdd6a741659c9e8599a9689d",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/rvm",
+        "head": "fd44821c9c9ef5a933d66397e08265a793651f68",
+        "manifestBlob": "dafede81d5336a1e9f07736d0ab14a6dfa534948",
+        "readmeBlob": "71391545e3bdd14bebc3b82ef3d5899aec131656",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/metaharness",
+        "head": "19f82a73b4378b422bff40c86024c42745c15c51",
+        "manifestBlob": "24a30659f08c646a9664006b8f99029ad5e4f2e9",
+        "readmeBlob": "01bc13b3f038b1841c2518e170feb7bb31eecf18",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/midstream",
+        "head": "b3e56943dab96be36fde66114ec2573e32bcac63",
+        "manifestBlob": "8ebe248d71f046d9ea3d98f965082c05d2095f15",
+        "readmeBlob": "a9cd92c441de5a32bf2e0e5497a28c8bfe5024de",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/QuDAG",
+        "head": "86864a918f54101b1d9822e3459d716641e3a5c1",
+        "manifestBlob": "41cddd3632d8b8f04518838f30f12329872c3d5d",
+        "readmeBlob": "66ee2ed9b62fc607312a60022657a760c65766d4",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/autogenous",
+        "head": "a4d5fb8e77384de11fb1f6a0bdba2fd21c248266",
+        "manifestBlob": "438326152133b0ab30be359e6257ee4073355c5c",
+        "readmeBlob": "d64ee2e566e4b25e9de779bea5a3db98aacc3ff8",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/dream-machine",
+        "head": "53e1654cbe52d134f54b910602d244661a52544c",
+        "manifestBlob": "1cdd12205f9788c69a6df656ac0f832b297cf711",
+        "readmeBlob": "4cf1ef8be0ba8ce2bb9a23160e5ececed01762ed",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/agentdb",
+        "head": "418e799ad2dbc8f4e1b5434629c8bc1d7bb30a00",
+        "manifestBlob": "c4c58e0837e715afaeaa78c36220829cfb854b0b",
+        "readmeBlob": "a6666b27d6894ae075be7c0bfa777dd0f661e424",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/LatentMesh",
+        "head": "05930c24689198f52cc371be9e2cd90682f17ed8",
+        "manifestBlob": "48bbe439f5381fe175cb55dfc94f3426d08d757b",
+        "readmeBlob": "691df35a2fc089dbdb15ae756094cfe4125f5f5a",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/RuView",
+        "head": "cae99b56385f275fb23b23074cb63d31b74aea88",
+        "manifestBlob": "f98e8611c3b9036efbd1fb8a80ec09da3d79c999",
+        "readmeBlob": "449f49fb9bd3e7fddfed2b3e93d8956766b27cae",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/agentic-flow",
+        "head": "035402aec81d3023e1a3c00c55d902a3378dd77e",
+        "manifestBlob": "03b7c13030db427053c7f8ee426f56c8340ccbef",
+        "readmeBlob": "bfca517885fe9fb7be5e756d9f5c4c2a6bb36e5f",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/rufield",
+        "head": "4bf9a49d136da77da37fdb124676b2f4f8fea540",
+        "manifestBlob": "8813532238164916c2f3d2dd68fd89ca5588d2e7",
+        "readmeBlob": "d3b0709621aad25be394cea410b398a46fd34d0b",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/rudevolution",
+        "head": "b9cfb09c46fa07227e0a6534a7979ed72679e798",
+        "manifestBlob": "d81a8355598d8a751ad068319bff815dbcb90be6",
+        "readmeBlob": "343fbdaa86f1dbdc19341037416ae74498381177",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/daa",
+        "head": "a4d58ff32aa6d3811b4b0aa9e64d43297e3c5367",
+        "manifestBlob": "bd335d78baaa935addcbbdee8982a46d2b9a703e",
+        "readmeBlob": "0d4f2b93d204cf26aeb7ffdd7b9bb59f84ce432d",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/sublinear-time-solver",
+        "head": "347f3dccd685284d4f94024d7aea6c081aedaf1b",
+        "manifestBlob": "45f8d213819f7d8488efc2c7742b871e159d1834",
+        "readmeBlob": "0d515b9de8563dab39acc1883e4fc48317155e59",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/helix",
+        "head": "c35fa348e90760c1b90f5d7d786100eb52402ff4",
+        "manifestBlob": "35eedb80c31ac2f894a0ca116b42e5c87b346c4a",
+        "readmeBlob": "b3e2f583d46732e9f3c0d0724084b02fa92ea2c9",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/PhotonLayer",
+        "head": "d74e5b5501a832ad724e593935b006b6e5061fac",
+        "manifestBlob": "465d9214065d562c941c51fee6dcf6aaf60e79d9",
+        "readmeBlob": "0d6273a394208cc4afe5d0ee8ec2ab5c6d06356d",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/worldgraph",
+        "head": "20deb1d759b588fd69863d9d80070b9f9d383016",
+        "manifestBlob": "499021a89c26d30151e67f2d68d55d0fea220e00",
+        "readmeBlob": "102ea512699c00940b862c56470a5bcbdbc78efe",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/agents-of-the-dawm",
+        "head": "8231511ce64f55181715296a568a60474610b1c5",
+        "manifestBlob": "2391cb07e51bc6936ae5e8b90bdce413862827f6",
+        "readmeBlob": "165cbba8224baf1ffe7a8f615a2dba5d365759a9",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/ruPet",
+        "head": "5e41a8b37372deab3789e2166a0912c4f3948b65",
+        "manifestBlob": "0e6aeb3823a21d86fef27042f86eb3f3ff473ee5",
+        "readmeBlob": "4b1357b62f748f8a984687084dd10b9cc52b273d",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/mcp-studio",
+        "head": "f429e7e0e7e87f3033ff763db76c45fecd42f729",
+        "manifestBlob": "7b3ec21d104376b294e4665883f15395395aceab",
+        "readmeBlob": "25007b7a26c644435097761d40b5456e16f1a1cd",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/rultra",
+        "head": "3db02d712e5c3ae44c3170734c4752a6204c03e2",
+        "manifestBlob": "9511f8d3da33ca3b3be0b40f8629849293824f18",
+        "readmeBlob": "94041b8fad82dbc170c83f1e24f3cda652478810",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/APx",
+        "head": "f0ad06dc45c95d1ef00f036b6030a101ae17f2bb",
+        "manifestBlob": "66e58d856639edb592ba2d43f6650019f5f364ba",
+        "readmeBlob": "3a9704ca15287e2708f93e7cd33f1f2765d511b7",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/rGi",
+        "head": "f5db75ae3ef4d82d662d809eb890dbd8a313d0f1",
+        "manifestBlob": "9cb666ba7ca573015051b6f8b81165800981530e",
+        "readmeBlob": "a65e929c3ab7115aa32b45dea5c5de7faf0f935c",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/ruClip",
+        "head": "d612934eada030d1ab0b3a708e0177c9eab41c7c",
+        "manifestBlob": "0954d89b7d278df9228b5c2f6c51574b3ed85510",
+        "readmeBlob": "276b92780933b84941fcc24d8161a86d959db622",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/AgentBBS",
+        "head": "907a6c3348e7cc75eb836e325b15fb17a85dcf30",
+        "manifestBlob": "c9f7d31a5212264ef1f7c4b95f8e7966605ad766",
+        "readmeBlob": "8854de9807c9f83778d90c4ffecb89327c85fedc",
+        "verified": true
+      },
+      {
+        "repo": "ruvnet/Agent-Name-Service",
+        "head": "9a6fbf621c7bedede1fda0b9c5fc8d23d3d57bfb",
+        "manifestBlob": "37912e54f708df95c077dce1a03623a2ca67b14a",
+        "readmeBlob": "38691510bcf855da67fd6fb6ef2632394806a728",
+        "verified": true
+      }
+    ],
+    "nexusInitialCI": [
+      "https://github.com/ruvnet/ruvnet/actions/runs/38019230159",
+      "https://github.com/ruvnet/ruvnet/actions/runs/38019228683"
+    ],
+    "rvmNativeCI": "Formatting corrected in dc04e91f9ea108d041c606154e0d16ab14f5633a; following run pending",
+    "localMemory": {
+      "runtime": "@claude-flow/cli@3.25.6",
+      "namespace": "patterns",
+      "key": "ruv-manifest-v01-boundaries",
+      "readbackMatched": true
+    }
+  }
+}

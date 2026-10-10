@@ -38,3 +38,11 @@ python3 scripts/check_ruv_nexus.py
 ```
 
 Repository adoption is tracked separately in `data/ruv/adoption.json` and the generated catalog. PRs are review candidates. No merge, deployment, cryptographic certification or future language-model indexing is asserted.
+
+## Publication result
+
+28 public draft PRs are open, including the nexus. RuVector and ruv-FANN have build-gate issues; their exact candidate manifests remain in this snapshot. See [rollout receipts](../../data/ruv/rollout.json). Private memory code is prepared but not published because its repository requires signed intent and result ledger receipts before external writes; no authorized live ledger was available. No private repository data is included here.
+
+## CI and remote byte verification
+
+The initial nexus head passed both GitHub constellation workflow runs. All 27 downstream PR root manifests and README files were read back as Git tree blobs and matched the exact prepared Git blob hashes. The RVM adapter first stopped at rustfmt; all six reported formatting differences were applied in a followup commit. Its native test result remains separately tracked. The validated boundary pattern was stored in local project-scoped Ruflo memory and retrieved with exact content match.

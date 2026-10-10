@@ -1,1 +1,114 @@
-{}
+{
+  "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/ruflo/pull/3971"
+  },
+  "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/rvm/pull/81"
+  },
+  "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/metaharness/pull/388"
+  },
+  "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/midstream/pull/109"
+  },
+  "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/QuDAG/pull/28"
+  },
+  "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/autogenous/pull/18"
+  },
+  "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/dream-machine/pull/163"
+  },
+  "ruv://ruvnet/constellation/service/agentdb/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/agentdb/pull/30"
+  },
+  "ruv://ruvnet/constellation/service/latentmesh/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/LatentMesh/pull/31"
+  },
+  "ruv://ruvnet/constellation/service/ruview/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/RuView/pull/2194"
+  },
+  "ruv://ruvnet/constellation/service/agentic-flow/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/agentic-flow/pull/240"
+  },
+  "ruv://ruvnet/constellation/service/rufield/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/rufield/pull/17"
+  },
+  "ruv://ruvnet/constellation/service/rudevolution/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/rudevolution/pull/14"
+  },
+  "ruv://ruvnet/constellation/service/daa/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/daa/pull/5"
+  },
+  "ruv://ruvnet/constellation/service/sublinear-time-solver/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/sublinear-time-solver/pull/67"
+  },
+  "ruv://ruvnet/constellation/service/helix/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/helix/pull/9"
+  },
+  "ruv://ruvnet/constellation/service/photonlayer/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/PhotonLayer/pull/1"
+  },
+  "ruv://ruvnet/constellation/service/worldgraph/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/worldgraph/pull/13"
+  },
+  "ruv://ruvnet/constellation/service/agents-of-the-dawm/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/agents-of-the-dawm/pull/3"
+  },
+  "ruv://ruvnet/constellation/service/rupet/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/ruPet/pull/1"
+  },
+  "ruv://ruvnet/constellation/service/mcp-studio/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/mcp-studio/pull/1"
+  },
+  "ruv://ruvnet/constellation/service/rultra/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/rultra/pull/3"
+  },
+  "ruv://ruvnet/constellation/service/apx/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/APx/pull/1"
+  },
+  "ruv://ruvnet/constellation/service/rgi/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/rGi/pull/7"
+  },
+  "ruv://ruvnet/constellation/service/ruclip/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/ruClip/pull/66"
+  },
+  "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/AgentBBS/pull/20"
+  },
+  "ruv://ruvnet/constellation/service/agent-name-service/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/Agent-Name-Service/pull/5"
+  },
+  "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv": {
+    "status": "pending_pr",
+    "pr": "https://github.com/ruvnet/ruvnet/pull/3"
+  }
+}
