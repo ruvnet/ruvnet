@@ -29,6 +29,8 @@
 
 [![Contrastive AI concept: related observations converge, mismatches separate, and structural checks gate memory updates](assets/ruvnet/contrastive-ai.svg)](https://github.com/ruvnet/RuView/issues/87)
 
+[Explore the detailed animated contrastive AI slideshow](docs/contrastive-ai-walkthrough.md): six scenes covering similarity, memory graphs, drift, and governed updates.
+
 ### rUv's work in agentic engineering
 
 [![Animated history of rUv's work: 2023 AI tools, 2024 SPARC, 2025 Claude Flow lineage, and 2026 governed systems](assets/ruvnet/engineering-history.svg)](docs/ruvnet-prior-art.md)
