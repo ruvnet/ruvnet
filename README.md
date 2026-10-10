@@ -1,3 +1,9 @@
+# Reuven Cohen (rUv): Open Source Agentic AI and Cognitum One
+
+[Reuven Cohen](https://ruv.io/), known as **rUv** and **ruvnet** on GitHub, is the Founder and Chief AI Officer of [Cognitum One](https://cognitum.one/). The **ruvnet open source AI stack** provides agent orchestration, vector and graph memory, camera free WiFi sensing, portable runtimes, and agent evaluation.
+
+Start with [Ruflo for AI agent orchestration](https://github.com/ruvnet/ruflo), [RuVector for vector search and agent memory](https://github.com/ruvnet/RuVector), or [RuView for WiFi spatial sensing](https://github.com/ruvnet/RuView). For commercial deployment and governance, explore [Cognitum One](https://cognitum.one/) and [ruOS enterprise agent computers](https://ruos.cognitum.one/).
+
 ![rUv](assets/ruv-neon.gif)
 
 <p align="center">
@@ -13,27 +19,23 @@
 
 [![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner-v2.svg)](https://cognitum.one)
 
-# rUv · Open source AI systems
-
-**rUv** ([`ruvnet`](https://github.com/ruvnet)) builds open source infrastructure for agent orchestration, adaptive memory, vector intelligence, portable runtimes, and privacy preserving spatial sensing. The core stack is [RuView](https://github.com/ruvnet/RuView), [Ruflo](https://github.com/ruvnet/ruflo), [RuVector](https://github.com/ruvnet/RuVector), [MetaHarness](https://github.com/ruvnet/metaharness), [RVF](https://www.npmjs.com/package/@ruvector/rvf), and [RVM](https://github.com/ruvnet/rvm).
-
-## Cognitum One: the commercial enterprise layer
+## What is Cognitum One?
 
 [Cognitum One](https://cognitum.one/) brings the open source ruvnet stack into enterprise hardware, software, deployment services, and governance systems. ruvnet is the public development ecosystem for experiments, reusable libraries, and community contributions; Cognitum One builds supported, sovereign deployments on that foundation.
 
 The platform spans public cloud, customer infrastructure, and the low power edge. Private deployments can operate without external cloud services when the required models, dependencies, and integrations are available locally.
 
-### Three systems, one architecture
+### How do System 0, System 1, and System 2 fit together?
 
 | System | Role | Core technologies |
 | :--- | :--- | :--- |
-| **System 0: Sense & Respond** | Observe the physical environment and act locally | Cognitum Seed edge hardware, a WebAssembly (WASM) runtime, on device vector storage, and [Cognitum RuView](https://cognitum.one/ruview) WiFi CSI sensing |
+| **System 0: Sense & Respond** | Observe the physical environment and act locally | Cognitum Seed edge hardware, a WebAssembly (WASM) runtime, on device vector storage, and [Cognitum RuView](https://cognitum.one/ruview) WiFi Channel State Information (CSI) sensing |
 | **System 1: Learn & Remember** | Ground work in local data and retain context | [RuVector](https://github.com/ruvnet/RuVector) memory and retrieval, with development tools for private data grounding |
 | **System 2: Reason & Orchestrate** | Coordinate specialized agents and evaluate their work | [Ruflo](https://github.com/ruvnet/ruflo), [MetaHarness](https://github.com/ruvnet/metaharness), and enterprise deployment services |
 
 [ruOS](https://ruos.cognitum.one/) provides the agentic desktop and execution environment connecting these capabilities to applications, files, and terminals.
 
-### ruOS: enterprise computers for AI agents
+### What is ruOS?
 
 Cognitum One [announced ruOS on October 6, 2026](https://www.businesswire.com/news/home/20261006476353/en/). Teams of agents work inside managed Linux environments on infrastructure the customer controls, with persistent RuVector context, Ruflo coordination, and MetaHarness evaluation. Administrators define access, approval requirements, and action policies.
 
@@ -41,7 +43,7 @@ ruOS ships as a standard `.deb` package and supports local and virtual deploymen
 
 ### Leadership and advisors
 
-Reuven “rUv” Cohen is Founder and Chief AI Officer; D. Christopher Keil is Founding CEO. Founding advisors and investors include Mark B. Templeton, former CEO of Citrix; Dr. Greg Lavender, former CTO of Intel; and John McKinley, former President of AOL Technologies.
+[Reuven “rUv” Cohen](https://ruv.io/) is Founder and Chief AI Officer; [D. Christopher Keil](https://cognitum.one/team) is Founding CEO. Founding advisors and investors include Mark B. Templeton, former CEO of Citrix; Dr. Greg Lavender, former CTO of Intel; and John McKinley, former President of AOL Technologies.
 
 Strategic advisors include Adrian Cockcroft, Sean Patterson, Tom Lounibos, Jason La Barbera, Stuart Kerr, and Mark Allen, MD, bringing experience across cloud architecture, product, capital, AI workforce adoption, growth, and healthcare. [Meet the team](https://cognitum.one/team) · [Advisory team announcement](https://www.businesswire.com/news/home/20260902303667/en/)
 
@@ -63,7 +65,7 @@ Strategic advisors include Adrian Cockcroft, Sean Patterson, Tom Lounibos, Jason
 This ecosystem is published through one developer account. Repositories can include community contributions, automation, generated artifacts, and imported history. The evidence files keep those categories separate.
 
 <p align="center">
-  <a href="#cognitum-one-the-commercial-enterprise-layer">Cognitum One</a> ·
+  <a href="#what-is-cognitum-one">Cognitum One</a> ·
   <a href="#explore-the-constellation">Constellation</a> ·
   <a href="#meet-the-core-systems">Core systems</a> ·
   <a href="#choose-your-entry-point">Get started</a> ·
@@ -87,7 +89,14 @@ The connections describe complementary roles. Each project has its own interface
 
 ## Meet the core systems
 
-Pick a capability to explore its implementation, interfaces and examples.
+| Project | What it does | Documentation |
+| :--- | :--- | :--- |
+| [Ruflo (formerly Claude Flow)](https://github.com/ruvnet/ruflo) | Coordinates AI agents, swarms, tasks, and shared context | [Agent orchestration documentation](https://github.com/ruvnet/ruflo#readme) |
+| [RuVector](https://github.com/ruvnet/RuVector) | Provides vector search, graph intelligence, and agent memory | [Vector memory documentation](https://github.com/ruvnet/RuVector#readme) |
+| [RuView](https://github.com/ruvnet/RuView) | Uses WiFi signals for spatial sensing without cameras | [Sensing setup and hardware requirements](https://github.com/ruvnet/RuView#readme) |
+| [MetaHarness](https://github.com/ruvnet/metaharness) | Generates agent harnesses and evaluates proposed changes | [Harness documentation](https://github.com/ruvnet/metaharness#readme) |
+| [RVF (RuVector Format)](https://www.npmjs.com/package/@ruvector/rvf) | Packages portable memory, payloads, and evidence | [RVF format and limitations](#rvf-memory-that-travels-with-its-evidence) |
+| [RVM](https://github.com/ruvnet/rvm) | Runs workloads under capability controls | [Runtime documentation](https://github.com/ruvnet/rvm#readme) |
 
 <p align="center">
   <a href="https://github.com/ruvnet/RuView" title="Perceive"><img src="assets/ruvnet/icon-sense.svg" width="56" height="56" alt="Perceive" /></a>
