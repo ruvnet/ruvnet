@@ -1,6 +1,6 @@
 ![rUv](assets/ruv-neon.gif)
 
-# Reuven Cohen (rUv): Agentic Engineering, Open Source AI, and Contrastive Intelligence
+# (rUv): Agentic Engineering, Open Source AI, and Contrastive Intelligence
 
 [Reuven Cohen](https://ruv.io/), known as **rUv** and **ruvnet**, builds AI systems that perceive, remember, coordinate, act, and improve. His work connects agentic engineering, contrastive intelligence, and open source infrastructure through Ruflo, RuVector, RuView, MetaHarness, RVF, and RVM. He is Founder and Chief AI Officer of [Cognitum One](https://cognitum.one/), the commercial enterprise layer built on this foundation.
 
