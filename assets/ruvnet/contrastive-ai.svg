@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+<title id="title">Contrastive AI: similarity, separation, structural checks</title>
+<desc id="desc">Conceptual illustration of the ruvnet approach. Related observations move closer, mismatches move apart, and a constraint gate separates candidate updates from retained memory. This is not benchmark evidence.</desc>
+<defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#163047" stroke-opacity=".45"/></pattern></defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.flow{stroke-dasharray:5 12;animation:flow 5s linear infinite}
+.near{animation:near 5s ease-in-out infinite}
+.far{animation:far 5s ease-in-out infinite}
+.gate{animation:glow 5s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-85}}
+@keyframes near{50%{transform:translateX(22px)}}
+@keyframes far{50%{transform:translateX(25px)}}
+@keyframes glow{50%{stroke:#9de8d0;stroke-width:3}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1000" height="280" rx="16" fill="#080e19"/><rect width="1000" height="280" rx="16" fill="url(#grid)"/>
+<text x="28" y="34" fill="#edf3ff" font-size="18">CONTRASTIVE AI</text>
+<text x="28" y="58" fill="#a7b8ce" font-size="12">Learn relationships. Preserve constraints. Validate change.</text>
+<g fill="#0d1726" stroke="#263b52"><rect x="28" y="80" width="280" height="165" rx="12"/><rect x="360" y="80" width="280" height="165" rx="12"/><rect x="692" y="80" width="280" height="165" rx="12"/></g>
+<text x="48" y="108" fill="#9de8d0" font-size="15">01 / SIMILARITY</text>
+<path d="M90 162H218" stroke="#9de8d0" stroke-opacity=".3"/>
+<g class="near" fill="#9de8d0"><circle cx="90" cy="154" r="9"/><circle cx="108" cy="177" r="6"/><circle cx="72" cy="173" r="5"/></g>
+<g fill="#a5b5ff"><circle cx="206" cy="155" r="9"/><circle cx="226" cy="176" r="6"/><circle cx="190" cy="177" r="5"/></g>
+<text x="48" y="224" fill="#a7b8ce" font-size="12">Related observations converge</text>
+<text x="380" y="108" fill="#a5b5ff" font-size="15">02 / SEPARATION</text>
+<g fill="#9de8d0"><circle cx="420" cy="156" r="8"/><circle cx="439" cy="177" r="6"/><circle cx="407" cy="179" r="5"/></g>
+<g class="far" fill="#f6a675"><circle cx="555" cy="156" r="8"/><circle cx="570" cy="176" r="6"/></g>
+<path class="flow" d="M465 165H534" stroke="#a5b5ff"/>
+<text x="380" y="224" fill="#a7b8ce" font-size="12">Mismatches remain distinct</text>
+<text x="712" y="108" fill="#f6a675" font-size="15">03 / STRUCTURAL CHECKS</text>
+<path class="flow" d="M726 166H802M850 166H937" stroke="#9de8d0"/>
+<path class="gate" d="M827 129L850 140V166Q850 186 827 198Q804 186 804 166V140Z" fill="#122d2d" stroke="#659c8e" stroke-width="2"/>
+<path d="M816 163L824 171 839 151" fill="none" stroke="#9de8d0" stroke-width="3"/>
+<circle cx="939" cy="166" r="9" fill="#9de8d0"/>
+<path d="M795 177L777 198M773 194L781 202M781 194L773 202" stroke="#f6a675" stroke-width="2"/>
+<text x="712" y="224" fill="#a7b8ce" font-size="12">Gate updates. Measure drift.</text>
+<path class="flow" d="M309 165H358M641 165H690" stroke="#9de8d0"/>
+<text x="28" y="265" fill="#7f93ad" font-size="10">Conceptual model / RuVector memory and graphs / workload specific validation required</text>
+</svg>
