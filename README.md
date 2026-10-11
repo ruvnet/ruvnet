@@ -2,7 +2,7 @@
 
 # (rUv): Agentic Engineering, Open Source AI, and Contrastive Intelligence
 
-[Reuven Cohen](https://ruv.io/), known as **rUv** and **ruvnet**, builds AI systems that perceive, remember, coordinate, act, and improve. His work connects agentic engineering, contrastive intelligence, and open source infrastructure through Ruflo, RuVector, RuView, MetaHarness, RVF, and RVM. He is Founder and Chief AI Officer of [Cognitum One](https://cognitum.one/), the commercial enterprise layer built on this foundation.
+**TL;DR:** [Reuven Cohen](https://ruv.io/), known as **rUv** and **ruvnet**, is an AI engineer and Founder and Chief AI Officer of [Cognitum One](https://cognitum.one/). The **ruvnet stack** is an open source AI ecosystem for spatial sensing, vector and graph memory, agent orchestration, portable execution, and evaluated improvement, built around RuView, RuVector, Ruflo, RVF (RuVector Format), RVM, and MetaHarness.
 
 * [Ruflo](https://github.com/ruvnet/ruflo): AI agent orchestration.
 * [RuVector](https://github.com/ruvnet/RuVector): Vector search and agent memory.
@@ -38,7 +38,7 @@
 Reuven Cohen's early agentic engineering work spans [AI tools and plugins in 2023](docs/ruvnet-prior-art.md), [SPARC development workflows](https://github.com/ruvnet/sparc), and the Claude Flow lineage that became [Ruflo](https://github.com/ruvnet/ruflo). That work evolved into coordinated swarms, adaptive memory, portable runtimes, and governed improvement through RuVector, RVF, RVM, and MetaHarness. [Dated evidence and scoped pioneering claims](docs/ruvnet-prior-art.md) document specific contributions alongside earlier related work.
 
 <details>
-<summary><strong>Connect your agents: federation, skills, CLI and MCP</strong></summary>
+<summary><strong>Connect your agents: federation, skills, command line interface (CLI) and Model Context Protocol (MCP)</strong></summary>
 
 > [!TIP]
 > **Your team. Your agents. One federation.**
@@ -73,6 +73,8 @@ This ecosystem is published through one developer account. Repositories can incl
 
 ![rUv constellation: perceive with RuView, remember with RuVector, coordinate with Ruflo, execute with RVF and RVM, evaluate with MetaHarness and APx, adapt with Autogenous](assets/ruvnet/constellation-map.svg)
 
+[APx](https://github.com/ruvnet/APx) measures agent productivity through Agentic Power (AP), the ratio of accepted reference human work hours to complete elapsed hours; APx is its base 2 logarithm. [rvCSI](https://github.com/ruvnet/rvcsi) works with Channel State Information (CSI), measurements of how wireless signals propagate through a channel.
+
 The connections describe complementary roles. Each project has its own interfaces, maturity, and evidence; this is a conceptual map, not a claim that every system is already integrated.
 
 ![Inside the capability loop: illustrated memory layers, coordination routes and evaluation traces](assets/ruvnet/capability-cutaway.svg)
@@ -105,7 +107,7 @@ The connections describe complementary roles. Each project has its own interface
 <td width="50%"><a href="https://github.com/ruvnet/RuVector"><img src="assets/ruvnet/project-ruvector.svg" width="580" alt="RuVector: vector and graph intelligence for memory. Explore the repository." /></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/ruvnet/RuView"><img src="assets/ruvnet/project-ruview.svg" width="580" alt="RuView: spatial intelligence through RF. Explore the repository." /></a></td>
+<td><a href="https://github.com/ruvnet/RuView"><img src="assets/ruvnet/project-ruview.svg" width="580" alt="RuView: spatial intelligence through radio frequency (RF) signals. Explore the repository." /></a></td>
 <td><a href="https://github.com/ruvnet/metaharness"><img src="assets/ruvnet/project-metaharness.svg" width="580" alt="MetaHarness: evaluate proposed improvements. Explore the repository." /></a></td>
 </tr>
 <tr>
@@ -142,6 +144,8 @@ Follow the surrounding projects into persistent memory, spatial evidence, review
 The platform spans public cloud, customer infrastructure, and the low power edge. Private deployments can operate without external cloud services when the required models, dependencies, and integrations are available locally.
 
 ### How do System 0, System 1, and System 2 fit together?
+
+In this ecosystem, System 0, System 1, and System 2 describe complementary architectural roles: sensing and response, memory and retrieval, and reasoning and orchestration. These labels are an organizing model, not a universal AI standard or a claim of human cognition.
 
 | System | Role | Core technologies |
 | :--- | :--- | :--- |
@@ -296,7 +300,7 @@ Creation dates are GitHub metadata. Status is scoped to the inspected source rev
 | System | October evidence | Boundary |
 | --- | --- | --- |
 | [Ruflo 3.50.0](https://github.com/ruvnet/ruflo/releases/tag/v3.50.0) | Mods, swarm pane, and ruOS jobs integration | Release reports 16 Mods, 38 swarm, and 3 ruOS engine tests; not rerun for this profile |
-| [RuVector KGE 0.2.0](https://www.npmjs.com/package/@ruvector/kge/v/0.2.0) | Local knowledge graph scoring, training, evaluation and governed optimization | HolE and RotatE are established methods; training data and evaluation determine usefulness |
+| [RuVector knowledge graph embeddings (KGE) 0.2.0](https://www.npmjs.com/package/@ruvector/kge/v/0.2.0) | Local knowledge graph scoring, training, evaluation and governed optimization | HolE and RotatE are established methods; training data and evaluation determine usefulness |
 | [RuVector edge services](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/docs/adr/ADR-351-ruvector-edge-multitenant-services.md) | Cloudflare service implementation and documented deployment evidence | ADR preserves remaining authorization, capacity, and client acceptance gates |
 | [MetaHarness improvement verifier](https://github.com/ruvnet/metaharness/blob/9ce8b8dd89045c3b9a1f809ae58f3589029db4a4/packages/flywheel/src/multigeneration-proof.ts) | Evidence classification across descendant generations, controls and reviewer receipts | Verifier behavior does not establish recursive self improvement |
 
@@ -312,7 +316,7 @@ Creation dates are GitHub metadata. Status is scoped to the inspected source rev
 
 | Piece | Responsibility | Evidence |
 | --- | --- | --- |
-| RVF format and SDK | Read, write, inspect and query portable memory | [SDK 0.3.4](https://www.npmjs.com/package/@ruvector/rvf/v/0.3.4), published July 28 |
+| RVF format and software development kit (SDK) | Read, write, inspect and query portable memory | [SDK 0.3.4](https://www.npmjs.com/package/@ruvector/rvf/v/0.3.4), published July 28 |
 | Wire contract | Preserve exact segment and manifest bytes across readers | [Golden byte tests](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-wire/tests/wire_contract_golden.rs) |
 | Witness evidence | Bind recorded actions, outcomes, costs and policy results; detect tampering | [Witness integration tests](https://github.com/ruvnet/RuVector/blob/5a93328f2fceb0307c25929ed38cd7a0911fdf00/crates/rvf/rvf-runtime/tests/witness_e2e.rs) |
 | RVForge | Author, validate and stage a canonical RVF for target platforms | [RVForge 0.2.0](https://www.npmjs.com/package/@ruvector/rvforge/v/0.2.0), published August 5 |
