@@ -24,6 +24,8 @@
 [![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner-v2.svg)](https://cognitum.one)
 
 <!-- ecosystem-cta:start -->
+[![rUv ecosystem: explore Cognitum One. Conceptual project-to-destination animation.](assets/ruvnet/ecosystem-cta.svg)](https://cognitum.one/)
+
 **[Explore Cognitum One](https://cognitum.one/) · [Try ruOS](https://ruos.cognitum.one/)**, an agentic desktop in your browser.
 <!-- ecosystem-cta:end -->
 
