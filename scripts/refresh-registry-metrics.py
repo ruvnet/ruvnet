@@ -178,6 +178,38 @@ def save(relative_path, data):
     path.write_text(json.dumps(data, indent=2) + '\n')
 
 
+def update_daily_ledger(results, today, verified):
+    """Upsert the latest 14 complete UTC days by package and date."""
+    start = (today - dt.timedelta(days=14)).isoformat()
+    end = (today - dt.timedelta(days=1)).isoformat()
+    ledger_path = ROOT / 'data/ecosystem-daily-ledger.json'
+    ledger = json.loads(ledger_path.read_text())
+    values = ledger.setdefault('values', {})
+    provenance = ledger.setdefault('package_provenance', {})
+    for result in results:
+        package = result['package']
+        points = validate_range(package, result['body'], PERIOD_START, end)
+        for point in points:
+            if start <= point['day'] <= end:
+                values[f"npm|{package}|downloads|{point['day']}"] = point['downloads']
+        provenance[package] = {
+            'source': result['receipt']['source'],
+            'retrieved_at': result['receipt']['retrieved_at'],
+            'response_sha256': result['receipt']['response_sha256'],
+        }
+    ledger['observed_from'] = min(ledger.get('observed_from', start), start)
+    ledger['observed_through'] = end
+    ledger['updated_at'] = verified
+    ledger['coverage'] = {
+        'expected_packages': len(results),
+        'collected_packages': len(results),
+        'errors': [],
+    }
+    ledger['interpretation'] = ('Observed download events in stored package/date cells. '
+                                'Not lifetime downloads. Recent provider zero days may be provisional.')
+    save('data/ecosystem-daily-ledger.json', ledger)
+
+
 def main():
     today = dt.datetime.now(dt.timezone.utc).date()
     end = (today - dt.timedelta(days=1)).isoformat()
@@ -254,6 +286,7 @@ def main():
                       'source': 'https://crates.io/api/v1/crates?user_id=339999',
                       'responses': crate_receipts, 'crates': crates})
     save('data/registry-stats.json', registry)
+    update_daily_ledger(results, today, verified)
     metrics = json.loads((ROOT / 'data/metrics.json').read_text())
     metrics['verified_at'] = verified
     save('data/metrics.json', metrics)

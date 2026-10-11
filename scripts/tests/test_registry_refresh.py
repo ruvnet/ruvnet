@@ -1,7 +1,9 @@
 """The milestone period and reporting-lag rules must survive daily refreshes."""
 import datetime as dt
 import importlib.util
+import json
 from pathlib import Path
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -26,6 +28,31 @@ def result(package='example', positive_through='2026-10-05', requested_end='2026
 
 
 class RegistryRefreshTest(unittest.TestCase):
+    def test_daily_ledger_upserts_complete_window_idempotently(self):
+        today = dt.date(2026, 10, 8)
+        row = result(positive_through='2026-10-07', requested_end='2026-10-07')
+        row['receipt']['source'] = 'https://api.npmjs.org/downloads/range/example'
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            data = root / 'data'
+            data.mkdir()
+            ledger = {
+                'schema_version': '1.0', 'observed_from': '2026-09-01',
+                'values': {'npm|example|downloads|2026-10-07': 99},
+                'package_provenance': {}, 'coverage': {}}
+            (data / 'ecosystem-daily-ledger.json').write_text(json.dumps(ledger))
+            with patch.object(refresh, 'ROOT', root):
+                refresh.update_daily_ledger([row], today, '2026-10-08T12:00:00Z')
+                first = (data / 'ecosystem-daily-ledger.json').read_bytes()
+                refresh.update_daily_ledger([row], today, '2026-10-08T12:00:00Z')
+                second = (data / 'ecosystem-daily-ledger.json').read_bytes()
+            updated = json.loads(first)
+            self.assertEqual(first, second)
+            self.assertEqual(updated['observed_from'], '2026-09-01')
+            self.assertEqual(updated['observed_through'], '2026-10-07')
+            self.assertEqual(updated['values']['npm|example|downloads|2026-10-07'], 1)
+            self.assertEqual(updated['coverage']['collected_packages'], 1)
+
     def test_zero_tail_does_not_advance_or_shrink_rolling_window(self):
         rows = [result('one'), result('two', count=2)]
         evidence, months = refresh.summarize_ranges(rows, refresh.PERIOD_START, '2026-10-07')
