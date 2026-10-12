@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/latentmesh/resources/manifest.ruv",
+  "name": "LatentMesh",
+  "summary": "Compact semantic delta envelopes for bandwidth-constrained links. Queue messages and forward after connectivity resumes. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Research prototype; the README quickstart uses simulated transport and does not establish live radio operation in this mission.",
+  "repository": {
+    "url": "https://github.com/ruvnet/LatentMesh",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "semantic-envelopes",
+      "description": "Compact semantic delta envelopes for bandwidth-constrained links.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md",
+          "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "disconnected-messaging",
+      "description": "Queue messages and forward after connectivity resumes.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md",
+          "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "message-validation",
+      "description": "Documented checksum, signature, replay and reassembly validation.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md",
+          "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "portable-radio-core",
+      "description": "Portable allocation-free C core and simulated radio transport.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md",
+          "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "df9270799a1391925c1840a1845a6d169aaa2d93",
+    "observedAt": "2026-10-10T02:57:45.103116Z"
+  }
+}

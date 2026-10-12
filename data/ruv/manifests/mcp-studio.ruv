@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/mcp-studio/resources/manifest.ruv",
+  "name": "mcp-studio",
+  "summary": "Web based MCP reference server and embedded application workbench.",
+  "repository": {
+    "url": "https://github.com/ruvnet/mcp-studio",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "mcp-reference",
+      "description": "Expose documented tools, resources and prompts through the shared MCP server.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md",
+          "revision": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "embedded-interface",
+      "description": "Provide a bundled MCP Apps widget and browser playground.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md",
+          "revision": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/package.json",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+    "observedAt": "2026-10-10T03:00:00Z"
+  }
+}
