@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-11T12:53:53.659713Z",
+  "verified_at": "2026-10-12T12:58:59.656602Z",
   "counts": {
-    "github_public_repositories": 222,
-    "github_owned_public_nonfork_repositories": 196,
-    "published_registry_and_huggingface_artifacts_minimum": 908,
+    "github_public_repositories": 224,
+    "github_owned_public_nonfork_repositories": 197,
+    "published_registry_and_huggingface_artifacts_minimum": 909,
     "rust_crates": 480,
-    "npm_packages": 398,
+    "npm_packages": 399,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 1823072,
-    "github_public_forks": 26,
-    "github_followers": 11729,
-    "github_stars_owned_nonfork": 188096,
-    "github_aggregate_downstream_forks": 25145
+    "rust_crate_downloads_cumulative": 1848105,
+    "github_public_forks": 27,
+    "github_followers": 11736,
+    "github_stars_owned_nonfork": 188444,
+    "github_aggregate_downstream_forks": 25170
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
@@ -34,7 +34,7 @@
     "Owned nonfork describes GitHub metadata, not sole authorship or originality.",
     "Stars, clones and downloads do not establish unique users or revenue.",
     "The aggregate artifact count combines current npm/crates inventory with 30 historically verified PyPI/Hugging Face artifacts.",
-    "The npm download cohort is 398 packages; the current inventory contains 398."
+    "The npm download cohort is 399 packages; the current inventory contains 399."
   ],
   "sources": [
     "https://api.github.com/users/ruvnet",
@@ -44,16 +44,16 @@
     "data/proof-2026-10-02.json"
   ],
   "current_windows": {
-    "npm_downloads_rolling_365_days": 95712793,
-    "npm_period_start": "2025-10-11",
-    "npm_period_end": "2026-10-10",
-    "npm_download_package_count": 398
+    "npm_downloads_rolling_365_days": 96332647,
+    "npm_period_start": "2025-10-12",
+    "npm_period_end": "2026-10-11",
+    "npm_download_package_count": 399
   },
   "verification_dates": {
-    "github": "2026-10-11T12:40:24.116Z",
-    "npm_inventory": "2026-10-11T12:36:24.187475Z",
-    "npm_downloads": "2026-10-11T12:53:27.204020Z",
-    "crates_io": "2026-10-11T12:53:53.659021Z",
+    "github": "2026-10-12T12:41:56.067898Z",
+    "npm_inventory": "2026-10-12T12:40:22.794894Z",
+    "npm_downloads": "2026-10-12T12:58:38.115232Z",
+    "crates_io": "2026-10-12T12:58:59.655914Z",
     "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted"
   }
 }

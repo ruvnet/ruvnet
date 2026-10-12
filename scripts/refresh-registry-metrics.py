@@ -43,10 +43,10 @@ def fetch_json(url):
                 'response_sha256': hashlib.sha256(raw).hexdigest(),
             }
         except urllib.error.HTTPError as error:
-            if error.code not in (429, 500, 502, 503, 504):
-                raise
-            if attempt == 7:
-                raise
+            # Newly published npm packages can appear in search before download stats.
+            npm_pending = error.code == 404 and url.startswith('https://api.npmjs.org/downloads/')
+            if (error.code not in (429, 500, 502, 503, 504) and not npm_pending) or attempt == 7:
+                raise RuntimeError(f'HTTP {error.code} retrieving {url}; previous verified data retained') from error
             retry_after = error.headers.get('Retry-After', '10')
             try:
                 delay = float(retry_after)
@@ -210,6 +210,56 @@ def update_daily_ledger(results, today, verified):
     save('data/ecosystem-daily-ledger.json', ledger)
 
 
+def update_running_totals(registry, evidence):
+    """Keep the dashboard milestone aligned with verified registry evidence."""
+    path = ROOT / 'data/ecosystem-running-totals.json'
+    if not path.exists():
+        return
+    running = json.loads(path.read_text())
+    npm, crates = registry['npm'], registry['crates_io']
+    total = sum(row['downloads'] for row in evidence['daily_totals']
+                if row['day'] <= evidence['reported_through'])
+    combined = total + crates['cumulative_downloads']
+    milestone = running['download_milestone']
+    milestone.update(
+        npm_baseline_downloads=total, npm_baseline_through=evidence['reported_through'],
+        npm_increment_observed=0, npm_increment_start=None, npm_increment_end=None,
+        npm_increment_package_coverage=npm['download_package_count'],
+        npm_expected_packages=npm['package_count'], npm_observed_total=total,
+        crates_io_cumulative=crates['cumulative_downloads'], combined_observed=combined,
+        remaining=max(0, milestone['target']-combined),
+        baseline_source=npm['downloads_evidence_path'], increment_source=npm['downloads_evidence_path'],
+        npm_verified_at=npm['downloads_verified_at'], npm_reported_through=evidence['reported_through'],
+        crates_io_verified_at=crates['verified_at'],
+        internal_all_zero_cohort_days=[r['day'] for r in evidence['daily_totals']
+            if r['day'] <= evidence['reported_through'] and r['downloads'] == 0],
+        trailing_all_zero_days_excluded=evidence['trailing_all_zero_days_excluded'])
+    running['crates_io'] = dict(crates)
+    running['verified_at'] = max(running['verified_at'], registry['generated_at'])
+    # The rolling ledger and activity inventories retain their own source dates.
+    ledger = json.loads((ROOT/'data/ecosystem-daily-ledger.json').read_text())
+    end = ledger['observed_through']
+    start = (dt.date.fromisoformat(end)-dt.timedelta(days=13)).isoformat()
+    cohort = {r['package'] for r in evidence['packages']}
+    daily, coverage = defaultdict(int), defaultdict(set)
+    for key, value in ledger['values'].items():
+        provider, package, metric, day = key.split('|')
+        if provider == 'npm' and metric == 'downloads' and package in cohort and start <= day <= end:
+            daily[day] += value
+            coverage[day].add(package)
+    expected = [(dt.date.fromisoformat(start)+dt.timedelta(days=i)).isoformat() for i in range(14)]
+    missing = [day for day in expected if len(coverage[day]) != len(cohort)]
+    running['npm'].update(period_start=start, period_end=end, verified_at=ledger['updated_at'],
+        observed_downloads=sum(daily.values()), expected_packages=npm['package_count'],
+        collected_packages=npm['download_package_count'], daily=dict(sorted(daily.items())),
+        daily_package_coverage={day:len(coverage[day]) for day in expected}, missing_days=missing,
+        all_zero_cohort_days=[day for day,value in daily.items() if value == 0])
+    running['validation'].update(unique_daily_keys=len(ledger['values']),
+        daily_total_reconciliation=True, download_milestone_reconciliation=True,
+        missing_days_recorded=missing)
+    save('data/ecosystem-running-totals.json', running)
+
+
 def main():
     today = dt.datetime.now(dt.timezone.utc).date()
     end = (today - dt.timedelta(days=1)).isoformat()
@@ -287,11 +337,13 @@ def main():
                       'responses': crate_receipts, 'crates': crates})
     save('data/registry-stats.json', registry)
     update_daily_ledger(results, today, verified)
+    update_running_totals(registry, evidence)
     metrics = json.loads((ROOT / 'data/metrics.json').read_text())
     metrics['verified_at'] = verified
     save('data/metrics.json', metrics)
     for command in [
         ['node', 'scripts/render-registry-metrics.mjs'],
+        ['python3', 'scripts/render-github-metrics.py'],
         ['python3', 'scripts/render-visual-profile.py'],
         ['python3', 'scripts/render-constellation.py'],
         ['python3', '-m', 'unittest', 'discover', '-s', 'scripts/tests'],

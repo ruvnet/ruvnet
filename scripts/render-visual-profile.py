@@ -63,14 +63,7 @@ def render():
     running_path = ROOT / 'data/ecosystem-running-totals.json'
     running = read('data/ecosystem-running-totals.json') if running_path.exists() else {}
     milestone = running.get('download_milestone')
-    current = running.get('github')
-    if current:
-        g = dict(g, verified_at=current['verified_at'], flagships=current['top_repositories'])
-        a = dict(a, stars_across_owned_nonfork=current['nonfork']['stars'],
-                 owned_public_nonfork_repositories=current['nonfork']['repositories'],
-                 public_repositories=current['all_owned']['repositories'],
-                 public_forks=current['all_owned']['repositories']-current['nonfork']['repositories'],
-                 followers=current['followers'])
+    # github-stats.json is canonical; a separately dated running ledger must not override it.
     root = ET.parse(ROOT / 'scripts/templates/ruvnet-dashboard.svg').getroot()
     def put(x, y, value):
         matches = [e for e in root.iter(f'{{{NS}}}text') if e.get('x') == str(x) and e.get('y') == str(y)]
@@ -92,7 +85,7 @@ def render():
         put(34,182,'REGISTRY DOWNLOADS / OBSERVED')
         put(34,222,f'{total:,}')
         put(34,248,'NPM SINCE OCT 2025 + CRATES TOTAL')
-        root.find(f'{{{NS}}}desc').text += f" Combined registry milestone: {total:,} observed download events; {milestone['remaining']:,} remaining to {target:,}. npm since 2025-10-01 plus cumulative crates.io. Provider reporting delays may remain. Milestone verified {running['verified_at'][:10]}."
+        root.find(f'{{{NS}}}desc').text += f" Combined registry milestone: {total:,} observed download events; {milestone['remaining']:,} remaining to {target:,}. npm since 2025-10-01 plus cumulative crates.io. Provider reporting delays may remain. Milestone npm verified {milestone['npm_verified_at'][:10]}; Rust verified {milestone['crates_io_verified_at'][:10]}."
         badge = ET.Element(f'{{{NS}}}g', {'id':'download-milestone'})
         ET.SubElement(badge,f'{{{NS}}}rect',{'x':'800','y':'86','width':'365','height':'6','rx':'3','fill':'#243249'})
         ET.SubElement(badge,f'{{{NS}}}rect',{'x':'800','y':'86','width':f'{365*progress:.2f}','height':'6','rx':'3','fill':'#9de8d0'})
@@ -159,7 +152,7 @@ def render():
             if child.get('class')=='historydot': parent.remove(child)
     put(54,784,f'GITHUB: {g["verified_at"][:10]} · NPM: {n["downloads_verified_at"][:10]}')
     if milestone:
-        put(54,784,f'MILESTONE: {running["verified_at"][:10]} · OBSERVED EVENTS · RECENT DATA MAY LAG')
+        put(54,784,f'NPM: {milestone["npm_verified_at"][:10]} · RUST: {milestone["crates_io_verified_at"][:10]} · OBSERVED EVENTS')
     put(600,757,f'REPO GENERATED {rd} · RUST VERIFIED {date(r["crates_io"]["verified_at"])}')
     out=ROOT/'assets/ruvnet/dashboard.svg';out.parent.mkdir(parents=True,exist_ok=True)
     ET.ElementTree(root).write(out,encoding='unicode')

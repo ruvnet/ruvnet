@@ -9,6 +9,7 @@ import argparse
 import copy
 import datetime as dt
 import json
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -330,6 +331,8 @@ RuView and Ruflo account for **{(top[0]['stars'] + top[1]['stars']) / stars * 10
         raise ValueError('README GitHub metrics markers missing')
     _, _, after = tail.partition(end)
     readme_path.write_text(before + block + after)
+
+    subprocess.run(['python3', 'scripts/render-github-metrics.py'], cwd=ROOT, check=True)
 
     print(json.dumps({'combined_observed': combined, 'remaining': remaining, 'npm_reported_through': npm_receipt['reported_through'], 'daily_keys': len(ledger['values']), 'missing_days': missing_days}, indent=2))
 

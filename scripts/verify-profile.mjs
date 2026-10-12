@@ -25,6 +25,14 @@ assert.equal(inventory.user.public_repos, expected.public_repositories);
 const readme = read('README.md');
 const githubBlock = readme.split('<!-- github-public-metrics:start -->')[1].split('<!-- github-public-metrics:end -->')[0];
 for (const value of Object.values(expected)) assert.ok(githubBlock.includes(`| ${format(value)} |`), `README GitHub value ${value}`);
+for (const flagship of github.flagships) {
+  const row = inventory.repositories.find(r => r.full_name.toLowerCase() === `ruvnet/${flagship.name}`.toLowerCase());
+  assert.ok(row, `Missing flagship ${flagship.name}`);
+  assert.equal(flagship.stars, row.stargazers_count, `Stale stars: ${flagship.name}`);
+  assert.equal(flagship.forks, row.forks_count, `Stale forks: ${flagship.name}`);
+  assert.equal(flagship.watchers, row.subscribers_count, `Stale subscribers: ${flagship.name}`);
+  assert.ok(githubBlock.includes(`| ${format(flagship.stars)} | ${format(flagship.forks)} | ${format(flagship.watchers)} |`));
+}
 const metrics = json('data/metrics.json');
 const registry = json('data/registry-stats.json');
 const npm = registry.npm, crates = registry.crates_io;
@@ -94,6 +102,19 @@ if (crates.inventory_path) {
 const packageBlock = readme.split('<!-- package-public-metrics:start -->')[1].split('<!-- package-public-metrics:end -->')[0];
 for (const value of [npm.package_count, npm.downloads, crates.crate_count, crates.cumulative_downloads]) assert.ok(packageBlock.includes(format(value)), `README registry value ${value}`);
 assert.ok(packageBlock.includes(npm.downloads_verified_at.slice(0, 10)));
+const reportingBlock = readme.split('<!-- registry-reporting-status:start -->')[1].split('<!-- registry-reporting-status:end -->')[0];
+assert.ok(reportingBlock.includes(npm.period_end));
+assert.ok(reportingBlock.includes(npm.downloads_evidence_path));
+assert.ok(reportingBlock.includes(npm.downloads_verified_at.slice(0, 10)));
+const running = json('data/ecosystem-running-totals.json');
+const milestone = running.download_milestone;
+const periodTotal = npm.monthly_downloads.reduce((sum,row)=>sum+row.downloads,0)+(npm.current_month?.downloads || 0);
+assert.equal(milestone.npm_observed_total, periodTotal, 'Dashboard milestone npm total must match registry');
+assert.equal(milestone.crates_io_cumulative, crates.cumulative_downloads);
+assert.equal(milestone.combined_observed, periodTotal+crates.cumulative_downloads);
+assert.equal(milestone.npm_reported_through, npm.period_end);
+assert.equal(milestone.npm_verified_at, npm.downloads_verified_at);
+assert.equal(milestone.crates_io_verified_at, crates.verified_at);
 const newProjects = json('data/snapshots/2026-10-02/new-projects.json').repositories;
 assert.equal(newProjects.length, 6);
 const projects = json('data/projects.json').projects;

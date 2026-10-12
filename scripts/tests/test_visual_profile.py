@@ -51,7 +51,7 @@ class VisualProfileTest(unittest.TestCase):
     def test_published_values_and_chart_refresh_together(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
-            for rel in ['data/metrics.json','data/registry-stats.json','data/github-stats.json','data/snapshots/2026-10-02/github-baseline-2026-09-07.json','scripts/templates/ruvnet-dashboard.svg']:
+            for rel in ['data/metrics.json','data/registry-stats.json','data/github-stats.json','data/ecosystem-running-totals.json','data/snapshots/2026-10-02/github-baseline-2026-09-07.json','scripts/templates/ruvnet-dashboard.svg']:
                 dest=root/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/rel,dest)
             original=visual.ROOT
             try:

@@ -68,6 +68,12 @@ ${history}
 </details>
 
 **Source:** [published registry snapshot](data/registry-stats.json), collected from the official npm daily range API. Includes scoped, unscoped and platform packages. Download events include CI and reinstalls; they are not unique users.`);
+if (npm.downloads_evidence_path) {
+  const receipt = JSON.parse(read(npm.downloads_evidence_path));
+  const zeros = receipt.daily_totals.filter(row => row.day <= receipt.reported_through && row.downloads === 0).map(row => row.day);
+  const tail = receipt.trailing_all_zero_days_excluded;
+  readme = replaceBlock(readme, 'registry-reporting-status', `**Reporting coverage, ${downloadDate} UTC:** These npm figures are observed lower bounds across the known ${format(cohort)} package maintainer cohort. The latest positive cohort day is **${receipt.reported_through}**. The complete daily responses contain ${zeros.length} internal all zero cohort days${zeros.length ? ` (${zeros.join(', ')})` : ''}; these may be reporting gaps. ${tail.length ? `Trailing all zero days (${tail.join(', ')}) are excluded from the reported through date.` : 'No trailing all zero days were excluded.'} No missing downloads are estimated. [Package range evidence](${npm.downloads_evidence_path}).`);
+}
 save('README.md', readme);
 let doc = read('docs/ruvnet-packages.md');
 doc = doc.replace(/Current inventory observed [^.]+\./, `Current inventory observed ${inventoryDate} UTC.`);

@@ -1,53 +1,53 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-11T12:53:53.659713Z",
+  "verified_at": "2026-10-12T12:58:59.656602Z",
   "github": {
-    "verified_at": "2026-10-11T12:40:24.116Z",
-    "followers": 11729,
+    "verified_at": "2026-10-12T12:41:56.067898Z",
+    "followers": 11736,
     "all_owned": {
-      "repositories": 222,
-      "stars": 188358,
-      "forks": 25224,
-      "subscribers": 1759,
-      "open_issues_and_prs": 2689,
+      "repositories": 224,
+      "stars": 188706,
+      "forks": 25249,
+      "subscribers": null,
+      "open_issues_and_prs": 2713,
       "archived": 0
     },
     "nonfork": {
-      "repositories": 196,
-      "stars": 188096,
-      "forks": 25145,
-      "subscribers": 1756,
-      "open_issues_and_prs": 2679,
+      "repositories": 197,
+      "stars": 188444,
+      "forks": 25170,
+      "subscribers": null,
+      "open_issues_and_prs": 2703,
       "archived": 0
     },
     "top_repositories": [
       {
         "name": "RuView",
-        "stars": 97240,
-        "forks": 12765,
-        "subscribers": 870
+        "stars": 97492,
+        "forks": 12785,
+        "subscribers": 873
       },
       {
         "name": "ruflo",
-        "stars": 74324,
-        "forks": 8842,
+        "stars": 74398,
+        "forks": 8847,
         "subscribers": 458
       },
       {
         "name": "RuVector",
-        "stars": 4555,
+        "stars": 4559,
         "forks": 611,
         "subscribers": 37
       },
       {
         "name": "agentic-flow",
-        "stars": 817,
+        "stars": 818,
         "forks": 178,
         "subscribers": 14
       },
       {
         "name": "metaharness",
-        "stars": 695,
+        "stars": 699,
         "forks": 88,
         "subscribers": 3
       },
@@ -55,38 +55,38 @@
         "name": "Bot-Generator-Bot",
         "stars": 586,
         "forks": 126,
-        "subscribers": 15
+        "subscribers": null
       },
       {
         "name": "open-claude-code",
-        "stars": 521,
+        "stars": 528,
         "forks": 163,
-        "subscribers": 6
+        "subscribers": null
       },
       {
         "name": "sparc",
         "stars": 477,
         "forks": 90,
-        "subscribers": 13
+        "subscribers": null
       },
       {
         "name": "rUv-dev",
         "stars": 428,
         "forks": 81,
-        "subscribers": 17
+        "subscribers": null
       },
       {
         "name": "ruv-FANN",
         "stars": 385,
         "forks": 109,
-        "subscribers": 11
+        "subscribers": null
       }
     ],
     "clones": null,
     "views": null,
     "traffic_status": "Unavailable: connected GitHub interface lacks Administration read permission and does not expose repository traffic endpoints. Historical traffic remains preserved separately and is not current.",
-    "source": "data/snapshots/2026-10-11/github-inventory.json",
-    "coverage": "All public owned repositories; five connector pages reconciled to 222 distinct public repository IDs; private records excluded before storage"
+    "source": "data/snapshots/2026-10-12/github-inventory.json",
+    "coverage": "Complete public owned inventory; aggregate subscriptions not refreshed"
   },
   "activity": {
     "issues_opened": {
@@ -112,14 +112,13 @@
     "verified_at": "2026-10-11T12:40:24.116Z"
   },
   "npm": {
-    "period_start": "2026-09-27",
-    "period_end": "2026-10-10",
-    "observed_downloads": 9800319,
-    "expected_packages": 398,
-    "collected_packages": 398,
+    "period_start": "2026-09-28",
+    "period_end": "2026-10-11",
+    "observed_downloads": 9695288,
+    "expected_packages": 399,
+    "collected_packages": 399,
     "errors": [],
     "daily": {
-      "2026-09-27": 1276764,
       "2026-09-28": 1330116,
       "2026-09-29": 1336408,
       "2026-09-30": 549459,
@@ -130,39 +129,42 @@
       "2026-10-05": 811237,
       "2026-10-06": 0,
       "2026-10-07": 821274,
-      "2026-10-08": 0,
+      "2026-10-08": 547630,
       "2026-10-09": 556070,
-      "2026-10-10": 663141
+      "2026-10-10": 663141,
+      "2026-10-11": 624103
     },
     "daily_package_coverage": {
-      "2026-09-27": 398,
-      "2026-09-28": 398,
-      "2026-09-29": 398,
-      "2026-09-30": 398,
-      "2026-10-01": 398,
-      "2026-10-02": 398,
-      "2026-10-03": 398,
-      "2026-10-04": 398,
-      "2026-10-05": 398,
-      "2026-10-06": 398,
-      "2026-10-07": 398,
-      "2026-10-08": 398,
-      "2026-10-09": 398,
-      "2026-10-10": 398
+      "2026-09-28": 399,
+      "2026-09-29": 399,
+      "2026-09-30": 399,
+      "2026-10-01": 399,
+      "2026-10-02": 399,
+      "2026-10-03": 399,
+      "2026-10-04": 399,
+      "2026-10-05": 399,
+      "2026-10-06": 399,
+      "2026-10-07": 399,
+      "2026-10-08": 399,
+      "2026-10-09": 399,
+      "2026-10-10": 399,
+      "2026-10-11": 399
     },
     "missing_days": [],
     "status": "complete API responses, provider latency may remain",
     "all_zero_cohort_days": [
-      "2026-10-06",
-      "2026-10-08"
+      "2026-10-06"
     ],
-    "note": "Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional."
+    "note": "Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional.",
+    "verified_at": "2026-10-12T12:58:59.656602Z"
   },
   "crates_io": {
+    "user_id": 339999,
+    "verified_at": "2026-10-12T12:58:59.655914Z",
     "crate_count": 480,
-    "cumulative_downloads": 1823072,
-    "verified_at": "2026-10-11T12:53:53.659021Z",
-    "source": "https://crates.io/api/v1/crates?user_id=339999"
+    "cumulative_downloads": 1848105,
+    "inventory_path": "data/snapshots/2026-10-12/crates-inventory.json",
+    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   },
   "release_assets": {
     "coverage": "All 222 public owned repositories",
@@ -185,7 +187,7 @@
     "github_public_repository_ids_unique": true,
     "release_pagination_complete_repositories": 222,
     "actions_pagination_complete_repositories": 221,
-    "unique_daily_keys": 6368,
+    "unique_daily_keys": 6780,
     "replay_idempotent": true,
     "daily_total_reconciliation": true,
     "download_milestone_reconciliation": true,
@@ -282,23 +284,23 @@
   "download_milestone": {
     "target": 100000000,
     "basis": "npm observed since 2025-10-01 plus crates.io cumulative; download events, not unique users",
-    "npm_baseline_downloads": 95753946,
-    "npm_baseline_through": "2026-10-10",
+    "npm_baseline_downloads": 96378049,
+    "npm_baseline_through": "2026-10-11",
     "npm_increment_observed": 0,
     "npm_increment_start": null,
     "npm_increment_end": null,
-    "npm_increment_package_coverage": 398,
-    "npm_expected_packages": 398,
-    "npm_observed_total": 95753946,
-    "crates_io_cumulative": 1823072,
-    "combined_observed": 97577018,
-    "remaining": 2422982,
+    "npm_increment_package_coverage": 399,
+    "npm_expected_packages": 399,
+    "npm_observed_total": 96378049,
+    "crates_io_cumulative": 1848105,
+    "combined_observed": 98226154,
+    "remaining": 1773846,
     "status": "Observed lower bound; complete API responses may contain provider reporting gaps",
-    "baseline_source": "data/snapshots/2026-10-11/npm-downloads.json",
-    "increment_source": "data/snapshots/2026-10-11/npm-downloads.json",
-    "npm_verified_at": "2026-10-11T12:53:27.204020Z",
-    "npm_reported_through": "2026-10-10",
-    "crates_io_verified_at": "2026-10-11T12:53:53.659021Z",
+    "baseline_source": "data/snapshots/2026-10-12/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-10-12/npm-downloads.json",
+    "npm_verified_at": "2026-10-12T12:58:38.115232Z",
+    "npm_reported_through": "2026-10-11",
+    "crates_io_verified_at": "2026-10-12T12:58:59.655914Z",
     "internal_all_zero_cohort_days": [
       "2026-07-12",
       "2026-08-14",

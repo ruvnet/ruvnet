@@ -5,6 +5,9 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+import io
+import shutil
+import urllib.error
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -28,6 +31,38 @@ def result(package='example', positive_through='2026-10-05', requested_end='2026
 
 
 class RegistryRefreshTest(unittest.TestCase):
+    def test_new_npm_package_404_is_retried_without_inventing_zero(self):
+        url='https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/new-package'
+        error=urllib.error.HTTPError(url,404,'Not Found',{},None)
+        with patch.object(refresh.urllib.request,'urlopen',side_effect=[error,io.BytesIO(b'{"downloads": 17}')]), patch.object(refresh.time,'sleep') as sleep:
+            body,receipt=refresh.fetch_json(url)
+        self.assertEqual(body['downloads'],17)
+        self.assertEqual(receipt['source'],url)
+        sleep.assert_called_once()
+        with patch.object(refresh.urllib.request,'urlopen',side_effect=error) as fetch, patch.object(refresh.time,'sleep'):
+            with self.assertRaisesRegex(RuntimeError,'previous verified data retained'):
+                refresh.fetch_json(url)
+        self.assertEqual(fetch.call_count,8)
+
+    def test_registry_milestone_refreshes_from_evidence_idempotently(self):
+        registry=json.loads((ROOT/'data/registry-stats.json').read_text())
+        evidence=json.loads((ROOT/registry['npm']['downloads_evidence_path']).read_text())
+        registry['crates_io']['cumulative_downloads'] += 123
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'data').mkdir()
+            for name in ['ecosystem-running-totals.json','ecosystem-daily-ledger.json']:
+                shutil.copyfile(ROOT/'data'/name,root/'data'/name)
+            with patch.object(refresh,'ROOT',root):
+                refresh.update_running_totals(registry,evidence)
+                first=(root/'data/ecosystem-running-totals.json').read_bytes()
+                refresh.update_running_totals(registry,evidence)
+                self.assertEqual(first,(root/'data/ecosystem-running-totals.json').read_bytes())
+            m=json.loads(first)['download_milestone']
+            expected=sum(row['downloads'] for row in evidence['daily_totals'] if row['day']<=evidence['reported_through'])
+            self.assertEqual(m['combined_observed'],expected+registry['crates_io']['cumulative_downloads'])
+            self.assertEqual(m['npm_verified_at'],registry['npm']['downloads_verified_at'])
+            self.assertEqual(m['remaining'],max(0,m['target']-m['combined_observed']))
+
     def test_daily_ledger_upserts_complete_window_idempotently(self):
         today = dt.date(2026, 10, 8)
         row = result(positive_through='2026-10-07', requested_end='2026-10-07')
