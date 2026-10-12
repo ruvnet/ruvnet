@@ -6788,2001 +6788,2001 @@
   "package_provenance": {
     "@agentic-robotics/cli": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40agentic-robotics%2Fcli",
-      "retrieved_at": "2026-10-12T12:40:26.783880Z",
+      "retrieved_at": "2026-10-12T12:53:01.706013Z",
       "response_sha256": "e0b45b55e4ab37a62e08af29ba1ce6959775ce94a0ad61ec35e4a2d3b27afc0f"
     },
     "@agentic-robotics/core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40agentic-robotics%2Fcore",
-      "retrieved_at": "2026-10-12T12:40:26.620508Z",
+      "retrieved_at": "2026-10-12T12:53:01.688864Z",
       "response_sha256": "448500d6f249e158bb56f89e5cdf163a5e1abd53ed0921acfe7d2eed9d033c79"
     },
     "@agentic-robotics/linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40agentic-robotics%2Flinux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:40:31.143124Z",
+      "retrieved_at": "2026-10-12T12:53:07.422810Z",
       "response_sha256": "e770dafce827cff74d5ae6424ab602a320010d16fe6f02cbdd45a6e479600f8b"
     },
     "@agentic-robotics/mcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40agentic-robotics%2Fmcp",
-      "retrieved_at": "2026-10-12T12:40:31.453225Z",
+      "retrieved_at": "2026-10-12T12:53:07.393485Z",
       "response_sha256": "2d3ba8e004aea2b17b36e18e4fcbd1caf965ef38f3fcfd87c089ac6ebdf8954d"
     },
     "@agentic-robotics/self-learning": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40agentic-robotics%2Fself-learning",
-      "retrieved_at": "2026-10-12T12:40:36.304035Z",
+      "retrieved_at": "2026-10-12T12:53:11.906091Z",
       "response_sha256": "6132161ce0d089c9427053ff8992f9806ec97ad3ae6972e73451a9d8cfae6e0f"
     },
     "@agentics.org/agentic-mcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40agentics.org%2Fagentic-mcp",
-      "retrieved_at": "2026-10-12T12:40:36.520728Z",
+      "retrieved_at": "2026-10-12T12:53:11.935059Z",
       "response_sha256": "8360ac2171dff14df29ed86bf56a1f0f6a2b19b0831c53a6f894ed277743a885"
     },
     "@agentics.org/sparc2": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40agentics.org%2Fsparc2",
-      "retrieved_at": "2026-10-12T12:40:40.669729Z",
+      "retrieved_at": "2026-10-12T12:53:15.254483Z",
       "response_sha256": "896cee7823be04d25eccb92f6ac1643ee7a4b928761cf2fcf99a382bc9330623"
     },
     "@claude-flow/aidefence": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Faidefence",
-      "retrieved_at": "2026-10-12T12:40:40.367834Z",
+      "retrieved_at": "2026-10-12T12:53:15.249223Z",
       "response_sha256": "0571f8e52a8a4ff393e1f5fab68084600d484c36fa0159de0309dd18c603360f"
     },
     "@claude-flow/browser": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fbrowser",
-      "retrieved_at": "2026-10-12T12:40:45.568611Z",
+      "retrieved_at": "2026-10-12T12:53:20.341848Z",
       "response_sha256": "282ade5c5056665bd55167ed725c2456180e7f8c46ab3f5803ab2dee4518a1f7"
     },
     "@claude-flow/claims": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fclaims",
-      "retrieved_at": "2026-10-12T12:40:45.420083Z",
+      "retrieved_at": "2026-10-12T12:53:20.295109Z",
       "response_sha256": "c8338c51721043b035b21731afad01cea9917f0deaa3d888caa58fca1b11263b"
     },
     "@claude-flow/cli": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fcli",
-      "retrieved_at": "2026-10-12T12:40:50.302712Z",
+      "retrieved_at": "2026-10-12T12:53:25.068577Z",
       "response_sha256": "5ee10368bd031e6f83d1e2c86f6ca64590208da143d6f984fadde9b6bb6470fe"
     },
     "@claude-flow/cli-core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fcli-core",
-      "retrieved_at": "2026-10-12T12:40:50.572200Z",
+      "retrieved_at": "2026-10-12T12:53:25.109374Z",
       "response_sha256": "9e1bfeff6e2708b032c072747db45a03648f007adbf6bb2ab7ce6e15348fef2d"
     },
     "@claude-flow/codex": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fcodex",
-      "retrieved_at": "2026-10-12T12:40:55.967853Z",
+      "retrieved_at": "2026-10-12T12:53:28.474970Z",
       "response_sha256": "91b121aa2b3acc16ba60727106da001b35e082c08f7d5efc8478758c1a6796e8"
     },
     "@claude-flow/deployment": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fdeployment",
-      "retrieved_at": "2026-10-12T12:40:55.918805Z",
+      "retrieved_at": "2026-10-12T12:53:28.507844Z",
       "response_sha256": "d2a1db024795f11fcfec17cabfcc5d7a5a50056a0d2029cdf7f15f2c0a4e7cee"
     },
     "@claude-flow/embeddings": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fembeddings",
-      "retrieved_at": "2026-10-12T12:41:00.453193Z",
+      "retrieved_at": "2026-10-12T12:53:31.605425Z",
       "response_sha256": "aaffe9b1871780c6f63e834f8d8b9b8ac986f43e23b2bec90509bcb7e0616ecf"
     },
     "@claude-flow/guidance": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fguidance",
-      "retrieved_at": "2026-10-12T12:41:00.580871Z",
+      "retrieved_at": "2026-10-12T12:53:31.626723Z",
       "response_sha256": "6f69bf80610f86a3619e978e7b73d8f56a21939e308b79822532b672f5fa490b"
     },
     "@claude-flow/hooks": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fhooks",
-      "retrieved_at": "2026-10-12T12:41:05.187420Z",
+      "retrieved_at": "2026-10-12T12:53:39.150090Z",
       "response_sha256": "e699ada0c6dbb23fc0bf7ede72bd7ba5249b6bf1434109d97c9a27444a0f7081"
     },
     "@claude-flow/integration": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fintegration",
-      "retrieved_at": "2026-10-12T12:41:05.117509Z",
+      "retrieved_at": "2026-10-12T12:53:39.178675Z",
       "response_sha256": "04dadafc7037f24fa7a5c39dfa09a80e8b06865dd8de347573a194c571525da9"
     },
     "@claude-flow/mcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fmcp",
-      "retrieved_at": "2026-10-12T12:41:09.448096Z",
+      "retrieved_at": "2026-10-12T12:53:43.115929Z",
       "response_sha256": "8da659d56227153fd9d828846db3268d1574c0a604970199412a11db28df2821"
     },
     "@claude-flow/memory": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fmemory",
-      "retrieved_at": "2026-10-12T12:41:09.374007Z",
+      "retrieved_at": "2026-10-12T12:53:43.151107Z",
       "response_sha256": "d432e66c2a2821a4cc812d6eae5c17aaa875cf8651b80d705d85333b3d4b21be"
     },
     "@claude-flow/neural": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fneural",
-      "retrieved_at": "2026-10-12T12:41:14.092626Z",
+      "retrieved_at": "2026-10-12T12:54:08.865294Z",
       "response_sha256": "1c0944cb2f3fffc8e9983d4be5a436c0ca130cbbef7f0da197ffb00814ef18a3"
     },
     "@claude-flow/performance": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fperformance",
-      "retrieved_at": "2026-10-12T12:41:14.317745Z",
+      "retrieved_at": "2026-10-12T12:54:08.832338Z",
       "response_sha256": "77da2c0a7ac4ea1ff16f6554217f908e55571a36def602b93cc90955edc40ad7"
     },
     "@claude-flow/plugin-agent-federation": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-agent-federation",
-      "retrieved_at": "2026-10-12T12:41:18.688449Z",
+      "retrieved_at": "2026-10-12T12:54:11.782567Z",
       "response_sha256": "e1ad02edfe9a4745c809218f2239f3d27c3195c8ef17c9653e99b337fe482538"
     },
     "@claude-flow/plugin-agentic-qe": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-agentic-qe",
-      "retrieved_at": "2026-10-12T12:41:18.658577Z",
+      "retrieved_at": "2026-10-12T12:54:11.825478Z",
       "response_sha256": "713b31d2180b545ec6fb3fc3c2787afad86d915d9c1acaee7ac9eba80f8d6414"
     },
     "@claude-flow/plugin-code-intelligence": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-code-intelligence",
-      "retrieved_at": "2026-10-12T12:41:23.565109Z",
+      "retrieved_at": "2026-10-12T12:54:16.671711Z",
       "response_sha256": "4255f0edb3c6ef6eb3fed110fe6aa10c1722df9fe8d0e38125622307105f199f"
     },
     "@claude-flow/plugin-cognitive-kernel": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-cognitive-kernel",
-      "retrieved_at": "2026-10-12T12:41:23.477456Z",
+      "retrieved_at": "2026-10-12T12:54:16.656869Z",
       "response_sha256": "b68157c7ad5e566285fb70474e43de28b796c76d9a3e5e60cca6e3e289076fb5"
     },
     "@claude-flow/plugin-financial-risk": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-financial-risk",
-      "retrieved_at": "2026-10-12T12:41:28.117729Z",
+      "retrieved_at": "2026-10-12T12:54:21.880250Z",
       "response_sha256": "5a958bb54ba1d7958f5515dc1a303d3799bdaa57c8aad5c98aa9124573795596"
     },
     "@claude-flow/plugin-gastown-bridge": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-gastown-bridge",
-      "retrieved_at": "2026-10-12T12:41:28.214278Z",
+      "retrieved_at": "2026-10-12T12:54:21.923888Z",
       "response_sha256": "9c0469830f60c63d8be5707e3d0bda83a695c1fc74114445c617d99bef2a650e"
     },
     "@claude-flow/plugin-healthcare-clinical": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-healthcare-clinical",
-      "retrieved_at": "2026-10-12T12:41:32.867121Z",
+      "retrieved_at": "2026-10-12T12:54:29.158656Z",
       "response_sha256": "53191d069e4811f171985937da06c60762d678ae152afb471b97471b43db03b8"
     },
     "@claude-flow/plugin-hyperbolic-reasoning": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-hyperbolic-reasoning",
-      "retrieved_at": "2026-10-12T12:41:33.064235Z",
+      "retrieved_at": "2026-10-12T12:54:29.183229Z",
       "response_sha256": "fb3910b1572ded95a51affbe5421c800ae13064ec728f0feadf36b113fc85909"
     },
     "@claude-flow/plugin-iot-cognitum": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-iot-cognitum",
-      "retrieved_at": "2026-10-12T12:41:37.607632Z",
+      "retrieved_at": "2026-10-12T12:54:35.808742Z",
       "response_sha256": "aa7ef346606628ee51e0bb81062d375e593cecebab5ab80f11a5a31a43ffa1ed"
     },
     "@claude-flow/plugin-legal-contracts": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-legal-contracts",
-      "retrieved_at": "2026-10-12T12:41:37.720946Z",
+      "retrieved_at": "2026-10-12T12:54:35.783019Z",
       "response_sha256": "1f515317c1081ec31dbbc14f7e15ade1200bab2f68e26dc90f8351046bc1b7d9"
     },
     "@claude-flow/plugin-neural-coordination": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-neural-coordination",
-      "retrieved_at": "2026-10-12T12:41:42.230240Z",
+      "retrieved_at": "2026-10-12T12:54:42.016758Z",
       "response_sha256": "13cc26c45b7b0dd128d1720331a2dbdbff15ea4afa26304016d9beedda548790"
     },
     "@claude-flow/plugin-perf-optimizer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-perf-optimizer",
-      "retrieved_at": "2026-10-12T12:41:42.203950Z",
+      "retrieved_at": "2026-10-12T12:54:42.047366Z",
       "response_sha256": "1e2cad191a2e2ca3b864c10907dbbedf84940ec10163d6fa60e036c84ea2f467"
     },
     "@claude-flow/plugin-prime-radiant": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-prime-radiant",
-      "retrieved_at": "2026-10-12T12:41:47.022732Z",
+      "retrieved_at": "2026-10-12T12:54:46.410555Z",
       "response_sha256": "c214ebdc67ddbcd3104a3b7abd2fcc84b8d62dbe1c69c22f4b81c8597c3cafaa"
     },
     "@claude-flow/plugin-quantum-optimizer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-quantum-optimizer",
-      "retrieved_at": "2026-10-12T12:41:46.998445Z",
+      "retrieved_at": "2026-10-12T12:54:46.376708Z",
       "response_sha256": "5e6c534cd008af37d66fce31eab3a8139a9d4357cb6b849273295e22575e6978"
     },
     "@claude-flow/plugin-test-intelligence": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugin-test-intelligence",
-      "retrieved_at": "2026-10-12T12:41:51.441692Z",
+      "retrieved_at": "2026-10-12T12:54:50.826770Z",
       "response_sha256": "40d7d5a76cd803ba66c8089efeaf809419baf37e7fe89a78e5f2180a188a6de7"
     },
     "@claude-flow/plugins": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fplugins",
-      "retrieved_at": "2026-10-12T12:41:51.476792Z",
+      "retrieved_at": "2026-10-12T12:54:50.843496Z",
       "response_sha256": "8c9d9e2af2cfb2ac20c7ce007cd77673df7e60f4fb513ffe4ed2f9ed845be055"
     },
     "@claude-flow/providers": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fproviders",
-      "retrieved_at": "2026-10-12T12:41:56.034462Z",
+      "retrieved_at": "2026-10-12T12:54:54.062158Z",
       "response_sha256": "08da634c0e102cf27e50cd88d730a9a17f0951909fece43f4889044bcf9fd4fa"
     },
     "@claude-flow/security": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fsecurity",
-      "retrieved_at": "2026-10-12T12:41:56.013823Z",
+      "retrieved_at": "2026-10-12T12:54:54.035500Z",
       "response_sha256": "f8853a369aee27ab1cbf08d13c2011b3c77fd52c06f194f32c3521970093861d"
     },
     "@claude-flow/shared": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fshared",
-      "retrieved_at": "2026-10-12T12:42:00.407202Z",
+      "retrieved_at": "2026-10-12T12:55:11.674477Z",
       "response_sha256": "e0184de4525de8770d11b483051e7af0ea2cd0081ad900d65bb76692ec885200"
     },
     "@claude-flow/swarm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fswarm",
-      "retrieved_at": "2026-10-12T12:42:00.763400Z",
+      "retrieved_at": "2026-10-12T12:55:11.681401Z",
       "response_sha256": "53ab1ae9381af0faf9f9a249087b0aec2f20e094bd161b5fafebe577386a0b9e"
     },
     "@claude-flow/teammate-plugin": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fteammate-plugin",
-      "retrieved_at": "2026-10-12T12:42:05.031851Z",
+      "retrieved_at": "2026-10-12T12:55:15.502798Z",
       "response_sha256": "c7c58837961819f147e5ce77d90d1e1be24e36fea0f03df2659e8b94bd255b88"
     },
     "@claude-flow/testing": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Ftesting",
-      "retrieved_at": "2026-10-12T12:42:05.275249Z",
+      "retrieved_at": "2026-10-12T12:55:15.539345Z",
       "response_sha256": "e58e366d95177f447d6e39cc1aa8aa16fecd4474600696e910aa74943f1e3619"
     },
     "@claude-flow/watermark": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40claude-flow%2Fwatermark",
-      "retrieved_at": "2026-10-12T12:42:10.290231Z",
+      "retrieved_at": "2026-10-12T12:55:22.112845Z",
       "response_sha256": "08ade3519a5d3ae8275f0d49a62d3b2687e19474b2e1b0392e3832074d02799d"
     },
     "@cognitum-one/sdk": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40cognitum-one%2Fsdk",
-      "retrieved_at": "2026-10-12T12:42:10.248470Z",
+      "retrieved_at": "2026-10-12T12:55:22.075884Z",
       "response_sha256": "66c1ebe968d145628f029c43bfbdcb12f6380d828d5ff1829e02335951d7a629"
     },
     "@cognitum/freetokens": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40cognitum%2Ffreetokens",
-      "retrieved_at": "2026-10-12T12:42:14.929439Z",
+      "retrieved_at": "2026-10-12T12:55:27.070781Z",
       "response_sha256": "48fa0a95fcd1092cc61de3fb05c9c952e2e64b5120d5510e2e9c5a6c1e8a041c"
     },
     "@cognitum/gate": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40cognitum%2Fgate",
-      "retrieved_at": "2026-10-12T12:42:14.665913Z",
+      "retrieved_at": "2026-10-12T12:55:27.113114Z",
       "response_sha256": "61e3bca9487106d940e977234d118ccdfed921a649cd42acbd75b46d066495b9"
     },
     "@cognitum/ruos": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40cognitum%2Fruos",
-      "retrieved_at": "2026-10-12T12:42:19.285226Z",
+      "retrieved_at": "2026-10-12T12:55:31.035741Z",
       "response_sha256": "7e7b1b430f350e639e03b9d32a5067d9f97e40ffd048cff876680a6d690af0e4"
     },
     "@dream-machine/compile": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40dream-machine%2Fcompile",
-      "retrieved_at": "2026-10-12T12:42:19.515953Z",
+      "retrieved_at": "2026-10-12T12:55:31.065079Z",
       "response_sha256": "da5f7ffe10e2e35fb943922dc199e44bf91c59dfcdfc219e6d6e9c68f38c5b7d"
     },
     "@dream-machine/ledger": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40dream-machine%2Fledger",
-      "retrieved_at": "2026-10-12T12:42:23.841245Z",
+      "retrieved_at": "2026-10-12T12:55:36.510616Z",
       "response_sha256": "05c7ef6f162f65f2e97179934545869566d8fe42a06c1e3d7a3a907e6bfb21c6"
     },
     "@dream-machine/memory": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40dream-machine%2Fmemory",
-      "retrieved_at": "2026-10-12T12:42:24.089541Z",
+      "retrieved_at": "2026-10-12T12:55:49.838486Z",
       "response_sha256": "25219ec7a6e80e27ee40c10d68b787b38bf70f9ca4da56635ff3fb0665f6e098"
     },
     "@dream-machine/schedule": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40dream-machine%2Fschedule",
-      "retrieved_at": "2026-10-12T12:42:31.490889Z",
+      "retrieved_at": "2026-10-12T12:55:42.495622Z",
       "response_sha256": "c412d97e4b2f5ecb7008b6282f84572407e321c4b7363ca9e3fe6e64177be549"
     },
     "@dream-machine/witness": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40dream-machine%2Fwitness",
-      "retrieved_at": "2026-10-12T12:42:31.727303Z",
+      "retrieved_at": "2026-10-12T12:55:49.803076Z",
       "response_sha256": "d7ca44ffe3e2d0bdaada23b2490d6caead2051ff730b82f3d3b648a43d456fb6"
     },
     "@foxruv/cf-doctor": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40foxruv%2Fcf-doctor",
-      "retrieved_at": "2026-10-12T12:42:36.170260Z",
+      "retrieved_at": "2026-10-12T12:55:55.510543Z",
       "response_sha256": "21cca07cff38039b163ba0a51a816e4013239421183f4f57e0c2cf74e9d8b80e"
     },
     "@foxruv/e2b-runner": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40foxruv%2Fe2b-runner",
-      "retrieved_at": "2026-10-12T12:42:36.170756Z",
+      "retrieved_at": "2026-10-12T12:55:55.554895Z",
       "response_sha256": "2f5257347b2e7a4cc904217458f400184e5c85894c830d1981a4f8034396db94"
     },
     "@foxruv/iris": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40foxruv%2Firis",
-      "retrieved_at": "2026-10-12T12:42:42.596299Z",
+      "retrieved_at": "2026-10-12T12:56:00.446782Z",
       "response_sha256": "5fff2883b319df422d10f5ea197ff85b1e3aca3a4841e182adeb0224bc4e17c3"
     },
     "@foxruv/iris-agentic-synth": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40foxruv%2Firis-agentic-synth",
-      "retrieved_at": "2026-10-12T12:42:42.674040Z",
+      "retrieved_at": "2026-10-12T12:56:00.480617Z",
       "response_sha256": "62561dacd1b52411793980a7d9bd993185176d8bfe1e8f492eff4e33eba4b9af"
     },
     "@foxruv/iris-core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40foxruv%2Firis-core",
-      "retrieved_at": "2026-10-12T12:42:46.843104Z",
+      "retrieved_at": "2026-10-12T12:56:05.896117Z",
       "response_sha256": "0c37f128f01b9016dc51516fb83558c3297aa26d80aa89d64dc533e634afa98e"
     },
     "@foxruv/iris-ultrathink": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40foxruv%2Firis-ultrathink",
-      "retrieved_at": "2026-10-12T12:42:46.810757Z",
+      "retrieved_at": "2026-10-12T12:56:05.935821Z",
       "response_sha256": "5daecf58190984f8b9a9cc68f58597b4b62fa1807c0cc7d11efdda5b833e99e4"
     },
     "@foxruv/nova-medicina": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40foxruv%2Fnova-medicina",
-      "retrieved_at": "2026-10-12T12:42:51.561353Z",
+      "retrieved_at": "2026-10-12T12:56:09.610767Z",
       "response_sha256": "5157a77e3da5a256bc08bff3266de57b116e9adbd5f2fafadb1ae0f577b7a949"
     },
     "@metaharness/agntcy": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fagntcy",
-      "retrieved_at": "2026-10-12T12:42:51.523528Z",
+      "retrieved_at": "2026-10-12T12:56:09.595783Z",
       "response_sha256": "44cb291e67b7b12f38671707a2bbeef57b4a1462173dc4eee4e55e17e32ed524"
     },
     "@metaharness/avo": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Favo",
-      "retrieved_at": "2026-10-12T12:42:57.853000Z",
+      "retrieved_at": "2026-10-12T12:56:13.277947Z",
       "response_sha256": "78fa54efb27e666c6883247e40384e35a7c718ae01f21fc954ffea43cfa87b47"
     },
     "@metaharness/aws-finops": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Faws-finops",
-      "retrieved_at": "2026-10-12T12:42:57.801546Z",
+      "retrieved_at": "2026-10-12T12:56:13.221272Z",
       "response_sha256": "328e55e89c2f90a9d255535e8d98a4179b6b5aba9fea722480d1cd3a14eff3a2"
     },
     "@metaharness/claude-code": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fclaude-code",
-      "retrieved_at": "2026-10-12T12:43:02.332243Z",
+      "retrieved_at": "2026-10-12T12:56:18.807844Z",
       "response_sha256": "78836bfaaa12bd7165cede5d2a9f3f5def9a62c1151a2f07d3cc06c0b230f0d8"
     },
     "@metaharness/codex": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fcodex",
-      "retrieved_at": "2026-10-12T12:43:02.380684Z",
+      "retrieved_at": "2026-10-12T12:56:18.835385Z",
       "response_sha256": "9b8d57b50fc5999d31525be1e91090d0b8f499fead150368063f350a1c8ce11a"
     },
     "@metaharness/coding": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fcoding",
-      "retrieved_at": "2026-10-12T12:43:06.822864Z",
+      "retrieved_at": "2026-10-12T12:56:25.342036Z",
       "response_sha256": "a0096ff89869db52f2144427df530ba043f266891ad3ad25f4d106ff47991ac6"
     },
     "@metaharness/copilot": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fcopilot",
-      "retrieved_at": "2026-10-12T12:43:07.013102Z",
+      "retrieved_at": "2026-10-12T12:56:25.357459Z",
       "response_sha256": "82dbd94431fc3e93b6ad62370d831706846fee7728a254f80f54354ef97c7254"
     },
     "@metaharness/darwin": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fdarwin",
-      "retrieved_at": "2026-10-12T12:43:11.742258Z",
+      "retrieved_at": "2026-10-12T12:56:29.436735Z",
       "response_sha256": "b4bb8ce16bd593a90a24ea8927320ae7dbdfa9c8c735a47fa1a31677a4593fea"
     },
     "@metaharness/devops": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fdevops",
-      "retrieved_at": "2026-10-12T12:43:11.712678Z",
+      "retrieved_at": "2026-10-12T12:56:29.457161Z",
       "response_sha256": "c23957dd9045d2e53074779a7c3e116988172cecfe97f8083c7642252076705f"
     },
     "@metaharness/education": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Feducation",
-      "retrieved_at": "2026-10-12T12:43:17.607258Z",
+      "retrieved_at": "2026-10-12T12:56:33.695824Z",
       "response_sha256": "1ee0cccc116c1faa6863af28a194e2f8c17a02e794f07be972f2adbb74656bda"
     },
     "@metaharness/example-ads": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-ads",
-      "retrieved_at": "2026-10-12T12:43:17.378805Z",
+      "retrieved_at": "2026-10-12T12:56:44.370650Z",
       "response_sha256": "e9b74ee1ecff7181bafb4e5040192f80685cb2fd12b30307fcf74bd108e6bbf6"
     },
     "@metaharness/example-aws": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-aws",
-      "retrieved_at": "2026-10-12T12:43:22.227042Z",
+      "retrieved_at": "2026-10-12T12:56:39.293548Z",
       "response_sha256": "0086fc0fbbaa1fc16885c35c47268847f742da5cf976d5a5bce4823da31d9f73"
     },
     "@metaharness/example-azure": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-azure",
-      "retrieved_at": "2026-10-12T12:43:22.219264Z",
+      "retrieved_at": "2026-10-12T12:56:44.390079Z",
       "response_sha256": "2a510bce4233aeb8a0fdd8f4edaedfa4db955a44562750943a8c77a8a46e475b"
     },
     "@metaharness/example-bio": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-bio",
-      "retrieved_at": "2026-10-12T12:43:26.843519Z",
+      "retrieved_at": "2026-10-12T12:56:48.237198Z",
       "response_sha256": "a3b6b7abce337118ef601089a906cb23480188aa00ca022f1ffbfb2eee358ba1"
     },
     "@metaharness/example-datadog": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-datadog",
-      "retrieved_at": "2026-10-12T12:43:26.880759Z",
+      "retrieved_at": "2026-10-12T12:56:48.254452Z",
       "response_sha256": "9e9d52a96084e27b98a8b41ffd75a89e5c550696b2da1251166411d8384bcf3e"
     },
     "@metaharness/example-fhir": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-fhir",
-      "retrieved_at": "2026-10-12T12:43:31.507925Z",
+      "retrieved_at": "2026-10-12T12:56:52.711218Z",
       "response_sha256": "b1991330be3aa42072a174e27ca33bf0e7da17876765ef4d3a51f71ac0a52bf8"
     },
     "@metaharness/example-gcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-gcp",
-      "retrieved_at": "2026-10-12T12:43:31.393018Z",
+      "retrieved_at": "2026-10-12T12:56:52.737009Z",
       "response_sha256": "44c752540483e3f299bbd02e6b1f00a477dbbc81aee21caec6ef5e8a11d5737b"
     },
     "@metaharness/example-github": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-github",
-      "retrieved_at": "2026-10-12T12:43:35.839212Z",
+      "retrieved_at": "2026-10-12T12:56:56.479759Z",
       "response_sha256": "b675ab3fbad6e5cde9bd0b75f8fef11ac9e95911855369b2d0e26cf91e14b599"
     },
     "@metaharness/example-huggingface": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-huggingface",
-      "retrieved_at": "2026-10-12T12:43:36.095834Z",
+      "retrieved_at": "2026-10-12T12:56:56.509954Z",
       "response_sha256": "0ad59ed682c0cc08b24b0b3d463926bc2c6156a9082c2d4cc6d0921a47f38bbb"
     },
     "@metaharness/example-iot": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-iot",
-      "retrieved_at": "2026-10-12T12:43:40.470797Z",
+      "retrieved_at": "2026-10-12T12:57:00.360033Z",
       "response_sha256": "566024dc844899e3e2a5093dfd5f446681d977e852aba6e305dce8c2070bb51f"
     },
     "@metaharness/example-nasa": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-nasa",
-      "retrieved_at": "2026-10-12T12:43:40.462995Z",
+      "retrieved_at": "2026-10-12T12:57:00.407470Z",
       "response_sha256": "fae7e72cb233202cb63f9c24c38d50fea8007f3c960aca3538f3751c2301323a"
     },
     "@metaharness/example-pinecone": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-pinecone",
-      "retrieved_at": "2026-10-12T12:43:45.306343Z",
+      "retrieved_at": "2026-10-12T12:57:04.749572Z",
       "response_sha256": "1a504c6767d43f9543b6281fc21f14d91c04dc3f7b666c039b7e4337e1339b6f"
     },
     "@metaharness/example-qiskit": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-qiskit",
-      "retrieved_at": "2026-10-12T12:43:45.115917Z",
+      "retrieved_at": "2026-10-12T12:57:04.722307Z",
       "response_sha256": "c31ac37fba05d035be23d2978e369245f5985681567990acdf921a1fa6998a42"
     },
     "@metaharness/example-slack": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-slack",
-      "retrieved_at": "2026-10-12T12:43:50.104970Z",
+      "retrieved_at": "2026-10-12T12:57:09.626386Z",
       "response_sha256": "4a06a6cae1258325067c08fdbc428878153b0ac12f773cfe43b930c480d12f46"
     },
     "@metaharness/example-stripe": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-stripe",
-      "retrieved_at": "2026-10-12T12:43:50.141350Z",
+      "retrieved_at": "2026-10-12T12:57:09.640294Z",
       "response_sha256": "ea3c07b1fca37906217afa6b3570d256102296695987ebd6972a77cc9304c5a8"
     },
     "@metaharness/example-supabase": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-supabase",
-      "retrieved_at": "2026-10-12T12:43:54.641673Z",
+      "retrieved_at": "2026-10-12T12:57:13.980193Z",
       "response_sha256": "d6bcfb1e50768c5cb784b3a17eb00a7f90b24764df524815c125f4f9cd6fc614"
     },
     "@metaharness/example-twilio": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-twilio",
-      "retrieved_at": "2026-10-12T12:43:54.767599Z",
+      "retrieved_at": "2026-10-12T12:57:14.012876Z",
       "response_sha256": "62cec850beb73d2dfb9173011752dca443f346ad5c53e6065f0d4af94ea37922"
     },
     "@metaharness/example-web3": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fexample-web3",
-      "retrieved_at": "2026-10-12T12:43:59.635920Z",
+      "retrieved_at": "2026-10-12T12:57:17.836215Z",
       "response_sha256": "7d0fb3250390584c4f10520c24696668a08299e9a4bf1cd146bfb3f597be292a"
     },
     "@metaharness/field-memory": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Ffield-memory",
-      "retrieved_at": "2026-10-12T12:43:59.625598Z",
+      "retrieved_at": "2026-10-12T12:57:17.807422Z",
       "response_sha256": "c983859392eee730ac631d8fd626c52dd451df508b0ce88d3f0ec58c9964b05e"
     },
     "@metaharness/flywheel": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fflywheel",
-      "retrieved_at": "2026-10-12T12:44:04.024694Z",
+      "retrieved_at": "2026-10-12T12:57:21.514110Z",
       "response_sha256": "ad65569e65d1d8cbb3aa12392832c0b3215c46d0b956c59c9ca92b36718b409a"
     },
     "@metaharness/gaming": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fgaming",
-      "retrieved_at": "2026-10-12T12:44:04.174446Z",
+      "retrieved_at": "2026-10-12T12:57:21.588457Z",
       "response_sha256": "57fd9971111c26582e562ecd5bd403254548b6edb8820161910d1fb4a9a9ced3"
     },
     "@metaharness/github-actions": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fgithub-actions",
-      "retrieved_at": "2026-10-12T12:44:09.119700Z",
+      "retrieved_at": "2026-10-12T12:57:37.820610Z",
       "response_sha256": "f23655386008f64d0c8f08cdd1a71184a408d096e91758afd1df6665e946fb93"
     },
     "@metaharness/harness": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fharness",
-      "retrieved_at": "2026-10-12T12:44:09.070860Z",
+      "retrieved_at": "2026-10-12T12:57:24.597635Z",
       "response_sha256": "f5672352ac05f3083746a6a80675bf4bb63b966a1ff8301356926e810aee01d0"
     },
     "@metaharness/hermes": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhermes",
-      "retrieved_at": "2026-10-12T12:44:13.414237Z",
+      "retrieved_at": "2026-10-12T12:57:28.100637Z",
       "response_sha256": "bca521c8da8b114ff501423d7e78494fe0e9bd73f99bcff069213fd835993840"
     },
     "@metaharness/horizon": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhorizon",
-      "retrieved_at": "2026-10-12T12:44:13.578061Z",
+      "retrieved_at": "2026-10-12T12:57:57.372930Z",
       "response_sha256": "1a3d2816fa2378fb38ce7ba3fb47f029e69b8b4d61833df31a40821d66eedf47"
     },
     "@metaharness/host-claude-code": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-claude-code",
-      "retrieved_at": "2026-10-12T12:44:18.120182Z",
+      "retrieved_at": "2026-10-12T12:57:41.024096Z",
       "response_sha256": "597bbb939214cd57f5d37f451549010b4ac8b52e494c6064ddf2efbf6db22d65"
     },
     "@metaharness/host-codex": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-codex",
-      "retrieved_at": "2026-10-12T12:44:18.004606Z",
+      "retrieved_at": "2026-10-12T12:57:44.274189Z",
       "response_sha256": "7bb9518a1aa4df71092f6ad65494d7e78dd096d66baf6c8e98d72caf94331f8b"
     },
     "@metaharness/host-copilot": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-copilot",
-      "retrieved_at": "2026-10-12T12:44:22.616583Z",
+      "retrieved_at": "2026-10-12T12:58:01.458039Z",
       "response_sha256": "6e226c895391141b8affb45c63ac768260071405090dc492a33f98f00c2f40c8"
     },
     "@metaharness/host-github-actions": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-github-actions",
-      "retrieved_at": "2026-10-12T12:44:22.519850Z",
+      "retrieved_at": "2026-10-12T12:58:01.429762Z",
       "response_sha256": "e025c717621e130461b86a72e5fc53b611293e9c8e75d6d4fd5b3a25c6343abd"
     },
     "@metaharness/host-hermes": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-hermes",
-      "retrieved_at": "2026-10-12T12:44:27.083624Z",
+      "retrieved_at": "2026-10-12T12:58:05.300149Z",
       "response_sha256": "d5ecc32c8a04a3ef9790376214177664a3e429f472a30369e2b0fc6540eac3d0"
     },
     "@metaharness/host-openclaw": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-openclaw",
-      "retrieved_at": "2026-10-12T12:44:26.920894Z",
+      "retrieved_at": "2026-10-12T12:58:05.362577Z",
       "response_sha256": "4eaed418f5c9c091a317303fdb08834d6cc5a93dff96f68bd7cc4867ca1871d7"
     },
     "@metaharness/host-opencode": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-opencode",
-      "retrieved_at": "2026-10-12T12:44:31.748831Z",
+      "retrieved_at": "2026-10-12T12:58:08.745337Z",
       "response_sha256": "c28a475850fc91e21a0ebfa4a2542275effc775c1b5aeabaae990987fef4ed65"
     },
     "@metaharness/host-pi-dev": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-pi-dev",
-      "retrieved_at": "2026-10-12T12:44:31.836008Z",
+      "retrieved_at": "2026-10-12T12:58:08.828282Z",
       "response_sha256": "9837a7bb34e3f699acca1894ca1eb072162de192f4b8cbe93bac9458530e340c"
     },
     "@metaharness/host-prime-agent": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-prime-agent",
-      "retrieved_at": "2026-10-12T12:44:37.124155Z",
+      "retrieved_at": "2026-10-12T12:58:12.420503Z",
       "response_sha256": "f030a99bb8a039bd9770b5d9d9dc919d7ecf99e8ba3b3cd667c957ad8d7b1faf"
     },
     "@metaharness/host-rvm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fhost-rvm",
-      "retrieved_at": "2026-10-12T12:44:37.228710Z",
+      "retrieved_at": "2026-10-12T12:58:12.456717Z",
       "response_sha256": "d9b1a8d32f1a29f1d039dc2b507768867a9a4b8e1fcc0bf21194c65dd25ee257"
     },
     "@metaharness/jujutsu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fjujutsu",
-      "retrieved_at": "2026-10-12T12:44:41.651887Z",
+      "retrieved_at": "2026-10-12T12:58:17.692794Z",
       "response_sha256": "825002fe5c1cb1e9dfbdaf1ff0123ca4c7e0eea20e5e1189ec43abd1e438c133"
     },
     "@metaharness/kernel": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fkernel",
-      "retrieved_at": "2026-10-12T12:44:41.734898Z",
+      "retrieved_at": "2026-10-12T12:58:17.722995Z",
       "response_sha256": "33d0f22a1290d1cbb434f1c9a79afaf10b03db8bcfd6a8414425587e13e7a6ca"
     },
     "@metaharness/legal": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Flegal",
-      "retrieved_at": "2026-10-12T12:44:46.374469Z",
+      "retrieved_at": "2026-10-12T12:58:20.835011Z",
       "response_sha256": "9af14c5b1b9cfbe2f705092084e659989097ac001526cde2933919b581c67e96"
     },
     "@metaharness/oo-agents": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Foo-agents",
-      "retrieved_at": "2026-10-12T12:44:46.183927Z",
+      "retrieved_at": "2026-10-12T12:58:20.817336Z",
       "response_sha256": "b9fb6cf999a3f347b68f502baf68f5d7a132613a833b2f93a5f802ea73f32450"
     },
     "@metaharness/openclaw": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fopenclaw",
-      "retrieved_at": "2026-10-12T12:44:50.977536Z",
+      "retrieved_at": "2026-10-12T12:58:24.557405Z",
       "response_sha256": "7ae89864259acec1e1513b5205d8598348ef0b6f9a88403eab7ad46b84bbc874"
     },
     "@metaharness/opencode": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fopencode",
-      "retrieved_at": "2026-10-12T12:44:51.025565Z",
+      "retrieved_at": "2026-10-12T12:58:24.572230Z",
       "response_sha256": "9aa3dfbbc24bdcfc30ae6c41cda8a155531a71582256ce0d4afa76fa12031e5b"
     },
     "@metaharness/pi-dev": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fpi-dev",
-      "retrieved_at": "2026-10-12T12:44:55.486814Z",
+      "retrieved_at": "2026-10-12T12:58:29.370096Z",
       "response_sha256": "44f650bf02559e3167c0c4942d70d7fd28011d48f13ffd959907bfddf4c5c5fd"
     },
     "@metaharness/projects": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fprojects",
-      "retrieved_at": "2026-10-12T12:44:55.733858Z",
+      "retrieved_at": "2026-10-12T12:58:40.520719Z",
       "response_sha256": "400205a18321b5cf220ce713d1fc4bae5d31b7890c8a57a3031e180c3a3ba5d0"
     },
     "@metaharness/radio": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fradio",
-      "retrieved_at": "2026-10-12T12:44:59.900004Z",
+      "retrieved_at": "2026-10-12T12:58:35.808068Z",
       "response_sha256": "58fe0d22aab0c7c265e28eb869bde3aec7525059b9a0ebe140e11a1144047feb"
     },
     "@metaharness/redblue": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fredblue",
-      "retrieved_at": "2026-10-12T12:44:59.898621Z",
+      "retrieved_at": "2026-10-12T12:58:40.489289Z",
       "response_sha256": "ededa77bea644bf180f6b3d3e414009354b5667ab6d7cd7023beb69e6e6f6fa0"
     },
     "@metaharness/repo-maintainer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Frepo-maintainer",
-      "retrieved_at": "2026-10-12T12:45:06.530831Z",
+      "retrieved_at": "2026-10-12T12:58:44.073697Z",
       "response_sha256": "5e14617e335349dcd05d979fe34ac4b0751107e0d521c8a8b4f49b2c5bccf9a2"
     },
     "@metaharness/research": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fresearch",
-      "retrieved_at": "2026-10-12T12:45:06.511357Z",
+      "retrieved_at": "2026-10-12T12:58:44.043355Z",
       "response_sha256": "8ef0ff41118fef2160b17bae41d9ec87a4b3edac995ca52d6478dc186b0ea584"
     },
     "@metaharness/router": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Frouter",
-      "retrieved_at": "2026-10-12T12:45:11.151500Z",
+      "retrieved_at": "2026-10-12T12:58:47.392615Z",
       "response_sha256": "1d6f5e0113aee31fa3bb1c3b2272d3313ba7540bec35d185ebe50596bd5986c3"
     },
     "@metaharness/rvm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Frvm",
-      "retrieved_at": "2026-10-12T12:45:11.277600Z",
+      "retrieved_at": "2026-10-12T12:58:47.369839Z",
       "response_sha256": "2a5d311334cbd4c01620e1e3457f8ab93710636c62fa4ab9eaca5cfd5a222095"
     },
     "@metaharness/sales": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fsales",
-      "retrieved_at": "2026-10-12T12:45:16.010695Z",
+      "retrieved_at": "2026-10-12T12:58:51.313586Z",
       "response_sha256": "194421471198abd6e3464ddeda5daa8fe950ac6632d2c9b4c65d87ec4e72699a"
     },
     "@metaharness/sdk": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fsdk",
-      "retrieved_at": "2026-10-12T12:45:15.810670Z",
+      "retrieved_at": "2026-10-12T12:58:51.285127Z",
       "response_sha256": "195acb4e4021edee52cafc9ae79bf2c40c1cc87ec9aff11168db73229042c2f8"
     },
     "@metaharness/support": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fsupport",
-      "retrieved_at": "2026-10-12T12:45:19.843879Z",
+      "retrieved_at": "2026-10-12T12:58:57.009469Z",
       "response_sha256": "b9877e396d7a11d3535f904dec5579c0deb8fa4073ca64a2d59c908f9919efe2"
     },
     "@metaharness/trading": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Ftrading",
-      "retrieved_at": "2026-10-12T12:45:19.890853Z",
+      "retrieved_at": "2026-10-12T12:58:56.971392Z",
       "response_sha256": "fe5a99c14eaad719f5033e9bcc9fd48ff476bb6af45e9ff85672cbbe571cb214"
     },
     "@metaharness/turn-credit": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fturn-credit",
-      "retrieved_at": "2026-10-12T12:45:24.615471Z",
+      "retrieved_at": "2026-10-12T12:59:03.147582Z",
       "response_sha256": "dbb4607c66260f9eb69a022540de888541ed06181a3bda640166191f6dee2fb8"
     },
     "@metaharness/vertical-base": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fvertical-base",
-      "retrieved_at": "2026-10-12T12:45:24.472526Z",
+      "retrieved_at": "2026-10-12T12:59:03.178804Z",
       "response_sha256": "ae59477e509c761ca27a928e372c126a008c6ce8e203bb5f71a7887b4d1f9115"
     },
     "@metaharness/vertical-trading": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fvertical-trading",
-      "retrieved_at": "2026-10-12T12:45:30.162936Z",
+      "retrieved_at": "2026-10-12T12:59:08.816595Z",
       "response_sha256": "a73a26fd82cce1ea8abbd56d3c04b62ea321b4d644a3ccce2fb2047c0ac9baa0"
     },
     "@metaharness/weight-eft": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fweight-eft",
-      "retrieved_at": "2026-10-12T12:45:30.250543Z",
+      "retrieved_at": "2026-10-12T12:59:08.787903Z",
       "response_sha256": "141c04b8d739f7f344d12d1d567f7cc8711517b507378d245837c7e8a616e699"
     },
     "@metaharness/workspace-lens": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fworkspace-lens",
-      "retrieved_at": "2026-10-12T12:45:34.652852Z",
+      "retrieved_at": "2026-10-12T12:59:13.162131Z",
       "response_sha256": "fc272e11c0aaa2f76ee795302cd5d9586476e3ea195a49e0027c0d0d600c42c9"
     },
     "@metaharness/workspace-probe": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40metaharness%2Fworkspace-probe",
-      "retrieved_at": "2026-10-12T12:45:34.735323Z",
+      "retrieved_at": "2026-10-12T12:59:13.128835Z",
       "response_sha256": "c6712ee4fa301b58cdafd4d1388679c927ae90bd23c3462000f3e6e09b7a73cd"
     },
     "@neural-trader/agentic-accounting-agents": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fagentic-accounting-agents",
-      "retrieved_at": "2026-10-12T12:45:39.678056Z",
+      "retrieved_at": "2026-10-12T12:59:17.118937Z",
       "response_sha256": "79e50ebf674d46f3ab0e3a38b7ca7c0c9595ee985a05e49974f0af1c13164ee2"
     },
     "@neural-trader/agentic-accounting-cli": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fagentic-accounting-cli",
-      "retrieved_at": "2026-10-12T12:45:39.727562Z",
+      "retrieved_at": "2026-10-12T12:59:17.115057Z",
       "response_sha256": "e79fa3459169e9cf61502843014a7c82c760a0ceec26d490a7e5edd1da805b9b"
     },
     "@neural-trader/agentic-accounting-core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fagentic-accounting-core",
-      "retrieved_at": "2026-10-12T12:45:46.743145Z",
+      "retrieved_at": "2026-10-12T12:59:20.642596Z",
       "response_sha256": "9a5d253e259cf81fcf32b1301ee0779d9ae59416bcdc43dd5a037a91ea946151"
     },
     "@neural-trader/agentic-accounting-mcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fagentic-accounting-mcp",
-      "retrieved_at": "2026-10-12T12:45:46.517908Z",
+      "retrieved_at": "2026-10-12T12:59:20.668574Z",
       "response_sha256": "98b0dc34c924d080fb7ceb3efa6bbec3738ca874f7ef680855fe968c02c565ec"
     },
     "@neural-trader/agentic-accounting-rust-core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fagentic-accounting-rust-core",
-      "retrieved_at": "2026-10-12T12:45:51.102046Z",
+      "retrieved_at": "2026-10-12T12:59:24.053683Z",
       "response_sha256": "a2e2a95a78e282a57d1a96d97c94e1682e38c24d888637a71bdc4480f2816bbc"
     },
     "@neural-trader/agentic-accounting-types": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fagentic-accounting-types",
-      "retrieved_at": "2026-10-12T12:45:51.062440Z",
+      "retrieved_at": "2026-10-12T12:59:24.092805Z",
       "response_sha256": "69147bae6a2b1f9aca0ac666776b9537c10179ab1bb34c3a4af1937979260391"
     },
     "@neural-trader/backend": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fbackend",
-      "retrieved_at": "2026-10-12T12:45:55.815294Z",
+      "retrieved_at": "2026-10-12T12:59:27.973777Z",
       "response_sha256": "7820d85ee601c10f1a0f8d34a93f87a0bc75b901fe863b8256779596b2a51b3e"
     },
     "@neural-trader/backtesting": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fbacktesting",
-      "retrieved_at": "2026-10-12T12:45:55.879209Z",
+      "retrieved_at": "2026-10-12T12:59:27.939057Z",
       "response_sha256": "b9ab950da6e56adf17fb92da53af25ff60da24161cec956a876289a9b041ae30"
     },
     "@neural-trader/benchoptimizer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fbenchoptimizer",
-      "retrieved_at": "2026-10-12T12:46:00.346776Z",
+      "retrieved_at": "2026-10-12T12:59:32.186599Z",
       "response_sha256": "675ba7287c8193dd72636d6634578aa33d2d1d06d088540ed07d27a990364ba4"
     },
     "@neural-trader/brokers": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fbrokers",
-      "retrieved_at": "2026-10-12T12:46:00.394700Z",
+      "retrieved_at": "2026-10-12T12:59:32.215915Z",
       "response_sha256": "6751bea4a52c0bd68e502ab4c9840524b374f7b9b87e254ec31293eb407951c0"
     },
     "@neural-trader/core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fcore",
-      "retrieved_at": "2026-10-12T12:46:05.108834Z",
+      "retrieved_at": "2026-10-12T12:59:36.451257Z",
       "response_sha256": "bc8b668a49d4b3fc51e68ed1a8f2a2e289f50f78b2335840cee5c7260fd05b6b"
     },
     "@neural-trader/e2b-strategies": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fe2b-strategies",
-      "retrieved_at": "2026-10-12T12:46:05.333573Z",
+      "retrieved_at": "2026-10-12T12:59:36.449373Z",
       "response_sha256": "f57fc2862823f9b8d2f87e8f4c5ef9ca5235173f3dc08e1f3b9d6fe6e800944c"
     },
     "@neural-trader/example-dynamic-pricing": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-dynamic-pricing",
-      "retrieved_at": "2026-10-12T12:46:09.758277Z",
+      "retrieved_at": "2026-10-12T12:59:40.432694Z",
       "response_sha256": "8e993d61c92ddfc704857e9848734e6d7aebeca76f63d8a084480f33b60ade0b"
     },
     "@neural-trader/example-energy-forecasting": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-energy-forecasting",
-      "retrieved_at": "2026-10-12T12:46:09.663003Z",
+      "retrieved_at": "2026-10-12T12:59:40.407700Z",
       "response_sha256": "a0e56c4d3aa8db1399a0e8e302cfc3e98365d1cccdd98327b2642586e9713bc5"
     },
     "@neural-trader/example-energy-grid-optimization": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-energy-grid-optimization",
-      "retrieved_at": "2026-10-12T12:46:14.246043Z",
+      "retrieved_at": "2026-10-12T12:59:44.072606Z",
       "response_sha256": "512ad49ae98490c603811c4e4d331bc1744166812ee651e2c22a23a1b79c0b6e"
     },
     "@neural-trader/example-evolutionary-game-theory": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-evolutionary-game-theory",
-      "retrieved_at": "2026-10-12T12:46:14.034647Z",
+      "retrieved_at": "2026-10-12T12:59:44.080345Z",
       "response_sha256": "bec0959b519086fe2339848aa8631a6ce7cda3ad4c5d3c31d55689c7ef52421b"
     },
     "@neural-trader/example-healthcare-optimization": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-healthcare-optimization",
-      "retrieved_at": "2026-10-12T12:46:18.933655Z",
+      "retrieved_at": "2026-10-12T12:59:47.479166Z",
       "response_sha256": "d3540a698d9f4b49f7f04da482d3956337a37d31aa035124e43c52a33a632fb2"
     },
     "@neural-trader/example-logistics-optimization": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-logistics-optimization",
-      "retrieved_at": "2026-10-12T12:46:18.639731Z",
+      "retrieved_at": "2026-10-12T12:59:47.496764Z",
       "response_sha256": "ad83354c77037f645e471d278e21027c91d50b8599af2d908f043f7238dce0dc"
     },
     "@neural-trader/example-market-microstructure": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-market-microstructure",
-      "retrieved_at": "2026-10-12T12:46:24.548715Z",
+      "retrieved_at": "2026-10-12T12:59:50.942740Z",
       "response_sha256": "1905702ee122a8e9b9d1133c3bde79828ed0dade739359872df4547261a0c6c1"
     },
     "@neural-trader/example-neuromorphic-computing": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-neuromorphic-computing",
-      "retrieved_at": "2026-10-12T12:46:24.372075Z",
+      "retrieved_at": "2026-10-12T12:59:50.974506Z",
       "response_sha256": "05da83385cca1300c3f8c969ddaf893985851560f23add3b1a114aec611db0a6"
     },
     "@neural-trader/example-portfolio-optimization": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-portfolio-optimization",
-      "retrieved_at": "2026-10-12T12:46:29.108575Z",
+      "retrieved_at": "2026-10-12T12:59:53.917054Z",
       "response_sha256": "f3b29b4eb57d30752ba45053048e3c565af982aab30db546ad727b1c5a73d4e9"
     },
     "@neural-trader/example-quantum-optimization": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-quantum-optimization",
-      "retrieved_at": "2026-10-12T12:46:29.050617Z",
+      "retrieved_at": "2026-10-12T12:59:53.951516Z",
       "response_sha256": "fb3723603bc875da86f6c80472fd4e4ba90f22a554d15250e9d9c7005a24f2f9"
     },
     "@neural-trader/example-supply-chain-prediction": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexample-supply-chain-prediction",
-      "retrieved_at": "2026-10-12T12:46:35.489870Z",
+      "retrieved_at": "2026-10-12T12:59:57.210513Z",
       "response_sha256": "eb4d6b8a3b6be118146f198fbd5e6ede4856ac7073613b62003397e68242f7f1"
     },
     "@neural-trader/execution": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fexecution",
-      "retrieved_at": "2026-10-12T12:46:35.434350Z",
+      "retrieved_at": "2026-10-12T12:59:57.179884Z",
       "response_sha256": "8167a00052afbbd3fefdbb81a414be9da33a21a965ab8ca68a4332698fd91af0"
     },
     "@neural-trader/features": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Ffeatures",
-      "retrieved_at": "2026-10-12T12:46:40.217459Z",
+      "retrieved_at": "2026-10-12T13:00:01.212426Z",
       "response_sha256": "54017686b3cb858ceb9211125c3ab9a7ae26618664304295e3ffbb33f57e3004"
     },
     "@neural-trader/market-data": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fmarket-data",
-      "retrieved_at": "2026-10-12T12:46:40.160425Z",
+      "retrieved_at": "2026-10-12T13:00:01.241369Z",
       "response_sha256": "ff704b695ea946bcd932a804db148eb1319d5b7098a7cd433563ab912abc4e9e"
     },
     "@neural-trader/mcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fmcp",
-      "retrieved_at": "2026-10-12T12:46:44.615995Z",
+      "retrieved_at": "2026-10-12T13:00:07.566909Z",
       "response_sha256": "be8a3fdc17384b87f94cc870d613bf70433ec20c895e4b7c651d97f93decd5b1"
     },
     "@neural-trader/mcp-protocol": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fmcp-protocol",
-      "retrieved_at": "2026-10-12T12:46:44.872145Z",
+      "retrieved_at": "2026-10-12T13:00:07.554945Z",
       "response_sha256": "61db6bbafe44acdfe02c4154eb6fb8ab39055f0e206065be51cc4296a741d068"
     },
     "@neural-trader/neural": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fneural",
-      "retrieved_at": "2026-10-12T12:46:49.976610Z",
+      "retrieved_at": "2026-10-12T13:00:10.641653Z",
       "response_sha256": "ddd9461509d9de3fde4c8b3ca5a1e6a4cb06449e3a96a8d17f582df669e1b9ca"
     },
     "@neural-trader/neuro-divergent": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fneuro-divergent",
-      "retrieved_at": "2026-10-12T12:46:49.919911Z",
+      "retrieved_at": "2026-10-12T13:00:10.647055Z",
       "response_sha256": "bed89774d3a8881e73709d86cfdaeab6b78b3114acd35b7eed0245531cf61cd8"
     },
     "@neural-trader/news-trading": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fnews-trading",
-      "retrieved_at": "2026-10-12T12:46:54.619409Z",
+      "retrieved_at": "2026-10-12T13:00:14.217662Z",
       "response_sha256": "c83d30c406e9cec3a6775e2dcdd1f58b1eabfcb5cefd6eabcdcf31672b0b0cad"
     },
     "@neural-trader/portfolio": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fportfolio",
-      "retrieved_at": "2026-10-12T12:46:54.513843Z",
+      "retrieved_at": "2026-10-12T13:00:14.178427Z",
       "response_sha256": "2e515c04774e0842a55f5c7f3136489231f0d122cde0d0328fd434e00713965b"
     },
     "@neural-trader/prediction-markets": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fprediction-markets",
-      "retrieved_at": "2026-10-12T12:46:59.178445Z",
+      "retrieved_at": "2026-10-12T13:00:18.064418Z",
       "response_sha256": "e47b6d5e784f104f61ad090490ed78f1a2767c5212a28ec19015cbc99fcf285a"
     },
     "@neural-trader/predictor": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fpredictor",
-      "retrieved_at": "2026-10-12T12:46:59.058382Z",
+      "retrieved_at": "2026-10-12T13:00:18.096273Z",
       "response_sha256": "6757637305a428a173c7dfcd00392bc3da845b9114e88b5c62b94dce7bfc1206"
     },
     "@neural-trader/risk": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Frisk",
-      "retrieved_at": "2026-10-12T12:47:04.782485Z",
+      "retrieved_at": "2026-10-12T13:00:24.630299Z",
       "response_sha256": "0fb2495eaf2d1c29dbf05125c16bbbcf487274de0c8f9821c764b849f34cbe81"
     },
     "@neural-trader/sports-betting": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fsports-betting",
-      "retrieved_at": "2026-10-12T12:47:04.273530Z",
+      "retrieved_at": "2026-10-12T13:00:24.659368Z",
       "response_sha256": "4f4bb1f9092d714fa4c0b63f0d5152ebd45cda5467c25a5f5c2e21edd2fa6e24"
     },
     "@neural-trader/strategies": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fstrategies",
-      "retrieved_at": "2026-10-12T12:47:09.497620Z",
+      "retrieved_at": "2026-10-12T13:00:29.938820Z",
       "response_sha256": "333d83279585e6d6a7e252947a14c04ff7b6f1ff0d5a4eab7f89536f5ec17c99"
     },
     "@neural-trader/syndicate": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40neural-trader%2Fsyndicate",
-      "retrieved_at": "2026-10-12T12:47:09.360792Z",
+      "retrieved_at": "2026-10-12T13:00:29.986061Z",
       "response_sha256": "007f6b82f11a53fcf77e7717cf01c1520a5f8fd8f5e267aafbe39f35f9018297"
     },
     "@qudag/cli": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40qudag%2Fcli",
-      "retrieved_at": "2026-10-12T12:47:16.865116Z",
+      "retrieved_at": "2026-10-12T13:00:35.495378Z",
       "response_sha256": "dde27a249f936f4207403dc72079e2a25f93e9eabf94c6b0370c303ae7ca51f4"
     },
     "@qudag/mcp-sse": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40qudag%2Fmcp-sse",
-      "retrieved_at": "2026-10-12T12:47:16.890567Z",
+      "retrieved_at": "2026-10-12T13:00:35.488467Z",
       "response_sha256": "30ddab8c205997c026fc9c5dba1fb73b1867cd0eb4b2b954ce20e5d30456d067"
     },
     "@qudag/mcp-stdio": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40qudag%2Fmcp-stdio",
-      "retrieved_at": "2026-10-12T12:47:22.798402Z",
+      "retrieved_at": "2026-10-12T13:00:40.376991Z",
       "response_sha256": "73aa75ceb7bdf54698b129e3dfd21df1dd037119fa92797e544c64a4c64e1b36"
     },
     "@qudag/napi-core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40qudag%2Fnapi-core",
-      "retrieved_at": "2026-10-12T12:47:22.774283Z",
+      "retrieved_at": "2026-10-12T13:00:40.354571Z",
       "response_sha256": "be97daf9ce6a5ae37dfe2bfb342886f7aabe40c551a29a03605fab41b74f8612"
     },
     "@ruv/rvcsi": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruv%2Frvcsi",
-      "retrieved_at": "2026-10-12T12:47:27.489238Z",
+      "retrieved_at": "2026-10-12T13:00:43.991785Z",
       "response_sha256": "06946ab84e4631c424b8d8e1bc39d158c2912852f75718d19c6d9b8a214203c1"
     },
     "@ruv/sparc-ui": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruv%2Fsparc-ui",
-      "retrieved_at": "2026-10-12T12:47:27.522098Z",
+      "retrieved_at": "2026-10-12T13:00:43.955344Z",
       "response_sha256": "5f47d8c41194b8552ca56b69beef9683184a9ff6196fdc9dc48a1fee6fed4b37"
     },
     "@ruvector/acorn-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Facorn-wasm",
-      "retrieved_at": "2026-10-12T12:47:32.139518Z",
+      "retrieved_at": "2026-10-12T13:00:49.218219Z",
       "response_sha256": "858f86f24fa52d55cc4aa3c34e029b0329165e7c791bf9f7bbae15456046ad5b"
     },
     "@ruvector/agentic-integration": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fagentic-integration",
-      "retrieved_at": "2026-10-12T12:47:32.389540Z",
+      "retrieved_at": "2026-10-12T13:00:49.263670Z",
       "response_sha256": "109672a30c1a03b0a0829c8a1c08ec7eefc6e491d957bcabb88dc1e8e33b54c2"
     },
     "@ruvector/agentic-synth": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fagentic-synth",
-      "retrieved_at": "2026-10-12T12:47:37.987753Z",
+      "retrieved_at": "2026-10-12T13:00:56.614731Z",
       "response_sha256": "d9af1299f91eeffe13b71db94f6c9eb08416b10d525412c78f6ee07aba2dc20f"
     },
     "@ruvector/agentic-synth-examples": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fagentic-synth-examples",
-      "retrieved_at": "2026-10-12T12:47:37.827453Z",
+      "retrieved_at": "2026-10-12T13:00:56.587603Z",
       "response_sha256": "759c8f129241907f9695a4b94d621057fc39b77c417d05feda1d0c9438ceba83"
     },
     "@ruvector/attention": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention",
-      "retrieved_at": "2026-10-12T12:47:42.418702Z",
+      "retrieved_at": "2026-10-12T13:01:01.479008Z",
       "response_sha256": "93b32d69b50e87378291496fe8f405e5c486698152888af54234fe62f45c3831"
     },
     "@ruvector/attention-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:47:42.868725Z",
+      "retrieved_at": "2026-10-12T13:01:01.474332Z",
       "response_sha256": "4cb473b5269ad79fa7174398751f611d292aa0d0990b9ba9d93b223ee73dd699"
     },
     "@ruvector/attention-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention-darwin-x64",
-      "retrieved_at": "2026-10-12T12:47:47.232440Z",
+      "retrieved_at": "2026-10-12T13:01:05.353854Z",
       "response_sha256": "fd8a0c2d7e06cae01cb9f548b0f8ed364acdf05ae541b2b905f26fd6e790d468"
     },
     "@ruvector/attention-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:47:47.164684Z",
+      "retrieved_at": "2026-10-12T13:01:05.392398Z",
       "response_sha256": "c1d22e111d115726df75aaf01bd7434a64dbebc225bbf8881545a3f969b86656"
     },
     "@ruvector/attention-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:47:51.644107Z",
+      "retrieved_at": "2026-10-12T13:01:08.882138Z",
       "response_sha256": "f6143f156aefe11a7003b9b2164e043390fdaec777d20e348e9a76e693269d22"
     },
     "@ruvector/attention-unified-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention-unified-wasm",
-      "retrieved_at": "2026-10-12T12:47:51.866401Z",
+      "retrieved_at": "2026-10-12T13:01:08.886058Z",
       "response_sha256": "a0060bc30f2247d26b6f8c814ec5e4c65a72544fe03b02dc644b51c0f732a91b"
     },
     "@ruvector/attention-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention-wasm",
-      "retrieved_at": "2026-10-12T12:47:57.883902Z",
+      "retrieved_at": "2026-10-12T13:01:15.635356Z",
       "response_sha256": "0394b43aafcb3871f1d9a1ed751fac8cee87cc3531c0344948faad240febc5a8"
     },
     "@ruvector/attention-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fattention-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:47:57.721053Z",
+      "retrieved_at": "2026-10-12T13:01:15.660844Z",
       "response_sha256": "a005567307e1ee32b458ce176e41c9cb1c976c12c63c6027ad200ae9790ee92b"
     },
     "@ruvector/burst-scaling": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fburst-scaling",
-      "retrieved_at": "2026-10-12T12:48:02.199297Z",
+      "retrieved_at": "2026-10-12T13:01:19.592386Z",
       "response_sha256": "3a16fb51d81205a91d3639dee37f5ba0e87ae933bfae5767a3666394428be0f5"
     },
     "@ruvector/cli": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fcli",
-      "retrieved_at": "2026-10-12T12:48:02.476191Z",
+      "retrieved_at": "2026-10-12T13:01:19.500277Z",
       "response_sha256": "754c2f6170d69eda69c53cc5231e168d7b4e656ddeab5e6e4a927c207a20a9f2"
     },
     "@ruvector/cluster": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fcluster",
-      "retrieved_at": "2026-10-12T12:48:06.864296Z",
+      "retrieved_at": "2026-10-12T13:01:23.752675Z",
       "response_sha256": "2f62dacc97bb8cca484c6c23a9bf7c241891c497526f93a53496864c8260f576"
     },
     "@ruvector/cnn": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fcnn",
-      "retrieved_at": "2026-10-12T12:48:06.863582Z",
+      "retrieved_at": "2026-10-12T13:01:23.731157Z",
       "response_sha256": "5a8d93165702c2d99367a0b799d2db864b9a898405112a96c8394e04ea6ffe9a"
     },
     "@ruvector/core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fcore",
-      "retrieved_at": "2026-10-12T12:48:12.642195Z",
+      "retrieved_at": "2026-10-12T13:01:27.942726Z",
       "response_sha256": "52880764a3fd52075b246b3f9e2b1429f1372169667a197ad48099db090b78a8"
     },
     "@ruvector/diskann": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fdiskann",
-      "retrieved_at": "2026-10-12T12:48:12.760039Z",
+      "retrieved_at": "2026-10-12T13:01:27.969303Z",
       "response_sha256": "dcb7932bacc3305e2495ef5a84cd92ee105b50b2c7a3389eb9a945758a5030f5"
     },
     "@ruvector/diskann-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fdiskann-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:48:17.420246Z",
+      "retrieved_at": "2026-10-12T13:01:33.293774Z",
       "response_sha256": "a76cf711c9def3afaf6bbb0a067db75c7e109ea147f9cd8535cf1cbf6b5c7ff6"
     },
     "@ruvector/diskann-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fdiskann-darwin-x64",
-      "retrieved_at": "2026-10-12T12:48:17.696975Z",
+      "retrieved_at": "2026-10-12T13:01:33.219754Z",
       "response_sha256": "d376c99193d58bf4cd75b4b713920b539e1fc584c7e9f8064d3adbf8663b72da"
     },
     "@ruvector/diskann-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fdiskann-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:48:22.262992Z",
+      "retrieved_at": "2026-10-12T13:01:36.513645Z",
       "response_sha256": "244109b75fcd48528fc046e4fd04a70fc1719e58caa458717bfbc811b4ade4e9"
     },
     "@ruvector/diskann-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fdiskann-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:48:22.412233Z",
+      "retrieved_at": "2026-10-12T13:01:36.541907Z",
       "response_sha256": "ca4c4c57d9b3715980d8b00aab9ca332cd4bb13230dae592da3fa13dce1494fd"
     },
     "@ruvector/diskann-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fdiskann-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:48:27.860031Z",
+      "retrieved_at": "2026-10-12T13:01:39.740105Z",
       "response_sha256": "ac6ff5a436713792fddd33765dbdba442c121152f65b571464a4bed5082fab3a"
     },
     "@ruvector/economy-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Feconomy-wasm",
-      "retrieved_at": "2026-10-12T12:48:27.803397Z",
+      "retrieved_at": "2026-10-12T13:01:39.760473Z",
       "response_sha256": "1ff6939953a61b0fc3f488a72e1428586653d745f4d3296e569d87eb57ef834e"
     },
     "@ruvector/edge": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fedge",
-      "retrieved_at": "2026-10-12T12:48:33.243820Z",
+      "retrieved_at": "2026-10-12T13:01:43.347545Z",
       "response_sha256": "64c020f51f246eb06b5c0a0773a90054d62aa11aa8b9be5081c305ba782f0c71"
     },
     "@ruvector/edge-full": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fedge-full",
-      "retrieved_at": "2026-10-12T12:48:33.219863Z",
+      "retrieved_at": "2026-10-12T13:01:43.395022Z",
       "response_sha256": "ba0abb07151488c5afdca00ba047dc41d71953af7afb13ff08ef7c594b470836"
     },
     "@ruvector/edge-net": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fedge-net",
-      "retrieved_at": "2026-10-12T12:48:38.282690Z",
+      "retrieved_at": "2026-10-12T13:01:48.189510Z",
       "response_sha256": "f1a47e35dd8470ba0ad005e2e81e48294e0eef552be77d90055a6bef69bb5224"
     },
     "@ruvector/emergent-time": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Femergent-time",
-      "retrieved_at": "2026-10-12T12:48:38.245435Z",
+      "retrieved_at": "2026-10-12T13:01:48.220138Z",
       "response_sha256": "2140f1f8ad3651757dea46e104a5930ae59431dd442f32c9871b93eaeebab70a"
     },
     "@ruvector/exotic-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fexotic-wasm",
-      "retrieved_at": "2026-10-12T12:48:42.848742Z",
+      "retrieved_at": "2026-10-12T13:01:51.972452Z",
       "response_sha256": "bc713b54a923306b809d5476dcb618266a02f850e71ffac8c4799ff7974a526a"
     },
     "@ruvector/gnn": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn",
-      "retrieved_at": "2026-10-12T12:48:42.909801Z",
+      "retrieved_at": "2026-10-12T13:01:51.939709Z",
       "response_sha256": "f836941010faeccbb1d393d51b55bbe09577962728e4a8dbb7428455b2aaa823"
     },
     "@ruvector/gnn-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:48:47.782861Z",
+      "retrieved_at": "2026-10-12T13:01:55.220506Z",
       "response_sha256": "10e71ce984f9b2bc37a3e23d57b83f16dabb4c2695d4b9ec4b88172dd146f099"
     },
     "@ruvector/gnn-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-darwin-x64",
-      "retrieved_at": "2026-10-12T12:48:47.983541Z",
+      "retrieved_at": "2026-10-12T13:01:55.225998Z",
       "response_sha256": "3ae8d7c4d8295c67fbf1513d2f11e98dbd05f760f76aca051d6343b24cb3fe20"
     },
     "@ruvector/gnn-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:48:52.576067Z",
+      "retrieved_at": "2026-10-12T13:01:59.834414Z",
       "response_sha256": "65db39f9573fdd4d2855d59c2b670380d3994dc3608ee435072fb12ac612192f"
     },
     "@ruvector/gnn-linux-arm64-musl": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-linux-arm64-musl",
-      "retrieved_at": "2026-10-12T12:48:52.719982Z",
+      "retrieved_at": "2026-10-12T13:01:59.865810Z",
       "response_sha256": "437a810f5db76a40a44fdbc6f35fe851bbf920fbb1455ac039038f760310f22b"
     },
     "@ruvector/gnn-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:48:57.811561Z",
+      "retrieved_at": "2026-10-12T13:02:03.956571Z",
       "response_sha256": "876470a7120b4de52693ed6dca71eab57291a6e178e0e0b98e12daf1203197bb"
     },
     "@ruvector/gnn-linux-x64-musl": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-linux-x64-musl",
-      "retrieved_at": "2026-10-12T12:48:57.759038Z",
+      "retrieved_at": "2026-10-12T13:02:03.997916Z",
       "response_sha256": "0f160f76c96172264d323efb3a359f4ab3ad614d9078acc7efb2935851895373"
     },
     "@ruvector/gnn-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-wasm",
-      "retrieved_at": "2026-10-12T12:49:02.612244Z",
+      "retrieved_at": "2026-10-12T13:02:08.106133Z",
       "response_sha256": "f9e4fad1b8be7de9c146af44404da1717cede17d0952b10969b0a8805a937caa"
     },
     "@ruvector/gnn-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgnn-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:49:02.690902Z",
+      "retrieved_at": "2026-10-12T13:02:08.082629Z",
       "response_sha256": "3d794f7577b4d4c810030c000bec2a8165862802a63eae603c85efbd858fa89a"
     },
     "@ruvector/graph-data-generator": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-data-generator",
-      "retrieved_at": "2026-10-12T12:49:08.691824Z",
+      "retrieved_at": "2026-10-12T13:02:11.993476Z",
       "response_sha256": "64bea14128dac1e9f2799277a3eef4ef840f83d3d0871256b90946b404ef0605"
     },
     "@ruvector/graph-node": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-node",
-      "retrieved_at": "2026-10-12T12:49:08.763121Z",
+      "retrieved_at": "2026-10-12T13:02:12.024901Z",
       "response_sha256": "54c872de7673a19b1b8766f2e1ac7c517c56e67d92f87a4e8d23d099fb4ec50a"
     },
     "@ruvector/graph-node-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-node-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:49:13.612950Z",
+      "retrieved_at": "2026-10-12T13:02:15.662912Z",
       "response_sha256": "774b2bff3e86bd09dce70f2c761f6b6f136321d15e8bee298758f639136d0413"
     },
     "@ruvector/graph-node-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-node-darwin-x64",
-      "retrieved_at": "2026-10-12T12:49:13.358071Z",
+      "retrieved_at": "2026-10-12T13:02:15.695937Z",
       "response_sha256": "ec8cd0a947223cad34dcf63a92a68c885836237ef05eb4136b87c07b59e9d50a"
     },
     "@ruvector/graph-node-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-node-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:49:18.024298Z",
+      "retrieved_at": "2026-10-12T13:02:19.775521Z",
       "response_sha256": "518d75f13a53fb498887b9daee997f30a783e5adbc6ad3201845886bcfee0196"
     },
     "@ruvector/graph-node-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-node-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:49:17.793242Z",
+      "retrieved_at": "2026-10-12T13:02:19.823602Z",
       "response_sha256": "7d30b9106e47bb9ef21ba29846677ad3f9cad2bb108656504cce8abf0792e4c5"
     },
     "@ruvector/graph-node-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-node-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:49:22.681502Z",
+      "retrieved_at": "2026-10-12T13:02:24.767285Z",
       "response_sha256": "39f5d04f5a461036a0b7fece853631e0a414ceb713ddb9abc6a0375c74a3c1fd"
     },
     "@ruvector/graph-transformer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer",
-      "retrieved_at": "2026-10-12T12:49:22.592679Z",
+      "retrieved_at": "2026-10-12T13:02:24.739820Z",
       "response_sha256": "8ca08ea7ac31736b87452ed8f7c5bf923e4bd946acb1e37c1674b60ed0f18d86"
     },
     "@ruvector/graph-transformer-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:49:27.270658Z",
+      "retrieved_at": "2026-10-12T13:02:28.747916Z",
       "response_sha256": "0acdc408dd593c3cc78c75ba1b3e60c558ed2561b8b668e6344d66933291fdff"
     },
     "@ruvector/graph-transformer-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer-darwin-x64",
-      "retrieved_at": "2026-10-12T12:49:27.355724Z",
+      "retrieved_at": "2026-10-12T13:02:28.717780Z",
       "response_sha256": "abc327cb8d5c1b8c39a0617279c5f6a34e42c83df47594162d284bd61f62187a"
     },
     "@ruvector/graph-transformer-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:49:32.173307Z",
+      "retrieved_at": "2026-10-12T13:02:33.785481Z",
       "response_sha256": "721e3acc3f742c07a2e789d7d481772a15611598dc5b5ae7d6556886394fdf91"
     },
     "@ruvector/graph-transformer-linux-arm64-musl": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer-linux-arm64-musl",
-      "retrieved_at": "2026-10-12T12:49:32.305411Z",
+      "retrieved_at": "2026-10-12T13:02:33.819139Z",
       "response_sha256": "845846b31232cf4bed8f020f28f66cbe61580e2dcc3a417312ca7e055e3df1b4"
     },
     "@ruvector/graph-transformer-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:49:37.307572Z",
+      "retrieved_at": "2026-10-12T13:02:37.479862Z",
       "response_sha256": "fd7e1bd90d9219d271129a222e024cf43b0e484e4b327a01e402452f44e6ecfc"
     },
     "@ruvector/graph-transformer-linux-x64-musl": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer-linux-x64-musl",
-      "retrieved_at": "2026-10-12T12:49:37.258479Z",
+      "retrieved_at": "2026-10-12T13:02:37.504033Z",
       "response_sha256": "952c87762f789099b2ce2437aa8318c0ab7b7419cd18fd2a21aadf1c4044c480"
     },
     "@ruvector/graph-transformer-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-transformer-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:49:42.029171Z",
+      "retrieved_at": "2026-10-12T13:02:40.752047Z",
       "response_sha256": "7bc1cd4bd6c2a3807c17f9075be989124803399abf102e1cfd7775ac2d4b1907"
     },
     "@ruvector/graph-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fgraph-wasm",
-      "retrieved_at": "2026-10-12T12:49:42.116586Z",
+      "retrieved_at": "2026-10-12T13:02:40.761299Z",
       "response_sha256": "f8f1979ffd03d88cd0b6c52236e796264adcfeac1afc0323733909d9035af984"
     },
     "@ruvector/kge": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fkge",
-      "retrieved_at": "2026-10-12T12:49:46.938589Z",
+      "retrieved_at": "2026-10-12T13:02:47.189107Z",
       "response_sha256": "46dbadd15365ee68a88b4fc1ecbc8731c73ebbad594932c40174fd40b6dadacf"
     },
     "@ruvector/kge-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fkge-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:49:46.997327Z",
+      "retrieved_at": "2026-10-12T13:02:47.217554Z",
       "response_sha256": "e38f19277bbe094a8229dcc11f9a118b9a015e1c2864adbc068f6f8b65f2a1e4"
     },
     "@ruvector/kge-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fkge-darwin-x64",
-      "retrieved_at": "2026-10-12T12:49:51.862750Z",
+      "retrieved_at": "2026-10-12T13:02:51.337656Z",
       "response_sha256": "70a88a078793838731845588950bfc4a4daa35d4147c697b866991405991fe75"
     },
     "@ruvector/kge-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fkge-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:49:51.852430Z",
+      "retrieved_at": "2026-10-12T13:02:51.310390Z",
       "response_sha256": "0b754dd5491dec136d1439e9536b08fd9cb9e257fa2ddfae19886874f164d5fd"
     },
     "@ruvector/kge-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fkge-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:49:58.091226Z",
+      "retrieved_at": "2026-10-12T13:02:56.740360Z",
       "response_sha256": "5f1327cb92515ff1e11626fc5499d8f55fc10116bee4a11b42446b06868071df"
     },
     "@ruvector/kge-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fkge-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:49:58.019718Z",
+      "retrieved_at": "2026-10-12T13:02:56.707730Z",
       "response_sha256": "561042fa84c759ec85f5affeae9cb433e717481965e26f7e7fa8b305e33c319d"
     },
     "@ruvector/learning-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Flearning-wasm",
-      "retrieved_at": "2026-10-12T12:50:03.141159Z",
+      "retrieved_at": "2026-10-12T13:03:02.973837Z",
       "response_sha256": "b38660fdc17a5ab0b381aae58fbdad605d4c59ef2713974057d0ad2307f462c4"
     },
     "@ruvector/math-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fmath-wasm",
-      "retrieved_at": "2026-10-12T12:50:03.319415Z",
+      "retrieved_at": "2026-10-12T13:03:02.980907Z",
       "response_sha256": "8c4d7034ce979105c12a50ad250db3bed5d0aa4372dd488eb17f898956a21d71"
     },
     "@ruvector/mincut-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fmincut-wasm",
-      "retrieved_at": "2026-10-12T12:50:09.808547Z",
+      "retrieved_at": "2026-10-12T13:03:07.668215Z",
       "response_sha256": "5dcb72826ddb9d9615ff4dc4ab1bfe99396554fa2b57e4eeed68660a09139673"
     },
     "@ruvector/nervous-system-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fnervous-system-wasm",
-      "retrieved_at": "2026-10-12T12:50:10.047699Z",
+      "retrieved_at": "2026-10-12T13:03:07.695810Z",
       "response_sha256": "1763d1410768d545e5a14219371acab5d849ae024bf82c1158d58a5a093d88e6"
     },
     "@ruvector/neural-trader-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fneural-trader-wasm",
-      "retrieved_at": "2026-10-12T12:50:14.770756Z",
+      "retrieved_at": "2026-10-12T13:03:14.390766Z",
       "response_sha256": "7578edbe6bc2a332c4d1528fe8f55c1fd4134e7606d4c984a29c201fd4cce5b9"
     },
     "@ruvector/node": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fnode",
-      "retrieved_at": "2026-10-12T12:50:14.500724Z",
+      "retrieved_at": "2026-10-12T13:03:14.391486Z",
       "response_sha256": "2279d008ed164029d27991ab399374382a1fc81d627bcb21b6bfb59914e4a7fd"
     },
     "@ruvector/node-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fnode-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:50:19.253173Z",
+      "retrieved_at": "2026-10-12T13:03:17.651809Z",
       "response_sha256": "f171231d1a0417482c68660306f42d19b22cccb824b78be4e08886332f99ca66"
     },
     "@ruvector/node-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fnode-darwin-x64",
-      "retrieved_at": "2026-10-12T12:50:19.246476Z",
+      "retrieved_at": "2026-10-12T13:03:17.621583Z",
       "response_sha256": "799c1467937b25a1680ba67e3091675a9381f7d22cc194e57e5411d7b76f4aa5"
     },
     "@ruvector/node-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fnode-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:50:24.653993Z",
+      "retrieved_at": "2026-10-12T13:03:20.987790Z",
       "response_sha256": "a2959de59348b50ec108db667533174dc487bb32e82fc6c83190b34c7d91aa81"
     },
     "@ruvector/node-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fnode-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:50:24.663737Z",
+      "retrieved_at": "2026-10-12T13:03:21.025115Z",
       "response_sha256": "a04454285d74da1b1a45a65c6f71f14aed6d03bc55a83c3a45976a2b24ab01a5"
     },
     "@ruvector/node-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fnode-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:50:30.788847Z",
+      "retrieved_at": "2026-10-12T13:03:24.279169Z",
       "response_sha256": "d22badac0610e10641247bac885218192ef820573bccc6535c063dec1aa19cec"
     },
     "@ruvector/ospipe": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fospipe",
-      "retrieved_at": "2026-10-12T12:50:30.451809Z",
+      "retrieved_at": "2026-10-12T13:03:24.317746Z",
       "response_sha256": "e733553bc55c68ca52f0beb7d21b55be53af7130b551736683deec3684bc8c21"
     },
     "@ruvector/ospipe-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fospipe-wasm",
-      "retrieved_at": "2026-10-12T12:50:37.059507Z",
+      "retrieved_at": "2026-10-12T13:03:28.255983Z",
       "response_sha256": "4a44a3f6e1cced5260b10aaea4499a82e699d43a64c2b64ff641e15efa9e9752"
     },
     "@ruvector/pi-brain": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fpi-brain",
-      "retrieved_at": "2026-10-12T12:50:36.876394Z",
+      "retrieved_at": "2026-10-12T13:03:28.307972Z",
       "response_sha256": "f1ab22ed7ced2ee0b968a7e9a559d1d03ac8b1fa638e9d00b974e082f2e3aa90"
     },
     "@ruvector/postgres-cli": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fpostgres-cli",
-      "retrieved_at": "2026-10-12T12:50:43.353680Z",
+      "retrieved_at": "2026-10-12T13:03:31.350186Z",
       "response_sha256": "8734ad8376b4fdc809703cc6d0ef0a8c4267736e671a3a7355cfa03172555118"
     },
     "@ruvector/rabitq-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frabitq-wasm",
-      "retrieved_at": "2026-10-12T12:50:43.511544Z",
+      "retrieved_at": "2026-10-12T13:03:31.381661Z",
       "response_sha256": "29c2fc84d6ddeb5715462c56880fb10416dee8ea9da84de9997ea31c651fa72c"
     },
     "@ruvector/raft": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fraft",
-      "retrieved_at": "2026-10-12T12:50:49.414334Z",
+      "retrieved_at": "2026-10-12T13:03:36.436855Z",
       "response_sha256": "a3dc03433f3072c60ab70c8e3ae94f0474dfac4288d9e61e675a3abe111772be"
     },
     "@ruvector/replication": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Freplication",
-      "retrieved_at": "2026-10-12T12:50:49.542198Z",
+      "retrieved_at": "2026-10-12T13:03:36.471631Z",
       "response_sha256": "b0ec6cdc582330e272ae9194eb59a7489d308ef0fca1016bc5a78d515743c4d0"
     },
     "@ruvector/router": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frouter",
-      "retrieved_at": "2026-10-12T12:50:59.187036Z",
+      "retrieved_at": "2026-10-12T13:03:42.077691Z",
       "response_sha256": "38984c7a68eef9438515ca7bcefee4bc64562eb129431be2888ee18d972913cc"
     },
     "@ruvector/router-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frouter-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:50:59.233148Z",
+      "retrieved_at": "2026-10-12T13:03:42.103698Z",
       "response_sha256": "06057571d4a33c8e1b61b96947205416f147c9ee195284d8d15d3b2d4baafa9c"
     },
     "@ruvector/router-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frouter-darwin-x64",
-      "retrieved_at": "2026-10-12T12:51:04.139350Z",
+      "retrieved_at": "2026-10-12T13:03:45.815152Z",
       "response_sha256": "be6520c307f6e0de65e49dca52add2f1e82c5cfab8373e0af1667f6674f44588"
     },
     "@ruvector/router-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frouter-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:51:04.211511Z",
+      "retrieved_at": "2026-10-12T13:03:45.858598Z",
       "response_sha256": "f0e6463f504ef27d2c5760600a8d9692afe040d4d17c91563c249b8bcfd5b62b"
     },
     "@ruvector/router-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frouter-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:51:10.800424Z",
+      "retrieved_at": "2026-10-12T13:03:49.561944Z",
       "response_sha256": "8c17bc5005eb4e49e9ebb2a037c7119ecc2f8c749ff9332fbcd9a3b68c7c7bec"
     },
     "@ruvector/router-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frouter-wasm",
-      "retrieved_at": "2026-10-12T12:51:10.804999Z",
+      "retrieved_at": "2026-10-12T13:03:49.538632Z",
       "response_sha256": "bb89a216e905691f241050b6f32f38064f12c472eb8fef0d7da8ff4a496221e4"
     },
     "@ruvector/router-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frouter-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:51:17.915918Z",
+      "retrieved_at": "2026-10-12T13:03:54.288512Z",
       "response_sha256": "c7308f1e22f68d7247d823f808e60a30b50f8cfd9daa851cae6aa4ab004390ed"
     },
     "@ruvector/rudag": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frudag",
-      "retrieved_at": "2026-10-12T12:51:17.931114Z",
+      "retrieved_at": "2026-10-12T13:03:54.261213Z",
       "response_sha256": "112c452122f968009169411b8cd3bbe1c5758d5a0ae08519b0a50eb7b48c3694"
     },
     "@ruvector/ruqu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruqu",
-      "retrieved_at": "2026-10-12T12:51:25.628256Z",
+      "retrieved_at": "2026-10-12T13:03:57.663552Z",
       "response_sha256": "d7427ebf55f8ee5dba8eddf08ab0ff04374845964bc3fe59ba67940af76370ce"
     },
     "@ruvector/ruqu-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruqu-wasm",
-      "retrieved_at": "2026-10-12T12:51:25.674039Z",
+      "retrieved_at": "2026-10-12T13:03:57.702559Z",
       "response_sha256": "df2d6b9c13e380fbeb78379e4adc2a2c46dbb57ddb1e0fea50cfd63e464a4ade"
     },
     "@ruvector/ruvector-consciousness-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvector-consciousness-wasm",
-      "retrieved_at": "2026-10-12T12:51:33.822229Z",
+      "retrieved_at": "2026-10-12T13:04:02.200192Z",
       "response_sha256": "b80a9773653c16ece7b04d62ee9237d3cb31d6bbcde529fd14b6e531320b7364"
     },
     "@ruvector/ruvllm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm",
-      "retrieved_at": "2026-10-12T12:51:33.578076Z",
+      "retrieved_at": "2026-10-12T13:04:02.246531Z",
       "response_sha256": "d80fa23d5ca2ed9fdbccd48337e7fdf02aa8de4f437d0bcee528d088a81b91d5"
     },
     "@ruvector/ruvllm-cli": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm-cli",
-      "retrieved_at": "2026-10-12T12:51:42.755812Z",
+      "retrieved_at": "2026-10-12T13:04:08.076635Z",
       "response_sha256": "74ba24fa2da9495cffccae4b8bd70e52cc353dbedd04a1807f6116341bfda10f"
     },
     "@ruvector/ruvllm-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:51:42.985200Z",
+      "retrieved_at": "2026-10-12T13:04:08.042573Z",
       "response_sha256": "2bd92c3cfb45b362247d52ed74751daea8c7bf948763e43312381ee11afac5b7"
     },
     "@ruvector/ruvllm-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm-darwin-x64",
-      "retrieved_at": "2026-10-12T12:51:47.866080Z",
+      "retrieved_at": "2026-10-12T13:04:11.475370Z",
       "response_sha256": "2487f81c43d7d025cb8d48451f179aaa173d43079c228ff2a286816a0c0cea82"
     },
     "@ruvector/ruvllm-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:51:47.758498Z",
+      "retrieved_at": "2026-10-12T13:04:11.495254Z",
       "response_sha256": "f4aa096fb0168150b855afcb9096bb8d44cc9df94f9f571a2ef9a7963ea545b0"
     },
     "@ruvector/ruvllm-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:51:52.598614Z",
+      "retrieved_at": "2026-10-12T13:04:17.526073Z",
       "response_sha256": "749cb24aa5b660c505c93d44b460f48cb808431d2b585fdf01932e872e8d622f"
     },
     "@ruvector/ruvllm-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm-wasm",
-      "retrieved_at": "2026-10-12T12:51:52.875622Z",
+      "retrieved_at": "2026-10-12T13:04:17.566931Z",
       "response_sha256": "cf444abe16c402fb34148b3f2ad701c7d216c878c0811d9f36acb99f982789cc"
     },
     "@ruvector/ruvllm-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fruvllm-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:52:00.776889Z",
+      "retrieved_at": "2026-10-12T13:04:22.160517Z",
       "response_sha256": "9787d3511de3e28a033d42b0a61c6c53cf752e8b9664c14e2af4efcc99977d1c"
     },
     "@ruvector/rvagent-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvagent-wasm",
-      "retrieved_at": "2026-10-12T12:52:00.771057Z",
+      "retrieved_at": "2026-10-12T13:04:22.141765Z",
       "response_sha256": "39023b499f279b67e24f4a462fa1a80ccb593fd79c90f09161ce123b31e64925"
     },
     "@ruvector/rvdna": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvdna",
-      "retrieved_at": "2026-10-12T12:52:06.420333Z",
+      "retrieved_at": "2026-10-12T13:04:28.640180Z",
       "response_sha256": "7d807ba12cbdac7dcf484222c7dfec28f6f44954f71acc98459a76fff97c501b"
     },
     "@ruvector/rvf": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf",
-      "retrieved_at": "2026-10-12T12:52:06.383858Z",
+      "retrieved_at": "2026-10-12T13:04:28.673976Z",
       "response_sha256": "bc081c1cc1ce549229e397641de7898ced99db63bcda2329aa73e5aaa2461b30"
     },
     "@ruvector/rvf-mcp-server": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-mcp-server",
-      "retrieved_at": "2026-10-12T12:52:11.399055Z",
+      "retrieved_at": "2026-10-12T13:04:35.061626Z",
       "response_sha256": "9bddfccc305dffc7b8bba435edf449123edc1f7db26e45fa4aa316b76f39a935"
     },
     "@ruvector/rvf-node": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-node",
-      "retrieved_at": "2026-10-12T12:52:11.472934Z",
+      "retrieved_at": "2026-10-12T13:04:35.029428Z",
       "response_sha256": "5096353c606d7a14c2dec8cda8303aa9086103b53dab48be1d73e6a73450f321"
     },
     "@ruvector/rvf-node-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-node-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:52:16.890833Z",
+      "retrieved_at": "2026-10-12T13:04:38.058033Z",
       "response_sha256": "2f1506eda7353b4f7144b3a3f3c3232c99505cf5c5dae2419e90c43ad6db3a89"
     },
     "@ruvector/rvf-node-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-node-darwin-x64",
-      "retrieved_at": "2026-10-12T12:52:16.973642Z",
+      "retrieved_at": "2026-10-12T13:04:38.020577Z",
       "response_sha256": "9774548e8ea8b4e9ff8a91a4d01908663b62951ebfda4ea77435b4aa38c4cc00"
     },
     "@ruvector/rvf-node-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-node-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:52:22.237540Z",
+      "retrieved_at": "2026-10-12T13:04:41.859304Z",
       "response_sha256": "af17104c52fbe830d0640b706485a419ce1e3406cec2fd5c19bb4e05c7fd1c91"
     },
     "@ruvector/rvf-node-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-node-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:52:22.058920Z",
+      "retrieved_at": "2026-10-12T13:04:41.896874Z",
       "response_sha256": "5bbfcbe80465beb46a8cf2f64257c9edcfd7c2f6d9f3e9079350474e3a0ac306"
     },
     "@ruvector/rvf-node-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-node-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:52:29.198529Z",
+      "retrieved_at": "2026-10-12T13:04:46.562634Z",
       "response_sha256": "ebcdf3601d208555155910b2fd2f01616b1aee9117f1b2d0064d0923e76dd4de"
     },
     "@ruvector/rvf-solver": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-solver",
-      "retrieved_at": "2026-10-12T12:52:29.119068Z",
+      "retrieved_at": "2026-10-12T13:04:46.530414Z",
       "response_sha256": "40e2a300f9386a3c0c21f5f4b00565fc8721f7f5b94fa78fa85c13ad85e5e48b"
     },
     "@ruvector/rvf-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvf-wasm",
-      "retrieved_at": "2026-10-12T12:52:35.285281Z",
+      "retrieved_at": "2026-10-12T13:04:50.158229Z",
       "response_sha256": "01442ce9016b07d63b75d8795f3570c7c323ba6a32ab906522595b1f3a875098"
     },
     "@ruvector/rvforge": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvforge",
-      "retrieved_at": "2026-10-12T12:52:35.384816Z",
+      "retrieved_at": "2026-10-12T13:04:50.233275Z",
       "response_sha256": "8746d210d2eb36d05270035e6bceca43bb6eff67c79438cdeebbbdcdcdae912c"
     },
     "@ruvector/rvlite": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Frvlite",
-      "retrieved_at": "2026-10-12T12:52:44.662915Z",
+      "retrieved_at": "2026-10-12T13:04:53.837765Z",
       "response_sha256": "df08c593df70c00ac2d875dfb394547b5b9a530b74136ed7a81efe3ba8bea541"
     },
     "@ruvector/scipix": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fscipix",
-      "retrieved_at": "2026-10-12T12:52:44.699070Z",
+      "retrieved_at": "2026-10-12T13:04:53.863344Z",
       "response_sha256": "f25350ae40ca9e8f9ca14cf48a60e91069738799e80aa56efa8275d87535612b"
     },
     "@ruvector/server": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fserver",
-      "retrieved_at": "2026-10-12T12:52:50.025519Z",
+      "retrieved_at": "2026-10-12T13:04:57.407567Z",
       "response_sha256": "f3c229988a72fb7a460aabeebf87fc52da7c66eff05be270c0c56bb6aa97ab10"
     },
     "@ruvector/sona": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona",
-      "retrieved_at": "2026-10-12T12:52:49.950261Z",
+      "retrieved_at": "2026-10-12T13:04:57.446632Z",
       "response_sha256": "07f6e55fce8260247d90e20bde4134b1aec56a4ebd34ddc9403c3afc581ac689"
     },
     "@ruvector/sona-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:52:54.766960Z",
+      "retrieved_at": "2026-10-12T13:05:02.230092Z",
       "response_sha256": "484c9707c82118761c34bd1869b023df6b1cc6cb01f52e0c579e757bf6822494"
     },
     "@ruvector/sona-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona-darwin-x64",
-      "retrieved_at": "2026-10-12T12:52:54.824889Z",
+      "retrieved_at": "2026-10-12T13:05:02.239682Z",
       "response_sha256": "cb274b4d34cdd706c728f32485f855ae2e417803b4f5fbbff738a5b137676747"
     },
     "@ruvector/sona-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:53:00.140571Z",
+      "retrieved_at": "2026-10-12T13:05:06.203626Z",
       "response_sha256": "59ebe65c7fd672c120946ba7a6bd9e928684efb4023e7415fa4e0b1d213403a3"
     },
     "@ruvector/sona-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:52:59.947449Z",
+      "retrieved_at": "2026-10-12T13:05:06.151498Z",
       "response_sha256": "75649d18b4923f68d3aa04eeac56eb3f2b0fcc8f48a0114efd7785964ec38c83"
     },
     "@ruvector/sona-linux-x64-musl": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona-linux-x64-musl",
-      "retrieved_at": "2026-10-12T12:53:04.817168Z",
+      "retrieved_at": "2026-10-12T13:05:09.827293Z",
       "response_sha256": "47adaff74883cbd7430738e757896db977601ff353badd3e24054bff81f0a43d"
     },
     "@ruvector/sona-win32-arm64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona-win32-arm64-msvc",
-      "retrieved_at": "2026-10-12T12:53:05.080175Z",
+      "retrieved_at": "2026-10-12T13:05:09.835002Z",
       "response_sha256": "7a8dc6c8a0ec5b085d54b9258a52ca9d7e0753e33a279d3a622f2c83db276580"
     },
     "@ruvector/sona-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fsona-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:53:11.970963Z",
+      "retrieved_at": "2026-10-12T13:05:13.839120Z",
       "response_sha256": "c50ccd5406a2e06a4144513a0af9fedb81cbdb1332687d83b89c60f2285b7f75"
     },
     "@ruvector/spiking-neural": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fspiking-neural",
-      "retrieved_at": "2026-10-12T12:53:12.220191Z",
+      "retrieved_at": "2026-10-12T13:05:13.806217Z",
       "response_sha256": "c4910d381bfa972e6ce003648f06c37dcbf6c70e64c3b65143b4d5230794f453"
     },
     "@ruvector/tiny-dancer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer",
-      "retrieved_at": "2026-10-12T12:53:18.393488Z",
+      "retrieved_at": "2026-10-12T13:05:17.506009Z",
       "response_sha256": "71401bdeff36c7c48aa8bf731d8fece7768409434b2f4d1bbc725a0efecfa7df"
     },
     "@ruvector/tiny-dancer-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:53:18.414961Z",
+      "retrieved_at": "2026-10-12T13:05:17.547384Z",
       "response_sha256": "b211860489def672abbac23cce53903df3af5108a0f2e725105e48d2f469f2a8"
     },
     "@ruvector/tiny-dancer-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-darwin-x64",
-      "retrieved_at": "2026-10-12T12:53:24.455376Z",
+      "retrieved_at": "2026-10-12T13:05:21.860493Z",
       "response_sha256": "4f6c2401dec17bc3cdc03a0c23fb6c26d0f35f1ca46bf4aea86c117051d83544"
     },
     "@ruvector/tiny-dancer-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:53:24.268490Z",
+      "retrieved_at": "2026-10-12T13:05:21.818542Z",
       "response_sha256": "2cbb4513f4cbf775aad81c9e6567b566fc780da1c3ef4366904a7cd714327096"
     },
     "@ruvector/tiny-dancer-linux-arm64-musl": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-linux-arm64-musl",
-      "retrieved_at": "2026-10-12T12:53:29.184238Z",
+      "retrieved_at": "2026-10-12T13:05:26.220747Z",
       "response_sha256": "7133391ec2139f5432fd5d6f0090fff03e97d2fd0b01445f11690fc4ecb13ef4"
     },
     "@ruvector/tiny-dancer-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:53:29.336858Z",
+      "retrieved_at": "2026-10-12T13:05:26.267050Z",
       "response_sha256": "1e3cff3c16642af337c6bc339d849762391c7d4cf75baaeab9095e5631d3d551"
     },
     "@ruvector/tiny-dancer-linux-x64-musl": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-linux-x64-musl",
-      "retrieved_at": "2026-10-12T12:53:34.190455Z",
+      "retrieved_at": "2026-10-12T13:05:29.777449Z",
       "response_sha256": "14854610197be6cb8bdec46d94e0a63d610a601f1fdff8c30a2ecfb7493a2c65"
     },
     "@ruvector/tiny-dancer-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-wasm",
-      "retrieved_at": "2026-10-12T12:53:34.006439Z",
+      "retrieved_at": "2026-10-12T13:05:29.831416Z",
       "response_sha256": "1513b13861d588506afbe726ae77426cb9f6d5dcc704d865434452eb58bde8d5"
     },
     "@ruvector/tiny-dancer-win32-arm64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-win32-arm64-msvc",
-      "retrieved_at": "2026-10-12T12:53:41.401267Z",
+      "retrieved_at": "2026-10-12T13:05:34.095548Z",
       "response_sha256": "f6f2818ff090b357b539918ab2f464c88dd8d9482d3b067f9d7fb3ac8d8b9d50"
     },
     "@ruvector/tiny-dancer-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftiny-dancer-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:53:41.312680Z",
+      "retrieved_at": "2026-10-12T13:05:34.067372Z",
       "response_sha256": "c7d57a501186a59343e93850bbc7337bdfddf7f8a976c7b3555e7df484fa42be"
     },
     "@ruvector/typesafe": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftypesafe",
-      "retrieved_at": "2026-10-12T12:53:46.369897Z",
+      "retrieved_at": "2026-10-12T13:05:39.339962Z",
       "response_sha256": "ffa52de466deaddbb396bc48319c3d9068d0632feff873231f5150744749ad2e"
     },
     "@ruvector/typesafe-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftypesafe-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:53:46.304208Z",
+      "retrieved_at": "2026-10-12T13:05:39.278082Z",
       "response_sha256": "e8691288761ab677a2a76a9b7f88912e62e81bd56a24803b372c0ae775f9dfc7"
     },
     "@ruvector/typesafe-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftypesafe-darwin-x64",
-      "retrieved_at": "2026-10-12T12:53:52.917425Z",
+      "retrieved_at": "2026-10-12T13:05:43.728778Z",
       "response_sha256": "7f1214091f7e91a999fff3ba5d952208baa38fe2611de3fd277aea6e9fe3a83c"
     },
     "agentbbs": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agentbbs",
-      "retrieved_at": "2026-10-12T12:54:47.083453Z",
+      "retrieved_at": "2026-10-12T13:06:19.582117Z",
       "response_sha256": "2df09dd9ed36e49a45ea981310285bd1ebb0a50f8788ee423d0e21807b3ec9a0"
     },
     "agentdb": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agentdb",
-      "retrieved_at": "2026-10-12T12:54:47.111896Z",
+      "retrieved_at": "2026-10-12T13:06:19.619969Z",
       "response_sha256": "b00be37eff2a38ffcfba8d7153c28ec6cb6b34f669203be0691e2ccdd67222ab"
     },
     "agentic-flow": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agentic-flow",
-      "retrieved_at": "2026-10-12T12:54:51.748946Z",
+      "retrieved_at": "2026-10-12T13:06:23.108214Z",
       "response_sha256": "fb83f46ee2aaadf95e36e1adccc3a50cb50b42e411add54cee91123af82597f4"
     },
     "agentic-jujutsu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agentic-jujutsu",
-      "retrieved_at": "2026-10-12T12:54:51.748358Z",
+      "retrieved_at": "2026-10-12T13:06:23.084551Z",
       "response_sha256": "540fd147220909ae5dbc58ba5e43462f891403227c5ec31975e748a0d403ca0c"
     },
     "agentic-payments": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agentic-payments",
-      "retrieved_at": "2026-10-12T12:54:56.806530Z",
+      "retrieved_at": "2026-10-12T13:06:27.592540Z",
       "response_sha256": "4cf73af9469de6544922092431acd46fb11177eaf8d5e2bb6e1259e402588a16"
     },
     "agentic-robotics": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agentic-robotics",
-      "retrieved_at": "2026-10-12T12:54:56.763597Z",
+      "retrieved_at": "2026-10-12T13:06:27.612263Z",
       "response_sha256": "ad7ca2ca540e6906bc63d6ba6e4f5719b1e2abfc73b65492b7eed2c998354acc"
     },
     "agenticow": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agenticow",
-      "retrieved_at": "2026-10-12T12:55:01.456049Z",
+      "retrieved_at": "2026-10-12T13:06:31.291697Z",
       "response_sha256": "9668bd23cfa645968278464ebde2362f54e3869f078cd30ed20ec22b91c808ce"
     },
     "agentics-hackathon": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agentics-hackathon",
-      "retrieved_at": "2026-10-12T12:55:01.676659Z",
+      "retrieved_at": "2026-10-12T13:06:31.322085Z",
       "response_sha256": "6b41e72063f5cdde41e378c21088837741eee70f20f87091b95f9c79c136bcc9"
     },
     "agenticsjs": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agenticsjs",
-      "retrieved_at": "2026-10-12T12:55:07.034238Z",
+      "retrieved_at": "2026-10-12T13:06:35.300290Z",
       "response_sha256": "248477f6486276b7df64cec0fa20f6dbbd34cf17e4fd9b712ebc4afe3baf61c9"
     },
     "ai-text-watermark": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ai-text-watermark",
-      "retrieved_at": "2026-10-12T12:55:06.981428Z",
+      "retrieved_at": "2026-10-12T13:06:35.326014Z",
       "response_sha256": "1bc80c4b5da30ff04832d55d579278d1fb38867550ff3bb0fefdd7fdf41ff281"
     },
     "aidefence": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/aidefence",
-      "retrieved_at": "2026-10-12T12:55:11.966771Z",
+      "retrieved_at": "2026-10-12T13:06:38.663134Z",
       "response_sha256": "214e6c8220760d0f37fd0e8f3ab20b22a32d2ffbef3188beee00e205bcd72661"
     },
     "aidefense": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/aidefense",
-      "retrieved_at": "2026-10-12T12:55:11.790408Z",
+      "retrieved_at": "2026-10-12T13:06:38.691436Z",
       "response_sha256": "4c4d040a27f2da0c2d2227623530e79efc9f4e316e7092bef81fbe8d2d090ae8"
     },
     "ruvector-core-darwin-x64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-core-darwin-x64",
-      "retrieved_at": "2026-10-12T12:57:14.860380Z",
+      "retrieved_at": "2026-10-12T13:07:50.548204Z",
       "response_sha256": "7afa966385742e05af04112eb155eb1d15926597beb2d292871358b522748c7d"
     },
     "ruvector-math-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-math-wasm",
-      "retrieved_at": "2026-10-12T12:57:36.140599Z",
+      "retrieved_at": "2026-10-12T13:08:07.304878Z",
       "response_sha256": "7dbfe71f1bb162fb8951a4a88cb82de84f4c249827b0a380b226606308f65558"
     },
     "ruvi": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvi",
-      "retrieved_at": "2026-10-12T12:57:46.231116Z",
+      "retrieved_at": "2026-10-12T13:08:15.461259Z",
       "response_sha256": "be819c897f12abbe998493e33b48b0ae2e182996d50fee633c1c88f34b48a910"
     },
     "ruvllm-esp32": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvllm-esp32",
-      "retrieved_at": "2026-10-12T12:57:51.968742Z",
+      "retrieved_at": "2026-10-12T13:08:20.328763Z",
       "response_sha256": "53f57e17895a2a4b45566521c233c869321ec270344ffc28c2254fe9062b31f4"
     },
     "ruvneural": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvneural",
-      "retrieved_at": "2026-10-12T12:57:52.027543Z",
+      "retrieved_at": "2026-10-12T13:08:20.292777Z",
       "response_sha256": "314a410e481fcf91af50ce6ce03b48e5c54b0942818390795a9777c624049ad3"
     },
     "rvlite": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/rvlite",
-      "retrieved_at": "2026-10-12T12:57:56.818204Z",
+      "retrieved_at": "2026-10-12T13:08:24.162634Z",
       "response_sha256": "7a402477645c347ff883ffb32fd0616e771e320450c777cd1789d755bcce157f"
     },
     "spiking-neural": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/spiking-neural",
-      "retrieved_at": "2026-10-12T12:57:56.882830Z",
+      "retrieved_at": "2026-10-12T13:08:24.209575Z",
       "response_sha256": "a7b41223aced8af3dcb6f8a7f9c640513ddfc41b56df572cbea6aa51fd0b4942"
     },
     "strange-loops": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/strange-loops",
-      "retrieved_at": "2026-10-12T12:58:04.786031Z",
+      "retrieved_at": "2026-10-12T13:08:28.737547Z",
       "response_sha256": "8b8d62d31560a42310392cb41660e6de1f904de503aa4c9415b300249f772a5e"
     },
     "strange-loops-mcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/strange-loops-mcp",
-      "retrieved_at": "2026-10-12T12:58:04.821514Z",
+      "retrieved_at": "2026-10-12T13:08:28.769770Z",
       "response_sha256": "ba199ed17543f15ff81a8234c2e4482bb06472023b3d70c83dc66fd0c97f182d"
     },
     "sublinear-time-solver": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/sublinear-time-solver",
-      "retrieved_at": "2026-10-12T12:58:24.079035Z",
+      "retrieved_at": "2026-10-12T13:08:33.754017Z",
       "response_sha256": "18f84f7e5c805c296eeeb963658301e48110ffb3f8dd8fa9e167fae5185f8e39"
     },
     "symbolic-scribe-harness": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/symbolic-scribe-harness",
-      "retrieved_at": "2026-10-12T12:58:24.123416Z",
+      "retrieved_at": "2026-10-12T13:08:33.780241Z",
       "response_sha256": "5086b26f7204094c468224535edacbebdfafb51e95411476fbfa91b15309edfa"
     },
     "temporal-lead-solver": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/temporal-lead-solver",
-      "retrieved_at": "2026-10-12T12:58:28.886810Z",
+      "retrieved_at": "2026-10-12T13:08:39.167631Z",
       "response_sha256": "0d592737752a9214f7a95b7613b7dd82b16def4f6f313a91f1c678ce617788bd"
     },
     "temporal-neural-solver": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/temporal-neural-solver",
-      "retrieved_at": "2026-10-12T12:58:28.844099Z",
+      "retrieved_at": "2026-10-12T13:08:39.181859Z",
       "response_sha256": "957fcba30f65e2de82ed6fb3dae2b84703ae7fda9eeea13a235ed22f813447d8"
     },
     "vscode-remote-mcp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/vscode-remote-mcp",
-      "retrieved_at": "2026-10-12T12:58:32.707254Z",
+      "retrieved_at": "2026-10-12T13:08:43.298106Z",
       "response_sha256": "fc4fb9fc9bc502e2ebe11220efa2a2b7d7c7bbb76c5eb6d6a1d2015406b86435"
     },
     "@ruvector/typesafe-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftypesafe-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:53:52.761938Z",
+      "retrieved_at": "2026-10-12T13:05:43.760822Z",
       "response_sha256": "7d8474cf298dc04e26bd4d51df97e31d40147040ae72341a14b601ea4ed930f2"
     },
     "@ruvector/typesafe-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftypesafe-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:53:58.253589Z",
+      "retrieved_at": "2026-10-12T13:05:47.927805Z",
       "response_sha256": "2f441028f08da289eb3dac06b0e90106d2614740367379129fefa576f27231da"
     },
     "@ruvector/typesafe-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Ftypesafe-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:53:58.341289Z",
+      "retrieved_at": "2026-10-12T13:05:47.928613Z",
       "response_sha256": "dcbdb264a164cf9d23a7f636058c61b6c55742a11a76e28938f8413052cb9575"
     },
     "@ruvector/wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fwasm",
-      "retrieved_at": "2026-10-12T12:54:03.619126Z",
+      "retrieved_at": "2026-10-12T13:05:53.672277Z",
       "response_sha256": "90d69aab9394d599c7b0ee2908b3a8dbfac2682c70e61706a7b6da655e20f5ff"
     },
     "@ruvector/wasm-unified": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvector%2Fwasm-unified",
-      "retrieved_at": "2026-10-12T12:54:03.546615Z",
+      "retrieved_at": "2026-10-12T13:05:53.640804Z",
       "response_sha256": "15fa2638a68280465f8cd568287b9cee6f0252cb3cbd702c7c9a6a20936070a7"
     },
     "@ruvnet/agent-harness-generator": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fagent-harness-generator",
-      "retrieved_at": "2026-10-12T12:54:08.623696Z",
+      "retrieved_at": "2026-10-12T13:05:57.239571Z",
       "response_sha256": "3e223308846fe8a3b1411fe42153dd81ee07a86d4cf469425c0ca3bfdaf1a584"
     },
     "@ruvnet/bmssp": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fbmssp",
-      "retrieved_at": "2026-10-12T12:54:08.554125Z",
+      "retrieved_at": "2026-10-12T13:05:57.244027Z",
       "response_sha256": "b5a42c059faf68287a8fec92bb0a258ec01b6d02914722b183d717a80879b2d6"
     },
     "@ruvnet/open-claude-code": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fopen-claude-code",
-      "retrieved_at": "2026-10-12T12:54:14.225797Z",
+      "retrieved_at": "2026-10-12T13:06:02.027943Z",
       "response_sha256": "21b158384e74a812453731b78a02c0e841366f669a47340641225d2db8cb527c"
     },
     "@ruvnet/ruvector-verified-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fruvector-verified-wasm",
-      "retrieved_at": "2026-10-12T12:54:14.320305Z",
+      "retrieved_at": "2026-10-12T13:06:02.062420Z",
       "response_sha256": "08a775e57f4e2206b241835d5531be8831a6ffdbf4bcc5401c0d7d94dd2ddacd"
     },
     "@ruvnet/ruview": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fruview",
-      "retrieved_at": "2026-10-12T12:54:32.848030Z",
+      "retrieved_at": "2026-10-12T13:06:05.760459Z",
       "response_sha256": "ec3bdef6f08841075796e4689573298917196850f72b04873b0e9d9f492e38a4"
     },
     "@ruvnet/ruview-kernel": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fruview-kernel",
-      "retrieved_at": "2026-10-12T12:54:33.257259Z",
+      "retrieved_at": "2026-10-12T13:06:05.787811Z",
       "response_sha256": "dc09dc1ef729d3d3b476c84b66937ed26e0244c9bc915ee249bf9edc6dc221cf"
     },
     "@ruvnet/ruvn": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fruvn",
-      "retrieved_at": "2026-10-12T12:54:37.345541Z",
+      "retrieved_at": "2026-10-12T13:06:09.731994Z",
       "response_sha256": "3c899082ef0703cb3b38e98668e191fa0342a99ee44a02495bd106c8d9f93e9f"
     },
     "@ruvnet/rvagent": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Frvagent",
-      "retrieved_at": "2026-10-12T12:54:37.433364Z",
+      "retrieved_at": "2026-10-12T13:06:09.757427Z",
       "response_sha256": "12e8449cf635061ffadc7a8281c8e2dd6fe30156d1865a57caba34c02e637ae1"
     },
     "@ruvnet/strange-loop": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/%40ruvnet%2Fstrange-loop",
-      "retrieved_at": "2026-10-12T12:54:42.184013Z",
+      "retrieved_at": "2026-10-12T13:06:15.966441Z",
       "response_sha256": "741d7345a19a901e8877de3062ec67c6bee06e62cef3ac784daab9602eae816e"
     },
     "agent-booster": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/agent-booster",
-      "retrieved_at": "2026-10-12T12:54:42.129494Z",
+      "retrieved_at": "2026-10-12T13:06:15.996660Z",
       "response_sha256": "3e59e806f0479e8b967a4f4ce2d1878f18d6469ba3d69208fae27b61beb315d4"
     },
     "bmssp-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/bmssp-wasm",
-      "retrieved_at": "2026-10-12T12:55:17.758017Z",
+      "retrieved_at": "2026-10-12T13:06:43.067198Z",
       "response_sha256": "51cc6d15c216dac0acc6e541c89e11bdd7ec1fc9c5ed7bc3f1b731ebf0014c40"
     },
     "claude-flow": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/claude-flow",
-      "retrieved_at": "2026-10-12T12:55:17.703262Z",
+      "retrieved_at": "2026-10-12T13:06:43.108173Z",
       "response_sha256": "6be3a7cf3fcc8d1fddd63fd62a2a38937a9934ec2c3cbfab9a7a4d463971a834"
     },
     "claude-flow-v3": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/claude-flow-v3",
-      "retrieved_at": "2026-10-12T12:55:23.689868Z",
+      "retrieved_at": "2026-10-12T13:06:46.415608Z",
       "response_sha256": "5f2897f69e6d017e67cdc6b07741579ddb4449e99af236cbd8d9a2c0cd8fc446"
     },
     "cogmusic": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/cogmusic",
-      "retrieved_at": "2026-10-12T12:55:23.844459Z",
+      "retrieved_at": "2026-10-12T13:06:46.446438Z",
       "response_sha256": "ace88be924364bb1af68fca771fe3acff3cec75dbf4e89dd487895e73c8ad4a3"
     },
     "consciousness-explorer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/consciousness-explorer",
-      "retrieved_at": "2026-10-12T12:55:29.495167Z",
+      "retrieved_at": "2026-10-12T13:06:50.575798Z",
       "response_sha256": "8f73a84999545853c33ff2cee8d443251e8b6cc012480453efcdeea7288bd25f"
     },
     "create-sparc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/create-sparc",
-      "retrieved_at": "2026-10-12T12:55:29.537148Z",
+      "retrieved_at": "2026-10-12T13:06:50.613971Z",
       "response_sha256": "23c7a928a35d4874f9fc0c76350c0acdd5238f51ec60a090b63e714f27ce1d93"
     },
     "cuda-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/cuda-wasm",
-      "retrieved_at": "2026-10-12T12:55:35.090278Z",
+      "retrieved_at": "2026-10-12T13:06:53.724820Z",
       "response_sha256": "8a28afbca54affe9e0bc3c719983e1597ffb33bd7881958c7fa9b153959ee242"
     },
     "dream-machine": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/dream-machine",
-      "retrieved_at": "2026-10-12T12:55:35.137711Z",
+      "retrieved_at": "2026-10-12T13:06:53.756282Z",
       "response_sha256": "70297d88db3f71d2349a774433db8ed7bc3f8624043a407e33ff800cc3476494"
     },
     "dspy.ts": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/dspy.ts",
-      "retrieved_at": "2026-10-12T12:55:40.662560Z",
+      "retrieved_at": "2026-10-12T13:06:57.837918Z",
       "response_sha256": "09b21c6ca3b395c273f65667c7c69a5238ffa6031038862e45cc95ca3635eaf2"
     },
     "flow-nexus": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/flow-nexus",
-      "retrieved_at": "2026-10-12T12:55:40.680702Z",
+      "retrieved_at": "2026-10-12T13:06:57.811080Z",
       "response_sha256": "fe65d160b4ebffe1ddbef83dd77b8719aee23d556a053bea69e354697724994b"
     },
     "goalie": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/goalie",
-      "retrieved_at": "2026-10-12T12:55:45.396375Z",
+      "retrieved_at": "2026-10-12T13:07:01.769598Z",
       "response_sha256": "4b640fbae21d01a250b7d7d1e8f80da99ad686523a27f7981a286183f3d21de9"
     },
     "homecore": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/homecore",
-      "retrieved_at": "2026-10-12T12:55:45.235528Z",
+      "retrieved_at": "2026-10-12T13:07:01.739699Z",
       "response_sha256": "cc347cd6d335ed2a1b723dcdde70eb92f4aa00947a5b076f2544b883478960bf"
     },
     "lean-agentic": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/lean-agentic",
-      "retrieved_at": "2026-10-12T12:55:51.912014Z",
+      "retrieved_at": "2026-10-12T13:07:04.897028Z",
       "response_sha256": "36b3a47fb60abf26cda1745f7a47a9766e2290e7c4d21908653f9ead3f53e15d"
     },
     "llm-stream-reformat": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/llm-stream-reformat",
-      "retrieved_at": "2026-10-12T12:55:51.794152Z",
+      "retrieved_at": "2026-10-12T13:07:04.927772Z",
       "response_sha256": "43511578c9c2579b428c1a49735d8edeb935db51e58901c2818c0a315431f1c9"
     },
     "metaharness": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/metaharness",
-      "retrieved_at": "2026-10-12T12:55:57.010267Z",
+      "retrieved_at": "2026-10-12T13:07:08.493729Z",
       "response_sha256": "9b517cc5c6105023e6221ac074ea661e19b6007082085de75dcc494b59da114b"
     },
     "midstreamer": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/midstreamer",
-      "retrieved_at": "2026-10-12T12:55:57.045179Z",
+      "retrieved_at": "2026-10-12T13:07:08.468547Z",
       "response_sha256": "b0ba81b62ed3603a985b0e9d9ba8996e10ae8405029279253750929c36e525d4"
     },
     "neural-trader": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/neural-trader",
-      "retrieved_at": "2026-10-12T12:56:01.790344Z",
+      "retrieved_at": "2026-10-12T13:07:11.776780Z",
       "response_sha256": "96d1c5cec951bf1089b5c676c215841b1f5c5a55e6dca1f10a8563556f5eb313"
     },
     "prime-radiant-advanced-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/prime-radiant-advanced-wasm",
-      "retrieved_at": "2026-10-12T12:56:01.956745Z",
+      "retrieved_at": "2026-10-12T13:07:11.787443Z",
       "response_sha256": "9d3b51e2c5622fa5fbb9423d19c47eb710e9af48b706a2c5639c516f39e6ca3f"
     },
     "psycho-symbolic-integration": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/psycho-symbolic-integration",
-      "retrieved_at": "2026-10-12T12:56:21.233350Z",
+      "retrieved_at": "2026-10-12T13:07:15.370099Z",
       "response_sha256": "3228a1ae5948503adb4b3597b3e4bb26e1b8c9b3a30eb98c5217bcdacb439d39"
     },
     "psycho-symbolic-reasoner": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/psycho-symbolic-reasoner",
-      "retrieved_at": "2026-10-12T12:56:21.462907Z",
+      "retrieved_at": "2026-10-12T13:07:15.392860Z",
       "response_sha256": "212265f27617215c781479d3138c719bf71e86a28bd43b2be90496f66f8ba0a2"
     },
     "qudag": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/qudag",
-      "retrieved_at": "2026-10-12T12:56:26.386911Z",
+      "retrieved_at": "2026-10-12T13:07:19.240020Z",
       "response_sha256": "6ab0ab14740a586cc2978048809a7cbcff4c19bdad76594da081523c57488532"
     },
     "radio-moe": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/radio-moe",
-      "retrieved_at": "2026-10-12T12:56:26.272528Z",
+      "retrieved_at": "2026-10-12T13:07:19.266838Z",
       "response_sha256": "daea7a7f826151eba2115017e2a75dd5cf10e104753765ed17c3df20d7ea2ef3"
     },
     "research-swarm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/research-swarm",
-      "retrieved_at": "2026-10-12T12:56:31.257584Z",
+      "retrieved_at": "2026-10-12T13:07:23.096722Z",
       "response_sha256": "39401b793d6262356800c539e73b8a9101a10a49936824c5b9d7bca52d592c35"
     },
     "rucelium-harness": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/rucelium-harness",
-      "retrieved_at": "2026-10-12T12:56:36.612092Z",
+      "retrieved_at": "2026-10-12T13:07:28.123181Z",
       "response_sha256": "19665c1bc93b81ca3e8ae128f1eeeed35c2e4bc85a7d2efe452fb5a05438a836"
     },
     "ruflo": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruflo",
-      "retrieved_at": "2026-10-12T12:56:36.657173Z",
+      "retrieved_at": "2026-10-12T13:07:28.167726Z",
       "response_sha256": "8acdcc0384b02d91dd492f1aac83697a0f0268607ee8388ba8bde38b66e26369"
     },
     "ruflo-graph-intelligence": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruflo-graph-intelligence",
-      "retrieved_at": "2026-10-12T12:56:41.842873Z",
+      "retrieved_at": "2026-10-12T13:07:31.338110Z",
       "response_sha256": "93e132c5cb47707eb83010aa353aa0925bacc88cccf72a394f0a614c6a94adf1"
     },
     "rulake-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/rulake-wasm",
-      "retrieved_at": "2026-10-12T12:56:42.042781Z",
+      "retrieved_at": "2026-10-12T13:07:31.365467Z",
       "response_sha256": "a8e0dfa942da0b1ff75134c102ef334ee9975071aed410d01ae2f5682c3f7d37"
     },
     "rupixel": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/rupixel",
-      "retrieved_at": "2026-10-12T12:56:47.390268Z",
+      "retrieved_at": "2026-10-12T13:07:35.709803Z",
       "response_sha256": "3ecc34946381e4c87be726ada74aef97aecb1b1cc201a554fccda5a9b645a34d"
     },
     "ruv-swarm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruv-swarm",
-      "retrieved_at": "2026-10-12T12:56:47.262867Z",
+      "retrieved_at": "2026-10-12T13:07:35.739932Z",
       "response_sha256": "efcfabfd0173a211351b5104e7e2af3b50a0b508858c47936e31cb58d5e9642b"
     },
     "ruvbot": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvbot",
-      "retrieved_at": "2026-10-12T12:56:52.855768Z",
+      "retrieved_at": "2026-10-12T13:07:39.055154Z",
       "response_sha256": "c6a44286f650e86d795ed51eaf9a82f315bafe06fdba2d873ae91380f8cbc24f"
     },
     "ruvdrone": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvdrone",
-      "retrieved_at": "2026-10-12T12:56:52.895802Z",
+      "retrieved_at": "2026-10-12T13:07:39.015838Z",
       "response_sha256": "07c1bfac64ea2c7776e4662354944a0b1d123c8a376287837cc3be081284eda7"
     },
     "ruvector": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector",
-      "retrieved_at": "2026-10-12T12:56:59.942071Z",
+      "retrieved_at": "2026-10-12T13:07:42.507287Z",
       "response_sha256": "bdd7fec63daf982fff12a2e08eb5fbb6dfc20c8e0e97b3af6aaca05272dfc791"
     },
     "ruvector-attention-unified-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-attention-unified-wasm",
-      "retrieved_at": "2026-10-12T12:57:00.101463Z",
+      "retrieved_at": "2026-10-12T13:07:42.538884Z",
       "response_sha256": "dd2406dab8fe65eba26d815776cb92012e4b27ff4eb8ee47238d939745f6c603"
     },
     "ruvector-attention-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-attention-wasm",
-      "retrieved_at": "2026-10-12T12:57:05.277422Z",
+      "retrieved_at": "2026-10-12T13:07:46.833479Z",
       "response_sha256": "7143dad4352fdd95fce2fd21d8c6c2f8916052dfea76a8f34b1f44c66eb759a9"
     },
     "ruvector-core": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-core",
-      "retrieved_at": "2026-10-12T12:57:05.246865Z",
+      "retrieved_at": "2026-10-12T13:07:46.884599Z",
       "response_sha256": "4d2b0db94d6f509946ccf09256409a080ad57d44f1a9865bbc1b5213e7ed993d"
     },
     "ruvector-core-darwin-arm64": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-core-darwin-arm64",
-      "retrieved_at": "2026-10-12T12:57:14.796306Z",
+      "retrieved_at": "2026-10-12T13:07:50.515755Z",
       "response_sha256": "af7f8c5c419c209561158483ba77c7dfe6006719e1adc090e23681142bf401fa"
     },
     "ruvector-core-linux-arm64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-core-linux-arm64-gnu",
-      "retrieved_at": "2026-10-12T12:57:20.033601Z",
+      "retrieved_at": "2026-10-12T13:07:53.997298Z",
       "response_sha256": "84177bc6f430f25167d78d33c6f8e6d792d40c770efc4116341ca1caec6d21de"
     },
     "ruvector-core-linux-x64-gnu": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-core-linux-x64-gnu",
-      "retrieved_at": "2026-10-12T12:57:20.105982Z",
+      "retrieved_at": "2026-10-12T13:07:54.037050Z",
       "response_sha256": "9bf3bc290f391f6080a77e7edda649c4b4b16d4d71f8fbb4e608d40d68857c36"
     },
     "ruvector-core-win32-x64-msvc": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-core-win32-x64-msvc",
-      "retrieved_at": "2026-10-12T12:57:25.762632Z",
+      "retrieved_at": "2026-10-12T13:07:58.733039Z",
       "response_sha256": "26956920a80a279f38e8d1e559ac8b7d3244c50238f0581ee5a1dfa96f5e3d7d"
     },
     "ruvector-extensions": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-extensions",
-      "retrieved_at": "2026-10-12T12:57:25.837721Z",
+      "retrieved_at": "2026-10-12T13:07:58.781798Z",
       "response_sha256": "eea6ffbdc9fdf04d6ccb332f37d5a07a84f61abd2f61e775e3e2d130496d839a"
     },
     "ruvector-gnn-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-gnn-wasm",
-      "retrieved_at": "2026-10-12T12:57:31.057706Z",
+      "retrieved_at": "2026-10-12T13:08:02.758781Z",
       "response_sha256": "d971731175630153a272ba7d8c7fcbbc04014f4d7445aa79614e4a89de0bd64f"
     },
     "ruvector-graph-transformer-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-graph-transformer-wasm",
-      "retrieved_at": "2026-10-12T12:57:30.935203Z",
+      "retrieved_at": "2026-10-12T13:08:02.808966Z",
       "response_sha256": "acdef4813dfcbc45f328cdf54abeec195b9b0d4b460c3bea97eee8f08891df96"
     },
     "ruvector-mragent": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-mragent",
-      "retrieved_at": "2026-10-12T12:57:36.354725Z",
+      "retrieved_at": "2026-10-12T13:08:07.356732Z",
       "response_sha256": "a41a5d50d8665bddd8aa17ea1f27d2af11808cb56ffd081258ccf163b7956cb5"
     },
     "ruvector-onnx-embeddings-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-onnx-embeddings-wasm",
-      "retrieved_at": "2026-10-12T12:57:41.062821Z",
+      "retrieved_at": "2026-10-12T13:08:11.512085Z",
       "response_sha256": "221c6caa6f1a5b2b0a1901ec28e2774ccb3aac5cb9d0d128396b3fe216239794"
     },
     "ruvector-sona": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-sona",
-      "retrieved_at": "2026-10-12T12:57:41.258570Z",
+      "retrieved_at": "2026-10-12T13:08:11.484298Z",
       "response_sha256": "fb66bff2e055c7af6ce931fde8bdcb5afb844ba38497ce8b37af106d43c9fb90"
     },
     "ruvector-wasm": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/ruvector-wasm",
-      "retrieved_at": "2026-10-12T12:57:46.272017Z",
+      "retrieved_at": "2026-10-12T13:08:15.431533Z",
       "response_sha256": "cbb2e67f44445ee88a03d89752898ec218a36eb6392c3eaa324f45c387c44e4b"
     },
     "wifi-densepose-sar-harness": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/wifi-densepose-sar-harness",
-      "retrieved_at": "2026-10-12T12:58:32.702704Z",
+      "retrieved_at": "2026-10-12T13:08:43.335336Z",
       "response_sha256": "74c2f6dfa49d7dcd9d21d63612ee5de576d3038e05b93fb65dd7b360d7ac63b9"
     },
     "worldgraphs": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/worldgraphs",
-      "retrieved_at": "2026-10-12T12:58:38.115232Z",
+      "retrieved_at": "2026-10-12T13:08:46.502031Z",
       "response_sha256": "ef9f26abe402e2c4ed3826fff049f8145cea17f2c8dbfbbd99be94cc431346af"
     },
     "readme-proof": {
       "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/readme-proof",
-      "retrieved_at": "2026-10-12T12:56:31.195838Z",
+      "retrieved_at": "2026-10-12T13:07:23.102807Z",
       "response_sha256": "22c61a3b5ab13137786a97246c459c7d1a39d685fd6e0d01a7b0942063fa3280"
     }
   },
-  "updated_at": "2026-10-12T12:58:59.656602Z",
+  "updated_at": "2026-10-12T13:09:10.412512Z",
   "coverage": {
     "expected_packages": 399,
     "collected_packages": 399,

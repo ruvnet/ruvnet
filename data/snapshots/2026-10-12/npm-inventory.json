@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-10-12T12:40:22.794894Z",
+  "retrieved_at": "2026-10-12T12:52:59.018142Z",
   "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet",
   "packages": [
     "@agentic-robotics/cli",
@@ -405,13 +405,13 @@
   "responses": [
     {
       "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=0",
-      "retrieved_at": "2026-10-12T12:40:18.221095Z",
-      "response_sha256": "b9b934fc86e3eea9b414fbd67a189eff2dbc19bd15f2a774716e9af81fb5965a"
+      "retrieved_at": "2026-10-12T12:52:54.908702Z",
+      "response_sha256": "7503d13dbb5af155d7b38a687f31b276a99c3a742b9e6f9e2996e6afdfec89ca"
     },
     {
       "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=250",
-      "retrieved_at": "2026-10-12T12:40:22.794894Z",
-      "response_sha256": "cc727bccc993203b3b49ab62c35870a1546fcbbc829ce828036d49a787d4b62b"
+      "retrieved_at": "2026-10-12T12:52:59.018142Z",
+      "response_sha256": "10e09a0b9e228a0995f47774f89f612892fd57ba8e3dff3b7637e89acdb137b9"
     }
   ]
 }

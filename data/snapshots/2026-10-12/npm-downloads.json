@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-10-12T12:58:38.115232Z",
+  "retrieved_at": "2026-10-12T13:08:46.502031Z",
   "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/{urlencoded_package}",
   "requested_start": "2025-10-01",
   "requested_end": "2026-10-11",
@@ -1534,7 +1534,7 @@
       },
       "rolling_365_days": 2245,
       "response_sha256": "e0b45b55e4ab37a62e08af29ba1ce6959775ce94a0ad61ec35e4a2d3b27afc0f",
-      "retrieved_at": "2026-10-12T12:40:26.783880Z"
+      "retrieved_at": "2026-10-12T12:53:01.706013Z"
     },
     {
       "package": "@agentic-robotics/core",
@@ -1555,7 +1555,7 @@
       },
       "rolling_365_days": 1855,
       "response_sha256": "448500d6f249e158bb56f89e5cdf163a5e1abd53ed0921acfe7d2eed9d033c79",
-      "retrieved_at": "2026-10-12T12:40:26.620508Z"
+      "retrieved_at": "2026-10-12T12:53:01.688864Z"
     },
     {
       "package": "@agentic-robotics/linux-x64-gnu",
@@ -1576,7 +1576,7 @@
       },
       "rolling_365_days": 1626,
       "response_sha256": "e770dafce827cff74d5ae6424ab602a320010d16fe6f02cbdd45a6e479600f8b",
-      "retrieved_at": "2026-10-12T12:40:31.143124Z"
+      "retrieved_at": "2026-10-12T12:53:07.422810Z"
     },
     {
       "package": "@agentic-robotics/mcp",
@@ -1597,7 +1597,7 @@
       },
       "rolling_365_days": 2452,
       "response_sha256": "2d3ba8e004aea2b17b36e18e4fcbd1caf965ef38f3fcfd87c089ac6ebdf8954d",
-      "retrieved_at": "2026-10-12T12:40:31.453225Z"
+      "retrieved_at": "2026-10-12T12:53:07.393485Z"
     },
     {
       "package": "@agentic-robotics/self-learning",
@@ -1618,7 +1618,7 @@
       },
       "rolling_365_days": 1698,
       "response_sha256": "6132161ce0d089c9427053ff8992f9806ec97ad3ae6972e73451a9d8cfae6e0f",
-      "retrieved_at": "2026-10-12T12:40:36.304035Z"
+      "retrieved_at": "2026-10-12T12:53:11.906091Z"
     },
     {
       "package": "@agentics.org/agentic-mcp",
@@ -1639,7 +1639,7 @@
       },
       "rolling_365_days": 2213,
       "response_sha256": "8360ac2171dff14df29ed86bf56a1f0f6a2b19b0831c53a6f894ed277743a885",
-      "retrieved_at": "2026-10-12T12:40:36.520728Z"
+      "retrieved_at": "2026-10-12T12:53:11.935059Z"
     },
     {
       "package": "@agentics.org/sparc2",
@@ -1660,7 +1660,7 @@
       },
       "rolling_365_days": 3457,
       "response_sha256": "896cee7823be04d25eccb92f6ac1643ee7a4b928761cf2fcf99a382bc9330623",
-      "retrieved_at": "2026-10-12T12:40:40.669729Z"
+      "retrieved_at": "2026-10-12T12:53:15.254483Z"
     },
     {
       "package": "@claude-flow/aidefence",
@@ -1681,7 +1681,7 @@
       },
       "rolling_365_days": 402652,
       "response_sha256": "0571f8e52a8a4ff393e1f5fab68084600d484c36fa0159de0309dd18c603360f",
-      "retrieved_at": "2026-10-12T12:40:40.367834Z"
+      "retrieved_at": "2026-10-12T12:53:15.249223Z"
     },
     {
       "package": "@claude-flow/browser",
@@ -1702,7 +1702,7 @@
       },
       "rolling_365_days": 15077,
       "response_sha256": "282ade5c5056665bd55167ed725c2456180e7f8c46ab3f5803ab2dee4518a1f7",
-      "retrieved_at": "2026-10-12T12:40:45.568611Z"
+      "retrieved_at": "2026-10-12T12:53:20.341848Z"
     },
     {
       "package": "@claude-flow/claims",
@@ -1723,7 +1723,7 @@
       },
       "rolling_365_days": 2648,
       "response_sha256": "c8338c51721043b035b21731afad01cea9917f0deaa3d888caa58fca1b11263b",
-      "retrieved_at": "2026-10-12T12:40:45.420083Z"
+      "retrieved_at": "2026-10-12T12:53:20.295109Z"
     },
     {
       "package": "@claude-flow/cli",
@@ -1744,7 +1744,7 @@
       },
       "rolling_365_days": 1815359,
       "response_sha256": "5ee10368bd031e6f83d1e2c86f6ca64590208da143d6f984fadde9b6bb6470fe",
-      "retrieved_at": "2026-10-12T12:40:50.302712Z"
+      "retrieved_at": "2026-10-12T12:53:25.068577Z"
     },
     {
       "package": "@claude-flow/cli-core",
@@ -1765,7 +1765,7 @@
       },
       "rolling_365_days": 936448,
       "response_sha256": "9e1bfeff6e2708b032c072747db45a03648f007adbf6bb2ab7ce6e15348fef2d",
-      "retrieved_at": "2026-10-12T12:40:50.572200Z"
+      "retrieved_at": "2026-10-12T12:53:25.109374Z"
     },
     {
       "package": "@claude-flow/codex",
@@ -1786,7 +1786,7 @@
       },
       "rolling_365_days": 1055248,
       "response_sha256": "91b121aa2b3acc16ba60727106da001b35e082c08f7d5efc8478758c1a6796e8",
-      "retrieved_at": "2026-10-12T12:40:55.967853Z"
+      "retrieved_at": "2026-10-12T12:53:28.474970Z"
     },
     {
       "package": "@claude-flow/deployment",
@@ -1807,7 +1807,7 @@
       },
       "rolling_365_days": 1174,
       "response_sha256": "d2a1db024795f11fcfec17cabfcc5d7a5a50056a0d2029cdf7f15f2c0a4e7cee",
-      "retrieved_at": "2026-10-12T12:40:55.918805Z"
+      "retrieved_at": "2026-10-12T12:53:28.507844Z"
     },
     {
       "package": "@claude-flow/embeddings",
@@ -1828,7 +1828,7 @@
       },
       "rolling_365_days": 439037,
       "response_sha256": "aaffe9b1871780c6f63e834f8d8b9b8ac986f43e23b2bec90509bcb7e0616ecf",
-      "retrieved_at": "2026-10-12T12:41:00.453193Z"
+      "retrieved_at": "2026-10-12T12:53:31.605425Z"
     },
     {
       "package": "@claude-flow/guidance",
@@ -1849,7 +1849,7 @@
       },
       "rolling_365_days": 381614,
       "response_sha256": "6f69bf80610f86a3619e978e7b73d8f56a21939e308b79822532b672f5fa490b",
-      "retrieved_at": "2026-10-12T12:41:00.580871Z"
+      "retrieved_at": "2026-10-12T12:53:31.626723Z"
     },
     {
       "package": "@claude-flow/hooks",
@@ -1870,7 +1870,7 @@
       },
       "rolling_365_days": 358928,
       "response_sha256": "e699ada0c6dbb23fc0bf7ede72bd7ba5249b6bf1434109d97c9a27444a0f7081",
-      "retrieved_at": "2026-10-12T12:41:05.187420Z"
+      "retrieved_at": "2026-10-12T12:53:39.150090Z"
     },
     {
       "package": "@claude-flow/integration",
@@ -1891,7 +1891,7 @@
       },
       "rolling_365_days": 3519,
       "response_sha256": "04dadafc7037f24fa7a5c39dfa09a80e8b06865dd8de347573a194c571525da9",
-      "retrieved_at": "2026-10-12T12:41:05.117509Z"
+      "retrieved_at": "2026-10-12T12:53:39.178675Z"
     },
     {
       "package": "@claude-flow/mcp",
@@ -1912,7 +1912,7 @@
       },
       "rolling_365_days": 982879,
       "response_sha256": "8da659d56227153fd9d828846db3268d1574c0a604970199412a11db28df2821",
-      "retrieved_at": "2026-10-12T12:41:09.448096Z"
+      "retrieved_at": "2026-10-12T12:53:43.115929Z"
     },
     {
       "package": "@claude-flow/memory",
@@ -1933,7 +1933,7 @@
       },
       "rolling_365_days": 1572245,
       "response_sha256": "d432e66c2a2821a4cc812d6eae5c17aaa875cf8651b80d705d85333b3d4b21be",
-      "retrieved_at": "2026-10-12T12:41:09.374007Z"
+      "retrieved_at": "2026-10-12T12:53:43.151107Z"
     },
     {
       "package": "@claude-flow/neural",
@@ -1954,7 +1954,7 @@
       },
       "rolling_365_days": 1208496,
       "response_sha256": "1c0944cb2f3fffc8e9983d4be5a436c0ca130cbbef7f0da197ffb00814ef18a3",
-      "retrieved_at": "2026-10-12T12:41:14.092626Z"
+      "retrieved_at": "2026-10-12T12:54:08.865294Z"
     },
     {
       "package": "@claude-flow/performance",
@@ -1975,7 +1975,7 @@
       },
       "rolling_365_days": 2947,
       "response_sha256": "77da2c0a7ac4ea1ff16f6554217f908e55571a36def602b93cc90955edc40ad7",
-      "retrieved_at": "2026-10-12T12:41:14.317745Z"
+      "retrieved_at": "2026-10-12T12:54:08.832338Z"
     },
     {
       "package": "@claude-flow/plugin-agent-federation",
@@ -1996,7 +1996,7 @@
       },
       "rolling_365_days": 5511,
       "response_sha256": "e1ad02edfe9a4745c809218f2239f3d27c3195c8ef17c9653e99b337fe482538",
-      "retrieved_at": "2026-10-12T12:41:18.688449Z"
+      "retrieved_at": "2026-10-12T12:54:11.782567Z"
     },
     {
       "package": "@claude-flow/plugin-agentic-qe",
@@ -2017,7 +2017,7 @@
       },
       "rolling_365_days": 2468,
       "response_sha256": "713b31d2180b545ec6fb3fc3c2787afad86d915d9c1acaee7ac9eba80f8d6414",
-      "retrieved_at": "2026-10-12T12:41:18.658577Z"
+      "retrieved_at": "2026-10-12T12:54:11.825478Z"
     },
     {
       "package": "@claude-flow/plugin-code-intelligence",
@@ -2038,7 +2038,7 @@
       },
       "rolling_365_days": 1322,
       "response_sha256": "4255f0edb3c6ef6eb3fed110fe6aa10c1722df9fe8d0e38125622307105f199f",
-      "retrieved_at": "2026-10-12T12:41:23.565109Z"
+      "retrieved_at": "2026-10-12T12:54:16.671711Z"
     },
     {
       "package": "@claude-flow/plugin-cognitive-kernel",
@@ -2059,7 +2059,7 @@
       },
       "rolling_365_days": 5158,
       "response_sha256": "b68157c7ad5e566285fb70474e43de28b796c76d9a3e5e60cca6e3e289076fb5",
-      "retrieved_at": "2026-10-12T12:41:23.477456Z"
+      "retrieved_at": "2026-10-12T12:54:16.656869Z"
     },
     {
       "package": "@claude-flow/plugin-financial-risk",
@@ -2080,7 +2080,7 @@
       },
       "rolling_365_days": 1958,
       "response_sha256": "5a958bb54ba1d7958f5515dc1a303d3799bdaa57c8aad5c98aa9124573795596",
-      "retrieved_at": "2026-10-12T12:41:28.117729Z"
+      "retrieved_at": "2026-10-12T12:54:21.880250Z"
     },
     {
       "package": "@claude-flow/plugin-gastown-bridge",
@@ -2101,7 +2101,7 @@
       },
       "rolling_365_days": 1238333,
       "response_sha256": "9c0469830f60c63d8be5707e3d0bda83a695c1fc74114445c617d99bef2a650e",
-      "retrieved_at": "2026-10-12T12:41:28.214278Z"
+      "retrieved_at": "2026-10-12T12:54:21.923888Z"
     },
     {
       "package": "@claude-flow/plugin-healthcare-clinical",
@@ -2122,7 +2122,7 @@
       },
       "rolling_365_days": 1427,
       "response_sha256": "53191d069e4811f171985937da06c60762d678ae152afb471b97471b43db03b8",
-      "retrieved_at": "2026-10-12T12:41:32.867121Z"
+      "retrieved_at": "2026-10-12T12:54:29.158656Z"
     },
     {
       "package": "@claude-flow/plugin-hyperbolic-reasoning",
@@ -2143,7 +2143,7 @@
       },
       "rolling_365_days": 5794,
       "response_sha256": "fb3910b1572ded95a51affbe5421c800ae13064ec728f0feadf36b113fc85909",
-      "retrieved_at": "2026-10-12T12:41:33.064235Z"
+      "retrieved_at": "2026-10-12T12:54:29.183229Z"
     },
     {
       "package": "@claude-flow/plugin-iot-cognitum",
@@ -2164,7 +2164,7 @@
       },
       "rolling_365_days": 1979,
       "response_sha256": "aa7ef346606628ee51e0bb81062d375e593cecebab5ab80f11a5a31a43ffa1ed",
-      "retrieved_at": "2026-10-12T12:41:37.607632Z"
+      "retrieved_at": "2026-10-12T12:54:35.808742Z"
     },
     {
       "package": "@claude-flow/plugin-legal-contracts",
@@ -2185,7 +2185,7 @@
       },
       "rolling_365_days": 980,
       "response_sha256": "1f515317c1081ec31dbbc14f7e15ade1200bab2f68e26dc90f8351046bc1b7d9",
-      "retrieved_at": "2026-10-12T12:41:37.720946Z"
+      "retrieved_at": "2026-10-12T12:54:35.783019Z"
     },
     {
       "package": "@claude-flow/plugin-neural-coordination",
@@ -2206,7 +2206,7 @@
       },
       "rolling_365_days": 5216,
       "response_sha256": "13cc26c45b7b0dd128d1720331a2dbdbff15ea4afa26304016d9beedda548790",
-      "retrieved_at": "2026-10-12T12:41:42.230240Z"
+      "retrieved_at": "2026-10-12T12:54:42.016758Z"
     },
     {
       "package": "@claude-flow/plugin-perf-optimizer",
@@ -2227,7 +2227,7 @@
       },
       "rolling_365_days": 8292,
       "response_sha256": "1e2cad191a2e2ca3b864c10907dbbedf84940ec10163d6fa60e036c84ea2f467",
-      "retrieved_at": "2026-10-12T12:41:42.203950Z"
+      "retrieved_at": "2026-10-12T12:54:42.047366Z"
     },
     {
       "package": "@claude-flow/plugin-prime-radiant",
@@ -2248,7 +2248,7 @@
       },
       "rolling_365_days": 2382,
       "response_sha256": "c214ebdc67ddbcd3104a3b7abd2fcc84b8d62dbe1c69c22f4b81c8597c3cafaa",
-      "retrieved_at": "2026-10-12T12:41:47.022732Z"
+      "retrieved_at": "2026-10-12T12:54:46.410555Z"
     },
     {
       "package": "@claude-flow/plugin-quantum-optimizer",
@@ -2269,7 +2269,7 @@
       },
       "rolling_365_days": 4397,
       "response_sha256": "5e6c534cd008af37d66fce31eab3a8139a9d4357cb6b849273295e22575e6978",
-      "retrieved_at": "2026-10-12T12:41:46.998445Z"
+      "retrieved_at": "2026-10-12T12:54:46.376708Z"
     },
     {
       "package": "@claude-flow/plugin-test-intelligence",
@@ -2290,7 +2290,7 @@
       },
       "rolling_365_days": 1735,
       "response_sha256": "40d7d5a76cd803ba66c8089efeaf809419baf37e7fe89a78e5f2180a188a6de7",
-      "retrieved_at": "2026-10-12T12:41:51.441692Z"
+      "retrieved_at": "2026-10-12T12:54:50.826770Z"
     },
     {
       "package": "@claude-flow/plugins",
@@ -2311,7 +2311,7 @@
       },
       "rolling_365_days": 10634,
       "response_sha256": "8c9d9e2af2cfb2ac20c7ce007cd77673df7e60f4fb513ffe4ed2f9ed845be055",
-      "retrieved_at": "2026-10-12T12:41:51.476792Z"
+      "retrieved_at": "2026-10-12T12:54:50.843496Z"
     },
     {
       "package": "@claude-flow/providers",
@@ -2332,7 +2332,7 @@
       },
       "rolling_365_days": 7067,
       "response_sha256": "08da634c0e102cf27e50cd88d730a9a17f0951909fece43f4889044bcf9fd4fa",
-      "retrieved_at": "2026-10-12T12:41:56.034462Z"
+      "retrieved_at": "2026-10-12T12:54:54.062158Z"
     },
     {
       "package": "@claude-flow/security",
@@ -2353,7 +2353,7 @@
       },
       "rolling_365_days": 688861,
       "response_sha256": "f8853a369aee27ab1cbf08d13c2011b3c77fd52c06f194f32c3521970093861d",
-      "retrieved_at": "2026-10-12T12:41:56.013823Z"
+      "retrieved_at": "2026-10-12T12:54:54.035500Z"
     },
     {
       "package": "@claude-flow/shared",
@@ -2374,7 +2374,7 @@
       },
       "rolling_365_days": 1427253,
       "response_sha256": "e0184de4525de8770d11b483051e7af0ea2cd0081ad900d65bb76692ec885200",
-      "retrieved_at": "2026-10-12T12:42:00.407202Z"
+      "retrieved_at": "2026-10-12T12:55:11.674477Z"
     },
     {
       "package": "@claude-flow/swarm",
@@ -2395,7 +2395,7 @@
       },
       "rolling_365_days": 197676,
       "response_sha256": "53ab1ae9381af0faf9f9a249087b0aec2f20e094bd161b5fafebe577386a0b9e",
-      "retrieved_at": "2026-10-12T12:42:00.763400Z"
+      "retrieved_at": "2026-10-12T12:55:11.681401Z"
     },
     {
       "package": "@claude-flow/teammate-plugin",
@@ -2416,7 +2416,7 @@
       },
       "rolling_365_days": 1328,
       "response_sha256": "c7c58837961819f147e5ce77d90d1e1be24e36fea0f03df2659e8b94bd255b88",
-      "retrieved_at": "2026-10-12T12:42:05.031851Z"
+      "retrieved_at": "2026-10-12T12:55:15.502798Z"
     },
     {
       "package": "@claude-flow/testing",
@@ -2437,7 +2437,7 @@
       },
       "rolling_365_days": 118793,
       "response_sha256": "e58e366d95177f447d6e39cc1aa8aa16fecd4474600696e910aa74943f1e3619",
-      "retrieved_at": "2026-10-12T12:42:05.275249Z"
+      "retrieved_at": "2026-10-12T12:55:15.539345Z"
     },
     {
       "package": "@claude-flow/watermark",
@@ -2458,7 +2458,7 @@
       },
       "rolling_365_days": 967,
       "response_sha256": "08ade3519a5d3ae8275f0d49a62d3b2687e19474b2e1b0392e3832074d02799d",
-      "retrieved_at": "2026-10-12T12:42:10.290231Z"
+      "retrieved_at": "2026-10-12T12:55:22.112845Z"
     },
     {
       "package": "@cognitum-one/sdk",
@@ -2479,7 +2479,7 @@
       },
       "rolling_365_days": 72063,
       "response_sha256": "66c1ebe968d145628f029c43bfbdcb12f6380d828d5ff1829e02335951d7a629",
-      "retrieved_at": "2026-10-12T12:42:10.248470Z"
+      "retrieved_at": "2026-10-12T12:55:22.075884Z"
     },
     {
       "package": "@cognitum/freetokens",
@@ -2500,7 +2500,7 @@
       },
       "rolling_365_days": 148,
       "response_sha256": "48fa0a95fcd1092cc61de3fb05c9c952e2e64b5120d5510e2e9c5a6c1e8a041c",
-      "retrieved_at": "2026-10-12T12:42:14.929439Z"
+      "retrieved_at": "2026-10-12T12:55:27.070781Z"
     },
     {
       "package": "@cognitum/gate",
@@ -2521,7 +2521,7 @@
       },
       "rolling_365_days": 863,
       "response_sha256": "61e3bca9487106d940e977234d118ccdfed921a649cd42acbd75b46d066495b9",
-      "retrieved_at": "2026-10-12T12:42:14.665913Z"
+      "retrieved_at": "2026-10-12T12:55:27.113114Z"
     },
     {
       "package": "@cognitum/ruos",
@@ -2542,7 +2542,7 @@
       },
       "rolling_365_days": 867,
       "response_sha256": "7e7b1b430f350e639e03b9d32a5067d9f97e40ffd048cff876680a6d690af0e4",
-      "retrieved_at": "2026-10-12T12:42:19.285226Z"
+      "retrieved_at": "2026-10-12T12:55:31.035741Z"
     },
     {
       "package": "@dream-machine/compile",
@@ -2563,7 +2563,7 @@
       },
       "rolling_365_days": 484,
       "response_sha256": "da5f7ffe10e2e35fb943922dc199e44bf91c59dfcdfc219e6d6e9c68f38c5b7d",
-      "retrieved_at": "2026-10-12T12:42:19.515953Z"
+      "retrieved_at": "2026-10-12T12:55:31.065079Z"
     },
     {
       "package": "@dream-machine/ledger",
@@ -2584,7 +2584,7 @@
       },
       "rolling_365_days": 471,
       "response_sha256": "05c7ef6f162f65f2e97179934545869566d8fe42a06c1e3d7a3a907e6bfb21c6",
-      "retrieved_at": "2026-10-12T12:42:23.841245Z"
+      "retrieved_at": "2026-10-12T12:55:36.510616Z"
     },
     {
       "package": "@dream-machine/memory",
@@ -2605,7 +2605,7 @@
       },
       "rolling_365_days": 177,
       "response_sha256": "25219ec7a6e80e27ee40c10d68b787b38bf70f9ca4da56635ff3fb0665f6e098",
-      "retrieved_at": "2026-10-12T12:42:24.089541Z"
+      "retrieved_at": "2026-10-12T12:55:49.838486Z"
     },
     {
       "package": "@dream-machine/schedule",
@@ -2626,7 +2626,7 @@
       },
       "rolling_365_days": 217,
       "response_sha256": "c412d97e4b2f5ecb7008b6282f84572407e321c4b7363ca9e3fe6e64177be549",
-      "retrieved_at": "2026-10-12T12:42:31.490889Z"
+      "retrieved_at": "2026-10-12T12:55:42.495622Z"
     },
     {
       "package": "@dream-machine/witness",
@@ -2647,7 +2647,7 @@
       },
       "rolling_365_days": 461,
       "response_sha256": "d7ca44ffe3e2d0bdaada23b2490d6caead2051ff730b82f3d3b648a43d456fb6",
-      "retrieved_at": "2026-10-12T12:42:31.727303Z"
+      "retrieved_at": "2026-10-12T12:55:49.803076Z"
     },
     {
       "package": "@foxruv/cf-doctor",
@@ -2668,7 +2668,7 @@
       },
       "rolling_365_days": 905,
       "response_sha256": "21cca07cff38039b163ba0a51a816e4013239421183f4f57e0c2cf74e9d8b80e",
-      "retrieved_at": "2026-10-12T12:42:36.170260Z"
+      "retrieved_at": "2026-10-12T12:55:55.510543Z"
     },
     {
       "package": "@foxruv/e2b-runner",
@@ -2689,7 +2689,7 @@
       },
       "rolling_365_days": 768,
       "response_sha256": "2f5257347b2e7a4cc904217458f400184e5c85894c830d1981a4f8034396db94",
-      "retrieved_at": "2026-10-12T12:42:36.170756Z"
+      "retrieved_at": "2026-10-12T12:55:55.554895Z"
     },
     {
       "package": "@foxruv/iris",
@@ -2710,7 +2710,7 @@
       },
       "rolling_365_days": 9128,
       "response_sha256": "5fff2883b319df422d10f5ea197ff85b1e3aca3a4841e182adeb0224bc4e17c3",
-      "retrieved_at": "2026-10-12T12:42:42.596299Z"
+      "retrieved_at": "2026-10-12T12:56:00.446782Z"
     },
     {
       "package": "@foxruv/iris-agentic-synth",
@@ -2731,7 +2731,7 @@
       },
       "rolling_365_days": 2097,
       "response_sha256": "62561dacd1b52411793980a7d9bd993185176d8bfe1e8f492eff4e33eba4b9af",
-      "retrieved_at": "2026-10-12T12:42:42.674040Z"
+      "retrieved_at": "2026-10-12T12:56:00.480617Z"
     },
     {
       "package": "@foxruv/iris-core",
@@ -2752,7 +2752,7 @@
       },
       "rolling_365_days": 1142,
       "response_sha256": "0c37f128f01b9016dc51516fb83558c3297aa26d80aa89d64dc533e634afa98e",
-      "retrieved_at": "2026-10-12T12:42:46.843104Z"
+      "retrieved_at": "2026-10-12T12:56:05.896117Z"
     },
     {
       "package": "@foxruv/iris-ultrathink",
@@ -2773,7 +2773,7 @@
       },
       "rolling_365_days": 2261,
       "response_sha256": "5daecf58190984f8b9a9cc68f58597b4b62fa1807c0cc7d11efdda5b833e99e4",
-      "retrieved_at": "2026-10-12T12:42:46.810757Z"
+      "retrieved_at": "2026-10-12T12:56:05.935821Z"
     },
     {
       "package": "@foxruv/nova-medicina",
@@ -2794,7 +2794,7 @@
       },
       "rolling_365_days": 971,
       "response_sha256": "5157a77e3da5a256bc08bff3266de57b116e9adbd5f2fafadb1ae0f577b7a949",
-      "retrieved_at": "2026-10-12T12:42:51.561353Z"
+      "retrieved_at": "2026-10-12T12:56:09.610767Z"
     },
     {
       "package": "@metaharness/agntcy",
@@ -2815,7 +2815,7 @@
       },
       "rolling_365_days": 250,
       "response_sha256": "44cb291e67b7b12f38671707a2bbeef57b4a1462173dc4eee4e55e17e32ed524",
-      "retrieved_at": "2026-10-12T12:42:51.523528Z"
+      "retrieved_at": "2026-10-12T12:56:09.595783Z"
     },
     {
       "package": "@metaharness/avo",
@@ -2836,7 +2836,7 @@
       },
       "rolling_365_days": 31343,
       "response_sha256": "78fa54efb27e666c6883247e40384e35a7c718ae01f21fc954ffea43cfa87b47",
-      "retrieved_at": "2026-10-12T12:42:57.853000Z"
+      "retrieved_at": "2026-10-12T12:56:13.277947Z"
     },
     {
       "package": "@metaharness/aws-finops",
@@ -2857,7 +2857,7 @@
       },
       "rolling_365_days": 258,
       "response_sha256": "328e55e89c2f90a9d255535e8d98a4179b6b5aba9fea722480d1cd3a14eff3a2",
-      "retrieved_at": "2026-10-12T12:42:57.801546Z"
+      "retrieved_at": "2026-10-12T12:56:13.221272Z"
     },
     {
       "package": "@metaharness/claude-code",
@@ -2878,7 +2878,7 @@
       },
       "rolling_365_days": 2244,
       "response_sha256": "78836bfaaa12bd7165cede5d2a9f3f5def9a62c1151a2f07d3cc06c0b230f0d8",
-      "retrieved_at": "2026-10-12T12:43:02.332243Z"
+      "retrieved_at": "2026-10-12T12:56:18.807844Z"
     },
     {
       "package": "@metaharness/codex",
@@ -2899,7 +2899,7 @@
       },
       "rolling_365_days": 174,
       "response_sha256": "9b8d57b50fc5999d31525be1e91090d0b8f499fead150368063f350a1c8ce11a",
-      "retrieved_at": "2026-10-12T12:43:02.380684Z"
+      "retrieved_at": "2026-10-12T12:56:18.835385Z"
     },
     {
       "package": "@metaharness/coding",
@@ -2920,7 +2920,7 @@
       },
       "rolling_365_days": 176,
       "response_sha256": "a0096ff89869db52f2144427df530ba043f266891ad3ad25f4d106ff47991ac6",
-      "retrieved_at": "2026-10-12T12:43:06.822864Z"
+      "retrieved_at": "2026-10-12T12:56:25.342036Z"
     },
     {
       "package": "@metaharness/copilot",
@@ -2941,7 +2941,7 @@
       },
       "rolling_365_days": 168,
       "response_sha256": "82dbd94431fc3e93b6ad62370d831706846fee7728a254f80f54354ef97c7254",
-      "retrieved_at": "2026-10-12T12:43:07.013102Z"
+      "retrieved_at": "2026-10-12T12:56:25.357459Z"
     },
     {
       "package": "@metaharness/darwin",
@@ -2962,7 +2962,7 @@
       },
       "rolling_365_days": 1210321,
       "response_sha256": "b4bb8ce16bd593a90a24ea8927320ae7dbdfa9c8c735a47fa1a31677a4593fea",
-      "retrieved_at": "2026-10-12T12:43:11.742258Z"
+      "retrieved_at": "2026-10-12T12:56:29.436735Z"
     },
     {
       "package": "@metaharness/devops",
@@ -2983,7 +2983,7 @@
       },
       "rolling_365_days": 1718,
       "response_sha256": "c23957dd9045d2e53074779a7c3e116988172cecfe97f8083c7642252076705f",
-      "retrieved_at": "2026-10-12T12:43:11.712678Z"
+      "retrieved_at": "2026-10-12T12:56:29.457161Z"
     },
     {
       "package": "@metaharness/education",
@@ -3004,7 +3004,7 @@
       },
       "rolling_365_days": 177,
       "response_sha256": "1ee0cccc116c1faa6863af28a194e2f8c17a02e794f07be972f2adbb74656bda",
-      "retrieved_at": "2026-10-12T12:43:17.607258Z"
+      "retrieved_at": "2026-10-12T12:56:33.695824Z"
     },
     {
       "package": "@metaharness/example-ads",
@@ -3025,7 +3025,7 @@
       },
       "rolling_365_days": 484,
       "response_sha256": "e9b74ee1ecff7181bafb4e5040192f80685cb2fd12b30307fcf74bd108e6bbf6",
-      "retrieved_at": "2026-10-12T12:43:17.378805Z"
+      "retrieved_at": "2026-10-12T12:56:44.370650Z"
     },
     {
       "package": "@metaharness/example-aws",
@@ -3046,7 +3046,7 @@
       },
       "rolling_365_days": 497,
       "response_sha256": "0086fc0fbbaa1fc16885c35c47268847f742da5cf976d5a5bce4823da31d9f73",
-      "retrieved_at": "2026-10-12T12:43:22.227042Z"
+      "retrieved_at": "2026-10-12T12:56:39.293548Z"
     },
     {
       "package": "@metaharness/example-azure",
@@ -3067,7 +3067,7 @@
       },
       "rolling_365_days": 591,
       "response_sha256": "2a510bce4233aeb8a0fdd8f4edaedfa4db955a44562750943a8c77a8a46e475b",
-      "retrieved_at": "2026-10-12T12:43:22.219264Z"
+      "retrieved_at": "2026-10-12T12:56:44.390079Z"
     },
     {
       "package": "@metaharness/example-bio",
@@ -3088,7 +3088,7 @@
       },
       "rolling_365_days": 704,
       "response_sha256": "a3b6b7abce337118ef601089a906cb23480188aa00ca022f1ffbfb2eee358ba1",
-      "retrieved_at": "2026-10-12T12:43:26.843519Z"
+      "retrieved_at": "2026-10-12T12:56:48.237198Z"
     },
     {
       "package": "@metaharness/example-datadog",
@@ -3109,7 +3109,7 @@
       },
       "rolling_365_days": 461,
       "response_sha256": "9e9d52a96084e27b98a8b41ffd75a89e5c550696b2da1251166411d8384bcf3e",
-      "retrieved_at": "2026-10-12T12:43:26.880759Z"
+      "retrieved_at": "2026-10-12T12:56:48.254452Z"
     },
     {
       "package": "@metaharness/example-fhir",
@@ -3130,7 +3130,7 @@
       },
       "rolling_365_days": 488,
       "response_sha256": "b1991330be3aa42072a174e27ca33bf0e7da17876765ef4d3a51f71ac0a52bf8",
-      "retrieved_at": "2026-10-12T12:43:31.507925Z"
+      "retrieved_at": "2026-10-12T12:56:52.711218Z"
     },
     {
       "package": "@metaharness/example-gcp",
@@ -3151,7 +3151,7 @@
       },
       "rolling_365_days": 617,
       "response_sha256": "44c752540483e3f299bbd02e6b1f00a477dbbc81aee21caec6ef5e8a11d5737b",
-      "retrieved_at": "2026-10-12T12:43:31.393018Z"
+      "retrieved_at": "2026-10-12T12:56:52.737009Z"
     },
     {
       "package": "@metaharness/example-github",
@@ -3172,7 +3172,7 @@
       },
       "rolling_365_days": 437,
       "response_sha256": "b675ab3fbad6e5cde9bd0b75f8fef11ac9e95911855369b2d0e26cf91e14b599",
-      "retrieved_at": "2026-10-12T12:43:35.839212Z"
+      "retrieved_at": "2026-10-12T12:56:56.479759Z"
     },
     {
       "package": "@metaharness/example-huggingface",
@@ -3193,7 +3193,7 @@
       },
       "rolling_365_days": 635,
       "response_sha256": "0ad59ed682c0cc08b24b0b3d463926bc2c6156a9082c2d4cc6d0921a47f38bbb",
-      "retrieved_at": "2026-10-12T12:43:36.095834Z"
+      "retrieved_at": "2026-10-12T12:56:56.509954Z"
     },
     {
       "package": "@metaharness/example-iot",
@@ -3214,7 +3214,7 @@
       },
       "rolling_365_days": 466,
       "response_sha256": "566024dc844899e3e2a5093dfd5f446681d977e852aba6e305dce8c2070bb51f",
-      "retrieved_at": "2026-10-12T12:43:40.470797Z"
+      "retrieved_at": "2026-10-12T12:57:00.360033Z"
     },
     {
       "package": "@metaharness/example-nasa",
@@ -3235,7 +3235,7 @@
       },
       "rolling_365_days": 511,
       "response_sha256": "fae7e72cb233202cb63f9c24c38d50fea8007f3c960aca3538f3751c2301323a",
-      "retrieved_at": "2026-10-12T12:43:40.462995Z"
+      "retrieved_at": "2026-10-12T12:57:00.407470Z"
     },
     {
       "package": "@metaharness/example-pinecone",
@@ -3256,7 +3256,7 @@
       },
       "rolling_365_days": 540,
       "response_sha256": "1a504c6767d43f9543b6281fc21f14d91c04dc3f7b666c039b7e4337e1339b6f",
-      "retrieved_at": "2026-10-12T12:43:45.306343Z"
+      "retrieved_at": "2026-10-12T12:57:04.749572Z"
     },
     {
       "package": "@metaharness/example-qiskit",
@@ -3277,7 +3277,7 @@
       },
       "rolling_365_days": 500,
       "response_sha256": "c31ac37fba05d035be23d2978e369245f5985681567990acdf921a1fa6998a42",
-      "retrieved_at": "2026-10-12T12:43:45.115917Z"
+      "retrieved_at": "2026-10-12T12:57:04.722307Z"
     },
     {
       "package": "@metaharness/example-slack",
@@ -3298,7 +3298,7 @@
       },
       "rolling_365_days": 495,
       "response_sha256": "4a06a6cae1258325067c08fdbc428878153b0ac12f773cfe43b930c480d12f46",
-      "retrieved_at": "2026-10-12T12:43:50.104970Z"
+      "retrieved_at": "2026-10-12T12:57:09.626386Z"
     },
     {
       "package": "@metaharness/example-stripe",
@@ -3319,7 +3319,7 @@
       },
       "rolling_365_days": 548,
       "response_sha256": "ea3c07b1fca37906217afa6b3570d256102296695987ebd6972a77cc9304c5a8",
-      "retrieved_at": "2026-10-12T12:43:50.141350Z"
+      "retrieved_at": "2026-10-12T12:57:09.640294Z"
     },
     {
       "package": "@metaharness/example-supabase",
@@ -3340,7 +3340,7 @@
       },
       "rolling_365_days": 491,
       "response_sha256": "d6bcfb1e50768c5cb784b3a17eb00a7f90b24764df524815c125f4f9cd6fc614",
-      "retrieved_at": "2026-10-12T12:43:54.641673Z"
+      "retrieved_at": "2026-10-12T12:57:13.980193Z"
     },
     {
       "package": "@metaharness/example-twilio",
@@ -3361,7 +3361,7 @@
       },
       "rolling_365_days": 486,
       "response_sha256": "62cec850beb73d2dfb9173011752dca443f346ad5c53e6065f0d4af94ea37922",
-      "retrieved_at": "2026-10-12T12:43:54.767599Z"
+      "retrieved_at": "2026-10-12T12:57:14.012876Z"
     },
     {
       "package": "@metaharness/example-web3",
@@ -3382,7 +3382,7 @@
       },
       "rolling_365_days": 485,
       "response_sha256": "7d0fb3250390584c4f10520c24696668a08299e9a4bf1cd146bfb3f597be292a",
-      "retrieved_at": "2026-10-12T12:43:59.635920Z"
+      "retrieved_at": "2026-10-12T12:57:17.836215Z"
     },
     {
       "package": "@metaharness/field-memory",
@@ -3403,7 +3403,7 @@
       },
       "rolling_365_days": 236,
       "response_sha256": "c983859392eee730ac631d8fd626c52dd451df508b0ce88d3f0ec58c9964b05e",
-      "retrieved_at": "2026-10-12T12:43:59.625598Z"
+      "retrieved_at": "2026-10-12T12:57:17.807422Z"
     },
     {
       "package": "@metaharness/flywheel",
@@ -3424,7 +3424,7 @@
       },
       "rolling_365_days": 520510,
       "response_sha256": "ad65569e65d1d8cbb3aa12392832c0b3215c46d0b956c59c9ca92b36718b409a",
-      "retrieved_at": "2026-10-12T12:44:04.024694Z"
+      "retrieved_at": "2026-10-12T12:57:21.514110Z"
     },
     {
       "package": "@metaharness/gaming",
@@ -3445,7 +3445,7 @@
       },
       "rolling_365_days": 167,
       "response_sha256": "57fd9971111c26582e562ecd5bd403254548b6edb8820161910d1fb4a9a9ced3",
-      "retrieved_at": "2026-10-12T12:44:04.174446Z"
+      "retrieved_at": "2026-10-12T12:57:21.588457Z"
     },
     {
       "package": "@metaharness/github-actions",
@@ -3466,7 +3466,7 @@
       },
       "rolling_365_days": 163,
       "response_sha256": "f23655386008f64d0c8f08cdd1a71184a408d096e91758afd1df6665e946fb93",
-      "retrieved_at": "2026-10-12T12:44:09.119700Z"
+      "retrieved_at": "2026-10-12T12:57:37.820610Z"
     },
     {
       "package": "@metaharness/harness",
@@ -3487,7 +3487,7 @@
       },
       "rolling_365_days": 247541,
       "response_sha256": "f5672352ac05f3083746a6a80675bf4bb63b966a1ff8301356926e810aee01d0",
-      "retrieved_at": "2026-10-12T12:44:09.070860Z"
+      "retrieved_at": "2026-10-12T12:57:24.597635Z"
     },
     {
       "package": "@metaharness/hermes",
@@ -3508,7 +3508,7 @@
       },
       "rolling_365_days": 1861,
       "response_sha256": "bca521c8da8b114ff501423d7e78494fe0e9bd73f99bcff069213fd835993840",
-      "retrieved_at": "2026-10-12T12:44:13.414237Z"
+      "retrieved_at": "2026-10-12T12:57:28.100637Z"
     },
     {
       "package": "@metaharness/horizon",
@@ -3529,7 +3529,7 @@
       },
       "rolling_365_days": 29486,
       "response_sha256": "1a3d2816fa2378fb38ce7ba3fb47f029e69b8b4d61833df31a40821d66eedf47",
-      "retrieved_at": "2026-10-12T12:44:13.578061Z"
+      "retrieved_at": "2026-10-12T12:57:57.372930Z"
     },
     {
       "package": "@metaharness/host-claude-code",
@@ -3550,7 +3550,7 @@
       },
       "rolling_365_days": 26303,
       "response_sha256": "597bbb939214cd57f5d37f451549010b4ac8b52e494c6064ddf2efbf6db22d65",
-      "retrieved_at": "2026-10-12T12:44:18.120182Z"
+      "retrieved_at": "2026-10-12T12:57:41.024096Z"
     },
     {
       "package": "@metaharness/host-codex",
@@ -3571,7 +3571,7 @@
       },
       "rolling_365_days": 9858,
       "response_sha256": "7bb9518a1aa4df71092f6ad65494d7e78dd096d66baf6c8e98d72caf94331f8b",
-      "retrieved_at": "2026-10-12T12:44:18.004606Z"
+      "retrieved_at": "2026-10-12T12:57:44.274189Z"
     },
     {
       "package": "@metaharness/host-copilot",
@@ -3592,7 +3592,7 @@
       },
       "rolling_365_days": 9624,
       "response_sha256": "6e226c895391141b8affb45c63ac768260071405090dc492a33f98f00c2f40c8",
-      "retrieved_at": "2026-10-12T12:44:22.616583Z"
+      "retrieved_at": "2026-10-12T12:58:01.458039Z"
     },
     {
       "package": "@metaharness/host-github-actions",
@@ -3613,7 +3613,7 @@
       },
       "rolling_365_days": 9386,
       "response_sha256": "e025c717621e130461b86a72e5fc53b611293e9c8e75d6d4fd5b3a25c6343abd",
-      "retrieved_at": "2026-10-12T12:44:22.519850Z"
+      "retrieved_at": "2026-10-12T12:58:01.429762Z"
     },
     {
       "package": "@metaharness/host-hermes",
@@ -3634,7 +3634,7 @@
       },
       "rolling_365_days": 9303,
       "response_sha256": "d5ecc32c8a04a3ef9790376214177664a3e429f472a30369e2b0fc6540eac3d0",
-      "retrieved_at": "2026-10-12T12:44:27.083624Z"
+      "retrieved_at": "2026-10-12T12:58:05.300149Z"
     },
     {
       "package": "@metaharness/host-openclaw",
@@ -3655,7 +3655,7 @@
       },
       "rolling_365_days": 9664,
       "response_sha256": "4eaed418f5c9c091a317303fdb08834d6cc5a93dff96f68bd7cc4867ca1871d7",
-      "retrieved_at": "2026-10-12T12:44:26.920894Z"
+      "retrieved_at": "2026-10-12T12:58:05.362577Z"
     },
     {
       "package": "@metaharness/host-opencode",
@@ -3676,7 +3676,7 @@
       },
       "rolling_365_days": 9226,
       "response_sha256": "c28a475850fc91e21a0ebfa4a2542275effc775c1b5aeabaae990987fef4ed65",
-      "retrieved_at": "2026-10-12T12:44:31.748831Z"
+      "retrieved_at": "2026-10-12T12:58:08.745337Z"
     },
     {
       "package": "@metaharness/host-pi-dev",
@@ -3697,7 +3697,7 @@
       },
       "rolling_365_days": 9186,
       "response_sha256": "9837a7bb34e3f699acca1894ca1eb072162de192f4b8cbe93bac9458530e340c",
-      "retrieved_at": "2026-10-12T12:44:31.836008Z"
+      "retrieved_at": "2026-10-12T12:58:08.828282Z"
     },
     {
       "package": "@metaharness/host-prime-agent",
@@ -3718,7 +3718,7 @@
       },
       "rolling_365_days": 236,
       "response_sha256": "f030a99bb8a039bd9770b5d9d9dc919d7ecf99e8ba3b3cd667c957ad8d7b1faf",
-      "retrieved_at": "2026-10-12T12:44:37.124155Z"
+      "retrieved_at": "2026-10-12T12:58:12.420503Z"
     },
     {
       "package": "@metaharness/host-rvm",
@@ -3739,7 +3739,7 @@
       },
       "rolling_365_days": 9357,
       "response_sha256": "d9b1a8d32f1a29f1d039dc2b507768867a9a4b8e1fcc0bf21194c65dd25ee257",
-      "retrieved_at": "2026-10-12T12:44:37.228710Z"
+      "retrieved_at": "2026-10-12T12:58:12.456717Z"
     },
     {
       "package": "@metaharness/jujutsu",
@@ -3760,7 +3760,7 @@
       },
       "rolling_365_days": 968,
       "response_sha256": "825002fe5c1cb1e9dfbdaf1ff0123ca4c7e0eea20e5e1189ec43abd1e438c133",
-      "retrieved_at": "2026-10-12T12:44:41.651887Z"
+      "retrieved_at": "2026-10-12T12:58:17.692794Z"
     },
     {
       "package": "@metaharness/kernel",
@@ -3781,7 +3781,7 @@
       },
       "rolling_365_days": 120218,
       "response_sha256": "33d0f22a1290d1cbb434f1c9a79afaf10b03db8bcfd6a8414425587e13e7a6ca",
-      "retrieved_at": "2026-10-12T12:44:41.734898Z"
+      "retrieved_at": "2026-10-12T12:58:17.722995Z"
     },
     {
       "package": "@metaharness/legal",
@@ -3802,7 +3802,7 @@
       },
       "rolling_365_days": 168,
       "response_sha256": "9af14c5b1b9cfbe2f705092084e659989097ac001526cde2933919b581c67e96",
-      "retrieved_at": "2026-10-12T12:44:46.374469Z"
+      "retrieved_at": "2026-10-12T12:58:20.835011Z"
     },
     {
       "package": "@metaharness/oo-agents",
@@ -3823,7 +3823,7 @@
       },
       "rolling_365_days": 664,
       "response_sha256": "b9fb6cf999a3f347b68f502baf68f5d7a132613a833b2f93a5f802ea73f32450",
-      "retrieved_at": "2026-10-12T12:44:46.183927Z"
+      "retrieved_at": "2026-10-12T12:58:20.817336Z"
     },
     {
       "package": "@metaharness/openclaw",
@@ -3844,7 +3844,7 @@
       },
       "rolling_365_days": 159,
       "response_sha256": "7ae89864259acec1e1513b5205d8598348ef0b6f9a88403eab7ad46b84bbc874",
-      "retrieved_at": "2026-10-12T12:44:50.977536Z"
+      "retrieved_at": "2026-10-12T12:58:24.557405Z"
     },
     {
       "package": "@metaharness/opencode",
@@ -3865,7 +3865,7 @@
       },
       "rolling_365_days": 171,
       "response_sha256": "9aa3dfbbc24bdcfc30ae6c41cda8a155531a71582256ce0d4afa76fa12031e5b",
-      "retrieved_at": "2026-10-12T12:44:51.025565Z"
+      "retrieved_at": "2026-10-12T12:58:24.572230Z"
     },
     {
       "package": "@metaharness/pi-dev",
@@ -3886,7 +3886,7 @@
       },
       "rolling_365_days": 173,
       "response_sha256": "44f650bf02559e3167c0c4942d70d7fd28011d48f13ffd959907bfddf4c5c5fd",
-      "retrieved_at": "2026-10-12T12:44:55.486814Z"
+      "retrieved_at": "2026-10-12T12:58:29.370096Z"
     },
     {
       "package": "@metaharness/projects",
@@ -3907,7 +3907,7 @@
       },
       "rolling_365_days": 1010,
       "response_sha256": "400205a18321b5cf220ce713d1fc4bae5d31b7890c8a57a3031e180c3a3ba5d0",
-      "retrieved_at": "2026-10-12T12:44:55.733858Z"
+      "retrieved_at": "2026-10-12T12:58:40.520719Z"
     },
     {
       "package": "@metaharness/radio",
@@ -3928,7 +3928,7 @@
       },
       "rolling_365_days": 172950,
       "response_sha256": "58fe0d22aab0c7c265e28eb869bde3aec7525059b9a0ebe140e11a1144047feb",
-      "retrieved_at": "2026-10-12T12:44:59.900004Z"
+      "retrieved_at": "2026-10-12T12:58:35.808068Z"
     },
     {
       "package": "@metaharness/redblue",
@@ -3949,7 +3949,7 @@
       },
       "rolling_365_days": 415325,
       "response_sha256": "ededa77bea644bf180f6b3d3e414009354b5667ab6d7cd7023beb69e6e6f6fa0",
-      "retrieved_at": "2026-10-12T12:44:59.898621Z"
+      "retrieved_at": "2026-10-12T12:58:40.489289Z"
     },
     {
       "package": "@metaharness/repo-maintainer",
@@ -3970,7 +3970,7 @@
       },
       "rolling_365_days": 162,
       "response_sha256": "5e14617e335349dcd05d979fe34ac4b0751107e0d521c8a8b4f49b2c5bccf9a2",
-      "retrieved_at": "2026-10-12T12:45:06.530831Z"
+      "retrieved_at": "2026-10-12T12:58:44.073697Z"
     },
     {
       "package": "@metaharness/research",
@@ -3991,7 +3991,7 @@
       },
       "rolling_365_days": 1196,
       "response_sha256": "8ef0ff41118fef2160b17bae41d9ec87a4b3edac995ca52d6478dc186b0ea584",
-      "retrieved_at": "2026-10-12T12:45:06.511357Z"
+      "retrieved_at": "2026-10-12T12:58:44.043355Z"
     },
     {
       "package": "@metaharness/router",
@@ -4012,7 +4012,7 @@
       },
       "rolling_365_days": 693890,
       "response_sha256": "1d6f5e0113aee31fa3bb1c3b2272d3313ba7540bec35d185ebe50596bd5986c3",
-      "retrieved_at": "2026-10-12T12:45:11.151500Z"
+      "retrieved_at": "2026-10-12T12:58:47.392615Z"
     },
     {
       "package": "@metaharness/rvm",
@@ -4033,7 +4033,7 @@
       },
       "rolling_365_days": 197,
       "response_sha256": "2a5d311334cbd4c01620e1e3457f8ab93710636c62fa4ab9eaca5cfd5a222095",
-      "retrieved_at": "2026-10-12T12:45:11.277600Z"
+      "retrieved_at": "2026-10-12T12:58:47.369839Z"
     },
     {
       "package": "@metaharness/sales",
@@ -4054,7 +4054,7 @@
       },
       "rolling_365_days": 396,
       "response_sha256": "194421471198abd6e3464ddeda5daa8fe950ac6632d2c9b4c65d87ec4e72699a",
-      "retrieved_at": "2026-10-12T12:45:16.010695Z"
+      "retrieved_at": "2026-10-12T12:58:51.313586Z"
     },
     {
       "package": "@metaharness/sdk",
@@ -4075,7 +4075,7 @@
       },
       "rolling_365_days": 418,
       "response_sha256": "195acb4e4021edee52cafc9ae79bf2c40c1cc87ec9aff11168db73229042c2f8",
-      "retrieved_at": "2026-10-12T12:45:15.810670Z"
+      "retrieved_at": "2026-10-12T12:58:51.285127Z"
     },
     {
       "package": "@metaharness/support",
@@ -4096,7 +4096,7 @@
       },
       "rolling_365_days": 176,
       "response_sha256": "b9877e396d7a11d3535f904dec5579c0deb8fa4073ca64a2d59c908f9919efe2",
-      "retrieved_at": "2026-10-12T12:45:19.843879Z"
+      "retrieved_at": "2026-10-12T12:58:57.009469Z"
     },
     {
       "package": "@metaharness/trading",
@@ -4117,7 +4117,7 @@
       },
       "rolling_365_days": 217,
       "response_sha256": "fe5a99c14eaad719f5033e9bcc9fd48ff476bb6af45e9ff85672cbbe571cb214",
-      "retrieved_at": "2026-10-12T12:45:19.890853Z"
+      "retrieved_at": "2026-10-12T12:58:56.971392Z"
     },
     {
       "package": "@metaharness/turn-credit",
@@ -4138,7 +4138,7 @@
       },
       "rolling_365_days": 192943,
       "response_sha256": "dbb4607c66260f9eb69a022540de888541ed06181a3bda640166191f6dee2fb8",
-      "retrieved_at": "2026-10-12T12:45:24.615471Z"
+      "retrieved_at": "2026-10-12T12:59:03.147582Z"
     },
     {
       "package": "@metaharness/vertical-base",
@@ -4159,7 +4159,7 @@
       },
       "rolling_365_days": 358,
       "response_sha256": "ae59477e509c761ca27a928e372c126a008c6ce8e203bb5f71a7887b4d1f9115",
-      "retrieved_at": "2026-10-12T12:45:24.472526Z"
+      "retrieved_at": "2026-10-12T12:59:03.178804Z"
     },
     {
       "package": "@metaharness/vertical-trading",
@@ -4180,7 +4180,7 @@
       },
       "rolling_365_days": 147,
       "response_sha256": "a73a26fd82cce1ea8abbd56d3c04b62ea321b4d644a3ccce2fb2047c0ac9baa0",
-      "retrieved_at": "2026-10-12T12:45:30.162936Z"
+      "retrieved_at": "2026-10-12T12:59:08.816595Z"
     },
     {
       "package": "@metaharness/weight-eft",
@@ -4201,7 +4201,7 @@
       },
       "rolling_365_days": 354694,
       "response_sha256": "141c04b8d739f7f344d12d1d567f7cc8711517b507378d245837c7e8a616e699",
-      "retrieved_at": "2026-10-12T12:45:30.250543Z"
+      "retrieved_at": "2026-10-12T12:59:08.787903Z"
     },
     {
       "package": "@metaharness/workspace-lens",
@@ -4222,7 +4222,7 @@
       },
       "rolling_365_days": 267929,
       "response_sha256": "fc272e11c0aaa2f76ee795302cd5d9586476e3ea195a49e0027c0d0d600c42c9",
-      "retrieved_at": "2026-10-12T12:45:34.652852Z"
+      "retrieved_at": "2026-10-12T12:59:13.162131Z"
     },
     {
       "package": "@metaharness/workspace-probe",
@@ -4243,7 +4243,7 @@
       },
       "rolling_365_days": 249307,
       "response_sha256": "c6712ee4fa301b58cdafd4d1388679c927ae90bd23c3462000f3e6e09b7a73cd",
-      "retrieved_at": "2026-10-12T12:45:34.735323Z"
+      "retrieved_at": "2026-10-12T12:59:13.128835Z"
     },
     {
       "package": "@neural-trader/agentic-accounting-agents",
@@ -4264,7 +4264,7 @@
       },
       "rolling_365_days": 1034,
       "response_sha256": "79e50ebf674d46f3ab0e3a38b7ca7c0c9595ee985a05e49974f0af1c13164ee2",
-      "retrieved_at": "2026-10-12T12:45:39.678056Z"
+      "retrieved_at": "2026-10-12T12:59:17.118937Z"
     },
     {
       "package": "@neural-trader/agentic-accounting-cli",
@@ -4285,7 +4285,7 @@
       },
       "rolling_365_days": 890,
       "response_sha256": "e79fa3459169e9cf61502843014a7c82c760a0ceec26d490a7e5edd1da805b9b",
-      "retrieved_at": "2026-10-12T12:45:39.727562Z"
+      "retrieved_at": "2026-10-12T12:59:17.115057Z"
     },
     {
       "package": "@neural-trader/agentic-accounting-core",
@@ -4306,7 +4306,7 @@
       },
       "rolling_365_days": 1294,
       "response_sha256": "9a5d253e259cf81fcf32b1301ee0779d9ae59416bcdc43dd5a037a91ea946151",
-      "retrieved_at": "2026-10-12T12:45:46.743145Z"
+      "retrieved_at": "2026-10-12T12:59:20.642596Z"
     },
     {
       "package": "@neural-trader/agentic-accounting-mcp",
@@ -4327,7 +4327,7 @@
       },
       "rolling_365_days": 951,
       "response_sha256": "98b0dc34c924d080fb7ceb3efa6bbec3738ca874f7ef680855fe968c02c565ec",
-      "retrieved_at": "2026-10-12T12:45:46.517908Z"
+      "retrieved_at": "2026-10-12T12:59:20.668574Z"
     },
     {
       "package": "@neural-trader/agentic-accounting-rust-core",
@@ -4348,7 +4348,7 @@
       },
       "rolling_365_days": 951,
       "response_sha256": "a2e2a95a78e282a57d1a96d97c94e1682e38c24d888637a71bdc4480f2816bbc",
-      "retrieved_at": "2026-10-12T12:45:51.102046Z"
+      "retrieved_at": "2026-10-12T12:59:24.053683Z"
     },
     {
       "package": "@neural-trader/agentic-accounting-types",
@@ -4369,7 +4369,7 @@
       },
       "rolling_365_days": 930,
       "response_sha256": "69147bae6a2b1f9aca0ac666776b9537c10179ab1bb34c3a4af1937979260391",
-      "retrieved_at": "2026-10-12T12:45:51.062440Z"
+      "retrieved_at": "2026-10-12T12:59:24.092805Z"
     },
     {
       "package": "@neural-trader/backend",
@@ -4390,7 +4390,7 @@
       },
       "rolling_365_days": 1285,
       "response_sha256": "7820d85ee601c10f1a0f8d34a93f87a0bc75b901fe863b8256779596b2a51b3e",
-      "retrieved_at": "2026-10-12T12:45:55.815294Z"
+      "retrieved_at": "2026-10-12T12:59:27.973777Z"
     },
     {
       "package": "@neural-trader/backtesting",
@@ -4411,7 +4411,7 @@
       },
       "rolling_365_days": 1872,
       "response_sha256": "b9ab950da6e56adf17fb92da53af25ff60da24161cec956a876289a9b041ae30",
-      "retrieved_at": "2026-10-12T12:45:55.879209Z"
+      "retrieved_at": "2026-10-12T12:59:27.939057Z"
     },
     {
       "package": "@neural-trader/benchoptimizer",
@@ -4432,7 +4432,7 @@
       },
       "rolling_365_days": 1455,
       "response_sha256": "675ba7287c8193dd72636d6634578aa33d2d1d06d088540ed07d27a990364ba4",
-      "retrieved_at": "2026-10-12T12:46:00.346776Z"
+      "retrieved_at": "2026-10-12T12:59:32.186599Z"
     },
     {
       "package": "@neural-trader/brokers",
@@ -4453,7 +4453,7 @@
       },
       "rolling_365_days": 1571,
       "response_sha256": "6751bea4a52c0bd68e502ab4c9840524b374f7b9b87e254ec31293eb407951c0",
-      "retrieved_at": "2026-10-12T12:46:00.394700Z"
+      "retrieved_at": "2026-10-12T12:59:32.215915Z"
     },
     {
       "package": "@neural-trader/core",
@@ -4474,7 +4474,7 @@
       },
       "rolling_365_days": 8997,
       "response_sha256": "bc8b668a49d4b3fc51e68ed1a8f2a2e289f50f78b2335840cee5c7260fd05b6b",
-      "retrieved_at": "2026-10-12T12:46:05.108834Z"
+      "retrieved_at": "2026-10-12T12:59:36.451257Z"
     },
     {
       "package": "@neural-trader/e2b-strategies",
@@ -4495,7 +4495,7 @@
       },
       "rolling_365_days": 1272,
       "response_sha256": "f57fc2862823f9b8d2f87e8f4c5ef9ca5235173f3dc08e1f3b9d6fe6e800944c",
-      "retrieved_at": "2026-10-12T12:46:05.333573Z"
+      "retrieved_at": "2026-10-12T12:59:36.449373Z"
     },
     {
       "package": "@neural-trader/example-dynamic-pricing",
@@ -4516,7 +4516,7 @@
       },
       "rolling_365_days": 814,
       "response_sha256": "8e993d61c92ddfc704857e9848734e6d7aebeca76f63d8a084480f33b60ade0b",
-      "retrieved_at": "2026-10-12T12:46:09.758277Z"
+      "retrieved_at": "2026-10-12T12:59:40.432694Z"
     },
     {
       "package": "@neural-trader/example-energy-forecasting",
@@ -4537,7 +4537,7 @@
       },
       "rolling_365_days": 900,
       "response_sha256": "a0e56c4d3aa8db1399a0e8e302cfc3e98365d1cccdd98327b2642586e9713bc5",
-      "retrieved_at": "2026-10-12T12:46:09.663003Z"
+      "retrieved_at": "2026-10-12T12:59:40.407700Z"
     },
     {
       "package": "@neural-trader/example-energy-grid-optimization",
@@ -4558,7 +4558,7 @@
       },
       "rolling_365_days": 700,
       "response_sha256": "512ad49ae98490c603811c4e4d331bc1744166812ee651e2c22a23a1b79c0b6e",
-      "retrieved_at": "2026-10-12T12:46:14.246043Z"
+      "retrieved_at": "2026-10-12T12:59:44.072606Z"
     },
     {
       "package": "@neural-trader/example-evolutionary-game-theory",
@@ -4579,7 +4579,7 @@
       },
       "rolling_365_days": 1172,
       "response_sha256": "bec0959b519086fe2339848aa8631a6ce7cda3ad4c5d3c31d55689c7ef52421b",
-      "retrieved_at": "2026-10-12T12:46:14.034647Z"
+      "retrieved_at": "2026-10-12T12:59:44.080345Z"
     },
     {
       "package": "@neural-trader/example-healthcare-optimization",
@@ -4600,7 +4600,7 @@
       },
       "rolling_365_days": 726,
       "response_sha256": "d3540a698d9f4b49f7f04da482d3956337a37d31aa035124e43c52a33a632fb2",
-      "retrieved_at": "2026-10-12T12:46:18.933655Z"
+      "retrieved_at": "2026-10-12T12:59:47.479166Z"
     },
     {
       "package": "@neural-trader/example-logistics-optimization",
@@ -4621,7 +4621,7 @@
       },
       "rolling_365_days": 794,
       "response_sha256": "ad83354c77037f645e471d278e21027c91d50b8599af2d908f043f7238dce0dc",
-      "retrieved_at": "2026-10-12T12:46:18.639731Z"
+      "retrieved_at": "2026-10-12T12:59:47.496764Z"
     },
     {
       "package": "@neural-trader/example-market-microstructure",
@@ -4642,7 +4642,7 @@
       },
       "rolling_365_days": 845,
       "response_sha256": "1905702ee122a8e9b9d1133c3bde79828ed0dade739359872df4547261a0c6c1",
-      "retrieved_at": "2026-10-12T12:46:24.548715Z"
+      "retrieved_at": "2026-10-12T12:59:50.942740Z"
     },
     {
       "package": "@neural-trader/example-neuromorphic-computing",
@@ -4663,7 +4663,7 @@
       },
       "rolling_365_days": 697,
       "response_sha256": "05da83385cca1300c3f8c969ddaf893985851560f23add3b1a114aec611db0a6",
-      "retrieved_at": "2026-10-12T12:46:24.372075Z"
+      "retrieved_at": "2026-10-12T12:59:50.974506Z"
     },
     {
       "package": "@neural-trader/example-portfolio-optimization",
@@ -4684,7 +4684,7 @@
       },
       "rolling_365_days": 794,
       "response_sha256": "f3b29b4eb57d30752ba45053048e3c565af982aab30db546ad727b1c5a73d4e9",
-      "retrieved_at": "2026-10-12T12:46:29.108575Z"
+      "retrieved_at": "2026-10-12T12:59:53.917054Z"
     },
     {
       "package": "@neural-trader/example-quantum-optimization",
@@ -4705,7 +4705,7 @@
       },
       "rolling_365_days": 920,
       "response_sha256": "fb3723603bc875da86f6c80472fd4e4ba90f22a554d15250e9d9c7005a24f2f9",
-      "retrieved_at": "2026-10-12T12:46:29.050617Z"
+      "retrieved_at": "2026-10-12T12:59:53.951516Z"
     },
     {
       "package": "@neural-trader/example-supply-chain-prediction",
@@ -4726,7 +4726,7 @@
       },
       "rolling_365_days": 821,
       "response_sha256": "eb4d6b8a3b6be118146f198fbd5e6ede4856ac7073613b62003397e68242f7f1",
-      "retrieved_at": "2026-10-12T12:46:35.489870Z"
+      "retrieved_at": "2026-10-12T12:59:57.210513Z"
     },
     {
       "package": "@neural-trader/execution",
@@ -4747,7 +4747,7 @@
       },
       "rolling_365_days": 1937,
       "response_sha256": "8167a00052afbbd3fefdbb81a414be9da33a21a965ab8ca68a4332698fd91af0",
-      "retrieved_at": "2026-10-12T12:46:35.434350Z"
+      "retrieved_at": "2026-10-12T12:59:57.179884Z"
     },
     {
       "package": "@neural-trader/features",
@@ -4768,7 +4768,7 @@
       },
       "rolling_365_days": 1737,
       "response_sha256": "54017686b3cb858ceb9211125c3ab9a7ae26618664304295e3ffbb33f57e3004",
-      "retrieved_at": "2026-10-12T12:46:40.217459Z"
+      "retrieved_at": "2026-10-12T13:00:01.212426Z"
     },
     {
       "package": "@neural-trader/market-data",
@@ -4789,7 +4789,7 @@
       },
       "rolling_365_days": 1992,
       "response_sha256": "ff704b695ea946bcd932a804db148eb1319d5b7098a7cd433563ab912abc4e9e",
-      "retrieved_at": "2026-10-12T12:46:40.160425Z"
+      "retrieved_at": "2026-10-12T13:00:01.241369Z"
     },
     {
       "package": "@neural-trader/mcp",
@@ -4810,7 +4810,7 @@
       },
       "rolling_365_days": 3715,
       "response_sha256": "be8a3fdc17384b87f94cc870d613bf70433ec20c895e4b7c651d97f93decd5b1",
-      "retrieved_at": "2026-10-12T12:46:44.615995Z"
+      "retrieved_at": "2026-10-12T13:00:07.566909Z"
     },
     {
       "package": "@neural-trader/mcp-protocol",
@@ -4831,7 +4831,7 @@
       },
       "rolling_365_days": 1811,
       "response_sha256": "61db6bbafe44acdfe02c4154eb6fb8ab39055f0e206065be51cc4296a741d068",
-      "retrieved_at": "2026-10-12T12:46:44.872145Z"
+      "retrieved_at": "2026-10-12T13:00:07.554945Z"
     },
     {
       "package": "@neural-trader/neural",
@@ -4852,7 +4852,7 @@
       },
       "rolling_365_days": 2103,
       "response_sha256": "ddd9461509d9de3fde4c8b3ca5a1e6a4cb06449e3a96a8d17f582df669e1b9ca",
-      "retrieved_at": "2026-10-12T12:46:49.976610Z"
+      "retrieved_at": "2026-10-12T13:00:10.641653Z"
     },
     {
       "package": "@neural-trader/neuro-divergent",
@@ -4873,7 +4873,7 @@
       },
       "rolling_365_days": 849,
       "response_sha256": "bed89774d3a8881e73709d86cfdaeab6b78b3114acd35b7eed0245531cf61cd8",
-      "retrieved_at": "2026-10-12T12:46:49.919911Z"
+      "retrieved_at": "2026-10-12T13:00:10.647055Z"
     },
     {
       "package": "@neural-trader/news-trading",
@@ -4894,7 +4894,7 @@
       },
       "rolling_365_days": 1608,
       "response_sha256": "c83d30c406e9cec3a6775e2dcdd1f58b1eabfcb5cefd6eabcdcf31672b0b0cad",
-      "retrieved_at": "2026-10-12T12:46:54.619409Z"
+      "retrieved_at": "2026-10-12T13:00:14.217662Z"
     },
     {
       "package": "@neural-trader/portfolio",
@@ -4915,7 +4915,7 @@
       },
       "rolling_365_days": 1951,
       "response_sha256": "2e515c04774e0842a55f5c7f3136489231f0d122cde0d0328fd434e00713965b",
-      "retrieved_at": "2026-10-12T12:46:54.513843Z"
+      "retrieved_at": "2026-10-12T13:00:14.178427Z"
     },
     {
       "package": "@neural-trader/prediction-markets",
@@ -4936,7 +4936,7 @@
       },
       "rolling_365_days": 1601,
       "response_sha256": "e47b6d5e784f104f61ad090490ed78f1a2767c5212a28ec19015cbc99fcf285a",
-      "retrieved_at": "2026-10-12T12:46:59.178445Z"
+      "retrieved_at": "2026-10-12T13:00:18.064418Z"
     },
     {
       "package": "@neural-trader/predictor",
@@ -4957,7 +4957,7 @@
       },
       "rolling_365_days": 7682,
       "response_sha256": "6757637305a428a173c7dfcd00392bc3da845b9114e88b5c62b94dce7bfc1206",
-      "retrieved_at": "2026-10-12T12:46:59.058382Z"
+      "retrieved_at": "2026-10-12T13:00:18.096273Z"
     },
     {
       "package": "@neural-trader/risk",
@@ -4978,7 +4978,7 @@
       },
       "rolling_365_days": 1964,
       "response_sha256": "0fb2495eaf2d1c29dbf05125c16bbbcf487274de0c8f9821c764b849f34cbe81",
-      "retrieved_at": "2026-10-12T12:47:04.782485Z"
+      "retrieved_at": "2026-10-12T13:00:24.630299Z"
     },
     {
       "package": "@neural-trader/sports-betting",
@@ -4999,7 +4999,7 @@
       },
       "rolling_365_days": 1563,
       "response_sha256": "4f4bb1f9092d714fa4c0b63f0d5152ebd45cda5467c25a5f5c2e21edd2fa6e24",
-      "retrieved_at": "2026-10-12T12:47:04.273530Z"
+      "retrieved_at": "2026-10-12T13:00:24.659368Z"
     },
     {
       "package": "@neural-trader/strategies",
@@ -5020,7 +5020,7 @@
       },
       "rolling_365_days": 1932,
       "response_sha256": "333d83279585e6d6a7e252947a14c04ff7b6f1ff0d5a4eab7f89536f5ec17c99",
-      "retrieved_at": "2026-10-12T12:47:09.497620Z"
+      "retrieved_at": "2026-10-12T13:00:29.938820Z"
     },
     {
       "package": "@neural-trader/syndicate",
@@ -5041,7 +5041,7 @@
       },
       "rolling_365_days": 1236,
       "response_sha256": "007f6b82f11a53fcf77e7717cf01c1520a5f8fd8f5e267aafbe39f35f9018297",
-      "retrieved_at": "2026-10-12T12:47:09.360792Z"
+      "retrieved_at": "2026-10-12T13:00:29.986061Z"
     },
     {
       "package": "@qudag/cli",
@@ -5062,7 +5062,7 @@
       },
       "rolling_365_days": 667,
       "response_sha256": "dde27a249f936f4207403dc72079e2a25f93e9eabf94c6b0370c303ae7ca51f4",
-      "retrieved_at": "2026-10-12T12:47:16.865116Z"
+      "retrieved_at": "2026-10-12T13:00:35.495378Z"
     },
     {
       "package": "@qudag/mcp-sse",
@@ -5083,7 +5083,7 @@
       },
       "rolling_365_days": 651,
       "response_sha256": "30ddab8c205997c026fc9c5dba1fb73b1867cd0eb4b2b954ce20e5d30456d067",
-      "retrieved_at": "2026-10-12T12:47:16.890567Z"
+      "retrieved_at": "2026-10-12T13:00:35.488467Z"
     },
     {
       "package": "@qudag/mcp-stdio",
@@ -5104,7 +5104,7 @@
       },
       "rolling_365_days": 619,
       "response_sha256": "73aa75ceb7bdf54698b129e3dfd21df1dd037119fa92797e544c64a4c64e1b36",
-      "retrieved_at": "2026-10-12T12:47:22.798402Z"
+      "retrieved_at": "2026-10-12T13:00:40.376991Z"
     },
     {
       "package": "@qudag/napi-core",
@@ -5125,7 +5125,7 @@
       },
       "rolling_365_days": 5459,
       "response_sha256": "be97daf9ce6a5ae37dfe2bfb342886f7aabe40c551a29a03605fab41b74f8612",
-      "retrieved_at": "2026-10-12T12:47:22.774283Z"
+      "retrieved_at": "2026-10-12T13:00:40.354571Z"
     },
     {
       "package": "@ruv/rvcsi",
@@ -5146,7 +5146,7 @@
       },
       "rolling_365_days": 376,
       "response_sha256": "06946ab84e4631c424b8d8e1bc39d158c2912852f75718d19c6d9b8a214203c1",
-      "retrieved_at": "2026-10-12T12:47:27.489238Z"
+      "retrieved_at": "2026-10-12T13:00:43.991785Z"
     },
     {
       "package": "@ruv/sparc-ui",
@@ -5167,7 +5167,7 @@
       },
       "rolling_365_days": 880,
       "response_sha256": "5f47d8c41194b8552ca56b69beef9683184a9ff6196fdc9dc48a1fee6fed4b37",
-      "retrieved_at": "2026-10-12T12:47:27.522098Z"
+      "retrieved_at": "2026-10-12T13:00:43.955344Z"
     },
     {
       "package": "@ruvector/acorn-wasm",
@@ -5188,7 +5188,7 @@
       },
       "rolling_365_days": 506,
       "response_sha256": "858f86f24fa52d55cc4aa3c34e029b0329165e7c791bf9f7bbae15456046ad5b",
-      "retrieved_at": "2026-10-12T12:47:32.139518Z"
+      "retrieved_at": "2026-10-12T13:00:49.218219Z"
     },
     {
       "package": "@ruvector/agentic-integration",
@@ -5209,7 +5209,7 @@
       },
       "rolling_365_days": 1005,
       "response_sha256": "109672a30c1a03b0a0829c8a1c08ec7eefc6e491d957bcabb88dc1e8e33b54c2",
-      "retrieved_at": "2026-10-12T12:47:32.389540Z"
+      "retrieved_at": "2026-10-12T13:00:49.263670Z"
     },
     {
       "package": "@ruvector/agentic-synth",
@@ -5230,7 +5230,7 @@
       },
       "rolling_365_days": 6288,
       "response_sha256": "d9af1299f91eeffe13b71db94f6c9eb08416b10d525412c78f6ee07aba2dc20f",
-      "retrieved_at": "2026-10-12T12:47:37.987753Z"
+      "retrieved_at": "2026-10-12T13:00:56.614731Z"
     },
     {
       "package": "@ruvector/agentic-synth-examples",
@@ -5251,7 +5251,7 @@
       },
       "rolling_365_days": 2039,
       "response_sha256": "759c8f129241907f9695a4b94d621057fc39b77c417d05feda1d0c9438ceba83",
-      "retrieved_at": "2026-10-12T12:47:37.827453Z"
+      "retrieved_at": "2026-10-12T13:00:56.587603Z"
     },
     {
       "package": "@ruvector/attention",
@@ -5272,7 +5272,7 @@
       },
       "rolling_365_days": 2550293,
       "response_sha256": "93b32d69b50e87378291496fe8f405e5c486698152888af54234fe62f45c3831",
-      "retrieved_at": "2026-10-12T12:47:42.418702Z"
+      "retrieved_at": "2026-10-12T13:01:01.479008Z"
     },
     {
       "package": "@ruvector/attention-darwin-arm64",
@@ -5293,7 +5293,7 @@
       },
       "rolling_365_days": 166757,
       "response_sha256": "4cb473b5269ad79fa7174398751f611d292aa0d0990b9ba9d93b223ee73dd699",
-      "retrieved_at": "2026-10-12T12:47:42.868725Z"
+      "retrieved_at": "2026-10-12T13:01:01.474332Z"
     },
     {
       "package": "@ruvector/attention-darwin-x64",
@@ -5314,7 +5314,7 @@
       },
       "rolling_365_days": 43166,
       "response_sha256": "fd8a0c2d7e06cae01cb9f548b0f8ed364acdf05ae541b2b905f26fd6e790d468",
-      "retrieved_at": "2026-10-12T12:47:47.232440Z"
+      "retrieved_at": "2026-10-12T13:01:05.353854Z"
     },
     {
       "package": "@ruvector/attention-linux-arm64-gnu",
@@ -5335,7 +5335,7 @@
       },
       "rolling_365_days": 69568,
       "response_sha256": "c1d22e111d115726df75aaf01bd7434a64dbebc225bbf8881545a3f969b86656",
-      "retrieved_at": "2026-10-12T12:47:47.164684Z"
+      "retrieved_at": "2026-10-12T13:01:05.392398Z"
     },
     {
       "package": "@ruvector/attention-linux-x64-gnu",
@@ -5356,7 +5356,7 @@
       },
       "rolling_365_days": 1952269,
       "response_sha256": "f6143f156aefe11a7003b9b2164e043390fdaec777d20e348e9a76e693269d22",
-      "retrieved_at": "2026-10-12T12:47:51.644107Z"
+      "retrieved_at": "2026-10-12T13:01:08.882138Z"
     },
     {
       "package": "@ruvector/attention-unified-wasm",
@@ -5377,7 +5377,7 @@
       },
       "rolling_365_days": 5079,
       "response_sha256": "a0060bc30f2247d26b6f8c814ec5e4c65a72544fe03b02dc644b51c0f732a91b",
-      "retrieved_at": "2026-10-12T12:47:51.866401Z"
+      "retrieved_at": "2026-10-12T13:01:08.886058Z"
     },
     {
       "package": "@ruvector/attention-wasm",
@@ -5398,7 +5398,7 @@
       },
       "rolling_365_days": 7529,
       "response_sha256": "0394b43aafcb3871f1d9a1ed751fac8cee87cc3531c0344948faad240febc5a8",
-      "retrieved_at": "2026-10-12T12:47:57.883902Z"
+      "retrieved_at": "2026-10-12T13:01:15.635356Z"
     },
     {
       "package": "@ruvector/attention-win32-x64-msvc",
@@ -5419,7 +5419,7 @@
       },
       "rolling_365_days": 316111,
       "response_sha256": "a005567307e1ee32b458ce176e41c9cb1c976c12c63c6027ad200ae9790ee92b",
-      "retrieved_at": "2026-10-12T12:47:57.721053Z"
+      "retrieved_at": "2026-10-12T13:01:15.660844Z"
     },
     {
       "package": "@ruvector/burst-scaling",
@@ -5440,7 +5440,7 @@
       },
       "rolling_365_days": 952,
       "response_sha256": "3a16fb51d81205a91d3639dee37f5ba0e87ae933bfae5767a3666394428be0f5",
-      "retrieved_at": "2026-10-12T12:48:02.199297Z"
+      "retrieved_at": "2026-10-12T13:01:19.592386Z"
     },
     {
       "package": "@ruvector/cli",
@@ -5461,7 +5461,7 @@
       },
       "rolling_365_days": 2854,
       "response_sha256": "754c2f6170d69eda69c53cc5231e168d7b4e656ddeab5e6e4a927c207a20a9f2",
-      "retrieved_at": "2026-10-12T12:48:02.476191Z"
+      "retrieved_at": "2026-10-12T13:01:19.500277Z"
     },
     {
       "package": "@ruvector/cluster",
@@ -5482,7 +5482,7 @@
       },
       "rolling_365_days": 649,
       "response_sha256": "2f62dacc97bb8cca484c6c23a9bf7c241891c497526f93a53496864c8260f576",
-      "retrieved_at": "2026-10-12T12:48:06.864296Z"
+      "retrieved_at": "2026-10-12T13:01:23.752675Z"
     },
     {
       "package": "@ruvector/cnn",
@@ -5503,7 +5503,7 @@
       },
       "rolling_365_days": 1318,
       "response_sha256": "5a8d93165702c2d99367a0b799d2db864b9a898405112a96c8394e04ea6ffe9a",
-      "retrieved_at": "2026-10-12T12:48:06.863582Z"
+      "retrieved_at": "2026-10-12T13:01:23.731157Z"
     },
     {
       "package": "@ruvector/core",
@@ -5524,7 +5524,7 @@
       },
       "rolling_365_days": 1938552,
       "response_sha256": "52880764a3fd52075b246b3f9e2b1429f1372169667a197ad48099db090b78a8",
-      "retrieved_at": "2026-10-12T12:48:12.642195Z"
+      "retrieved_at": "2026-10-12T13:01:27.942726Z"
     },
     {
       "package": "@ruvector/diskann",
@@ -5545,7 +5545,7 @@
       },
       "rolling_365_days": 296984,
       "response_sha256": "dcb7932bacc3305e2495ef5a84cd92ee105b50b2c7a3389eb9a945758a5030f5",
-      "retrieved_at": "2026-10-12T12:48:12.760039Z"
+      "retrieved_at": "2026-10-12T13:01:27.969303Z"
     },
     {
       "package": "@ruvector/diskann-darwin-arm64",
@@ -5566,7 +5566,7 @@
       },
       "rolling_365_days": 49740,
       "response_sha256": "a76cf711c9def3afaf6bbb0a067db75c7e109ea147f9cd8535cf1cbf6b5c7ff6",
-      "retrieved_at": "2026-10-12T12:48:17.420246Z"
+      "retrieved_at": "2026-10-12T13:01:33.293774Z"
     },
     {
       "package": "@ruvector/diskann-darwin-x64",
@@ -5587,7 +5587,7 @@
       },
       "rolling_365_days": 7610,
       "response_sha256": "d376c99193d58bf4cd75b4b713920b539e1fc584c7e9f8064d3adbf8663b72da",
-      "retrieved_at": "2026-10-12T12:48:17.696975Z"
+      "retrieved_at": "2026-10-12T13:01:33.219754Z"
     },
     {
       "package": "@ruvector/diskann-linux-arm64-gnu",
@@ -5608,7 +5608,7 @@
       },
       "rolling_365_days": 8540,
       "response_sha256": "244109b75fcd48528fc046e4fd04a70fc1719e58caa458717bfbc811b4ade4e9",
-      "retrieved_at": "2026-10-12T12:48:22.262992Z"
+      "retrieved_at": "2026-10-12T13:01:36.513645Z"
     },
     {
       "package": "@ruvector/diskann-linux-x64-gnu",
@@ -5629,7 +5629,7 @@
       },
       "rolling_365_days": 165741,
       "response_sha256": "ca4c4c57d9b3715980d8b00aab9ca332cd4bb13230dae592da3fa13dce1494fd",
-      "retrieved_at": "2026-10-12T12:48:22.412233Z"
+      "retrieved_at": "2026-10-12T13:01:36.541907Z"
     },
     {
       "package": "@ruvector/diskann-win32-x64-msvc",
@@ -5650,7 +5650,7 @@
       },
       "rolling_365_days": 61903,
       "response_sha256": "ac6ff5a436713792fddd33765dbdba442c121152f65b571464a4bed5082fab3a",
-      "retrieved_at": "2026-10-12T12:48:27.860031Z"
+      "retrieved_at": "2026-10-12T13:01:39.740105Z"
     },
     {
       "package": "@ruvector/economy-wasm",
@@ -5671,7 +5671,7 @@
       },
       "rolling_365_days": 4186,
       "response_sha256": "1ff6939953a61b0fc3f488a72e1428586653d745f4d3296e569d87eb57ef834e",
-      "retrieved_at": "2026-10-12T12:48:27.803397Z"
+      "retrieved_at": "2026-10-12T13:01:39.760473Z"
     },
     {
       "package": "@ruvector/edge",
@@ -5692,7 +5692,7 @@
       },
       "rolling_365_days": 2653,
       "response_sha256": "64c020f51f246eb06b5c0a0773a90054d62aa11aa8b9be5081c305ba782f0c71",
-      "retrieved_at": "2026-10-12T12:48:33.243820Z"
+      "retrieved_at": "2026-10-12T13:01:43.347545Z"
     },
     {
       "package": "@ruvector/edge-full",
@@ -5713,7 +5713,7 @@
       },
       "rolling_365_days": 1304301,
       "response_sha256": "ba0abb07151488c5afdca00ba047dc41d71953af7afb13ff08ef7c594b470836",
-      "retrieved_at": "2026-10-12T12:48:33.219863Z"
+      "retrieved_at": "2026-10-12T13:01:43.395022Z"
     },
     {
       "package": "@ruvector/edge-net",
@@ -5734,7 +5734,7 @@
       },
       "rolling_365_days": 4946,
       "response_sha256": "f1a47e35dd8470ba0ad005e2e81e48294e0eef552be77d90055a6bef69bb5224",
-      "retrieved_at": "2026-10-12T12:48:38.282690Z"
+      "retrieved_at": "2026-10-12T13:01:48.189510Z"
     },
     {
       "package": "@ruvector/emergent-time",
@@ -5755,7 +5755,7 @@
       },
       "rolling_365_days": 100212,
       "response_sha256": "2140f1f8ad3651757dea46e104a5930ae59431dd442f32c9871b93eaeebab70a",
-      "retrieved_at": "2026-10-12T12:48:38.245435Z"
+      "retrieved_at": "2026-10-12T13:01:48.220138Z"
     },
     {
       "package": "@ruvector/exotic-wasm",
@@ -5776,7 +5776,7 @@
       },
       "rolling_365_days": 9442,
       "response_sha256": "bc713b54a923306b809d5476dcb618266a02f850e71ffac8c4799ff7974a526a",
-      "retrieved_at": "2026-10-12T12:48:42.848742Z"
+      "retrieved_at": "2026-10-12T13:01:51.972452Z"
     },
     {
       "package": "@ruvector/gnn",
@@ -5797,7 +5797,7 @@
       },
       "rolling_365_days": 2306782,
       "response_sha256": "f836941010faeccbb1d393d51b55bbe09577962728e4a8dbb7428455b2aaa823",
-      "retrieved_at": "2026-10-12T12:48:42.909801Z"
+      "retrieved_at": "2026-10-12T13:01:51.939709Z"
     },
     {
       "package": "@ruvector/gnn-darwin-arm64",
@@ -5818,7 +5818,7 @@
       },
       "rolling_365_days": 186485,
       "response_sha256": "10e71ce984f9b2bc37a3e23d57b83f16dabb4c2695d4b9ec4b88172dd146f099",
-      "retrieved_at": "2026-10-12T12:48:47.782861Z"
+      "retrieved_at": "2026-10-12T13:01:55.220506Z"
     },
     {
       "package": "@ruvector/gnn-darwin-x64",
@@ -5839,7 +5839,7 @@
       },
       "rolling_365_days": 52681,
       "response_sha256": "3ae8d7c4d8295c67fbf1513d2f11e98dbd05f760f76aca051d6343b24cb3fe20",
-      "retrieved_at": "2026-10-12T12:48:47.983541Z"
+      "retrieved_at": "2026-10-12T13:01:55.225998Z"
     },
     {
       "package": "@ruvector/gnn-linux-arm64-gnu",
@@ -5860,7 +5860,7 @@
       },
       "rolling_365_days": 69738,
       "response_sha256": "65db39f9573fdd4d2855d59c2b670380d3994dc3608ee435072fb12ac612192f",
-      "retrieved_at": "2026-10-12T12:48:52.576067Z"
+      "retrieved_at": "2026-10-12T13:01:59.834414Z"
     },
     {
       "package": "@ruvector/gnn-linux-arm64-musl",
@@ -5881,7 +5881,7 @@
       },
       "rolling_365_days": 52714,
       "response_sha256": "437a810f5db76a40a44fdbc6f35fe851bbf920fbb1455ac039038f760310f22b",
-      "retrieved_at": "2026-10-12T12:48:52.719982Z"
+      "retrieved_at": "2026-10-12T13:01:59.865810Z"
     },
     {
       "package": "@ruvector/gnn-linux-x64-gnu",
@@ -5902,7 +5902,7 @@
       },
       "rolling_365_days": 1899542,
       "response_sha256": "876470a7120b4de52693ed6dca71eab57291a6e178e0e0b98e12daf1203197bb",
-      "retrieved_at": "2026-10-12T12:48:57.811561Z"
+      "retrieved_at": "2026-10-12T13:02:03.956571Z"
     },
     {
       "package": "@ruvector/gnn-linux-x64-musl",
@@ -5923,7 +5923,7 @@
       },
       "rolling_365_days": 1395890,
       "response_sha256": "0f160f76c96172264d323efb3a359f4ab3ad614d9078acc7efb2935851895373",
-      "retrieved_at": "2026-10-12T12:48:57.759038Z"
+      "retrieved_at": "2026-10-12T13:02:03.997916Z"
     },
     {
       "package": "@ruvector/gnn-wasm",
@@ -5944,7 +5944,7 @@
       },
       "rolling_365_days": 7298,
       "response_sha256": "f9e4fad1b8be7de9c146af44404da1717cede17d0952b10969b0a8805a937caa",
-      "retrieved_at": "2026-10-12T12:49:02.612244Z"
+      "retrieved_at": "2026-10-12T13:02:08.106133Z"
     },
     {
       "package": "@ruvector/gnn-win32-x64-msvc",
@@ -5965,7 +5965,7 @@
       },
       "rolling_365_days": 202551,
       "response_sha256": "3d794f7577b4d4c810030c000bec2a8165862802a63eae603c85efbd858fa89a",
-      "retrieved_at": "2026-10-12T12:49:02.690902Z"
+      "retrieved_at": "2026-10-12T13:02:08.082629Z"
     },
     {
       "package": "@ruvector/graph-data-generator",
@@ -5986,7 +5986,7 @@
       },
       "rolling_365_days": 618,
       "response_sha256": "64bea14128dac1e9f2799277a3eef4ef840f83d3d0871256b90946b404ef0605",
-      "retrieved_at": "2026-10-12T12:49:08.691824Z"
+      "retrieved_at": "2026-10-12T13:02:11.993476Z"
     },
     {
       "package": "@ruvector/graph-node",
@@ -6007,7 +6007,7 @@
       },
       "rolling_365_days": 2974862,
       "response_sha256": "54c872de7673a19b1b8766f2e1ac7c517c56e67d92f87a4e8d23d099fb4ec50a",
-      "retrieved_at": "2026-10-12T12:49:08.763121Z"
+      "retrieved_at": "2026-10-12T13:02:12.024901Z"
     },
     {
       "package": "@ruvector/graph-node-darwin-arm64",
@@ -6028,7 +6028,7 @@
       },
       "rolling_365_days": 325549,
       "response_sha256": "774b2bff3e86bd09dce70f2c761f6b6f136321d15e8bee298758f639136d0413",
-      "retrieved_at": "2026-10-12T12:49:13.612950Z"
+      "retrieved_at": "2026-10-12T13:02:15.662912Z"
     },
     {
       "package": "@ruvector/graph-node-darwin-x64",
@@ -6049,7 +6049,7 @@
       },
       "rolling_365_days": 54673,
       "response_sha256": "ec8cd0a947223cad34dcf63a92a68c885836237ef05eb4136b87c07b59e9d50a",
-      "retrieved_at": "2026-10-12T12:49:13.358071Z"
+      "retrieved_at": "2026-10-12T13:02:15.695937Z"
     },
     {
       "package": "@ruvector/graph-node-linux-arm64-gnu",
@@ -6070,7 +6070,7 @@
       },
       "rolling_365_days": 79011,
       "response_sha256": "518d75f13a53fb498887b9daee997f30a783e5adbc6ad3201845886bcfee0196",
-      "retrieved_at": "2026-10-12T12:49:18.024298Z"
+      "retrieved_at": "2026-10-12T13:02:19.775521Z"
     },
     {
       "package": "@ruvector/graph-node-linux-x64-gnu",
@@ -6091,7 +6091,7 @@
       },
       "rolling_365_days": 2271581,
       "response_sha256": "7d30b9106e47bb9ef21ba29846677ad3f9cad2bb108656504cce8abf0792e4c5",
-      "retrieved_at": "2026-10-12T12:49:17.793242Z"
+      "retrieved_at": "2026-10-12T13:02:19.823602Z"
     },
     {
       "package": "@ruvector/graph-node-win32-x64-msvc",
@@ -6112,7 +6112,7 @@
       },
       "rolling_365_days": 372480,
       "response_sha256": "39f5d04f5a461036a0b7fece853631e0a414ceb713ddb9abc6a0375c74a3c1fd",
-      "retrieved_at": "2026-10-12T12:49:22.681502Z"
+      "retrieved_at": "2026-10-12T13:02:24.767285Z"
     },
     {
       "package": "@ruvector/graph-transformer",
@@ -6133,7 +6133,7 @@
       },
       "rolling_365_days": 1582444,
       "response_sha256": "8ca08ea7ac31736b87452ed8f7c5bf923e4bd946acb1e37c1674b60ed0f18d86",
-      "retrieved_at": "2026-10-12T12:49:22.592679Z"
+      "retrieved_at": "2026-10-12T13:02:24.739820Z"
     },
     {
       "package": "@ruvector/graph-transformer-darwin-arm64",
@@ -6154,7 +6154,7 @@
       },
       "rolling_365_days": 124177,
       "response_sha256": "0acdc408dd593c3cc78c75ba1b3e60c558ed2561b8b668e6344d66933291fdff",
-      "retrieved_at": "2026-10-12T12:49:27.270658Z"
+      "retrieved_at": "2026-10-12T13:02:28.747916Z"
     },
     {
       "package": "@ruvector/graph-transformer-darwin-x64",
@@ -6175,7 +6175,7 @@
       },
       "rolling_365_days": 29944,
       "response_sha256": "abc327cb8d5c1b8c39a0617279c5f6a34e42c83df47594162d284bd61f62187a",
-      "retrieved_at": "2026-10-12T12:49:27.355724Z"
+      "retrieved_at": "2026-10-12T13:02:28.717780Z"
     },
     {
       "package": "@ruvector/graph-transformer-linux-arm64-gnu",
@@ -6196,7 +6196,7 @@
       },
       "rolling_365_days": 43982,
       "response_sha256": "721e3acc3f742c07a2e789d7d481772a15611598dc5b5ae7d6556886394fdf91",
-      "retrieved_at": "2026-10-12T12:49:32.173307Z"
+      "retrieved_at": "2026-10-12T13:02:33.785481Z"
     },
     {
       "package": "@ruvector/graph-transformer-linux-arm64-musl",
@@ -6217,7 +6217,7 @@
       },
       "rolling_365_days": 30685,
       "response_sha256": "845846b31232cf4bed8f020f28f66cbe61580e2dcc3a417312ca7e055e3df1b4",
-      "retrieved_at": "2026-10-12T12:49:32.305411Z"
+      "retrieved_at": "2026-10-12T13:02:33.819139Z"
     },
     {
       "package": "@ruvector/graph-transformer-linux-x64-gnu",
@@ -6238,7 +6238,7 @@
       },
       "rolling_365_days": 1318027,
       "response_sha256": "fd7e1bd90d9219d271129a222e024cf43b0e484e4b327a01e402452f44e6ecfc",
-      "retrieved_at": "2026-10-12T12:49:37.307572Z"
+      "retrieved_at": "2026-10-12T13:02:37.479862Z"
     },
     {
       "package": "@ruvector/graph-transformer-linux-x64-musl",
@@ -6259,7 +6259,7 @@
       },
       "rolling_365_days": 977427,
       "response_sha256": "952c87762f789099b2ce2437aa8318c0ab7b7419cd18fd2a21aadf1c4044c480",
-      "retrieved_at": "2026-10-12T12:49:37.258479Z"
+      "retrieved_at": "2026-10-12T13:02:37.504033Z"
     },
     {
       "package": "@ruvector/graph-transformer-win32-x64-msvc",
@@ -6280,7 +6280,7 @@
       },
       "rolling_365_days": 138746,
       "response_sha256": "7bc1cd4bd6c2a3807c17f9075be989124803399abf102e1cfd7775ac2d4b1907",
-      "retrieved_at": "2026-10-12T12:49:42.029171Z"
+      "retrieved_at": "2026-10-12T13:02:40.752047Z"
     },
     {
       "package": "@ruvector/graph-wasm",
@@ -6301,7 +6301,7 @@
       },
       "rolling_365_days": 4712,
       "response_sha256": "f8f1979ffd03d88cd0b6c52236e796264adcfeac1afc0323733909d9035af984",
-      "retrieved_at": "2026-10-12T12:49:42.116586Z"
+      "retrieved_at": "2026-10-12T13:02:40.761299Z"
     },
     {
       "package": "@ruvector/kge",
@@ -6322,7 +6322,7 @@
       },
       "rolling_365_days": 427,
       "response_sha256": "46dbadd15365ee68a88b4fc1ecbc8731c73ebbad594932c40174fd40b6dadacf",
-      "retrieved_at": "2026-10-12T12:49:46.938589Z"
+      "retrieved_at": "2026-10-12T13:02:47.189107Z"
     },
     {
       "package": "@ruvector/kge-darwin-arm64",
@@ -6343,7 +6343,7 @@
       },
       "rolling_365_days": 169,
       "response_sha256": "e38f19277bbe094a8229dcc11f9a118b9a015e1c2864adbc068f6f8b65f2a1e4",
-      "retrieved_at": "2026-10-12T12:49:46.997327Z"
+      "retrieved_at": "2026-10-12T13:02:47.217554Z"
     },
     {
       "package": "@ruvector/kge-darwin-x64",
@@ -6364,7 +6364,7 @@
       },
       "rolling_365_days": 168,
       "response_sha256": "70a88a078793838731845588950bfc4a4daa35d4147c697b866991405991fe75",
-      "retrieved_at": "2026-10-12T12:49:51.862750Z"
+      "retrieved_at": "2026-10-12T13:02:51.337656Z"
     },
     {
       "package": "@ruvector/kge-linux-arm64-gnu",
@@ -6385,7 +6385,7 @@
       },
       "rolling_365_days": 167,
       "response_sha256": "0b754dd5491dec136d1439e9536b08fd9cb9e257fa2ddfae19886874f164d5fd",
-      "retrieved_at": "2026-10-12T12:49:51.852430Z"
+      "retrieved_at": "2026-10-12T13:02:51.310390Z"
     },
     {
       "package": "@ruvector/kge-linux-x64-gnu",
@@ -6406,7 +6406,7 @@
       },
       "rolling_365_days": 114,
       "response_sha256": "5f1327cb92515ff1e11626fc5499d8f55fc10116bee4a11b42446b06868071df",
-      "retrieved_at": "2026-10-12T12:49:58.091226Z"
+      "retrieved_at": "2026-10-12T13:02:56.740360Z"
     },
     {
       "package": "@ruvector/kge-win32-x64-msvc",
@@ -6427,7 +6427,7 @@
       },
       "rolling_365_days": 114,
       "response_sha256": "561042fa84c759ec85f5affeae9cb433e717481965e26f7e7fa8b305e33c319d",
-      "retrieved_at": "2026-10-12T12:49:58.019718Z"
+      "retrieved_at": "2026-10-12T13:02:56.707730Z"
     },
     {
       "package": "@ruvector/learning-wasm",
@@ -6448,7 +6448,7 @@
       },
       "rolling_365_days": 410941,
       "response_sha256": "b38660fdc17a5ab0b381aae58fbdad605d4c59ef2713974057d0ad2307f462c4",
-      "retrieved_at": "2026-10-12T12:50:03.141159Z"
+      "retrieved_at": "2026-10-12T13:03:02.973837Z"
     },
     {
       "package": "@ruvector/math-wasm",
@@ -6469,7 +6469,7 @@
       },
       "rolling_365_days": 1362,
       "response_sha256": "8c4d7034ce979105c12a50ad250db3bed5d0aa4372dd488eb17f898956a21d71",
-      "retrieved_at": "2026-10-12T12:50:03.319415Z"
+      "retrieved_at": "2026-10-12T13:03:02.980907Z"
     },
     {
       "package": "@ruvector/mincut-wasm",
@@ -6490,7 +6490,7 @@
       },
       "rolling_365_days": 3321,
       "response_sha256": "5dcb72826ddb9d9615ff4dc4ab1bfe99396554fa2b57e4eeed68660a09139673",
-      "retrieved_at": "2026-10-12T12:50:09.808547Z"
+      "retrieved_at": "2026-10-12T13:03:07.668215Z"
     },
     {
       "package": "@ruvector/nervous-system-wasm",
@@ -6511,7 +6511,7 @@
       },
       "rolling_365_days": 5507,
       "response_sha256": "1763d1410768d545e5a14219371acab5d849ae024bf82c1158d58a5a093d88e6",
-      "retrieved_at": "2026-10-12T12:50:10.047699Z"
+      "retrieved_at": "2026-10-12T13:03:07.695810Z"
     },
     {
       "package": "@ruvector/neural-trader-wasm",
@@ -6532,7 +6532,7 @@
       },
       "rolling_365_days": 629,
       "response_sha256": "7578edbe6bc2a332c4d1528fe8f55c1fd4134e7606d4c984a29c201fd4cce5b9",
-      "retrieved_at": "2026-10-12T12:50:14.770756Z"
+      "retrieved_at": "2026-10-12T13:03:14.390766Z"
     },
     {
       "package": "@ruvector/node",
@@ -6553,7 +6553,7 @@
       },
       "rolling_365_days": 2731,
       "response_sha256": "2279d008ed164029d27991ab399374382a1fc81d627bcb21b6bfb59914e4a7fd",
-      "retrieved_at": "2026-10-12T12:50:14.500724Z"
+      "retrieved_at": "2026-10-12T13:03:14.391486Z"
     },
     {
       "package": "@ruvector/node-darwin-arm64",
@@ -6574,7 +6574,7 @@
       },
       "rolling_365_days": 1243,
       "response_sha256": "f171231d1a0417482c68660306f42d19b22cccb824b78be4e08886332f99ca66",
-      "retrieved_at": "2026-10-12T12:50:19.253173Z"
+      "retrieved_at": "2026-10-12T13:03:17.651809Z"
     },
     {
       "package": "@ruvector/node-darwin-x64",
@@ -6595,7 +6595,7 @@
       },
       "rolling_365_days": 1219,
       "response_sha256": "799c1467937b25a1680ba67e3091675a9381f7d22cc194e57e5411d7b76f4aa5",
-      "retrieved_at": "2026-10-12T12:50:19.246476Z"
+      "retrieved_at": "2026-10-12T13:03:17.621583Z"
     },
     {
       "package": "@ruvector/node-linux-arm64-gnu",
@@ -6616,7 +6616,7 @@
       },
       "rolling_365_days": 1371,
       "response_sha256": "a2959de59348b50ec108db667533174dc487bb32e82fc6c83190b34c7d91aa81",
-      "retrieved_at": "2026-10-12T12:50:24.653993Z"
+      "retrieved_at": "2026-10-12T13:03:20.987790Z"
     },
     {
       "package": "@ruvector/node-linux-x64-gnu",
@@ -6637,7 +6637,7 @@
       },
       "rolling_365_days": 3097,
       "response_sha256": "a04454285d74da1b1a45a65c6f71f14aed6d03bc55a83c3a45976a2b24ab01a5",
-      "retrieved_at": "2026-10-12T12:50:24.663737Z"
+      "retrieved_at": "2026-10-12T13:03:21.025115Z"
     },
     {
       "package": "@ruvector/node-win32-x64-msvc",
@@ -6658,7 +6658,7 @@
       },
       "rolling_365_days": 1336,
       "response_sha256": "d22badac0610e10641247bac885218192ef820573bccc6535c063dec1aa19cec",
-      "retrieved_at": "2026-10-12T12:50:30.788847Z"
+      "retrieved_at": "2026-10-12T13:03:24.279169Z"
     },
     {
       "package": "@ruvector/ospipe",
@@ -6679,7 +6679,7 @@
       },
       "rolling_365_days": 971,
       "response_sha256": "e733553bc55c68ca52f0beb7d21b55be53af7130b551736683deec3684bc8c21",
-      "retrieved_at": "2026-10-12T12:50:30.451809Z"
+      "retrieved_at": "2026-10-12T13:03:24.317746Z"
     },
     {
       "package": "@ruvector/ospipe-wasm",
@@ -6700,7 +6700,7 @@
       },
       "rolling_365_days": 682,
       "response_sha256": "4a44a3f6e1cced5260b10aaea4499a82e699d43a64c2b64ff641e15efa9e9752",
-      "retrieved_at": "2026-10-12T12:50:37.059507Z"
+      "retrieved_at": "2026-10-12T13:03:28.255983Z"
     },
     {
       "package": "@ruvector/pi-brain",
@@ -6721,7 +6721,7 @@
       },
       "rolling_365_days": 3961,
       "response_sha256": "f1ab22ed7ced2ee0b968a7e9a559d1d03ac8b1fa638e9d00b974e082f2e3aa90",
-      "retrieved_at": "2026-10-12T12:50:36.876394Z"
+      "retrieved_at": "2026-10-12T13:03:28.307972Z"
     },
     {
       "package": "@ruvector/postgres-cli",
@@ -6742,7 +6742,7 @@
       },
       "rolling_365_days": 6653,
       "response_sha256": "8734ad8376b4fdc809703cc6d0ef0a8c4267736e671a3a7355cfa03172555118",
-      "retrieved_at": "2026-10-12T12:50:43.353680Z"
+      "retrieved_at": "2026-10-12T13:03:31.350186Z"
     },
     {
       "package": "@ruvector/rabitq-wasm",
@@ -6763,7 +6763,7 @@
       },
       "rolling_365_days": 970612,
       "response_sha256": "29c2fc84d6ddeb5715462c56880fb10416dee8ea9da84de9997ea31c651fa72c",
-      "retrieved_at": "2026-10-12T12:50:43.511544Z"
+      "retrieved_at": "2026-10-12T13:03:31.381661Z"
     },
     {
       "package": "@ruvector/raft",
@@ -6784,7 +6784,7 @@
       },
       "rolling_365_days": 729,
       "response_sha256": "a3dc03433f3072c60ab70c8e3ae94f0474dfac4288d9e61e675a3abe111772be",
-      "retrieved_at": "2026-10-12T12:50:49.414334Z"
+      "retrieved_at": "2026-10-12T13:03:36.436855Z"
     },
     {
       "package": "@ruvector/replication",
@@ -6805,7 +6805,7 @@
       },
       "rolling_365_days": 705,
       "response_sha256": "b0ec6cdc582330e272ae9194eb59a7489d308ef0fca1016bc5a78d515743c4d0",
-      "retrieved_at": "2026-10-12T12:50:49.542198Z"
+      "retrieved_at": "2026-10-12T13:03:36.471631Z"
     },
     {
       "package": "@ruvector/router",
@@ -6826,7 +6826,7 @@
       },
       "rolling_365_days": 1964551,
       "response_sha256": "38984c7a68eef9438515ca7bcefee4bc64562eb129431be2888ee18d972913cc",
-      "retrieved_at": "2026-10-12T12:50:59.187036Z"
+      "retrieved_at": "2026-10-12T13:03:42.077691Z"
     },
     {
       "package": "@ruvector/router-darwin-arm64",
@@ -6847,7 +6847,7 @@
       },
       "rolling_365_days": 169583,
       "response_sha256": "06057571d4a33c8e1b61b96947205416f147c9ee195284d8d15d3b2d4baafa9c",
-      "retrieved_at": "2026-10-12T12:50:59.233148Z"
+      "retrieved_at": "2026-10-12T13:03:42.103698Z"
     },
     {
       "package": "@ruvector/router-darwin-x64",
@@ -6868,7 +6868,7 @@
       },
       "rolling_365_days": 33723,
       "response_sha256": "be6520c307f6e0de65e49dca52add2f1e82c5cfab8373e0af1667f6674f44588",
-      "retrieved_at": "2026-10-12T12:51:04.139350Z"
+      "retrieved_at": "2026-10-12T13:03:45.815152Z"
     },
     {
       "package": "@ruvector/router-linux-arm64-gnu",
@@ -6889,7 +6889,7 @@
       },
       "rolling_365_days": 49868,
       "response_sha256": "f0e6463f504ef27d2c5760600a8d9692afe040d4d17c91563c249b8bcfd5b62b",
-      "retrieved_at": "2026-10-12T12:51:04.211511Z"
+      "retrieved_at": "2026-10-12T13:03:45.858598Z"
     },
     {
       "package": "@ruvector/router-linux-x64-gnu",
@@ -6910,7 +6910,7 @@
       },
       "rolling_365_days": 1670443,
       "response_sha256": "8c17bc5005eb4e49e9ebb2a037c7119ecc2f8c749ff9332fbcd9a3b68c7c7bec",
-      "retrieved_at": "2026-10-12T12:51:10.800424Z"
+      "retrieved_at": "2026-10-12T13:03:49.561944Z"
     },
     {
       "package": "@ruvector/router-wasm",
@@ -6931,7 +6931,7 @@
       },
       "rolling_365_days": 612,
       "response_sha256": "bb89a216e905691f241050b6f32f38064f12c472eb8fef0d7da8ff4a496221e4",
-      "retrieved_at": "2026-10-12T12:51:10.804999Z"
+      "retrieved_at": "2026-10-12T13:03:49.538632Z"
     },
     {
       "package": "@ruvector/router-win32-x64-msvc",
@@ -6952,7 +6952,7 @@
       },
       "rolling_365_days": 176938,
       "response_sha256": "c7308f1e22f68d7247d823f808e60a30b50f8cfd9daa851cae6aa4ab004390ed",
-      "retrieved_at": "2026-10-12T12:51:17.915918Z"
+      "retrieved_at": "2026-10-12T13:03:54.288512Z"
     },
     {
       "package": "@ruvector/rudag",
@@ -6973,7 +6973,7 @@
       },
       "rolling_365_days": 981,
       "response_sha256": "112c452122f968009169411b8cd3bbe1c5758d5a0ae08519b0a50eb7b48c3694",
-      "retrieved_at": "2026-10-12T12:51:17.931114Z"
+      "retrieved_at": "2026-10-12T13:03:54.261213Z"
     },
     {
       "package": "@ruvector/ruqu",
@@ -6994,7 +6994,7 @@
       },
       "rolling_365_days": 489,
       "response_sha256": "d7427ebf55f8ee5dba8eddf08ab0ff04374845964bc3fe59ba67940af76370ce",
-      "retrieved_at": "2026-10-12T12:51:25.628256Z"
+      "retrieved_at": "2026-10-12T13:03:57.663552Z"
     },
     {
       "package": "@ruvector/ruqu-wasm",
@@ -7015,7 +7015,7 @@
       },
       "rolling_365_days": 1017,
       "response_sha256": "df2d6b9c13e380fbeb78379e4adc2a2c46dbb57ddb1e0fea50cfd63e464a4ade",
-      "retrieved_at": "2026-10-12T12:51:25.674039Z"
+      "retrieved_at": "2026-10-12T13:03:57.702559Z"
     },
     {
       "package": "@ruvector/ruvector-consciousness-wasm",
@@ -7036,7 +7036,7 @@
       },
       "rolling_365_days": 452,
       "response_sha256": "b80a9773653c16ece7b04d62ee9237d3cb31d6bbcde529fd14b6e531320b7364",
-      "retrieved_at": "2026-10-12T12:51:33.822229Z"
+      "retrieved_at": "2026-10-12T13:04:02.200192Z"
     },
     {
       "package": "@ruvector/ruvllm",
@@ -7057,7 +7057,7 @@
       },
       "rolling_365_days": 3222600,
       "response_sha256": "d80fa23d5ca2ed9fdbccd48337e7fdf02aa8de4f437d0bcee528d088a81b91d5",
-      "retrieved_at": "2026-10-12T12:51:33.578076Z"
+      "retrieved_at": "2026-10-12T13:04:02.246531Z"
     },
     {
       "package": "@ruvector/ruvllm-cli",
@@ -7078,7 +7078,7 @@
       },
       "rolling_365_days": 748,
       "response_sha256": "74ba24fa2da9495cffccae4b8bd70e52cc353dbedd04a1807f6116341bfda10f",
-      "retrieved_at": "2026-10-12T12:51:42.755812Z"
+      "retrieved_at": "2026-10-12T13:04:08.076635Z"
     },
     {
       "package": "@ruvector/ruvllm-darwin-arm64",
@@ -7099,7 +7099,7 @@
       },
       "rolling_365_days": 249696,
       "response_sha256": "2bd92c3cfb45b362247d52ed74751daea8c7bf948763e43312381ee11afac5b7",
-      "retrieved_at": "2026-10-12T12:51:42.985200Z"
+      "retrieved_at": "2026-10-12T13:04:08.042573Z"
     },
     {
       "package": "@ruvector/ruvllm-darwin-x64",
@@ -7120,7 +7120,7 @@
       },
       "rolling_365_days": 46893,
       "response_sha256": "2487f81c43d7d025cb8d48451f179aaa173d43079c228ff2a286816a0c0cea82",
-      "retrieved_at": "2026-10-12T12:51:47.866080Z"
+      "retrieved_at": "2026-10-12T13:04:11.475370Z"
     },
     {
       "package": "@ruvector/ruvllm-linux-arm64-gnu",
@@ -7141,7 +7141,7 @@
       },
       "rolling_365_days": 65356,
       "response_sha256": "f4aa096fb0168150b855afcb9096bb8d44cc9df94f9f571a2ef9a7963ea545b0",
-      "retrieved_at": "2026-10-12T12:51:47.758498Z"
+      "retrieved_at": "2026-10-12T13:04:11.495254Z"
     },
     {
       "package": "@ruvector/ruvllm-linux-x64-gnu",
@@ -7162,7 +7162,7 @@
       },
       "rolling_365_days": 1978190,
       "response_sha256": "749cb24aa5b660c505c93d44b460f48cb808431d2b585fdf01932e872e8d622f",
-      "retrieved_at": "2026-10-12T12:51:52.598614Z"
+      "retrieved_at": "2026-10-12T13:04:17.526073Z"
     },
     {
       "package": "@ruvector/ruvllm-wasm",
@@ -7183,7 +7183,7 @@
       },
       "rolling_365_days": 307856,
       "response_sha256": "cf444abe16c402fb34148b3f2ad701c7d216c878c0811d9f36acb99f982789cc",
-      "retrieved_at": "2026-10-12T12:51:52.875622Z"
+      "retrieved_at": "2026-10-12T13:04:17.566931Z"
     },
     {
       "package": "@ruvector/ruvllm-win32-x64-msvc",
@@ -7204,7 +7204,7 @@
       },
       "rolling_365_days": 297751,
       "response_sha256": "9787d3511de3e28a033d42b0a61c6c53cf752e8b9664c14e2af4efcc99977d1c",
-      "retrieved_at": "2026-10-12T12:52:00.776889Z"
+      "retrieved_at": "2026-10-12T13:04:22.160517Z"
     },
     {
       "package": "@ruvector/rvagent-wasm",
@@ -7225,7 +7225,7 @@
       },
       "rolling_365_days": 309591,
       "response_sha256": "39023b499f279b67e24f4a462fa1a80ccb593fd79c90f09161ce123b31e64925",
-      "retrieved_at": "2026-10-12T12:52:00.771057Z"
+      "retrieved_at": "2026-10-12T13:04:22.141765Z"
     },
     {
       "package": "@ruvector/rvdna",
@@ -7246,7 +7246,7 @@
       },
       "rolling_365_days": 1566,
       "response_sha256": "7d807ba12cbdac7dcf484222c7dfec28f6f44954f71acc98459a76fff97c501b",
-      "retrieved_at": "2026-10-12T12:52:06.420333Z"
+      "retrieved_at": "2026-10-12T13:04:28.640180Z"
     },
     {
       "package": "@ruvector/rvf",
@@ -7267,7 +7267,7 @@
       },
       "rolling_365_days": 2221734,
       "response_sha256": "bc081c1cc1ce549229e397641de7898ced99db63bcda2329aa73e5aaa2461b30",
-      "retrieved_at": "2026-10-12T12:52:06.383858Z"
+      "retrieved_at": "2026-10-12T13:04:28.673976Z"
     },
     {
       "package": "@ruvector/rvf-mcp-server",
@@ -7288,7 +7288,7 @@
       },
       "rolling_365_days": 2229,
       "response_sha256": "9bddfccc305dffc7b8bba435edf449123edc1f7db26e45fa4aa316b76f39a935",
-      "retrieved_at": "2026-10-12T12:52:11.399055Z"
+      "retrieved_at": "2026-10-12T13:04:35.061626Z"
     },
     {
       "package": "@ruvector/rvf-node",
@@ -7309,7 +7309,7 @@
       },
       "rolling_365_days": 1896335,
       "response_sha256": "5096353c606d7a14c2dec8cda8303aa9086103b53dab48be1d73e6a73450f321",
-      "retrieved_at": "2026-10-12T12:52:11.472934Z"
+      "retrieved_at": "2026-10-12T13:04:35.029428Z"
     },
     {
       "package": "@ruvector/rvf-node-darwin-arm64",
@@ -7330,7 +7330,7 @@
       },
       "rolling_365_days": 136554,
       "response_sha256": "2f1506eda7353b4f7144b3a3f3c3232c99505cf5c5dae2419e90c43ad6db3a89",
-      "retrieved_at": "2026-10-12T12:52:16.890833Z"
+      "retrieved_at": "2026-10-12T13:04:38.058033Z"
     },
     {
       "package": "@ruvector/rvf-node-darwin-x64",
@@ -7351,7 +7351,7 @@
       },
       "rolling_365_days": 31813,
       "response_sha256": "9774548e8ea8b4e9ff8a91a4d01908663b62951ebfda4ea77435b4aa38c4cc00",
-      "retrieved_at": "2026-10-12T12:52:16.973642Z"
+      "retrieved_at": "2026-10-12T13:04:38.020577Z"
     },
     {
       "package": "@ruvector/rvf-node-linux-arm64-gnu",
@@ -7372,7 +7372,7 @@
       },
       "rolling_365_days": 48652,
       "response_sha256": "af17104c52fbe830d0640b706485a419ce1e3406cec2fd5c19bb4e05c7fd1c91",
-      "retrieved_at": "2026-10-12T12:52:22.237540Z"
+      "retrieved_at": "2026-10-12T13:04:41.859304Z"
     },
     {
       "package": "@ruvector/rvf-node-linux-x64-gnu",
@@ -7393,7 +7393,7 @@
       },
       "rolling_365_days": 1479477,
       "response_sha256": "5bbfcbe80465beb46a8cf2f64257c9edcfd7c2f6d9f3e9079350474e3a0ac306",
-      "retrieved_at": "2026-10-12T12:52:22.058920Z"
+      "retrieved_at": "2026-10-12T13:04:41.896874Z"
     },
     {
       "package": "@ruvector/rvf-node-win32-x64-msvc",
@@ -7414,7 +7414,7 @@
       },
       "rolling_365_days": 146655,
       "response_sha256": "ebcdf3601d208555155910b2fd2f01616b1aee9117f1b2d0064d0923e76dd4de",
-      "retrieved_at": "2026-10-12T12:52:29.198529Z"
+      "retrieved_at": "2026-10-12T13:04:46.562634Z"
     },
     {
       "package": "@ruvector/rvf-solver",
@@ -7435,7 +7435,7 @@
       },
       "rolling_365_days": 1755759,
       "response_sha256": "40e2a300f9386a3c0c21f5f4b00565fc8721f7f5b94fa78fa85c13ad85e5e48b",
-      "retrieved_at": "2026-10-12T12:52:29.119068Z"
+      "retrieved_at": "2026-10-12T13:04:46.530414Z"
     },
     {
       "package": "@ruvector/rvf-wasm",
@@ -7456,7 +7456,7 @@
       },
       "rolling_365_days": 1811237,
       "response_sha256": "01442ce9016b07d63b75d8795f3570c7c323ba6a32ab906522595b1f3a875098",
-      "retrieved_at": "2026-10-12T12:52:35.285281Z"
+      "retrieved_at": "2026-10-12T13:04:50.158229Z"
     },
     {
       "package": "@ruvector/rvforge",
@@ -7477,7 +7477,7 @@
       },
       "rolling_365_days": 2062,
       "response_sha256": "8746d210d2eb36d05270035e6bceca43bb6eff67c79438cdeebbbdcdcdae912c",
-      "retrieved_at": "2026-10-12T12:52:35.384816Z"
+      "retrieved_at": "2026-10-12T13:04:50.233275Z"
     },
     {
       "package": "@ruvector/rvlite",
@@ -7498,7 +7498,7 @@
       },
       "rolling_365_days": 41791,
       "response_sha256": "df08c593df70c00ac2d875dfb394547b5b9a530b74136ed7a81efe3ba8bea541",
-      "retrieved_at": "2026-10-12T12:52:44.662915Z"
+      "retrieved_at": "2026-10-12T13:04:53.837765Z"
     },
     {
       "package": "@ruvector/scipix",
@@ -7519,7 +7519,7 @@
       },
       "rolling_365_days": 704,
       "response_sha256": "f25350ae40ca9e8f9ca14cf48a60e91069738799e80aa56efa8275d87535612b",
-      "retrieved_at": "2026-10-12T12:52:44.699070Z"
+      "retrieved_at": "2026-10-12T13:04:53.863344Z"
     },
     {
       "package": "@ruvector/server",
@@ -7540,7 +7540,7 @@
       },
       "rolling_365_days": 1084,
       "response_sha256": "f3c229988a72fb7a460aabeebf87fc52da7c66eff05be270c0c56bb6aa97ab10",
-      "retrieved_at": "2026-10-12T12:52:50.025519Z"
+      "retrieved_at": "2026-10-12T13:04:57.407567Z"
     },
     {
       "package": "@ruvector/sona",
@@ -7561,7 +7561,7 @@
       },
       "rolling_365_days": 2291602,
       "response_sha256": "07f6e55fce8260247d90e20bde4134b1aec56a4ebd34ddc9403c3afc581ac689",
-      "retrieved_at": "2026-10-12T12:52:49.950261Z"
+      "retrieved_at": "2026-10-12T13:04:57.446632Z"
     },
     {
       "package": "@ruvector/sona-darwin-arm64",
@@ -7582,7 +7582,7 @@
       },
       "rolling_365_days": 201055,
       "response_sha256": "484c9707c82118761c34bd1869b023df6b1cc6cb01f52e0c579e757bf6822494",
-      "retrieved_at": "2026-10-12T12:52:54.766960Z"
+      "retrieved_at": "2026-10-12T13:05:02.230092Z"
     },
     {
       "package": "@ruvector/sona-darwin-x64",
@@ -7603,7 +7603,7 @@
       },
       "rolling_365_days": 38547,
       "response_sha256": "cb274b4d34cdd706c728f32485f855ae2e417803b4f5fbbff738a5b137676747",
-      "retrieved_at": "2026-10-12T12:52:54.824889Z"
+      "retrieved_at": "2026-10-12T13:05:02.239682Z"
     },
     {
       "package": "@ruvector/sona-linux-arm64-gnu",
@@ -7624,7 +7624,7 @@
       },
       "rolling_365_days": 60219,
       "response_sha256": "59ebe65c7fd672c120946ba7a6bd9e928684efb4023e7415fa4e0b1d213403a3",
-      "retrieved_at": "2026-10-12T12:53:00.140571Z"
+      "retrieved_at": "2026-10-12T13:05:06.203626Z"
     },
     {
       "package": "@ruvector/sona-linux-x64-gnu",
@@ -7645,7 +7645,7 @@
       },
       "rolling_365_days": 1855166,
       "response_sha256": "75649d18b4923f68d3aa04eeac56eb3f2b0fcc8f48a0114efd7785964ec38c83",
-      "retrieved_at": "2026-10-12T12:52:59.947449Z"
+      "retrieved_at": "2026-10-12T13:05:06.151498Z"
     },
     {
       "package": "@ruvector/sona-linux-x64-musl",
@@ -7666,7 +7666,7 @@
       },
       "rolling_365_days": 1709152,
       "response_sha256": "47adaff74883cbd7430738e757896db977601ff353badd3e24054bff81f0a43d",
-      "retrieved_at": "2026-10-12T12:53:04.817168Z"
+      "retrieved_at": "2026-10-12T13:05:09.827293Z"
     },
     {
       "package": "@ruvector/sona-win32-arm64-msvc",
@@ -7687,7 +7687,7 @@
       },
       "rolling_365_days": 27650,
       "response_sha256": "7a8dc6c8a0ec5b085d54b9258a52ca9d7e0753e33a279d3a622f2c83db276580",
-      "retrieved_at": "2026-10-12T12:53:05.080175Z"
+      "retrieved_at": "2026-10-12T13:05:09.835002Z"
     },
     {
       "package": "@ruvector/sona-win32-x64-msvc",
@@ -7708,7 +7708,7 @@
       },
       "rolling_365_days": 212589,
       "response_sha256": "c50ccd5406a2e06a4144513a0af9fedb81cbdb1332687d83b89c60f2285b7f75",
-      "retrieved_at": "2026-10-12T12:53:11.970963Z"
+      "retrieved_at": "2026-10-12T13:05:13.839120Z"
     },
     {
       "package": "@ruvector/spiking-neural",
@@ -7729,7 +7729,7 @@
       },
       "rolling_365_days": 1101,
       "response_sha256": "c4910d381bfa972e6ce003648f06c37dcbf6c70e64c3b65143b4d5230794f453",
-      "retrieved_at": "2026-10-12T12:53:12.220191Z"
+      "retrieved_at": "2026-10-12T13:05:13.806217Z"
     },
     {
       "package": "@ruvector/tiny-dancer",
@@ -7750,7 +7750,7 @@
       },
       "rolling_365_days": 1657131,
       "response_sha256": "71401bdeff36c7c48aa8bf731d8fece7768409434b2f4d1bbc725a0efecfa7df",
-      "retrieved_at": "2026-10-12T12:53:18.393488Z"
+      "retrieved_at": "2026-10-12T13:05:17.506009Z"
     },
     {
       "package": "@ruvector/tiny-dancer-darwin-arm64",
@@ -7771,7 +7771,7 @@
       },
       "rolling_365_days": 154020,
       "response_sha256": "b211860489def672abbac23cce53903df3af5108a0f2e725105e48d2f469f2a8",
-      "retrieved_at": "2026-10-12T12:53:18.414961Z"
+      "retrieved_at": "2026-10-12T13:05:17.547384Z"
     },
     {
       "package": "@ruvector/tiny-dancer-darwin-x64",
@@ -7792,7 +7792,7 @@
       },
       "rolling_365_days": 31762,
       "response_sha256": "4f6c2401dec17bc3cdc03a0c23fb6c26d0f35f1ca46bf4aea86c117051d83544",
-      "retrieved_at": "2026-10-12T12:53:24.455376Z"
+      "retrieved_at": "2026-10-12T13:05:21.860493Z"
     },
     {
       "package": "@ruvector/tiny-dancer-linux-arm64-gnu",
@@ -7813,7 +7813,7 @@
       },
       "rolling_365_days": 43314,
       "response_sha256": "2cbb4513f4cbf775aad81c9e6567b566fc780da1c3ef4366904a7cd714327096",
-      "retrieved_at": "2026-10-12T12:53:24.268490Z"
+      "retrieved_at": "2026-10-12T13:05:21.818542Z"
     },
     {
       "package": "@ruvector/tiny-dancer-linux-arm64-musl",
@@ -7834,7 +7834,7 @@
       },
       "rolling_365_days": 22844,
       "response_sha256": "7133391ec2139f5432fd5d6f0090fff03e97d2fd0b01445f11690fc4ecb13ef4",
-      "retrieved_at": "2026-10-12T12:53:29.184238Z"
+      "retrieved_at": "2026-10-12T13:05:26.220747Z"
     },
     {
       "package": "@ruvector/tiny-dancer-linux-x64-gnu",
@@ -7855,7 +7855,7 @@
       },
       "rolling_365_days": 1302616,
       "response_sha256": "1e3cff3c16642af337c6bc339d849762391c7d4cf75baaeab9095e5631d3d551",
-      "retrieved_at": "2026-10-12T12:53:29.336858Z"
+      "retrieved_at": "2026-10-12T13:05:26.267050Z"
     },
     {
       "package": "@ruvector/tiny-dancer-linux-x64-musl",
@@ -7876,7 +7876,7 @@
       },
       "rolling_365_days": 294019,
       "response_sha256": "14854610197be6cb8bdec46d94e0a63d610a601f1fdff8c30a2ecfb7493a2c65",
-      "retrieved_at": "2026-10-12T12:53:34.190455Z"
+      "retrieved_at": "2026-10-12T13:05:29.777449Z"
     },
     {
       "package": "@ruvector/tiny-dancer-wasm",
@@ -7897,7 +7897,7 @@
       },
       "rolling_365_days": 672,
       "response_sha256": "1513b13861d588506afbe726ae77426cb9f6d5dcc704d865434452eb58bde8d5",
-      "retrieved_at": "2026-10-12T12:53:34.006439Z"
+      "retrieved_at": "2026-10-12T13:05:29.831416Z"
     },
     {
       "package": "@ruvector/tiny-dancer-win32-arm64-msvc",
@@ -7918,7 +7918,7 @@
       },
       "rolling_365_days": 21140,
       "response_sha256": "f6f2818ff090b357b539918ab2f464c88dd8d9482d3b067f9d7fb3ac8d8b9d50",
-      "retrieved_at": "2026-10-12T12:53:41.401267Z"
+      "retrieved_at": "2026-10-12T13:05:34.095548Z"
     },
     {
       "package": "@ruvector/tiny-dancer-win32-x64-msvc",
@@ -7939,7 +7939,7 @@
       },
       "rolling_365_days": 161452,
       "response_sha256": "c7d57a501186a59343e93850bbc7337bdfddf7f8a976c7b3555e7df484fa42be",
-      "retrieved_at": "2026-10-12T12:53:41.312680Z"
+      "retrieved_at": "2026-10-12T13:05:34.067372Z"
     },
     {
       "package": "@ruvector/typesafe",
@@ -7960,7 +7960,7 @@
       },
       "rolling_365_days": 13132,
       "response_sha256": "ffa52de466deaddbb396bc48319c3d9068d0632feff873231f5150744749ad2e",
-      "retrieved_at": "2026-10-12T12:53:46.369897Z"
+      "retrieved_at": "2026-10-12T13:05:39.339962Z"
     },
     {
       "package": "@ruvector/typesafe-darwin-arm64",
@@ -7981,7 +7981,7 @@
       },
       "rolling_365_days": 159,
       "response_sha256": "e8691288761ab677a2a76a9b7f88912e62e81bd56a24803b372c0ae775f9dfc7",
-      "retrieved_at": "2026-10-12T12:53:46.304208Z"
+      "retrieved_at": "2026-10-12T13:05:39.278082Z"
     },
     {
       "package": "@ruvector/typesafe-darwin-x64",
@@ -8002,7 +8002,7 @@
       },
       "rolling_365_days": 163,
       "response_sha256": "7f1214091f7e91a999fff3ba5d952208baa38fe2611de3fd277aea6e9fe3a83c",
-      "retrieved_at": "2026-10-12T12:53:52.917425Z"
+      "retrieved_at": "2026-10-12T13:05:43.728778Z"
     },
     {
       "package": "@ruvector/typesafe-linux-arm64-gnu",
@@ -8023,7 +8023,7 @@
       },
       "rolling_365_days": 171,
       "response_sha256": "7d8474cf298dc04e26bd4d51df97e31d40147040ae72341a14b601ea4ed930f2",
-      "retrieved_at": "2026-10-12T12:53:52.761938Z"
+      "retrieved_at": "2026-10-12T13:05:43.760822Z"
     },
     {
       "package": "@ruvector/typesafe-linux-x64-gnu",
@@ -8044,7 +8044,7 @@
       },
       "rolling_365_days": 162,
       "response_sha256": "2f441028f08da289eb3dac06b0e90106d2614740367379129fefa576f27231da",
-      "retrieved_at": "2026-10-12T12:53:58.253589Z"
+      "retrieved_at": "2026-10-12T13:05:47.927805Z"
     },
     {
       "package": "@ruvector/typesafe-win32-x64-msvc",
@@ -8065,7 +8065,7 @@
       },
       "rolling_365_days": 169,
       "response_sha256": "dcbdb264a164cf9d23a7f636058c61b6c55742a11a76e28938f8413052cb9575",
-      "retrieved_at": "2026-10-12T12:53:58.341289Z"
+      "retrieved_at": "2026-10-12T13:05:47.928613Z"
     },
     {
       "package": "@ruvector/wasm",
@@ -8086,7 +8086,7 @@
       },
       "rolling_365_days": 74274,
       "response_sha256": "90d69aab9394d599c7b0ee2908b3a8dbfac2682c70e61706a7b6da655e20f5ff",
-      "retrieved_at": "2026-10-12T12:54:03.619126Z"
+      "retrieved_at": "2026-10-12T13:05:53.672277Z"
     },
     {
       "package": "@ruvector/wasm-unified",
@@ -8107,7 +8107,7 @@
       },
       "rolling_365_days": 539,
       "response_sha256": "15fa2638a68280465f8cd568287b9cee6f0252cb3cbd702c7c9a6a20936070a7",
-      "retrieved_at": "2026-10-12T12:54:03.546615Z"
+      "retrieved_at": "2026-10-12T13:05:53.640804Z"
     },
     {
       "package": "@ruvnet/agent-harness-generator",
@@ -8128,7 +8128,7 @@
       },
       "rolling_365_days": 2186,
       "response_sha256": "3e223308846fe8a3b1411fe42153dd81ee07a86d4cf469425c0ca3bfdaf1a584",
-      "retrieved_at": "2026-10-12T12:54:08.623696Z"
+      "retrieved_at": "2026-10-12T13:05:57.239571Z"
     },
     {
       "package": "@ruvnet/bmssp",
@@ -8149,7 +8149,7 @@
       },
       "rolling_365_days": 23894,
       "response_sha256": "b5a42c059faf68287a8fec92bb0a258ec01b6d02914722b183d717a80879b2d6",
-      "retrieved_at": "2026-10-12T12:54:08.554125Z"
+      "retrieved_at": "2026-10-12T13:05:57.244027Z"
     },
     {
       "package": "@ruvnet/open-claude-code",
@@ -8170,7 +8170,7 @@
       },
       "rolling_365_days": 2991,
       "response_sha256": "21b158384e74a812453731b78a02c0e841366f669a47340641225d2db8cb527c",
-      "retrieved_at": "2026-10-12T12:54:14.225797Z"
+      "retrieved_at": "2026-10-12T13:06:02.027943Z"
     },
     {
       "package": "@ruvnet/ruvector-verified-wasm",
@@ -8191,7 +8191,7 @@
       },
       "rolling_365_days": 550,
       "response_sha256": "08a775e57f4e2206b241835d5531be8831a6ffdbf4bcc5401c0d7d94dd2ddacd",
-      "retrieved_at": "2026-10-12T12:54:14.320305Z"
+      "retrieved_at": "2026-10-12T13:06:02.062420Z"
     },
     {
       "package": "@ruvnet/ruview",
@@ -8212,7 +8212,7 @@
       },
       "rolling_365_days": 3091,
       "response_sha256": "ec3bdef6f08841075796e4689573298917196850f72b04873b0e9d9f492e38a4",
-      "retrieved_at": "2026-10-12T12:54:32.848030Z"
+      "retrieved_at": "2026-10-12T13:06:05.760459Z"
     },
     {
       "package": "@ruvnet/ruview-kernel",
@@ -8233,7 +8233,7 @@
       },
       "rolling_365_days": 173,
       "response_sha256": "dc09dc1ef729d3d3b476c84b66937ed26e0244c9bc915ee249bf9edc6dc221cf",
-      "retrieved_at": "2026-10-12T12:54:33.257259Z"
+      "retrieved_at": "2026-10-12T13:06:05.787811Z"
     },
     {
       "package": "@ruvnet/ruvn",
@@ -8254,7 +8254,7 @@
       },
       "rolling_365_days": 426,
       "response_sha256": "3c899082ef0703cb3b38e98668e191fa0342a99ee44a02495bd106c8d9f93e9f",
-      "retrieved_at": "2026-10-12T12:54:37.345541Z"
+      "retrieved_at": "2026-10-12T13:06:09.731994Z"
     },
     {
       "package": "@ruvnet/rvagent",
@@ -8275,7 +8275,7 @@
       },
       "rolling_365_days": 1516,
       "response_sha256": "12e8449cf635061ffadc7a8281c8e2dd6fe30156d1865a57caba34c02e637ae1",
-      "retrieved_at": "2026-10-12T12:54:37.433364Z"
+      "retrieved_at": "2026-10-12T13:06:09.757427Z"
     },
     {
       "package": "@ruvnet/strange-loop",
@@ -8296,7 +8296,7 @@
       },
       "rolling_365_days": 22717,
       "response_sha256": "741d7345a19a901e8877de3062ec67c6bee06e62cef3ac784daab9602eae816e",
-      "retrieved_at": "2026-10-12T12:54:42.184013Z"
+      "retrieved_at": "2026-10-12T13:06:15.966441Z"
     },
     {
       "package": "agent-booster",
@@ -8317,7 +8317,7 @@
       },
       "rolling_365_days": 84423,
       "response_sha256": "3e59e806f0479e8b967a4f4ce2d1878f18d6469ba3d69208fae27b61beb315d4",
-      "retrieved_at": "2026-10-12T12:54:42.129494Z"
+      "retrieved_at": "2026-10-12T13:06:15.996660Z"
     },
     {
       "package": "agentbbs",
@@ -8338,7 +8338,7 @@
       },
       "rolling_365_days": 39356,
       "response_sha256": "2df09dd9ed36e49a45ea981310285bd1ebb0a50f8788ee423d0e21807b3ec9a0",
-      "retrieved_at": "2026-10-12T12:54:47.083453Z"
+      "retrieved_at": "2026-10-12T13:06:19.582117Z"
     },
     {
       "package": "agentdb",
@@ -8359,7 +8359,7 @@
       },
       "rolling_365_days": 4286130,
       "response_sha256": "b00be37eff2a38ffcfba8d7153c28ec6cb6b34f669203be0691e2ccdd67222ab",
-      "retrieved_at": "2026-10-12T12:54:47.111896Z"
+      "retrieved_at": "2026-10-12T13:06:19.619969Z"
     },
     {
       "package": "agentic-flow",
@@ -8380,7 +8380,7 @@
       },
       "rolling_365_days": 2808023,
       "response_sha256": "fb83f46ee2aaadf95e36e1adccc3a50cb50b42e411add54cee91123af82597f4",
-      "retrieved_at": "2026-10-12T12:54:51.748946Z"
+      "retrieved_at": "2026-10-12T13:06:23.108214Z"
     },
     {
       "package": "agentic-jujutsu",
@@ -8401,7 +8401,7 @@
       },
       "rolling_365_days": 8233,
       "response_sha256": "540fd147220909ae5dbc58ba5e43462f891403227c5ec31975e748a0d403ca0c",
-      "retrieved_at": "2026-10-12T12:54:51.748358Z"
+      "retrieved_at": "2026-10-12T13:06:23.084551Z"
     },
     {
       "package": "agentic-payments",
@@ -8422,7 +8422,7 @@
       },
       "rolling_365_days": 125470,
       "response_sha256": "4cf73af9469de6544922092431acd46fb11177eaf8d5e2bb6e1259e402588a16",
-      "retrieved_at": "2026-10-12T12:54:56.806530Z"
+      "retrieved_at": "2026-10-12T13:06:27.592540Z"
     },
     {
       "package": "agentic-robotics",
@@ -8443,7 +8443,7 @@
       },
       "rolling_365_days": 2498,
       "response_sha256": "ad7ca2ca540e6906bc63d6ba6e4f5719b1e2abfc73b65492b7eed2c998354acc",
-      "retrieved_at": "2026-10-12T12:54:56.763597Z"
+      "retrieved_at": "2026-10-12T13:06:27.612263Z"
     },
     {
       "package": "agenticow",
@@ -8464,7 +8464,7 @@
       },
       "rolling_365_days": 55186,
       "response_sha256": "9668bd23cfa645968278464ebde2362f54e3869f078cd30ed20ec22b91c808ce",
-      "retrieved_at": "2026-10-12T12:55:01.456049Z"
+      "retrieved_at": "2026-10-12T13:06:31.291697Z"
     },
     {
       "package": "agentics-hackathon",
@@ -8485,7 +8485,7 @@
       },
       "rolling_365_days": 1866,
       "response_sha256": "6b41e72063f5cdde41e378c21088837741eee70f20f87091b95f9c79c136bcc9",
-      "retrieved_at": "2026-10-12T12:55:01.676659Z"
+      "retrieved_at": "2026-10-12T13:06:31.322085Z"
     },
     {
       "package": "agenticsjs",
@@ -8506,7 +8506,7 @@
       },
       "rolling_365_days": 756,
       "response_sha256": "248477f6486276b7df64cec0fa20f6dbbd34cf17e4fd9b712ebc4afe3baf61c9",
-      "retrieved_at": "2026-10-12T12:55:07.034238Z"
+      "retrieved_at": "2026-10-12T13:06:35.300290Z"
     },
     {
       "package": "ai-text-watermark",
@@ -8527,7 +8527,7 @@
       },
       "rolling_365_days": 418,
       "response_sha256": "1bc80c4b5da30ff04832d55d579278d1fb38867550ff3bb0fefdd7fdf41ff281",
-      "retrieved_at": "2026-10-12T12:55:06.981428Z"
+      "retrieved_at": "2026-10-12T13:06:35.326014Z"
     },
     {
       "package": "aidefence",
@@ -8548,7 +8548,7 @@
       },
       "rolling_365_days": 13102,
       "response_sha256": "214e6c8220760d0f37fd0e8f3ab20b22a32d2ffbef3188beee00e205bcd72661",
-      "retrieved_at": "2026-10-12T12:55:11.966771Z"
+      "retrieved_at": "2026-10-12T13:06:38.663134Z"
     },
     {
       "package": "aidefense",
@@ -8569,7 +8569,7 @@
       },
       "rolling_365_days": 2506,
       "response_sha256": "4c4d040a27f2da0c2d2227623530e79efc9f4e316e7092bef81fbe8d2d090ae8",
-      "retrieved_at": "2026-10-12T12:55:11.790408Z"
+      "retrieved_at": "2026-10-12T13:06:38.691436Z"
     },
     {
       "package": "bmssp-wasm",
@@ -8590,7 +8590,7 @@
       },
       "rolling_365_days": 598,
       "response_sha256": "51cc6d15c216dac0acc6e541c89e11bdd7ec1fc9c5ed7bc3f1b731ebf0014c40",
-      "retrieved_at": "2026-10-12T12:55:17.758017Z"
+      "retrieved_at": "2026-10-12T13:06:43.067198Z"
     },
     {
       "package": "claude-flow",
@@ -8611,7 +8611,7 @@
       },
       "rolling_365_days": 1048133,
       "response_sha256": "6be3a7cf3fcc8d1fddd63fd62a2a38937a9934ec2c3cbfab9a7a4d463971a834",
-      "retrieved_at": "2026-10-12T12:55:17.703262Z"
+      "retrieved_at": "2026-10-12T13:06:43.108173Z"
     },
     {
       "package": "claude-flow-v3",
@@ -8632,7 +8632,7 @@
       },
       "rolling_365_days": 692,
       "response_sha256": "5f2897f69e6d017e67cdc6b07741579ddb4449e99af236cbd8d9a2c0cd8fc446",
-      "retrieved_at": "2026-10-12T12:55:23.689868Z"
+      "retrieved_at": "2026-10-12T13:06:46.415608Z"
     },
     {
       "package": "cogmusic",
@@ -8653,7 +8653,7 @@
       },
       "rolling_365_days": 349,
       "response_sha256": "ace88be924364bb1af68fca771fe3acff3cec75dbf4e89dd487895e73c8ad4a3",
-      "retrieved_at": "2026-10-12T12:55:23.844459Z"
+      "retrieved_at": "2026-10-12T13:06:46.446438Z"
     },
     {
       "package": "consciousness-explorer",
@@ -8674,7 +8674,7 @@
       },
       "rolling_365_days": 1369,
       "response_sha256": "8f73a84999545853c33ff2cee8d443251e8b6cc012480453efcdeea7288bd25f",
-      "retrieved_at": "2026-10-12T12:55:29.495167Z"
+      "retrieved_at": "2026-10-12T13:06:50.575798Z"
     },
     {
       "package": "create-sparc",
@@ -8695,7 +8695,7 @@
       },
       "rolling_365_days": 2157,
       "response_sha256": "23c7a928a35d4874f9fc0c76350c0acdd5238f51ec60a090b63e714f27ce1d93",
-      "retrieved_at": "2026-10-12T12:55:29.537148Z"
+      "retrieved_at": "2026-10-12T13:06:50.613971Z"
     },
     {
       "package": "cuda-wasm",
@@ -8716,7 +8716,7 @@
       },
       "rolling_365_days": 1052,
       "response_sha256": "8a28afbca54affe9e0bc3c719983e1597ffb33bd7881958c7fa9b153959ee242",
-      "retrieved_at": "2026-10-12T12:55:35.090278Z"
+      "retrieved_at": "2026-10-12T13:06:53.724820Z"
     },
     {
       "package": "dream-machine",
@@ -8737,7 +8737,7 @@
       },
       "rolling_365_days": 1763,
       "response_sha256": "70297d88db3f71d2349a774433db8ed7bc3f8624043a407e33ff800cc3476494",
-      "retrieved_at": "2026-10-12T12:55:35.137711Z"
+      "retrieved_at": "2026-10-12T13:06:53.756282Z"
     },
     {
       "package": "dspy.ts",
@@ -8758,7 +8758,7 @@
       },
       "rolling_365_days": 7593,
       "response_sha256": "09b21c6ca3b395c273f65667c7c69a5238ffa6031038862e45cc95ca3635eaf2",
-      "retrieved_at": "2026-10-12T12:55:40.662560Z"
+      "retrieved_at": "2026-10-12T13:06:57.837918Z"
     },
     {
       "package": "flow-nexus",
@@ -8779,7 +8779,7 @@
       },
       "rolling_365_days": 284075,
       "response_sha256": "fe65d160b4ebffe1ddbef83dd77b8719aee23d556a053bea69e354697724994b",
-      "retrieved_at": "2026-10-12T12:55:40.680702Z"
+      "retrieved_at": "2026-10-12T13:06:57.811080Z"
     },
     {
       "package": "goalie",
@@ -8800,7 +8800,7 @@
       },
       "rolling_365_days": 10482,
       "response_sha256": "4b640fbae21d01a250b7d7d1e8f80da99ad686523a27f7981a286183f3d21de9",
-      "retrieved_at": "2026-10-12T12:55:45.396375Z"
+      "retrieved_at": "2026-10-12T13:07:01.769598Z"
     },
     {
       "package": "homecore",
@@ -8821,7 +8821,7 @@
       },
       "rolling_365_days": 169,
       "response_sha256": "cc347cd6d335ed2a1b723dcdde70eb92f4aa00947a5b076f2544b883478960bf",
-      "retrieved_at": "2026-10-12T12:55:45.235528Z"
+      "retrieved_at": "2026-10-12T13:07:01.739699Z"
     },
     {
       "package": "lean-agentic",
@@ -8842,7 +8842,7 @@
       },
       "rolling_365_days": 5776,
       "response_sha256": "36b3a47fb60abf26cda1745f7a47a9766e2290e7c4d21908653f9ead3f53e15d",
-      "retrieved_at": "2026-10-12T12:55:51.912014Z"
+      "retrieved_at": "2026-10-12T13:07:04.897028Z"
     },
     {
       "package": "llm-stream-reformat",
@@ -8863,7 +8863,7 @@
       },
       "rolling_365_days": 196,
       "response_sha256": "43511578c9c2579b428c1a49735d8edeb935db51e58901c2818c0a315431f1c9",
-      "retrieved_at": "2026-10-12T12:55:51.794152Z"
+      "retrieved_at": "2026-10-12T13:07:04.927772Z"
     },
     {
       "package": "metaharness",
@@ -8884,7 +8884,7 @@
       },
       "rolling_365_days": 583567,
       "response_sha256": "9b517cc5c6105023e6221ac074ea661e19b6007082085de75dcc494b59da114b",
-      "retrieved_at": "2026-10-12T12:55:57.010267Z"
+      "retrieved_at": "2026-10-12T13:07:08.493729Z"
     },
     {
       "package": "midstreamer",
@@ -8905,7 +8905,7 @@
       },
       "rolling_365_days": 70193,
       "response_sha256": "b0ba81b62ed3603a985b0e9d9ba8996e10ae8405029279253750929c36e525d4",
-      "retrieved_at": "2026-10-12T12:55:57.045179Z"
+      "retrieved_at": "2026-10-12T13:07:08.468547Z"
     },
     {
       "package": "neural-trader",
@@ -8926,7 +8926,7 @@
       },
       "rolling_365_days": 20351,
       "response_sha256": "96d1c5cec951bf1089b5c676c215841b1f5c5a55e6dca1f10a8563556f5eb313",
-      "retrieved_at": "2026-10-12T12:56:01.790344Z"
+      "retrieved_at": "2026-10-12T13:07:11.776780Z"
     },
     {
       "package": "prime-radiant-advanced-wasm",
@@ -8947,7 +8947,7 @@
       },
       "rolling_365_days": 18176,
       "response_sha256": "9d3b51e2c5622fa5fbb9423d19c47eb710e9af48b706a2c5639c516f39e6ca3f",
-      "retrieved_at": "2026-10-12T12:56:01.956745Z"
+      "retrieved_at": "2026-10-12T13:07:11.787443Z"
     },
     {
       "package": "psycho-symbolic-integration",
@@ -8968,7 +8968,7 @@
       },
       "rolling_365_days": 667,
       "response_sha256": "3228a1ae5948503adb4b3597b3e4bb26e1b8c9b3a30eb98c5217bcdacb439d39",
-      "retrieved_at": "2026-10-12T12:56:21.233350Z"
+      "retrieved_at": "2026-10-12T13:07:15.370099Z"
     },
     {
       "package": "psycho-symbolic-reasoner",
@@ -8989,7 +8989,7 @@
       },
       "rolling_365_days": 1226,
       "response_sha256": "212265f27617215c781479d3138c719bf71e86a28bd43b2be90496f66f8ba0a2",
-      "retrieved_at": "2026-10-12T12:56:21.462907Z"
+      "retrieved_at": "2026-10-12T13:07:15.392860Z"
     },
     {
       "package": "qudag",
@@ -9010,7 +9010,7 @@
       },
       "rolling_365_days": 1213,
       "response_sha256": "6ab0ab14740a586cc2978048809a7cbcff4c19bdad76594da081523c57488532",
-      "retrieved_at": "2026-10-12T12:56:26.386911Z"
+      "retrieved_at": "2026-10-12T13:07:19.240020Z"
     },
     {
       "package": "radio-moe",
@@ -9031,7 +9031,7 @@
       },
       "rolling_365_days": 847,
       "response_sha256": "daea7a7f826151eba2115017e2a75dd5cf10e104753765ed17c3df20d7ea2ef3",
-      "retrieved_at": "2026-10-12T12:56:26.272528Z"
+      "retrieved_at": "2026-10-12T13:07:19.266838Z"
     },
     {
       "package": "readme-proof",
@@ -9052,7 +9052,7 @@
       },
       "rolling_365_days": 294,
       "response_sha256": "22c61a3b5ab13137786a97246c459c7d1a39d685fd6e0d01a7b0942063fa3280",
-      "retrieved_at": "2026-10-12T12:56:31.195838Z"
+      "retrieved_at": "2026-10-12T13:07:23.102807Z"
     },
     {
       "package": "research-swarm",
@@ -9073,7 +9073,7 @@
       },
       "rolling_365_days": 2240,
       "response_sha256": "39401b793d6262356800c539e73b8a9101a10a49936824c5b9d7bca52d592c35",
-      "retrieved_at": "2026-10-12T12:56:31.257584Z"
+      "retrieved_at": "2026-10-12T13:07:23.096722Z"
     },
     {
       "package": "rucelium-harness",
@@ -9094,7 +9094,7 @@
       },
       "rolling_365_days": 228,
       "response_sha256": "19665c1bc93b81ca3e8ae128f1eeeed35c2e4bc85a7d2efe452fb5a05438a836",
-      "retrieved_at": "2026-10-12T12:56:36.612092Z"
+      "retrieved_at": "2026-10-12T13:07:28.123181Z"
     },
     {
       "package": "ruflo",
@@ -9115,7 +9115,7 @@
       },
       "rolling_365_days": 1504696,
       "response_sha256": "8acdcc0384b02d91dd492f1aac83697a0f0268607ee8388ba8bde38b66e26369",
-      "retrieved_at": "2026-10-12T12:56:36.657173Z"
+      "retrieved_at": "2026-10-12T13:07:28.167726Z"
     },
     {
       "package": "ruflo-graph-intelligence",
@@ -9136,7 +9136,7 @@
       },
       "rolling_365_days": 435,
       "response_sha256": "93e132c5cb47707eb83010aa353aa0925bacc88cccf72a394f0a614c6a94adf1",
-      "retrieved_at": "2026-10-12T12:56:41.842873Z"
+      "retrieved_at": "2026-10-12T13:07:31.338110Z"
     },
     {
       "package": "rulake-wasm",
@@ -9157,7 +9157,7 @@
       },
       "rolling_365_days": 272,
       "response_sha256": "a8e0dfa942da0b1ff75134c102ef334ee9975071aed410d01ae2f5682c3f7d37",
-      "retrieved_at": "2026-10-12T12:56:42.042781Z"
+      "retrieved_at": "2026-10-12T13:07:31.365467Z"
     },
     {
       "package": "rupixel",
@@ -9178,7 +9178,7 @@
       },
       "rolling_365_days": 370,
       "response_sha256": "3ecc34946381e4c87be726ada74aef97aecb1b1cc201a554fccda5a9b645a34d",
-      "retrieved_at": "2026-10-12T12:56:47.390268Z"
+      "retrieved_at": "2026-10-12T13:07:35.709803Z"
     },
     {
       "package": "ruv-swarm",
@@ -9199,7 +9199,7 @@
       },
       "rolling_365_days": 428307,
       "response_sha256": "efcfabfd0173a211351b5104e7e2af3b50a0b508858c47936e31cb58d5e9642b",
-      "retrieved_at": "2026-10-12T12:56:47.262867Z"
+      "retrieved_at": "2026-10-12T13:07:35.739932Z"
     },
     {
       "package": "ruvbot",
@@ -9220,7 +9220,7 @@
       },
       "rolling_365_days": 6084,
       "response_sha256": "c6a44286f650e86d795ed51eaf9a82f315bafe06fdba2d873ae91380f8cbc24f",
-      "retrieved_at": "2026-10-12T12:56:52.855768Z"
+      "retrieved_at": "2026-10-12T13:07:39.055154Z"
     },
     {
       "package": "ruvdrone",
@@ -9241,7 +9241,7 @@
       },
       "rolling_365_days": 345,
       "response_sha256": "07c1bfac64ea2c7776e4662354944a0b1d123c8a376287837cc3be081284eda7",
-      "retrieved_at": "2026-10-12T12:56:52.895802Z"
+      "retrieved_at": "2026-10-12T13:07:39.015838Z"
     },
     {
       "package": "ruvector",
@@ -9262,7 +9262,7 @@
       },
       "rolling_365_days": 2837609,
       "response_sha256": "bdd7fec63daf982fff12a2e08eb5fbb6dfc20c8e0e97b3af6aaca05272dfc791",
-      "retrieved_at": "2026-10-12T12:56:59.942071Z"
+      "retrieved_at": "2026-10-12T13:07:42.507287Z"
     },
     {
       "package": "ruvector-attention-unified-wasm",
@@ -9283,7 +9283,7 @@
       },
       "rolling_365_days": 481,
       "response_sha256": "dd2406dab8fe65eba26d815776cb92012e4b27ff4eb8ee47238d939745f6c603",
-      "retrieved_at": "2026-10-12T12:57:00.101463Z"
+      "retrieved_at": "2026-10-12T13:07:42.538884Z"
     },
     {
       "package": "ruvector-attention-wasm",
@@ -9304,7 +9304,7 @@
       },
       "rolling_365_days": 1893499,
       "response_sha256": "7143dad4352fdd95fce2fd21d8c6c2f8916052dfea76a8f34b1f44c66eb759a9",
-      "retrieved_at": "2026-10-12T12:57:05.277422Z"
+      "retrieved_at": "2026-10-12T13:07:46.833479Z"
     },
     {
       "package": "ruvector-core",
@@ -9325,7 +9325,7 @@
       },
       "rolling_365_days": 2944,
       "response_sha256": "4d2b0db94d6f509946ccf09256409a080ad57d44f1a9865bbc1b5213e7ed993d",
-      "retrieved_at": "2026-10-12T12:57:05.246865Z"
+      "retrieved_at": "2026-10-12T13:07:46.884599Z"
     },
     {
       "package": "ruvector-core-darwin-arm64",
@@ -9346,7 +9346,7 @@
       },
       "rolling_365_days": 159192,
       "response_sha256": "af7f8c5c419c209561158483ba77c7dfe6006719e1adc090e23681142bf401fa",
-      "retrieved_at": "2026-10-12T12:57:14.796306Z"
+      "retrieved_at": "2026-10-12T13:07:50.515755Z"
     },
     {
       "package": "ruvector-core-darwin-x64",
@@ -9367,7 +9367,7 @@
       },
       "rolling_365_days": 34415,
       "response_sha256": "7afa966385742e05af04112eb155eb1d15926597beb2d292871358b522748c7d",
-      "retrieved_at": "2026-10-12T12:57:14.860380Z"
+      "retrieved_at": "2026-10-12T13:07:50.548204Z"
     },
     {
       "package": "ruvector-core-linux-arm64-gnu",
@@ -9388,7 +9388,7 @@
       },
       "rolling_365_days": 53640,
       "response_sha256": "84177bc6f430f25167d78d33c6f8e6d792d40c770efc4116341ca1caec6d21de",
-      "retrieved_at": "2026-10-12T12:57:20.033601Z"
+      "retrieved_at": "2026-10-12T13:07:53.997298Z"
     },
     {
       "package": "ruvector-core-linux-x64-gnu",
@@ -9409,7 +9409,7 @@
       },
       "rolling_365_days": 1644603,
       "response_sha256": "9bf3bc290f391f6080a77e7edda649c4b4b16d4d71f8fbb4e608d40d68857c36",
-      "retrieved_at": "2026-10-12T12:57:20.105982Z"
+      "retrieved_at": "2026-10-12T13:07:54.037050Z"
     },
     {
       "package": "ruvector-core-win32-x64-msvc",
@@ -9430,7 +9430,7 @@
       },
       "rolling_365_days": 167797,
       "response_sha256": "26956920a80a279f38e8d1e559ac8b7d3244c50238f0581ee5a1dfa96f5e3d7d",
-      "retrieved_at": "2026-10-12T12:57:25.762632Z"
+      "retrieved_at": "2026-10-12T13:07:58.733039Z"
     },
     {
       "package": "ruvector-extensions",
@@ -9451,7 +9451,7 @@
       },
       "rolling_365_days": 6957,
       "response_sha256": "eea6ffbdc9fdf04d6ccb332f37d5a07a84f61abd2f61e775e3e2d130496d839a",
-      "retrieved_at": "2026-10-12T12:57:25.837721Z"
+      "retrieved_at": "2026-10-12T13:07:58.781798Z"
     },
     {
       "package": "ruvector-gnn-wasm",
@@ -9472,7 +9472,7 @@
       },
       "rolling_365_days": 577,
       "response_sha256": "d971731175630153a272ba7d8c7fcbbc04014f4d7445aa79614e4a89de0bd64f",
-      "retrieved_at": "2026-10-12T12:57:31.057706Z"
+      "retrieved_at": "2026-10-12T13:08:02.758781Z"
     },
     {
       "package": "ruvector-graph-transformer-wasm",
@@ -9493,7 +9493,7 @@
       },
       "rolling_365_days": 1534514,
       "response_sha256": "acdef4813dfcbc45f328cdf54abeec195b9b0d4b460c3bea97eee8f08891df96",
-      "retrieved_at": "2026-10-12T12:57:30.935203Z"
+      "retrieved_at": "2026-10-12T13:08:02.808966Z"
     },
     {
       "package": "ruvector-math-wasm",
@@ -9514,7 +9514,7 @@
       },
       "rolling_365_days": 869,
       "response_sha256": "7dbfe71f1bb162fb8951a4a88cb82de84f4c249827b0a380b226606308f65558",
-      "retrieved_at": "2026-10-12T12:57:36.140599Z"
+      "retrieved_at": "2026-10-12T13:08:07.304878Z"
     },
     {
       "package": "ruvector-mragent",
@@ -9535,7 +9535,7 @@
       },
       "rolling_365_days": 332,
       "response_sha256": "a41a5d50d8665bddd8aa17ea1f27d2af11808cb56ffd081258ccf163b7956cb5",
-      "retrieved_at": "2026-10-12T12:57:36.354725Z"
+      "retrieved_at": "2026-10-12T13:08:07.356732Z"
     },
     {
       "package": "ruvector-onnx-embeddings-wasm",
@@ -9556,7 +9556,7 @@
       },
       "rolling_365_days": 1372079,
       "response_sha256": "221c6caa6f1a5b2b0a1901ec28e2774ccb3aac5cb9d0d128396b3fe216239794",
-      "retrieved_at": "2026-10-12T12:57:41.062821Z"
+      "retrieved_at": "2026-10-12T13:08:11.512085Z"
     },
     {
       "package": "ruvector-sona",
@@ -9577,7 +9577,7 @@
       },
       "rolling_365_days": 769,
       "response_sha256": "fb66bff2e055c7af6ce931fde8bdcb5afb844ba38497ce8b37af106d43c9fb90",
-      "retrieved_at": "2026-10-12T12:57:41.258570Z"
+      "retrieved_at": "2026-10-12T13:08:11.484298Z"
     },
     {
       "package": "ruvector-wasm",
@@ -9598,7 +9598,7 @@
       },
       "rolling_365_days": 589,
       "response_sha256": "cbb2e67f44445ee88a03d89752898ec218a36eb6392c3eaa324f45c387c44e4b",
-      "retrieved_at": "2026-10-12T12:57:46.272017Z"
+      "retrieved_at": "2026-10-12T13:08:15.431533Z"
     },
     {
       "package": "ruvi",
@@ -9619,7 +9619,7 @@
       },
       "rolling_365_days": 1859,
       "response_sha256": "be819c897f12abbe998493e33b48b0ae2e182996d50fee633c1c88f34b48a910",
-      "retrieved_at": "2026-10-12T12:57:46.231116Z"
+      "retrieved_at": "2026-10-12T13:08:15.461259Z"
     },
     {
       "package": "ruvllm-esp32",
@@ -9640,7 +9640,7 @@
       },
       "rolling_365_days": 1681,
       "response_sha256": "53f57e17895a2a4b45566521c233c869321ec270344ffc28c2254fe9062b31f4",
-      "retrieved_at": "2026-10-12T12:57:51.968742Z"
+      "retrieved_at": "2026-10-12T13:08:20.328763Z"
     },
     {
       "package": "ruvneural",
@@ -9661,7 +9661,7 @@
       },
       "rolling_365_days": 328,
       "response_sha256": "314a410e481fcf91af50ce6ce03b48e5c54b0942818390795a9777c624049ad3",
-      "retrieved_at": "2026-10-12T12:57:52.027543Z"
+      "retrieved_at": "2026-10-12T13:08:20.292777Z"
     },
     {
       "package": "rvlite",
@@ -9682,7 +9682,7 @@
       },
       "rolling_365_days": 15137,
       "response_sha256": "7a402477645c347ff883ffb32fd0616e771e320450c777cd1789d755bcce157f",
-      "retrieved_at": "2026-10-12T12:57:56.818204Z"
+      "retrieved_at": "2026-10-12T13:08:24.162634Z"
     },
     {
       "package": "spiking-neural",
@@ -9703,7 +9703,7 @@
       },
       "rolling_365_days": 827,
       "response_sha256": "a7b41223aced8af3dcb6f8a7f9c640513ddfc41b56df572cbea6aa51fd0b4942",
-      "retrieved_at": "2026-10-12T12:57:56.882830Z"
+      "retrieved_at": "2026-10-12T13:08:24.209575Z"
     },
     {
       "package": "strange-loops",
@@ -9724,7 +9724,7 @@
       },
       "rolling_365_days": 24778,
       "response_sha256": "8b8d62d31560a42310392cb41660e6de1f904de503aa4c9415b300249f772a5e",
-      "retrieved_at": "2026-10-12T12:58:04.786031Z"
+      "retrieved_at": "2026-10-12T13:08:28.737547Z"
     },
     {
       "package": "strange-loops-mcp",
@@ -9745,7 +9745,7 @@
       },
       "rolling_365_days": 568,
       "response_sha256": "ba199ed17543f15ff81a8234c2e4482bb06472023b3d70c83dc66fd0c97f182d",
-      "retrieved_at": "2026-10-12T12:58:04.821514Z"
+      "retrieved_at": "2026-10-12T13:08:28.769770Z"
     },
     {
       "package": "sublinear-time-solver",
@@ -9766,7 +9766,7 @@
       },
       "rolling_365_days": 27105,
       "response_sha256": "18f84f7e5c805c296eeeb963658301e48110ffb3f8dd8fa9e167fae5185f8e39",
-      "retrieved_at": "2026-10-12T12:58:24.079035Z"
+      "retrieved_at": "2026-10-12T13:08:33.754017Z"
     },
     {
       "package": "symbolic-scribe-harness",
@@ -9787,7 +9787,7 @@
       },
       "rolling_365_days": 523,
       "response_sha256": "5086b26f7204094c468224535edacbebdfafb51e95411476fbfa91b15309edfa",
-      "retrieved_at": "2026-10-12T12:58:24.123416Z"
+      "retrieved_at": "2026-10-12T13:08:33.780241Z"
     },
     {
       "package": "temporal-lead-solver",
@@ -9808,7 +9808,7 @@
       },
       "rolling_365_days": 23206,
       "response_sha256": "0d592737752a9214f7a95b7613b7dd82b16def4f6f313a91f1c678ce617788bd",
-      "retrieved_at": "2026-10-12T12:58:28.886810Z"
+      "retrieved_at": "2026-10-12T13:08:39.167631Z"
     },
     {
       "package": "temporal-neural-solver",
@@ -9829,7 +9829,7 @@
       },
       "rolling_365_days": 837,
       "response_sha256": "957fcba30f65e2de82ed6fb3dae2b84703ae7fda9eeea13a235ed22f813447d8",
-      "retrieved_at": "2026-10-12T12:58:28.844099Z"
+      "retrieved_at": "2026-10-12T13:08:39.181859Z"
     },
     {
       "package": "vscode-remote-mcp",
@@ -9850,7 +9850,7 @@
       },
       "rolling_365_days": 628,
       "response_sha256": "fc4fb9fc9bc502e2ebe11220efa2a2b7d7c7bbb76c5eb6d6a1d2015406b86435",
-      "retrieved_at": "2026-10-12T12:58:32.707254Z"
+      "retrieved_at": "2026-10-12T13:08:43.298106Z"
     },
     {
       "package": "wifi-densepose-sar-harness",
@@ -9871,7 +9871,7 @@
       },
       "rolling_365_days": 240,
       "response_sha256": "74c2f6dfa49d7dcd9d21d63612ee5de576d3038e05b93fb65dd7b360d7ac63b9",
-      "retrieved_at": "2026-10-12T12:58:32.702704Z"
+      "retrieved_at": "2026-10-12T13:08:43.335336Z"
     },
     {
       "package": "worldgraphs",
@@ -9892,7 +9892,7 @@
       },
       "rolling_365_days": 210,
       "response_sha256": "ef9f26abe402e2c4ed3826fff049f8145cea17f2c8dbfbbd99be94cc431346af",
-      "retrieved_at": "2026-10-12T12:58:38.115232Z"
+      "retrieved_at": "2026-10-12T13:08:46.502031Z"
     }
   ]
 }

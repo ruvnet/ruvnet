@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T12:58:59.656602Z",
+  "generated_at": "2026-10-12T13:09:10.412512Z",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 399,
     "download_package_count": 399,
-    "inventory_verified_at": "2026-10-12T12:40:22.794894Z",
-    "downloads_verified_at": "2026-10-12T12:58:38.115232Z",
+    "inventory_verified_at": "2026-10-12T12:52:59.018142Z",
+    "downloads_verified_at": "2026-10-12T13:08:46.502031Z",
     "downloads": 96332647,
     "period_start": "2025-10-12",
     "period_end": "2026-10-11",
@@ -72,12 +72,12 @@
       "period_start": "2026-10-01",
       "period_end": "2026-10-11",
       "status": "partial month; trailing all-zero API days excluded",
-      "verified_at": "2026-10-12T12:58:38.115232Z"
+      "verified_at": "2026-10-12T13:08:46.502031Z"
     }
   },
   "crates_io": {
     "user_id": 339999,
-    "verified_at": "2026-10-12T12:58:59.655914Z",
+    "verified_at": "2026-10-12T13:09:10.411555Z",
     "crate_count": 480,
     "cumulative_downloads": 1848105,
     "inventory_path": "data/snapshots/2026-10-12/crates-inventory.json",

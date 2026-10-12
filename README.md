@@ -194,19 +194,18 @@ Public GitHub API snapshot verified **October 12, 2026 UTC**. [Captured inventor
 | Public repositories | 224 |
 | Owned public nonfork repositories | 197 |
 | Public repositories that are forks | 27 |
-| Stars across owned public nonfork repositories | 188,444 |
+| Stars across owned public nonfork repositories | 188,447 |
 | Aggregate downstream forks of owned nonfork repositories | 25,170 |
 
 ### Flagship repository traction
 
 | Project | Stars | Forks | Subscribers |
 | --- | ---: | ---: | ---: |
-| [RuView](https://github.com/ruvnet/RuView) | 97,492 | 12,785 | 873 |
+| [RuView](https://github.com/ruvnet/RuView) | 97,495 | 12,785 | 873 |
 | [ruflo](https://github.com/ruvnet/ruflo) | 74,398 | 8,847 | 458 |
 | [RuVector](https://github.com/ruvnet/RuVector) | 4,559 | 611 | 37 |
 | [metaharness](https://github.com/ruvnet/metaharness) | 699 | 88 | 3 |
 | [rvm](https://github.com/ruvnet/rvm) | 149 | 32 | 0 |
-| [agentic-flow](https://github.com/ruvnet/agentic-flow) | 818 | 178 | 14 |
 
 RuView and Ruflo account for **91.2% of owned public nonfork stars** and **85.9% of downstream forks**.
 <!-- github-public-metrics:end -->

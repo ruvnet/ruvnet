@@ -43,6 +43,10 @@ def main():
     folder = f'data/snapshots/{args.date}'
     inventory_path = f'{folder}/github-inventory.json'
     release_inventory_path = f'{folder}/github-release-inventory.json'
+    inventory = read(inventory_path)
+    inventory_summary = inventory['summary']
+    repository_count = gh['all_owned']['repositories']
+    repository_pages = len(inventory_summary['page_offsets'])
     releases = read(release_inventory_path)
 
     asset_ledger = read('data/release-asset-ledger.json')
@@ -70,7 +74,7 @@ def main():
     retained_downloads = sum(x['downloads'] for x in asset_ledger['assets'].values())
     missing_assets = sum(1 for x in asset_ledger['assets'].values() if x['missing_from_latest_inventory'])
     release_stats = {
-        'coverage': f"All {gh['all_owned']['repositories']} public owned repositories",
+        'coverage': f"All {repository_count} public owned repositories",
         'releases': gh['releases'],
         'published_in_14_day_window': gh['published_in_14_day_window'],
         'current_assets': current_asset_count,
@@ -104,7 +108,9 @@ def main():
         'views': None,
         'traffic_status': current['traffic']['status'],
         'source': inventory_path,
-        'coverage': 'All public owned repositories; five connector pages reconciled to 222 distinct public repository IDs; private records excluded before storage',
+        'coverage': (f'All public owned repositories; {repository_pages} connector pages '
+                     f'reconciled to {repository_count} distinct public repository IDs; '
+                     'private records excluded before storage'),
     }
     account = {
         'followers': followers,
@@ -195,7 +201,7 @@ def main():
     running['validation'] = {
         'github_pagination_reconciled': True,
         'github_public_repository_ids_unique': True,
-        'release_pagination_complete_repositories': 222,
+        'release_pagination_complete_repositories': repository_count,
         'actions_pagination_complete_repositories': actions['complete_repositories'],
         'unique_daily_keys': len(ledger['values']),
         'replay_idempotent': True,
@@ -232,7 +238,7 @@ def main():
         'verified_at': generated_at,
         'window': {'start': window_start, 'end': window_end, 'days': 14, 'current_utc_day_excluded': True},
         'sources': {'github_inventory': inventory_path, 'github_releases': release_inventory_path, 'npm_inventory': registry['npm']['inventory_path'], 'npm_downloads': npm_path, 'crates_io': crates['inventory_path']},
-        'coverage': {'github_public_repositories': 222, 'github_pages': 5, 'release_complete_repositories': 222, 'npm_expected_packages': registry['npm']['package_count'], 'npm_collected_packages': registry['npm']['download_package_count'], 'actions_complete_repositories': actions['complete_repositories'], 'actions_incomplete_repositories': actions['incomplete_repositories']},
+        'coverage': {'github_public_repositories': repository_count, 'github_pages': repository_pages, 'release_complete_repositories': repository_count, 'npm_expected_packages': registry['npm']['package_count'], 'npm_collected_packages': registry['npm']['download_package_count'], 'actions_complete_repositories': actions['complete_repositories'], 'actions_incomplete_repositories': actions['incomplete_repositories']},
         'traffic': current['traffic'],
     }
     summary = {'verified_at': generated_at, 'github': collection, 'activity': activity, 'open_items': open_items, 'release_assets': release_stats, 'actions': actions, 'npm': running['npm'], 'crates_io': running['crates_io'], 'download_milestone': running['download_milestone'], 'validation': running['validation']}
@@ -274,7 +280,7 @@ Verified {day.strftime('%B %-d, %Y')}. Public repositories only. GitHub counts: 
 | Successful workflow runs | {number(actions['conclusions'].get('success', 0))} |
 | Failed workflow runs | {number(actions['conclusions'].get('failure', 0))} |
 
-Workflow enumeration is complete for {actions['complete_repositories']} of 222 repositories. Ruflo remains partial because GitHub limits pagination to 1,000 results per query. Outcomes are current conclusions of unique run IDs, not all retry attempts or a reliability measure.
+Workflow enumeration is complete for {actions['complete_repositories']} of {repository_count} repositories. Ruflo remains partial because GitHub limits pagination to 1,000 results per query. Outcomes are current conclusions of unique run IDs, not all retry attempts or a reliability measure.
 
 ## npm downloads
 
@@ -282,7 +288,7 @@ Observed {number(running['npm']['observed_downloads'])} downloads across {regist
 
 ## Coverage and gaps
 
-All 222 public repositories were enumerated, including 26 forks and zero archived repositories. Repository subscriptions and release pagination are complete. Open public issues and PRs are {number(open_items['open_issues']['count'])} and {number(open_items['open_prs']['count'])}. Indexed search can differ from repository metadata because sources are not an atomic snapshot.
+All {repository_count} public repositories were enumerated, including {gh['public_forks']} forks and {collection['all_owned']['archived']} archived repositories. Repository subscriptions and release pagination are complete. Open public issues and PRs are {number(open_items['open_issues']['count'])} and {number(open_items['open_prs']['count'])}. Indexed search can differ from repository metadata because sources are not an atomic snapshot.
 
 Clones and page views are unavailable because the connected GitHub interface lacks Administration read permission and does not expose repository traffic endpoints. Historical traffic remains preserved and is never substituted for current data. Commits and contributors were not refreshed.
 
