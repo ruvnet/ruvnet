@@ -25,6 +25,9 @@ HEADERS = {
     'User-Agent': 'ruvnet-profile-registry-audit/1.0 (+https://github.com/ruvnet/ruvnet)',
 }
 
+class NpmRangeNotFound(RuntimeError):
+    """npm knows the package, but its download-range resource is not ready."""
+
 
 def stamp():
     return dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00', 'Z')
@@ -45,7 +48,10 @@ def fetch_json(url):
         except urllib.error.HTTPError as error:
             # Newly published npm packages can appear in search before download stats.
             npm_pending = error.code == 404 and url.startswith('https://api.npmjs.org/downloads/')
-            if (error.code not in (429, 500, 502, 503, 504) and not npm_pending) or attempt == 7:
+            if npm_pending and attempt == 7:
+                raise NpmRangeNotFound(
+                    f'HTTP 404 retrieving {url}; previous verified data retained') from error
+            if not npm_pending and (error.code not in (429, 500, 502, 503, 504) or attempt == 7):
                 raise RuntimeError(f'HTTP {error.code} retrieving {url}; previous verified data retained') from error
             retry_after = error.headers.get('Retry-After', '10')
             try:
@@ -178,7 +184,7 @@ def save(relative_path, data):
     path.write_text(json.dumps(data, indent=2) + '\n')
 
 
-def update_daily_ledger(results, today, verified):
+def update_daily_ledger(results, today, verified, expected_packages=None, errors=None):
     """Upsert the latest 14 complete UTC days by package and date."""
     start = (today - dt.timedelta(days=14)).isoformat()
     end = (today - dt.timedelta(days=1)).isoformat()
@@ -201,9 +207,9 @@ def update_daily_ledger(results, today, verified):
     ledger['observed_through'] = end
     ledger['updated_at'] = verified
     ledger['coverage'] = {
-        'expected_packages': len(results),
+        'expected_packages': expected_packages if expected_packages is not None else len(results),
         'collected_packages': len(results),
-        'errors': [],
+        'errors': errors or [],
     }
     ledger['interpretation'] = ('Observed download events in stored package/date cells. '
                                 'Not lifetime downloads. Recent provider zero days may be provisional.')
@@ -265,24 +271,42 @@ def main():
     end = (today - dt.timedelta(days=1)).isoformat()
     packages, inventory_receipts = npm_inventory()
     print(f'Recounting {len(packages)} npm packages through requested date {end}', flush=True)
+    previous_registry = json.loads((ROOT / 'data/registry-stats.json').read_text())
+    previous_evidence = json.loads(
+        (ROOT / previous_registry['npm']['downloads_evidence_path']).read_text())
+    previous_packages = {row['package'] for row in previous_evidence['packages']}
 
     def fetch_package(package):
         url = (f'https://api.npmjs.org/downloads/range/{PERIOD_START}:{end}/'
                + urllib.parse.quote(package, safe=''))
-        body, receipt = fetch_json(url)
+        try:
+            body, receipt = fetch_json(url)
+        except NpmRangeNotFound:
+            if package in previous_packages:
+                raise
+            return {
+                'package': package, 'unavailable': True, 'source': url,
+                'checked_at': stamp(),
+                'error': 'npm download-range endpoint returned HTTP 404 after bounded retries',
+            }
         validate_range(package, body, PERIOD_START, end)
         time.sleep(.7)
         return {'package': package, 'body': body, 'receipt': receipt}
 
-    results = []
+    fetched = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
         for result in pool.map(fetch_package, packages):
-            results.append(result)
-            if len(results) % 25 == 0:
-                print(f'Recounted {len(results)}/{len(packages)}', flush=True)
+            fetched.append(result)
+            if len(fetched) % 25 == 0:
+                print(f'Recounted {len(fetched)}/{len(packages)}', flush=True)
+    unavailable = [row for row in fetched if row.get('unavailable')]
+    results = [row for row in fetched if not row.get('unavailable')]
     evidence, monthly = summarize_ranges(results, PERIOD_START, end)
+    evidence['inventory_package_count'] = len(packages)
+    evidence['download_package_count'] = len(results)
+    evidence['unavailable_packages'] = unavailable
     crates, crate_receipts = crate_inventory()
-    registry = json.loads((ROOT / 'data/registry-stats.json').read_text())
+    registry = previous_registry
     old_npm = registry['npm']
     if evidence['reported_through'] < old_npm['period_end']:
         raise ValueError('npm reporting coverage regressed; retain the previous snapshot')
@@ -292,7 +316,7 @@ def main():
     crates_path = f'{folder}/crates-inventory.json'
     npm = {
         'maintainer': 'ruvnet', 'package_count': len(packages),
-        'download_package_count': len(packages),
+        'download_package_count': len(results),
         'inventory_verified_at': max(row['retrieved_at'] for row in inventory_receipts),
         'downloads_verified_at': evidence['retrieved_at'],
         'downloads': sum(row['rolling_365_days'] for row in evidence['packages']),
@@ -300,8 +324,10 @@ def main():
         'period_days': 365, 'monthly_period_start': PERIOD_START,
         'inventory_path': inventory_path, 'downloads_evidence_path': downloads_path,
         'counting_rule': ('Sum of official npm daily range counts across the verified '
-                          f'{len(packages)}-package maintainer cohort, including scoped and platform '
-                          'packages. Trailing all-zero cohort days are excluded as not yet confirmed complete.'),
+                          f'{len(results)} of {len(packages)} packages in the maintainer cohort, including '
+                          'scoped and platform packages. Packages whose range endpoint is not yet available '
+                          'remain explicitly missing, never zero. Trailing all-zero cohort days are excluded '
+                          'as not yet confirmed complete.'),
     }
     through = dt.date.fromisoformat(evidence['reported_through'])
     next_day = through + dt.timedelta(days=1)
@@ -336,7 +362,8 @@ def main():
                       'source': 'https://crates.io/api/v1/crates?user_id=339999',
                       'responses': crate_receipts, 'crates': crates})
     save('data/registry-stats.json', registry)
-    update_daily_ledger(results, today, verified)
+    update_daily_ledger(
+        results, today, verified, expected_packages=len(packages), errors=unavailable)
     update_running_totals(registry, evidence)
     metrics = json.loads((ROOT / 'data/metrics.json').read_text())
     metrics['verified_at'] = verified

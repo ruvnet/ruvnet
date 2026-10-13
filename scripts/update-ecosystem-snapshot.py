@@ -147,6 +147,15 @@ def main():
     coverage_counts = {d: len(v) for d, v in sorted(coverage.items())}
     expected = [(dt.date.fromisoformat(window_start) + dt.timedelta(days=i)).isoformat() for i in range(14)]
     missing_days = [d for d in expected if d not in daily]
+    npm_errors = ledger.get('coverage', {}).get('errors', [])
+    if npm_errors:
+        npm_gap_sentence = (
+            f"{len(npm_errors)} newly indexed package"
+            f"{'s are' if len(npm_errors) != 1 else ' is'} explicitly missing because "
+            f"{'their' if len(npm_errors) != 1 else 'its'} range endpoint returned HTTP 404 "
+            "after bounded retries.")
+    else:
+        npm_gap_sentence = 'All inventory packages have download-range evidence.'
 
     running = read('data/ecosystem-running-totals.json')
     generated_at = max(stamp, registry['generated_at'])
@@ -160,9 +169,12 @@ def main():
             'observed_downloads': sum(daily.values()),
             'expected_packages': registry['npm']['package_count'],
             'collected_packages': registry['npm']['download_package_count'],
-            'errors': [], 'daily': daily, 'daily_package_coverage': coverage_counts,
+            'errors': npm_errors,
+            'daily': daily, 'daily_package_coverage': coverage_counts,
             'missing_days': missing_days,
-            'status': 'complete API responses, provider latency may remain',
+            'status': ('complete API responses for collected cohort; '
+                       f"{registry['npm']['download_package_count']} of {registry['npm']['package_count']} "
+                       'inventory packages collected; provider latency may remain'),
             'all_zero_cohort_days': [d for d, value in daily.items() if value == 0],
             'note': 'Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional.',
         },
@@ -181,7 +193,9 @@ def main():
             'npm_observed_total': npm_total,
             'crates_io_cumulative': crates['cumulative_downloads'],
             'combined_observed': combined, 'remaining': remaining,
-            'status': 'Observed lower bound; complete API responses may contain provider reporting gaps',
+            'status': ('Observed lower bound; collected API responses may contain provider reporting gaps; '
+                       f"{registry['npm']['download_package_count']} of {registry['npm']['package_count']} "
+                       'inventory packages have download-range evidence'),
             'baseline_source': npm_path, 'increment_source': npm_path,
             'npm_verified_at': registry['npm']['downloads_verified_at'],
             'npm_reported_through': npm_receipt['reported_through'],
@@ -189,7 +203,7 @@ def main():
             'internal_all_zero_cohort_days': internal_zero,
             'trailing_all_zero_days_excluded': npm_receipt['trailing_all_zero_days_excluded'],
         },
-        uncollected=['Commits and contributors', 'Clones and views: connected GitHub interface lacks Administration read permission and does not expose repository traffic endpoints'],
+        uncollected=['Commits and contributors', current['traffic']['status']],
     )
     if not same_snapshot:
         running['snapshot_delta'] = {
@@ -210,6 +224,9 @@ def main():
         'release_asset_reconciliation': retained_downloads == sum(x['downloads'] for x in asset_ledger['assets'].values()),
         'unknown_not_zero': collection['clones'] is None and collection['views'] is None,
         'all_sources_public': True,
+        'npm_download_package_coverage_complete': (
+            registry['npm']['download_package_count'] == registry['npm']['package_count']),
+        'npm_unavailable_packages': len(npm_errors),
         'missing_days_recorded': missing_days,
     }
     write('data/ecosystem-running-totals.json', running)
@@ -284,13 +301,13 @@ Workflow enumeration is complete for {actions['complete_repositories']} of {repo
 
 ## npm downloads
 
-Observed {number(running['npm']['observed_downloads'])} downloads across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. Official range responses are complete; recent zero days can reflect provider delay. This window is not a lifetime count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
+Observed {number(running['npm']['observed_downloads'])} downloads across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. Range responses are complete for the collected cohort. {npm_gap_sentence} Recent zero days can reflect provider delay. This window is not a lifetime count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
 
 ## Coverage and gaps
 
 All {repository_count} public repositories were enumerated, including {gh['public_forks']} forks and {collection['all_owned']['archived']} archived repositories. Repository subscriptions and release pagination are complete. Open public issues and PRs are {number(open_items['open_issues']['count'])} and {number(open_items['open_prs']['count'])}. Indexed search can differ from repository metadata because sources are not an atomic snapshot.
 
-Clones and page views are unavailable because the connected GitHub interface lacks Administration read permission and does not expose repository traffic endpoints. Historical traffic remains preserved and is never substituted for current data. Commits and contributors were not refreshed.
+Clones and page views are unavailable: the connected GitHub interface rejects `/traffic/clones` and `/traffic/views` as non-public endpoints, and the managed app lacks the required Administration-read permission. Historical traffic remains preserved and is never substituted for current data. Commits and contributors were not refreshed.
 
 ## Running totals and verification
 

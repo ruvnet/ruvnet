@@ -14,6 +14,8 @@ const inventoryDate = date(npm.inventory_verified_at || data.generated_at);
 const downloadDate = date(npm.downloads_verified_at || data.generated_at);
 const crateDate = date(crates.verified_at || data.generated_at);
 const cohort = npm.download_package_count ?? npm.package_count;
+const receipt = npm.downloads_evidence_path ? JSON.parse(read(npm.downloads_evidence_path)) : null;
+const unavailable = receipt?.unavailable_packages ?? [];
 const total = npm.package_count + crates.crate_count + metrics.counts.pypi_packages + metrics.counts.huggingface_models_and_spaces;
 const retained = downloadDate !== inventoryDate || cohort !== npm.package_count;
 const period = `${npm.period_start} through ${npm.period_end}`;
@@ -24,6 +26,8 @@ function replaceBlock(text, name, body) {
 }
 const explanation = npm.incremental_check
   ? `The same **${format(cohort)} package cohort** was checked **${date(npm.incremental_check.verified_at)} UTC**. The **${date(npm.incremental_check.baseline_verified_at)} historical baseline** is retained after official zero-download checks for **${npm.incremental_check.period_start} through ${npm.incremental_check.period_end}**. The measured-through date remains **${npm.period_end}**; trailing all-zero API days are not treated as complete.`
+  : unavailable.length
+  ? `The current npm inventory contains **${format(npm.package_count)} packages**. Official download-range responses were collected for **${format(cohort)} packages**. **${unavailable.length} newly indexed package${unavailable.length === 1 ? '' : 's'}** (${unavailable.map(row => `\`${row.package}\``).join(', ')}) returned HTTP 404 after bounded retries and remain${unavailable.length === 1 ? 's' : ''} explicitly missing, never zero.`
   : retained
   ? `The current npm inventory contains **${format(npm.package_count)} packages**. Download evidence retains its **${downloadDate}** verification date and **${format(cohort)} package cohort**. The newer download refresh was unavailable; no extrapolation is applied.`
   : `The npm inventory and download evidence cover the same **${format(cohort)} package cohort**, verified **${downloadDate} UTC**.`;
@@ -69,10 +73,12 @@ ${history}
 
 **Source:** [published registry snapshot](data/registry-stats.json), collected from the official npm daily range API. Includes scoped, unscoped and platform packages. Download events include CI and reinstalls; they are not unique users.`);
 if (npm.downloads_evidence_path) {
-  const receipt = JSON.parse(read(npm.downloads_evidence_path));
   const zeros = receipt.daily_totals.filter(row => row.day <= receipt.reported_through && row.downloads === 0).map(row => row.day);
   const tail = receipt.trailing_all_zero_days_excluded;
-  readme = replaceBlock(readme, 'registry-reporting-status', `**Reporting coverage, ${downloadDate} UTC:** These npm figures are observed lower bounds across the known ${format(cohort)} package maintainer cohort. The latest positive cohort day is **${receipt.reported_through}**. The complete daily responses contain ${zeros.length} internal all zero cohort days${zeros.length ? ` (${zeros.join(', ')})` : ''}; these may be reporting gaps. ${tail.length ? `Trailing all zero days (${tail.join(', ')}) are excluded from the reported through date.` : 'No trailing all zero days were excluded.'} No missing downloads are estimated. [Package range evidence](${npm.downloads_evidence_path}).`);
+  const missing = unavailable.length
+    ? ` ${unavailable.length} inventory package${unavailable.length === 1 ? '' : 's'} lacked range evidence and ${unavailable.length === 1 ? 'is' : 'are'} excluded from totals; no missing events are estimated.`
+    : ' No missing downloads are estimated.';
+  readme = replaceBlock(readme, 'registry-reporting-status', `**Reporting coverage, ${downloadDate} UTC:** These npm figures are observed lower bounds across the ${format(cohort)}-package collected cohort (${format(cohort)} of ${format(npm.package_count)} inventory packages). The latest positive cohort day is **${receipt.reported_through}**. The collected daily responses contain ${zeros.length} internal all zero cohort days${zeros.length ? ` (${zeros.join(', ')})` : ''}; these may be reporting gaps. ${tail.length ? `Trailing all zero days (${tail.join(', ')}) are excluded from the reported through date.` : 'No trailing all zero days were excluded.'}${missing} [Package range evidence](${npm.downloads_evidence_path}).`);
 }
 save('README.md', readme);
 let doc = read('docs/ruvnet-packages.md');

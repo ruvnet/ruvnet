@@ -1,0 +1,96 @@
+{
+  "verified_at": "2026-10-13T12:47:33.710488Z",
+  "window": {
+    "start": "2026-09-29",
+    "end": "2026-10-12",
+    "days": 14,
+    "current_utc_day_excluded": true
+  },
+  "sources": {
+    "github_inventory": "data/snapshots/2026-10-13/github-inventory.json",
+    "github_releases": "data/snapshots/2026-10-13/github-release-inventory.json",
+    "npm_inventory": "data/snapshots/2026-10-13/npm-inventory.json",
+    "npm_downloads": "data/snapshots/2026-10-13/npm-downloads.json",
+    "crates_io": "data/snapshots/2026-10-13/crates-inventory.json"
+  },
+  "coverage": {
+    "github_public_repositories": 225,
+    "github_pages": 5,
+    "release_complete_repositories": 225,
+    "npm_expected_packages": 400,
+    "npm_collected_packages": 399,
+    "actions_complete_repositories": 224,
+    "actions_incomplete_repositories": [
+      {
+        "repository": "ruvnet/ruflo",
+        "collected": 11617,
+        "api_total": 16202,
+        "error": "8 daily queries exceeded GitHub 1000-result pagination limit",
+        "incomplete_days": [
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-02",
+            "collected": 1000,
+            "api_total": 1137,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-03",
+            "collected": 1000,
+            "api_total": 1201,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-05",
+            "collected": 1000,
+            "api_total": 2500,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-07",
+            "collected": 1000,
+            "api_total": 1975,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-09",
+            "collected": 1000,
+            "api_total": 1014,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-10",
+            "collected": 1000,
+            "api_total": 1613,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-11",
+            "collected": 1000,
+            "api_total": 1568,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          },
+          {
+            "repository": "ruvnet/ruflo",
+            "date": "2026-10-12",
+            "collected": 1000,
+            "api_total": 1577,
+            "error": "Daily query exceeded GitHub 1000-result pagination limit"
+          }
+        ]
+      }
+    ]
+  },
+  "traffic": {
+    "clones": null,
+    "views": null,
+    "status": "Unavailable: connected GitHub interface rejects /traffic/clones and /traffic/views as not allowed public GitHub endpoints; the managed app also lacks Administration read permission required for repository traffic. Historical traffic remains preserved separately and is not current.",
+    "historical_preserved": true
+  }
+}

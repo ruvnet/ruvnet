@@ -40,7 +40,7 @@ class RegistryRefreshTest(unittest.TestCase):
         self.assertEqual(receipt['source'],url)
         sleep.assert_called_once()
         with patch.object(refresh.urllib.request,'urlopen',side_effect=error) as fetch, patch.object(refresh.time,'sleep'):
-            with self.assertRaisesRegex(RuntimeError,'previous verified data retained'):
+            with self.assertRaisesRegex(refresh.NpmRangeNotFound,'previous verified data retained'):
                 refresh.fetch_json(url)
         self.assertEqual(fetch.call_count,8)
 
@@ -87,6 +87,25 @@ class RegistryRefreshTest(unittest.TestCase):
             self.assertEqual(updated['observed_through'], '2026-10-07')
             self.assertEqual(updated['values']['npm|example|downloads|2026-10-07'], 1)
             self.assertEqual(updated['coverage']['collected_packages'], 1)
+
+    def test_daily_ledger_records_missing_package_without_inventing_zero(self):
+        today = dt.date(2026, 10, 8)
+        row = result(positive_through='2026-10-07', requested_end='2026-10-07')
+        row['receipt']['source'] = 'https://api.npmjs.org/downloads/range/example'
+        error = {'package': 'new-package', 'error': 'HTTP 404', 'checked_at': '2026-10-08T12:00:00Z'}
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder); data = root / 'data'; data.mkdir()
+            (data / 'ecosystem-daily-ledger.json').write_text(json.dumps({
+                'schema_version': '1.0', 'observed_from': '2026-09-01',
+                'values': {}, 'package_provenance': {}, 'coverage': {}}))
+            with patch.object(refresh, 'ROOT', root):
+                refresh.update_daily_ledger([row], today, '2026-10-08T12:00:00Z',
+                                            expected_packages=2, errors=[error])
+            updated = json.loads((data / 'ecosystem-daily-ledger.json').read_text())
+            self.assertEqual(updated['coverage']['expected_packages'], 2)
+            self.assertEqual(updated['coverage']['collected_packages'], 1)
+            self.assertEqual(updated['coverage']['errors'], [error])
+            self.assertFalse(any('|new-package|' in key for key in updated['values']))
 
     def test_zero_tail_does_not_advance_or_shrink_rolling_window(self):
         rows = [result('one'), result('two', count=2)]
