@@ -251,6 +251,8 @@ def update_running_totals(registry, evidence):
     for key, value in ledger['values'].items():
         provider, package, metric, day = key.split('|')
         if provider == 'npm' and metric == 'downloads' and package in cohort and start <= day <= end:
+            if value is None:
+                continue
             daily[day] += value
             coverage[day].add(package)
     expected = [(dt.date.fromisoformat(start)+dt.timedelta(days=i)).isoformat() for i in range(14)]

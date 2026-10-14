@@ -26,7 +26,7 @@ def write(path, value):
 
 
 def number(value):
-    return f'{value:,}'
+    return f'{value:,}' if isinstance(value, (int, float)) else 'Unknown'
 
 
 def main():
@@ -50,7 +50,11 @@ def main():
     releases = read(release_inventory_path)
 
     asset_ledger = read('data/release-asset-ledger.json')
+    prior_missing_assets = {key for key, item in asset_ledger['assets'].items() if item.get('missing_from_latest_inventory')}
     for item in asset_ledger['assets'].values():
+        if not item.get('missing_from_latest_inventory', False):
+            item['missing_detected_at'] = stamp
+            item['deletion_provenance'] = 'Asset absent from the complete latest paginated release inventory; last observed download count retained.'
         item['missing_from_latest_inventory'] = True
     current_asset_downloads = current_asset_count = 0
     for release in releases['releases']:
@@ -68,6 +72,7 @@ def main():
                 'downloads': max(asset['download_count'], old['downloads'] if old else 0),
                 'last_seen_at': stamp,
                 'missing_from_latest_inventory': False,
+                'deletion_history': (old or {}).get('deletion_history', []) + ([{'missing_detected_at': old.get('missing_detected_at'), 'reappeared_at': stamp}] if key in prior_missing_assets else []),
             }
     asset_ledger['updated_at'] = stamp
     write('data/release-asset-ledger.json', asset_ledger)
@@ -90,7 +95,7 @@ def main():
         activity[key].pop('checked_at', None)
     for key in ('open_issues', 'open_prs', 'followers', 'profile_login'):
         activity.pop(key, None)
-    activity['verified_at'] = stamp
+    activity['verified_at'] = current.get('activity_verified_at', stamp)
     open_items = {
         'open_issues': {'count': current['activity']['open_issues']['count'], 'source': current['activity']['open_issues']['source'], 'checked_at': stamp},
         'open_prs': {'count': current['activity']['open_prs']['count'], 'source': current['activity']['open_prs']['source'], 'checked_at': stamp},
@@ -104,8 +109,8 @@ def main():
         'all_owned': gh['all_owned'],
         'nonfork': gh['nonfork'],
         'top_repositories': gh['top_repositories'],
-        'clones': None,
-        'views': None,
+        'clones': current['traffic']['clones'],
+        'views': current['traffic']['views'],
         'traffic_status': current['traffic']['status'],
         'source': inventory_path,
         'coverage': (f'All public owned repositories; {repository_pages} connector pages '
@@ -137,10 +142,19 @@ def main():
     remaining = max(0, 100_000_000 - combined)
     internal_zero = [x['day'] for x in npm_receipt['daily_totals'] if x['day'] <= npm_receipt['reported_through'] and x['downloads'] == 0]
     ledger = read('data/ecosystem-daily-ledger.json')
+    traffic_snapshot = read(f'{folder}/github-traffic-inventory.json')
+    for repo_id, item in traffic_snapshot['repositories'].items():
+        for metric in ('clones', 'views'):
+            source_rows = item.get(metric) or {}
+            for row in source_rows.get(metric, []):
+                observed_day = row.get('timestamp', '')[:10]
+                if window_start <= observed_day <= window_end:
+                    ledger['values'][f'github|{repo_id}|{metric}|{observed_day}'] = row.get('count')
+    write('data/ecosystem-daily-ledger.json', ledger)
     daily, coverage = {}, {}
     for key, value in ledger['values'].items():
         provider, package, metric, observed_day = key.split('|', 3)
-        if provider == 'npm' and metric == 'downloads' and window_start <= observed_day <= window_end:
+        if provider == 'npm' and metric == 'downloads' and window_start <= observed_day <= window_end and isinstance(value, int):
             daily[observed_day] = daily.get(observed_day, 0) + value
             coverage.setdefault(observed_day, set()).add(package)
     daily = dict(sorted(daily.items()))
@@ -150,7 +164,7 @@ def main():
     npm_errors = ledger.get('coverage', {}).get('errors', [])
     if npm_errors:
         npm_gap_sentence = (
-            f"{len(npm_errors)} newly indexed package"
+            f"{len(npm_errors)} npm package"
             f"{'s are' if len(npm_errors) != 1 else ' is'} explicitly missing because "
             f"{'their' if len(npm_errors) != 1 else 'its'} range endpoint returned HTTP 404 "
             "after bounded retries.")
@@ -181,6 +195,21 @@ def main():
         crates_io={'crate_count': crates['crate_count'], 'cumulative_downloads': crates['cumulative_downloads'], 'verified_at': crates['verified_at'], 'source': 'https://crates.io/api/v1/crates?user_id=339999'},
         release_assets=release_stats,
         actions=actions,
+        traffic={
+            'observed_since': window_start,
+            'through': window_end,
+            'window_start': window_start,
+            'window_end': window_end,
+            'clone_events_last_14_complete_utc_days': current['traffic']['clones'],
+            'view_events_last_14_complete_utc_days': current['traffic']['views'],
+            'clone_events_observed_since': sum(v for k, v in ledger['values'].items() if k.startswith('github|') and '|clones|' in k and k.rsplit('|', 1)[1] <= window_end),
+            'view_events_observed_since': sum(v for k, v in ledger['values'].items() if k.startswith('github|') and '|views|' in k and k.rsplit('|', 1)[1] <= window_end),
+            'repositories_with_clone_coverage': current['traffic']['repo_coverage']['clones'],
+            'repositories_with_view_coverage': current['traffic']['repo_coverage']['views'],
+            'unique_cloners_across_repositories': None,
+            'unique_visitors_across_repositories': None,
+            'source': 'GitHub owner-authorized traffic API via ruOS; see dated repository rows',
+        },
         open_items=open_items,
         download_milestone={
             'target': 100_000_000,
@@ -203,7 +232,7 @@ def main():
             'internal_all_zero_cohort_days': internal_zero,
             'trailing_all_zero_days_excluded': npm_receipt['trailing_all_zero_days_excluded'],
         },
-        uncollected=['Commits and contributors', current['traffic']['status']],
+        uncollected=['Commits and contributors'],
     )
     if not same_snapshot:
         running['snapshot_delta'] = {
@@ -216,13 +245,13 @@ def main():
         'github_pagination_reconciled': True,
         'github_public_repository_ids_unique': True,
         'release_pagination_complete_repositories': repository_count,
-        'actions_pagination_complete_repositories': actions['complete_repositories'],
+        'actions_pagination_complete_repositories': actions.get('complete_repositories'),
         'unique_daily_keys': len(ledger['values']),
         'replay_idempotent': True,
         'daily_total_reconciliation': sum(daily.values()) == running['npm']['observed_downloads'],
         'download_milestone_reconciliation': combined == npm_total + crates['cumulative_downloads'],
         'release_asset_reconciliation': retained_downloads == sum(x['downloads'] for x in asset_ledger['assets'].values()),
-        'unknown_not_zero': collection['clones'] is None and collection['views'] is None,
+        'unique_traffic_not_summed': current['traffic'].get('uniques') is None,
         'all_sources_public': True,
         'npm_download_package_coverage_complete': (
             registry['npm']['download_package_count'] == registry['npm']['package_count']),
@@ -255,7 +284,7 @@ def main():
         'verified_at': generated_at,
         'window': {'start': window_start, 'end': window_end, 'days': 14, 'current_utc_day_excluded': True},
         'sources': {'github_inventory': inventory_path, 'github_releases': release_inventory_path, 'npm_inventory': registry['npm']['inventory_path'], 'npm_downloads': npm_path, 'crates_io': crates['inventory_path']},
-        'coverage': {'github_public_repositories': repository_count, 'github_pages': repository_pages, 'release_complete_repositories': repository_count, 'npm_expected_packages': registry['npm']['package_count'], 'npm_collected_packages': registry['npm']['download_package_count'], 'actions_complete_repositories': actions['complete_repositories'], 'actions_incomplete_repositories': actions['incomplete_repositories']},
+        'coverage': {'github_public_repositories': repository_count, 'github_pages': repository_pages, 'release_complete_repositories': repository_count, 'npm_expected_packages': registry['npm']['package_count'], 'npm_collected_packages': registry['npm']['download_package_count'], 'actions_complete_repositories': actions.get('complete_repositories'), 'actions_incomplete_repositories': actions.get('incomplete_repositories')},
         'traffic': current['traffic'],
     }
     summary = {'verified_at': generated_at, 'github': collection, 'activity': activity, 'open_items': open_items, 'release_assets': release_stats, 'actions': actions, 'npm': running['npm'], 'crates_io': running['crates_io'], 'download_milestone': running['download_milestone'], 'validation': running['validation']}
@@ -284,6 +313,13 @@ Verified {day.strftime('%B %-d, %Y')}. Public repositories only. GitHub counts: 
 | Rust crates | {number(crates['crate_count'])} |
 | crates.io cumulative downloads | {number(crates['cumulative_downloads'])} |
 
+## Repository cohorts
+
+| Cohort | Public repositories | Stars | Forks | Subscribers | Open issues + PRs |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| All owned | {number(gh['all_owned']['repositories'])} | {number(gh['all_owned']['stars'])} | {number(gh['all_owned']['forks'])} | {number(gh['all_owned']['subscribers'])} | {number(gh['all_owned']['open_issues_and_prs'])} |
+| Nonfork | {number(gh['nonfork']['repositories'])} | {number(gh['nonfork']['stars'])} | {number(gh['nonfork']['forks'])} | {number(gh['nonfork']['subscribers'])} | {number(gh['nonfork']['open_issues_and_prs'])} |
+
 ## Activity: {start_label} through {end_label}, UTC
 
 | Metric | Count |
@@ -293,25 +329,27 @@ Verified {day.strftime('%B %-d, %Y')}. Public repositories only. GitHub counts: 
 | PRs opened | {number(activity['prs_opened']['count'])} |
 | PRs merged | {number(activity['prs_merged']['count'])} |
 | Releases published | {number(release_stats['published_in_14_day_window'])} |
-| Workflow runs enumerated, partial | {number(actions['runs'])} |
-| Successful workflow runs | {number(actions['conclusions'].get('success', 0))} |
-| Failed workflow runs | {number(actions['conclusions'].get('failure', 0))} |
+| Workflow runs | Unknown |
 
-Workflow enumeration is complete for {actions['complete_repositories']} of {repository_count} repositories. Ruflo remains partial because GitHub limits pagination to 1,000 results per query. Outcomes are current conclusions of unique run IDs, not all retry attempts or a reliability measure.
+Workflow run counts are unknown. GitHub limits complete run enumeration to 1,000 results per query; this snapshot does not have complete workflow coverage.
+
+## GitHub traffic
+
+Across the complete 14-day UTC window, GitHub reported {number(current['traffic']['clones'])} clone events and {number(current['traffic']['views'])} view events for {current['traffic']['repo_coverage']['clones']} repositories. Unique cloners and visitors are available per repository only and are not summed. The Sep 30 site-harness rows are known zeros because its public repository was created Oct 14, after the measured window.
 
 ## npm downloads
 
-Observed {number(running['npm']['observed_downloads'])} downloads across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. Range responses are complete for the collected cohort. {npm_gap_sentence} Recent zero days can reflect provider delay. This window is not a lifetime count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
+Observed {number(running['npm']['observed_downloads'])} downloads across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. Range responses are complete for the collected cohort. {npm_gap_sentence} The trailing zero-only date(s) {', '.join(missing_days) if missing_days else 'none'} are provisional and excluded from totals. This window is not a lifetime count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
 
 ## Coverage and gaps
 
-All {repository_count} public repositories were enumerated, including {gh['public_forks']} forks and {collection['all_owned']['archived']} archived repositories. Repository subscriptions and release pagination are complete. Open public issues and PRs are {number(open_items['open_issues']['count'])} and {number(open_items['open_prs']['count'])}. Indexed search can differ from repository metadata because sources are not an atomic snapshot.
+All {repository_count} public repositories were enumerated, including {gh['public_forks']} forks and {inventory_summary['archived']} archived repositories. Repository subscriptions and release pagination are complete. Open public issues and PRs are {number(open_items['open_issues']['count'])} and {number(open_items['open_prs']['count'])}. Indexed search can differ from repository metadata because sources are not an atomic snapshot. Open issues and PR counts are separate search estimates; the cohort row reports GitHub's combined open_issues_count.
 
-Clones and page views are unavailable: the connected GitHub interface rejects `/traffic/clones` and `/traffic/views` as non-public endpoints, and the managed app lacks the required Administration-read permission. Historical traffic remains preserved and is never substituted for current data. Commits and contributors were not refreshed.
+GitHub traffic was available through the owner-authorized ruOS interface. Across all repositories, clone events were {number(current['traffic']['clones'])} and view events were {number(current['traffic']['views'])} from {window_start} through {window_end} UTC. Per-repository unique counts are retained in the dated snapshot; they are not summed across repositories. Commits and contributors were not refreshed.
 
 ## Running totals and verification
 
-[Running totals](../data/ecosystem-running-totals.json), [daily npm ledger](../data/ecosystem-daily-ledger.json), and [release asset ledger](../data/release-asset-ledger.json) keep providers and metrics separate. Revised daily cells replace earlier observations; overlapping windows are never added. Missing assets retain their last observed counts and are flagged.
+[Running totals](../data/ecosystem-running-totals.json), [daily npm ledger](../data/ecosystem-daily-ledger.json), and [release asset ledger](../data/release-asset-ledger.json) keep providers and metrics separate. Revised daily cells replace earlier observations; overlapping windows are never added. {missing_assets} release assets are absent from the complete current inventory; their last observed counts and deletion provenance are retained.
 
 Validation passed: {number(len(ledger['values']))} unique daily keys, idempotent replay, total reconciliation, complete repository and release pagination, and explicit missing data. [Dated evidence](../{folder}/).
 

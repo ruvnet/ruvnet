@@ -1,8 +1,8 @@
 # rUv · Packages & Libraries Index
 
-Author: ruvnet (Reuven Cohen). Current inventory observed 2026-10-13 UTC. The detailed June and July catalog below remains a historical record.
+Author: ruvnet (Reuven Cohen). Current inventory observed 2026-10-14 UTC. The detailed June and July catalog below remains a historical record.
 
-**At least 911 published artifacts** across the known distribution surface: **481 Rust crates**, **400 known npm packages**, plus **8 PyPI packages** and **22 Hugging Face artifacts** retained from their July ownership checks. Packages, native target binaries, adapters, and examples are grouped under products; they are not 911 separate inventions.
+**At least 912 published artifacts** across the known distribution surface: **481 Rust crates**, **401 known npm packages**, plus **8 PyPI packages** and **22 Hugging Face artifacts** retained from their July ownership checks. Packages, native target binaries, adapters, and examples are grouped under products; they are not 912 separate inventions.
 
 Repository history records lineage. Registry versions record publication, with timestamps and package integrity metadata. Neither establishes sole authorship, independent adoption, or the truth of a benchmark claim.
 
@@ -11,12 +11,12 @@ Repository history records lineage. Registry versions record publication, with t
 
 | Registry | Packages | Downloads | Verified |
 | --- | ---: | --- | --- |
-| [crates.io](https://crates.io/users/ruvnet) | 481 | 1,861,096 cumulative | 2026-10-13 UTC |
-| [npm](https://www.npmjs.com/~ruvnet) | at least 400 | 96,332,647 during 2025-10-12 through 2026-10-11; 399 package cohort | Inventory 2026-10-13; downloads 2026-10-13 |
+| [crates.io](https://crates.io/users/ruvnet) | 481 | 1,874,207 cumulative | 2026-10-14 UTC |
+| [npm](https://www.npmjs.com/~ruvnet) | at least 401 | 97,022,120 during 2025-10-13 through 2026-10-12; 399 package cohort | Inventory 2026-10-14; downloads 2026-10-14 |
 | [PyPI](https://pypi.org/user/ruvnet/) | 8 | Not aggregated | Historical ownership check, July 12, 2026 |
 | [Hugging Face](https://huggingface.co/ruvnet) | 22 | Not recounted | Historical inventory, July 12, 2026 |
 
-The current npm inventory contains **400 packages**. Official download-range responses were collected for **399 packages**. **1 newly indexed package** (`@ruv/rash`) returned HTTP 404 after bounded retries and remains explicitly missing, never zero. [Registry data](../data/registry-stats.json) retains exact windows and dates.
+The current npm inventory contains **401 packages**. Official download-range responses were collected for **399 packages**. **2 newly indexed packages** (`@ruv/rash`, `@ruvnet/site-harness`) returned HTTP 404 after bounded retries and remain explicitly missing, never zero. [Registry data](../data/registry-stats.json) retains exact windows and dates.
 <!-- registry-summary:end -->
 
 ## RVF and current package evidence

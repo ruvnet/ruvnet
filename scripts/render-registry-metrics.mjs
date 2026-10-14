@@ -100,7 +100,7 @@ metrics.counts.npm_packages = npm.package_count;
 metrics.counts.rust_crate_downloads_cumulative = crates.cumulative_downloads;
 metrics.counts.published_registry_and_huggingface_artifacts_minimum = total;
 metrics.verification_dates = { ...metrics.verification_dates, npm_inventory: npm.inventory_verified_at || data.generated_at, npm_downloads: npm.downloads_verified_at || data.generated_at, crates_io: crates.verified_at || data.generated_at };
-metrics.current_windows = { npm_downloads_rolling_365_days: npm.downloads, npm_period_start: npm.period_start, npm_period_end: npm.period_end, npm_download_package_count: cohort };
+metrics.current_windows = { ...(metrics.current_windows || {}), npm_downloads_rolling_365_days: npm.downloads, npm_period_start: npm.period_start, npm_period_end: npm.period_end, npm_download_package_count: cohort };
 metrics.notes = metrics.notes.filter(note => !note.startsWith('The npm download cohort is'));
 metrics.notes.push(`The npm download cohort is ${cohort} packages; the current inventory contains ${npm.package_count}.`);
 save('data/metrics.json', JSON.stringify(metrics, null, 2) + '\n');
