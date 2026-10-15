@@ -142,6 +142,10 @@ def main():
     remaining = max(0, 100_000_000 - combined)
     internal_zero = [x['day'] for x in npm_receipt['daily_totals'] if x['day'] <= npm_receipt['reported_through'] and x['downloads'] == 0]
     ledger = read('data/ecosystem-daily-ledger.json')
+    for trailing_day in npm_receipt.get('trailing_all_zero_days_excluded', []):
+        for key in list(ledger['values']):
+            if key.startswith('npm|') and key.endswith('|' + trailing_day):
+                ledger['values'][key] = None
     traffic_snapshot = read(f'{folder}/github-traffic-inventory.json')
     for repo_id, item in traffic_snapshot['repositories'].items():
         for metric in ('clones', 'views'):
@@ -335,7 +339,7 @@ Workflow run counts are unknown. GitHub limits complete run enumeration to 1,000
 
 ## GitHub traffic
 
-Across the complete 14-day UTC window, GitHub reported {number(current['traffic']['clones'])} clone events and {number(current['traffic']['views'])} view events for {current['traffic']['repo_coverage']['clones']} repositories. Unique cloners and visitors are available per repository only and are not summed. The Sep 30 site-harness rows are known zeros because its public repository was created Oct 14, after the measured window.
+Across the complete 14-day UTC window, GitHub reported {number(current['traffic']['clones'])} clone events and {number(current['traffic']['views'])} view events for {current['traffic']['repo_coverage']['clones']} repositories. Unique cloners and visitors are available per repository only and are not summed. The Oct 1–13 site-harness rows are known zeros because its public repository was created on Oct 14.
 
 ## npm downloads
 

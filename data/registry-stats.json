@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T13:42:44.580146Z",
+  "generated_at": "2026-10-15T12:29:53.154022Z",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 401,
     "download_package_count": 399,
-    "inventory_verified_at": "2026-10-14T13:21:09.475022Z",
-    "downloads_verified_at": "2026-10-14T13:42:37.922373Z",
+    "inventory_verified_at": "2026-10-15T12:08:04.952067Z",
+    "downloads_verified_at": "2026-10-15T12:29:46.463194Z",
     "downloads": 97022120,
     "period_start": "2025-10-13",
     "period_end": "2026-10-12",
     "period_days": 365,
     "monthly_period_start": "2025-10-01",
-    "inventory_path": "data/snapshots/2026-10-14/npm-inventory.json",
-    "downloads_evidence_path": "data/snapshots/2026-10-14/npm-downloads.json",
+    "inventory_path": "data/snapshots/2026-10-15/npm-inventory.json",
+    "downloads_evidence_path": "data/snapshots/2026-10-15/npm-downloads.json",
     "counting_rule": "Sum of official npm daily range counts across the verified 399 of 401 packages in the maintainer cohort, including scoped and platform packages. Packages whose range endpoint is not yet available remain explicitly missing, never zero. Trailing all-zero cohort days are excluded as not yet confirmed complete.",
     "monthly_period_end": "2026-09-30",
     "monthly_downloads": [
@@ -72,15 +72,15 @@
       "period_start": "2026-10-01",
       "period_end": "2026-10-12",
       "status": "partial month; trailing all-zero API days excluded",
-      "verified_at": "2026-10-14T13:42:37.922373Z"
+      "verified_at": "2026-10-15T12:29:46.463194Z"
     }
   },
   "crates_io": {
     "user_id": 339999,
-    "verified_at": "2026-10-14T13:42:44.579429Z",
+    "verified_at": "2026-10-15T12:29:53.153513Z",
     "crate_count": 481,
-    "cumulative_downloads": 1874207,
-    "inventory_path": "data/snapshots/2026-10-14/crates-inventory.json",
+    "cumulative_downloads": 1880174,
+    "inventory_path": "data/snapshots/2026-10-15/crates-inventory.json",
     "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   }
 }
