@@ -1,0 +1,1609 @@
+{
+  "verified_at": "2026-10-17T13:02:24.098189Z",
+  "day": "2026-10-12",
+  "downloads": 692161,
+  "expected_packages": 401,
+  "collected_packages": 399,
+  "period_type": "UTC calendar day",
+  "rolling_24_hours": false,
+  "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-16/{urlencoded_package}",
+  "status": "latest confirmed completed UTC date; excludes newer provisional all-zero dates",
+  "packages": [
+    {
+      "package": "@agentic-robotics/cli",
+      "downloads": 5
+    },
+    {
+      "package": "@agentic-robotics/core",
+      "downloads": 1
+    },
+    {
+      "package": "@agentic-robotics/linux-x64-gnu",
+      "downloads": 1
+    },
+    {
+      "package": "@agentic-robotics/mcp",
+      "downloads": 14
+    },
+    {
+      "package": "@agentic-robotics/self-learning",
+      "downloads": 7
+    },
+    {
+      "package": "@agentics.org/agentic-mcp",
+      "downloads": 0
+    },
+    {
+      "package": "@agentics.org/sparc2",
+      "downloads": 10
+    },
+    {
+      "package": "@claude-flow/aidefence",
+      "downloads": 572
+    },
+    {
+      "package": "@claude-flow/browser",
+      "downloads": 12
+    },
+    {
+      "package": "@claude-flow/claims",
+      "downloads": 8
+    },
+    {
+      "package": "@claude-flow/cli",
+      "downloads": 17620
+    },
+    {
+      "package": "@claude-flow/cli-core",
+      "downloads": 17657
+    },
+    {
+      "package": "@claude-flow/codex",
+      "downloads": 1812
+    },
+    {
+      "package": "@claude-flow/deployment",
+      "downloads": 5
+    },
+    {
+      "package": "@claude-flow/embeddings",
+      "downloads": 158
+    },
+    {
+      "package": "@claude-flow/guidance",
+      "downloads": 259
+    },
+    {
+      "package": "@claude-flow/hooks",
+      "downloads": 299
+    },
+    {
+      "package": "@claude-flow/integration",
+      "downloads": 23
+    },
+    {
+      "package": "@claude-flow/mcp",
+      "downloads": 1133
+    },
+    {
+      "package": "@claude-flow/memory",
+      "downloads": 15027
+    },
+    {
+      "package": "@claude-flow/neural",
+      "downloads": 9445
+    },
+    {
+      "package": "@claude-flow/performance",
+      "downloads": 12
+    },
+    {
+      "package": "@claude-flow/plugin-agent-federation",
+      "downloads": 53
+    },
+    {
+      "package": "@claude-flow/plugin-agentic-qe",
+      "downloads": 1
+    },
+    {
+      "package": "@claude-flow/plugin-code-intelligence",
+      "downloads": 6
+    },
+    {
+      "package": "@claude-flow/plugin-cognitive-kernel",
+      "downloads": 8
+    },
+    {
+      "package": "@claude-flow/plugin-financial-risk",
+      "downloads": 0
+    },
+    {
+      "package": "@claude-flow/plugin-gastown-bridge",
+      "downloads": 5729
+    },
+    {
+      "package": "@claude-flow/plugin-healthcare-clinical",
+      "downloads": 0
+    },
+    {
+      "package": "@claude-flow/plugin-hyperbolic-reasoning",
+      "downloads": 16
+    },
+    {
+      "package": "@claude-flow/plugin-iot-cognitum",
+      "downloads": 8
+    },
+    {
+      "package": "@claude-flow/plugin-legal-contracts",
+      "downloads": 0
+    },
+    {
+      "package": "@claude-flow/plugin-neural-coordination",
+      "downloads": 8
+    },
+    {
+      "package": "@claude-flow/plugin-perf-optimizer",
+      "downloads": 69
+    },
+    {
+      "package": "@claude-flow/plugin-prime-radiant",
+      "downloads": 8
+    },
+    {
+      "package": "@claude-flow/plugin-quantum-optimizer",
+      "downloads": 8
+    },
+    {
+      "package": "@claude-flow/plugin-test-intelligence",
+      "downloads": 8
+    },
+    {
+      "package": "@claude-flow/plugins",
+      "downloads": 27
+    },
+    {
+      "package": "@claude-flow/providers",
+      "downloads": 2
+    },
+    {
+      "package": "@claude-flow/security",
+      "downloads": 9915
+    },
+    {
+      "package": "@claude-flow/shared",
+      "downloads": 21423
+    },
+    {
+      "package": "@claude-flow/swarm",
+      "downloads": 59
+    },
+    {
+      "package": "@claude-flow/teammate-plugin",
+      "downloads": 4
+    },
+    {
+      "package": "@claude-flow/testing",
+      "downloads": 6
+    },
+    {
+      "package": "@claude-flow/watermark",
+      "downloads": 2
+    },
+    {
+      "package": "@cognitum-one/sdk",
+      "downloads": 1102
+    },
+    {
+      "package": "@cognitum/freetokens",
+      "downloads": 0
+    },
+    {
+      "package": "@cognitum/gate",
+      "downloads": 1
+    },
+    {
+      "package": "@cognitum/ruos",
+      "downloads": 1
+    },
+    {
+      "package": "@dream-machine/compile",
+      "downloads": 3
+    },
+    {
+      "package": "@dream-machine/ledger",
+      "downloads": 3
+    },
+    {
+      "package": "@dream-machine/memory",
+      "downloads": 1
+    },
+    {
+      "package": "@dream-machine/schedule",
+      "downloads": 3
+    },
+    {
+      "package": "@dream-machine/witness",
+      "downloads": 3
+    },
+    {
+      "package": "@foxruv/cf-doctor",
+      "downloads": 0
+    },
+    {
+      "package": "@foxruv/e2b-runner",
+      "downloads": 0
+    },
+    {
+      "package": "@foxruv/iris",
+      "downloads": 1
+    },
+    {
+      "package": "@foxruv/iris-agentic-synth",
+      "downloads": 6
+    },
+    {
+      "package": "@foxruv/iris-core",
+      "downloads": 0
+    },
+    {
+      "package": "@foxruv/iris-ultrathink",
+      "downloads": 1
+    },
+    {
+      "package": "@foxruv/nova-medicina",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/agntcy",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/avo",
+      "downloads": 849
+    },
+    {
+      "package": "@metaharness/aws-finops",
+      "downloads": 1
+    },
+    {
+      "package": "@metaharness/claude-code",
+      "downloads": 7
+    },
+    {
+      "package": "@metaharness/codex",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/coding",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/copilot",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/darwin",
+      "downloads": 18459
+    },
+    {
+      "package": "@metaharness/devops",
+      "downloads": 9
+    },
+    {
+      "package": "@metaharness/education",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-ads",
+      "downloads": 2
+    },
+    {
+      "package": "@metaharness/example-aws",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-azure",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-bio",
+      "downloads": 3
+    },
+    {
+      "package": "@metaharness/example-datadog",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-fhir",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-gcp",
+      "downloads": 2
+    },
+    {
+      "package": "@metaharness/example-github",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-huggingface",
+      "downloads": 6
+    },
+    {
+      "package": "@metaharness/example-iot",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-nasa",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-pinecone",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-qiskit",
+      "downloads": 3
+    },
+    {
+      "package": "@metaharness/example-slack",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-stripe",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-supabase",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-twilio",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/example-web3",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/field-memory",
+      "downloads": 1
+    },
+    {
+      "package": "@metaharness/flywheel",
+      "downloads": 11171
+    },
+    {
+      "package": "@metaharness/gaming",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/github-actions",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/harness",
+      "downloads": 5955
+    },
+    {
+      "package": "@metaharness/hermes",
+      "downloads": 8
+    },
+    {
+      "package": "@metaharness/horizon",
+      "downloads": 727
+    },
+    {
+      "package": "@metaharness/host-claude-code",
+      "downloads": 153
+    },
+    {
+      "package": "@metaharness/host-codex",
+      "downloads": 97
+    },
+    {
+      "package": "@metaharness/host-copilot",
+      "downloads": 93
+    },
+    {
+      "package": "@metaharness/host-github-actions",
+      "downloads": 91
+    },
+    {
+      "package": "@metaharness/host-hermes",
+      "downloads": 110
+    },
+    {
+      "package": "@metaharness/host-openclaw",
+      "downloads": 100
+    },
+    {
+      "package": "@metaharness/host-opencode",
+      "downloads": 93
+    },
+    {
+      "package": "@metaharness/host-pi-dev",
+      "downloads": 90
+    },
+    {
+      "package": "@metaharness/host-prime-agent",
+      "downloads": 2
+    },
+    {
+      "package": "@metaharness/host-rvm",
+      "downloads": 95
+    },
+    {
+      "package": "@metaharness/jujutsu",
+      "downloads": 6
+    },
+    {
+      "package": "@metaharness/kernel",
+      "downloads": 243
+    },
+    {
+      "package": "@metaharness/legal",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/oo-agents",
+      "downloads": 6
+    },
+    {
+      "package": "@metaharness/openclaw",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/opencode",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/pi-dev",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/projects",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/radio",
+      "downloads": 4575
+    },
+    {
+      "package": "@metaharness/redblue",
+      "downloads": 7269
+    },
+    {
+      "package": "@metaharness/repo-maintainer",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/research",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/router",
+      "downloads": 12423
+    },
+    {
+      "package": "@metaharness/rvm",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/sales",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/sdk",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/support",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/trading",
+      "downloads": 1
+    },
+    {
+      "package": "@metaharness/turn-credit",
+      "downloads": 5050
+    },
+    {
+      "package": "@metaharness/vertical-base",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/vertical-trading",
+      "downloads": 0
+    },
+    {
+      "package": "@metaharness/weight-eft",
+      "downloads": 7056
+    },
+    {
+      "package": "@metaharness/workspace-lens",
+      "downloads": 5985
+    },
+    {
+      "package": "@metaharness/workspace-probe",
+      "downloads": 5908
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-agents",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-cli",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-core",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-mcp",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-rust-core",
+      "downloads": 4
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-types",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/backend",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/backtesting",
+      "downloads": 3
+    },
+    {
+      "package": "@neural-trader/benchoptimizer",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/brokers",
+      "downloads": 5
+    },
+    {
+      "package": "@neural-trader/core",
+      "downloads": 151
+    },
+    {
+      "package": "@neural-trader/e2b-strategies",
+      "downloads": 1
+    },
+    {
+      "package": "@neural-trader/example-dynamic-pricing",
+      "downloads": 1
+    },
+    {
+      "package": "@neural-trader/example-energy-forecasting",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/example-energy-grid-optimization",
+      "downloads": 3
+    },
+    {
+      "package": "@neural-trader/example-evolutionary-game-theory",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/example-healthcare-optimization",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/example-logistics-optimization",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/example-market-microstructure",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/example-neuromorphic-computing",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/example-portfolio-optimization",
+      "downloads": 0
+    },
+    {
+      "package": "@neural-trader/example-quantum-optimization",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/example-supply-chain-prediction",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/execution",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/features",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/market-data",
+      "downloads": 1
+    },
+    {
+      "package": "@neural-trader/mcp",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/mcp-protocol",
+      "downloads": 4
+    },
+    {
+      "package": "@neural-trader/neural",
+      "downloads": 5
+    },
+    {
+      "package": "@neural-trader/neuro-divergent",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/news-trading",
+      "downloads": 1
+    },
+    {
+      "package": "@neural-trader/portfolio",
+      "downloads": 2
+    },
+    {
+      "package": "@neural-trader/prediction-markets",
+      "downloads": 1
+    },
+    {
+      "package": "@neural-trader/predictor",
+      "downloads": 150
+    },
+    {
+      "package": "@neural-trader/risk",
+      "downloads": 5
+    },
+    {
+      "package": "@neural-trader/sports-betting",
+      "downloads": 5
+    },
+    {
+      "package": "@neural-trader/strategies",
+      "downloads": 4
+    },
+    {
+      "package": "@neural-trader/syndicate",
+      "downloads": 0
+    },
+    {
+      "package": "@qudag/cli",
+      "downloads": 0
+    },
+    {
+      "package": "@qudag/mcp-sse",
+      "downloads": 0
+    },
+    {
+      "package": "@qudag/mcp-stdio",
+      "downloads": 0
+    },
+    {
+      "package": "@qudag/napi-core",
+      "downloads": 4
+    },
+    {
+      "package": "@ruv/rvcsi",
+      "downloads": 0
+    },
+    {
+      "package": "@ruv/sparc-ui",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/acorn-wasm",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/agentic-integration",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/agentic-synth",
+      "downloads": 5
+    },
+    {
+      "package": "@ruvector/agentic-synth-examples",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/attention",
+      "downloads": 12545
+    },
+    {
+      "package": "@ruvector/attention-darwin-arm64",
+      "downloads": 799
+    },
+    {
+      "package": "@ruvector/attention-darwin-x64",
+      "downloads": 187
+    },
+    {
+      "package": "@ruvector/attention-linux-arm64-gnu",
+      "downloads": 282
+    },
+    {
+      "package": "@ruvector/attention-linux-x64-gnu",
+      "downloads": 11339
+    },
+    {
+      "package": "@ruvector/attention-unified-wasm",
+      "downloads": 23
+    },
+    {
+      "package": "@ruvector/attention-wasm",
+      "downloads": 18
+    },
+    {
+      "package": "@ruvector/attention-win32-x64-msvc",
+      "downloads": 881
+    },
+    {
+      "package": "@ruvector/burst-scaling",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/cli",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/cluster",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/cnn",
+      "downloads": 9
+    },
+    {
+      "package": "@ruvector/core",
+      "downloads": 17939
+    },
+    {
+      "package": "@ruvector/diskann",
+      "downloads": 72
+    },
+    {
+      "package": "@ruvector/diskann-darwin-arm64",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/diskann-darwin-x64",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/diskann-linux-arm64-gnu",
+      "downloads": 5
+    },
+    {
+      "package": "@ruvector/diskann-linux-x64-gnu",
+      "downloads": 57
+    },
+    {
+      "package": "@ruvector/diskann-win32-x64-msvc",
+      "downloads": 3
+    },
+    {
+      "package": "@ruvector/economy-wasm",
+      "downloads": 22
+    },
+    {
+      "package": "@ruvector/edge",
+      "downloads": 5
+    },
+    {
+      "package": "@ruvector/edge-full",
+      "downloads": 7100
+    },
+    {
+      "package": "@ruvector/edge-net",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/emergent-time",
+      "downloads": 200
+    },
+    {
+      "package": "@ruvector/exotic-wasm",
+      "downloads": 32
+    },
+    {
+      "package": "@ruvector/gnn",
+      "downloads": 11796
+    },
+    {
+      "package": "@ruvector/gnn-darwin-arm64",
+      "downloads": 833
+    },
+    {
+      "package": "@ruvector/gnn-darwin-x64",
+      "downloads": 211
+    },
+    {
+      "package": "@ruvector/gnn-linux-arm64-gnu",
+      "downloads": 303
+    },
+    {
+      "package": "@ruvector/gnn-linux-arm64-musl",
+      "downloads": 217
+    },
+    {
+      "package": "@ruvector/gnn-linux-x64-gnu",
+      "downloads": 10693
+    },
+    {
+      "package": "@ruvector/gnn-linux-x64-musl",
+      "downloads": 7633
+    },
+    {
+      "package": "@ruvector/gnn-wasm",
+      "downloads": 14
+    },
+    {
+      "package": "@ruvector/gnn-win32-x64-msvc",
+      "downloads": 800
+    },
+    {
+      "package": "@ruvector/graph-data-generator",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/graph-node",
+      "downloads": 14561
+    },
+    {
+      "package": "@ruvector/graph-node-darwin-arm64",
+      "downloads": 1106
+    },
+    {
+      "package": "@ruvector/graph-node-darwin-x64",
+      "downloads": 231
+    },
+    {
+      "package": "@ruvector/graph-node-linux-arm64-gnu",
+      "downloads": 289
+    },
+    {
+      "package": "@ruvector/graph-node-linux-x64-gnu",
+      "downloads": 12456
+    },
+    {
+      "package": "@ruvector/graph-node-win32-x64-msvc",
+      "downloads": 1444
+    },
+    {
+      "package": "@ruvector/graph-transformer",
+      "downloads": 10842
+    },
+    {
+      "package": "@ruvector/graph-transformer-darwin-arm64",
+      "downloads": 774
+    },
+    {
+      "package": "@ruvector/graph-transformer-darwin-x64",
+      "downloads": 175
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-arm64-gnu",
+      "downloads": 250
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-arm64-musl",
+      "downloads": 174
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-x64-gnu",
+      "downloads": 9200
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-x64-musl",
+      "downloads": 6602
+    },
+    {
+      "package": "@ruvector/graph-transformer-win32-x64-msvc",
+      "downloads": 689
+    },
+    {
+      "package": "@ruvector/graph-wasm",
+      "downloads": 163
+    },
+    {
+      "package": "@ruvector/kge",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/kge-darwin-arm64",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/kge-darwin-x64",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/kge-linux-arm64-gnu",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/kge-linux-x64-gnu",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/kge-win32-x64-msvc",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/learning-wasm",
+      "downloads": 1376
+    },
+    {
+      "package": "@ruvector/math-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/mincut-wasm",
+      "downloads": 65
+    },
+    {
+      "package": "@ruvector/nervous-system-wasm",
+      "downloads": 22
+    },
+    {
+      "package": "@ruvector/neural-trader-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/node",
+      "downloads": 7
+    },
+    {
+      "package": "@ruvector/node-darwin-arm64",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/node-darwin-x64",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/node-linux-arm64-gnu",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/node-linux-x64-gnu",
+      "downloads": 4
+    },
+    {
+      "package": "@ruvector/node-win32-x64-msvc",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/ospipe",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/ospipe-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/pi-brain",
+      "downloads": 7
+    },
+    {
+      "package": "@ruvector/postgres-cli",
+      "downloads": 7
+    },
+    {
+      "package": "@ruvector/rabitq-wasm",
+      "downloads": 9322
+    },
+    {
+      "package": "@ruvector/raft",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/replication",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/router",
+      "downloads": 12905
+    },
+    {
+      "package": "@ruvector/router-darwin-arm64",
+      "downloads": 1143
+    },
+    {
+      "package": "@ruvector/router-darwin-x64",
+      "downloads": 232
+    },
+    {
+      "package": "@ruvector/router-linux-arm64-gnu",
+      "downloads": 278
+    },
+    {
+      "package": "@ruvector/router-linux-x64-gnu",
+      "downloads": 11521
+    },
+    {
+      "package": "@ruvector/router-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/router-win32-x64-msvc",
+      "downloads": 1152
+    },
+    {
+      "package": "@ruvector/rudag",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/ruqu",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/ruqu-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/ruvector-consciousness-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/ruvllm",
+      "downloads": 18865
+    },
+    {
+      "package": "@ruvector/ruvllm-cli",
+      "downloads": 6
+    },
+    {
+      "package": "@ruvector/ruvllm-darwin-arm64",
+      "downloads": 868
+    },
+    {
+      "package": "@ruvector/ruvllm-darwin-x64",
+      "downloads": 184
+    },
+    {
+      "package": "@ruvector/ruvllm-linux-arm64-gnu",
+      "downloads": 267
+    },
+    {
+      "package": "@ruvector/ruvllm-linux-x64-gnu",
+      "downloads": 14610
+    },
+    {
+      "package": "@ruvector/ruvllm-wasm",
+      "downloads": 73
+    },
+    {
+      "package": "@ruvector/ruvllm-win32-x64-msvc",
+      "downloads": 810
+    },
+    {
+      "package": "@ruvector/rvagent-wasm",
+      "downloads": 71
+    },
+    {
+      "package": "@ruvector/rvdna",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/rvf",
+      "downloads": 19967
+    },
+    {
+      "package": "@ruvector/rvf-mcp-server",
+      "downloads": 6
+    },
+    {
+      "package": "@ruvector/rvf-node",
+      "downloads": 11852
+    },
+    {
+      "package": "@ruvector/rvf-node-darwin-arm64",
+      "downloads": 819
+    },
+    {
+      "package": "@ruvector/rvf-node-darwin-x64",
+      "downloads": 181
+    },
+    {
+      "package": "@ruvector/rvf-node-linux-arm64-gnu",
+      "downloads": 286
+    },
+    {
+      "package": "@ruvector/rvf-node-linux-x64-gnu",
+      "downloads": 10077
+    },
+    {
+      "package": "@ruvector/rvf-node-win32-x64-msvc",
+      "downloads": 707
+    },
+    {
+      "package": "@ruvector/rvf-solver",
+      "downloads": 11140
+    },
+    {
+      "package": "@ruvector/rvf-wasm",
+      "downloads": 12810
+    },
+    {
+      "package": "@ruvector/rvforge",
+      "downloads": 17
+    },
+    {
+      "package": "@ruvector/rvlite",
+      "downloads": 65
+    },
+    {
+      "package": "@ruvector/scipix",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/server",
+      "downloads": 7
+    },
+    {
+      "package": "@ruvector/sona",
+      "downloads": 15202
+    },
+    {
+      "package": "@ruvector/sona-darwin-arm64",
+      "downloads": 1186
+    },
+    {
+      "package": "@ruvector/sona-darwin-x64",
+      "downloads": 192
+    },
+    {
+      "package": "@ruvector/sona-linux-arm64-gnu",
+      "downloads": 290
+    },
+    {
+      "package": "@ruvector/sona-linux-x64-gnu",
+      "downloads": 12770
+    },
+    {
+      "package": "@ruvector/sona-linux-x64-musl",
+      "downloads": 11724
+    },
+    {
+      "package": "@ruvector/sona-win32-arm64-msvc",
+      "downloads": 176
+    },
+    {
+      "package": "@ruvector/sona-win32-x64-msvc",
+      "downloads": 946
+    },
+    {
+      "package": "@ruvector/spiking-neural",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/tiny-dancer",
+      "downloads": 12067
+    },
+    {
+      "package": "@ruvector/tiny-dancer-darwin-arm64",
+      "downloads": 1001
+    },
+    {
+      "package": "@ruvector/tiny-dancer-darwin-x64",
+      "downloads": 185
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-arm64-gnu",
+      "downloads": 268
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-arm64-musl",
+      "downloads": 157
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-x64-gnu",
+      "downloads": 10827
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-x64-musl",
+      "downloads": 5435
+    },
+    {
+      "package": "@ruvector/tiny-dancer-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvector/tiny-dancer-win32-arm64-msvc",
+      "downloads": 153
+    },
+    {
+      "package": "@ruvector/tiny-dancer-win32-x64-msvc",
+      "downloads": 895
+    },
+    {
+      "package": "@ruvector/typesafe",
+      "downloads": 1078
+    },
+    {
+      "package": "@ruvector/typesafe-darwin-arm64",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/typesafe-darwin-x64",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/typesafe-linux-arm64-gnu",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/typesafe-linux-x64-gnu",
+      "downloads": 1
+    },
+    {
+      "package": "@ruvector/typesafe-win32-x64-msvc",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvector/wasm",
+      "downloads": 1090
+    },
+    {
+      "package": "@ruvector/wasm-unified",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvnet/agent-harness-generator",
+      "downloads": 8
+    },
+    {
+      "package": "@ruvnet/bmssp",
+      "downloads": 335
+    },
+    {
+      "package": "@ruvnet/open-claude-code",
+      "downloads": 59
+    },
+    {
+      "package": "@ruvnet/ruvector-verified-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "@ruvnet/ruview",
+      "downloads": 191
+    },
+    {
+      "package": "@ruvnet/ruview-kernel",
+      "downloads": 5
+    },
+    {
+      "package": "@ruvnet/ruvn",
+      "downloads": 2
+    },
+    {
+      "package": "@ruvnet/rvagent",
+      "downloads": 7
+    },
+    {
+      "package": "@ruvnet/strange-loop",
+      "downloads": 335
+    },
+    {
+      "package": "agent-booster",
+      "downloads": 1133
+    },
+    {
+      "package": "agentbbs",
+      "downloads": 10
+    },
+    {
+      "package": "agentdb",
+      "downloads": 20424
+    },
+    {
+      "package": "agentic-flow",
+      "downloads": 21790
+    },
+    {
+      "package": "agentic-jujutsu",
+      "downloads": 13
+    },
+    {
+      "package": "agentic-payments",
+      "downloads": 1281
+    },
+    {
+      "package": "agentic-robotics",
+      "downloads": 0
+    },
+    {
+      "package": "agenticow",
+      "downloads": 154
+    },
+    {
+      "package": "agentics-hackathon",
+      "downloads": 0
+    },
+    {
+      "package": "agenticsjs",
+      "downloads": 0
+    },
+    {
+      "package": "ai-text-watermark",
+      "downloads": 0
+    },
+    {
+      "package": "aidefence",
+      "downloads": 185
+    },
+    {
+      "package": "aidefense",
+      "downloads": 12
+    },
+    {
+      "package": "bmssp-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "claude-flow",
+      "downloads": 2832
+    },
+    {
+      "package": "claude-flow-v3",
+      "downloads": 2
+    },
+    {
+      "package": "cogmusic",
+      "downloads": 2
+    },
+    {
+      "package": "consciousness-explorer",
+      "downloads": 0
+    },
+    {
+      "package": "create-sparc",
+      "downloads": 12
+    },
+    {
+      "package": "cuda-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "dream-machine",
+      "downloads": 167
+    },
+    {
+      "package": "dspy.ts",
+      "downloads": 4
+    },
+    {
+      "package": "flow-nexus",
+      "downloads": 393
+    },
+    {
+      "package": "goalie",
+      "downloads": 29
+    },
+    {
+      "package": "homecore",
+      "downloads": 1
+    },
+    {
+      "package": "lean-agentic",
+      "downloads": 4
+    },
+    {
+      "package": "llm-stream-reformat",
+      "downloads": 0
+    },
+    {
+      "package": "metaharness",
+      "downloads": 8613
+    },
+    {
+      "package": "midstreamer",
+      "downloads": 1245
+    },
+    {
+      "package": "neural-trader",
+      "downloads": 162
+    },
+    {
+      "package": "prime-radiant-advanced-wasm",
+      "downloads": 180
+    },
+    {
+      "package": "psycho-symbolic-integration",
+      "downloads": 0
+    },
+    {
+      "package": "psycho-symbolic-reasoner",
+      "downloads": 0
+    },
+    {
+      "package": "qudag",
+      "downloads": 3
+    },
+    {
+      "package": "radio-moe",
+      "downloads": 20
+    },
+    {
+      "package": "readme-proof",
+      "downloads": 20
+    },
+    {
+      "package": "research-swarm",
+      "downloads": 5
+    },
+    {
+      "package": "rucelium-harness",
+      "downloads": 0
+    },
+    {
+      "package": "ruflo",
+      "downloads": 12174
+    },
+    {
+      "package": "ruflo-graph-intelligence",
+      "downloads": 0
+    },
+    {
+      "package": "rulake-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "rupixel",
+      "downloads": 0
+    },
+    {
+      "package": "ruv-swarm",
+      "downloads": 444
+    },
+    {
+      "package": "ruvbot",
+      "downloads": 19
+    },
+    {
+      "package": "ruvdrone",
+      "downloads": 1
+    },
+    {
+      "package": "ruvector",
+      "downloads": 20191
+    },
+    {
+      "package": "ruvector-attention-unified-wasm",
+      "downloads": 1
+    },
+    {
+      "package": "ruvector-attention-wasm",
+      "downloads": 11586
+    },
+    {
+      "package": "ruvector-core",
+      "downloads": 7
+    },
+    {
+      "package": "ruvector-core-darwin-arm64",
+      "downloads": 3157
+    },
+    {
+      "package": "ruvector-core-darwin-x64",
+      "downloads": 356
+    },
+    {
+      "package": "ruvector-core-linux-arm64-gnu",
+      "downloads": 330
+    },
+    {
+      "package": "ruvector-core-linux-x64-gnu",
+      "downloads": 11587
+    },
+    {
+      "package": "ruvector-core-win32-x64-msvc",
+      "downloads": 4130
+    },
+    {
+      "package": "ruvector-extensions",
+      "downloads": 8
+    },
+    {
+      "package": "ruvector-gnn-wasm",
+      "downloads": 0
+    },
+    {
+      "package": "ruvector-graph-transformer-wasm",
+      "downloads": 10145
+    },
+    {
+      "package": "ruvector-math-wasm",
+      "downloads": 1
+    },
+    {
+      "package": "ruvector-mragent",
+      "downloads": 0
+    },
+    {
+      "package": "ruvector-onnx-embeddings-wasm",
+      "downloads": 7217
+    },
+    {
+      "package": "ruvector-sona",
+      "downloads": 0
+    },
+    {
+      "package": "ruvector-wasm",
+      "downloads": 3
+    },
+    {
+      "package": "ruvi",
+      "downloads": 0
+    },
+    {
+      "package": "ruvllm-esp32",
+      "downloads": 6
+    },
+    {
+      "package": "ruvneural",
+      "downloads": 0
+    },
+    {
+      "package": "rvlite",
+      "downloads": 180
+    },
+    {
+      "package": "spiking-neural",
+      "downloads": 3
+    },
+    {
+      "package": "strange-loops",
+      "downloads": 332
+    },
+    {
+      "package": "strange-loops-mcp",
+      "downloads": 2
+    },
+    {
+      "package": "sublinear-time-solver",
+      "downloads": 337
+    },
+    {
+      "package": "symbolic-scribe-harness",
+      "downloads": 3
+    },
+    {
+      "package": "temporal-lead-solver",
+      "downloads": 332
+    },
+    {
+      "package": "temporal-neural-solver",
+      "downloads": 0
+    },
+    {
+      "package": "vscode-remote-mcp",
+      "downloads": 6
+    },
+    {
+      "package": "wifi-densepose-sar-harness",
+      "downloads": 0
+    },
+    {
+      "package": "worldgraphs",
+      "downloads": 1
+    }
+  ]
+}

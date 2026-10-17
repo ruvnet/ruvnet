@@ -1,0 +1,62 @@
+{
+  "verified_at": "2026-10-17T12:40:14+00:00",
+  "provider": "GitHub Search API",
+  "window_start": "2026-10-03",
+  "window_end": "2026-10-16",
+  "window_days": 14,
+  "activity": {
+    "issues_opened": {
+      "count": 297,
+      "incomplete_results": false,
+      "source": "GitHub Search API query: user:ruvnet is:issue created:2026-10-03..2026-10-16",
+      "definition": "Non-PR issues created in the complete 14-day UTC window",
+      "verified_at": "2026-10-17T12:40:14+00:00",
+      "coverage": "ruvnet public repositories; incomplete_results=false"
+    },
+    "issues_closed": {
+      "count": 204,
+      "incomplete_results": false,
+      "source": "GitHub Search API query: user:ruvnet is:issue closed:2026-10-03..2026-10-16",
+      "definition": "Non-PR issues closed in the complete 14-day UTC window",
+      "verified_at": "2026-10-17T12:40:14+00:00",
+      "coverage": "ruvnet public repositories; incomplete_results=false"
+    },
+    "prs_opened": {
+      "count": 825,
+      "incomplete_results": false,
+      "source": "GitHub Search API query: user:ruvnet is:pr created:2026-10-03..2026-10-16",
+      "definition": "Pull requests created in the complete 14-day UTC window",
+      "verified_at": "2026-10-17T12:40:14+00:00",
+      "coverage": "ruvnet public repositories; incomplete_results=false"
+    },
+    "prs_merged": {
+      "count": 508,
+      "incomplete_results": false,
+      "source": "GitHub Search API query: user:ruvnet is:pr is:merged merged:2026-10-03..2026-10-16",
+      "definition": "Pull requests merged in the complete 14-day UTC window",
+      "verified_at": "2026-10-17T12:40:14+00:00",
+      "coverage": "ruvnet public repositories; incomplete_results=false"
+    },
+    "open_issues": {
+      "count": 1915,
+      "incomplete_results": false,
+      "source": "GitHub Search API query: user:ruvnet is:issue is:open",
+      "definition": "Current open non-PR issues at collection time",
+      "verified_at": "2026-10-17T12:40:14+00:00",
+      "coverage": "ruvnet public repositories; incomplete_results=false"
+    },
+    "open_prs": {
+      "count": 1331,
+      "incomplete_results": false,
+      "source": "GitHub Search API query: user:ruvnet is:pr is:open",
+      "definition": "Current open pull requests at collection time",
+      "verified_at": "2026-10-17T12:40:14+00:00",
+      "coverage": "ruvnet public repositories; incomplete_results=false"
+    }
+  },
+  "workflow_runs": {
+    "count": null,
+    "source": "GitHub Actions API",
+    "coverage": "Unavailable: API run enumeration is capped at 1,000 results per query; complete daily run coverage cannot be established."
+  }
+}

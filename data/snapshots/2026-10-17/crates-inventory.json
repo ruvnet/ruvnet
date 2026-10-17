@@ -1,0 +1,1957 @@
+{
+  "retrieved_at": "2026-10-17T13:02:30.154251Z",
+  "source": "https://crates.io/api/v1/crates?user_id=339999",
+  "responses": [
+    {
+      "source": "https://crates.io/api/v1/crates?page=1&per_page=100&user_id=339999",
+      "retrieved_at": "2026-10-17T13:02:25.241695Z",
+      "response_sha256": "37bfeeaf4e170c6a3955cfd13d18d317b43545a2bd5e3484f06c5d8ee26eaaa3"
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=2&per_page=100&user_id=339999",
+      "retrieved_at": "2026-10-17T13:02:26.447730Z",
+      "response_sha256": "dcd7b4e1bc0c5e37ce11f6fdb9fe626f533a1bcf886821d3c596482eecd922d9"
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=3&per_page=100&user_id=339999",
+      "retrieved_at": "2026-10-17T13:02:27.649136Z",
+      "response_sha256": "9e763b377357222db846e3f5104831c302b5bb2584ef3d58a93fd680a3e5d3d9"
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=4&per_page=100&user_id=339999",
+      "retrieved_at": "2026-10-17T13:02:28.915182Z",
+      "response_sha256": "0ace04e30a711abcac4cfc047575ee32fd669fc073a0c5eb8fee1426baf72312"
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=5&per_page=100&user_id=339999",
+      "retrieved_at": "2026-10-17T13:02:30.154251Z",
+      "response_sha256": "e07978c8189d16b5c40714d65f2f1b8854039e32f358135d907143199ba72cdc"
+    }
+  ],
+  "crates": [
+    {
+      "id": "agentic-jujutsu",
+      "downloads": 375
+    },
+    {
+      "id": "agentic-payments",
+      "downloads": 369
+    },
+    {
+      "id": "agentic-robotics-core",
+      "downloads": 825
+    },
+    {
+      "id": "agentic-robotics-embedded",
+      "downloads": 125
+    },
+    {
+      "id": "agentic-robotics-mcp",
+      "downloads": 120
+    },
+    {
+      "id": "agentic-robotics-node",
+      "downloads": 86
+    },
+    {
+      "id": "agentic-robotics-rt",
+      "downloads": 125
+    },
+    {
+      "id": "aimds-analysis",
+      "downloads": 2223
+    },
+    {
+      "id": "aimds-core",
+      "downloads": 6680
+    },
+    {
+      "id": "aimds-detection",
+      "downloads": 2158
+    },
+    {
+      "id": "aimds-response",
+      "downloads": 1982
+    },
+    {
+      "id": "bit-parallel-search",
+      "downloads": 433
+    },
+    {
+      "id": "bitchat-qudag",
+      "downloads": 504
+    },
+    {
+      "id": "claude-parser",
+      "downloads": 921
+    },
+    {
+      "id": "claude_market",
+      "downloads": 801
+    },
+    {
+      "id": "code-mesh-cli",
+      "downloads": 515
+    },
+    {
+      "id": "code-mesh-core",
+      "downloads": 1296
+    },
+    {
+      "id": "code-mesh-tui",
+      "downloads": 496
+    },
+    {
+      "id": "code-mesh-wasm",
+      "downloads": 465
+    },
+    {
+      "id": "cog-ha-matter",
+      "downloads": 23
+    },
+    {
+      "id": "cog-person-count",
+      "downloads": 24
+    },
+    {
+      "id": "cog-pose-estimation",
+      "downloads": 24
+    },
+    {
+      "id": "cognitum-gate-kernel",
+      "downloads": 56112
+    },
+    {
+      "id": "cognitum-gate-tilezero",
+      "downloads": 25534
+    },
+    {
+      "id": "cognitum-one",
+      "downloads": 105
+    },
+    {
+      "id": "cognitum-rs",
+      "downloads": 28
+    },
+    {
+      "id": "conformal-prediction",
+      "downloads": 488
+    },
+    {
+      "id": "cuda-rust-wasm",
+      "downloads": 2345
+    },
+    {
+      "id": "daa-ai",
+      "downloads": 3011
+    },
+    {
+      "id": "daa-chain",
+      "downloads": 1175
+    },
+    {
+      "id": "daa-cli",
+      "downloads": 925
+    },
+    {
+      "id": "daa-economy",
+      "downloads": 2037
+    },
+    {
+      "id": "daa-orchestrator",
+      "downloads": 1185
+    },
+    {
+      "id": "daa-prime-cli",
+      "downloads": 926
+    },
+    {
+      "id": "daa-prime-coordinator",
+      "downloads": 1154
+    },
+    {
+      "id": "daa-prime-core",
+      "downloads": 1931
+    },
+    {
+      "id": "daa-prime-dht",
+      "downloads": 1702
+    },
+    {
+      "id": "daa-prime-trainer",
+      "downloads": 1470
+    },
+    {
+      "id": "daa-rules",
+      "downloads": 2908
+    },
+    {
+      "id": "delta-behavior",
+      "downloads": 29
+    },
+    {
+      "id": "emergent-time",
+      "downloads": 48
+    },
+    {
+      "id": "exo-backend-classical",
+      "downloads": 883
+    },
+    {
+      "id": "exo-core",
+      "downloads": 2025
+    },
+    {
+      "id": "exo-exotic",
+      "downloads": 733
+    },
+    {
+      "id": "exo-federation",
+      "downloads": 885
+    },
+    {
+      "id": "exo-hypergraph",
+      "downloads": 91
+    },
+    {
+      "id": "exo-manifold",
+      "downloads": 711
+    },
+    {
+      "id": "exo-node",
+      "downloads": 44
+    },
+    {
+      "id": "exo-temporal",
+      "downloads": 1255
+    },
+    {
+      "id": "exo-wasm",
+      "downloads": 46
+    },
+    {
+      "id": "fact-tools",
+      "downloads": 661
+    },
+    {
+      "id": "fact-wasm-core",
+      "downloads": 429
+    },
+    {
+      "id": "geometric-langlands",
+      "downloads": 1506
+    },
+    {
+      "id": "geometric-langlands-cli",
+      "downloads": 452
+    },
+    {
+      "id": "goalie",
+      "downloads": 844
+    },
+    {
+      "id": "governance",
+      "downloads": 312
+    },
+    {
+      "id": "helix-bioage",
+      "downloads": 132
+    },
+    {
+      "id": "helix-cohort",
+      "downloads": 67
+    },
+    {
+      "id": "helix-connect",
+      "downloads": 87
+    },
+    {
+      "id": "helix-demo",
+      "downloads": 24
+    },
+    {
+      "id": "helix-embed",
+      "downloads": 66
+    },
+    {
+      "id": "helix-escalation",
+      "downloads": 217
+    },
+    {
+      "id": "helix-evidence",
+      "downloads": 232
+    },
+    {
+      "id": "helix-evolve",
+      "downloads": 23
+    },
+    {
+      "id": "helix-fed",
+      "downloads": 23
+    },
+    {
+      "id": "helix-focus",
+      "downloads": 128
+    },
+    {
+      "id": "helix-genome",
+      "downloads": 87
+    },
+    {
+      "id": "helix-llm",
+      "downloads": 23
+    },
+    {
+      "id": "helix-neural",
+      "downloads": 68
+    },
+    {
+      "id": "helix-numeric",
+      "downloads": 293
+    },
+    {
+      "id": "helix-ocr",
+      "downloads": 68
+    },
+    {
+      "id": "helix-ontology",
+      "downloads": 69
+    },
+    {
+      "id": "helix-pipeline",
+      "downloads": 148
+    },
+    {
+      "id": "helix-provenance",
+      "downloads": 670
+    },
+    {
+      "id": "helix-refranges",
+      "downloads": 92
+    },
+    {
+      "id": "helix-retrieval",
+      "downloads": 109
+    },
+    {
+      "id": "helix-score",
+      "downloads": 169
+    },
+    {
+      "id": "helix-sensing",
+      "downloads": 68
+    },
+    {
+      "id": "helix-timeline",
+      "downloads": 130
+    },
+    {
+      "id": "helix-vault",
+      "downloads": 24
+    },
+    {
+      "id": "helix-verifier",
+      "downloads": 23
+    },
+    {
+      "id": "helix-vision",
+      "downloads": 23
+    },
+    {
+      "id": "helix-visual",
+      "downloads": 87
+    },
+    {
+      "id": "helix-wasm",
+      "downloads": 23
+    },
+    {
+      "id": "homecore",
+      "downloads": 204
+    },
+    {
+      "id": "homecore-api",
+      "downloads": 45
+    },
+    {
+      "id": "homecore-assist",
+      "downloads": 45
+    },
+    {
+      "id": "homecore-automation",
+      "downloads": 68
+    },
+    {
+      "id": "homecore-hap",
+      "downloads": 52
+    },
+    {
+      "id": "homecore-migrate",
+      "downloads": 45
+    },
+    {
+      "id": "homecore-plugins",
+      "downloads": 45
+    },
+    {
+      "id": "homecore-recorder",
+      "downloads": 68
+    },
+    {
+      "id": "homecore-server",
+      "downloads": 19
+    },
+    {
+      "id": "intrinsic-dim",
+      "downloads": 232
+    },
+    {
+      "id": "kimi-expert-analyzer",
+      "downloads": 453
+    },
+    {
+      "id": "kimi-fann-core",
+      "downloads": 1222
+    },
+    {
+      "id": "latentmesh-thoughtmap",
+      "downloads": 10
+    },
+    {
+      "id": "lean-agentic",
+      "downloads": 89631
+    },
+    {
+      "id": "leanr-rag-gateway",
+      "downloads": 391
+    },
+    {
+      "id": "leanr-wasm",
+      "downloads": 235
+    },
+    {
+      "id": "mcp-gate",
+      "downloads": 10
+    },
+    {
+      "id": "micro-hnsw-wasm",
+      "downloads": 52
+    },
+    {
+      "id": "micro_cartan_attn",
+      "downloads": 753
+    },
+    {
+      "id": "micro_core",
+      "downloads": 1421
+    },
+    {
+      "id": "micro_metrics",
+      "downloads": 994
+    },
+    {
+      "id": "micro_routing",
+      "downloads": 991
+    },
+    {
+      "id": "micro_swarm",
+      "downloads": 766
+    },
+    {
+      "id": "midstream",
+      "downloads": 24
+    },
+    {
+      "id": "midstreamer-attractor",
+      "downloads": 71273
+    },
+    {
+      "id": "midstreamer-neural-solver",
+      "downloads": 2815
+    },
+    {
+      "id": "midstreamer-quic",
+      "downloads": 55033
+    },
+    {
+      "id": "midstreamer-scheduler",
+      "downloads": 54038
+    },
+    {
+      "id": "midstreamer-strange-loop",
+      "downloads": 2470
+    },
+    {
+      "id": "midstreamer-temporal-compare",
+      "downloads": 71537
+    },
+    {
+      "id": "nano-consciousness",
+      "downloads": 572
+    },
+    {
+      "id": "nanosecond-scheduler",
+      "downloads": 58526
+    },
+    {
+      "id": "neural-trader-predictor",
+      "downloads": 300
+    },
+    {
+      "id": "neuro-divergent",
+      "downloads": 539
+    },
+    {
+      "id": "neuro-divergent-core",
+      "downloads": 1184
+    },
+    {
+      "id": "neuro-divergent-models",
+      "downloads": 952
+    },
+    {
+      "id": "neuro-divergent-registry",
+      "downloads": 964
+    },
+    {
+      "id": "neuro-divergent-training",
+      "downloads": 503
+    },
+    {
+      "id": "neurodna",
+      "downloads": 816
+    },
+    {
+      "id": "nt-agentdb-client",
+      "downloads": 490
+    },
+    {
+      "id": "nt-backtesting",
+      "downloads": 293
+    },
+    {
+      "id": "nt-core",
+      "downloads": 2067
+    },
+    {
+      "id": "nt-execution",
+      "downloads": 288
+    },
+    {
+      "id": "nt-features",
+      "downloads": 284
+    },
+    {
+      "id": "nt-market-data",
+      "downloads": 363
+    },
+    {
+      "id": "nt-memory",
+      "downloads": 317
+    },
+    {
+      "id": "nt-napi-bindings",
+      "downloads": 281
+    },
+    {
+      "id": "nt-neural",
+      "downloads": 286
+    },
+    {
+      "id": "nt-portfolio",
+      "downloads": 290
+    },
+    {
+      "id": "nt-streaming",
+      "downloads": 48
+    },
+    {
+      "id": "nt-utils",
+      "downloads": 50
+    },
+    {
+      "id": "nvsim",
+      "downloads": 42
+    },
+    {
+      "id": "nvsim-server",
+      "downloads": 14
+    },
+    {
+      "id": "opencv-core",
+      "downloads": 1367
+    },
+    {
+      "id": "opencv-sdk",
+      "downloads": 862
+    },
+    {
+      "id": "opencv-wasm",
+      "downloads": 1103
+    },
+    {
+      "id": "ospipe",
+      "downloads": 28
+    },
+    {
+      "id": "photonlayer-bench",
+      "downloads": 17
+    },
+    {
+      "id": "photonlayer-cli",
+      "downloads": 10
+    },
+    {
+      "id": "photonlayer-core",
+      "downloads": 41
+    },
+    {
+      "id": "photonlayer-ruvector",
+      "downloads": 17
+    },
+    {
+      "id": "photonlayer-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "prime-radiant",
+      "downloads": 33
+    },
+    {
+      "id": "qudag",
+      "downloads": 4215
+    },
+    {
+      "id": "qudag-cli",
+      "downloads": 4153
+    },
+    {
+      "id": "qudag-crypto",
+      "downloads": 7556
+    },
+    {
+      "id": "qudag-dag",
+      "downloads": 6128
+    },
+    {
+      "id": "qudag-exchange",
+      "downloads": 580
+    },
+    {
+      "id": "qudag-exchange-core",
+      "downloads": 2781
+    },
+    {
+      "id": "qudag-exchange-standalone-cli",
+      "downloads": 1253
+    },
+    {
+      "id": "qudag-mcp",
+      "downloads": 2664
+    },
+    {
+      "id": "qudag-network",
+      "downloads": 5270
+    },
+    {
+      "id": "qudag-protocol",
+      "downloads": 4308
+    },
+    {
+      "id": "qudag-vault-core",
+      "downloads": 4797
+    },
+    {
+      "id": "qudag-wasm",
+      "downloads": 539
+    },
+    {
+      "id": "qvm-scheduler",
+      "downloads": 441
+    },
+    {
+      "id": "rucelium-abi",
+      "downloads": 45
+    },
+    {
+      "id": "rucelium-calibration",
+      "downloads": 18
+    },
+    {
+      "id": "rucelium-core",
+      "downloads": 161
+    },
+    {
+      "id": "rucelium-ingest",
+      "downloads": 17
+    },
+    {
+      "id": "rucelium-notary",
+      "downloads": 18
+    },
+    {
+      "id": "rucelium-policy",
+      "downloads": 18
+    },
+    {
+      "id": "rucelium-store",
+      "downloads": 18
+    },
+    {
+      "id": "rucelium-worldgraph",
+      "downloads": 17
+    },
+    {
+      "id": "rufield-adapters",
+      "downloads": 19
+    },
+    {
+      "id": "rufield-core",
+      "downloads": 319
+    },
+    {
+      "id": "rufield-fusion",
+      "downloads": 193
+    },
+    {
+      "id": "rufield-privacy",
+      "downloads": 168
+    },
+    {
+      "id": "rufield-provenance",
+      "downloads": 231
+    },
+    {
+      "id": "ruflo-watermark",
+      "downloads": 77
+    },
+    {
+      "id": "rulake",
+      "downloads": 35
+    },
+    {
+      "id": "ruqu",
+      "downloads": 28
+    },
+    {
+      "id": "ruqu-algorithms",
+      "downloads": 337
+    },
+    {
+      "id": "ruqu-core",
+      "downloads": 554
+    },
+    {
+      "id": "ruqu-exotic",
+      "downloads": 75
+    },
+    {
+      "id": "ruqu-neural-decoder",
+      "downloads": 25
+    },
+    {
+      "id": "ruqu-qarlp",
+      "downloads": 25
+    },
+    {
+      "id": "ruqu-qear",
+      "downloads": 24
+    },
+    {
+      "id": "ruqu-qflg",
+      "downloads": 22
+    },
+    {
+      "id": "ruqu-qgat-mol",
+      "downloads": 23
+    },
+    {
+      "id": "ruqu-quantum-monitor",
+      "downloads": 24
+    },
+    {
+      "id": "ruqu-vq-nas",
+      "downloads": 24
+    },
+    {
+      "id": "ruqu-wasm",
+      "downloads": 72
+    },
+    {
+      "id": "ruv-fann",
+      "downloads": 5745
+    },
+    {
+      "id": "ruv-neural-cli",
+      "downloads": 30
+    },
+    {
+      "id": "ruv-neural-core",
+      "downloads": 978
+    },
+    {
+      "id": "ruv-neural-decoder",
+      "downloads": 128
+    },
+    {
+      "id": "ruv-neural-embed",
+      "downloads": 131
+    },
+    {
+      "id": "ruv-neural-esp32",
+      "downloads": 29
+    },
+    {
+      "id": "ruv-neural-graph",
+      "downloads": 230
+    },
+    {
+      "id": "ruv-neural-memory",
+      "downloads": 128
+    },
+    {
+      "id": "ruv-neural-mincut",
+      "downloads": 228
+    },
+    {
+      "id": "ruv-neural-neurosleep",
+      "downloads": 16
+    },
+    {
+      "id": "ruv-neural-sensor",
+      "downloads": 126
+    },
+    {
+      "id": "ruv-neural-signal",
+      "downloads": 365
+    },
+    {
+      "id": "ruv-neural-viz",
+      "downloads": 131
+    },
+    {
+      "id": "ruv-swarm-agents",
+      "downloads": 2287
+    },
+    {
+      "id": "ruv-swarm-cli",
+      "downloads": 996
+    },
+    {
+      "id": "ruv-swarm-core",
+      "downloads": 4985
+    },
+    {
+      "id": "ruv-swarm-daa",
+      "downloads": 1227
+    },
+    {
+      "id": "ruv-swarm-mcp",
+      "downloads": 946
+    },
+    {
+      "id": "ruv-swarm-ml",
+      "downloads": 2116
+    },
+    {
+      "id": "ruv-swarm-ml-training",
+      "downloads": 1109
+    },
+    {
+      "id": "ruv-swarm-persistence",
+      "downloads": 2153
+    },
+    {
+      "id": "ruv-swarm-transport",
+      "downloads": 1856
+    },
+    {
+      "id": "ruv-swarm-wasm",
+      "downloads": 1341
+    },
+    {
+      "id": "ruvector-acorn",
+      "downloads": 17
+    },
+    {
+      "id": "ruvector-acorn-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-adaptive-ann",
+      "downloads": 15
+    },
+    {
+      "id": "ruvector-agent-memory",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-attention",
+      "downloads": 88111
+    },
+    {
+      "id": "ruvector-attention-node",
+      "downloads": 92
+    },
+    {
+      "id": "ruvector-attention-unified-wasm",
+      "downloads": 23
+    },
+    {
+      "id": "ruvector-attention-wasm",
+      "downloads": 124
+    },
+    {
+      "id": "ruvector-attn-mincut",
+      "downloads": 63759
+    },
+    {
+      "id": "ruvector-bounded-rag",
+      "downloads": 15
+    },
+    {
+      "id": "ruvector-capgated",
+      "downloads": 31
+    },
+    {
+      "id": "ruvector-cli",
+      "downloads": 397
+    },
+    {
+      "id": "ruvector-cluster",
+      "downloads": 2662
+    },
+    {
+      "id": "ruvector-cluster-rag",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-cnn",
+      "downloads": 173
+    },
+    {
+      "id": "ruvector-cnn-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-cognitive-container",
+      "downloads": 247
+    },
+    {
+      "id": "ruvector-coherence",
+      "downloads": 401
+    },
+    {
+      "id": "ruvector-coherence-hnsw",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-collections",
+      "downloads": 1412
+    },
+    {
+      "id": "ruvector-consciousness",
+      "downloads": 60
+    },
+    {
+      "id": "ruvector-consciousness-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-context",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-core",
+      "downloads": 218355
+    },
+    {
+      "id": "ruvector-crv",
+      "downloads": 18905
+    },
+    {
+      "id": "ruvector-dag",
+      "downloads": 688
+    },
+    {
+      "id": "ruvector-dag-wasm",
+      "downloads": 28
+    },
+    {
+      "id": "ruvector-data-framework",
+      "downloads": 60
+    },
+    {
+      "id": "ruvector-decompiler",
+      "downloads": 19
+    },
+    {
+      "id": "ruvector-decompiler-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-delta-consensus",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-delta-core",
+      "downloads": 183
+    },
+    {
+      "id": "ruvector-delta-graph",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-delta-index",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-delta-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-diskann",
+      "downloads": 1158
+    },
+    {
+      "id": "ruvector-diskann-node",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-dither",
+      "downloads": 1149
+    },
+    {
+      "id": "ruvector-diverse-beam",
+      "downloads": 15
+    },
+    {
+      "id": "ruvector-domain-expansion",
+      "downloads": 3147
+    },
+    {
+      "id": "ruvector-domain-expansion-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-economy-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-embed-core",
+      "downloads": 86
+    },
+    {
+      "id": "ruvector-entropy-ann",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-exotic-wasm",
+      "downloads": 31
+    },
+    {
+      "id": "ruvector-filter",
+      "downloads": 1559
+    },
+    {
+      "id": "ruvector-fpga-transformer",
+      "downloads": 29
+    },
+    {
+      "id": "ruvector-fpga-transformer-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-gnn",
+      "downloads": 23520
+    },
+    {
+      "id": "ruvector-gnn-node",
+      "downloads": 141
+    },
+    {
+      "id": "ruvector-gnn-rerank",
+      "downloads": 30
+    },
+    {
+      "id": "ruvector-gnn-wasm",
+      "downloads": 105
+    },
+    {
+      "id": "ruvector-graph",
+      "downloads": 8560
+    },
+    {
+      "id": "ruvector-graph-condense",
+      "downloads": 16
+    },
+    {
+      "id": "ruvector-graph-condense-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-graph-node",
+      "downloads": 295
+    },
+    {
+      "id": "ruvector-graph-transformer",
+      "downloads": 37
+    },
+    {
+      "id": "ruvector-graph-transformer-node",
+      "downloads": 31
+    },
+    {
+      "id": "ruvector-graph-transformer-wasm",
+      "downloads": 36
+    },
+    {
+      "id": "ruvector-graph-wasm",
+      "downloads": 136
+    },
+    {
+      "id": "ruvector-hnsw-repair",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-hybrid",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-hyperbolic-hnsw",
+      "downloads": 55915
+    },
+    {
+      "id": "ruvector-kge",
+      "downloads": 36
+    },
+    {
+      "id": "ruvector-kge-ffi",
+      "downloads": 20
+    },
+    {
+      "id": "ruvector-kge-wasm",
+      "downloads": 20
+    },
+    {
+      "id": "ruvector-learning-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-lsm-ann",
+      "downloads": 30
+    },
+    {
+      "id": "ruvector-math",
+      "downloads": 2008
+    },
+    {
+      "id": "ruvector-math-wasm",
+      "downloads": 33
+    },
+    {
+      "id": "ruvector-matryoshka",
+      "downloads": 28
+    },
+    {
+      "id": "ruvector-maxsim",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-memopt",
+      "downloads": 177
+    },
+    {
+      "id": "ruvector-memory-admission",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-metrics",
+      "downloads": 816
+    },
+    {
+      "id": "ruvector-mincut",
+      "downloads": 181002
+    },
+    {
+      "id": "ruvector-mincut-gated-transformer",
+      "downloads": 24019
+    },
+    {
+      "id": "ruvector-mincut-gated-transformer-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-mincut-node",
+      "downloads": 71
+    },
+    {
+      "id": "ruvector-mincut-wasm",
+      "downloads": 70
+    },
+    {
+      "id": "ruvector-namespace-merge",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-nervous-system",
+      "downloads": 1399
+    },
+    {
+      "id": "ruvector-nervous-system-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-node",
+      "downloads": 142
+    },
+    {
+      "id": "ruvector-onnx-embeddings",
+      "downloads": 559
+    },
+    {
+      "id": "ruvector-onnx-embeddings-wasm",
+      "downloads": 67
+    },
+    {
+      "id": "ruvector-perception",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-postgres",
+      "downloads": 459
+    },
+    {
+      "id": "ruvector-pq-search",
+      "downloads": 29
+    },
+    {
+      "id": "ruvector-profiler",
+      "downloads": 66
+    },
+    {
+      "id": "ruvector-proof-gate",
+      "downloads": 32
+    },
+    {
+      "id": "ruvector-query-cache",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-rabitq",
+      "downloads": 703
+    },
+    {
+      "id": "ruvector-rabitq-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-raft",
+      "downloads": 3753
+    },
+    {
+      "id": "ruvector-rairs",
+      "downloads": 20
+    },
+    {
+      "id": "ruvector-recall-bounded",
+      "downloads": 14
+    },
+    {
+      "id": "ruvector-replication",
+      "downloads": 2523
+    },
+    {
+      "id": "ruvector-retrieval-receipt",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-robotics",
+      "downloads": 30
+    },
+    {
+      "id": "ruvector-router-cli",
+      "downloads": 177
+    },
+    {
+      "id": "ruvector-router-core",
+      "downloads": 1499
+    },
+    {
+      "id": "ruvector-router-ffi",
+      "downloads": 345
+    },
+    {
+      "id": "ruvector-router-wasm",
+      "downloads": 183
+    },
+    {
+      "id": "ruvector-rulake",
+      "downloads": 31
+    },
+    {
+      "id": "ruvector-scipix",
+      "downloads": 232
+    },
+    {
+      "id": "ruvector-security",
+      "downloads": 52
+    },
+    {
+      "id": "ruvector-server",
+      "downloads": 404
+    },
+    {
+      "id": "ruvector-snapshot",
+      "downloads": 698
+    },
+    {
+      "id": "ruvector-solver",
+      "downloads": 66510
+    },
+    {
+      "id": "ruvector-solver-node",
+      "downloads": 71
+    },
+    {
+      "id": "ruvector-solver-wasm",
+      "downloads": 67
+    },
+    {
+      "id": "ruvector-sona",
+      "downloads": 58420
+    },
+    {
+      "id": "ruvector-spann",
+      "downloads": 21
+    },
+    {
+      "id": "ruvector-sparse-inference",
+      "downloads": 300
+    },
+    {
+      "id": "ruvector-sparsifier",
+      "downloads": 139
+    },
+    {
+      "id": "ruvector-sparsifier-wasm",
+      "downloads": 32
+    },
+    {
+      "id": "ruvector-speculative-ann",
+      "downloads": 19
+    },
+    {
+      "id": "ruvector-staged-workspace",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-streaming-qng",
+      "downloads": 8
+    },
+    {
+      "id": "ruvector-temporal-coherence",
+      "downloads": 10
+    },
+    {
+      "id": "ruvector-temporal-tensor",
+      "downloads": 61736
+    },
+    {
+      "id": "ruvector-temporal-tensor-wasm",
+      "downloads": 8
+    },
+    {
+      "id": "ruvector-timesfm",
+      "downloads": 20
+    },
+    {
+      "id": "ruvector-tiny-dancer-core",
+      "downloads": 910
+    },
+    {
+      "id": "ruvector-tiny-dancer-node",
+      "downloads": 169
+    },
+    {
+      "id": "ruvector-tiny-dancer-wasm",
+      "downloads": 160
+    },
+    {
+      "id": "ruvector-turboquant",
+      "downloads": 6546
+    },
+    {
+      "id": "ruvector-turbovec",
+      "downloads": 19
+    },
+    {
+      "id": "ruvector-typesafe-core",
+      "downloads": 131
+    },
+    {
+      "id": "ruvector-typesafe-ffi",
+      "downloads": 20
+    },
+    {
+      "id": "ruvector-typesafe-wasm",
+      "downloads": 21
+    },
+    {
+      "id": "ruvector-verified",
+      "downloads": 273
+    },
+    {
+      "id": "ruvector-verified-wasm",
+      "downloads": 40
+    },
+    {
+      "id": "ruvector-wasm",
+      "downloads": 167
+    },
+    {
+      "id": "ruview-unified",
+      "downloads": 17
+    },
+    {
+      "id": "ruvix-aarch64",
+      "downloads": 22
+    },
+    {
+      "id": "ruvix-bcm2711",
+      "downloads": 121
+    },
+    {
+      "id": "ruvix-boot",
+      "downloads": 25
+    },
+    {
+      "id": "ruvix-cap",
+      "downloads": 654
+    },
+    {
+      "id": "ruvix-cli",
+      "downloads": 24
+    },
+    {
+      "id": "ruvix-dma",
+      "downloads": 24
+    },
+    {
+      "id": "ruvix-drivers",
+      "downloads": 208
+    },
+    {
+      "id": "ruvix-dtb",
+      "downloads": 120
+    },
+    {
+      "id": "ruvix-fs",
+      "downloads": 24
+    },
+    {
+      "id": "ruvix-hal",
+      "downloads": 522
+    },
+    {
+      "id": "ruvix-net",
+      "downloads": 24
+    },
+    {
+      "id": "ruvix-nucleus",
+      "downloads": 124
+    },
+    {
+      "id": "ruvix-physmem",
+      "downloads": 23
+    },
+    {
+      "id": "ruvix-proof",
+      "downloads": 229
+    },
+    {
+      "id": "ruvix-qemu-swarm",
+      "downloads": 24
+    },
+    {
+      "id": "ruvix-queue",
+      "downloads": 303
+    },
+    {
+      "id": "ruvix-region",
+      "downloads": 469
+    },
+    {
+      "id": "ruvix-rpi-boot",
+      "downloads": 23
+    },
+    {
+      "id": "ruvix-sched",
+      "downloads": 27
+    },
+    {
+      "id": "ruvix-shell",
+      "downloads": 24
+    },
+    {
+      "id": "ruvix-smp",
+      "downloads": 25
+    },
+    {
+      "id": "ruvix-types",
+      "downloads": 1727
+    },
+    {
+      "id": "ruvix-vecgraph",
+      "downloads": 27
+    },
+    {
+      "id": "ruvllm",
+      "downloads": 57146
+    },
+    {
+      "id": "ruvllm-cli",
+      "downloads": 107
+    },
+    {
+      "id": "ruvllm-esp32",
+      "downloads": 131
+    },
+    {
+      "id": "ruvllm-wasm",
+      "downloads": 40
+    },
+    {
+      "id": "ruvllm_retrieval_diffusion",
+      "downloads": 10
+    },
+    {
+      "id": "ruvllm_sparse_attention",
+      "downloads": 41
+    },
+    {
+      "id": "rvagent-a2a",
+      "downloads": 16
+    },
+    {
+      "id": "rvagent-acp",
+      "downloads": 10
+    },
+    {
+      "id": "rvagent-backends",
+      "downloads": 43
+    },
+    {
+      "id": "rvagent-cli",
+      "downloads": 10
+    },
+    {
+      "id": "rvagent-core",
+      "downloads": 46
+    },
+    {
+      "id": "rvagent-mcp",
+      "downloads": 10
+    },
+    {
+      "id": "rvagent-middleware",
+      "downloads": 35
+    },
+    {
+      "id": "rvagent-subagents",
+      "downloads": 21
+    },
+    {
+      "id": "rvagent-tools",
+      "downloads": 31
+    },
+    {
+      "id": "rvagent-wasm",
+      "downloads": 10
+    },
+    {
+      "id": "rvcsi-adapter-esp32",
+      "downloads": 18
+    },
+    {
+      "id": "rvcsi-adapter-file",
+      "downloads": 271
+    },
+    {
+      "id": "rvcsi-adapter-nexmon",
+      "downloads": 315
+    },
+    {
+      "id": "rvcsi-cli",
+      "downloads": 79
+    },
+    {
+      "id": "rvcsi-core",
+      "downloads": 585
+    },
+    {
+      "id": "rvcsi-dsp",
+      "downloads": 271
+    },
+    {
+      "id": "rvcsi-events",
+      "downloads": 267
+    },
+    {
+      "id": "rvcsi-node",
+      "downloads": 49
+    },
+    {
+      "id": "rvcsi-runtime",
+      "downloads": 210
+    },
+    {
+      "id": "rvcsi-ruvector",
+      "downloads": 269
+    },
+    {
+      "id": "rvdna",
+      "downloads": 217
+    },
+    {
+      "id": "rvf-cli",
+      "downloads": 113
+    },
+    {
+      "id": "rvf-crypto",
+      "downloads": 2904
+    },
+    {
+      "id": "rvf-ebpf",
+      "downloads": 22
+    },
+    {
+      "id": "rvf-federation",
+      "downloads": 37
+    },
+    {
+      "id": "rvf-forge-core",
+      "downloads": 16
+    },
+    {
+      "id": "rvf-import",
+      "downloads": 27
+    },
+    {
+      "id": "rvf-index",
+      "downloads": 1315
+    },
+    {
+      "id": "rvf-kernel",
+      "downloads": 24
+    },
+    {
+      "id": "rvf-launch",
+      "downloads": 136
+    },
+    {
+      "id": "rvf-manifest",
+      "downloads": 224
+    },
+    {
+      "id": "rvf-quant",
+      "downloads": 1309
+    },
+    {
+      "id": "rvf-runtime",
+      "downloads": 4125
+    },
+    {
+      "id": "rvf-server",
+      "downloads": 140
+    },
+    {
+      "id": "rvf-types",
+      "downloads": 9593
+    },
+    {
+      "id": "rvf-wire",
+      "downloads": 1335
+    },
+    {
+      "id": "rvforge-registry",
+      "downloads": 10
+    },
+    {
+      "id": "rvlite",
+      "downloads": 151
+    },
+    {
+      "id": "rvm-anchor",
+      "downloads": 15
+    },
+    {
+      "id": "rvm-boot",
+      "downloads": 18
+    },
+    {
+      "id": "rvm-cap",
+      "downloads": 162
+    },
+    {
+      "id": "rvm-coherence",
+      "downloads": 15
+    },
+    {
+      "id": "rvm-context",
+      "downloads": 34
+    },
+    {
+      "id": "rvm-hal",
+      "downloads": 32
+    },
+    {
+      "id": "rvm-host",
+      "downloads": 34
+    },
+    {
+      "id": "rvm-launch",
+      "downloads": 16
+    },
+    {
+      "id": "rvm-memory",
+      "downloads": 36
+    },
+    {
+      "id": "rvm-partition",
+      "downloads": 108
+    },
+    {
+      "id": "rvm-proof",
+      "downloads": 49
+    },
+    {
+      "id": "rvm-rvf",
+      "downloads": 66
+    },
+    {
+      "id": "rvm-sched",
+      "downloads": 49
+    },
+    {
+      "id": "rvm-security",
+      "downloads": 19
+    },
+    {
+      "id": "rvm-types",
+      "downloads": 224
+    },
+    {
+      "id": "rvm-wasm",
+      "downloads": 51
+    },
+    {
+      "id": "rvm-witness",
+      "downloads": 183
+    },
+    {
+      "id": "sevensense-analysis",
+      "downloads": 270
+    },
+    {
+      "id": "sevensense-api",
+      "downloads": 24
+    },
+    {
+      "id": "sevensense-audio",
+      "downloads": 268
+    },
+    {
+      "id": "sevensense-core",
+      "downloads": 807
+    },
+    {
+      "id": "sevensense-embedding",
+      "downloads": 146
+    },
+    {
+      "id": "sevensense-interpretation",
+      "downloads": 146
+    },
+    {
+      "id": "sevensense-learning",
+      "downloads": 148
+    },
+    {
+      "id": "sevensense-vector",
+      "downloads": 499
+    },
+    {
+      "id": "strange-loop",
+      "downloads": 59649
+    },
+    {
+      "id": "subjective-time-expansion",
+      "downloads": 58435
+    },
+    {
+      "id": "sublinear",
+      "downloads": 990
+    },
+    {
+      "id": "swe-bench-adapter",
+      "downloads": 497
+    },
+    {
+      "id": "synaptic-daa-swarm",
+      "downloads": 832
+    },
+    {
+      "id": "synaptic-mesh-cli",
+      "downloads": 864
+    },
+    {
+      "id": "synaptic-neural-mesh",
+      "downloads": 1071
+    },
+    {
+      "id": "synaptic-neural-wasm",
+      "downloads": 837
+    },
+    {
+      "id": "synaptic-qudag-core",
+      "downloads": 1264
+    },
+    {
+      "id": "temporal-attractor-studio",
+      "downloads": 57413
+    },
+    {
+      "id": "temporal-compare",
+      "downloads": 1038
+    },
+    {
+      "id": "temporal-lead-solver",
+      "downloads": 333
+    },
+    {
+      "id": "temporal-neural-solver",
+      "downloads": 51726
+    },
+    {
+      "id": "thermorust",
+      "downloads": 1149
+    },
+    {
+      "id": "timesfm",
+      "downloads": 94
+    },
+    {
+      "id": "veritas-nexus",
+      "downloads": 528
+    },
+    {
+      "id": "wifi-densepose-aether",
+      "downloads": 16
+    },
+    {
+      "id": "wifi-densepose-api",
+      "downloads": 60
+    },
+    {
+      "id": "wifi-densepose-bfld",
+      "downloads": 261
+    },
+    {
+      "id": "wifi-densepose-calibration",
+      "downloads": 93
+    },
+    {
+      "id": "wifi-densepose-cli",
+      "downloads": 112
+    },
+    {
+      "id": "wifi-densepose-config",
+      "downloads": 59
+    },
+    {
+      "id": "wifi-densepose-core",
+      "downloads": 1144
+    },
+    {
+      "id": "wifi-densepose-db",
+      "downloads": 58
+    },
+    {
+      "id": "wifi-densepose-desktop",
+      "downloads": 18
+    },
+    {
+      "id": "wifi-densepose-engine",
+      "downloads": 204
+    },
+    {
+      "id": "wifi-densepose-geo",
+      "downloads": 6620
+    },
+    {
+      "id": "wifi-densepose-hardware",
+      "downloads": 384
+    },
+    {
+      "id": "wifi-densepose-mat",
+      "downloads": 359
+    },
+    {
+      "id": "wifi-densepose-nn",
+      "downloads": 616
+    },
+    {
+      "id": "wifi-densepose-occworld-candle",
+      "downloads": 18
+    },
+    {
+      "id": "wifi-densepose-pointcloud",
+      "downloads": 17
+    },
+    {
+      "id": "wifi-densepose-rufield",
+      "downloads": 135
+    },
+    {
+      "id": "wifi-densepose-ruvector",
+      "downloads": 780
+    },
+    {
+      "id": "wifi-densepose-sar",
+      "downloads": 17
+    },
+    {
+      "id": "wifi-densepose-sensing-server",
+      "downloads": 354
+    },
+    {
+      "id": "wifi-densepose-signal",
+      "downloads": 1086
+    },
+    {
+      "id": "wifi-densepose-train",
+      "downloads": 171
+    },
+    {
+      "id": "wifi-densepose-vitals",
+      "downloads": 126
+    },
+    {
+      "id": "wifi-densepose-wasm",
+      "downloads": 83
+    },
+    {
+      "id": "wifi-densepose-wifiscan",
+      "downloads": 441
+    },
+    {
+      "id": "wifi-densepose-worldgraph",
+      "downloads": 6631
+    },
+    {
+      "id": "wifi-densepose-worldmodel",
+      "downloads": 41
+    }
+  ]
+}
