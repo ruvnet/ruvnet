@@ -186,28 +186,28 @@ The dashboard above is generated from this repository's published JSON. Download
 <!-- github-public-metrics:start -->
 ## GitHub reach
 
-Public GitHub API snapshot verified **October 17, 2026 UTC**. [Captured inventory](data/snapshots/2026-10-17/github-inventory.json).
+Public GitHub API snapshot verified **October 19, 2026 UTC**. [Captured inventory](data/snapshots/2026-10-19/github-inventory.json).
 
 | Measure | Verified value |
 | --- | ---: |
-| Followers | 11,859 |
+| Followers | 11,921 |
 | Public repositories | 227 |
 | Owned public nonfork repositories | 200 |
 | Public repositories that are forks | 27 |
-| Stars across owned public nonfork repositories | 190,893 |
-| Aggregate downstream forks of owned nonfork repositories | 25,433 |
+| Stars across owned public nonfork repositories | 192,284 |
+| Aggregate downstream forks of owned nonfork repositories | 25,555 |
 
 ### Flagship repository traction
 
 | Project | Stars | Forks | Subscribers |
 | --- | ---: | ---: | ---: |
-| [RuView](https://github.com/ruvnet/RuView) | 98,418 | 12,900 | 882 |
-| [ruflo](https://github.com/ruvnet/ruflo) | 75,826 | 8,984 | 466 |
-| [RuVector](https://github.com/ruvnet/RuVector) | 4,581 | 611 | 36 |
-| [metaharness](https://github.com/ruvnet/metaharness) | 705 | 87 | 3 |
+| [RuView](https://github.com/ruvnet/RuView) | 98,739 | 12,930 | 883 |
+| [ruflo](https://github.com/ruvnet/ruflo) | 76,866 | 9,075 | 474 |
+| [RuVector](https://github.com/ruvnet/RuVector) | 4,595 | 613 | 36 |
+| [metaharness](https://github.com/ruvnet/metaharness) | 708 | 86 | 3 |
 | [rvm](https://github.com/ruvnet/rvm) | 150 | 32 | 0 |
 
-RuView and Ruflo account for **91.3% of owned public nonfork stars** and **86.0% of downstream forks**.
+RuView and Ruflo account for **91.3% of owned public nonfork stars** and **86.1% of downstream forks**.
 <!-- github-public-metrics:end -->
 
 ![Published across the stack: registry packages and model artifacts](assets/ruvnet/distribution.svg)

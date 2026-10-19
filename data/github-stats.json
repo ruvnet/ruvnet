@@ -1,42 +1,42 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-17T12:40:14+00:00",
+  "verified_at": "2026-10-19T12:53:39+00:00",
   "source": "https://api.github.com",
   "counting_rule": "Owned repositories from /users/ruvnet/repos?type=owner, paginated. Nonfork totals exclude repositories where fork is true. Watchers use subscribers_count, not stargazers.",
   "account": {
-    "followers": 11859,
+    "followers": 11921,
     "public_repositories": 227,
     "owned_public_nonfork_repositories": 200,
     "public_forks": 27,
-    "stars_across_owned_nonfork": 190893,
-    "aggregate_downstream_forks_of_owned_nonfork": 25433
+    "stars_across_owned_nonfork": 192284,
+    "aggregate_downstream_forks_of_owned_nonfork": 25555
   },
   "flagships": [
     {
       "name": "RuView",
-      "stars": 98418,
-      "forks": 12900,
-      "watchers": 882,
+      "stars": 98739,
+      "forks": 12930,
+      "watchers": 883,
       "source": "https://api.github.com/repos/ruvnet/RuView"
     },
     {
       "name": "ruflo",
-      "stars": 75826,
-      "forks": 8984,
-      "watchers": 466,
+      "stars": 76866,
+      "forks": 9075,
+      "watchers": 474,
       "source": "https://api.github.com/repos/ruvnet/ruflo"
     },
     {
       "name": "RuVector",
-      "stars": 4581,
-      "forks": 611,
+      "stars": 4595,
+      "forks": 613,
       "watchers": 36,
       "source": "https://api.github.com/repos/ruvnet/RuVector"
     },
     {
       "name": "metaharness",
-      "stars": 705,
-      "forks": 87,
+      "stars": 708,
+      "forks": 86,
       "watchers": 3,
       "source": "https://api.github.com/repos/ruvnet/metaharness"
     },
@@ -49,8 +49,8 @@
     }
   ],
   "concentration": {
-    "two_flagship_share_of_owned_nonfork_stars": 0.9127836012844892,
-    "two_flagship_share_of_aggregate_forks": 0.8604568867219754
+    "two_flagship_share_of_owned_nonfork_stars": 0.9132585134488569,
+    "two_flagship_share_of_aggregate_forks": 0.8610839366073175
   },
   "traffic_rolling_14_days": {
     "verified_at": "2026-10-17T12:40:14+00:00",
@@ -832,7 +832,7 @@
     "commit_search_matches": 2313,
     "commit_search_query": "author:ruvnet committer-date:2026-08-10..2026-09-07"
   },
-  "inventory": "data/snapshots/2026-10-17/github-inventory.json",
+  "inventory": "data/snapshots/2026-10-19/github-inventory.json",
   "activity_2026_09_08_to_snapshot": {
     "window_start": "2026-09-08T00:00:00Z",
     "window_end": "2026-10-02T02:50:46.605846+00:00",
@@ -842,63 +842,63 @@
     "note": "Latest pushed_at is repository metadata, not a commit count or full push-event history. Current public inventory only."
   },
   "current_collection": {
-    "verified_at": "2026-10-17T12:40:14+00:00",
-    "followers": 11859,
+    "verified_at": "2026-10-19T12:53:39+00:00",
+    "followers": 11921,
     "all_owned": {
       "repositories": 227,
-      "stars": 191155,
-      "forks": 25512,
-      "subscribers": 1779,
-      "open_issues_and_prs": 2805
+      "stars": 192547,
+      "forks": 25634,
+      "subscribers": 1788,
+      "open_issues_and_prs": 2825
     },
     "nonfork": {
       "repositories": 200,
-      "stars": 190893,
-      "forks": 25433,
-      "subscribers": 1776,
-      "open_issues_and_prs": 2795
+      "stars": 192284,
+      "forks": 25555,
+      "subscribers": 1785,
+      "open_issues_and_prs": 2815
     },
     "top_repositories": [
       {
         "name": "RuView",
-        "stars": 98418,
-        "forks": 12900,
-        "subscribers": 882
+        "stars": 98739,
+        "forks": 12930,
+        "subscribers": 883
       },
       {
         "name": "ruflo",
-        "stars": 75826,
-        "forks": 8984,
-        "subscribers": 466
+        "stars": 76866,
+        "forks": 9075,
+        "subscribers": 474
       },
       {
         "name": "RuVector",
-        "stars": 4581,
-        "forks": 611,
+        "stars": 4595,
+        "forks": 613,
         "subscribers": 36
       },
       {
         "name": "agentic-flow",
-        "stars": 821,
+        "stars": 822,
         "forks": 178,
         "subscribers": 14
       },
       {
         "name": "metaharness",
-        "stars": 705,
-        "forks": 87,
+        "stars": 708,
+        "forks": 86,
         "subscribers": 3
       },
       {
         "name": "Bot-Generator-Bot",
-        "stars": 587,
-        "forks": 126,
+        "stars": 586,
+        "forks": 127,
         "subscribers": 15
       },
       {
         "name": "open-claude-code",
-        "stars": 535,
-        "forks": 165,
+        "stars": 537,
+        "forks": 166,
         "subscribers": 6
       },
       {
@@ -920,73 +920,61 @@
         "subscribers": 11
       }
     ],
-    "clones": 808366,
-    "views": 162950,
+    "clones": 768061,
+    "views": 165068,
     "traffic_status": "available",
-    "source": "data/snapshots/2026-10-17/github-inventory.json",
+    "source": "data/snapshots/2026-10-19/github-inventory.json",
     "coverage": "All public owned repositories; 3 connector pages reconciled to 227 distinct public repository IDs; private records excluded before storage"
   },
   "activity_last_14_complete_utc_days": {
     "issues_opened": {
-      "count": 297,
+      "count": 256,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:issue created:2026-10-03..2026-10-16",
-      "definition": "Non-PR issues created in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:issue created:2026-10-05..2026-10-18"
     },
     "issues_closed": {
-      "count": 204,
+      "count": 203,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:issue closed:2026-10-03..2026-10-16",
-      "definition": "Non-PR issues closed in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:issue closed:2026-10-05..2026-10-18"
     },
     "prs_opened": {
-      "count": 825,
+      "count": 794,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:pr created:2026-10-03..2026-10-16",
-      "definition": "Pull requests created in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:pr created:2026-10-05..2026-10-18"
     },
     "prs_merged": {
-      "count": 508,
+      "count": 511,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:pr is:merged merged:2026-10-03..2026-10-16",
-      "definition": "Pull requests merged in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:pr is:merged merged:2026-10-05..2026-10-18"
     },
-    "verified_at": "2026-10-17T12:40:14+00:00"
+    "verified_at": "2026-10-19T12:53:39+00:00"
   },
   "release_assets": {
     "coverage": "All 227 public owned repositories",
-    "releases": 2377,
-    "published_in_14_day_window": 65,
-    "current_assets": 664,
-    "current_asset_downloads": 109776,
-    "retained_observed_downloads": 109779,
+    "releases": 2379,
+    "published_in_14_day_window": 64,
+    "current_assets": 668,
+    "current_asset_downloads": 110180,
+    "retained_observed_downloads": 110183,
     "retained_missing_assets": 8,
     "source": "https://api.github.com/repos/{owner}/{repo}/releases",
-    "inventory_path": "data/snapshots/2026-10-17/github-release-inventory.json",
-    "subscribers": 1779
+    "inventory_path": "data/snapshots/2026-10-19/github-release-inventory.json",
+    "subscribers": 1788
   },
   "actions_last_14_complete_utc_days": {
     "runs": null,
-    "coverage": "Unavailable: GitHub API limits results to 1,000 per query; complete run pagination not available."
+    "coverage": "Unknown: complete workflow-run pagination not available; GitHub API caps enumeration at 1,000 results per query."
   },
   "current_open_items": {
     "open_issues": {
-      "count": 1915,
-      "source": "GitHub Search API query: user:ruvnet is:issue is:open",
-      "checked_at": "2026-10-17T12:40:14+00:00"
+      "count": 1551,
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:issue is:open",
+      "checked_at": "2026-10-19T12:53:39+00:00"
     },
     "open_prs": {
-      "count": 1331,
-      "source": "GitHub Search API query: user:ruvnet is:pr is:open",
-      "checked_at": "2026-10-17T12:40:14+00:00"
+      "count": 1272,
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:pr is:open",
+      "checked_at": "2026-10-19T12:53:39+00:00"
     }
   },
   "traffic_historical_2026-09-07": {

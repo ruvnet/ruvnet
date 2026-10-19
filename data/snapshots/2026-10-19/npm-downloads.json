@@ -9969,5 +9969,33 @@
   ],
   "inventory_package_count": 401,
   "download_package_count": 401,
-  "unavailable_packages": []
+  "unavailable_packages": [],
+  "unverified_all_zero_cohort_days": [
+    "2026-10-06",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "unavailable_dates": {
+    "2026-10-06": {
+      "value": null,
+      "reason": "Cohort-wide zero response; provisional provider data, not confirmed zero demand."
+    },
+    "2026-10-13": {
+      "value": null,
+      "reason": "Cohort-wide zero response; provisional provider data, not confirmed zero demand."
+    },
+    "2026-10-14": {
+      "value": null,
+      "reason": "Cohort-wide zero response; provisional provider data, not confirmed zero demand."
+    },
+    "2026-10-15": {
+      "value": null,
+      "reason": "Cohort-wide zero response; provisional provider data, not confirmed zero demand."
+    },
+    "2026-10-18": {
+      "value": null,
+      "reason": "Cohort-wide zero response; provisional provider data, not confirmed zero demand."
+    }
+  }
 }

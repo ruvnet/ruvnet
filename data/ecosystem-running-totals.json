@@ -1,64 +1,64 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-19T05:47:50.716018Z",
+  "verified_at": "2026-10-19T12:53:39+00:00",
   "github": {
-    "verified_at": "2026-10-17T12:40:14+00:00",
-    "followers": 11859,
+    "verified_at": "2026-10-19T12:53:39+00:00",
+    "followers": 11921,
     "all_owned": {
       "repositories": 227,
-      "stars": 191155,
-      "forks": 25512,
-      "subscribers": 1779,
-      "open_issues_and_prs": 2805
+      "stars": 192547,
+      "forks": 25634,
+      "subscribers": 1788,
+      "open_issues_and_prs": 2825
     },
     "nonfork": {
       "repositories": 200,
-      "stars": 190893,
-      "forks": 25433,
-      "subscribers": 1776,
-      "open_issues_and_prs": 2795
+      "stars": 192284,
+      "forks": 25555,
+      "subscribers": 1785,
+      "open_issues_and_prs": 2815
     },
     "top_repositories": [
       {
         "name": "RuView",
-        "stars": 98418,
-        "forks": 12900,
-        "subscribers": 882
+        "stars": 98739,
+        "forks": 12930,
+        "subscribers": 883
       },
       {
         "name": "ruflo",
-        "stars": 75826,
-        "forks": 8984,
-        "subscribers": 466
+        "stars": 76866,
+        "forks": 9075,
+        "subscribers": 474
       },
       {
         "name": "RuVector",
-        "stars": 4581,
-        "forks": 611,
+        "stars": 4595,
+        "forks": 613,
         "subscribers": 36
       },
       {
         "name": "agentic-flow",
-        "stars": 821,
+        "stars": 822,
         "forks": 178,
         "subscribers": 14
       },
       {
         "name": "metaharness",
-        "stars": 705,
-        "forks": 87,
+        "stars": 708,
+        "forks": 86,
         "subscribers": 3
       },
       {
         "name": "Bot-Generator-Bot",
-        "stars": 587,
-        "forks": 126,
+        "stars": 586,
+        "forks": 127,
         "subscribers": 15
       },
       {
         "name": "open-claude-code",
-        "stars": 535,
-        "forks": 165,
+        "stars": 537,
+        "forks": 166,
         "subscribers": 6
       },
       {
@@ -80,46 +80,34 @@
         "subscribers": 11
       }
     ],
-    "clones": 808366,
-    "views": 162950,
+    "clones": 768061,
+    "views": 165068,
     "traffic_status": "available",
-    "source": "data/snapshots/2026-10-17/github-inventory.json",
+    "source": "data/snapshots/2026-10-19/github-inventory.json",
     "coverage": "All public owned repositories; 3 connector pages reconciled to 227 distinct public repository IDs; private records excluded before storage"
   },
   "activity": {
     "issues_opened": {
-      "count": 297,
+      "count": 256,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:issue created:2026-10-03..2026-10-16",
-      "definition": "Non-PR issues created in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:issue created:2026-10-05..2026-10-18"
     },
     "issues_closed": {
-      "count": 204,
+      "count": 203,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:issue closed:2026-10-03..2026-10-16",
-      "definition": "Non-PR issues closed in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:issue closed:2026-10-05..2026-10-18"
     },
     "prs_opened": {
-      "count": 825,
+      "count": 794,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:pr created:2026-10-03..2026-10-16",
-      "definition": "Pull requests created in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:pr created:2026-10-05..2026-10-18"
     },
     "prs_merged": {
-      "count": 508,
+      "count": 511,
       "incomplete_results": false,
-      "source": "GitHub Search API query: user:ruvnet is:pr is:merged merged:2026-10-03..2026-10-16",
-      "definition": "Pull requests merged in the complete 14-day UTC window",
-      "verified_at": "2026-10-17T12:40:14+00:00",
-      "coverage": "ruvnet public repositories; incomplete_results=false"
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:pr is:merged merged:2026-10-05..2026-10-18"
     },
-    "verified_at": "2026-10-17T12:40:14+00:00"
+    "verified_at": "2026-10-19T12:53:39+00:00"
   },
   "npm": {
     "period_start": "2026-10-05",
@@ -130,46 +118,46 @@
     "errors": [],
     "daily": {
       "2026-10-05": 811237,
-      "2026-10-06": 0,
+      "2026-10-06": null,
       "2026-10-07": 821274,
       "2026-10-08": 547630,
       "2026-10-09": 556070,
       "2026-10-10": 663141,
       "2026-10-11": 624103,
       "2026-10-12": 692161,
-      "2026-10-13": 0,
-      "2026-10-14": 0,
-      "2026-10-15": 0,
+      "2026-10-13": null,
+      "2026-10-14": null,
+      "2026-10-15": null,
       "2026-10-16": 411720,
-      "2026-10-17": 415537
+      "2026-10-17": 415537,
+      "2026-10-18": null
     },
     "daily_package_coverage": {
       "2026-10-05": 401,
-      "2026-10-06": 401,
+      "2026-10-06": 0,
       "2026-10-07": 401,
       "2026-10-08": 401,
       "2026-10-09": 401,
       "2026-10-10": 401,
       "2026-10-11": 401,
       "2026-10-12": 401,
-      "2026-10-13": 401,
-      "2026-10-14": 401,
-      "2026-10-15": 401,
+      "2026-10-13": 0,
+      "2026-10-14": 0,
+      "2026-10-15": 0,
       "2026-10-16": 401,
       "2026-10-17": 401,
       "2026-10-18": 0
     },
     "missing_days": [
-      "2026-10-18"
-    ],
-    "status": "401 of 401 inventory packages collected; provisional trailing dates are unknown; provider reporting gaps may remain",
-    "all_zero_cohort_days": [
       "2026-10-06",
       "2026-10-13",
       "2026-10-14",
-      "2026-10-15"
+      "2026-10-15",
+      "2026-10-18"
     ],
-    "note": "Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional.",
+    "status": "401 of 401 inventory packages; five cohort-wide all-zero dates held unknown pending provider confirmation; other reported daily values are observed",
+    "all_zero_cohort_days": [],
+    "note": "Observed npm daily downloads, not lifetime. Five all-cohort-zero dates are unknown pending confirmation/backfill.",
     "latest_confirmed_daily": {
       "verified_at": "2026-10-19T05:47:45.100431Z",
       "day": "2026-10-17",
@@ -184,6 +172,12 @@
     "verified_at": "2026-10-19T05:47:50.716018Z",
     "provisional_days": [
       "2026-10-18"
+    ],
+    "provisional_all_zero_days": [
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15"
     ]
   },
   "crates_io": {
@@ -196,15 +190,15 @@
   },
   "release_assets": {
     "coverage": "All 227 public owned repositories",
-    "releases": 2377,
-    "published_in_14_day_window": 65,
-    "current_assets": 664,
-    "current_asset_downloads": 109776,
-    "retained_observed_downloads": 109779,
+    "releases": 2379,
+    "published_in_14_day_window": 64,
+    "current_assets": 668,
+    "current_asset_downloads": 110180,
+    "retained_observed_downloads": 110183,
     "retained_missing_assets": 8,
     "source": "https://api.github.com/repos/{owner}/{repo}/releases",
-    "inventory_path": "data/snapshots/2026-10-17/github-release-inventory.json",
-    "subscribers": 1779
+    "inventory_path": "data/snapshots/2026-10-19/github-release-inventory.json",
+    "subscribers": 1788
   },
   "uncollected": [
     "Commits and contributors"
@@ -229,18 +223,18 @@
   },
   "actions": {
     "runs": null,
-    "coverage": "Unavailable: GitHub API limits results to 1,000 per query; complete run pagination not available."
+    "coverage": "Unknown: complete workflow-run pagination not available; GitHub API caps enumeration at 1,000 results per query."
   },
   "open_items": {
     "open_issues": {
-      "count": 1915,
-      "source": "GitHub Search API query: user:ruvnet is:issue is:open",
-      "checked_at": "2026-10-17T12:40:14+00:00"
+      "count": 1551,
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:issue is:open",
+      "checked_at": "2026-10-19T12:53:39+00:00"
     },
     "open_prs": {
-      "count": 1331,
-      "source": "GitHub Search API query: user:ruvnet is:pr is:open",
-      "checked_at": "2026-10-17T12:40:14+00:00"
+      "count": 1272,
+      "source": "unauthenticated GitHub Search API (public results only); query=user:ruvnet is:pr is:open",
+      "checked_at": "2026-10-19T12:53:39+00:00"
     }
   },
   "download_milestone": {
@@ -280,786 +274,140 @@
     ]
   },
   "snapshot_delta": {
-    "repositories": 1,
-    "stars": 564,
-    "forks": 62,
-    "followers": 25
+    "repositories": 0,
+    "stars": 1392,
+    "forks": 122,
+    "followers": 62
   },
   "traffic": {
-    "observed_since": "2026-10-03",
-    "through": "2026-10-16",
-    "window_start": "2026-10-03",
-    "window_end": "2026-10-16",
-    "clone_events_last_14_complete_utc_days": 808366,
-    "view_events_last_14_complete_utc_days": 162950,
-    "clone_events_observed_since": 982241,
-    "view_events_observed_since": 203655,
+    "observed_since": "2026-09-30",
+    "through": "2026-10-18",
+    "window_start": "2026-10-05",
+    "window_end": "2026-10-18",
+    "clone_events_last_14_complete_utc_days": 768061,
+    "view_events_last_14_complete_utc_days": 165068,
+    "clone_events_observed_since": 1056640,
+    "view_events_observed_since": 230830,
     "repositories_with_clone_coverage": 227,
     "repositories_with_view_coverage": 227,
     "unique_cloners_across_repositories": null,
     "unique_visitors_across_repositories": null,
     "source": "GitHub owner-authorized traffic API via ruOS; see dated repository rows",
-    "full_window_repositories": {
-      "clones": 227,
-      "views": 227
-    },
-    "zero_filled_pre_creation_days": [
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "clones",
-        "date": "2026-10-03",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "clones",
-        "date": "2026-10-04",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "clones",
-        "date": "2026-10-05",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "clones",
-        "date": "2026-10-06",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "clones",
-        "date": "2026-10-07",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "views",
-        "date": "2026-10-03",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "views",
-        "date": "2026-10-04",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "views",
-        "date": "2026-10-05",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "views",
-        "date": "2026-10-06",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1410298366,
-        "repository": "harness-sdk",
-        "metric": "views",
-        "date": "2026-10-07",
-        "created_at": "2026-10-08T12:30:37Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-03",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-04",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-05",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-06",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-07",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-08",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-09",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "clones",
-        "date": "2026-10-10",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-03",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-04",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-05",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-06",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-07",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-08",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-09",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1414688744,
-        "repository": "lionagi",
-        "metric": "views",
-        "date": "2026-10-10",
-        "created_at": "2026-10-11T19:14:45Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-03",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-04",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-05",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-06",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-07",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-08",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-09",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-10",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "clones",
-        "date": "2026-10-11",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-03",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-04",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-05",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-06",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-07",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-08",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-09",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-10",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1416056023,
-        "repository": "Rash",
-        "metric": "views",
-        "date": "2026-10-11",
-        "created_at": "2026-10-12T19:40:36Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-03",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-04",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-05",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-06",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-07",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-08",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-09",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "clones",
-        "date": "2026-10-10",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-03",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-04",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-05",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-06",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-07",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-08",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-09",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1414612360,
-        "repository": "readme-proof",
-        "metric": "views",
-        "date": "2026-10-10",
-        "created_at": "2026-10-11T17:44:43Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-03",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-04",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-05",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-06",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-07",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-08",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-09",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-10",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-11",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-12",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-13",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-14",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "clones",
-        "date": "2026-10-15",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-03",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-04",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-05",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-06",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-07",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-08",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-09",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-10",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-11",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-12",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-13",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-14",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1422222989,
-        "repository": "ruGraph",
-        "metric": "views",
-        "date": "2026-10-15",
-        "created_at": "2026-10-16T13:47:46Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-03",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-04",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-05",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-06",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-07",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-08",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-09",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-10",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-11",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-12",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "clones",
-        "date": "2026-10-13",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-03",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-04",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-05",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-06",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-07",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-08",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-09",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-10",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-11",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-12",
-        "created_at": "2026-10-14T11:15:32Z"
-      },
-      {
-        "repository_id": 1418782271,
-        "repository": "site-harness",
-        "metric": "views",
-        "date": "2026-10-13",
-        "created_at": "2026-10-14T11:15:32Z"
+    "daily_repository_coverage": {
+      "2026-09-30": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-01": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-02": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-03": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-04": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-05": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-06": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-07": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-08": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-09": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-10": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-11": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-12": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-13": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-14": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-15": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-16": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-17": {
+        "clones": 227,
+        "views": 227
+      },
+      "2026-10-18": {
+        "clones": 227,
+        "views": 227
       }
-    ]
+    },
+    "missing_cells": 0,
+    "coverage_status": "complete",
+    "zero_filled_pre_creation_days": 0
+  },
+  "source_watermark": {
+    "schema_version": 1,
+    "repository": "ruvnet/ruvnet",
+    "base_commit": "5f680ae8b0a1d0e933447a2239e734b80a3f9bbe",
+    "collector_sha256": "c4d480ea52785f07932c05c2fc627ee08f0f377754c9780a1860ef1908cc2d7a",
+    "snapshot_date": "2026-10-19",
+    "verified_at": "2026-10-19T12:53:39Z",
+    "public_repository_ids": 227,
+    "pagination_offsets": [
+      0,
+      100,
+      200
+    ],
+    "activity_window_utc": {
+      "start": "2026-10-05",
+      "end": "2026-10-18"
+    },
+    "traffic_coverage": {
+      "repositories": 227,
+      "days_per_metric": 19,
+      "missing_cells": 0,
+      "observed_since": "2026-09-30",
+      "precreation_zero_filled_cells": 0
+    },
+    "npm_coverage": {
+      "packages": 401,
+      "unknown_dates": [
+        "2026-10-06",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-18"
+      ]
+    }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "base_commit": "5f680ae8b0a1d0e933447a2239e734b80a3f9bbe",
+  "collector_sha256": "c4d480ea52785f07932c05c2fc627ee08f0f377754c9780a1860ef1908cc2d7a",
+  "snapshot_date": "2026-10-19",
+  "verified_at": "2026-10-19T12:53:39Z",
+  "public_repository_ids": 227,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-10-05",
+    "end": "2026-10-18"
+  },
+  "traffic_coverage": {
+    "repositories": 227,
+    "days_per_metric": 19,
+    "missing_cells": 0,
+    "observed_since": "2026-09-30",
+    "precreation_zero_filled_cells": 0
+  },
+  "npm_coverage": {
+    "packages": 401,
+    "unknown_dates": [
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-18"
+    ]
+  }
+}
