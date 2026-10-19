@@ -127,22 +127,7 @@
     "observed_downloads": 5542873,
     "expected_packages": 401,
     "collected_packages": 401,
-    "errors": [
-      {
-        "package": "@ruv/rash",
-        "unavailable": true,
-        "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-16/%40ruv%2Frash",
-        "checked_at": "2026-10-17T12:51:05.308277Z",
-        "error": "npm download-range endpoint returned HTTP 404 after bounded retries"
-      },
-      {
-        "package": "@ruvnet/site-harness",
-        "unavailable": true,
-        "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-16/%40ruvnet%2Fsite-harness",
-        "checked_at": "2026-10-17T12:59:23.456188Z",
-        "error": "npm download-range endpoint returned HTTP 404 after bounded retries"
-      }
-    ],
+    "errors": [],
     "daily": {
       "2026-10-05": 811237,
       "2026-10-06": 0,
@@ -156,8 +141,7 @@
       "2026-10-14": 0,
       "2026-10-15": 0,
       "2026-10-16": 411720,
-      "2026-10-17": 415537,
-      "2026-10-18": 0
+      "2026-10-17": 415537
     },
     "daily_package_coverage": {
       "2026-10-05": 401,
@@ -173,30 +157,34 @@
       "2026-10-15": 401,
       "2026-10-16": 401,
       "2026-10-17": 401,
-      "2026-10-18": 401
+      "2026-10-18": 0
     },
-    "missing_days": [],
-    "status": "complete API responses for collected cohort; 399 of 401 inventory packages collected; provider latency may remain",
+    "missing_days": [
+      "2026-10-18"
+    ],
+    "status": "401 of 401 inventory packages collected; provisional trailing dates are unknown; provider reporting gaps may remain",
     "all_zero_cohort_days": [
       "2026-10-06",
       "2026-10-13",
       "2026-10-14",
-      "2026-10-15",
-      "2026-10-18"
+      "2026-10-15"
     ],
     "note": "Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional.",
     "latest_confirmed_daily": {
-      "verified_at": "2026-10-17T13:02:24.098189Z",
-      "day": "2026-10-12",
-      "downloads": 692161,
+      "verified_at": "2026-10-19T05:47:45.100431Z",
+      "day": "2026-10-17",
+      "downloads": 415537,
       "expected_packages": 401,
-      "collected_packages": 399,
+      "collected_packages": 401,
       "period_type": "UTC calendar day",
       "rolling_24_hours": false,
-      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-16/{urlencoded_package}",
-      "status": "latest confirmed completed UTC date; excludes newer provisional all-zero dates"
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-18/{urlencoded_package}",
+      "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
     },
-    "verified_at": "2026-10-19T05:47:50.716018Z"
+    "verified_at": "2026-10-19T05:47:50.716018Z",
+    "provisional_days": [
+      "2026-10-18"
+    ]
   },
   "crates_io": {
     "user_id": 339999,
@@ -233,9 +221,11 @@
     "release_asset_reconciliation": true,
     "unique_traffic_not_summed": true,
     "all_sources_public": true,
-    "npm_download_package_coverage_complete": false,
-    "npm_unavailable_packages": 2,
-    "missing_days_recorded": []
+    "npm_download_package_coverage_complete": true,
+    "npm_unavailable_packages": 0,
+    "missing_days_recorded": [
+      "2026-10-18"
+    ]
   },
   "actions": {
     "runs": null,
@@ -267,7 +257,7 @@
     "crates_io_cumulative": 1904903,
     "combined_observed": 99802370,
     "remaining": 197630,
-    "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 399 of 401 inventory packages have download-range evidence",
+    "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 401 of 401 inventory packages have download-range evidence",
     "baseline_source": "data/snapshots/2026-10-19/npm-downloads.json",
     "increment_source": "data/snapshots/2026-10-19/npm-downloads.json",
     "npm_verified_at": "2026-10-19T05:47:45.100431Z",

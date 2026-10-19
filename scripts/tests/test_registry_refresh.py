@@ -7,6 +7,8 @@ import tempfile
 import unittest
 import io
 import shutil
+import subprocess
+import sys
 import urllib.error
 from unittest.mock import patch
 
@@ -31,6 +33,44 @@ def result(package='example', positive_through='2026-10-05', requested_end='2026
 
 
 class RegistryRefreshTest(unittest.TestCase):
+    def test_ecosystem_compositor_preserves_canonical_latest_day(self):
+        """The GitHub compositor must not drop fields needed by profile verification."""
+        snapshot=ROOT/'data/snapshots/2026-10-17'
+        old=json.loads((snapshot/'ecosystem-summary.json').read_text())
+        evidence=json.loads((snapshot/'ecosystem-evidence.json').read_text())
+        payload={
+            'verified_at':old['github']['verified_at'],
+            'window_start':evidence['window']['start'],'window_end':evidence['window']['end'],
+            'followers':old['github']['followers'],
+            'github':{**old['github'], 'public_forks':old['github']['all_owned']['repositories']-old['github']['nonfork']['repositories'],
+                      'releases':old['release_assets']['releases'],
+                      'published_in_14_day_window':old['release_assets']['published_in_14_day_window']},
+            'activity':{**old['activity'],**old['open_items']},
+            'actions':old['actions'],'traffic':evidence['traffic'],
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            for name in ['data','docs','scripts']:
+                shutil.copytree(ROOT/name,root/name,ignore=shutil.ignore_patterns('__pycache__'))
+            shutil.copyfile(ROOT/'README.md',root/'README.md')
+            for entry in ROOT.iterdir():
+                if entry.name != '.git' and not (root/entry.name).exists():
+                    if entry.is_dir():
+                        shutil.copytree(entry,root/entry.name,ignore=shutil.ignore_patterns('__pycache__'))
+                    else:
+                        shutil.copyfile(entry,root/entry.name)
+            (root/'input.json').write_text(json.dumps(payload))
+            run=subprocess.run([sys.executable,'scripts/update-ecosystem-snapshot.py',
+                                '--date','2026-10-17','--input','input.json'],cwd=root,
+                               capture_output=True,text=True)
+            self.assertEqual(run.returncode,0,run.stderr)
+            check=subprocess.run(['node','scripts/verify-profile.mjs'],cwd=root,
+                                 capture_output=True,text=True)
+            self.assertEqual(check.returncode,0,check.stderr)
+            current=json.loads((root/'data/registry-stats.json').read_text())
+            running=json.loads((root/'data/ecosystem-running-totals.json').read_text())
+            self.assertEqual(running['npm']['latest_confirmed_daily']['day'],current['npm']['period_end'])
+
     def test_new_npm_package_404_is_retried_without_inventing_zero(self):
         url='https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/new-package'
         error=urllib.error.HTTPError(url,404,'Not Found',{},None)
@@ -52,6 +92,14 @@ class RegistryRefreshTest(unittest.TestCase):
             root=Path(folder);(root/'data').mkdir()
             for name in ['ecosystem-running-totals.json','ecosystem-daily-ledger.json']:
                 shutil.copyfile(ROOT/'data'/name,root/'data'/name)
+            stale=json.loads((root/'data/ecosystem-running-totals.json').read_text())
+            stale['npm'].update(errors=[{'package':'resolved-package','error':'HTTP 404'}],
+                                status='stale coverage',latest_confirmed_daily={
+                                    'day':'2020-01-01','downloads':999,'collected_packages':1})
+            stale['download_milestone']['status']='stale coverage'
+            stale['validation'].update(npm_unavailable_packages=99,
+                                       npm_download_package_coverage_complete=False)
+            (root/'data/ecosystem-running-totals.json').write_text(json.dumps(stale))
             with patch.object(refresh,'ROOT',root):
                 refresh.update_running_totals(registry,evidence)
                 first=(root/'data/ecosystem-running-totals.json').read_bytes()
@@ -62,6 +110,51 @@ class RegistryRefreshTest(unittest.TestCase):
             self.assertEqual(m['combined_observed'],expected+registry['crates_io']['cumulative_downloads'])
             self.assertEqual(m['npm_verified_at'],registry['npm']['downloads_verified_at'])
             self.assertEqual(m['remaining'],max(0,m['target']-m['combined_observed']))
+            running=json.loads(first)
+            latest=running['npm']['latest_confirmed_daily']
+            last=next(row for row in evidence['daily_totals']
+                      if row['day']==evidence['reported_through'])
+            self.assertEqual(latest['day'],last['day'])
+            self.assertEqual(latest['downloads'],last['downloads'])
+            self.assertEqual(latest['collected_packages'],len(evidence['packages']))
+            self.assertEqual(latest['verified_at'],evidence['retrieved_at'])
+            self.assertEqual(latest['source'],evidence['source'])
+            self.assertEqual(running['npm']['errors'],evidence.get('unavailable_packages',[]))
+            self.assertEqual(running['validation']['npm_unavailable_packages'],len(running['npm']['errors']))
+            self.assertEqual(running['validation']['npm_download_package_coverage_complete'],
+                             len(evidence['packages'])==registry['npm']['package_count'])
+            coverage=f"{len(evidence['packages'])} of {registry['npm']['package_count']}"
+            self.assertIn(coverage,running['npm']['status'])
+            self.assertIn(coverage,m['status'])
+
+    def test_provisional_zero_tail_is_unknown_in_daily_ledger(self):
+        row=result(positive_through='2026-10-05',requested_end='2026-10-07')
+        row['receipt']['source']='https://api.npmjs.org/downloads/range/example'
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'data').mkdir()
+            (root/'data/ecosystem-daily-ledger.json').write_text(json.dumps({'values':{}}))
+            with patch.object(refresh,'ROOT',root):
+                refresh.update_daily_ledger([row],dt.date(2026,10,8),'2026-10-08T12:00:00Z')
+            values=json.loads((root/'data/ecosystem-daily-ledger.json').read_text())['values']
+            self.assertEqual(values['npm|example|downloads|2026-10-05'],1)
+            self.assertIsNone(values['npm|example|downloads|2026-10-06'])
+            self.assertIsNone(values['npm|example|downloads|2026-10-07'])
+
+    def test_missing_inventory_package_keeps_window_incomplete(self):
+        registry=json.loads((ROOT/'data/registry-stats.json').read_text())
+        evidence=json.loads((ROOT/registry['npm']['downloads_evidence_path']).read_text())
+        registry['npm']['package_count'] += 1
+        evidence['unavailable_packages']=[{'package':'pending-package','error':'HTTP 404'}]
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'data').mkdir()
+            for name in ['ecosystem-running-totals.json','ecosystem-daily-ledger.json']:
+                shutil.copyfile(ROOT/'data'/name,root/'data'/name)
+            with patch.object(refresh,'ROOT',root):
+                refresh.update_running_totals(registry,evidence)
+            running=json.loads((root/'data/ecosystem-running-totals.json').read_text())
+            self.assertEqual(len(running['npm']['missing_days']),14)
+            self.assertFalse(running['validation']['npm_download_package_coverage_complete'])
+            self.assertEqual(running['validation']['npm_unavailable_packages'],1)
 
     def test_daily_ledger_upserts_complete_window_idempotently(self):
         today = dt.date(2026, 10, 8)

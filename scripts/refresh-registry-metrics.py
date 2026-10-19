@@ -192,12 +192,16 @@ def update_daily_ledger(results, today, verified, expected_packages=None, errors
     ledger = json.loads(ledger_path.read_text())
     values = ledger.setdefault('values', {})
     provenance = ledger.setdefault('package_provenance', {})
+    reported_through = max((point['day'] for result in results
+                            for point in result['body']['downloads']
+                            if point['downloads'] > 0), default=None)
     for result in results:
         package = result['package']
         points = validate_range(package, result['body'], PERIOD_START, end)
         for point in points:
             if start <= point['day'] <= end:
-                values[f"npm|{package}|downloads|{point['day']}"] = point['downloads']
+                values[f"npm|{package}|downloads|{point['day']}"] = (
+                    point['downloads'] if reported_through and point['day'] <= reported_through else None)
         provenance[package] = {
             'source': result['receipt']['source'],
             'retrieved_at': result['receipt']['retrieved_at'],
@@ -216,6 +220,20 @@ def update_daily_ledger(results, today, verified, expected_packages=None, errors
     save('data/ecosystem-daily-ledger.json', ledger)
 
 
+def latest_daily_summary(npm, evidence):
+    """Derive the latest positive calendar day from the canonical npm receipt."""
+    latest = next(row for row in evidence['daily_totals']
+                  if row['day'] == evidence['reported_through'])
+    return {
+        'verified_at': evidence['retrieved_at'], 'day': latest['day'],
+        'downloads': latest['downloads'], 'expected_packages': npm['package_count'],
+        'collected_packages': npm['download_package_count'],
+        'period_type': 'UTC calendar day', 'rolling_24_hours': False,
+        'source': evidence['source'],
+        'status': 'latest positive completed UTC date; excludes newer provisional all-zero dates',
+    }
+
+
 def update_running_totals(registry, evidence):
     """Keep the dashboard milestone aligned with verified registry evidence."""
     path = ROOT / 'data/ecosystem-running-totals.json'
@@ -227,6 +245,7 @@ def update_running_totals(registry, evidence):
                 if row['day'] <= evidence['reported_through'])
     combined = total + crates['cumulative_downloads']
     milestone = running['download_milestone']
+    cohort_label = f"{npm['download_package_count']} of {npm['package_count']}"
     milestone.update(
         npm_baseline_downloads=total, npm_baseline_through=evidence['reported_through'],
         npm_increment_observed=0, npm_increment_start=None, npm_increment_end=None,
@@ -237,6 +256,8 @@ def update_running_totals(registry, evidence):
         baseline_source=npm['downloads_evidence_path'], increment_source=npm['downloads_evidence_path'],
         npm_verified_at=npm['downloads_verified_at'], npm_reported_through=evidence['reported_through'],
         crates_io_verified_at=crates['verified_at'],
+        status=('Observed lower bound; collected API responses may contain provider reporting gaps; '
+                f'{cohort_label} inventory packages have download-range evidence'),
         internal_all_zero_cohort_days=[r['day'] for r in evidence['daily_totals']
             if r['day'] <= evidence['reported_through'] and r['downloads'] == 0],
         trailing_all_zero_days_excluded=evidence['trailing_all_zero_days_excluded'])
@@ -256,15 +277,22 @@ def update_running_totals(registry, evidence):
             daily[day] += value
             coverage[day].add(package)
     expected = [(dt.date.fromisoformat(start)+dt.timedelta(days=i)).isoformat() for i in range(14)]
-    missing = [day for day in expected if len(coverage[day]) != len(cohort)]
+    missing = [day for day in expected if len(coverage[day]) != npm['package_count']]
     running['npm'].update(period_start=start, period_end=end, verified_at=ledger['updated_at'],
         observed_downloads=sum(daily.values()), expected_packages=npm['package_count'],
         collected_packages=npm['download_package_count'], daily=dict(sorted(daily.items())),
         daily_package_coverage={day:len(coverage[day]) for day in expected}, missing_days=missing,
-        all_zero_cohort_days=[day for day,value in daily.items() if value == 0])
+        all_zero_cohort_days=[day for day,value in daily.items() if value == 0],
+        provisional_days=evidence['trailing_all_zero_days_excluded'],
+        errors=evidence.get('unavailable_packages', []),
+        status=(f'{cohort_label} inventory packages collected; '
+                'provisional trailing dates are unknown; provider reporting gaps may remain'),
+        latest_confirmed_daily=latest_daily_summary(npm, evidence))
     running['validation'].update(unique_daily_keys=len(ledger['values']),
         daily_total_reconciliation=True, download_milestone_reconciliation=True,
-        missing_days_recorded=missing)
+        missing_days_recorded=missing,
+        npm_download_package_coverage_complete=npm['download_package_count'] == npm['package_count'],
+        npm_unavailable_packages=len(evidence.get('unavailable_packages', [])))
     save('data/ecosystem-running-totals.json', running)
 
 

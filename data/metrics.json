@@ -48,9 +48,9 @@
     "npm_period_start": "2025-10-18",
     "npm_period_end": "2026-10-17",
     "npm_download_package_count": 401,
-    "npm_latest_confirmed_daily_day": "2026-10-12",
-    "npm_latest_confirmed_daily_downloads": 692161,
-    "npm_latest_confirmed_daily_package_count": 399,
+    "npm_latest_confirmed_daily_day": "2026-10-17",
+    "npm_latest_confirmed_daily_downloads": 415537,
+    "npm_latest_confirmed_daily_package_count": 401,
     "npm_latest_daily_is_rolling_24h": false
   },
   "verification_dates": {

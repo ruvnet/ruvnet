@@ -265,7 +265,7 @@ The curve sums measured monthly downloads on a linear scale. The final month is 
 <!-- registry-download-chart:end -->
 
 <!-- registry-reporting-status:start -->
-**Reporting coverage, 2026-10-19 UTC:** These npm figures are observed lower bounds across the 401-package collected cohort (401 of 401 inventory packages). The latest positive cohort day is **2026-10-17**. The collected daily responses contain 10 internal all zero cohort days (2026-07-12, 2026-08-14, 2026-09-03, 2026-09-07, 2026-09-08, 2026-09-15, 2026-10-06, 2026-10-13, 2026-10-14, 2026-10-15); these may be reporting gaps. Trailing all zero days (2026-10-18) are excluded from the reported through date. No missing downloads are estimated. [Package range evidence](data/snapshots/2026-10-19/npm-downloads.json).
+**Reporting coverage, 2026-10-19 UTC:** These npm figures are observed lower bounds across the 401-package collected cohort (401 of 401 inventory packages). The latest positive cohort day is **2026-10-17**, with **415,537 download events**. This is a completed UTC calendar day, not a rolling 24-hour count. The collected daily responses contain 10 internal all zero cohort days (2026-07-12, 2026-08-14, 2026-09-03, 2026-09-07, 2026-09-08, 2026-09-15, 2026-10-06, 2026-10-13, 2026-10-14, 2026-10-15); these may be reporting gaps. Trailing all zero days (2026-10-18) are excluded from the reported through date. No missing downloads are estimated. [Package range evidence](data/snapshots/2026-10-19/npm-downloads.json).
 <!-- registry-reporting-status:end -->
 
 ![An ecosystem in motion](assets/ruvnet/evolution.svg)

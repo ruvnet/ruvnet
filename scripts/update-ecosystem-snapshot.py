@@ -8,11 +8,15 @@ It is deterministic for identical inputs and never treats unknown traffic as 0.
 import argparse
 import copy
 import datetime as dt
+import importlib.util
 import json
 import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+_spec = importlib.util.spec_from_file_location('registry_refresh', ROOT / 'scripts/refresh-registry-metrics.py')
+registry_refresh = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(registry_refresh)
 
 
 def read(path):
@@ -194,6 +198,8 @@ def main():
                        f"{registry['npm']['download_package_count']} of {registry['npm']['package_count']} "
                        'inventory packages collected; provider latency may remain'),
             'all_zero_cohort_days': [d for d, value in daily.items() if value == 0],
+            'latest_confirmed_daily': registry_refresh.latest_daily_summary(registry['npm'], npm_receipt),
+            'provisional_days': npm_receipt['trailing_all_zero_days_excluded'],
             'note': 'Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional.',
         },
         crates_io={'crate_count': crates['crate_count'], 'cumulative_downloads': crates['cumulative_downloads'], 'verified_at': crates['verified_at'], 'source': 'https://crates.io/api/v1/crates?user_id=339999'},
@@ -398,6 +404,7 @@ RuView and Ruflo account for **{(top[0]['stars'] + top[1]['stars']) / stars * 10
     readme_path.write_text(before + block + after)
 
     subprocess.run(['python3', 'scripts/render-github-metrics.py'], cwd=ROOT, check=True)
+    subprocess.run(['node', 'scripts/render-registry-metrics.mjs'], cwd=ROOT, check=True)
 
     print(json.dumps({'combined_observed': combined, 'remaining': remaining, 'npm_reported_through': npm_receipt['reported_through'], 'daily_keys': len(ledger['values']), 'missing_days': missing_days}, indent=2))
 
