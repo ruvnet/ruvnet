@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-10-20",
+  "default_branch_base_sha": "bfda41a96332b7272a6f8ae6ab327c830fdb1567",
+  "collection_branch_parent_sha": "1fef0abd9b327a36c166e079038c95218f3f79c7",
+  "collector_sha256": "c4d480ea52785f07932c05c2fc627ee08f0f377754c9780a1860ef1908cc2d7a",
+  "github_adapter_sha256": "1ceb561c08eb11cfbe8e12064c682a86d3c2bdf976c4c56ef33e0dcdb9afbf20",
+  "github_verified_at": "2026-10-20T12:55:13Z",
+  "npm_inventory_verified_at": "2026-10-20T12:45:20.920550Z",
+  "npm_downloads_verified_at": "2026-10-20T13:06:10.175541Z",
+  "crates_io_verified_at": "2026-10-20T13:06:16.508334Z",
+  "public_repository_ids": 227,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-10-06",
+    "end": "2026-10-19",
+    "complete_days": 14
+  },
+  "traffic_coverage": {
+    "repositories": 227,
+    "clone_days": 14,
+    "view_days": 14,
+    "missing_cells": 0,
+    "observed_since": "2026-09-25"
+  },
+  "npm_coverage": {
+    "packages": 401,
+    "responses": 401,
+    "confirmed_daily_dates": 9,
+    "unknown_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19"
+    ],
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 481
+  },
+  "release_coverage": {
+    "releases": 2384,
+    "assets": 672,
+    "repositories": 227
+  },
+  "registry_collector": "scripts/refresh-registry-metrics.py",
+  "registry_collector_sha256": "730927ba5452957f960ca3d19d6a5503a731b3a6424bbf9ed29b6d2561fb04f1",
+  "snapshot_aggregator": "scripts/update-ecosystem-snapshot.py",
+  "snapshot_aggregator_sha256": "6f457038b7532efceef09ae5ed9857ddf4e0619e5bc5ade94702b31245dff5ad",
+  "actions_runs": null,
+  "actions_blocker": "GitHub API caps complete run enumeration at 1,000 results/query.",
+  "npm_zero_day_policy": "All-package zero responses are unknown pending confirmation/backfill.",
+  "source_version": "ruvnet ecosystem metrics snapshot v1; public-only",
+  "post_collection_null_handling_updates": {
+    "registry_collector_sha256": "c0a580ebfff6d00e89dc3054789d9b1a1342177b005f3e0eae82666b3cb8d29f",
+    "snapshot_aggregator_sha256": "514171d85b95c99ffddbd4276d65e6e4fc6ed25fa32ebdd4ef646c7f53ef2377",
+    "test_sha256": "00fa4141e891bccf0608d86275a63dc9a409428a83954a10b3a733442081e341"
+  }
+}

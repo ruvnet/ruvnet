@@ -115,6 +115,41 @@ assert.equal(milestone.combined_observed, periodTotal+crates.cumulative_download
 assert.equal(milestone.npm_reported_through, npm.period_end);
 assert.equal(milestone.npm_verified_at, npm.downloads_verified_at);
 assert.equal(milestone.crates_io_verified_at, crates.verified_at);
+assert.equal(milestone.remaining, Math.max(0, milestone.target - milestone.combined_observed));
+if (npm.downloads_evidence_path) {
+  const receipt = json(npm.downloads_evidence_path);
+  const latest = receipt.daily_totals.find(row => row.day === receipt.reported_through);
+  const internalZeroDays = receipt.daily_totals.filter(row => row.day <= receipt.reported_through && (row.downloads === 0 || row.provider_reported_downloads === 0)).map(row => row.day);
+  assert.deepEqual(milestone.internal_all_zero_cohort_days, internalZeroDays, 'Unknown provider-zero dates must remain disclosed');
+  assert.ok(readme.includes(`${internalZeroDays.length} internal all zero cohort days`), 'README must disclose unknown internal dates');
+  const published = running.npm.latest_confirmed_daily;
+  assert.equal(published.day, latest.day, 'Stale latest npm day');
+  assert.equal(published.downloads, latest.downloads, 'Stale latest npm daily count');
+  assert.equal(published.collected_packages, receipt.packages.length);
+  assert.equal(published.expected_packages, npm.package_count);
+  assert.equal(published.verified_at, receipt.retrieved_at);
+  assert.equal(published.source, receipt.source);
+  assert.equal(published.rolling_24_hours, false);
+  assert.equal(metrics.current_windows.npm_latest_confirmed_daily_day, published.day);
+  assert.equal(metrics.current_windows.npm_latest_confirmed_daily_downloads, published.downloads);
+  assert.equal(metrics.current_windows.npm_latest_confirmed_daily_package_count, published.collected_packages);
+  assert.equal(metrics.current_windows.npm_latest_daily_is_rolling_24h, false);
+  assert.deepEqual(running.npm.errors, receipt.unavailable_packages || []);
+  assert.equal(running.validation.npm_unavailable_packages, running.npm.errors.length);
+  assert.equal(running.validation.npm_download_package_coverage_complete,
+    receipt.packages.length === npm.package_count);
+  const coverage = `${receipt.packages.length} of ${npm.package_count}`;
+  assert.ok(running.npm.status.includes(coverage));
+  assert.ok(milestone.status.includes(coverage));
+  const ledger = json('data/ecosystem-daily-ledger.json');
+  const provisional = new Set(receipt.trailing_all_zero_days_excluded);
+  const cohort = new Set(receipt.packages.map(row => row.package));
+  for (const [key, value] of Object.entries(ledger.values)) {
+    const [provider, name, metric, day] = key.split('|');
+    if (provider === 'npm' && metric === 'downloads' && cohort.has(name) && provisional.has(day))
+      assert.equal(value, null, `Provisional npm day must be unknown: ${key}`);
+  }
+}
 const newProjects = json('data/snapshots/2026-10-02/new-projects.json').repositories;
 assert.equal(newProjects.length, 6);
 const projects = json('data/projects.json').projects;

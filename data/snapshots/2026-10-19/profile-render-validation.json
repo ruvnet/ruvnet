@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "task": "profile-visual-refresh",
+  "validated_at": "2026-10-19T12:46:42.147514+00:00",
+  "base_commit": "5f680ae8b0a1d0e933447a2239e734b80a3f9bbe",
+  "registry_workflow": "https://github.com/ruvnet/ruvnet/actions/runs/39204667519",
+  "collection": "Reused published canonical snapshots; no API recount",
+  "source_dates": {
+    "github": "2026-10-17T12:40:14+00:00",
+    "npm": "2026-10-19T05:47:45.100431Z",
+    "crates_io": "2026-10-19T05:47:50.715620Z"
+  },
+  "inputs": [
+    {
+      "path": "data/snapshots/2026-10-19/npm-downloads.json",
+      "sha256": "9a669c073c5af8b99e2ab0132928b70696e5c2d7d601656ea11318f4e85260c2"
+    },
+    {
+      "path": "data/snapshots/2026-10-19/npm-inventory.json",
+      "sha256": "69fd496ea87d7c4789dd74b4e9ece2bb3a7cfbf078b4b5a04074c8b5597b3681"
+    },
+    {
+      "path": "data/snapshots/2026-10-19/crates-inventory.json",
+      "sha256": "8cc52fc8440d1d9bde980fe56aea8f0b74c17bff18f324eaeb6b3d55eb1baf22"
+    },
+    {
+      "path": "data/snapshots/2026-10-17/github-inventory.json",
+      "sha256": "646abddcc2c82f440b4a643a2f2cef8a49370e735074c45c3a4bce3ebe52ef9b"
+    },
+    {
+      "path": "data/proof-2026-10-02.json",
+      "sha256": "9ef1ac411879cd6a4e55b6bdcb625d759c351a293bbeca7b9074c2eefb3d657e"
+    }
+  ],
+  "measurements": {
+    "combined_observed": 99802370,
+    "remaining": 197630,
+    "latest_npm_day": {
+      "verified_at": "2026-10-19T05:47:45.100431Z",
+      "day": "2026-10-17",
+      "downloads": 415537,
+      "expected_packages": 401,
+      "collected_packages": 401,
+      "period_type": "UTC calendar day",
+      "rolling_24_hours": false,
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-18/{urlencoded_package}",
+      "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
+    },
+    "provisional_dates": [
+      "2026-10-18"
+    ]
+  },
+  "checks": {
+    "verify_profile": "PASS",
+    "python_tests": 15,
+    "svg_xml_files": 52,
+    "svg_reduced_motion_rules": 52,
+    "local_links": 72,
+    "frozen_proof_files": 6,
+    "source_receipts": 21,
+    "renderer_replay_files_identical": 55,
+    "browser_animation_validation": false,
+    "git_diff_check": "PASS"
+  },
+  "publication": {
+    "target": "isolated repair PR",
+    "shared_main_write": "deferred: exclusive resource ownership not established",
+    "github_refresh": "retained canonical October 17 inventory pending metrics owner"
+  },
+  "baseline_failures_reproduced": [
+    "stale latest daily summary",
+    "provisional trailing ledger dates stored as zero"
+  ],
+  "notes": [
+    "All SVGs regenerated unchanged; no empty SVG edits.",
+    "No frozen source snapshots or proof hashes rewritten.",
+    "October 18 remains unknown; internal all-zero days retain provider reporting caveats."
+  ]
+}

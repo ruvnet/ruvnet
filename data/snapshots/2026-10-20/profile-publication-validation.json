@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-10-20T13:32:54.567346+00:00",
+  "main_base_sha": "bfda41a96332b7272a6f8ae6ab327c830fdb1567",
+  "collector_head_sha": "965bbf9e35d1f8ea2cd0709666e22e0545011a48",
+  "combined_observed": 100306978,
+  "npm_period_start": "2025-10-01",
+  "npm_reported_through": "2026-10-18",
+  "npm_cohort": 401,
+  "crates_cohort": 481,
+  "checks": {
+    "python_tests": 15,
+    "profile_verifier": "PASS",
+    "complete_package_receipt_reconciliation": "PASS",
+    "renderer_replay": "byte-identical",
+    "svg_xml": "PASS",
+    "diff_check": "PASS"
+  },
+  "corrections": [
+    "Regenerate dashboard after Oct20 GitHub source update",
+    "Preserve ten unknown internal provider-zero dates after null normalization"
+  ],
+  "limits": [
+    "Registry response hashes and published summaries reconciled; full401-package recount not independently repeated",
+    "SVG XML and renderer replay checked; browser animation playback not tested"
+  ],
+  "script_sha256": {
+    "scripts/render-github-metrics.py": "6def3b781cec13a096bec65a4dec02365aa71e189e91f8019087ed14b5d04f81",
+    "scripts/verify-profile.mjs": "a19fbdd4cb892b29a7b130162098b5d89a4cb83ee32b5339aabdabf0ffe6385f",
+    "scripts/refresh-registry-metrics.py": "cbbd78e9c7bd38528a9069127b084c487bb92e1239c10d86e45ae9af72bf3568",
+    "scripts/render-registry-metrics.mjs": "8ea627904637663232e89cf092938e5f5abde3bf0bed27afc416e738698fd165",
+    "scripts/render-constellation.py": "270308e18edd7597ffb85257521aa5e6c19fbcc364393ba029d3235b1719cbf8",
+    "scripts/render-visual-profile.py": "71f39242ca3119381c6a899bdac6ec7e1661cbc2f5ba4a7a3dc1d8b0c8c955cd",
+    "scripts/update-ecosystem-snapshot.py": "0eca0e6ad58e8880231b5b098cc996b76c879409a3c290fe1207e49ccb306e69"
+  }
+}
