@@ -106,7 +106,7 @@ class RegistryRefreshTest(unittest.TestCase):
                 refresh.update_running_totals(registry,evidence)
                 self.assertEqual(first,(root/'data/ecosystem-running-totals.json').read_bytes())
             m=json.loads(first)['download_milestone']
-            expected=sum(row['downloads'] for row in evidence['daily_totals'] if row['day']<=evidence['reported_through'])
+            expected=sum((row.get('downloads') or 0) for row in evidence['daily_totals'] if row['day']<=evidence['reported_through'])
             self.assertEqual(m['combined_observed'],expected+registry['crates_io']['cumulative_downloads'])
             self.assertEqual(m['npm_verified_at'],registry['npm']['downloads_verified_at'])
             self.assertEqual(m['remaining'],max(0,m['target']-m['combined_observed']))

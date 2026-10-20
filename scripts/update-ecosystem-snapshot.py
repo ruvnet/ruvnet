@@ -141,12 +141,14 @@ def main():
     npm_path = registry['npm']['downloads_evidence_path']
     npm_receipt = read(npm_path)
     crates = registry['crates_io']
-    npm_total = sum(x['downloads'] for x in npm_receipt['daily_totals'] if x['day'] <= npm_receipt['reported_through'])
+    npm_total = sum(x['downloads'] for x in npm_receipt['daily_totals'] if x['day'] <= npm_receipt['reported_through'] and isinstance(x.get('downloads'), int))
     combined = npm_total + crates['cumulative_downloads']
     remaining = max(0, 100_000_000 - combined)
     internal_zero = [x['day'] for x in npm_receipt['daily_totals'] if x['day'] <= npm_receipt['reported_through'] and x['downloads'] == 0]
+    unknown_npm_days = sorted(set(npm_receipt.get('provisional_zero_days', [])) | {
+        x['day'] for x in npm_receipt['daily_totals'] if x.get('downloads') is None})
     ledger = read('data/ecosystem-daily-ledger.json')
-    for trailing_day in npm_receipt.get('trailing_all_zero_days_excluded', []):
+    for trailing_day in unknown_npm_days:
         for key in list(ledger['values']):
             if key.startswith('npm|') and key.endswith('|' + trailing_day):
                 ledger['values'][key] = None
@@ -168,7 +170,7 @@ def main():
     daily = dict(sorted(daily.items()))
     coverage_counts = {d: len(v) for d, v in sorted(coverage.items())}
     expected = [(dt.date.fromisoformat(window_start) + dt.timedelta(days=i)).isoformat() for i in range(14)]
-    missing_days = [d for d in expected if d not in daily]
+    missing_days = [d for d in expected if coverage_counts.get(d, 0) != registry['npm']['package_count']]
     npm_errors = ledger.get('coverage', {}).get('errors', [])
     if npm_errors:
         npm_gap_sentence = (
@@ -194,13 +196,15 @@ def main():
             'errors': npm_errors,
             'daily': daily, 'daily_package_coverage': coverage_counts,
             'missing_days': missing_days,
-            'status': ('complete API responses for collected cohort; '
-                       f"{registry['npm']['download_package_count']} of {registry['npm']['package_count']} "
-                       'inventory packages collected; provider latency may remain'),
+            'status': (f"{registry['npm']['download_package_count']} of {registry['npm']['package_count']} "
+                       'inventory packages collected; all-package-zero dates are unknown (null), '
+                       'not verified zero; provider latency may remain'),
             'all_zero_cohort_days': [d for d, value in daily.items() if value == 0],
             'latest_confirmed_daily': registry_refresh.latest_daily_summary(registry['npm'], npm_receipt),
-            'provisional_days': npm_receipt['trailing_all_zero_days_excluded'],
-            'note': 'Observed download events in stored package/date cells. Not lifetime downloads. Recent provider zero days may be provisional.',
+            'provisional_days': sorted(set(missing_days) & set(unknown_npm_days)),
+            'confirmed_days': len(expected) - len(missing_days),
+            'unknown_days': missing_days,
+            'note': 'Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads.',
         },
         crates_io={'crate_count': crates['crate_count'], 'cumulative_downloads': crates['cumulative_downloads'], 'verified_at': crates['verified_at'], 'source': 'https://crates.io/api/v1/crates?user_id=339999'},
         release_assets=release_stats,
@@ -349,7 +353,7 @@ Across the complete 14-day UTC window, GitHub reported {number(current['traffic'
 
 ## npm downloads
 
-Observed {number(running['npm']['observed_downloads'])} downloads across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. Range responses are complete for the collected cohort. {npm_gap_sentence} The trailing zero-only date(s) {', '.join(missing_days) if missing_days else 'none'} are provisional and excluded from totals. This window is not a lifetime count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
+Confirmed daily-event sum: {number(running['npm']['observed_downloads'])} across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. {npm_gap_sentence} All-package-zero days {', '.join(missing_days) if missing_days else 'none'} are unknown (null), not zero, and excluded from the sum. This is not a lifetime or rolling-24-hour count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
 
 ## Coverage and gaps
 

@@ -138,6 +138,7 @@ def summarize_ranges(results, start, end):
     for result in results:
         for point in validate_range(result['package'], result['body'], start, end):
             daily[point['day']] += point['downloads']
+    all_zero_days = [day for day, value in daily.items() if value == 0]
     positive_days = [day for day, value in daily.items() if value > 0]
     if not positive_days:
         raise ValueError('No positive cohort day; retain the previous verified snapshot')
@@ -172,7 +173,14 @@ def summarize_ranges(results, start, end):
         'trailing_all_zero_days_excluded': [day for day in sorted(daily) if day > through],
         'package_count': len(packages),
         'rolling_start': rolling_start, 'rolling_end': through,
-        'daily_totals': [{'day': day, 'downloads': value} for day, value in sorted(daily.items())],
+        'daily_totals': [
+            {'day': day, 'downloads': None if value == 0 else value,
+             **({'provider_reported_downloads': 0,
+                 'status': 'unknown: all-package zero response pending confirmation/backfill'}
+                if value == 0 else {})}
+            for day, value in sorted(daily.items())],
+        'all_zero_cohort_days': all_zero_days,
+        'provisional_zero_days': all_zero_days,
         'packages': sorted(packages, key=lambda row: row['package']),
     }
     return evidence, dict(sorted(monthly.items()))
@@ -192,6 +200,11 @@ def update_daily_ledger(results, today, verified, expected_packages=None, errors
     ledger = json.loads(ledger_path.read_text())
     values = ledger.setdefault('values', {})
     provenance = ledger.setdefault('package_provenance', {})
+    cohort_totals = defaultdict(int)
+    for result in results:
+        for point in result['body']['downloads']:
+            cohort_totals[point['day']] += point['downloads']
+    all_zero_days = {day for day, value in cohort_totals.items() if value == 0}
     reported_through = max((point['day'] for result in results
                             for point in result['body']['downloads']
                             if point['downloads'] > 0), default=None)
@@ -201,7 +214,8 @@ def update_daily_ledger(results, today, verified, expected_packages=None, errors
         for point in points:
             if start <= point['day'] <= end:
                 values[f"npm|{package}|downloads|{point['day']}"] = (
-                    point['downloads'] if reported_through and point['day'] <= reported_through else None)
+                    point['downloads'] if (reported_through and point['day'] <= reported_through
+                                           and point['day'] not in all_zero_days) else None)
         provenance[package] = {
             'source': result['receipt']['source'],
             'retrieved_at': result['receipt']['retrieved_at'],
@@ -215,8 +229,12 @@ def update_daily_ledger(results, today, verified, expected_packages=None, errors
         'collected_packages': len(results),
         'errors': errors or [],
     }
+    ledger['coverage']['unknown_npm_dates'] = sorted(set(
+        ledger['coverage'].get('unknown_npm_dates', [])) | all_zero_days)
+    ledger['coverage']['unknown_reason'] = (
+        'All-package-zero npm dates are unknown pending provider confirmation/backfill.')
     ledger['interpretation'] = ('Observed download events in stored package/date cells. '
-                                'Not lifetime downloads. Recent provider zero days may be provisional.')
+                                'Unknown cohort-wide zero dates are null, not zero; not lifetime downloads.')
     save('data/ecosystem-daily-ledger.json', ledger)
 
 
@@ -242,7 +260,11 @@ def update_running_totals(registry, evidence):
     running = json.loads(path.read_text())
     npm, crates = registry['npm'], registry['crates_io']
     total = sum(row['downloads'] for row in evidence['daily_totals']
-                if row['day'] <= evidence['reported_through'])
+                if row['day'] <= evidence['reported_through']
+                and isinstance(row.get('downloads'), int))
+    unknown_days = [row['day'] for row in evidence['daily_totals']
+                    if row['day'] <= evidence['reported_through']
+                    and row.get('downloads') is None]
     combined = total + crates['cumulative_downloads']
     milestone = running['download_milestone']
     cohort_label = f"{npm['download_package_count']} of {npm['package_count']}"
@@ -260,6 +282,7 @@ def update_running_totals(registry, evidence):
                 f'{cohort_label} inventory packages have download-range evidence'),
         internal_all_zero_cohort_days=[r['day'] for r in evidence['daily_totals']
             if r['day'] <= evidence['reported_through'] and r['downloads'] == 0],
+        unknown_npm_days=unknown_days,
         trailing_all_zero_days_excluded=evidence['trailing_all_zero_days_excluded'])
     running['crates_io'] = dict(crates)
     running['verified_at'] = max(running['verified_at'], registry['generated_at'])
@@ -283,10 +306,13 @@ def update_running_totals(registry, evidence):
         collected_packages=npm['download_package_count'], daily=dict(sorted(daily.items())),
         daily_package_coverage={day:len(coverage[day]) for day in expected}, missing_days=missing,
         all_zero_cohort_days=[day for day,value in daily.items() if value == 0],
-        provisional_days=evidence['trailing_all_zero_days_excluded'],
+        provisional_days=evidence.get('provisional_zero_days',
+                                      evidence['trailing_all_zero_days_excluded']),
         errors=evidence.get('unavailable_packages', []),
         status=(f'{cohort_label} inventory packages collected; '
-                'provisional trailing dates are unknown; provider reporting gaps may remain'),
+                'all-package-zero dates are unknown, not zero; provider reporting gaps may remain'),
+        confirmed_days=len(expected)-len(missing),
+        unknown_days=missing,
         latest_confirmed_daily=latest_daily_summary(npm, evidence))
     running['validation'].update(unique_daily_keys=len(ledger['values']),
         daily_total_reconciliation=True, download_milestone_reconciliation=True,
