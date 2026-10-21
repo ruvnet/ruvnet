@@ -186,6 +186,7 @@ def main():
     same_snapshot = prior.get('verified_at') == stamp
     running.update(
         verified_at=generated_at,
+        source_watermark=(read(f'{folder}/collection-watermark.json') if (ROOT / f'{folder}/collection-watermark.json').exists() else running.get('source_watermark')),
         github=collection,
         activity=activity,
         npm={
@@ -210,7 +211,7 @@ def main():
         release_assets=release_stats,
         actions=actions,
         traffic={
-            'observed_since': window_start,
+            'observed_since': min((k.rsplit('|', 1)[1] for k in ledger['values'] if k.startswith('github|') and ('|clones|' in k or '|views|' in k)), default=None),
             'through': window_end,
             'window_start': window_start,
             'window_end': window_end,
