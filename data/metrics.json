@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-21T13:03:28.510453Z",
+  "verified_at": "2026-10-22T12:31:50.556082Z",
   "counts": {
-    "github_public_repositories": 227,
-    "github_owned_public_nonfork_repositories": 200,
+    "github_public_repositories": 229,
+    "github_owned_public_nonfork_repositories": 202,
     "published_registry_and_huggingface_artifacts_minimum": 912,
     "rust_crates": 481,
     "npm_packages": 401,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 1932509,
+    "rust_crate_downloads_cumulative": 1940361,
     "github_public_forks": 27,
-    "github_followers": 11962,
-    "github_stars_owned_nonfork": 193767,
-    "github_aggregate_downstream_forks": 25694
+    "github_followers": 11988,
+    "github_stars_owned_nonfork": 194183,
+    "github_aggregate_downstream_forks": 25728
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
@@ -68,10 +68,10 @@
     "npm_14_day_is_rolling_24h": false
   },
   "verification_dates": {
-    "github": "2026-10-21T12:44:45+00:00",
-    "npm_inventory": "2026-10-21T12:42:47.792839Z",
-    "npm_downloads": "2026-10-21T13:03:22.162648Z",
-    "crates_io": "2026-10-21T13:03:28.509876Z",
+    "github": "2026-10-22T12:12:26+00:00",
+    "npm_inventory": "2026-10-22T12:11:10.467633Z",
+    "npm_downloads": "2026-10-22T12:31:44.337045Z",
+    "crates_io": "2026-10-22T12:31:50.555631Z",
     "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted"
   },
   "source_watermark": "data/snapshots/2026-10-20/collection-watermark.json"
