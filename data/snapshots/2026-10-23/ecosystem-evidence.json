@@ -1,0 +1,46 @@
+{
+  "verified_at": "2026-10-23T12:28:40.921103Z",
+  "window": {
+    "start": "2026-10-09",
+    "end": "2026-10-22",
+    "days": 14,
+    "current_utc_day_excluded": true
+  },
+  "sources": {
+    "github_inventory": "data/snapshots/2026-10-23/github-inventory.json",
+    "github_releases": "data/snapshots/2026-10-23/github-release-inventory.json",
+    "npm_inventory": "data/snapshots/2026-10-23/npm-inventory.json",
+    "npm_downloads": "data/snapshots/2026-10-23/npm-downloads.json",
+    "crates_io": "data/snapshots/2026-10-23/crates-inventory.json"
+  },
+  "coverage": {
+    "github_public_repositories": 229,
+    "github_pages": 3,
+    "release_complete_repositories": 229,
+    "npm_expected_packages": 401,
+    "npm_collected_packages": 401,
+    "actions_complete_repositories": null,
+    "actions_incomplete_repositories": null
+  },
+  "traffic": {
+    "status": "partial",
+    "clones": null,
+    "views": null,
+    "window_start": "2026-10-09",
+    "window_end": "2026-10-22",
+    "repo_coverage": {
+      "clones": 229,
+      "views": 229
+    },
+    "uniques": null,
+    "known_clone_events": 751700,
+    "known_view_events": 147653,
+    "source_cells_per_metric": 3202,
+    "expected_cells_per_metric": 3206,
+    "missing_cells_per_metric": 4,
+    "missing_days": [
+      "2026-10-22"
+    ],
+    "aggregation": "Canonical daily ledger for 14 complete UTC days; current-day rows excluded; exact aggregate is null when any non-precreation repository-day cell is missing."
+  }
+}

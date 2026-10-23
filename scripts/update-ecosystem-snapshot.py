@@ -217,8 +217,15 @@ def main():
             'window_end': window_end,
             'clone_events_last_14_complete_utc_days': current['traffic']['clones'],
             'view_events_last_14_complete_utc_days': current['traffic']['views'],
-            'clone_events_observed_since': sum(v for k, v in ledger['values'].items() if k.startswith('github|') and '|clones|' in k and k.rsplit('|', 1)[1] <= window_end),
-            'view_events_observed_since': sum(v for k, v in ledger['values'].items() if k.startswith('github|') and '|views|' in k and k.rsplit('|', 1)[1] <= window_end),
+            'known_clone_events_in_requested_window': current['traffic'].get('known_clone_events'),
+            'known_view_events_in_requested_window': current['traffic'].get('known_view_events'),
+            'coverage_status': current['traffic'].get('status'),
+            'expected_cells_per_metric': current['traffic'].get('expected_cells_per_metric'),
+            'source_cells_per_metric': current['traffic'].get('source_cells_per_metric'),
+            'missing_cells_per_metric': current['traffic'].get('missing_cells_per_metric'),
+            'missing_days': current['traffic'].get('missing_days', []),
+            'clone_events_observed_since': sum(v for k, v in ledger['values'].items() if k.startswith('github|') and '|clones|' in k and k.rsplit('|', 1)[1] <= window_end and isinstance(v, (int, float))),
+            'view_events_observed_since': sum(v for k, v in ledger['values'].items() if k.startswith('github|') and '|views|' in k and k.rsplit('|', 1)[1] <= window_end and isinstance(v, (int, float))),
             'repositories_with_clone_coverage': current['traffic']['repo_coverage']['clones'],
             'repositories_with_view_coverage': current['traffic']['repo_coverage']['views'],
             'unique_cloners_across_repositories': None,
@@ -267,6 +274,8 @@ def main():
         'download_milestone_reconciliation': combined == npm_total + crates['cumulative_downloads'],
         'release_asset_reconciliation': retained_downloads == sum(x['downloads'] for x in asset_ledger['assets'].values()),
         'unique_traffic_not_summed': current['traffic'].get('uniques') is None,
+        'traffic_missing_cells_recorded': current['traffic'].get('missing_cells_per_metric', 0) >= 0,
+        'traffic_exact_totals_null_when_incomplete': (current['traffic'].get('status') != 'partial' or (current['traffic'].get('clones') is None and current['traffic'].get('views') is None)),
         'all_sources_public': True,
         'npm_download_package_coverage_complete': (
             registry['npm']['download_package_count'] == registry['npm']['package_count']),
@@ -308,6 +317,14 @@ def main():
 
     start_label = dt.date.fromisoformat(window_start).strftime('%B %-d')
     end_label = dt.date.fromisoformat(window_end).strftime('%B %-d')
+    traffic_gap = current['traffic'].get('missing_cells_per_metric', 0)
+    if current['traffic'].get('status') == 'partial':
+        traffic_report = (f"The requested 14-day UTC window has Unknown exact clone and view totals because {traffic_gap} of {current['traffic'].get('expected_cells_per_metric')} repository-day cells per metric are missing. Known lower bounds are {number(current['traffic'].get('known_clone_events'))} clone events and {number(current['traffic'].get('known_view_events'))} view events across {current['traffic']['repo_coverage']['clones']} repositories. Unique cloners and visitors are retained per repository only and are not summed.")
+        traffic_coverage = (f"GitHub traffic was partially available through the owner-authorized ruOS interface. Missing dates: {', '.join(current['traffic'].get('missing_days', []))}; missing cells are null, never zero. The known lower bounds above cover {current['traffic'].get('source_cells_per_metric')} of {current['traffic'].get('expected_cells_per_metric')} expected repository-day cells per metric from {window_start} through {window_end} UTC.")
+    else:
+        traffic_report = (f"Across the complete 14-day UTC window, GitHub reported {number(current['traffic']['clones'])} clone events and {number(current['traffic']['views'])} view events for {current['traffic']['repo_coverage']['clones']} repositories. Unique cloners and visitors are retained per repository only and are not summed.")
+        traffic_coverage = (f"GitHub traffic was available through the owner-authorized ruOS interface. Across all repositories, clone events were {number(current['traffic']['clones'])} and view events were {number(current['traffic']['views'])} from {window_start} through {window_end} UTC. Per-repository unique counts are retained in the dated snapshot; they are not summed across repositories.")
+
     report = f'''# Ecosystem metrics
 
 Verified {day.strftime('%B %-d, %Y')}. Public repositories only. GitHub counts: {stamp}.
@@ -350,7 +367,7 @@ Workflow run counts are unknown. GitHub limits complete run enumeration to 1,000
 
 ## GitHub traffic
 
-Across the complete 14-day UTC window, GitHub reported {number(current['traffic']['clones'])} clone events and {number(current['traffic']['views'])} view events for {current['traffic']['repo_coverage']['clones']} repositories. Unique cloners and visitors are available per repository only and are not summed. The Oct 1–13 site-harness rows are known zeros because its public repository was created on Oct 14.
+{traffic_report}
 
 ## npm downloads
 
@@ -360,7 +377,7 @@ Confirmed daily-event sum: {number(running['npm']['observed_downloads'])} across
 
 All {repository_count} public repositories were enumerated, including {gh['public_forks']} forks and {inventory_summary['archived']} archived repositories. Repository subscriptions and release pagination are complete. Open public issues and PRs are {number(open_items['open_issues']['count'])} and {number(open_items['open_prs']['count'])}. Indexed search can differ from repository metadata because sources are not an atomic snapshot. Open issues and PR counts are separate search estimates; the cohort row reports GitHub's combined open_issues_count.
 
-GitHub traffic was available through the owner-authorized ruOS interface. Across all repositories, clone events were {number(current['traffic']['clones'])} and view events were {number(current['traffic']['views'])} from {window_start} through {window_end} UTC. Per-repository unique counts are retained in the dated snapshot; they are not summed across repositories. Commits and contributors were not refreshed.
+{traffic_coverage} Commits and contributors were not refreshed.
 
 ## Running totals and verification
 
