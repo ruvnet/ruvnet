@@ -1,0 +1,4175 @@
+{
+  "discoveryOnly": true,
+  "entries": [
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/Agent-Name-Service/pull/5",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/package.json"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Verify Ed25519 identity bindings with pinned issuer and expiry.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "0565783df31da2d98729c27f02551f49478b8393",
+                "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md"
+              }
+            ],
+            "id": "agent-identity",
+            "status": "documented"
+          },
+          {
+            "description": "Store names and revocations in a bounded SQLite registry.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "0565783df31da2d98729c27f02551f49478b8393",
+                "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md"
+              }
+            ],
+            "id": "local-registry",
+            "status": "documented"
+          },
+          {
+            "description": "Verify audience bound subject proofs against single use challenges.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "0565783df31da2d98729c27f02551f49478b8393",
+                "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md"
+              }
+            ],
+            "id": "challenge-proof",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/agent-name-service/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "Agent-Name-Service",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "0565783df31da2d98729c27f02551f49478b8393"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/Agent-Name-Service",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Local agent identity library with bounded signatures, registry and challenge verification."
+      },
+      "path": "data/ruv/manifests/agent-name-service.ruv",
+      "sha256": "e8f7bc9fa8f33cd94d1a234db30d39c4c7a8feeb08c58f5f10c46f2488621796"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/AgentBBS/pull/20",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/AgentBBS/blob/9f2dd89f50f0a56b439b94b60817eeac6a71cf0f/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/AgentBBS/blob/9f2dd89f50f0a56b439b94b60817eeac6a71cf0f/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Expose shared message boards through web, SSH and MCP interfaces.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "9f2dd89f50f0a56b439b94b60817eeac6a71cf0f",
+                "url": "https://github.com/ruvnet/AgentBBS/blob/9f2dd89f50f0a56b439b94b60817eeac6a71cf0f/README.md"
+              }
+            ],
+            "id": "community-interface",
+            "status": "documented"
+          },
+          {
+            "description": "Provide signed content and federation envelope components.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "9f2dd89f50f0a56b439b94b60817eeac6a71cf0f",
+                "url": "https://github.com/ruvnet/AgentBBS/blob/9f2dd89f50f0a56b439b94b60817eeac6a71cf0f/README.md"
+              }
+            ],
+            "id": "signed-federation",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "AgentBBS",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "9f2dd89f50f0a56b439b94b60817eeac6a71cf0f"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/AgentBBS",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Shared collaboration surfaces for humans and agents with signed messages and federation components."
+      },
+      "path": "data/ruv/manifests/agentbbs.ruv",
+      "sha256": "83f3232895cf62281b56d67d8a15dec4c10904f51b37cba39f685fe2ca4d01e6"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/agentdb/pull/30",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/agentdb/blob/6cdefe451f6afe7395bc88d3587a0225d161089b/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/agentdb/blob/6cdefe451f6afe7395bc88d3587a0225d161089b/package.json"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Vector memory and indexes in portable RVF containers.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+                "url": "https://github.com/ruvnet/agentdb/blob/6cdefe451f6afe7395bc88d3587a0225d161089b/README.md"
+              }
+            ],
+            "id": "vector-memory",
+            "status": "documented"
+          },
+          {
+            "description": "Use recorded retrieval feedback to adapt ranking.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+                "url": "https://github.com/ruvnet/agentdb/blob/6cdefe451f6afe7395bc88d3587a0225d161089b/README.md"
+              }
+            ],
+            "id": "feedback-learning",
+            "status": "documented"
+          },
+          {
+            "description": "Documented episodic memory, skill library and causal reasoning.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+                "url": "https://github.com/ruvnet/agentdb/blob/6cdefe451f6afe7395bc88d3587a0225d161089b/README.md"
+              }
+            ],
+            "id": "episodic-memory",
+            "status": "documented"
+          },
+          {
+            "description": "Expose memory and learning through an MCP server.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+                "url": "https://github.com/ruvnet/agentdb/blob/6cdefe451f6afe7395bc88d3587a0225d161089b/README.md"
+              }
+            ],
+            "id": "mcp-memory",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/agentdb/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "agentdb",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:45.138301Z",
+          "sourceCommit": "6cdefe451f6afe7395bc88d3587a0225d161089b"
+        },
+        "relationships": [
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "6cdefe451f6afe7395bc88d3587a0225d161089b",
+                "url": "https://github.com/ruvnet/agentdb/blob/6cdefe451f6afe7395bc88d3587a0225d161089b/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "type": "references"
+          }
+        ],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/agentdb",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Vector memory and indexes in portable RVF containers. Use recorded retrieval feedback to adapt ranking. Boundaries: Inventory is source/documentation inspection only; no runtime, release, performance or security validation was performed. Nested packages and scoped instructions are not exhaustively inventoried."
+      },
+      "path": "data/ruv/manifests/agentdb.ruv",
+      "sha256": "ef4576df09dd08d9b1e80cdeebfa76cd3be48c3349114600b82fb51737631a0a"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/agentic-flow/pull/240",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/package.json"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Route tasks to specialized agents through CLI and library APIs.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69",
+                "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/README.md"
+              }
+            ],
+            "id": "agent-routing",
+            "status": "documented"
+          },
+          {
+            "description": "Capture and reuse project learning through hooks.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69",
+                "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/README.md"
+              }
+            ],
+            "id": "learning-hooks",
+            "status": "documented"
+          },
+          {
+            "description": "Expose agent coordination and memory tools through MCP.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69",
+                "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/README.md"
+              }
+            ],
+            "id": "mcp-tools",
+            "status": "documented"
+          },
+          {
+            "description": "Dispatch bounded background workers for selected tasks.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69",
+                "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/README.md"
+              }
+            ],
+            "id": "background-workers",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/agentic-flow/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "agentic-flow",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.777303Z",
+          "sourceCommit": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69"
+        },
+        "relationships": [
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69",
+                "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "type": "references"
+          },
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "a2f6c1cfa709ba896f296d8d4f7804d379ed1a69",
+                "url": "https://github.com/ruvnet/agentic-flow/blob/a2f6c1cfa709ba896f296d8d4f7804d379ed1a69/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/agentdb/resources/manifest.ruv",
+            "type": "references"
+          }
+        ],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/agentic-flow",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Route tasks to specialized agents through CLI and library APIs. Capture and reuse project learning through hooks. Boundaries: Inventory is source/documentation inspection only; no runtime, release, performance or security validation was performed. Nested packages and scoped instructions are not exhaustively inventoried."
+      },
+      "path": "data/ruv/manifests/agentic-flow.ruv",
+      "sha256": "7483b928ebcf55a25a7eb0a0d769768767a9d8c455ce7424643026d0663c3d45"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/agents-of-the-dawm/pull/3",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/agents-of-the-dawm/blob/ffdf270c94d50af8c0057f96268d9d6ef2b2484c/README.md"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Publish the proposed Floodline vertical slice and design decisions.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "ffdf270c94d50af8c0057f96268d9d6ef2b2484c",
+                "url": "https://github.com/ruvnet/agents-of-the-dawm/blob/ffdf270c94d50af8c0057f96268d9d6ef2b2484c/README.md"
+              }
+            ],
+            "id": "game-design",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/agents-of-the-dawm/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "agents-of-the-dawm",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "ffdf270c94d50af8c0057f96268d9d6ef2b2484c"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/agents-of-the-dawm",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Design proposal for an original browser game; no playable implementation."
+      },
+      "path": "data/ruv/manifests/agents-of-the-dawm.ruv",
+      "sha256": "9c88be816203915c31f487b328856a21c05d76849ccce8bfdd6fe1309dc9d9ee"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/APx/pull/1",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/package.json"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Calculate accepted work relative to measured human reference and complete elapsed time.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "4fb3093329c0839ad95a3033ec2553513c3351ea",
+                "url": "https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/README.md"
+              }
+            ],
+            "id": "productivity-scoring",
+            "status": "documented"
+          },
+          {
+            "description": "Record quality, cost, safety and human supervision within an explicit evaluation boundary.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "4fb3093329c0839ad95a3033ec2553513c3351ea",
+                "url": "https://github.com/ruvnet/APx/blob/4fb3093329c0839ad95a3033ec2553513c3351ea/README.md"
+              }
+            ],
+            "id": "benchmark-contract",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/apx/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "APx",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "4fb3093329c0839ad95a3033ec2553513c3351ea"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/APx",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Agentic productivity measurement specification and scoring harness; tutorial baselines are synthetic."
+      },
+      "path": "data/ruv/manifests/apx.ruv",
+      "sha256": "23b335f8bbb0c91697914816c139c733a38b50d0fbcc37580a7350b772159567"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/autogenous/pull/18",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Declare scope, authority, invariants, evidence and rollback through typed mutations.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+                "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md"
+              }
+            ],
+            "id": "typed-mutations",
+            "status": "documented"
+          },
+          {
+            "description": "Deterministic admission verdicts and policy constraints.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+                "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md"
+              }
+            ],
+            "id": "admission-verification",
+            "status": "documented"
+          },
+          {
+            "description": "Content-bound evaluation and staged signed promotion with rollback.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+                "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md"
+              }
+            ],
+            "id": "signed-promotion",
+            "status": "documented"
+          },
+          {
+            "description": "Observe chunks and SSE with bounded detectors and structured incident evidence.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+                "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md"
+              }
+            ],
+            "id": "stream-observation",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "autogenous",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.787125Z",
+          "sourceCommit": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/autogenous",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Declare scope, authority, invariants, evidence and rollback through typed mutations. Deterministic admission verdicts and policy constraints. Boundaries: Research prototype; deployment/runtime claims are documentation claims until independently exercised. README Honest status explicitly says the control-plane prototype is not wired to live MidStream, MetaHarness, RVF or RVM; adapter integration remains a next phase."
+      },
+      "path": "data/ruv/manifests/autogenous.ruv",
+      "sha256": "359381981e1e65d4259dc492965e7c792767f7f28b79995887d3f9705f1bb13e"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/daa/pull/5",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Documented monitoring, reasoning, action and reflection orchestration loop.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+                "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md"
+              }
+            ],
+            "id": "agent-orchestration",
+            "status": "documented"
+          },
+          {
+            "description": "Rule-based decisions and audit trails.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+                "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md"
+              }
+            ],
+            "id": "rules-governance",
+            "status": "documented"
+          },
+          {
+            "description": "Documented Prime distributed training integration.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+                "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md"
+              }
+            ],
+            "id": "distributed-ml",
+            "status": "documented"
+          },
+          {
+            "description": "Documented resource-management economy modules.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+                "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md"
+              }
+            ],
+            "id": "resource-economy",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/daa/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "daa",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:47.932391Z",
+          "sourceCommit": "ca4e3a3c7e962098152f018a123db2bf67cf5d46"
+        },
+        "relationships": [
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+                "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "type": "references"
+          }
+        ],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/daa",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Documented monitoring, reasoning, action and reflection orchestration loop. Rule-based decisions and audit trails. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README production, cryptography and performance descriptions are unverified documentation claims. Root workspace repository metadata points to daa-hq/daa-sdk despite observed canonical GitHub repository ruvnet/daa."
+      },
+      "path": "data/ruv/manifests/daa.ruv",
+      "sha256": "2af40df4966e64e7318d7e679b1c459774e0fcf56ca67234bc935cfc2243e63c"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/dream-machine/pull/163",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/package.json"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Compile configuration into a repository research and evolution workflow.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "5707c825b2c065de44abed02594e1abf5eab95ea",
+                "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md"
+              }
+            ],
+            "id": "evolution-config",
+            "status": "documented"
+          },
+          {
+            "description": "Measure hypotheses against repository evaluators and retain outcomes.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "5707c825b2c065de44abed02594e1abf5eab95ea",
+                "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md"
+              }
+            ],
+            "id": "evidence-evaluation",
+            "status": "documented"
+          },
+          {
+            "description": "Separate evaluation and proposals from human merge authority.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "5707c825b2c065de44abed02594e1abf5eab95ea",
+                "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md"
+              }
+            ],
+            "id": "human-promotion-gate",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "dream-machine",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:45.162552Z",
+          "sourceCommit": "5707c825b2c065de44abed02594e1abf5eab95ea"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/dream-machine",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Compile configuration into a repository research and evolution workflow. Measure hypotheses against repository evaluators and retain outcomes. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README composition table and package list explicitly say RuVector is an availability probe only, retrieval is flat keyword scoring, and the real RVF adapter is pending."
+      },
+      "path": "data/ruv/manifests/dream-machine.ruv",
+      "sha256": "f6547d740757ca4b0856f52560cc277505dc37b59b4540cb37a491aa2fe4c555"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/helix/pull/9",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Trace health evidence to its sources.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "e8d8fe780becff4d95008e052742e5c3b0ad3b5c",
+                "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/README.md"
+              }
+            ],
+            "id": "health-provenance",
+            "status": "documented"
+          },
+          {
+            "description": "Organize longitudinal personal health knowledge locally.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "e8d8fe780becff4d95008e052742e5c3b0ad3b5c",
+                "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/README.md"
+              }
+            ],
+            "id": "health-knowledge",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/helix/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "helix",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "e8d8fe780becff4d95008e052742e5c3b0ad3b5c"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/helix",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Personal health intelligence research with local provenance and evidence handling; not a medical device."
+      },
+      "path": "data/ruv/manifests/helix.ruv",
+      "sha256": "57ed1556e62c1b3b6fe4e76fced30bf60bd1aad17190f88272d69343c8a86529"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/LatentMesh/pull/31",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Compact semantic delta envelopes for bandwidth-constrained links.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+                "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md"
+              }
+            ],
+            "id": "semantic-envelopes",
+            "status": "documented"
+          },
+          {
+            "description": "Queue messages and forward after connectivity resumes.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+                "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md"
+              }
+            ],
+            "id": "disconnected-messaging",
+            "status": "documented"
+          },
+          {
+            "description": "Documented checksum, signature, replay and reassembly validation.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+                "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md"
+              }
+            ],
+            "id": "message-validation",
+            "status": "documented"
+          },
+          {
+            "description": "Portable allocation-free C core and simulated radio transport.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "df9270799a1391925c1840a1845a6d169aaa2d93",
+                "url": "https://github.com/ruvnet/LatentMesh/blob/df9270799a1391925c1840a1845a6d169aaa2d93/README.md"
+              }
+            ],
+            "id": "portable-radio-core",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/latentmesh/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "LatentMesh",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:45.103116Z",
+          "sourceCommit": "df9270799a1391925c1840a1845a6d169aaa2d93"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/LatentMesh",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Compact semantic delta envelopes for bandwidth-constrained links. Queue messages and forward after connectivity resumes. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Research prototype; the README quickstart uses simulated transport and does not establish live radio operation in this mission."
+      },
+      "path": "data/ruv/manifests/latentmesh.ruv",
+      "sha256": "24ec481242795c2a3dc9a6849ca7286c38b7bf002b948b38acacc7a4b9541c6b"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/mcp-studio/pull/1",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/package.json"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Expose documented tools, resources and prompts through the shared MCP server.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+                "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md"
+              }
+            ],
+            "id": "mcp-reference",
+            "status": "documented"
+          },
+          {
+            "description": "Provide a bundled MCP Apps widget and browser playground.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "1de79b28e679ea39937df54586cc9bdcffdf4cdc",
+                "url": "https://github.com/ruvnet/mcp-studio/blob/1de79b28e679ea39937df54586cc9bdcffdf4cdc/README.md"
+              }
+            ],
+            "id": "embedded-interface",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/mcp-studio/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "mcp-studio",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "1de79b28e679ea39937df54586cc9bdcffdf4cdc"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/mcp-studio",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Web based MCP reference server and embedded application workbench."
+      },
+      "path": "data/ruv/manifests/mcp-studio.ruv",
+      "sha256": "d903877a6faaed03b6e61dac0b1fb0fa61a2d019c48f292fb9173605ebe67431"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/metaharness/pull/388",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/metaharness/blob/e0dfd44da72b7adfb7c57fdd42d124be58ed7086/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/metaharness/blob/e0dfd44da72b7adfb7c57fdd42d124be58ed7086/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/metaharness/blob/e0dfd44da72b7adfb7c57fdd42d124be58ed7086/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Generate repository-aware CLI, agent and MCP harnesses from a repository or project specification.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "e0dfd44da72b7adfb7c57fdd42d124be58ed7086",
+                "url": "https://github.com/ruvnet/metaharness/blob/e0dfd44da72b7adfb7c57fdd42d124be58ed7086/README.md"
+              }
+            ],
+            "id": "harness-generation",
+            "status": "documented"
+          },
+          {
+            "description": "Generated tool policy and governance interfaces.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "e0dfd44da72b7adfb7c57fdd42d124be58ed7086",
+                "url": "https://github.com/ruvnet/metaharness/blob/e0dfd44da72b7adfb7c57fdd42d124be58ed7086/README.md"
+              }
+            ],
+            "id": "policy-governance",
+            "status": "documented"
+          },
+          {
+            "description": "Evaluate harness changes through documented Darwin Mode.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "e0dfd44da72b7adfb7c57fdd42d124be58ed7086",
+                "url": "https://github.com/ruvnet/metaharness/blob/e0dfd44da72b7adfb7c57fdd42d124be58ed7086/README.md"
+              }
+            ],
+            "id": "evolution-evaluation",
+            "status": "documented"
+          },
+          {
+            "description": "Generated release verification and witness-signed provenance.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "e0dfd44da72b7adfb7c57fdd42d124be58ed7086",
+                "url": "https://github.com/ruvnet/metaharness/blob/e0dfd44da72b7adfb7c57fdd42d124be58ed7086/README.md"
+              }
+            ],
+            "id": "release-verification",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "metaharness",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.769738Z",
+          "sourceCommit": "e0dfd44da72b7adfb7c57fdd42d124be58ed7086"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/metaharness",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Generate repository-aware CLI, agent and MCP harnesses from a repository or project specification. Generated tool policy and governance interfaces. Boundaries: Inventory is source/documentation inspection only; no runtime, release, performance or security validation was performed. Nested packages and scoped instructions are not exhaustively inventoried."
+      },
+      "path": "data/ruv/manifests/metaharness.ruv",
+      "sha256": "28638145cfe98ccd5aeef4ae5df1140e56d3e6c6dddabbc128d605128be0bcbe"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/midstream/pull/109",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Analyze, score and intervene on streams while tokens arrive.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+                "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md"
+              }
+            ],
+            "id": "inflight-analysis",
+            "status": "documented"
+          },
+          {
+            "description": "Temporal pattern comparison via DTW, LCS and edit distance.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+                "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md"
+              }
+            ],
+            "id": "temporal-comparison",
+            "status": "documented"
+          },
+          {
+            "description": "QUIC multi-stream transport as a separately composed library.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+                "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md"
+              }
+            ],
+            "id": "quic-multistream",
+            "status": "documented"
+          },
+          {
+            "description": "Attractor and phase-space analysis for streams.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "abe78d62daa3b83844547f8ccbd2c283b0444d28",
+                "url": "https://github.com/ruvnet/midstream/blob/abe78d62daa3b83844547f8ccbd2c283b0444d28/README.md"
+              }
+            ],
+            "id": "dynamical-analysis",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "midstream",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.799949Z",
+          "sourceCommit": "abe78d62daa3b83844547f8ccbd2c283b0444d28"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/midstream",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Analyze, score and intervene on streams while tokens arrive. Temporal pattern comparison via DTW, LCS and edit distance. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README advertises MSRV 1.81, but root Cargo.toml requires Rust 1.88; use package-specific manifests for build requirements."
+      },
+      "path": "data/ruv/manifests/midstream.ruv",
+      "sha256": "f68ca69d8e921a5afa4a5e04ab7b9963cf23a8840daa7a0d5e5d5981f0014a91"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/PhotonLayer/pull/1",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Simulate learned phase masks and compressed sensor measurements.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "fe86c9fad9a1572ce46e337f118656961bdf4ebb",
+                "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/README.md"
+              }
+            ],
+            "id": "optical-simulation",
+            "status": "documented"
+          },
+          {
+            "description": "Record deterministic experiment receipts.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "fe86c9fad9a1572ce46e337f118656961bdf4ebb",
+                "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/README.md"
+              }
+            ],
+            "id": "experiment-receipts",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/photonlayer/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "PhotonLayer",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "fe86c9fad9a1572ce46e337f118656961bdf4ebb"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/PhotonLayer",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Rust software simulation of task trained optical compression; fabricated optical hardware remains roadmap work."
+      },
+      "path": "data/ruv/manifests/photonlayer.ruv",
+      "sha256": "f5c8dda8a54487b53c66a1ec0a0f9939333ad3d865c60e181fe6c71aeff04125"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/QuDAG/pull/28",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/QuDAG/blob/945fc6fc5ca2fd25ede088e6b612d8f27f670229/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/QuDAG/blob/945fc6fc5ca2fd25ede088e6b612d8f27f670229/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Documented RustCrypto ML-KEM-768 implementation and interoperability tests.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "945fc6fc5ca2fd25ede088e6b612d8f27f670229",
+                "url": "https://github.com/ruvnet/QuDAG/blob/945fc6fc5ca2fd25ede088e6b612d8f27f670229/README.md"
+              }
+            ],
+            "id": "ml-kem",
+            "status": "documented"
+          },
+          {
+            "description": "Atomic local DAG admission with parent ordering and backpressure.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "945fc6fc5ca2fd25ede088e6b612d8f27f670229",
+                "url": "https://github.com/ruvnet/QuDAG/blob/945fc6fc5ca2fd25ede088e6b612d8f27f670229/README.md"
+              }
+            ],
+            "id": "local-dag-admission",
+            "status": "documented"
+          },
+          {
+            "description": "RuFlo observation bridge and member federation client.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "945fc6fc5ca2fd25ede088e6b612d8f27f670229",
+                "url": "https://github.com/ruvnet/QuDAG/blob/945fc6fc5ca2fd25ede088e6b612d8f27f670229/README.md"
+              }
+            ],
+            "id": "federation-bridge",
+            "status": "documented"
+          },
+          {
+            "description": "AgentBBS collaboration hub with durable receipts and RuVector retrieval.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "945fc6fc5ca2fd25ede088e6b612d8f27f670229",
+                "url": "https://github.com/ruvnet/QuDAG/blob/945fc6fc5ca2fd25ede088e6b612d8f27f670229/README.md"
+              }
+            ],
+            "id": "collaboration-receipts",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "QuDAG",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.797767Z",
+          "sourceCommit": "945fc6fc5ca2fd25ede088e6b612d8f27f670229"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/QuDAG",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Documented RustCrypto ML-KEM-768 implementation and interoperability tests. Atomic local DAG admission with parent ordering and backpressure. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README v2 header explicitly says not production qualified, full release gate currently fails, and neither complete distributed consensus nor a post-quantum Nostr network is claimed. Historical marketing lower in README must not override the v2 status."
+      },
+      "path": "data/ruv/manifests/qudag.ruv",
+      "sha256": "3b7b78a5dc1b0737346fd67f77abc641a30cb0b7f5c24c4784b555aa685b52b6"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/rGi/pull/7",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Record observations, plan authorized actions and retain outcomes across restarts.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421",
+                "url": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/README.md"
+              }
+            ],
+            "id": "persistent-runtime",
+            "status": "documented"
+          },
+          {
+            "description": "Evaluate capability and budget constraints through Rust native and WASM boundaries.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421",
+                "url": "https://github.com/ruvnet/rGi/blob/2dd6adb526a7ca1d27b1c4d6cf98c828b390c421/README.md"
+              }
+            ],
+            "id": "policy-kernel",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/rgi/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "rGi",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/rGi",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Experimental persistent agent runtime with bounded authority and durable outcomes; not demonstrated AGI."
+      },
+      "path": "data/ruv/manifests/rgi.ruv",
+      "sha256": "5ada2b7784f492ed8da1522d3089dbdb623aaa9b6816e87e2a87d7c8be33293c"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/ruClip/pull/66",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/package.json"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Organize agent roles, goals and work ownership.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6e73a8f060bcbb69965a50ffe4627e33622d4094",
+                "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/README.md"
+              }
+            ],
+            "id": "company-operations",
+            "status": "documented"
+          },
+          {
+            "description": "Gate heartbeats and approval transitions using bounded authority and accounting.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6e73a8f060bcbb69965a50ffe4627e33622d4094",
+                "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/README.md"
+              }
+            ],
+            "id": "budget-governance",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/ruclip/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "ruClip",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "6e73a8f060bcbb69965a50ffe4627e33622d4094"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/ruClip",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Agent company control plane with budgets, approval workflow and audit records."
+      },
+      "path": "data/ruv/manifests/ruclip.ruv",
+      "sha256": "c2b3d1cb0a5822e91280a96163893f4802e1aa7b7a287f57a77540a055bcda48"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/rudevolution/pull/14",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Statically analyze JavaScript bundles into weighted reference graphs.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+                "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md"
+              }
+            ],
+            "id": "bundle-analysis",
+            "status": "documented"
+          },
+          {
+            "description": "Propose module boundaries and identifier names with confidence metadata.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+                "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md"
+              }
+            ],
+            "id": "module-inference",
+            "status": "documented"
+          },
+          {
+            "description": "Emit SHA3-256 content integrity witnesses without proving behavioral equivalence.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+                "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md"
+              }
+            ],
+            "id": "integrity-witnesses",
+            "status": "documented"
+          },
+          {
+            "description": "Signed interface-only specification handoff to isolated implementation rooms.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+                "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/README.md"
+              }
+            ],
+            "id": "clean-room-handoff",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/rudevolution/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "rudevolution",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:47.895580Z",
+          "sourceCommit": "b99ec70c780e249b151de5c32ee9839784671962"
+        },
+        "relationships": [
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "b99ec70c780e249b151de5c32ee9839784671962",
+                "url": "https://github.com/ruvnet/rudevolution/blob/b99ec70c780e249b151de5c32ee9839784671962/Cargo.toml"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "type": "references"
+          }
+        ],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/rudevolution",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Statically analyze JavaScript bundles into weighted reference graphs. Propose module boundaries and identifier names with confidence metadata. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Module/name recovery is heuristic and may change behavior. Integrity witnesses do not establish authorship, original intent or behavioral equivalence. Clean-room workflow is a developer preview."
+      },
+      "path": "data/ruv/manifests/rudevolution.ruv",
+      "sha256": "3f81a6f04a8e4a67261296b59f14521955049b6882f187c5107266e8217d83e3"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/rufield/pull/17",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Normalize sensing modalities into common events, tensors, privacy and provenance.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+                "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md"
+              }
+            ],
+            "id": "field-event-spec",
+            "status": "documented"
+          },
+          {
+            "description": "Replay captured CSI from files with explicitly unvalidated motion/presence proxies.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+                "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md"
+              }
+            ],
+            "id": "csi-replay",
+            "status": "documented"
+          },
+          {
+            "description": "Ingest BatVu simulator range profiles under simulation trust.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+                "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md"
+              }
+            ],
+            "id": "ultrasonic-replay",
+            "status": "documented"
+          },
+          {
+            "description": "Privacy-aware, provenance-rich event model for ambient sensing.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017",
+                "url": "https://github.com/ruvnet/rufield/blob/7179a2efc706993ee0d87f0093e6a0e9e3dc5017/README.md"
+              }
+            ],
+            "id": "privacy-provenance",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/rufield/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "rufield",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:45.150068Z",
+          "sourceCommit": "7179a2efc706993ee0d87f0093e6a0e9e3dc5017"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/rufield",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Normalize sensing modalities into common events, tensors, privacy and provenance. Replay captured CSI from files with explicitly unvalidated motion/presence proxies. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Reference benchmark is SYNTHETIC; CSI file replay is unlabeled and not live hardware or validated accuracy. BatVu source recordings are simulator output."
+      },
+      "path": "data/ruv/manifests/rufield.ruv",
+      "sha256": "4a5e516e65201efcf50e80b7e12d200c25f1d4a9799878e69810a9ea94b73732"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/ruflo/pull/3971",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Coordinate specialized agents and swarms through a CLI and MCP harness.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6c046548e29506be9bfd6640186d6e85a444e849",
+                "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/README.md"
+              }
+            ],
+            "id": "agent-orchestration",
+            "status": "documented"
+          },
+          {
+            "description": "Documented federation communication and agent coordination.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6c046548e29506be9bfd6640186d6e85a444e849",
+                "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/README.md"
+              }
+            ],
+            "id": "federated-coordination",
+            "status": "documented"
+          },
+          {
+            "description": "Project memory and trajectory learning integration with RuVector.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6c046548e29506be9bfd6640186d6e85a444e849",
+                "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/README.md"
+              }
+            ],
+            "id": "persistent-memory",
+            "status": "documented"
+          },
+          {
+            "description": "Inspect runs and operate the agent console with plugin mods.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6c046548e29506be9bfd6640186d6e85a444e849",
+                "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/README.md"
+              }
+            ],
+            "id": "console-and-mods",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "ruflo",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.840156Z",
+          "sourceCommit": "6c046548e29506be9bfd6640186d6e85a444e849"
+        },
+        "relationships": [
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "6c046548e29506be9bfd6640186d6e85a444e849",
+                "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "type": "references"
+          },
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "6c046548e29506be9bfd6640186d6e85a444e849",
+                "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/agentdb/resources/manifest.ruv",
+            "type": "references"
+          },
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "6c046548e29506be9bfd6640186d6e85a444e849",
+                "url": "https://github.com/ruvnet/ruflo/blob/6c046548e29506be9bfd6640186d6e85a444e849/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/agentic-flow/resources/manifest.ruv",
+            "type": "references"
+          }
+        ],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/ruflo",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Coordinate specialized agents and swarms through a CLI and MCP harness. Documented federation communication and agent coordination. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Root npm package is claude-flow; Ruflo is the current repository/product name. Root AGENTS forbids unsolicited root additions but the user explicitly requested root manifest.ruv. Coordination records do not execute work."
+      },
+      "path": "data/ruv/manifests/ruflo.ruv",
+      "sha256": "6ddcf710a6ad596c85d212a0c8502a7430d8677a1829d00edd24102ed7a041a2"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/rultra/pull/3",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Unify sensors and actuators behind typed interfaces.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "03e4a7e039c9ee6e47193f77127d8d35f7830ed2",
+                "url": "https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/README.md"
+              }
+            ],
+            "id": "sensor-interface",
+            "status": "documented"
+          },
+          {
+            "description": "Evaluate configuration proposals with fitness gates, canary and rollback evidence.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "03e4a7e039c9ee6e47193f77127d8d35f7830ed2",
+                "url": "https://github.com/ruvnet/rultra/blob/03e4a7e039c9ee6e47193f77127d8d35f7830ed2/README.md"
+              }
+            ],
+            "id": "governed-tuning",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/rultra/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "rultra",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "03e4a7e039c9ee6e47193f77127d8d35f7830ed2"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/rultra",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Raspberry Pi sensor interfaces with explicit verification states and governed configuration experiments."
+      },
+      "path": "data/ruv/manifests/rultra.ruv",
+      "sha256": "74801addef363191433360e37abd905c0c17100ada28399a96d46012ac780e95"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/ruPet/pull/1",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/ruPet/blob/ec2737995cdf74ef28a59ddd6d38e1c721fe0636/README.md"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Distribute sprite and metadata assets for compatible desktop pet hosts.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "ec2737995cdf74ef28a59ddd6d38e1c721fe0636",
+                "url": "https://github.com/ruvnet/ruPet/blob/ec2737995cdf74ef28a59ddd6d38e1c721fe0636/README.md"
+              }
+            ],
+            "id": "pet-assets",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/rupet/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "ruPet",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "ec2737995cdf74ef28a59ddd6d38e1c721fe0636"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/ruPet",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Desktop companion artwork and animation metadata; no standalone runtime."
+      },
+      "path": "data/ruv/manifests/rupet.ruv",
+      "sha256": "15585729369a80a84aae9bd2f65578f932bc9161cfffd8690a8a7607553b3011"
+    },
+    {
+      "adoption": {
+        "status": "local"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Rust implementation of Fast Artificial Neural Network algorithms.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d",
+                "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md"
+              }
+            ],
+            "id": "neural-networks",
+            "status": "documented"
+          },
+          {
+            "description": "Neuro-Divergent neural forecasting components.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d",
+                "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md"
+              }
+            ],
+            "id": "forecasting",
+            "status": "documented"
+          },
+          {
+            "description": "ruv-swarm agent orchestration components.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d",
+                "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md"
+              }
+            ],
+            "id": "swarm-intelligence",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/ruv-fann/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "ruv-FANN",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:48.016951Z",
+          "sourceCommit": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/ruv-FANN",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Rust implementation of Fast Artificial Neural Network algorithms. Neuro-Divergent neural forecasting components. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README benchmark and compatibility claims are not validated in this mission."
+      },
+      "path": "data/ruv/manifests/ruv-fann.ruv",
+      "sha256": "f6190c3790545789e4f6582d91c890630a0cff22e564592c4bf9a24a1095b578"
+    },
+    {
+      "adoption": {
+        "status": "local"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Durable vector retrieval with HNSW and flat indexes.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+                "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md"
+              }
+            ],
+            "id": "vector-search",
+            "status": "documented"
+          },
+          {
+            "description": "Typed persistent agent episodes, skills, causal edges, sessions and witness logs.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+                "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md"
+              }
+            ],
+            "id": "agent-memory",
+            "status": "documented"
+          },
+          {
+            "description": "Graph and hypergraph relationships for memory and retrieval.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+                "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md"
+              }
+            ],
+            "id": "graph-storage",
+            "status": "documented"
+          },
+          {
+            "description": "Local typed decisions through the separate typesafe package.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+                "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md"
+              }
+            ],
+            "id": "local-decisions",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "RuVector",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.799545Z",
+          "sourceCommit": "f9e98b681305827f1615f8a371ed2a0169d440be"
+        },
+        "relationships": [
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+                "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/package.json"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "type": "references"
+          }
+        ],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/RuVector",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Durable vector retrieval with HNSW and flat indexes. Typed persistent agent episodes, skills, causal edges, sessions and witness logs. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Root npm package is marked private and is a workspace descriptor, not a verified publication version. Cargo root explicitly excludes components that do not build or have separate workspaces."
+      },
+      "path": "data/ruv/manifests/ruvector.ruv",
+      "sha256": "00ba38a37017bd6c956b1e71a6feb332008de13b19292c81cb1b17f0068950cb"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/RuView/pull/2194",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/RuView/blob/0ef6b96fe15e30b4a086992e47e18081a0ba37ce/README.md"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "WiFi CSI sensing for presence, movement and vitals, with hardware and accuracy caveats.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "0ef6b96fe15e30b4a086992e47e18081a0ba37ce",
+                "url": "https://github.com/ruvnet/RuView/blob/0ef6b96fe15e30b4a086992e47e18081a0ba37ce/README.md"
+              }
+            ],
+            "id": "wifi-sensing",
+            "status": "documented"
+          },
+          {
+            "description": "Record CSI, train models, load RVF files and switch LoRA profiles.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "0ef6b96fe15e30b4a086992e47e18081a0ba37ce",
+                "url": "https://github.com/ruvnet/RuView/blob/0ef6b96fe15e30b4a086992e47e18081a0ba37ce/README.md"
+              }
+            ],
+            "id": "model-workflow",
+            "status": "documented"
+          },
+          {
+            "description": "HOMECORE local state, history, automation and signed Wasm plugins.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "0ef6b96fe15e30b4a086992e47e18081a0ba37ce",
+                "url": "https://github.com/ruvnet/RuView/blob/0ef6b96fe15e30b4a086992e47e18081a0ba37ce/README.md"
+              }
+            ],
+            "id": "local-automation",
+            "status": "documented"
+          },
+          {
+            "description": "Repository guidance, guarded agents, MCP and deterministic verification.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "0ef6b96fe15e30b4a086992e47e18081a0ba37ce",
+                "url": "https://github.com/ruvnet/RuView/blob/0ef6b96fe15e30b4a086992e47e18081a0ba37ce/README.md"
+              }
+            ],
+            "id": "contributor-harness",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/ruview/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "RuView",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:25.760278Z",
+          "sourceCommit": "0ef6b96fe15e30b4a086992e47e18081a0ba37ce"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/RuView",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "WiFi CSI sensing for presence, movement and vitals, with hardware and accuracy caveats. Record CSI, train models, load RVF files and switch LoRA profiles. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Hardware validation and sensing accuracy were not evaluated. AGENTS requires MEASURED, CLAIMED or SYNTHETIC evidence labels and held-out pose validation. Root AGENTS and README cite different contributor-harness versions; use current package manifests before invocation."
+      },
+      "path": "data/ruv/manifests/ruview.ruv",
+      "sha256": "acd7a1354253c20249a0dbc198cc396621ae6fd651228e8f712f57f4ff48d331"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/ruvnet/pull/3",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/README.md"
+          },
+          {
+            "id": "llms-txt",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/llms.txt"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Publish project, package and evidence inventories for people and AI systems.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8",
+                "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/CONTRIBUTING.md"
+              },
+              {
+                "kind": "documentation",
+                "revision": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8",
+                "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/llms.txt"
+              }
+            ],
+            "id": "ecosystem-discovery",
+            "status": "documented"
+          },
+          {
+            "description": "Maintain documented repository and package mappings with dated source evidence.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8",
+                "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/docs/ruvnet-packages.md"
+              }
+            ],
+            "id": "package-inventory",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "ruvnet",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/ruvnet",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Public navigation, capability inventory and provenance nexus for the ruvnet constellation."
+      },
+      "path": "manifest.ruv",
+      "sha256": "19a668b3af39547004fb9182c53896efc0dd446189b9ad76134f248b4d6e70be"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/rvm/pull/81",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/README.md"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Canonical ruv context URI parsing, capability-governed context namespace and immutable RVF revisions.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context/src/uri.rs"
+              },
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context/src/lib.rs"
+              },
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/docs/adr/ADR-157-ruv-context-namespace.md"
+              }
+            ],
+            "id": "governed-context",
+            "status": "documented"
+          },
+          {
+            "description": "Compile exact non-executable context bytes into self-verified RVF artifacts with SHA-256 identity.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context-service/src/compiler.rs"
+              }
+            ],
+            "id": "context-artifacts",
+            "status": "documented"
+          },
+          {
+            "description": "Default-deny host action broker with live authorization, policy, audit before dispatch.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-host/src/semantic.rs"
+              },
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/docs/adr/ADR-159-semantic-policy-strands.md"
+              }
+            ],
+            "id": "semantic-policy",
+            "status": "documented"
+          },
+          {
+            "description": "Inspect, verify and manage an RVF-backed agent lifecycle through host adapters.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-launch/src/lib.rs"
+              },
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/README.md"
+              }
+            ],
+            "id": "execution-lifecycle",
+            "status": "documented"
+          },
+          {
+            "description": "Verify external evaluation receipts and anchor commitments into witness chains.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-anchor/src/lib.rs"
+              },
+              {
+                "kind": "documentation",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/docs/adr/ADR-156-external-receipt-anchoring.md"
+              }
+            ],
+            "id": "receipt-anchoring",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "rvm",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "510a82f3a34a5fc9fc78b8144167809dbe3e067d"
+        },
+        "relationships": [
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/.gitmodules"
+              },
+              {
+                "kind": "source",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context-service/Cargo.toml"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "type": "references"
+          },
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/.gitmodules"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/rudevolution/resources/manifest.ruv",
+            "type": "references"
+          },
+          {
+            "evidence": [
+              {
+                "kind": "source",
+                "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+                "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/.gitmodules"
+              }
+            ],
+            "status": "documented",
+            "target": "ruv://ruvnet/constellation/service/ruv-fann/resources/manifest.ruv",
+            "type": "references"
+          }
+        ],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/rvm",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Canonical ruv context URI parsing, capability-governed context namespace and immutable RVF revisions. Compile exact non-executable context bytes into self-verified RVF artifacts with SHA-256 identity. Boundaries: Discovery metadata grants no authority and cannot execute. Native compiler and Rust tests not yet run in this session."
+      },
+      "path": "data/ruv/manifests/rvm.ruv",
+      "sha256": "40f59d6ae6326d33d418d8ea3fe44eb5c214b1d4553868fefa5fbd173b4f9569"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/sublinear-time-solver/pull/67",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Solve and analyze supported sparse diagonally dominant linear systems.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+                "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md"
+              }
+            ],
+            "id": "linear-system-solving",
+            "status": "documented"
+          },
+          {
+            "description": "Analyze condition number and diagonal dominance.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+                "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md"
+              }
+            ],
+            "id": "matrix-analysis",
+            "status": "documented"
+          },
+          {
+            "description": "Expose solver tools through MCP.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+                "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md"
+              }
+            ],
+            "id": "mcp-solver",
+            "status": "documented"
+          },
+          {
+            "description": "Documented Neumann, forward-push and random-walk methods.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "6ef45761e9a27029cf968322b3967364499e3b5d",
+                "url": "https://github.com/ruvnet/sublinear-time-solver/blob/6ef45761e9a27029cf968322b3967364499e3b5d/README.md"
+              }
+            ],
+            "id": "solver-methods",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/sublinear-time-solver/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "sublinear-time-solver",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T02:57:51.756620Z",
+          "sourceCommit": "6ef45761e9a27029cf968322b3967364499e3b5d"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/sublinear-time-solver",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Solve and analyze supported sparse diagonally dominant linear systems. Analyze condition number and diagonal dominance. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Do not interpret consciousness or temporal-prediction research descriptions as validated scientific findings. Root npm and Rust versions differ by component."
+      },
+      "path": "data/ruv/manifests/sublinear-time-solver.ruv",
+      "sha256": "5b2b6c845808fd65cb908d24ea400b0836baa482931e3a8460f01a653036d5eb"
+    },
+    {
+      "adoption": {
+        "pr": "https://github.com/ruvnet/worldgraph/pull/13",
+        "status": "pending_pr"
+      },
+      "manifest": {
+        "artifacts": [
+          {
+            "id": "readme",
+            "kind": "docs",
+            "url": "https://github.com/ruvnet/worldgraph/blob/9b1c79c836cdacfb7b44f058c593157bac4c1dab/README.md"
+          },
+          {
+            "id": "package-json",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/worldgraph/blob/9b1c79c836cdacfb7b44f058c593157bac4c1dab/package.json"
+          },
+          {
+            "id": "cargo-toml",
+            "kind": "source",
+            "url": "https://github.com/ruvnet/worldgraph/blob/9b1c79c836cdacfb7b44f058c593157bac4c1dab/Cargo.toml"
+          }
+        ],
+        "capabilities": [
+          {
+            "description": "Represent rooms, sensors, entities and beliefs with provenance.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "9b1c79c836cdacfb7b44f058c593157bac4c1dab",
+                "url": "https://github.com/ruvnet/worldgraph/blob/9b1c79c836cdacfb7b44f058c593157bac4c1dab/README.md"
+              }
+            ],
+            "id": "spatial-graph",
+            "status": "documented"
+          },
+          {
+            "description": "Explore authored temporal environments and imported captures; calibration remains separate.",
+            "evidence": [
+              {
+                "kind": "documentation",
+                "revision": "9b1c79c836cdacfb7b44f058c593157bac4c1dab",
+                "url": "https://github.com/ruvnet/worldgraph/blob/9b1c79c836cdacfb7b44f058c593157bac4c1dab/README.md"
+              }
+            ],
+            "id": "world-visualization",
+            "status": "documented"
+          }
+        ],
+        "id": "ruv://ruvnet/constellation/service/worldgraph/resources/manifest.ruv",
+        "integrations": [
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+            "role": "nexus",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+            "role": "coordination",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+            "role": "execution-artifacts",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+            "role": "public-retrieval",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+            "role": "evaluation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+            "role": "evolution",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+            "role": "improvement-proposals",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+            "role": "stream-observation",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+            "role": "cryptography-research",
+            "status": "declared"
+          },
+          {
+            "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+            "role": "community",
+            "status": "declared"
+          }
+        ],
+        "name": "worldgraph",
+        "nexus": "https://github.com/ruvnet/ruvnet",
+        "provenance": {
+          "observedAt": "2026-10-10T03:00:00Z",
+          "sourceCommit": "9b1c79c836cdacfb7b44f058c593157bac4c1dab"
+        },
+        "relationships": [],
+        "repository": {
+          "defaultBranch": "main",
+          "url": "https://github.com/ruvnet/worldgraph",
+          "visibility": "public"
+        },
+        "safety": {
+          "discoveryOnly": true,
+          "executionRequiresAuthorization": true
+        },
+        "schemaVersion": "0.1",
+        "summary": "Typed spatial graphs, authored digital twin visualization and experimental occupancy modeling."
+      },
+      "path": "data/ruv/manifests/worldgraph.ruv",
+      "sha256": "c73b1b14e5ec674f5a98902264ca8b8a75a4cea3c9aca466bbc835dd1d5ee850"
+    }
+  ],
+  "kind": "ruv-nexus-index",
+  "schemaVersion": "0.1"
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+  "name": "RuVector",
+  "summary": "Durable vector retrieval with HNSW and flat indexes. Typed persistent agent episodes, skills, causal edges, sessions and witness logs. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. Root npm package is marked private and is a workspace descriptor, not a verified publication version. Cargo root explicitly excludes components that do not build or have separate workspaces.",
+  "repository": {
+    "url": "https://github.com/ruvnet/RuVector",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "vector-search",
+      "description": "Durable vector retrieval with HNSW and flat indexes.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md",
+          "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "description": "Typed persistent agent episodes, skills, causal edges, sessions and witness logs.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md",
+          "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "graph-storage",
+      "description": "Graph and hypergraph relationships for memory and retrieval.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md",
+          "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "local-decisions",
+      "description": "Local typed decisions through the separate typesafe package.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md",
+          "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/package.json",
+      "kind": "source"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "references",
+      "target": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/RuVector/blob/f9e98b681305827f1615f8a371ed2a0169d440be/package.json",
+          "revision": "f9e98b681305827f1615f8a371ed2a0169d440be",
+          "kind": "source"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "f9e98b681305827f1615f8a371ed2a0169d440be",
+    "observedAt": "2026-10-10T02:57:25.799545Z"
+  }
+}

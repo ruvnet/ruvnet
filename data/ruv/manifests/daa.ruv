@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/daa/resources/manifest.ruv",
+  "name": "daa",
+  "summary": "Documented monitoring, reasoning, action and reflection orchestration loop. Rule-based decisions and audit trails. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README production, cryptography and performance descriptions are unverified documentation claims. Root workspace repository metadata points to daa-hq/daa-sdk despite observed canonical GitHub repository ruvnet/daa.",
+  "repository": {
+    "url": "https://github.com/ruvnet/daa",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "agent-orchestration",
+      "description": "Documented monitoring, reasoning, action and reflection orchestration loop.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md",
+          "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "rules-governance",
+      "description": "Rule-based decisions and audit trails.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md",
+          "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "distributed-ml",
+      "description": "Documented Prime distributed training integration.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md",
+          "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "resource-economy",
+      "description": "Documented resource-management economy modules.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md",
+          "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/package.json",
+      "kind": "source"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "references",
+      "target": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/daa/blob/ca4e3a3c7e962098152f018a123db2bf67cf5d46/package.json",
+          "revision": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+          "kind": "source"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "ca4e3a3c7e962098152f018a123db2bf67cf5d46",
+    "observedAt": "2026-10-10T02:57:47.932391Z"
+  }
+}
