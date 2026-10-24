@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-10-21",
+  "default_branch_base_sha": "fe846b2a5d43852c96c502c6deb5c177ff425927",
+  "collection_branch_parent_sha": "965bbf9e35d1f8ea2cd0709666e22e0545011a48",
+  "collector_sha256": "c4d480ea52785f07932c05c2fc627ee08f0f377754c9780a1860ef1908cc2d7a",
+  "github_adapter_sha256": "4d98b614a1df1f8af0dd36d69ad2504a7079b91c1a701db330da7bc978a68ab4",
+  "github_verified_at": "2026-10-21T12:44:45Z",
+  "npm_inventory_verified_at": "2026-10-21T12:42:47.792839Z",
+  "npm_downloads_verified_at": "2026-10-21T13:03:22.162648Z",
+  "crates_io_verified_at": "2026-10-21T13:03:28.509876Z",
+  "public_repository_ids": 227,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-10-07",
+    "end": "2026-10-20",
+    "complete_days": 14
+  },
+  "traffic_coverage": {
+    "repositories": 227,
+    "clone_days": 14,
+    "view_days": 14,
+    "missing_cells": 0,
+    "observed_since": "2026-09-30"
+  },
+  "npm_coverage": {
+    "packages": 401,
+    "responses": 401,
+    "confirmed_daily_dates": 9,
+    "unknown_days": [
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 481
+  },
+  "release_coverage": {
+    "releases": 2393,
+    "assets": 676,
+    "repositories": 227
+  },
+  "registry_collector": "scripts/refresh-registry-metrics.py",
+  "registry_collector_sha256": "c0a580ebfff6d00e89dc3054789d9b1a1342177b005f3e0eae82666b3cb8d29f",
+  "snapshot_aggregator": "scripts/update-ecosystem-snapshot.py",
+  "snapshot_aggregator_sha256": "875ba84d676e3458cf69164ecdc16fc4d642d31516216155f368926e59dc7b16",
+  "actions_runs": null,
+  "actions_blocker": "GitHub API caps complete run enumeration at 1,000 results/query.",
+  "npm_zero_day_policy": "All-package zero responses are unknown pending confirmation/backfill.",
+  "source_version": "ruvnet ecosystem metrics snapshot v1; public-only"
+}

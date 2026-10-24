@@ -1,0 +1,37 @@
+{
+  "verified_at": "2026-10-21T13:03:28.510453Z",
+  "window": {
+    "start": "2026-10-07",
+    "end": "2026-10-20",
+    "days": 14,
+    "current_utc_day_excluded": true
+  },
+  "sources": {
+    "github_inventory": "data/snapshots/2026-10-21/github-inventory.json",
+    "github_releases": "data/snapshots/2026-10-21/github-release-inventory.json",
+    "npm_inventory": "data/snapshots/2026-10-21/npm-inventory.json",
+    "npm_downloads": "data/snapshots/2026-10-21/npm-downloads.json",
+    "crates_io": "data/snapshots/2026-10-21/crates-inventory.json"
+  },
+  "coverage": {
+    "github_public_repositories": 227,
+    "github_pages": 3,
+    "release_complete_repositories": 227,
+    "npm_expected_packages": 401,
+    "npm_collected_packages": 401,
+    "actions_complete_repositories": null,
+    "actions_incomplete_repositories": null
+  },
+  "traffic": {
+    "status": "available",
+    "clones": 765829,
+    "views": 159824,
+    "window_start": "2026-10-07",
+    "window_end": "2026-10-20",
+    "repo_coverage": {
+      "clones": 227,
+      "views": 227
+    },
+    "uniques": null
+  }
+}

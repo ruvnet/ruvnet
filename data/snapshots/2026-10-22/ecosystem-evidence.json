@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-10-22T12:31:50.556082Z",
+  "window": {
+    "start": "2026-10-08",
+    "end": "2026-10-21",
+    "days": 14,
+    "current_utc_day_excluded": true
+  },
+  "sources": {
+    "github_inventory": "data/snapshots/2026-10-22/github-inventory.json",
+    "github_releases": "data/snapshots/2026-10-22/github-release-inventory.json",
+    "npm_inventory": "data/snapshots/2026-10-22/npm-inventory.json",
+    "npm_downloads": "data/snapshots/2026-10-22/npm-downloads.json",
+    "crates_io": "data/snapshots/2026-10-22/crates-inventory.json"
+  },
+  "coverage": {
+    "github_public_repositories": 229,
+    "github_pages": 3,
+    "release_complete_repositories": 229,
+    "npm_expected_packages": 401,
+    "npm_collected_packages": 401,
+    "actions_complete_repositories": null,
+    "actions_incomplete_repositories": null
+  },
+  "traffic": {
+    "status": "available",
+    "clones": 739270,
+    "views": 154730,
+    "window_start": "2026-10-08",
+    "window_end": "2026-10-21",
+    "repo_coverage": {
+      "clones": 229,
+      "views": 229
+    },
+    "uniques": null,
+    "aggregation": "Canonical daily ledger for 14 complete UTC days; current-day API rows excluded; 104 pre-creation cells are validated zero, including four synthesized missing cells."
+  }
+}

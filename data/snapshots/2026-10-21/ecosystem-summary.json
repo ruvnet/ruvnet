@@ -1,0 +1,270 @@
+{
+  "verified_at": "2026-10-21T13:03:28.510453Z",
+  "github": {
+    "verified_at": "2026-10-21T12:44:45+00:00",
+    "followers": 11962,
+    "all_owned": {
+      "repositories": 227,
+      "stars": 194030,
+      "forks": 25773,
+      "subscribers": 1782,
+      "open_issues_and_prs": 2780
+    },
+    "nonfork": {
+      "repositories": 200,
+      "stars": 193767,
+      "forks": 25694,
+      "subscribers": 1779,
+      "open_issues_and_prs": 2770
+    },
+    "top_repositories": [
+      {
+        "name": "RuView",
+        "stars": 98980,
+        "forks": 12955,
+        "subscribers": 884
+      },
+      {
+        "name": "ruflo",
+        "stars": 78084,
+        "forks": 9183,
+        "subscribers": 472
+      },
+      {
+        "name": "RuVector",
+        "stars": 4605,
+        "forks": 614,
+        "subscribers": 35
+      },
+      {
+        "name": "agentic-flow",
+        "stars": 823,
+        "forks": 177,
+        "subscribers": 14
+      },
+      {
+        "name": "metaharness",
+        "stars": 710,
+        "forks": 88,
+        "subscribers": 3
+      },
+      {
+        "name": "Bot-Generator-Bot",
+        "stars": 586,
+        "forks": 127,
+        "subscribers": 15
+      },
+      {
+        "name": "open-claude-code",
+        "stars": 539,
+        "forks": 166,
+        "subscribers": 6
+      },
+      {
+        "name": "sparc",
+        "stars": 478,
+        "forks": 90,
+        "subscribers": 13
+      },
+      {
+        "name": "rUv-dev",
+        "stars": 428,
+        "forks": 81,
+        "subscribers": 17
+      },
+      {
+        "name": "ruv-FANN",
+        "stars": 387,
+        "forks": 109,
+        "subscribers": 11
+      }
+    ],
+    "clones": 765829,
+    "views": 159824,
+    "traffic_status": "available",
+    "source": "data/snapshots/2026-10-21/github-inventory.json",
+    "coverage": "All public owned repositories; 3 connector pages reconciled to 227 distinct public repository IDs; private records excluded before storage"
+  },
+  "activity": {
+    "issues_opened": {
+      "count": 235,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "issues_closed": {
+      "count": 220,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "prs_opened": {
+      "count": 712,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "prs_merged": {
+      "count": 455,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "verified_at": "2026-10-21T12:44:45+00:00"
+  },
+  "open_items": {
+    "open_issues": {
+      "count": 1526,
+      "source": "unauthenticated GitHub Search API; public results only",
+      "checked_at": "2026-10-21T12:44:45+00:00"
+    },
+    "open_prs": {
+      "count": 1252,
+      "source": "unauthenticated GitHub Search API; public results only",
+      "checked_at": "2026-10-21T12:44:45+00:00"
+    }
+  },
+  "release_assets": {
+    "coverage": "All 227 public owned repositories",
+    "releases": 2393,
+    "published_in_14_day_window": 61,
+    "current_assets": 676,
+    "current_asset_downloads": 110535,
+    "retained_observed_downloads": 110538,
+    "retained_missing_assets": 8,
+    "source": "https://api.github.com/repos/{owner}/{repo}/releases",
+    "inventory_path": "data/snapshots/2026-10-21/github-release-inventory.json",
+    "subscribers": 1782
+  },
+  "actions": {
+    "runs": null,
+    "coverage": "Unavailable: GitHub API limits results to 1,000 per query; complete run pagination not available."
+  },
+  "npm": {
+    "period_start": "2026-10-07",
+    "period_end": "2026-10-20",
+    "observed_downloads": 5225040,
+    "expected_packages": 401,
+    "collected_packages": 401,
+    "errors": [],
+    "daily": {
+      "2026-10-07": 821274,
+      "2026-10-08": 547630,
+      "2026-10-09": 556070,
+      "2026-10-10": 663141,
+      "2026-10-11": 624103,
+      "2026-10-12": 692161,
+      "2026-10-16": 411720,
+      "2026-10-17": 415537,
+      "2026-10-18": 493404
+    },
+    "daily_package_coverage": {
+      "2026-10-07": 401,
+      "2026-10-08": 401,
+      "2026-10-09": 401,
+      "2026-10-10": 401,
+      "2026-10-11": 401,
+      "2026-10-12": 401,
+      "2026-10-16": 401,
+      "2026-10-17": 401,
+      "2026-10-18": 401
+    },
+    "missing_days": [
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "status": "401 of 401 inventory packages collected; all-package-zero dates are unknown (null), not verified zero; provider latency may remain",
+    "all_zero_cohort_days": [],
+    "latest_confirmed_daily": {
+      "verified_at": "2026-10-21T13:03:22.162648Z",
+      "day": "2026-10-18",
+      "downloads": 493404,
+      "expected_packages": 401,
+      "collected_packages": 401,
+      "period_type": "UTC calendar day",
+      "rolling_24_hours": false,
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-20/{urlencoded_package}",
+      "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
+    },
+    "provisional_days": [
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "confirmed_days": 9,
+    "unknown_days": [
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "note": "Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads."
+  },
+  "crates_io": {
+    "crate_count": 481,
+    "cumulative_downloads": 1932509,
+    "verified_at": "2026-10-21T13:03:28.509876Z",
+    "source": "https://crates.io/api/v1/crates?user_id=339999"
+  },
+  "download_milestone": {
+    "target": 100000000,
+    "basis": "npm observed since 2025-10-01 plus crates.io cumulative; download events, not unique users",
+    "npm_baseline_downloads": 98390871,
+    "npm_baseline_through": "2026-10-18",
+    "npm_increment_observed": 0,
+    "npm_increment_start": null,
+    "npm_increment_end": null,
+    "npm_increment_package_coverage": 401,
+    "npm_expected_packages": 401,
+    "npm_observed_total": 98390871,
+    "crates_io_cumulative": 1932509,
+    "combined_observed": 100323380,
+    "remaining": 0,
+    "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 401 of 401 inventory packages have download-range evidence",
+    "baseline_source": "data/snapshots/2026-10-21/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-10-21/npm-downloads.json",
+    "npm_verified_at": "2026-10-21T13:03:22.162648Z",
+    "npm_reported_through": "2026-10-18",
+    "crates_io_verified_at": "2026-10-21T13:03:28.509876Z",
+    "internal_all_zero_cohort_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "trailing_all_zero_days_excluded": [
+      "2026-10-19",
+      "2026-10-20"
+    ]
+  },
+  "validation": {
+    "github_pagination_reconciled": true,
+    "github_public_repository_ids_unique": true,
+    "release_pagination_complete_repositories": 227,
+    "actions_pagination_complete_repositories": null,
+    "unique_daily_keys": 20675,
+    "replay_idempotent": true,
+    "daily_total_reconciliation": true,
+    "download_milestone_reconciliation": true,
+    "release_asset_reconciliation": true,
+    "unique_traffic_not_summed": true,
+    "all_sources_public": true,
+    "npm_download_package_coverage_complete": true,
+    "npm_unavailable_packages": 0,
+    "missing_days_recorded": [
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
+    ]
+  }
+}
