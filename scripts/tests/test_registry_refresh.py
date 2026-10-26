@@ -35,7 +35,7 @@ def result(package='example', positive_through='2026-10-05', requested_end='2026
 class RegistryRefreshTest(unittest.TestCase):
     def test_ecosystem_compositor_preserves_canonical_latest_day(self):
         """The GitHub compositor must not drop fields needed by profile verification."""
-        snapshot=ROOT/'data/snapshots/2026-10-17'
+        snapshot=ROOT/'data/snapshots/2026-10-26'
         old=json.loads((snapshot/'ecosystem-summary.json').read_text())
         evidence=json.loads((snapshot/'ecosystem-evidence.json').read_text())
         payload={
@@ -61,7 +61,7 @@ class RegistryRefreshTest(unittest.TestCase):
                         shutil.copyfile(entry,root/entry.name)
             (root/'input.json').write_text(json.dumps(payload))
             run=subprocess.run([sys.executable,'scripts/update-ecosystem-snapshot.py',
-                                '--date','2026-10-17','--input','input.json'],cwd=root,
+                                '--date','2026-10-26','--input','input.json'],cwd=root,
                                capture_output=True,text=True)
             self.assertEqual(run.returncode,0,run.stderr)
             check=subprocess.run(['node','scripts/verify-profile.mjs'],cwd=root,
@@ -69,7 +69,20 @@ class RegistryRefreshTest(unittest.TestCase):
             self.assertEqual(check.returncode,0,check.stderr)
             current=json.loads((root/'data/registry-stats.json').read_text())
             running=json.loads((root/'data/ecosystem-running-totals.json').read_text())
+            metrics=json.loads((root/'data/metrics.json').read_text())
             self.assertEqual(running['npm']['latest_confirmed_daily']['day'],current['npm']['period_end'])
+            self.assertEqual(metrics['source_watermark'],
+                             'data/snapshots/2026-10-26/collection-watermark.json')
+            self.assertEqual(metrics['current_windows']['github_activity_start'],
+                             evidence['window']['start'])
+            self.assertEqual(metrics['current_windows']['github_activity_end'],
+                             evidence['window']['end'])
+            self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_download_events'],
+                             running['npm']['observed_downloads'])
+            self.assertEqual(metrics['current_windows']['npm_14_day_unknown_days'],
+                             running['npm']['unknown_days'])
+            self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_days'],
+                             running['npm']['confirmed_days'])
 
     def test_new_npm_package_404_is_retried_without_inventing_zero(self):
         url='https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/new-package'

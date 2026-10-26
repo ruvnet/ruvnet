@@ -181,12 +181,14 @@ def main():
     else:
         npm_gap_sentence = 'All inventory packages have download-range evidence.'
 
+    watermark_path = f'{folder}/collection-watermark.json'
+    watermark = read(watermark_path) if (ROOT / watermark_path).exists() else None
     running = read('data/ecosystem-running-totals.json')
     generated_at = max(stamp, registry['generated_at'])
     same_snapshot = prior.get('verified_at') == stamp
     running.update(
         verified_at=generated_at,
-        source_watermark=(read(f'{folder}/collection-watermark.json') if (ROOT / f'{folder}/collection-watermark.json').exists() else running.get('source_watermark')),
+        source_watermark=(watermark if watermark is not None else running.get('source_watermark')),
         github=collection,
         activity=activity,
         npm={
@@ -300,8 +302,30 @@ def main():
         'npm_period_start': registry['npm']['period_start'],
         'npm_period_end': registry['npm']['period_end'],
         'npm_download_package_count': registry['npm']['download_package_count'],
+        'github_activity_start': window_start,
+        'github_activity_end': window_end,
+        'npm_14_day_confirmed_download_events': running['npm']['observed_downloads'],
+        'npm_14_day_unknown_days': running['npm']['unknown_days'],
+        'npm_14_day_complete_utc_days': len(expected),
+        'npm_14_day_confirmed_days': running['npm']['confirmed_days'],
+        'npm_14_day_is_rolling_24h': False,
     })
     metrics['verification_dates'].update({'github': stamp, 'npm_inventory': registry['npm']['inventory_verified_at'], 'npm_downloads': registry['npm']['downloads_verified_at'], 'crates_io': crates['verified_at']})
+    if watermark is not None:
+        metrics['source_watermark'] = watermark_path
+    retained_notes = [
+        note for note in metrics.get('notes', [])
+        if 'all-package-zero npm dates' not in note
+        and not note.startswith('The npm download cohort is ')
+    ]
+    retained_notes.extend([
+        (f"{len(missing_days)} all-package-zero npm dates in {window_start} through "
+         f"{window_end} UTC are unknown (null), never zero; {args.date} is incomplete "
+         "and excluded."),
+        (f"The npm download cohort is {registry['npm']['download_package_count']} packages; "
+         f"the current inventory contains {registry['npm']['package_count']}."),
+    ])
+    metrics['notes'] = retained_notes
     write('data/metrics.json', metrics)
 
     evidence = {
