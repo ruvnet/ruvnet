@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-26T05:50:18.892459Z",
+  "verified_at": "2026-10-26T12:45:14+00:00",
   "counts": {
     "github_public_repositories": 229,
     "github_owned_public_nonfork_repositories": 202,
@@ -11,9 +11,9 @@
     "huggingface_models_and_spaces": 22,
     "rust_crate_downloads_cumulative": 1972634,
     "github_public_forks": 27,
-    "github_followers": 12072,
-    "github_stars_owned_nonfork": 195432,
-    "github_aggregate_downstream_forks": 25868
+    "github_followers": 12081,
+    "github_stars_owned_nonfork": 195863,
+    "github_aggregate_downstream_forks": 25913
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
@@ -68,7 +68,7 @@
     "npm_14_day_is_rolling_24h": false
   },
   "verification_dates": {
-    "github": "2026-10-25T12:51:17+00:00",
+    "github": "2026-10-26T12:45:14+00:00",
     "npm_inventory": "2026-10-26T05:29:53.522521Z",
     "npm_downloads": "2026-10-26T05:50:13.224107Z",
     "crates_io": "2026-10-26T05:50:18.892080Z",
