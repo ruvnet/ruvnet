@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-25T13:10:27.477233Z",
+  "verified_at": "2026-10-26T05:50:18.892459Z",
   "github": {
     "verified_at": "2026-10-25T12:51:17+00:00",
     "followers": 12072,
@@ -110,14 +110,13 @@
     "verified_at": "2026-10-25T12:51:17+00:00"
   },
   "npm": {
-    "period_start": "2026-10-11",
-    "period_end": "2026-10-24",
-    "observed_downloads": 3357206,
+    "period_start": "2026-10-12",
+    "period_end": "2026-10-25",
+    "observed_downloads": 2733103,
     "expected_packages": 401,
     "collected_packages": 401,
     "errors": [],
     "daily": {
-      "2026-10-11": 624103,
       "2026-10-12": 692161,
       "2026-10-16": 411720,
       "2026-10-17": 415537,
@@ -125,12 +124,20 @@
       "2026-10-22": 720281
     },
     "daily_package_coverage": {
-      "2026-10-11": 401,
       "2026-10-12": 401,
+      "2026-10-13": 0,
+      "2026-10-14": 0,
+      "2026-10-15": 0,
       "2026-10-16": 401,
       "2026-10-17": 401,
       "2026-10-18": 401,
-      "2026-10-22": 401
+      "2026-10-19": 0,
+      "2026-10-20": 0,
+      "2026-10-21": 0,
+      "2026-10-22": 401,
+      "2026-10-23": 0,
+      "2026-10-24": 0,
+      "2026-10-25": 0
     },
     "missing_days": [
       "2026-10-13",
@@ -140,22 +147,30 @@
       "2026-10-20",
       "2026-10-21",
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-25"
     ],
-    "status": "401 of 401 inventory packages collected; all-package-zero dates are unknown (null), not verified zero; provider latency may remain",
+    "status": "401 of 401 inventory packages collected; all-package-zero dates are unknown, not zero; provider reporting gaps may remain",
     "all_zero_cohort_days": [],
     "latest_confirmed_daily": {
-      "verified_at": "2026-10-25T13:10:21.190018Z",
+      "verified_at": "2026-10-26T05:50:13.224107Z",
       "day": "2026-10-22",
       "downloads": 720281,
       "expected_packages": 401,
       "collected_packages": 401,
       "period_type": "UTC calendar day",
       "rolling_24_hours": false,
-      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-24/{urlencoded_package}",
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-25/{urlencoded_package}",
       "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
     },
     "provisional_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
       "2026-10-13",
       "2026-10-14",
       "2026-10-15",
@@ -163,9 +178,10 @@
       "2026-10-20",
       "2026-10-21",
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-25"
     ],
-    "confirmed_days": 6,
+    "confirmed_days": 5,
     "unknown_days": [
       "2026-10-13",
       "2026-10-14",
@@ -174,15 +190,19 @@
       "2026-10-20",
       "2026-10-21",
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-25"
     ],
-    "note": "Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads."
+    "note": "Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads.",
+    "verified_at": "2026-10-26T05:50:18.892459Z"
   },
   "crates_io": {
+    "user_id": 339999,
+    "verified_at": "2026-10-26T05:50:18.892080Z",
     "crate_count": 481,
-    "cumulative_downloads": 1970876,
-    "verified_at": "2026-10-25T13:10:27.476728Z",
-    "source": "https://crates.io/api/v1/crates?user_id=339999"
+    "cumulative_downloads": 1972634,
+    "inventory_path": "data/snapshots/2026-10-26/crates-inventory.json",
+    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   },
   "release_assets": {
     "coverage": "All 229 public owned repositories",
@@ -204,7 +224,7 @@
     "github_public_repository_ids_unique": true,
     "release_pagination_complete_repositories": 229,
     "actions_pagination_complete_repositories": null,
-    "unique_daily_keys": 24163,
+    "unique_daily_keys": 24564,
     "replay_idempotent": true,
     "daily_total_reconciliation": true,
     "download_milestone_reconciliation": true,
@@ -223,7 +243,8 @@
       "2026-10-20",
       "2026-10-21",
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-25"
     ]
   },
   "actions": {
@@ -253,15 +274,15 @@
     "npm_increment_package_coverage": 401,
     "npm_expected_packages": 401,
     "npm_observed_total": 99111152,
-    "crates_io_cumulative": 1970876,
-    "combined_observed": 101082028,
+    "crates_io_cumulative": 1972634,
+    "combined_observed": 101083786,
     "remaining": 0,
     "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 401 of 401 inventory packages have download-range evidence",
-    "baseline_source": "data/snapshots/2026-10-25/npm-downloads.json",
-    "increment_source": "data/snapshots/2026-10-25/npm-downloads.json",
-    "npm_verified_at": "2026-10-25T13:10:21.190018Z",
+    "baseline_source": "data/snapshots/2026-10-26/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-10-26/npm-downloads.json",
+    "npm_verified_at": "2026-10-26T05:50:13.224107Z",
     "npm_reported_through": "2026-10-22",
-    "crates_io_verified_at": "2026-10-25T13:10:27.476728Z",
+    "crates_io_verified_at": "2026-10-26T05:50:18.892080Z",
     "internal_all_zero_cohort_days": [
       "2026-07-12",
       "2026-08-14",
@@ -279,7 +300,23 @@
     ],
     "trailing_all_zero_days_excluded": [
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "unknown_npm_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21"
     ]
   },
   "snapshot_delta": {
