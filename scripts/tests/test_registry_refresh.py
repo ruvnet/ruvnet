@@ -35,7 +35,9 @@ def result(package='example', positive_through='2026-10-05', requested_end='2026
 class RegistryRefreshTest(unittest.TestCase):
     def test_ecosystem_compositor_preserves_canonical_latest_day(self):
         """The GitHub compositor must not drop fields needed by profile verification."""
-        snapshot=ROOT/'data/snapshots/2026-10-26'
+        inventory=json.loads((ROOT/'data/github-stats.json').read_text())['inventory']
+        snapshot=ROOT/Path(inventory).parent
+        snapshot_date=snapshot.name
         old=json.loads((snapshot/'ecosystem-summary.json').read_text())
         evidence=json.loads((snapshot/'ecosystem-evidence.json').read_text())
         payload={
@@ -61,7 +63,7 @@ class RegistryRefreshTest(unittest.TestCase):
                         shutil.copyfile(entry,root/entry.name)
             (root/'input.json').write_text(json.dumps(payload))
             run=subprocess.run([sys.executable,'scripts/update-ecosystem-snapshot.py',
-                                '--date','2026-10-26','--input','input.json'],cwd=root,
+                                '--date',snapshot_date,'--input','input.json'],cwd=root,
                                capture_output=True,text=True)
             self.assertEqual(run.returncode,0,run.stderr)
             check=subprocess.run(['node','scripts/verify-profile.mjs'],cwd=root,
@@ -72,7 +74,7 @@ class RegistryRefreshTest(unittest.TestCase):
             metrics=json.loads((root/'data/metrics.json').read_text())
             self.assertEqual(running['npm']['latest_confirmed_daily']['day'],current['npm']['period_end'])
             self.assertEqual(metrics['source_watermark'],
-                             'data/snapshots/2026-10-26/collection-watermark.json')
+                             f'data/snapshots/{snapshot_date}/collection-watermark.json')
             self.assertEqual(metrics['current_windows']['github_activity_start'],
                              evidence['window']['start'])
             self.assertEqual(metrics['current_windows']['github_activity_end'],
