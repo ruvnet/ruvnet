@@ -1,6 +1,6 @@
 # rUv · Packages & Libraries Index
 
-Author: ruvnet (Reuven Cohen). Current inventory observed 2026-10-27 UTC. The detailed June and July catalog below remains a historical record.
+Author: ruvnet (Reuven Cohen). Current inventory observed 2026-10-28 UTC. The detailed June and July catalog below remains a historical record.
 
 **At least 920 published artifacts** across the known distribution surface: **489 Rust crates**, **401 known npm packages**, plus **8 PyPI packages** and **22 Hugging Face artifacts** retained from their July ownership checks. Packages, native target binaries, adapters, and examples are grouped under products; they are not 920 separate inventions.
 
@@ -11,12 +11,12 @@ Repository history records lineage. Registry versions record publication, with t
 
 | Registry | Packages | Downloads | Verified |
 | --- | ---: | --- | --- |
-| [crates.io](https://crates.io/users/ruvnet) | 489 | 1,985,542 cumulative | 2026-10-27 UTC |
-| [npm](https://www.npmjs.com/~ruvnet) | at least 401 | 101,398,888 during 2025-10-26 through 2026-10-25; 401 package cohort | Inventory 2026-10-27; downloads 2026-10-27 |
+| [crates.io](https://crates.io/users/ruvnet) | 489 | 1,996,759 cumulative | 2026-10-28 UTC |
+| [npm](https://www.npmjs.com/~ruvnet) | at least 401 | 102,160,085 during 2025-10-27 through 2026-10-26; 401 package cohort | Inventory 2026-10-28; downloads 2026-10-28 |
 | [PyPI](https://pypi.org/user/ruvnet/) | 8 | Not aggregated | Historical ownership check, July 12, 2026 |
 | [Hugging Face](https://huggingface.co/ruvnet) | 22 | Not recounted | Historical inventory, July 12, 2026 |
 
-The npm inventory and download evidence cover the same **401 package cohort**, verified **2026-10-27 UTC**. [Registry data](../data/registry-stats.json) retains exact windows and dates.
+The npm inventory and download evidence cover the same **401 package cohort**, verified **2026-10-28 UTC**. [Registry data](../data/registry-stats.json) retains exact windows and dates.
 <!-- registry-summary:end -->
 
 ## RVF and current package evidence

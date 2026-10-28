@@ -1,40 +1,40 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-10-27T13:03:04.105868Z",
+  "verified_at": "2026-10-28T12:38:06.110770Z",
   "github": {
-    "verified_at": "2026-10-27T12:24:19+00:00",
-    "followers": 12109,
+    "verified_at": "2026-10-28T12:15:03+00:00",
+    "followers": 12136,
     "all_owned": {
       "repositories": 230,
-      "stars": 196741,
-      "forks": 26077,
-      "subscribers": 1787,
-      "open_issues_and_prs": 2844
+      "stars": 197482,
+      "forks": 26289,
+      "subscribers": 1791,
+      "open_issues_and_prs": 2865
     },
     "nonfork": {
       "repositories": 203,
-      "stars": 196478,
-      "forks": 25998,
-      "subscribers": 1784,
-      "open_issues_and_prs": 2834
+      "stars": 197219,
+      "forks": 26197,
+      "subscribers": 1788,
+      "open_issues_and_prs": 2855
     },
     "top_repositories": [
       {
         "name": "RuView",
-        "stars": 100015,
-        "forks": 13074,
-        "subscribers": 887
+        "stars": 100542,
+        "forks": 13123,
+        "subscribers": 891
       },
       {
         "name": "ruflo",
-        "stars": 79669,
-        "forks": 9354,
+        "stars": 79876,
+        "forks": 9369,
         "subscribers": 474
       },
       {
         "name": "RuVector",
-        "stars": 4635,
-        "forks": 617,
+        "stars": 4636,
+        "forks": 619,
         "subscribers": 35
       },
       {
@@ -45,26 +45,26 @@
       },
       {
         "name": "metaharness",
-        "stars": 715,
-        "forks": 89,
+        "stars": 716,
+        "forks": 90,
         "subscribers": 3
       },
       {
         "name": "Bot-Generator-Bot",
         "stars": 588,
-        "forks": 127,
+        "forks": 128,
         "subscribers": 15
       },
       {
         "name": "open-claude-code",
-        "stars": 549,
-        "forks": 167,
+        "stars": 550,
+        "forks": 170,
         "subscribers": 6
       },
       {
         "name": "sparc",
         "stars": 478,
-        "forks": 90,
+        "forks": 91,
         "subscribers": 13
       },
       {
@@ -76,43 +76,43 @@
       {
         "name": "ruv-FANN",
         "stars": 386,
-        "forks": 109,
+        "forks": 108,
         "subscribers": 11
       }
     ],
-    "clones": 670176,
-    "views": 164504,
+    "clones": 660584,
+    "views": 177092,
     "traffic_status": "available",
-    "source": "data/snapshots/2026-10-27/github-inventory.json",
+    "source": "data/snapshots/2026-10-28/github-inventory.json",
     "coverage": "All public owned repositories; 3 connector pages reconciled to 230 distinct public repository IDs; private records excluded before storage"
   },
   "activity": {
     "issues_opened": {
-      "count": 206,
+      "count": 170,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
     "issues_closed": {
-      "count": 152,
+      "count": 155,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
     "prs_opened": {
-      "count": 548,
+      "count": 529,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
     "prs_merged": {
-      "count": 380,
+      "count": 391,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
-    "verified_at": "2026-10-27T12:24:19+00:00"
+    "verified_at": "2026-10-28T12:15:03+00:00"
   },
   "npm": {
-    "period_start": "2026-10-13",
-    "period_end": "2026-10-26",
-    "observed_downloads": 3742362,
+    "period_start": "2026-10-14",
+    "period_end": "2026-10-27",
+    "observed_downloads": 4509493,
     "expected_packages": 401,
     "collected_packages": 401,
     "errors": [],
@@ -123,7 +123,8 @@
       "2026-10-22": 720281,
       "2026-10-23": 665088,
       "2026-10-24": 509995,
-      "2026-10-25": 526337
+      "2026-10-25": 526337,
+      "2026-10-26": 767131
     },
     "daily_package_coverage": {
       "2026-10-16": 401,
@@ -132,68 +133,66 @@
       "2026-10-22": 401,
       "2026-10-23": 401,
       "2026-10-24": 401,
-      "2026-10-25": 401
+      "2026-10-25": 401,
+      "2026-10-26": 401
     },
     "missing_days": [
-      "2026-10-13",
       "2026-10-14",
       "2026-10-15",
       "2026-10-19",
       "2026-10-20",
       "2026-10-21",
-      "2026-10-26"
+      "2026-10-27"
     ],
     "status": "401 of 401 inventory packages collected; all-package-zero dates are unknown (null), not verified zero; provider latency may remain",
     "all_zero_cohort_days": [],
     "latest_confirmed_daily": {
-      "verified_at": "2026-10-27T13:02:57.745534Z",
-      "day": "2026-10-25",
-      "downloads": 526337,
+      "verified_at": "2026-10-28T12:37:59.962301Z",
+      "day": "2026-10-26",
+      "downloads": 767131,
       "expected_packages": 401,
       "collected_packages": 401,
       "period_type": "UTC calendar day",
       "rolling_24_hours": false,
-      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-26/{urlencoded_package}",
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-27/{urlencoded_package}",
       "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
     },
     "provisional_days": [
-      "2026-10-13",
       "2026-10-14",
       "2026-10-15",
       "2026-10-19",
       "2026-10-20",
       "2026-10-21",
-      "2026-10-26"
+      "2026-10-27"
     ],
-    "confirmed_days": 7,
+    "confirmed_days": 8,
     "unknown_days": [
-      "2026-10-13",
       "2026-10-14",
       "2026-10-15",
       "2026-10-19",
       "2026-10-20",
       "2026-10-21",
-      "2026-10-26"
+      "2026-10-27"
     ],
     "note": "Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads."
   },
   "crates_io": {
     "crate_count": 489,
-    "cumulative_downloads": 1985542,
-    "verified_at": "2026-10-27T13:03:04.104712Z",
+    "cumulative_downloads": 1996759,
+    "verified_at": "2026-10-28T12:38:06.109515Z",
     "source": "https://crates.io/api/v1/crates?user_id=339999"
   },
   "release_assets": {
     "coverage": "All 230 public owned repositories",
-    "releases": 2423,
-    "published_in_14_day_window": 61,
-    "current_assets": 700,
-    "current_asset_downloads": 111867,
-    "retained_observed_downloads": 111870,
+    "releases": 2427,
+    "published_in_14_day_window": 60,
+    "current_assets": 710,
+    "current_asset_downloads": 112223,
+    "retained_observed_downloads": 112226,
     "retained_missing_assets": 8,
     "source": "https://api.github.com/repos/{owner}/{repo}/releases",
-    "inventory_path": "data/snapshots/2026-10-27/github-release-inventory.json",
-    "subscribers": 1787
+    "inventory_path": "data/snapshots/2026-10-28/github-release-inventory.json",
+    "subscribers": 1791
   },
   "uncollected": [
     "Commits and contributors"
@@ -203,7 +202,7 @@
     "github_public_repository_ids_unique": true,
     "release_pagination_complete_repositories": 230,
     "actions_pagination_complete_repositories": null,
-    "unique_daily_keys": 25909,
+    "unique_daily_keys": 26770,
     "replay_idempotent": true,
     "daily_total_reconciliation": true,
     "download_milestone_reconciliation": true,
@@ -215,13 +214,12 @@
     "npm_download_package_coverage_complete": true,
     "npm_unavailable_packages": 0,
     "missing_days_recorded": [
-      "2026-10-13",
       "2026-10-14",
       "2026-10-15",
       "2026-10-19",
       "2026-10-20",
       "2026-10-21",
-      "2026-10-26"
+      "2026-10-27"
     ]
   },
   "actions": {
@@ -230,36 +228,36 @@
   },
   "open_items": {
     "open_issues": {
-      "count": 1551,
+      "count": 1565,
       "source": "unauthenticated GitHub Search API; public results only",
-      "checked_at": "2026-10-27T12:24:19+00:00"
+      "checked_at": "2026-10-28T12:15:03+00:00"
     },
     "open_prs": {
-      "count": 1292,
+      "count": 1298,
       "source": "unauthenticated GitHub Search API; public results only",
-      "checked_at": "2026-10-27T12:24:19+00:00"
+      "checked_at": "2026-10-28T12:15:03+00:00"
     }
   },
   "download_milestone": {
     "target": 100000000,
     "basis": "npm observed since 2025-10-01 plus crates.io cumulative; download events, not unique users",
-    "npm_baseline_downloads": 101660807,
-    "npm_baseline_through": "2026-10-25",
+    "npm_baseline_downloads": 102427938,
+    "npm_baseline_through": "2026-10-26",
     "npm_increment_observed": 0,
     "npm_increment_start": null,
     "npm_increment_end": null,
     "npm_increment_package_coverage": 401,
     "npm_expected_packages": 401,
-    "npm_observed_total": 101660807,
-    "crates_io_cumulative": 1985542,
-    "combined_observed": 103646349,
+    "npm_observed_total": 102427938,
+    "crates_io_cumulative": 1996759,
+    "combined_observed": 104424697,
     "remaining": 0,
     "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 401 of 401 inventory packages have download-range evidence",
-    "baseline_source": "data/snapshots/2026-10-27/npm-downloads.json",
-    "increment_source": "data/snapshots/2026-10-27/npm-downloads.json",
-    "npm_verified_at": "2026-10-27T13:02:57.745534Z",
-    "npm_reported_through": "2026-10-25",
-    "crates_io_verified_at": "2026-10-27T13:03:04.104712Z",
+    "baseline_source": "data/snapshots/2026-10-28/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-10-28/npm-downloads.json",
+    "npm_verified_at": "2026-10-28T12:37:59.962301Z",
+    "npm_reported_through": "2026-10-26",
+    "crates_io_verified_at": "2026-10-28T12:38:06.109515Z",
     "internal_all_zero_cohort_days": [
       "2026-07-12",
       "2026-08-14",
@@ -276,31 +274,31 @@
       "2026-10-21"
     ],
     "trailing_all_zero_days_excluded": [
-      "2026-10-26"
+      "2026-10-27"
     ]
   },
   "snapshot_delta": {
-    "repositories": 1,
-    "stars": 615,
-    "forks": 85,
-    "followers": 28
+    "repositories": 0,
+    "stars": 741,
+    "forks": 212,
+    "followers": 27
   },
   "traffic": {
     "observed_since": "2026-09-30",
-    "through": "2026-10-26",
-    "window_start": "2026-10-13",
-    "window_end": "2026-10-26",
-    "clone_events_last_14_complete_utc_days": 670176,
-    "view_events_last_14_complete_utc_days": 164504,
-    "known_clone_events_in_requested_window": 670176,
-    "known_view_events_in_requested_window": 164504,
+    "through": "2026-10-27",
+    "window_start": "2026-10-14",
+    "window_end": "2026-10-27",
+    "clone_events_last_14_complete_utc_days": 660584,
+    "view_events_last_14_complete_utc_days": 177092,
+    "known_clone_events_in_requested_window": 660584,
+    "known_view_events_in_requested_window": 177092,
     "coverage_status": "available",
     "expected_cells_per_metric": 3220,
     "source_cells_per_metric": 3220,
     "missing_cells_per_metric": 0,
     "missing_days": [],
-    "clone_events_observed_since": 1451542,
-    "view_events_observed_since": 327643,
+    "clone_events_observed_since": 1498699,
+    "view_events_observed_since": 350516,
     "repositories_with_clone_coverage": 230,
     "repositories_with_view_coverage": 230,
     "unique_cloners_across_repositories": null,
@@ -310,15 +308,15 @@
   "source_watermark": {
     "schema_version": 1,
     "repository": "ruvnet/ruvnet",
-    "snapshot_date": "2026-10-27",
-    "default_branch_base_sha": "5d9d9b5f7ce0b5b2ef899eac57b78c5ff80dcb61",
-    "collection_branch_parent_sha": "5d9d9b5f7ce0b5b2ef899eac57b78c5ff80dcb61",
+    "snapshot_date": "2026-10-28",
+    "default_branch_base_sha": "c891424f2c150a1f4a30da893edcdf568aef3824",
+    "collection_branch_parent_sha": "c891424f2c150a1f4a30da893edcdf568aef3824",
     "collector_sha256": "c4d480ea52785f07932c05c2fc627ee08f0f377754c9780a1860ef1908cc2d7a",
-    "github_adapter_sha256": "38c815a218fcdeadc53bdc3b2bd765283d06c566a1f336d2cbed25883a19cf7a",
-    "github_verified_at": "2026-10-27T12:24:19+00:00",
-    "npm_inventory_verified_at": "2026-10-27T12:42:30.513972Z",
-    "npm_downloads_verified_at": "2026-10-27T13:02:57.745534Z",
-    "crates_io_verified_at": "2026-10-27T13:03:04.104712Z",
+    "github_adapter_sha256": "728de94fb189574b072a94f0dec82ca1fae18715368904174a97a178bfbca29e",
+    "github_verified_at": "2026-10-28T12:15:03+00:00",
+    "npm_inventory_verified_at": "2026-10-28T12:13:50.694976Z",
+    "npm_downloads_verified_at": "2026-10-28T12:37:59.962301Z",
+    "crates_io_verified_at": "2026-10-28T12:38:06.109515Z",
     "public_repository_ids": 230,
     "pagination_offsets": [
       0,
@@ -326,8 +324,8 @@
       200
     ],
     "activity_window_utc": {
-      "start": "2026-10-13",
-      "end": "2026-10-26",
+      "start": "2026-10-14",
+      "end": "2026-10-27",
       "complete_days": 14
     },
     "traffic_coverage": {
@@ -341,17 +339,17 @@
       "observed_since": "2026-09-30",
       "source_cells_per_metric": 3220,
       "expected_cells_per_metric": 3220,
-      "precreation_zero_cells": 35,
+      "precreation_zero_cells": 30,
       "backfilled_prior_ledger_cells": 0,
       "current_utc_day_excluded": true,
       "synthesized_precreation_zero_cells": 0,
       "exact_window_totals": {
-        "clones": 670176,
-        "views": 164504
+        "clones": 660584,
+        "views": 177092
       },
       "known_lower_bounds": {
-        "clones": 670176,
-        "views": 164504
+        "clones": 660584,
+        "views": 177092
       }
     },
     "npm_coverage": {
@@ -359,24 +357,23 @@
       "responses": [
         {
           "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=0",
-          "retrieved_at": "2026-10-27T12:42:30.087924Z",
-          "response_sha256": "95eae951dd3d0e7e97bff95775eafc83eea243955be9b6fa746a8388c660a488"
+          "retrieved_at": "2026-10-28T12:13:50.331173Z",
+          "response_sha256": "8530fca66b424bb0a7a6e67872b290a49afa246558fc6a2c9d1036e9cc66e7c5"
         },
         {
           "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=250",
-          "retrieved_at": "2026-10-27T12:42:30.513972Z",
-          "response_sha256": "accc40c90da402ddb62163b072759e3b04f1745845bd18733327fce604706b12"
+          "retrieved_at": "2026-10-28T12:13:50.694976Z",
+          "response_sha256": "0c4c5ccd78396202be8894161b89925d87a84cd41b8789392e28d2e00dda30ea"
         }
       ],
-      "confirmed_daily_dates": 7,
+      "confirmed_daily_dates": 8,
       "unknown_days": [
-        "2026-10-13",
         "2026-10-14",
         "2026-10-15",
         "2026-10-19",
         "2026-10-20",
         "2026-10-21",
-        "2026-10-26"
+        "2026-10-27"
       ],
       "current_utc_day_excluded": true
     },
@@ -384,8 +381,8 @@
       "crates": 489
     },
     "release_coverage": {
-      "releases": 2423,
-      "assets": 700,
+      "releases": 2427,
+      "assets": 710,
       "repositories": 230
     },
     "registry_collector": "scripts/refresh-registry-metrics.py",
@@ -401,8 +398,8 @@
     "render-visual-profile.py_sha256": "71f39242ca3119381c6a899bdac6ec7e1661cbc2f5ba4a7a3dc1d8b0c8c955cd",
     "registry_execution": {
       "collector": "scripts/refresh-registry-metrics.py",
-      "checkpoint_adapter_sha256": "a5dd171245f46068afa549a26813e7a6742f518e77d97455767d3d7ef526e0dc",
-      "note": "Initial collection interrupted by executor restart; completed responses from the retry checkpointed durably."
+      "checkpoint_adapter_sha256": "d40bddfa596341c465f5ce35432282af99ce1629d591bf394d3f7477d1162b7f",
+      "note": "Provider responses checkpointed durably during collection."
     }
   }
 }
