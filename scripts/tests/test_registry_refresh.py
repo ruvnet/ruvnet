@@ -196,6 +196,41 @@ class RegistryRefreshTest(unittest.TestCase):
             self.assertEqual(updated['values']['npm|example|downloads|2026-10-07'], 1)
             self.assertEqual(updated['coverage']['collected_packages'], 1)
 
+    def test_daily_ledger_revises_existing_historical_cells(self):
+        today = dt.date(2026, 10, 8)
+        rows = [result('example', '2026-10-07', '2026-10-07'),
+                result('companion', '2026-10-07', '2026-10-07')]
+        for row in rows:
+            row['receipt']['source'] = 'https://api.npmjs.org/downloads/range/' + row['package']
+            for point in row['body']['downloads']:
+                if point['day'] == '2026-09-03':
+                    point['downloads'] = 0
+                if row['package'] == 'example':
+                    if point['day'] == '2026-09-01':
+                        point['downloads'] = 0
+                    elif point['day'] == '2026-09-02':
+                        point['downloads'] = 7
+        prefix = 'npm|example|downloads|'
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder); (root / 'data').mkdir()
+            path = root / 'data/ecosystem-daily-ledger.json'
+            path.write_text(json.dumps({'values': {
+                prefix + '2026-09-01': None, prefix + '2026-09-02': 99,
+                prefix + '2026-09-03': 9,
+                'npm|unavailable|downloads|2026-09-01': None}}))
+            with patch.object(refresh, 'ROOT', root):
+                refresh.update_daily_ledger(rows, today, '2026-10-08T12:00:00Z')
+                first = path.read_bytes()
+                refresh.update_daily_ledger(rows, today, '2026-10-08T12:00:00Z')
+                self.assertEqual(first, path.read_bytes())
+            values = json.loads(first)['values']
+            self.assertEqual(values[prefix + '2026-09-01'], 0)
+            self.assertEqual(values[prefix + '2026-09-02'], 7)
+            self.assertIsNone(values[prefix + '2026-09-03'])
+            self.assertIsNone(values['npm|unavailable|downloads|2026-09-01'])
+            self.assertNotIn(prefix + '2026-08-01', values)
+            self.assertNotIn(prefix + '2026-10-08', values)
+
     def test_daily_ledger_records_missing_package_without_inventing_zero(self):
         today = dt.date(2026, 10, 8)
         row = result(positive_through='2026-10-07', requested_end='2026-10-07')
