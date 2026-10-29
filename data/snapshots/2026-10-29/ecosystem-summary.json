@@ -1,0 +1,274 @@
+{
+  "verified_at": "2026-10-29T13:07:53.985873Z",
+  "github": {
+    "verified_at": "2026-10-29T12:41:38+00:00",
+    "followers": 12177,
+    "all_owned": {
+      "repositories": 230,
+      "stars": 198619,
+      "forks": 26381,
+      "subscribers": 1798,
+      "open_issues_and_prs": 2883
+    },
+    "nonfork": {
+      "repositories": 203,
+      "stars": 198356,
+      "forks": 26289,
+      "subscribers": 1795,
+      "open_issues_and_prs": 2873
+    },
+    "top_repositories": [
+      {
+        "name": "RuView",
+        "stars": 101465,
+        "forks": 13184,
+        "subscribers": 897
+      },
+      {
+        "name": "ruflo",
+        "stars": 80064,
+        "forks": 9394,
+        "subscribers": 476
+      },
+      {
+        "name": "RuVector",
+        "stars": 4643,
+        "forks": 621,
+        "subscribers": 34
+      },
+      {
+        "name": "agentic-flow",
+        "stars": 831,
+        "forks": 178,
+        "subscribers": 14
+      },
+      {
+        "name": "metaharness",
+        "stars": 727,
+        "forks": 93,
+        "subscribers": 3
+      },
+      {
+        "name": "Bot-Generator-Bot",
+        "stars": 587,
+        "forks": 128,
+        "subscribers": 15
+      },
+      {
+        "name": "open-claude-code",
+        "stars": 552,
+        "forks": 170,
+        "subscribers": 6
+      },
+      {
+        "name": "sparc",
+        "stars": 478,
+        "forks": 91,
+        "subscribers": 13
+      },
+      {
+        "name": "rUv-dev",
+        "stars": 428,
+        "forks": 81,
+        "subscribers": 17
+      },
+      {
+        "name": "ruv-FANN",
+        "stars": 386,
+        "forks": 108,
+        "subscribers": 11
+      }
+    ],
+    "clones": 653319,
+    "views": 191463,
+    "traffic_status": "available",
+    "source": "data/snapshots/2026-10-29/github-inventory.json",
+    "coverage": "All public owned repositories; 3 connector pages reconciled to 230 distinct public repository IDs; private records excluded before storage"
+  },
+  "activity": {
+    "issues_opened": {
+      "count": 163,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "issues_closed": {
+      "count": 127,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "prs_opened": {
+      "count": 525,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "prs_merged": {
+      "count": 373,
+      "incomplete_results": false,
+      "source": "unauthenticated GitHub Search API; public results only"
+    },
+    "verified_at": "2026-10-29T12:41:38+00:00"
+  },
+  "open_items": {
+    "open_issues": {
+      "count": 1565,
+      "source": "unauthenticated GitHub Search API; public results only",
+      "checked_at": "2026-10-29T12:41:38+00:00"
+    },
+    "open_prs": {
+      "count": 1316,
+      "source": "unauthenticated GitHub Search API; public results only",
+      "checked_at": "2026-10-29T12:41:38+00:00"
+    }
+  },
+  "release_assets": {
+    "coverage": "All 230 public owned repositories",
+    "releases": 2429,
+    "published_in_14_day_window": 58,
+    "current_assets": 710,
+    "current_asset_downloads": 112568,
+    "retained_observed_downloads": 112571,
+    "retained_missing_assets": 8,
+    "source": "https://api.github.com/repos/{owner}/{repo}/releases",
+    "inventory_path": "data/snapshots/2026-10-29/github-release-inventory.json",
+    "subscribers": 1798
+  },
+  "actions": {
+    "runs": null,
+    "coverage": "Unavailable: GitHub API limits results to 1,000 per query; complete run pagination not available."
+  },
+  "npm": {
+    "period_start": "2026-10-15",
+    "period_end": "2026-10-28",
+    "observed_downloads": 5129746,
+    "expected_packages": 401,
+    "collected_packages": 401,
+    "errors": [],
+    "daily": {
+      "2026-10-16": 411720,
+      "2026-10-17": 415537,
+      "2026-10-18": 493404,
+      "2026-10-22": 720281,
+      "2026-10-23": 665088,
+      "2026-10-24": 509995,
+      "2026-10-25": 526337,
+      "2026-10-26": 767131,
+      "2026-10-27": 620253
+    },
+    "daily_package_coverage": {
+      "2026-10-16": 401,
+      "2026-10-17": 401,
+      "2026-10-18": 401,
+      "2026-10-22": 401,
+      "2026-10-23": 401,
+      "2026-10-24": 401,
+      "2026-10-25": 401,
+      "2026-10-26": 401,
+      "2026-10-27": 401
+    },
+    "missing_days": [
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-28"
+    ],
+    "status": "401 of 401 inventory packages collected; all-package-zero dates are unknown (null), not verified zero; provider latency may remain",
+    "all_zero_cohort_days": [],
+    "latest_confirmed_daily": {
+      "verified_at": "2026-10-29T13:01:34.871812Z",
+      "day": "2026-10-27",
+      "downloads": 620253,
+      "expected_packages": 401,
+      "collected_packages": 401,
+      "period_type": "UTC calendar day",
+      "rolling_24_hours": false,
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-28/{urlencoded_package}",
+      "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
+    },
+    "provisional_days": [
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-28"
+    ],
+    "confirmed_days": 9,
+    "unknown_days": [
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-28"
+    ],
+    "note": "Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads."
+  },
+  "crates_io": {
+    "crate_count": 489,
+    "cumulative_downloads": 2004915,
+    "verified_at": "2026-10-29T13:01:41.165276Z",
+    "source": "https://crates.io/api/v1/crates?user_id=339999"
+  },
+  "download_milestone": {
+    "target": 100000000,
+    "basis": "npm observed since 2025-10-01 plus crates.io cumulative; download events, not unique users",
+    "npm_baseline_downloads": 103048191,
+    "npm_baseline_through": "2026-10-27",
+    "npm_increment_observed": 0,
+    "npm_increment_start": null,
+    "npm_increment_end": null,
+    "npm_increment_package_coverage": 401,
+    "npm_expected_packages": 401,
+    "npm_observed_total": 103048191,
+    "crates_io_cumulative": 2004915,
+    "combined_observed": 105053106,
+    "remaining": 0,
+    "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 401 of 401 inventory packages have download-range evidence",
+    "baseline_source": "data/snapshots/2026-10-29/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-10-29/npm-downloads.json",
+    "npm_verified_at": "2026-10-29T13:01:34.871812Z",
+    "npm_reported_through": "2026-10-27",
+    "crates_io_verified_at": "2026-10-29T13:01:41.165276Z",
+    "internal_all_zero_cohort_days": [
+      "2026-07-12",
+      "2026-08-14",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21"
+    ],
+    "trailing_all_zero_days_excluded": [
+      "2026-10-28"
+    ]
+  },
+  "validation": {
+    "github_pagination_reconciled": true,
+    "github_public_repository_ids_unique": true,
+    "release_pagination_complete_repositories": 230,
+    "actions_pagination_complete_repositories": null,
+    "unique_daily_keys": 27631,
+    "replay_idempotent": true,
+    "daily_total_reconciliation": true,
+    "download_milestone_reconciliation": true,
+    "release_asset_reconciliation": true,
+    "unique_traffic_not_summed": true,
+    "traffic_missing_cells_recorded": true,
+    "traffic_exact_totals_null_when_incomplete": true,
+    "all_sources_public": true,
+    "npm_download_package_coverage_complete": true,
+    "npm_unavailable_packages": 0,
+    "missing_days_recorded": [
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-28"
+    ]
+  }
+}

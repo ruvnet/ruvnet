@@ -193,7 +193,7 @@ def save(relative_path, data):
 
 
 def update_daily_ledger(results, today, verified, expected_packages=None, errors=None):
-    """Upsert the latest 14 complete UTC days by package and date."""
+    """Upsert the complete window and revise already stored historical cells."""
     start = (today - dt.timedelta(days=14)).isoformat()
     end = (today - dt.timedelta(days=1)).isoformat()
     ledger_path = ROOT / 'data/ecosystem-daily-ledger.json'
@@ -212,8 +212,9 @@ def update_daily_ledger(results, today, verified, expected_packages=None, errors
         package = result['package']
         points = validate_range(package, result['body'], PERIOD_START, end)
         for point in points:
-            if start <= point['day'] <= end:
-                values[f"npm|{package}|downloads|{point['day']}"] = (
+            key = f"npm|{package}|downloads|{point['day']}"
+            if point['day'] <= end and (point['day'] >= start or key in values):
+                values[key] = (
                     point['downloads'] if (reported_through and point['day'] <= reported_through
                                            and point['day'] not in all_zero_days) else None)
         provenance[package] = {
