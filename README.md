@@ -186,26 +186,26 @@ The dashboard above is generated from this repository's published JSON. Download
 <!-- github-public-metrics:start -->
 ## GitHub reach
 
-Public GitHub API snapshot verified **October 30, 2026 UTC**. [Captured inventory](data/snapshots/2026-10-30/github-inventory.json).
+Public GitHub API snapshot verified **October 31, 2026 UTC**. [Captured inventory](data/snapshots/2026-10-31/github-inventory.json).
 
 | Measure | Verified value |
 | --- | ---: |
-| Followers | 12,189 |
+| Followers | 12,208 |
 | Public repositories | 230 |
 | Owned public nonfork repositories | 203 |
 | Public repositories that are forks | 27 |
-| Stars across owned public nonfork repositories | 198,753 |
-| Aggregate downstream forks of owned nonfork repositories | 26,330 |
+| Stars across owned public nonfork repositories | 199,052 |
+| Aggregate downstream forks of owned nonfork repositories | 26,362 |
 
 ### Flagship repository traction
 
 | Project | Stars | Forks | Subscribers |
 | --- | ---: | ---: | ---: |
-| [RuView](https://github.com/ruvnet/RuView) | 101,676 | 13,208 | 898 |
-| [ruflo](https://github.com/ruvnet/ruflo) | 80,226 | 9,408 | 475 |
-| [RuVector](https://github.com/ruvnet/RuVector) | 4,648 | 623 | 34 |
-| [metaharness](https://github.com/ruvnet/metaharness) | 732 | 93 | 3 |
-| [rvm](https://github.com/ruvnet/rvm) | 150 | 35 | 0 |
+| [RuView](https://github.com/ruvnet/RuView) | 101,820 | 13,226 | 900 |
+| [ruflo](https://github.com/ruvnet/ruflo) | 80,363 | 9,419 | 476 |
+| [RuVector](https://github.com/ruvnet/RuVector) | 4,650 | 624 | 34 |
+| [metaharness](https://github.com/ruvnet/metaharness) | 735 | 93 | 3 |
+| [rvm](https://github.com/ruvnet/rvm) | 151 | 35 | 0 |
 
 RuView and Ruflo account for **91.5% of owned public nonfork stars** and **85.9% of downstream forks**.
 <!-- github-public-metrics:end -->
@@ -218,14 +218,14 @@ RuView and Ruflo account for **91.5% of owned public nonfork stars** and **85.9%
 | Measure | Verified value | Evidence date |
 | --- | ---: | --- |
 | Published registry and Hugging Face artifacts | at least 920 | Mixed dates below |
-| Known npm packages listing `ruvnet` as maintainer | at least 401 | 2026-10-30 UTC |
-| npm downloads, rolling 365 days (2025-10-29 through 2026-10-28) | 103,473,800 | 2026-10-30; 401 package cohort |
-| Rust crates owned by `ruvnet` | 489 | 2026-10-30 UTC |
-| Cumulative Rust crate downloads (verified 2026-10-30) | 2,011,358 | 2026-10-30 UTC |
+| Known npm packages listing `ruvnet` as maintainer | at least 401 | 2026-10-31 UTC |
+| npm downloads, rolling 365 days (2025-10-30 through 2026-10-29) | 104,141,514 | 2026-10-31; 401 package cohort |
+| Rust crates owned by `ruvnet` | 489 | 2026-10-31 UTC |
+| Cumulative Rust crate downloads (verified 2026-10-31) | 2,018,240 | 2026-10-31 UTC |
 | Ownership verified PyPI packages | 8 | July 12, 2026; historical |
 | Hugging Face models, spaces, and datasets | 22 | July 12, 2026; historical |
 
-The npm inventory and download evidence cover the same **401 package cohort**, verified **2026-10-30 UTC**. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
+The npm inventory and download evidence cover the same **401 package cohort**, verified **2026-10-31 UTC**. [Registry evidence](data/registry-stats.json) records both populations. The artifact total combines current npm and crates counts with the 30 historically verified PyPI and Hugging Face artifacts.
 
 Package downloads include CI, reinstallations and platform packages. They do not establish unique users. The [weekly refresh](.github/workflows/refresh-registry-metrics.yml) updates these measurements from official APIs.
 <!-- package-public-metrics:end -->
@@ -236,9 +236,9 @@ Package downloads include CI, reinstallations and platform packages. They do not
 
 [![Animated cumulative npm downloads across the measured calendar months](assets/ruvnet/npm-cumulative-growth.svg)](data/registry-stats.json)
 
-**103,758,106 download events** accumulated from **2025-10-01 through 2026-10-28** across the verified **401 package cohort**. Complete month volume grew **50.6 times**, comparing 2025-10 with 2026-09.
+**104,430,311 download events** accumulated from **2025-10-01 through 2026-10-29** across the verified **401 package cohort**. Complete month volume grew **50.6 times**, comparing 2025-10 with 2026-09.
 
-The curve sums measured monthly downloads on a linear scale. The final month is partial, through **2026-10-28**. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **2026-10-30 UTC**.
+The curve sums measured monthly downloads on a linear scale. The final month is partial, through **2026-10-29**. It is cumulative within this period, not lifetime downloads. The rolling annual total above uses a different date window. Verified **2026-10-31 UTC**.
 
 <details>
 <summary>Inspect monthly downloads and cumulative totals</summary>
@@ -257,7 +257,7 @@ The curve sums measured monthly downloads on a linear scale. The final month is 
 | 2026-07 | 14,906,763 | 61,945,483 |
 | 2026-08 | 13,680,577 | 75,626,060 |
 | 2026-09 | 15,120,919 | 90,746,979 |
-| 2026-10 (partial) | 13,011,127 | 103,758,106 |
+| 2026-10 (partial) | 13,683,332 | 104,430,311 |
 
 </details>
 
@@ -265,7 +265,7 @@ The curve sums measured monthly downloads on a linear scale. The final month is 
 <!-- registry-download-chart:end -->
 
 <!-- registry-reporting-status:start -->
-**Reporting coverage, 2026-10-30 UTC:** These npm figures are observed lower bounds across the 401-package collected cohort (401 of 401 inventory packages). The latest positive cohort day is **2026-10-28**, with **709,915 download events**. This is a completed UTC calendar day, not a rolling 24-hour count. The collected daily responses contain 13 internal all zero cohort days (2026-07-12, 2026-08-14, 2026-09-03, 2026-09-07, 2026-09-08, 2026-09-15, 2026-10-06, 2026-10-13, 2026-10-14, 2026-10-15, 2026-10-19, 2026-10-20, 2026-10-21); these may be reporting gaps. Trailing all zero days (2026-10-29) are excluded from the reported through date. No missing downloads are estimated. [Package range evidence](data/snapshots/2026-10-30/npm-downloads.json).
+**Reporting coverage, 2026-10-31 UTC:** These npm figures are observed lower bounds across the 401-package collected cohort (401 of 401 inventory packages). The latest positive cohort day is **2026-10-29**, with **672,205 download events**. This is a completed UTC calendar day, not a rolling 24-hour count. The collected daily responses contain 13 internal all zero cohort days (2026-07-12, 2026-08-14, 2026-09-03, 2026-09-07, 2026-09-08, 2026-09-15, 2026-10-06, 2026-10-13, 2026-10-14, 2026-10-15, 2026-10-19, 2026-10-20, 2026-10-21); these may be reporting gaps. Trailing all zero days (2026-10-30) are excluded from the reported through date. No missing downloads are estimated. [Package range evidence](data/snapshots/2026-10-31/npm-downloads.json).
 <!-- registry-reporting-status:end -->
 
 ![An ecosystem in motion](assets/ruvnet/evolution.svg)
