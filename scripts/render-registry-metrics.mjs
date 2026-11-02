@@ -7,6 +7,7 @@ const read = p => fs.readFileSync(path.join(root, p), 'utf8');
 const save = (p, s) => fs.writeFileSync(path.join(root, p), s);
 const data = JSON.parse(read('data/registry-stats.json'));
 const metrics = JSON.parse(read('data/metrics.json'));
+const runningTotals = JSON.parse(read('data/ecosystem-running-totals.json'));
 const npm = data.npm, crates = data.crates_io;
 const format = n => new Intl.NumberFormat('en-US').format(n);
 const date = value => value.slice(0, 10);
@@ -108,7 +109,20 @@ if (latestDay) Object.assign(metrics.current_windows, {
   npm_latest_confirmed_daily_package_count: cohort,
   npm_latest_daily_is_rolling_24h: false,
 });
-metrics.notes = metrics.notes.filter(note => !note.startsWith('The npm download cohort is'));
+if (runningTotals?.npm) {
+  const npmWindowDays = (Date.parse(runningTotals.npm.period_end) - Date.parse(runningTotals.npm.period_start)) / 86400000 + 1;
+  Object.assign(metrics.current_windows, {
+    npm_14_day_start: runningTotals.npm.period_start,
+    npm_14_day_end: runningTotals.npm.period_end,
+    npm_14_day_confirmed_download_events: runningTotals.npm.observed_downloads,
+    npm_14_day_unknown_days: runningTotals.npm.unknown_days,
+    npm_14_day_complete_utc_days: npmWindowDays,
+    npm_14_day_confirmed_days: runningTotals.npm.confirmed_days,
+    npm_14_day_is_rolling_24h: false,
+  });
+}
+metrics.notes = metrics.notes.filter(note => !note.startsWith('The npm download cohort is') && !note.includes('all-package-zero npm dates'));
+if (runningTotals?.npm) metrics.notes.push(`${runningTotals.npm.unknown_days.length} all-package-zero npm dates in ${runningTotals.npm.period_start} through ${runningTotals.npm.period_end} UTC are unknown (null), never zero; ${date(data.generated_at)} is incomplete and excluded.`);
 metrics.notes.push(`The npm download cohort is ${cohort} packages; the current inventory contains ${npm.package_count}.`);
 save('data/metrics.json', JSON.stringify(metrics, null, 2) + '\n');
 console.log(`Rendered ${npm.package_count} npm packages, ${crates.crate_count} crates; downloads dated ${downloadDate}.`);

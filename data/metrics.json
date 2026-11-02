@@ -65,7 +65,9 @@
     ],
     "npm_14_day_complete_utc_days": 14,
     "npm_14_day_confirmed_days": 9,
-    "npm_14_day_is_rolling_24h": false
+    "npm_14_day_is_rolling_24h": false,
+    "npm_14_day_start": "2026-10-18",
+    "npm_14_day_end": "2026-10-31"
   },
   "verification_dates": {
     "github": "2026-11-01T13:57:51+00:00",
