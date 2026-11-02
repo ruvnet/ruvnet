@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source": "https://api.npmjs.org/downloads/point/last-day/claude-flow",
+  "retrieved_at": "2026-11-02T13:23:00.403470+00:00",
+  "response_sha256": "f47ee25cadc7b6dad70b4bfc4ede31ae46dc5991070fa0b3033c116e10164842",
+  "response": {
+    "downloads": 2426,
+    "start": "2026-10-29",
+    "end": "2026-10-29",
+    "package": "claude-flow"
+  },
+  "interpretation": "Spot check only. Provider last-day resolves to the returned UTC date for this package; never substitute this for the full cohort or a rolling 24-hour total."
+}
