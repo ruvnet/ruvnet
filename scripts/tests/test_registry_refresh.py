@@ -61,6 +61,30 @@ class RegistryRefreshTest(unittest.TestCase):
                         shutil.copytree(entry,root/entry.name,ignore=shutil.ignore_patterns('__pycache__'))
                     else:
                         shutil.copyfile(entry,root/entry.name)
+            registry_path=root/'data/registry-stats.json'
+            registry=json.loads(registry_path.read_text())
+            refreshed={
+                'npm_inventory':'2026-11-02T05:19:29.846430Z',
+                'npm_downloads':'2026-11-02T05:40:00.000000Z',
+                'crates_io':'2026-11-02T05:40:00.245693Z',
+            }
+            registry['generated_at']=refreshed['crates_io']
+            registry['npm']['inventory_verified_at']=refreshed['npm_inventory']
+            registry['npm']['downloads_verified_at']=refreshed['npm_downloads']
+            registry['crates_io']['verified_at']=refreshed['crates_io']
+            for section,path_key,date_key in [
+                    (registry['npm'],'inventory_path','npm_inventory'),
+                    (registry['npm'],'downloads_evidence_path','npm_downloads'),
+                    (registry['crates_io'],'inventory_path','crates_io')]:
+                old_path=root/section[path_key]
+                new_rel=f'data/snapshots/2026-11-02/{old_path.name}'
+                receipt_path=root/new_rel
+                receipt_path.parent.mkdir(parents=True,exist_ok=True)
+                receipt=json.loads(old_path.read_text())
+                receipt['retrieved_at']=refreshed[date_key]
+                receipt_path.write_text(json.dumps(receipt))
+                section[path_key]=new_rel
+            registry_path.write_text(json.dumps(registry))
             (root/'input.json').write_text(json.dumps(payload))
             run=subprocess.run([sys.executable,'scripts/update-ecosystem-snapshot.py',
                                 '--date',snapshot_date,'--input','input.json'],cwd=root,
@@ -85,6 +109,27 @@ class RegistryRefreshTest(unittest.TestCase):
                              running['npm']['unknown_days'])
             self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_days'],
                              running['npm']['confirmed_days'])
+            self.assertEqual(metrics['verification_dates']['npm_inventory'],
+                             refreshed['npm_inventory'])
+            self.assertEqual(metrics['verification_dates']['npm_downloads'],
+                             refreshed['npm_downloads'])
+            self.assertEqual(metrics['verification_dates']['crates_io'],
+                             refreshed['crates_io'])
+
+            running['npm'].update(
+                period_start='2026-10-19',period_end='2026-11-01',
+                observed_downloads=123456,unknown_days=['2026-11-01'],
+                confirmed_days=13)
+            (root/'data/ecosystem-running-totals.json').write_text(json.dumps(running))
+            render=subprocess.run(['node','scripts/render-registry-metrics.mjs'],cwd=root,
+                                  capture_output=True,text=True)
+            self.assertEqual(render.returncode,0,render.stderr)
+            metrics=json.loads((root/'data/metrics.json').read_text())
+            self.assertEqual(metrics['current_windows']['npm_14_day_start'],'2026-10-19')
+            self.assertEqual(metrics['current_windows']['npm_14_day_end'],'2026-11-01')
+            self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_download_events'],123456)
+            self.assertEqual(metrics['current_windows']['npm_14_day_unknown_days'],['2026-11-01'])
+            self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_days'],13)
 
     def test_new_npm_package_404_is_retried_without_inventing_zero(self):
         url='https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/new-package'

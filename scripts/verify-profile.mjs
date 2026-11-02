@@ -43,12 +43,11 @@ const watermark = json(expectedWatermarkPath);
 assert.equal(watermark.repository, 'ruvnet/ruvnet');
 assert.equal(watermark.snapshot_date, path.posix.basename(path.posix.dirname(expectedWatermarkPath)));
 assert.equal(watermark.github_verified_at, github.verified_at);
-assert.equal(watermark.npm_inventory_verified_at, metrics.verification_dates.npm_inventory);
-assert.equal(watermark.npm_downloads_verified_at, metrics.verification_dates.npm_downloads);
-assert.equal(watermark.crates_io_verified_at, metrics.verification_dates.crates_io);
 assert.equal(watermark.public_repository_ids, expected.public_repositories);
-assert.equal(watermark.npm_coverage.packages, npm.package_count);
-assert.equal(watermark.crates_io_coverage.crates, crates.crate_count);
+assert.equal(metrics.verification_dates.github, github.verified_at);
+assert.equal(metrics.verification_dates.npm_inventory, npm.inventory_verified_at);
+assert.equal(metrics.verification_dates.npm_downloads, npm.downloads_verified_at);
+assert.equal(metrics.verification_dates.crates_io, crates.verified_at);
 assert.equal(metrics.counts.github_public_repositories, expected.public_repositories);
 assert.equal(metrics.counts.github_stars_owned_nonfork, expected.stars_across_owned_nonfork);
 assert.equal(metrics.counts.npm_packages, npm.package_count);
@@ -63,7 +62,11 @@ const monthIndex = value => Number(value.slice(0, 4)) * 12 + Number(value.slice(
 assert.equal(npm.monthly_downloads.length, monthIndex(npm.monthly_period_end) - monthIndex(npm.monthly_period_start) + 1);
 assert.equal(npm.monthly_downloads[0].month, npm.monthly_period_start.slice(0, 7));
 assert.equal(npm.monthly_downloads.at(-1).month, npm.monthly_period_end.slice(0, 7));
-if (npm.inventory_path) assert.equal(json(npm.inventory_path).packages.length, npm.package_count);
+if (npm.inventory_path) {
+  const npmInventory = json(npm.inventory_path);
+  assert.equal(npmInventory.retrieved_at, npm.inventory_verified_at);
+  assert.equal(npmInventory.packages.length, npm.package_count);
+}
 if (npm.current_month) {
   const partial = npm.current_month;
   assert.ok(partial.month > npm.monthly_downloads.at(-1).month);
@@ -73,6 +76,7 @@ if (npm.current_month) {
 }
 if (npm.downloads_evidence_path) {
   const receipt = json(npm.downloads_evidence_path);
+  assert.equal(receipt.retrieved_at, npm.downloads_verified_at);
   assert.equal(receipt.packages.length, npm.download_package_count);
   assert.equal(new Set(receipt.packages.map(p => p.package)).size, npm.download_package_count);
   assert.equal(receipt.rolling_start, npm.period_start);
@@ -108,7 +112,9 @@ if (npm.downloads_evidence_path) {
   }
 }
 if (crates.inventory_path) {
-  const list = json(crates.inventory_path).crates;
+  const crateInventory = json(crates.inventory_path);
+  assert.equal(crateInventory.retrieved_at, crates.verified_at);
+  const list = crateInventory.crates;
   assert.equal(list.length, crates.crate_count);
   assert.equal(list.reduce((n, c) => n + c.downloads, 0), crates.cumulative_downloads);
 }
@@ -123,10 +129,15 @@ const running = json('data/ecosystem-running-totals.json');
 assert.deepEqual(running.source_watermark, watermark, 'Embedded source watermark must match its dated file');
 assert.equal(metrics.current_windows.github_activity_start, watermark.activity_window_utc.start);
 assert.equal(metrics.current_windows.github_activity_end, watermark.activity_window_utc.end);
+assert.equal(metrics.current_windows.npm_14_day_start, running.npm.period_start);
+assert.equal(metrics.current_windows.npm_14_day_end, running.npm.period_end);
 assert.equal(metrics.current_windows.npm_14_day_confirmed_download_events, running.npm.observed_downloads);
 assert.deepEqual(metrics.current_windows.npm_14_day_unknown_days, running.npm.unknown_days);
-assert.equal(metrics.current_windows.npm_14_day_complete_utc_days, watermark.activity_window_utc.complete_days);
+assert.equal(metrics.current_windows.npm_14_day_complete_utc_days,
+  (Date.parse(running.npm.period_end) - Date.parse(running.npm.period_start)) / 86400000 + 1);
 assert.equal(metrics.current_windows.npm_14_day_confirmed_days, running.npm.confirmed_days);
+assert.equal(metrics.current_windows.npm_14_day_confirmed_days + metrics.current_windows.npm_14_day_unknown_days.length,
+  metrics.current_windows.npm_14_day_complete_utc_days);
 assert.equal(metrics.current_windows.npm_14_day_is_rolling_24h, false);
 const milestone = running.download_milestone;
 const periodTotal = npm.monthly_downloads.reduce((sum,row)=>sum+row.downloads,0)+(npm.current_month?.downloads || 0);

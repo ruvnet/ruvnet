@@ -304,6 +304,8 @@ def main():
         'npm_download_package_count': registry['npm']['download_package_count'],
         'github_activity_start': window_start,
         'github_activity_end': window_end,
+        'npm_14_day_start': window_start,
+        'npm_14_day_end': window_end,
         'npm_14_day_confirmed_download_events': running['npm']['observed_downloads'],
         'npm_14_day_unknown_days': running['npm']['unknown_days'],
         'npm_14_day_complete_utc_days': len(expected),
