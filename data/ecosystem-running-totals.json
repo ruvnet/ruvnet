@@ -1,69 +1,69 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-01T14:18:03.429873Z",
+  "verified_at": "2026-11-02T13:33:28.580376Z",
   "github": {
-    "verified_at": "2026-11-01T13:57:51+00:00",
-    "followers": 12221,
+    "verified_at": "2026-11-02T13:11:40+00:00",
+    "followers": 12233,
     "all_owned": {
       "repositories": 230,
-      "stars": 199558,
-      "forks": 26496,
+      "stars": 199830,
+      "forks": 26534,
       "subscribers": 1806,
-      "open_issues_and_prs": 2951
+      "open_issues_and_prs": 2954
     },
     "nonfork": {
       "repositories": 203,
-      "stars": 199294,
-      "forks": 26403,
+      "stars": 199566,
+      "forks": 26441,
       "subscribers": 1803,
-      "open_issues_and_prs": 2941
+      "open_issues_and_prs": 2944
     },
     "top_repositories": [
       {
         "name": "RuView",
-        "stars": 101937,
-        "forks": 13244,
-        "subscribers": 902
+        "stars": 102066,
+        "forks": 13261,
+        "subscribers": 904
       },
       {
         "name": "ruflo",
-        "stars": 80480,
-        "forks": 9440,
-        "subscribers": 477
+        "stars": 80597,
+        "forks": 9459,
+        "subscribers": 475
       },
       {
         "name": "RuVector",
-        "stars": 4649,
-        "forks": 624,
+        "stars": 4656,
+        "forks": 625,
         "subscribers": 34
       },
       {
         "name": "agentic-flow",
-        "stars": 834,
+        "stars": 835,
         "forks": 178,
         "subscribers": 14
       },
       {
         "name": "metaharness",
-        "stars": 736,
+        "stars": 737,
         "forks": 93,
         "subscribers": 3
       },
       {
         "name": "Bot-Generator-Bot",
-        "stars": 587,
+        "stars": 586,
         "forks": 128,
         "subscribers": 15
       },
       {
         "name": "open-claude-code",
-        "stars": 555,
+        "stars": 556,
         "forks": 170,
         "subscribers": 6
       },
       {
         "name": "sparc",
-        "stars": 478,
+        "stars": 479,
         "forks": 91,
         "subscribers": 13
       },
@@ -80,44 +80,43 @@
         "subscribers": 11
       }
     ],
-    "clones": 651418,
-    "views": 215680,
+    "clones": 669031,
+    "views": 216035,
     "traffic_status": "available",
-    "source": "data/snapshots/2026-11-01/github-inventory.json",
+    "source": "data/snapshots/2026-11-02/github-inventory.json",
     "coverage": "All public owned repositories; 3 connector pages reconciled to 230 distinct public repository IDs; private records excluded before storage"
   },
   "activity": {
     "issues_opened": {
-      "count": 164,
+      "count": 167,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
     "issues_closed": {
-      "count": 116,
+      "count": 133,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
     "prs_opened": {
-      "count": 556,
+      "count": 554,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
     "prs_merged": {
-      "count": 391,
+      "count": 411,
       "incomplete_results": false,
       "source": "unauthenticated GitHub Search API; public results only"
     },
-    "verified_at": "2026-11-01T13:57:51+00:00"
+    "verified_at": "2026-11-02T13:11:40+00:00"
   },
   "npm": {
-    "period_start": "2026-10-18",
-    "period_end": "2026-10-31",
-    "observed_downloads": 5684609,
+    "period_start": "2026-10-19",
+    "period_end": "2026-11-01",
+    "observed_downloads": 5191205,
     "expected_packages": 401,
     "collected_packages": 401,
     "errors": [],
     "daily": {
-      "2026-10-18": 493404,
       "2026-10-22": 720281,
       "2026-10-23": 665088,
       "2026-10-24": 509995,
@@ -128,7 +127,6 @@
       "2026-10-29": 672205
     },
     "daily_package_coverage": {
-      "2026-10-18": 401,
       "2026-10-22": 401,
       "2026-10-23": 401,
       "2026-10-24": 401,
@@ -143,19 +141,20 @@
       "2026-10-20",
       "2026-10-21",
       "2026-10-30",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
     "status": "401 of 401 inventory packages collected; all-package-zero dates are unknown (null), not verified zero; provider latency may remain",
     "all_zero_cohort_days": [],
     "latest_confirmed_daily": {
-      "verified_at": "2026-11-01T14:17:56.956874Z",
+      "verified_at": "2026-11-02T13:33:22.339033Z",
       "day": "2026-10-29",
       "downloads": 672205,
       "expected_packages": 401,
       "collected_packages": 401,
       "period_type": "UTC calendar day",
       "rolling_24_hours": false,
-      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-10-31/{urlencoded_package}",
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-11-01/{urlencoded_package}",
       "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
     },
     "provisional_days": [
@@ -163,34 +162,36 @@
       "2026-10-20",
       "2026-10-21",
       "2026-10-30",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
-    "confirmed_days": 9,
+    "confirmed_days": 8,
     "unknown_days": [
       "2026-10-19",
       "2026-10-20",
       "2026-10-21",
       "2026-10-30",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
     "note": "Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads."
   },
   "crates_io": {
     "crate_count": 489,
-    "cumulative_downloads": 2024997,
-    "verified_at": "2026-11-01T14:18:03.428591Z",
+    "cumulative_downloads": 2033274,
+    "verified_at": "2026-11-02T13:33:28.579072Z",
     "source": "https://crates.io/api/v1/crates?user_id=339999"
   },
   "release_assets": {
     "coverage": "All 230 public owned repositories",
-    "releases": 2440,
-    "published_in_14_day_window": 61,
+    "releases": 2444,
+    "published_in_14_day_window": 66,
     "current_assets": 715,
-    "current_asset_downloads": 113623,
-    "retained_observed_downloads": 113626,
+    "current_asset_downloads": 113900,
+    "retained_observed_downloads": 113903,
     "retained_missing_assets": 8,
     "source": "https://api.github.com/repos/{owner}/{repo}/releases",
-    "inventory_path": "data/snapshots/2026-11-01/github-release-inventory.json",
+    "inventory_path": "data/snapshots/2026-11-02/github-release-inventory.json",
     "subscribers": 1806
   },
   "uncollected": [
@@ -201,7 +202,7 @@
     "github_public_repository_ids_unique": true,
     "release_pagination_complete_repositories": 230,
     "actions_pagination_complete_repositories": null,
-    "unique_daily_keys": 30214,
+    "unique_daily_keys": 31075,
     "replay_idempotent": true,
     "daily_total_reconciliation": true,
     "download_milestone_reconciliation": true,
@@ -217,7 +218,8 @@
       "2026-10-20",
       "2026-10-21",
       "2026-10-30",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ]
   },
   "actions": {
@@ -226,14 +228,14 @@
   },
   "open_items": {
     "open_issues": {
-      "count": 1589,
+      "count": 1588,
       "source": "unauthenticated GitHub Search API; public results only",
-      "checked_at": "2026-11-01T13:57:51+00:00"
+      "checked_at": "2026-11-02T13:11:40+00:00"
     },
     "open_prs": {
-      "count": 1360,
+      "count": 1364,
       "source": "unauthenticated GitHub Search API; public results only",
-      "checked_at": "2026-11-01T13:57:51+00:00"
+      "checked_at": "2026-11-02T13:11:40+00:00"
     }
   },
   "download_milestone": {
@@ -247,15 +249,15 @@
     "npm_increment_package_coverage": 401,
     "npm_expected_packages": 401,
     "npm_observed_total": 104430311,
-    "crates_io_cumulative": 2024997,
-    "combined_observed": 106455308,
+    "crates_io_cumulative": 2033274,
+    "combined_observed": 106463585,
     "remaining": 0,
     "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 401 of 401 inventory packages have download-range evidence",
-    "baseline_source": "data/snapshots/2026-11-01/npm-downloads.json",
-    "increment_source": "data/snapshots/2026-11-01/npm-downloads.json",
-    "npm_verified_at": "2026-11-01T14:17:56.956874Z",
+    "baseline_source": "data/snapshots/2026-11-02/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-11-02/npm-downloads.json",
+    "npm_verified_at": "2026-11-02T13:33:22.339033Z",
     "npm_reported_through": "2026-10-29",
-    "crates_io_verified_at": "2026-11-01T14:18:03.428591Z",
+    "crates_io_verified_at": "2026-11-02T13:33:28.579072Z",
     "internal_all_zero_cohort_days": [
       "2026-07-12",
       "2026-08-14",
@@ -273,31 +275,32 @@
     ],
     "trailing_all_zero_days_excluded": [
       "2026-10-30",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ]
   },
   "snapshot_delta": {
     "repositories": 0,
-    "stars": 242,
-    "forks": 41,
-    "followers": 13
+    "stars": 272,
+    "forks": 38,
+    "followers": 12
   },
   "traffic": {
     "observed_since": "2026-09-30",
-    "through": "2026-10-31",
-    "window_start": "2026-10-18",
-    "window_end": "2026-10-31",
-    "clone_events_last_14_complete_utc_days": 651418,
-    "view_events_last_14_complete_utc_days": 215680,
-    "known_clone_events_in_requested_window": 651418,
-    "known_view_events_in_requested_window": 215680,
+    "through": "2026-11-01",
+    "window_start": "2026-10-19",
+    "window_end": "2026-11-01",
+    "clone_events_last_14_complete_utc_days": 669031,
+    "view_events_last_14_complete_utc_days": 216035,
+    "known_clone_events_in_requested_window": 669031,
+    "known_view_events_in_requested_window": 216035,
     "coverage_status": "available",
     "expected_cells_per_metric": 3220,
     "source_cells_per_metric": 3220,
     "missing_cells_per_metric": 0,
     "missing_days": [],
-    "clone_events_observed_since": 1672059,
-    "view_events_observed_since": 433001,
+    "clone_events_observed_since": 1725671,
+    "view_events_observed_since": 446865,
     "repositories_with_clone_coverage": 230,
     "repositories_with_view_coverage": 230,
     "unique_cloners_across_repositories": null,
@@ -307,15 +310,15 @@
   "source_watermark": {
     "schema_version": 1,
     "repository": "ruvnet/ruvnet",
-    "snapshot_date": "2026-11-01",
-    "default_branch_base_sha": "7f4b8d334ec8d41d35368c1e0ed9d40c08594c8b",
-    "collection_branch_parent_sha": "7f4b8d334ec8d41d35368c1e0ed9d40c08594c8b",
+    "snapshot_date": "2026-11-02",
+    "default_branch_base_sha": "68750e999c8bc1a0d3c2aa2a432aeae852be39cb",
+    "collection_branch_parent_sha": "68750e999c8bc1a0d3c2aa2a432aeae852be39cb",
     "collector_sha256": "c4d480ea52785f07932c05c2fc627ee08f0f377754c9780a1860ef1908cc2d7a",
-    "github_adapter_sha256": "be81f4754b5fb99ae99f067c8c65cd03273d745c9ab50716e09d8a33bf0109f8",
-    "github_verified_at": "2026-11-01T13:57:51+00:00",
-    "npm_inventory_verified_at": "2026-11-01T13:56:44.576672Z",
-    "npm_downloads_verified_at": "2026-11-01T14:17:56.956874Z",
-    "crates_io_verified_at": "2026-11-01T14:18:03.428591Z",
+    "github_adapter_sha256": "ffac646c1e3b7c2084791fe6e4bd47fdc18be38bf30b8e9fcb7e369d17cbf942",
+    "github_verified_at": "2026-11-02T13:11:40+00:00",
+    "npm_inventory_verified_at": "2026-11-02T13:10:27.056255Z",
+    "npm_downloads_verified_at": "2026-11-02T13:33:22.339033Z",
+    "crates_io_verified_at": "2026-11-02T13:33:28.579072Z",
     "public_repository_ids": 230,
     "pagination_offsets": [
       0,
@@ -323,8 +326,8 @@
       200
     ],
     "activity_window_utc": {
-      "start": "2026-10-18",
-      "end": "2026-10-31",
+      "start": "2026-10-19",
+      "end": "2026-11-01",
       "complete_days": 14
     },
     "traffic_coverage": {
@@ -338,17 +341,17 @@
       "observed_since": "2026-09-30",
       "source_cells_per_metric": 3220,
       "expected_cells_per_metric": 3220,
-      "precreation_zero_cells": 16,
+      "precreation_zero_cells": 13,
       "backfilled_prior_ledger_cells": 0,
       "current_utc_day_excluded": true,
       "synthesized_precreation_zero_cells": 0,
       "exact_window_totals": {
-        "clones": 651418,
-        "views": 215680
+        "clones": 669031,
+        "views": 216035
       },
       "known_lower_bounds": {
-        "clones": 651418,
-        "views": 215680
+        "clones": 669031,
+        "views": 216035
       }
     },
     "npm_coverage": {
@@ -356,22 +359,23 @@
       "responses": [
         {
           "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=0",
-          "retrieved_at": "2026-11-01T13:56:44.366500Z",
-          "response_sha256": "b4a7eb3daf74cc2396f316d4ed303e73f09e59c6caa7a37e94c789220575a17e"
+          "retrieved_at": "2026-11-02T13:10:26.921376Z",
+          "response_sha256": "7c5ab0e18a94f59b80ad8cff7c812ff676df7f928f27bda359c617c92c3e4493"
         },
         {
           "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=250",
-          "retrieved_at": "2026-11-01T13:56:44.576672Z",
-          "response_sha256": "9d3dc5b04e1aa4a05a31dd26d4f742135754e461475899ac8d5cc1275db7226a"
+          "retrieved_at": "2026-11-02T13:10:27.056255Z",
+          "response_sha256": "e181838831e5c07faebee035c187a49ed2ed0a3323d5b787aec06768120fce15"
         }
       ],
-      "confirmed_daily_dates": 9,
+      "confirmed_daily_dates": 8,
       "unknown_days": [
         "2026-10-19",
         "2026-10-20",
         "2026-10-21",
         "2026-10-30",
-        "2026-10-31"
+        "2026-10-31",
+        "2026-11-01"
       ],
       "current_utc_day_excluded": true
     },
@@ -379,35 +383,35 @@
       "crates": 489
     },
     "release_coverage": {
-      "releases": 2440,
+      "releases": 2444,
       "assets": 715,
       "repositories": 230
     },
     "registry_collector": "scripts/refresh-registry-metrics.py",
     "registry_collector_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
     "snapshot_aggregator": "scripts/update-ecosystem-snapshot.py",
-    "snapshot_aggregator_sha256": "8d024dd359f45f46c67d65173075c9c11ccde0b6f7b1c624ca6fe3b5fb7d836e",
+    "snapshot_aggregator_sha256": "3ed7f56e4f9c8801687ce99f7619ee53c5b3220a60e1905326f902b26120351f",
     "actions_runs": null,
     "actions_blocker": "GitHub API caps complete run enumeration at 1,000 results/query.",
     "npm_zero_day_policy": "All-package zero responses are unknown pending confirmation/backfill.",
     "source_version": "ruvnet ecosystem metrics snapshot v1; public-only",
     "refresh-registry-metrics.py_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
-    "update-ecosystem-snapshot.py_sha256": "8d024dd359f45f46c67d65173075c9c11ccde0b6f7b1c624ca6fe3b5fb7d836e",
+    "update-ecosystem-snapshot.py_sha256": "3ed7f56e4f9c8801687ce99f7619ee53c5b3220a60e1905326f902b26120351f",
     "render-visual-profile.py_sha256": "71f39242ca3119381c6a899bdac6ec7e1661cbc2f5ba4a7a3dc1d8b0c8c955cd",
     "registry_execution": {
       "collector": "scripts/refresh-registry-metrics.py",
-      "checkpoint_adapter_sha256": "a37b9801dcff6a7724c5125dfe1def6e9036323684b6c1f1907d3fd005b40b32",
+      "checkpoint_adapter_sha256": "7e215d5bbdd8b5d188c76323b33b81777769cd5d610957b0b77226ff8b4e6146",
       "note": "Provider responses checkpointed durably during collection."
     },
-    "normalizer_sha256": "17b2c9f78cb0640ed90147b33e4559c558b168413107278a53ed7d87d8f18eba",
-    "finalizer_sha256": "0ef3e015cb27130e615611798ce3e069c82eea083381371934aea69aacbfa3b2",
+    "normalizer_sha256": "91d643c3f46277b6a81af5c168ed126cb13a40c9310edc88496d874770bbd04c",
+    "finalizer_sha256": "46fc2240e203d9ef2fc5b376bc42b4f67c10444f5d75387dd40d3ddabd02495b",
     "source_sha256": {
-      "github-inventory.json": "7f1eea91f78a8e1998dad57b3f3e6d9ae3b76fe273f52818a072d1f97b2ae78a",
-      "github-release-inventory.json": "bfd774e545fb3eba0512ae62a3d0d3719834170e344f62766814c613e2c0ae1c",
-      "github-traffic-inventory.json": "ccff3d8a43035f2f63e8727aee4d6cb276ac5df1a409c7ec73969ac5482f8bdb",
-      "npm-inventory.json": "1109d121343594010f1227b3a7ef0fe0ea4d13c9b8c0a576c1549a4a46b8d712",
-      "npm-downloads.json": "8d1b11b4e931c554d6ba6538b8b892fb2353a3095630a122791fd718c5827c4b",
-      "crates-inventory.json": "8e34d67e9dc621343e4e4d6306330abd82ff7fc54fa784f9b938db7e7f8035c2"
+      "github-inventory.json": "88113a95ecf737bc948680e2eb35cf9a068645e4b38da6692253830f2b6c3381",
+      "github-release-inventory.json": "bee0f34e4b0e9c3e54cbeb98325d292f7163a6c720e7d75ed71000cdbab69f32",
+      "github-traffic-inventory.json": "7f76f8999ebfba156921614ba079b37f6ac06b9f4af381529c33bbaf954511ee",
+      "npm-inventory.json": "4a019c13169e58482ead23a78075412662d955980e6d71518343e564b1590a78",
+      "npm-downloads.json": "40294dbd152749ab6a8aef4927ae6de2667a280040624fe8c6738a29f9660fa5",
+      "crates-inventory.json": "d8143adac6c4fe679014191091eabd46f21b59459dba7f4b42499faf98f869dd"
     },
     "github_pagination": {
       "per_page": 100,
@@ -420,7 +424,7 @@
       "terminal_page_count": 0,
       "unique_repository_ids": 230,
       "complete": true,
-      "terminal_page_verified_at": "2026-11-01T13:58:49.453239+00:00",
+      "terminal_page_verified_at": "2026-11-02T13:12:40.341361+00:00",
       "terminal_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     },
     "historical_npm_upserts": {
@@ -429,12 +433,18 @@
       "earliest_revised_date": null,
       "latest_revised_date": null,
       "packages": [],
-      "comparison_base_sha": "7f4b8d334ec8d41d35368c1e0ed9d40c08594c8b",
+      "comparison_base_sha": "68750e999c8bc1a0d3c2aa2a432aeae852be39cb",
       "scope": "Previously stored historical cells only; all-cohort-zero dates remain null."
     },
     "earliest_stored_ledger_date_by_provider": {
       "github": "2026-09-30",
       "npm": "2025-10-01"
+    },
+    "original_collection_base_sha": "f08b789b092404b84671a9e775a117db7cd514f4",
+    "npm_availability_check": {
+      "path": "data/snapshots/2026-11-02/npm-availability-check.json",
+      "sha256": "3f127dd7dcc54bb1e97a58deac485883f058523c508c9dfa2a4e183e38091405",
+      "metric_use": "Availability evidence only; not added to download totals."
     }
   }
 }
