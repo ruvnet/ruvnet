@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source": "https://api.npmjs.org/downloads/point/last-day/claude-flow",
+  "retrieved_at": "2026-11-03T13:33:16.579345+00:00",
+  "response_sha256": "f814c6314c1296f154ba8dea14d68340324c30ca950d40663988f3d135252477",
+  "response": {
+    "downloads": 1626,
+    "start": "2026-11-02",
+    "end": "2026-11-02",
+    "package": "claude-flow"
+  },
+  "interpretation": "Availability spot check only; not added to cohort totals or a rolling 24-hour measure."
+}
