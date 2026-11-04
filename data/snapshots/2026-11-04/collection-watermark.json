@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-11-04",
+  "default_branch_base_sha": "a8e403339d6d3796d8ce0633536283af0ca35bf3",
+  "collection_branch_parent_sha": "a8e403339d6d3796d8ce0633536283af0ca35bf3",
+  "collector_sha256": "c4d480ea52785f07932c05c2fc627ee08f0f377754c9780a1860ef1908cc2d7a",
+  "github_adapter_sha256": "5a42515d880ba3a351554313761a79d17c8f83ca07f63a64f345d653a27dbea8",
+  "github_verified_at": "2026-11-04T13:57:41+00:00",
+  "npm_inventory_verified_at": "2026-11-04T13:56:25.406108Z",
+  "npm_downloads_verified_at": "2026-11-04T14:16:26.298005Z",
+  "crates_io_verified_at": "2026-11-04T14:16:32.631159Z",
+  "public_repository_ids": 231,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-10-21",
+    "end": "2026-11-03",
+    "complete_days": 14
+  },
+  "traffic_coverage": {
+    "repositories": 231,
+    "expected_days": 14,
+    "clone_days_with_full_coverage": 14,
+    "view_days_with_full_coverage": 14,
+    "missing_cells": 0,
+    "missing_cells_per_metric": 0,
+    "missing_days": [],
+    "observed_since": "2026-09-30",
+    "source_cells_per_metric": 3234,
+    "expected_cells_per_metric": 3234,
+    "precreation_zero_cells": 20,
+    "backfilled_prior_ledger_cells": 0,
+    "current_utc_day_excluded": true,
+    "synthesized_precreation_zero_cells": 0,
+    "exact_window_totals": {
+      "clones": 634285,
+      "views": 221724
+    },
+    "known_lower_bounds": {
+      "clones": 634285,
+      "views": 221724
+    }
+  },
+  "npm_coverage": {
+    "packages": 401,
+    "responses": [
+      {
+        "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=0",
+        "retrieved_at": "2026-11-04T13:56:25.203392Z",
+        "response_sha256": "beb669081c48dcea6f7892b5ab980588e07d0fa3ebcd548d62c84a4a7ef0ce7d"
+      },
+      {
+        "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=250",
+        "retrieved_at": "2026-11-04T13:56:25.406108Z",
+        "response_sha256": "f55ccdc13b9b42ab3662e7e0173d01d37e2a12b136cb32111252f2153a96a4e8"
+      }
+    ],
+    "confirmed_daily_dates": 13,
+    "unknown_days": [
+      "2026-10-21"
+    ],
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 489
+  },
+  "release_coverage": {
+    "releases": 2446,
+    "assets": 717,
+    "repositories": 231
+  },
+  "registry_collector": "scripts/refresh-registry-metrics.py",
+  "registry_collector_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
+  "snapshot_aggregator": "scripts/update-ecosystem-snapshot.py",
+  "snapshot_aggregator_sha256": "3ed7f56e4f9c8801687ce99f7619ee53c5b3220a60e1905326f902b26120351f",
+  "actions_runs": null,
+  "actions_blocker": "GitHub API caps complete run enumeration at 1,000 results/query.",
+  "npm_zero_day_policy": "All-package zero responses are unknown pending confirmation/backfill.",
+  "source_version": "ruvnet ecosystem metrics snapshot v1; public-only",
+  "refresh-registry-metrics.py_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
+  "update-ecosystem-snapshot.py_sha256": "3ed7f56e4f9c8801687ce99f7619ee53c5b3220a60e1905326f902b26120351f",
+  "render-visual-profile.py_sha256": "71f39242ca3119381c6a899bdac6ec7e1661cbc2f5ba4a7a3dc1d8b0c8c955cd",
+  "registry_execution": {
+    "collector": "scripts/refresh-registry-metrics.py",
+    "checkpoint_adapter_sha256": "0f4880ba13fe31d0235280f42392d85719299a56c04c8a08c78b9f388d3a1066",
+    "note": "Provider responses checkpointed durably during collection."
+  },
+  "normalizer_sha256": "035a7fb891789cac168533c99e2525274bac61a901343b44263046d546db89f9",
+  "finalizer_sha256": "e2ce0363814f3c55ff108577298a2b3953b95d5cd52a56dd2a9ab3445c584150",
+  "source_sha256": {
+    "github-inventory.json": "8b9c39f36d6dbd52f253c735ab2f0ff6ab7d96fa24b60b1457ab3d670e0eadfe",
+    "github-release-inventory.json": "25e7b51eb7c852a3b60df6ff9c7c095b4bfed7d4e176b34fc75e73a6e46fdde8",
+    "github-traffic-inventory.json": "f53d1f5b20bfea53ac37e9ca97be718e199097739846fbac40a0002d10de85e8",
+    "npm-inventory.json": "2e56b08ada1bf82224951fdd021174e1898307aca8d1f45f143fe86fb8bccf02",
+    "npm-downloads.json": "e4b6783780d2ed2bcf8c5028fe351a8fe9015aa4195d01d5a4a7532dd2617fe1",
+    "crates-inventory.json": "0493cb9abbcfeace5d8157f4425806f1ce472f17cd6648aaf511f12eddbeefbf"
+  },
+  "github_pagination": {
+    "per_page": 100,
+    "populated_pages": [
+      1,
+      2,
+      3
+    ],
+    "terminal_page": 4,
+    "terminal_page_count": 0,
+    "unique_repository_ids": 231,
+    "complete": true,
+    "terminal_page_verified_at": "2026-11-04T14:16:37.243552+00:00",
+    "terminal_response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "historical_npm_upserts": {
+    "revised_cells": 2,
+    "null_to_verified_zero": 2,
+    "earliest_revised_date": "2026-08-14",
+    "latest_revised_date": "2026-08-14",
+    "packages": [
+      "@ruv/rash",
+      "@ruvnet/site-harness"
+    ],
+    "comparison_base_sha": "a8e403339d6d3796d8ce0633536283af0ca35bf3",
+    "scope": "Previously stored historical cells only; all-cohort-zero dates remain null."
+  },
+  "earliest_stored_ledger_date_by_provider": {
+    "github": "2026-09-30",
+    "npm": "2025-10-01"
+  },
+  "original_collection_base_sha": "a8e403339d6d3796d8ce0633536283af0ca35bf3"
+}
