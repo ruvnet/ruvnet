@@ -33,6 +33,41 @@ def number(value):
     return f'{value:,}' if isinstance(value, (int, float)) else 'Unknown'
 
 
+def recently_shipped(day, inventory, registry):
+    from urllib.parse import quote
+    cutoff = day - dt.timedelta(days=27)
+    repos = sorted((r for r in inventory['repositories']
+                    if r.get('private') is False and not r.get('fork') and not r.get('archived')
+                    and str(cutoff) <= r['created_at'][:10] <= str(day)),
+                   key=lambda r: (r['created_at'], r['name']), reverse=True)
+    lines = ['<!-- recently-shipped:start -->', '## Recently shipped', '',
+             f'Public nonfork repositories created in the 28 days through {day} UTC.', '']
+    lines += [f"* [{r['name']}](https://github.com/ruvnet/{quote(r['name'], safe='')}) ({r['created_at'][:10]})"
+              for r in repos[:10]] or ['No new repositories in this window.']
+    for provider, key, url in (
+        ('npm', 'packages', 'https://www.npmjs.com/package/'),
+        ('crates_io', 'crates', 'https://crates.io/crates/'),
+    ):
+        current = ROOT / registry[provider]['inventory_path']
+        stamp = current.parent.name
+        prior = sorted(p for p in (ROOT / 'data/snapshots').glob('*/' + current.name)
+                       if str(cutoff) <= p.parent.name < stamp)
+        if not prior:
+            continue
+
+        def names(path):
+            return {row if isinstance(row, str) else row['id']
+                    for row in json.loads(path.read_text())[key]}
+
+        added = sorted(names(current) - names(prior[0]))
+        if added:
+            links = ', '.join(f'[{name}]({url}{quote(name, safe="@/")})' for name in added[:8])
+            suffix = f' (plus {len(added)-8} more)' if len(added) > 8 else ''
+            label = 'npm' if provider == 'npm' else 'crates.io'
+            lines += ['', f"**{label}:** {len(added)} newly listed since {prior[0].parent.name} (inventory {stamp}): {links}{suffix}."]
+    return '\n'.join(lines + ['', '<!-- recently-shipped:end -->'])
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--date', required=True)
@@ -449,6 +484,16 @@ RuView and Ruflo account for **{(top[0]['stars'] + top[1]['stars']) / stars * 10
     if not marker or end not in tail:
         raise ValueError('README GitHub metrics markers missing')
     _, _, after = tail.partition(end)
+    shipped = recently_shipped(day, inventory, registry)
+    start, finish = '<!-- recently-shipped:start -->', '<!-- recently-shipped:end -->'
+    if start in after:
+        left, _, rest = after.partition(start)
+        _, marker, right = rest.partition(finish)
+        if not marker:
+            raise ValueError('README Recently shipped end marker missing')
+        after = left + shipped + right
+    else:
+        after = '\n\n' + shipped + after
     readme_path.write_text(before + block + after)
 
     subprocess.run(['python3', 'scripts/render-github-metrics.py'], cwd=ROOT, check=True)
