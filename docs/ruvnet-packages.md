@@ -1,8 +1,8 @@
 # rUv · Packages & Libraries Index
 
-Author: ruvnet (Reuven Cohen). Current inventory observed 2026-11-04 UTC. The detailed June and July catalog below remains a historical record.
+Author: ruvnet (Reuven Cohen). Current inventory observed 2026-11-05 UTC. The detailed June and July catalog below remains a historical record.
 
-**At least 920 published artifacts** across the known distribution surface: **489 Rust crates**, **401 known npm packages**, plus **8 PyPI packages** and **22 Hugging Face artifacts** retained from their July ownership checks. Packages, native target binaries, adapters, and examples are grouped under products; they are not 920 separate inventions.
+**At least 924 published artifacts** across the known distribution surface: **492 Rust crates**, **402 known npm packages**, plus **8 PyPI packages** and **22 Hugging Face artifacts** retained from their July ownership checks. Packages, native target binaries, adapters, and examples are grouped under products; they are not 924 separate inventions.
 
 Repository history records lineage. Registry versions record publication, with timestamps and package integrity metadata. Neither establishes sole authorship, independent adoption, or the truth of a benchmark claim.
 
@@ -11,12 +11,12 @@ Repository history records lineage. Registry versions record publication, with t
 
 | Registry | Packages | Downloads | Verified |
 | --- | ---: | --- | --- |
-| [crates.io](https://crates.io/users/ruvnet) | 489 | 2,057,423 cumulative | 2026-11-04 UTC |
-| [npm](https://www.npmjs.com/~ruvnet) | at least 401 | 108,774,376 during 2025-11-04 through 2026-11-03; 401 package cohort | Inventory 2026-11-04; downloads 2026-11-04 |
+| [crates.io](https://crates.io/users/ruvnet) | 492 | 2,080,867 cumulative | 2026-11-05 UTC |
+| [npm](https://www.npmjs.com/~ruvnet) | at least 402 | 109,592,875 during 2025-11-05 through 2026-11-04; 402 package cohort | Inventory 2026-11-05; downloads 2026-11-05 |
 | [PyPI](https://pypi.org/user/ruvnet/) | 8 | Not aggregated | Historical ownership check, July 12, 2026 |
 | [Hugging Face](https://huggingface.co/ruvnet) | 22 | Not recounted | Historical inventory, July 12, 2026 |
 
-The npm inventory and download evidence cover the same **401 package cohort**, verified **2026-11-04 UTC**. [Registry data](../data/registry-stats.json) retains exact windows and dates.
+The npm inventory and download evidence cover the same **402 package cohort**, verified **2026-11-05 UTC**. [Registry data](../data/registry-stats.json) retains exact windows and dates.
 <!-- registry-summary:end -->
 
 ## RVF and current package evidence

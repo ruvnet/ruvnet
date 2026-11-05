@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-04T14:16:32.632734Z",
+  "generated_at": "2026-11-05T13:45:33.888299Z",
   "npm": {
     "maintainer": "ruvnet",
-    "package_count": 401,
-    "download_package_count": 401,
-    "inventory_verified_at": "2026-11-04T13:56:25.406108Z",
-    "downloads_verified_at": "2026-11-04T14:16:26.298005Z",
-    "downloads": 108774376,
-    "period_start": "2025-11-04",
-    "period_end": "2026-11-03",
+    "package_count": 402,
+    "download_package_count": 402,
+    "inventory_verified_at": "2026-11-05T13:23:49.528642Z",
+    "downloads_verified_at": "2026-11-05T13:45:27.694825Z",
+    "downloads": 109592875,
+    "period_start": "2025-11-05",
+    "period_end": "2026-11-04",
     "period_days": 365,
     "monthly_period_start": "2025-10-01",
-    "inventory_path": "data/snapshots/2026-11-04/npm-inventory.json",
-    "downloads_evidence_path": "data/snapshots/2026-11-04/npm-downloads.json",
-    "counting_rule": "Sum of official npm daily range counts across the verified 401 of 401 packages in the maintainer cohort, including scoped and platform packages. Packages whose range endpoint is not yet available remain explicitly missing, never zero. Trailing all-zero cohort days are excluded as not yet confirmed complete.",
+    "inventory_path": "data/snapshots/2026-11-05/npm-inventory.json",
+    "downloads_evidence_path": "data/snapshots/2026-11-05/npm-downloads.json",
+    "counting_rule": "Sum of official npm daily range counts across the verified 402 of 402 packages in the maintainer cohort, including scoped and platform packages. Packages whose range endpoint is not yet available remain explicitly missing, never zero. Trailing all-zero cohort days are excluded as not yet confirmed complete.",
     "monthly_period_end": "2026-10-31",
     "monthly_downloads": [
       {
@@ -72,19 +72,19 @@
     ],
     "current_month": {
       "month": "2026-11",
-      "downloads": 2495903,
+      "downloads": 3321845,
       "period_start": "2026-11-01",
-      "period_end": "2026-11-03",
+      "period_end": "2026-11-04",
       "status": "partial month; trailing all-zero API days excluded",
-      "verified_at": "2026-11-04T14:16:26.298005Z"
+      "verified_at": "2026-11-05T13:45:27.694825Z"
     }
   },
   "crates_io": {
     "user_id": 339999,
-    "verified_at": "2026-11-04T14:16:32.631159Z",
-    "crate_count": 489,
-    "cumulative_downloads": 2057423,
-    "inventory_path": "data/snapshots/2026-11-04/crates-inventory.json",
+    "verified_at": "2026-11-05T13:45:33.887168Z",
+    "crate_count": 492,
+    "cumulative_downloads": 2080867,
+    "inventory_path": "data/snapshots/2026-11-05/crates-inventory.json",
     "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   }
 }
