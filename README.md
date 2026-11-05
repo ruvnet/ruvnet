@@ -210,6 +210,26 @@ Public GitHub API snapshot verified **November 5, 2026 UTC**. [Captured inventor
 RuView and Ruflo account for **91.5% of owned public nonfork stars** and **86.0% of downstream forks**.
 <!-- github-public-metrics:end -->
 
+<!-- recently-shipped:start -->
+## Recently shipped
+
+Public nonfork repositories created in the 28 days through 2026-11-05 UTC.
+
+* [ruvllm](https://github.com/ruvnet/ruvllm) (2026-11-03)
+* [rune](https://github.com/ruvnet/rune) (2026-10-26)
+* [Polymath](https://github.com/ruvnet/Polymath) (2026-10-22)
+* [AngelNet](https://github.com/ruvnet/AngelNet) (2026-10-22)
+* [ruGraph](https://github.com/ruvnet/ruGraph) (2026-10-16)
+* [site-harness](https://github.com/ruvnet/site-harness) (2026-10-14)
+* [Rash](https://github.com/ruvnet/Rash) (2026-10-12)
+* [readme-proof](https://github.com/ruvnet/readme-proof) (2026-10-11)
+
+**npm:** 4 newly listed since 2026-10-09 (inventory 2026-11-05): [@ruv/rash](https://www.npmjs.com/package/@ruv/rash), [@ruvector/all](https://www.npmjs.com/package/@ruvector/all), [@ruvnet/site-harness](https://www.npmjs.com/package/@ruvnet/site-harness), [readme-proof](https://www.npmjs.com/package/readme-proof).
+
+**crates.io:** 12 newly listed since 2026-10-09 (inventory 2026-11-05): [emergent-time-wasm](https://crates.io/crates/emergent-time-wasm), [rune-toolchain](https://crates.io/crates/rune-toolchain), [rune-toolchain-cargo](https://crates.io/crates/rune-toolchain-cargo), [rune-toolchain-core](https://crates.io/crates/rune-toolchain-core), [rune-toolchain-edit](https://crates.io/crates/rune-toolchain-edit), [rune-toolchain-eval](https://crates.io/crates/rune-toolchain-eval), [rune-toolchain-gc](https://crates.io/crates/rune-toolchain-gc), [rune-toolchain-memory](https://crates.io/crates/rune-toolchain-memory) (plus 4 more).
+
+<!-- recently-shipped:end -->
+
 ![Published across the stack: registry packages and model artifacts](assets/ruvnet/distribution.svg)
 
 <!-- package-public-metrics:start -->

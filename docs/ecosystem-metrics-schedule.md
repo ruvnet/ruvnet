@@ -15,3 +15,7 @@ After updating the JSON sources, run `python3 scripts/render-visual-profile.py` 
 Replaying an identical snapshot must leave every running total unchanged. Every published total must include source, time window, cohort, coverage and missing-data status. No overlapping window totals may be added together.
 
 For npm daily reporting, distinguish a completed UTC calendar day from a rolling 24-hour value. Report the latest confirmed daily total and date; keep recent all-zero dates provisional/unknown unless the provider confirms them. Use the existing package collector and preserve per-source timestamps.
+
+## New projects and packages
+
+Each daily refresh rediscovers the public GitHub, verified npm maintainer, and crates.io owner inventories. The README Recently shipped section highlights public nonfork, nonarchived repositories created in the last 28 days and registry additions compared with the earliest available inventory in that window. Newly listed means new to the verified cohort; it does not imply a first publication date.
