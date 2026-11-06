@@ -210,9 +210,8 @@ def main():
     if npm_errors:
         npm_gap_sentence = (
             f"{len(npm_errors)} npm package"
-            f"{'s are' if len(npm_errors) != 1 else ' is'} explicitly missing because "
-            f"{'their' if len(npm_errors) != 1 else 'its'} range endpoint returned HTTP 404 "
-            "after bounded retries.")
+            f"{'s are' if len(npm_errors) != 1 else ' is'} missing download-range evidence. "
+            f"See [npm source evidence](../{npm_path}) for provider errors.")
     else:
         npm_gap_sentence = 'All inventory packages have download-range evidence.'
 
@@ -352,11 +351,11 @@ def main():
         metrics['source_watermark'] = watermark_path
     retained_notes = [
         note for note in metrics.get('notes', [])
-        if 'all-package-zero npm dates' not in note
+        if 'all-package-zero npm dates' not in note and 'npm dates with incomplete coverage' not in note
         and not note.startswith('The npm download cohort is ')
     ]
     retained_notes.extend([
-        (f"{len(missing_days)} all-package-zero npm dates in {window_start} through "
+        (f"{len(missing_days)} npm dates with incomplete coverage in {window_start} through "
          f"{window_end} UTC are unknown (null), never zero; {args.date} is incomplete "
          "and excluded."),
         (f"The npm download cohort is {registry['npm']['download_package_count']} packages; "
@@ -432,7 +431,7 @@ Workflow run counts are unknown. GitHub limits complete run enumeration to 1,000
 
 ## npm downloads
 
-Confirmed daily-event sum: {number(running['npm']['observed_downloads'])} across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. {npm_gap_sentence} All-package-zero days {', '.join(missing_days) if missing_days else 'none'} are unknown (null), not zero, and excluded from the sum. This is not a lifetime or rolling-24-hour count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
+Confirmed daily-event sum: {number(running['npm']['observed_downloads'])} across {registry['npm']['download_package_count']} of {registry['npm']['package_count']} packages for {start_label} through {end_label}. {npm_gap_sentence} Dates with incomplete package coverage: {', '.join(missing_days) if missing_days else 'none'}. Missing package observations remain unknown (null); the sum includes only observed events. This is not a lifetime or rolling-24-hour count. The separate rolling 365 day total is {number(registry['npm']['downloads'])}, through {registry['npm']['period_end']}.
 
 ## Coverage and gaps
 
