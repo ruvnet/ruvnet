@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+  "name": "ruvnet",
+  "summary": "Public navigation, capability inventory and provenance nexus for the ruvnet constellation.",
+  "repository": {
+    "url": "https://github.com/ruvnet/ruvnet",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "ecosystem-discovery",
+      "description": "Publish project, package and evidence inventories for people and AI systems.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/CONTRIBUTING.md",
+          "revision": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8",
+          "kind": "documentation"
+        },
+        {
+          "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/llms.txt",
+          "revision": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "package-inventory",
+      "description": "Maintain documented repository and package mappings with dated source evidence.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/docs/ruvnet-packages.md",
+          "revision": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "llms-txt",
+      "url": "https://github.com/ruvnet/ruvnet/blob/9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8/llms.txt",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "9e5915a0b8f9437bc0cc2f55a27ab9c545ac44f8",
+    "observedAt": "2026-10-10T03:00:00Z"
+  }
+}

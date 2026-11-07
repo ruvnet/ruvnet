@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/photonlayer/resources/manifest.ruv",
+  "name": "PhotonLayer",
+  "summary": "Rust software simulation of task trained optical compression; fabricated optical hardware remains roadmap work.",
+  "repository": {
+    "url": "https://github.com/ruvnet/PhotonLayer",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "optical-simulation",
+      "description": "Simulate learned phase masks and compressed sensor measurements.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/README.md",
+          "revision": "fe86c9fad9a1572ce46e337f118656961bdf4ebb",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "experiment-receipts",
+      "description": "Record deterministic experiment receipts.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/README.md",
+          "revision": "fe86c9fad9a1572ce46e337f118656961bdf4ebb",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/PhotonLayer/blob/fe86c9fad9a1572ce46e337f118656961bdf4ebb/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "fe86c9fad9a1572ce46e337f118656961bdf4ebb",
+    "observedAt": "2026-10-10T03:00:00Z"
+  }
+}
