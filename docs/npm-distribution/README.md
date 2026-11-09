@@ -39,5 +39,25 @@ before batching. Unpacked archive size is **not** cold installed
 size; the latter is measured for a release candidate and its pinned baseline.
 Collection never installs a package or publishes a release.
 
+## Preview a metadata wave
+
+In an isolated checkout of the owning project, at the source commit recorded
+in the public queue, preview a batch before changing any files:
+
+```sh
+python3 scripts/prepare-npm-homepage-wave.py \
+  /tmp/ruvnet-npm-distribution-public.json ruvnet/metaharness /path/to/checkout
+```
+
+Add `--apply` only after review. It edits local homepage fields only. It
+refuses a dirty checkout, changed source commit, manifest blob mismatch,
+symlinks and ambiguous package paths. Readme, dependency, topic and release
+changes remain separate review gates. The script never commits or pushes.
+
 The optional paths begin with [RuVector](https://github.com/ruvnet/ruvector),
 [MetaHarness](https://github.com/ruvnet/metaharness), and [Ruflo](https://github.com/ruvnet/ruflo).
+The source changes are tracked in [RuVector #1409](https://github.com/ruvnet/RuVector/pull/1409),
+[MetaHarness #480](https://github.com/ruvnet/metaharness/pull/480), and
+[Ruflo #4896](https://github.com/ruvnet/ruflo/pull/4896). The next verified
+examples wave is [MetaHarness #481](https://github.com/ruvnet/metaharness/pull/481).
+The pull requests describe what was tested; published npm versions are separate.

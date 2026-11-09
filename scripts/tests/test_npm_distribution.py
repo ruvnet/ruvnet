@@ -2,6 +2,8 @@ import base64
 import importlib.util
 import json
 import pathlib
+import subprocess
+import tempfile
 import unittest
 import urllib.request
 from unittest.mock import patch
@@ -18,6 +20,7 @@ def load(name):
 collector = load("collect-npm-distribution.py")
 resolver = load("resolve-npm-distribution-source.py")
 assembler = load("assemble-npm-distribution.py")
+wave = load("prepare-npm-homepage-wave.py")
 
 
 class CollectorTests(unittest.TestCase):
@@ -133,6 +136,32 @@ class AssemblerTests(unittest.TestCase):
         downloaded.pop()
         with self.assertRaisesRegex(ValueError, "sets drifted"):
             assembler.assemble({**common, "packages": resolved}, {**common, "packages": downloaded})
+
+
+class WaveTests(unittest.TestCase):
+    def test_verified_checkout_only_changes_homepage_and_rejects_dirty_tree(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp).resolve()
+            subprocess.run(["git", "init", "-q", str(root)], check=True)
+            path = root / "package.json"
+            original = {"name": "test", "version": "1.0.0", "dependencies": {"some": "^2.0.0"}}
+            path.write_text(json.dumps(original, indent=2) + "\n")
+            subprocess.run(["git", "-C", str(root), "add", "package.json"], check=True)
+            subprocess.run(["git", "-C", str(root), "-c", "user.name=Test",
+                            "-c", "user.email=test@example.invalid", "commit", "-qm", "fixture"], check=True)
+            head = wave.git(root, "rev-parse", "HEAD")
+            blob = wave.git(root, "hash-object", "package.json")
+            repo = "ruvnet/fixture"
+            row = {"name": "test", "status": "source_verified",
+                   "source": {"name": repo, "commit": head, "manifest_path": "package.json",
+                              "manifest_blob": blob, "match_kind": "registry_directory"}}
+            queue = {"packages": [row], "candidate_batches": [{"repo": repo, "packages": ["test"]}]}
+            _, edits = wave.prepare(root, queue, repo, 1)
+            self.assertEqual(json.loads(edits[0][2]), dict(original, homepage="https://ruv.io"))
+            self.assertEqual(json.loads(path.read_text()), original)
+            (root / "unrelated").touch()
+            with self.assertRaisesRegex(ValueError, "clean isolated"):
+                wave.prepare(root, queue, repo, 1)
 
 
 if __name__ == "__main__":
