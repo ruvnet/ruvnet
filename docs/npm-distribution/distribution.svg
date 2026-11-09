@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" role="img" aria-labelledby="title desc">
+  <title id="title">Ruvnet package distribution</title>
+  <desc id="desc">Find a workflow, run its quickstart, and choose the useful package.</desc>
+  <style>
+    text { font-family: system-ui, sans-serif; fill: #f1f5f9; }
+    .stage { font-size: 20px; font-weight: 650; }
+    .detail { font-size: 14px; fill: #cbd5e1; }
+    .flow { fill: none; stroke: #86efac; stroke-width: 3; stroke-dasharray: 5 6; animation: move 2s linear infinite; }
+    @keyframes move { to { stroke-dashoffset: -22; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="798" height="178" rx="16" fill="#101827" stroke="#475569"/>
+  <text x="30" y="43" font-size="24" font-weight="700">Discover by what you can build</text>
+  <path class="flow" d="M250 111h29m242 0h29"/>
+  <g fill="#1e293b" stroke="#64748b">
+    <rect x="30" y="71" width="220" height="80" rx="10"/>
+    <rect x="290" y="71" width="230" height="80" rx="10"/>
+    <rect x="550" y="71" width="220" height="80" rx="10"/>
+  </g>
+  <text x="47" y="106" class="stage">Find a workflow</text>
+  <text x="47" y="130" class="detail">Search and flagship docs</text>
+  <text x="307" y="106" class="stage">Run a quickstart</text>
+  <text x="307" y="130" class="detail">See the expected result</text>
+  <text x="567" y="106" class="stage">Adopt a package</text>
+  <text x="567" y="130" class="detail">Use it in your own project</text>
+</svg>
