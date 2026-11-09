@@ -186,25 +186,25 @@ The dashboard above is generated from this repository's published JSON. Download
 <!-- github-public-metrics:start -->
 ## GitHub reach
 
-Public GitHub API snapshot verified **November 8, 2026 UTC**. [Captured inventory](data/snapshots/2026-11-08/github-inventory.json).
+Public GitHub API snapshot verified **November 9, 2026 UTC**. [Captured inventory](data/snapshots/2026-11-09/github-inventory.json).
 
 | Measure | Verified value |
 | --- | ---: |
-| Followers | 12,322 |
+| Followers | 12,333 |
 | Public repositories | 233 |
 | Owned public nonfork repositories | 206 |
 | Public repositories that are forks | 27 |
-| Stars across owned public nonfork repositories | 201,197 |
-| Aggregate downstream forks of owned nonfork repositories | 26,524 |
+| Stars across owned public nonfork repositories | 201,523 |
+| Aggregate downstream forks of owned nonfork repositories | 26,555 |
 
 ### Flagship repository traction
 
 | Project | Stars | Forks | Subscribers |
 | --- | ---: | ---: | ---: |
-| [RuView](https://github.com/ruvnet/RuView) | 102,979 | 13,371 | 905 |
-| [ruflo](https://github.com/ruvnet/ruflo) | 81,218 | 9,552 | 477 |
-| [RuVector](https://github.com/ruvnet/RuVector) | 4,675 | 626 | 34 |
-| [metaharness](https://github.com/ruvnet/metaharness) | 740 | 94 | 3 |
+| [RuView](https://github.com/ruvnet/RuView) | 103,180 | 13,387 | 909 |
+| [ruflo](https://github.com/ruvnet/ruflo) | 81,323 | 9,567 | 477 |
+| [RuVector](https://github.com/ruvnet/RuVector) | 4,675 | 627 | 34 |
+| [metaharness](https://github.com/ruvnet/metaharness) | 742 | 94 | 3 |
 | [rvm](https://github.com/ruvnet/rvm) | 155 | 35 | 0 |
 
 RuView and Ruflo account for **91.6% of owned public nonfork stars** and **86.4% of downstream forks**.
@@ -213,7 +213,7 @@ RuView and Ruflo account for **91.6% of owned public nonfork stars** and **86.4%
 <!-- recently-shipped:start -->
 ## Recently shipped
 
-Public nonfork repositories created in the 28 days through 2026-11-08 UTC.
+Public nonfork repositories created in the 28 days through 2026-11-09 UTC.
 
 * [mouse-swarm](https://github.com/ruvnet/mouse-swarm) (2026-11-07)
 * [aether](https://github.com/ruvnet/aether) (2026-11-05)
@@ -223,11 +223,10 @@ Public nonfork repositories created in the 28 days through 2026-11-08 UTC.
 * [AngelNet](https://github.com/ruvnet/AngelNet) (2026-10-22)
 * [ruGraph](https://github.com/ruvnet/ruGraph) (2026-10-16)
 * [site-harness](https://github.com/ruvnet/site-harness) (2026-10-14)
-* [Rash](https://github.com/ruvnet/Rash) (2026-10-12)
 
-**npm:** 6 newly listed since 2026-10-12 (inventory 2026-11-08): [@ruv/rash](https://www.npmjs.com/package/@ruv/rash), [@ruvector/all](https://www.npmjs.com/package/@ruvector/all), [@ruvector/ruvllm-gpu-loop](https://www.npmjs.com/package/@ruvector/ruvllm-gpu-loop), [@ruvnet/rvm-context-wasm](https://www.npmjs.com/package/@ruvnet/rvm-context-wasm), [@ruvnet/site-harness](https://www.npmjs.com/package/@ruvnet/site-harness), [@ruvnet/sublinear-core](https://www.npmjs.com/package/@ruvnet/sublinear-core).
+**npm:** 8 newly listed since 2026-10-13 (inventory 2026-11-09): [@agentic-robotics/darwin-arm64](https://www.npmjs.com/package/@agentic-robotics/darwin-arm64), [@agentic-robotics/darwin-x64](https://www.npmjs.com/package/@agentic-robotics/darwin-x64), [@agentic-robotics/linux-arm64-gnu](https://www.npmjs.com/package/@agentic-robotics/linux-arm64-gnu), [@ruvector/all](https://www.npmjs.com/package/@ruvector/all), [@ruvector/ruvllm-gpu-loop](https://www.npmjs.com/package/@ruvector/ruvllm-gpu-loop), [@ruvnet/rvm-context-wasm](https://www.npmjs.com/package/@ruvnet/rvm-context-wasm), [@ruvnet/site-harness](https://www.npmjs.com/package/@ruvnet/site-harness), [@ruvnet/sublinear-core](https://www.npmjs.com/package/@ruvnet/sublinear-core).
 
-**crates.io:** 12 newly listed since 2026-10-12 (inventory 2026-11-08): [emergent-time-wasm](https://crates.io/crates/emergent-time-wasm), [rune-toolchain](https://crates.io/crates/rune-toolchain), [rune-toolchain-cargo](https://crates.io/crates/rune-toolchain-cargo), [rune-toolchain-core](https://crates.io/crates/rune-toolchain-core), [rune-toolchain-edit](https://crates.io/crates/rune-toolchain-edit), [rune-toolchain-eval](https://crates.io/crates/rune-toolchain-eval), [rune-toolchain-gc](https://crates.io/crates/rune-toolchain-gc), [rune-toolchain-memory](https://crates.io/crates/rune-toolchain-memory) (plus 4 more).
+**crates.io:** 11 newly listed since 2026-10-13 (inventory 2026-11-09): [emergent-time-wasm](https://crates.io/crates/emergent-time-wasm), [rune-toolchain](https://crates.io/crates/rune-toolchain), [rune-toolchain-cargo](https://crates.io/crates/rune-toolchain-cargo), [rune-toolchain-core](https://crates.io/crates/rune-toolchain-core), [rune-toolchain-edit](https://crates.io/crates/rune-toolchain-edit), [rune-toolchain-eval](https://crates.io/crates/rune-toolchain-eval), [rune-toolchain-gc](https://crates.io/crates/rune-toolchain-gc), [rune-toolchain-memory](https://crates.io/crates/rune-toolchain-memory) (plus 3 more).
 
 <!-- recently-shipped:end -->
 
