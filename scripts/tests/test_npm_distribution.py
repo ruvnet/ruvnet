@@ -154,7 +154,8 @@ class WaveTests(unittest.TestCase):
             repo = "ruvnet/fixture"
             row = {"name": "test", "status": "source_verified",
                    "source": {"name": repo, "commit": head, "manifest_path": "package.json",
-                              "manifest_blob": blob, "match_kind": "registry_directory"}}
+                              "manifest_blob": blob, "match_kind": "registry_directory",
+                              "source_version_matches_registry": True}}
             queue = {"packages": [row], "candidate_batches": [{"repo": repo, "packages": ["test"]}]}
             _, edits = wave.prepare(root, queue, repo, 1)
             self.assertEqual(json.loads(edits[0][2]), dict(original, homepage="https://ruv.io"))

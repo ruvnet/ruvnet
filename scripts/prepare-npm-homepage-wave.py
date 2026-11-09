@@ -40,6 +40,7 @@ def prepare(root, queue, repo, wave):
         manifest = source.get("manifest_path")
         blob = source.get("manifest_blob")
         if (row["status"] != "source_verified" or source.get("match_kind") != "registry_directory"
+                or source.get("source_version_matches_registry") is not True
                 or source.get("name") != repo or source.get("commit") != head):
             raise ValueError(f"{name}: exact fresh source required; recollect after branch drift")
         if (not isinstance(manifest, str) or not SAFE_PATH.fullmatch(manifest)

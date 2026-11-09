@@ -66,6 +66,7 @@ def assemble(source, downloads):
         row["proposed_lane"] = lane(name)
         row["homepage_target"] = "https://ruv.io"
         if (row["status"] == "source_verified" and row["source"].get("match_kind") == "registry_directory"
+                and row["source"].get("source_version_matches_registry") is True
                 and row["proposed_lane"] not in {"platform_artifact", "migration_review"}):
             by_repo[row["source"]["name"]].append(name)
     frozen_lanes = collections.Counter(row["proposed_lane"] for row in resolved.values() if row["frozen_cohort"])
@@ -85,6 +86,7 @@ def assemble(source, downloads):
     return {
         "schema_version": 1, "observed_at": source["observed_at"],
         "downloads_observed_at": downloads["observed_at"],
+        "download_observation": downloads.get("download_observation", "live npm range API"),
         "frozen_count": source["frozen_count"], "live_count": source["live_count"],
         "inventory_sources": source["live_inventory_evidence"],
         "download_inventory_sources": downloads["live_inventory_evidence"],
