@@ -67,6 +67,11 @@ python3 scripts/replay-npm-distribution-ranges.py \
 Pass the replay output as the second input to the assembler. The public
 report retains source times and does not fill missing dates with zero.
 
+An [independent range recheck](../../data/npm-distribution/range-recheck-2026-11-08.json)
+matched all 376 comparable package totals. The other 32 are still unknown
+in that recheck: 29 rate limits and three unavailable range responses for
+newly listed builds. The recheck does not overwrite the dated baseline.
+
 ## Preview a metadata wave
 
 In an isolated checkout of the owning project, at the source commit recorded
@@ -90,6 +95,8 @@ The source changes are tracked in [RuVector #1409](https://github.com/ruvnet/RuV
 cover [27 MetaHarness examples](https://github.com/ruvnet/metaharness/pull/481),
 [22 RuVector platform packages](https://github.com/ruvnet/RuVector/pull/1413),
 and [21 Ruflo manifests](https://github.com/ruvnet/ruflo/pull/4897).
+The RVF server package's own metadata and guide are tracked in
+[RuVector #1414](https://github.com/ruvnet/RuVector/pull/1414).
 The pull requests describe what was tested; published npm versions are separate.
 
 Before changing a platform package, confirm the generator actually used by
