@@ -104,3 +104,45 @@ the active release route. For example, Attention has two routes that must
 agree. A historical git head can explain an old package name without proving
 that the release route is still active. Keep historical aliases and platforms
 with no current release route in review.
+
+## Weave the next integration
+
+[ADR 002](ADR-002.md) defines the review loop. Run the offline planner:
+
+```sh
+python3 scripts/package-weave.py
+```
+
+The report reconciles the dated registry inventory and manifest graph, shows
+required versus possible reach by flagship, lists gaps, and returns the
+single next candidate to test. Pass `--baseline`, `--inventory`, or
+`--overlay` to point it at a newer observation; use `--no-overlay` to
+inspect the frozen graph. The small November 10 overlay uses the existing
+distribution collector's manifest logic and stores exact registry response
+hashes and times. It is a targeted refresh, not a fresh crawl of every node.
+
+The first two recipes are isolated from the flagships. Run from repository
+root with Node 22 or later:
+
+```sh
+for recipe in rvf-memory native-routing; do
+  npm ci --ignore-scripts --prefix "docs/npm-distribution/recipes/$recipe"
+  node "docs/npm-distribution/recipes/$recipe/verify.mjs" > "/tmp/$recipe.json"
+done
+python3 scripts/package-weave.py \
+  --receipt /tmp/rvf-memory.json --receipt /tmp/native-routing.json
+```
+
+The RVF receipt should report two persisted records, retrieval of
+`release-notes`, and exclusion of `distractor`. Routing should select
+`small` and then `large` on the fixed inputs, verify the native engine ran,
+and observe TypeScript selection in a clean process without Tiny Dancer.
+That fixture checks integration behavior; it is not a production routing
+benchmark. The checked-in receipts cover Linux x64 only.
+
+With no explicit receipts, the planner reads the versioned
+[observations](../../data/npm-distribution/weave-receipts). Supply the full
+desired receipt set when using `--receipt`. A different lock or script makes
+an older receipt stale. A reviewer must validate evidence and supported
+platforms before any owning repository changes; the planner cannot add
+dependencies, publish, or activate itself.

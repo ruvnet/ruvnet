@@ -1,0 +1,62 @@
+{
+  "entrypoints": [
+    "ruflo",
+    "agentic-flow",
+    "agentdb",
+    "metaharness",
+    "ruvector"
+  ],
+  "candidates": [
+    {
+      "id": "rvf-memory-v1",
+      "from": "@metaharness/kernel",
+      "to": "@ruvector/rvf",
+      "mode": "recipe",
+      "pins": {
+        "@metaharness/kernel": "0.1.8",
+        "@ruvector/rvf": "0.4.12"
+      },
+      "value": "Persist tagged agent memory and recover the right records after a process restart.",
+      "checks": [
+        "rvf-active",
+        "restart-persistence",
+        "metadata-filter"
+      ],
+      "recipe": "rvf-memory"
+    },
+    {
+      "id": "native-routing-v1",
+      "from": "@metaharness/router",
+      "to": "@ruvector/tiny-dancer",
+      "mode": "recipe",
+      "pins": {
+        "@metaharness/router": "0.4.1",
+        "@ruvector/tiny-dancer": "0.1.26"
+      },
+      "value": "Route a fixed task set using the native scorer while retaining the TypeScript fallback.",
+      "checks": [
+        "native-path",
+        "typescript-fallback",
+        "fixed-task-comparison"
+      ],
+      "recipe": "native-routing"
+    },
+    {
+      "id": "darwin-screening-v1",
+      "from": "@metaharness/darwin",
+      "to": "ruv-fann",
+      "mode": "recipe",
+      "pins": {
+        "@metaharness/darwin": "0.14.0",
+        "ruv-fann": "0.1.2"
+      },
+      "value": "Screen numeric candidates before spending the same external evaluation budget.",
+      "checks": [
+        "surrogate-active",
+        "equal-evaluation-budget",
+        "held-out-quality",
+        "fallback"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ruvnet-native-routing-recipe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node verify.mjs" },
+  "dependencies": {
+    "@metaharness/router": "0.4.1",
+    "@ruvector/tiny-dancer": "0.1.26"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "observed_at": "2026-11-10T21:40:55.951785+00:00",
+  "packages": [
+    {
+      "name": "@claude-flow/cli",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "@claude-flow/cli-core": "3.7.7",
+            "@claude-flow/codex": "3.0.8",
+            "@claude-flow/mcp": "3.1.7",
+            "@claude-flow/memory": "3.3.1",
+            "@claude-flow/neural": "3.0.3",
+            "@claude-flow/plugin-agent-federation": "1.0.7",
+            "@claude-flow/security": "3.0.7",
+            "@claude-flow/shared": "3.0.8",
+            "@metaharness/darwin": "~0.13.0",
+            "@ruvector/rabitq-wasm": "0.1.2",
+            "agentic-flow": "^3.0.0"
+          },
+          "optionalDependencies": {
+            "@claude-flow/aidefence": "3.2.1",
+            "@claude-flow/memory": "3.3.1",
+            "@metaharness/flywheel": "~0.1.10",
+            "@metaharness/radio": "~0.1.0",
+            "@metaharness/turn-credit": "~0.1.0",
+            "@ruvector/learning-wasm": "0.1.29",
+            "agent-booster": "^0.2.2",
+            "agentdb": "^3.6.0",
+            "ruvector": "^0.3.13"
+          },
+          "peerDependencies": {
+            "@metaharness/router": "^0.4.0",
+            "@ruvector/typesafe": "^0.1.0",
+            "metaharness": "^0.4.20"
+          }
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:45.912540+00:00",
+          "sha256": "583d8c2e923807f4815f4ad1eaf221466814f447205258fbe2983a4df1faadfe",
+          "url": "https://registry.npmjs.org/%40claude-flow%2Fcli/latest"
+        },
+        "version": "3.75.3"
+      }
+    },
+    {
+      "name": "@metaharness/darwin",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {},
+          "optionalDependencies": {},
+          "peerDependencies": {
+            "ruv-fann": "0.1.2"
+          }
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:45.976733+00:00",
+          "sha256": "a8c5855983f9f1e12b68de6150acc03bf8661f9e10218978faa57c79e132f50e",
+          "url": "https://registry.npmjs.org/%40metaharness%2Fdarwin/latest"
+        },
+        "version": "0.14.0"
+      }
+    },
+    {
+      "name": "@metaharness/kernel",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "@ruvector/emergent-time": "^0.1.0"
+          },
+          "optionalDependencies": {},
+          "peerDependencies": {
+            "@ruvector/rvf": "^0.3.0 || ^0.4.7"
+          }
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:45.956212+00:00",
+          "sha256": "cb8fed31f5a35edbbf22f0d23c6a6780d021bc1f44d729f9e6048bf7b6e10d58",
+          "url": "https://registry.npmjs.org/%40metaharness%2Fkernel/latest"
+        },
+        "version": "0.1.8"
+      }
+    },
+    {
+      "name": "@metaharness/router",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {},
+          "optionalDependencies": {},
+          "peerDependencies": {
+            "@ruvector/tiny-dancer": "^0.1.21"
+          }
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:45.972788+00:00",
+          "sha256": "9f2678e7d39dd30dc2fefb6d804b13cc3fb4512f62232d64ff58df24a8e563f9",
+          "url": "https://registry.npmjs.org/%40metaharness%2Frouter/latest"
+        },
+        "version": "0.4.1"
+      }
+    },
+    {
+      "name": "@ruvector/rvf",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "@ruvector/rvf-node": "^0.4.7"
+          },
+          "optionalDependencies": {
+            "@ruvector/rvf-solver": "^0.1.0",
+            "@ruvector/rvf-wasm": "^0.1.7"
+          },
+          "peerDependencies": {}
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:45.954894+00:00",
+          "sha256": "e684bc3f526e67d4e744e6f1000c19a05418f5462500e4f3eede1a12b7d01c84",
+          "url": "https://registry.npmjs.org/%40ruvector%2Frvf/latest"
+        },
+        "version": "0.4.12"
+      }
+    },
+    {
+      "name": "@ruvector/tiny-dancer",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {},
+          "optionalDependencies": {
+            "@ruvector/tiny-dancer-darwin-arm64": "0.1.26",
+            "@ruvector/tiny-dancer-darwin-x64": "0.1.26",
+            "@ruvector/tiny-dancer-linux-arm64-gnu": "0.1.26",
+            "@ruvector/tiny-dancer-linux-arm64-musl": "0.1.26",
+            "@ruvector/tiny-dancer-linux-x64-gnu": "0.1.26",
+            "@ruvector/tiny-dancer-linux-x64-musl": "0.1.26",
+            "@ruvector/tiny-dancer-win32-arm64-msvc": "0.1.26",
+            "@ruvector/tiny-dancer-win32-x64-msvc": "0.1.26"
+          },
+          "peerDependencies": {}
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:45.965410+00:00",
+          "sha256": "8415d665a804d4d18a196915050bb120e442e27223b642db171d273939d9b5e2",
+          "url": "https://registry.npmjs.org/%40ruvector%2Ftiny-dancer/latest"
+        },
+        "version": "0.1.26"
+      }
+    },
+    {
+      "name": "agentdb",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "ruv-fann": "0.1.2"
+          },
+          "optionalDependencies": {
+            "@ruvector/attention": "^2.3.1",
+            "@ruvector/core": "0.1.38",
+            "@ruvector/gnn": "0.1.28",
+            "@ruvector/graph-node": "^2.1.4",
+            "@ruvector/graph-transformer": "^2.0.4",
+            "@ruvector/mincut-wasm": "^2.3.0",
+            "@ruvector/rabitq-wasm": "0.1.2",
+            "@ruvector/router": "0.1.34",
+            "@ruvector/ruvllm": "^4.2.2",
+            "@ruvector/rvf": "0.4.12",
+            "@ruvector/rvf-node": "0.4.7",
+            "@ruvector/rvf-solver": "0.1.11",
+            "@ruvector/rvf-wasm": "0.1.13",
+            "@ruvector/sona": "0.1.13",
+            "@ruvnet/sublinear-core": "^1.0.1",
+            "aidefence": "^3.0.1",
+            "ruvector": "0.3.20",
+            "ruvector-attention-wasm": "^2.1.0",
+            "ruvector-graph-transformer-wasm": "^2.0.4"
+          },
+          "peerDependencies": {}
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:50.082764+00:00",
+          "sha256": "efd5699be84b6e8d287e35632cc7fbc6c90129602fc3278b161a7719b5a123f2",
+          "url": "https://registry.npmjs.org/agentdb/latest"
+        },
+        "version": "3.10.0"
+      }
+    },
+    {
+      "name": "agentic-flow",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "@metaharness/router": "^0.3.2",
+            "@ruvector/edge-full": "^0.1.0",
+            "@ruvector/tiny-dancer": "^0.1.17",
+            "agentdb": "^3.7.2",
+            "ruvector": "^0.3.14",
+            "ruvector-onnx-embeddings-wasm": "^0.1.2"
+          },
+          "optionalDependencies": {
+            "@ruvector/attention": "^2.3.1",
+            "@ruvector/mincut-wasm": "^2.3.0",
+            "@ruvector/router": "0.1.34",
+            "@ruvector/rudag": "^0.1.2",
+            "@ruvector/sona": "0.1.13",
+            "@ruvnet/sublinear-core": "^1.0.1",
+            "agent-booster": "^0.2.2",
+            "aidefence": "^3.0.2"
+          },
+          "peerDependencies": {}
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:50.126950+00:00",
+          "sha256": "0452484c66168b7d733b95fde09ed966cf8fce8c913752d0d329b3543e915b18",
+          "url": "https://registry.npmjs.org/agentic-flow/latest"
+        },
+        "version": "3.5.4"
+      }
+    },
+    {
+      "name": "metaharness",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "@metaharness/avo": "0.2.1",
+            "@metaharness/darwin": "0.13.1",
+            "@metaharness/flywheel": "0.1.14",
+            "@metaharness/redblue": "0.1.7",
+            "@metaharness/turn-credit": "0.1.1",
+            "@metaharness/weight-eft": "0.1.3"
+          },
+          "optionalDependencies": {
+            "@ruvector/ruvllm": "^4.1.0"
+          },
+          "peerDependencies": {
+            "@metaharness/kernel": "^0.1.0"
+          }
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:50.116064+00:00",
+          "sha256": "32843e1b0f85619701f4c12a6287230631ee51ee44db66c5480ecffa35689433",
+          "url": "https://registry.npmjs.org/metaharness/latest"
+        },
+        "version": "0.4.23"
+      }
+    },
+    {
+      "name": "ruflo",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "@claude-flow/cli": "3.75.3"
+          },
+          "optionalDependencies": {},
+          "peerDependencies": {}
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:50.069510+00:00",
+          "sha256": "0968b419f53b327fba626c1b8a3602cac6f775349a42af8786b0a2f29a2c61bc",
+          "url": "https://registry.npmjs.org/ruflo/latest"
+        },
+        "version": "3.75.3"
+      }
+    },
+    {
+      "name": "ruv-fann",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "ruv-fann-wasm": "0.1.2"
+          },
+          "optionalDependencies": {},
+          "peerDependencies": {}
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:50.028342+00:00",
+          "sha256": "a994e57015c5c19345fc4318c40de7c38dce930295f285e4508d88ee76b2d014",
+          "url": "https://registry.npmjs.org/ruv-fann/latest"
+        },
+        "version": "0.1.2"
+      }
+    },
+    {
+      "name": "ruv-fann-wasm",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {},
+          "optionalDependencies": {},
+          "peerDependencies": {}
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:50.071524+00:00",
+          "sha256": "e5e1e8338f64e9f4d1670b2fb887f29c4c0bb1e9e041a48e7d664f8e60eb4c92",
+          "url": "https://registry.npmjs.org/ruv-fann-wasm/latest"
+        },
+        "version": "0.1.2"
+      }
+    },
+    {
+      "name": "ruvector",
+      "registry": {
+        "dependency_edges": {
+          "dependencies": {
+            "@ruvector/attention": "^2.3.0",
+            "@ruvector/core": "^0.1.36",
+            "@ruvector/gnn": "^0.1.22",
+            "@ruvector/sona": "^0.1.11"
+          },
+          "optionalDependencies": {
+            "@metaharness/darwin": "^0.13.0",
+            "@metaharness/flywheel": "^0.1.10",
+            "@metaharness/harness": "^0.2.0",
+            "@metaharness/redblue": "^0.1.6",
+            "@metaharness/router": "^0.4.0",
+            "@metaharness/weight-eft": "^0.1.1",
+            "@metaharness/workspace-lens": "^0.1.2",
+            "@metaharness/workspace-probe": "^0.1.1",
+            "@ruvector/mincut-wasm": "^2.3.0",
+            "@ruvector/rabitq-wasm": "^0.1.1",
+            "@ruvector/ruqu-wasm": "^2.2.0",
+            "@ruvector/rvf": "^0.4.7",
+            "@ruvector/tiny-dancer": "^0.1.22",
+            "metaharness": "^0.4.20"
+          },
+          "peerDependencies": {
+            "@metaharness/darwin": "^0.13.0",
+            "@metaharness/flywheel": "^0.1.10",
+            "@metaharness/harness": "^0.2.0",
+            "@metaharness/redblue": "^0.1.6",
+            "@metaharness/router": "^0.4.0",
+            "@metaharness/weight-eft": "^0.1.1",
+            "@metaharness/workspace-lens": "^0.1.2",
+            "@metaharness/workspace-probe": "^0.1.1",
+            "@ruvector/diskann": "^0.1.0",
+            "@ruvector/pi-brain": "^0.1.0",
+            "@ruvector/rabitq-wasm": "^0.1.1",
+            "@ruvector/router": "^0.1.0",
+            "@ruvector/ruvllm": "^4.1.0",
+            "metaharness": "^0.4.20",
+            "ruv-fann": "0.1.0",
+            "rvlite": "^0.2.0"
+          }
+        },
+        "maintainer_in_latest_manifest": true,
+        "registry_evidence": {
+          "observed_at": "2026-11-10T21:40:55.950874+00:00",
+          "sha256": "197246f978f1d0418def17d1d63cfb6cae3f35aa57fadc811aa78af258c89317",
+          "url": "https://registry.npmjs.org/ruvector/latest"
+        },
+        "version": "0.3.24"
+      }
+    }
+  ],
+  "schema_version": 1
+}
