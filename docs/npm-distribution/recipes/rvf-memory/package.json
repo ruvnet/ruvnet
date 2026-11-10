@@ -1,0 +1,12 @@
+{
+  "name": "ruvnet-rvf-memory-recipe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node verify.mjs" },
+  "dependencies": {
+    "@metaharness/kernel": "0.1.8",
+    "@ruvector/rvf": "0.4.12"
+  }
+}

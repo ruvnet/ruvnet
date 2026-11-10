@@ -1,0 +1,31 @@
+{
+  "candidate": "native-routing-v1",
+  "pins": {
+    "@metaharness/router": "0.4.1",
+    "@ruvector/tiny-dancer": "0.1.26"
+  },
+  "platform": "linux/x64",
+  "node": "v24.22.1",
+  "lock_sha256": "3b1413e7826a9814a6a7e62378143040be2b09ee0d465dc2a46233abbcbe44a4",
+  "recipe_sha256": "b9a2b5e65fdd0f4a136088e1044779391e5a0640e1902a2c9551c8ca7b80c6f1",
+  "checks": {
+    "native-path": true,
+    "typescript-fallback": true,
+    "fixed-task-comparison": true
+  },
+  "result": {
+    "comparisons": [
+      {
+        "expected": "small",
+        "native": "small",
+        "js": "small"
+      },
+      {
+        "expected": "large",
+        "native": "large",
+        "js": "large"
+      }
+    ],
+    "fixture_only": true
+  }
+}

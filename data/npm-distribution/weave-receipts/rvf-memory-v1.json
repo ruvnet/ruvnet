@@ -1,0 +1,21 @@
+{
+  "candidate": "rvf-memory-v1",
+  "pins": {
+    "@metaharness/kernel": "0.1.8",
+    "@ruvector/rvf": "0.4.12"
+  },
+  "platform": "linux/x64",
+  "node": "v24.22.1",
+  "lock_sha256": "e6934b032c561db4fa8c497c6c0f56f04e351c817548cf5720bf23c65e808626",
+  "recipe_sha256": "bae863fc98e9bee4da0ce4fd6d048a7021d72c8b1d76016c2d76b77d1e993114",
+  "checks": {
+    "rvf-active": true,
+    "restart-persistence": true,
+    "metadata-filter": true
+  },
+  "result": {
+    "persisted": 2,
+    "retrieved": "release-notes",
+    "excluded": "distractor"
+  }
+}
