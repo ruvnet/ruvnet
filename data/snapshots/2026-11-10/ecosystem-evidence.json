@@ -1,0 +1,78 @@
+{
+  "verified_at": "2026-11-10T14:02:18.570120Z",
+  "window": {
+    "start": "2026-10-27",
+    "end": "2026-11-09",
+    "days": 14,
+    "current_utc_day_excluded": true
+  },
+  "sources": {
+    "github_inventory": "data/snapshots/2026-11-10/github-inventory.json",
+    "github_releases": "data/snapshots/2026-11-10/github-release-inventory.json",
+    "npm_inventory": "data/snapshots/2026-11-10/npm-inventory.json",
+    "npm_downloads": "data/snapshots/2026-11-09/npm-downloads.json",
+    "crates_io": "data/snapshots/2026-11-10/crates-inventory.json"
+  },
+  "coverage": {
+    "github_public_repositories": 233,
+    "github_pages": 3,
+    "release_complete_repositories": 233,
+    "npm_expected_packages": 410,
+    "npm_collected_packages": 405,
+    "actions_complete_repositories": null,
+    "actions_incomplete_repositories": null
+  },
+  "traffic": {
+    "status": "available",
+    "clones": 696719,
+    "views": 221670,
+    "window_start": "2026-10-27",
+    "window_end": "2026-11-09",
+    "repo_coverage": {
+      "clones": 233,
+      "views": 233
+    },
+    "uniques": null,
+    "known_clone_events": 696719,
+    "known_view_events": 221670,
+    "daily_repository_coverage": {
+      "clones": {
+        "2026-10-27": 233,
+        "2026-10-28": 233,
+        "2026-10-29": 233,
+        "2026-10-30": 233,
+        "2026-10-31": 233,
+        "2026-11-01": 233,
+        "2026-11-02": 233,
+        "2026-11-03": 233,
+        "2026-11-04": 233,
+        "2026-11-05": 233,
+        "2026-11-06": 233,
+        "2026-11-07": 233,
+        "2026-11-08": 233,
+        "2026-11-09": 233
+      },
+      "views": {
+        "2026-10-27": 233,
+        "2026-10-28": 233,
+        "2026-10-29": 233,
+        "2026-10-30": 233,
+        "2026-10-31": 233,
+        "2026-11-01": 233,
+        "2026-11-02": 233,
+        "2026-11-03": 233,
+        "2026-11-04": 233,
+        "2026-11-05": 233,
+        "2026-11-06": 233,
+        "2026-11-07": 233,
+        "2026-11-08": 233,
+        "2026-11-09": 233
+      }
+    },
+    "expected_repository_days": 3262,
+    "missing_cells_per_metric": 0,
+    "missing_days": [],
+    "expected_cells_per_metric": 3262,
+    "source_cells_per_metric": 3262
+  }
+}

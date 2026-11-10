@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-09T13:32:01+00:00",
+  "verified_at": "2026-11-10T14:02:18.570120Z",
   "counts": {
     "github_public_repositories": 233,
     "github_owned_public_nonfork_repositories": 206,
-    "published_registry_and_huggingface_artifacts_minimum": 930,
-    "rust_crates": 492,
-    "npm_packages": 408,
+    "published_registry_and_huggingface_artifacts_minimum": 938,
+    "rust_crates": 498,
+    "npm_packages": 410,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 2136887,
+    "rust_crate_downloads_cumulative": 2196355,
     "github_public_forks": 27,
-    "github_followers": 12333,
-    "github_stars_owned_nonfork": 201523,
-    "github_aggregate_downstream_forks": 26555
+    "github_followers": 12350,
+    "github_stars_owned_nonfork": 202241,
+    "github_aggregate_downstream_forks": 26674
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
@@ -34,9 +34,9 @@
     "Owned nonfork describes GitHub metadata, not sole authorship or originality.",
     "Stars, clones and downloads do not establish unique users or revenue.",
     "The aggregate artifact count combines current npm/crates inventory with 30 historically verified PyPI/Hugging Face artifacts.",
-    "14 npm dates with incomplete coverage in 2026-10-26 through 2026-11-08 UTC are unknown (null), never zero; 2026-11-09 is incomplete and excluded.",
-    "14 all-package-zero npm dates in 2026-10-26 through 2026-11-08 UTC are unknown (null), never zero; 2026-11-09 is incomplete and excluded.",
-    "The npm download cohort is 405 packages; the current inventory contains 408."
+    "14 npm dates with incomplete coverage in 2026-10-27 through 2026-11-09 UTC are unknown (null), never zero; 2026-11-10 is incomplete and excluded.",
+    "14 all-package-zero npm dates in 2026-10-27 through 2026-11-09 UTC are unknown (null), never zero; 2026-11-10 is incomplete and excluded.",
+    "The npm download cohort is 405 packages; the current inventory contains 410."
   ],
   "sources": [
     "https://api.github.com/users/ruvnet",
@@ -54,11 +54,10 @@
     "npm_latest_confirmed_daily_downloads": 388290,
     "npm_latest_confirmed_daily_package_count": 405,
     "npm_latest_daily_is_rolling_24h": false,
-    "github_activity_start": "2026-10-26",
-    "github_activity_end": "2026-11-08",
-    "npm_14_day_confirmed_download_events": 10125521,
+    "github_activity_start": "2026-10-27",
+    "github_activity_end": "2026-11-09",
+    "npm_14_day_confirmed_download_events": 9358390,
     "npm_14_day_unknown_days": [
-      "2026-10-26",
       "2026-10-27",
       "2026-10-28",
       "2026-10-29",
@@ -71,20 +70,21 @@
       "2026-11-05",
       "2026-11-06",
       "2026-11-07",
-      "2026-11-08"
+      "2026-11-08",
+      "2026-11-09"
     ],
     "npm_14_day_complete_utc_days": 14,
     "npm_14_day_confirmed_days": 0,
     "npm_14_day_is_rolling_24h": false,
-    "npm_14_day_start": "2026-10-26",
-    "npm_14_day_end": "2026-11-08"
+    "npm_14_day_start": "2026-10-27",
+    "npm_14_day_end": "2026-11-09"
   },
   "verification_dates": {
-    "github": "2026-11-09T13:32:01+00:00",
-    "npm_inventory": "2026-11-09T05:23:12.787066Z",
+    "github": "2026-11-10T13:59:12+00:00",
+    "npm_inventory": "2026-11-10T14:02:12.432010Z",
     "npm_downloads": "2026-11-09T05:45:21.937096Z",
-    "crates_io": "2026-11-09T05:45:27.718449Z",
+    "crates_io": "2026-11-10T14:02:18.570120Z",
     "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted"
   },
-  "source_watermark": "data/snapshots/2026-11-09/collection-watermark.json"
+  "source_watermark": "data/snapshots/2026-11-10/collection-watermark.json"
 }
