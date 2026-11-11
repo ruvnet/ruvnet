@@ -1,0 +1,60 @@
+{
+  "scope": "Canonical public ecosystem metrics, daily point overlay and new-manifest discovery only",
+  "owner": "ecosystem-metrics-20261111",
+  "baseline_commit": "a069320daae5798afe31ae043b980421a7e5d5b3",
+  "intent": "Collect public inventories; preserve range provenance; upsert nonoverlapping daily npm cells; regenerate profile and publish scoped metrics after validation",
+  "expected_result": {
+    "npm_day": "2026-11-10",
+    "npm_downloads": 1297163,
+    "eligible_npm_packages": 412,
+    "public_repositories": 234
+  },
+  "actual_result": {
+    "npm_day": "2026-11-10",
+    "npm_downloads": 1297163,
+    "eligible_packages": 412,
+    "excluded_after_window": 15,
+    "inventory_packages": 427,
+    "public_repositories": 234,
+    "github_stars": 202802,
+    "traffic": {
+      "clones": 726847,
+      "views": 221422,
+      "known_clone_events": 726847,
+      "known_view_events": 221422,
+      "status": "complete",
+      "expected_cells_per_metric": 3276,
+      "source_cells_per_metric": 3275,
+      "missing_cells_per_metric": 0,
+      "missing_days": [],
+      "repo_coverage": {
+        "clones": 234,
+        "views": 234
+      },
+      "uniques": null
+    },
+    "crates": 498,
+    "crates_downloads": 2207985
+  },
+  "outcome": "Collection and reconciliation validated. Publication intent: push scoped metrics branch, open ready PR, merge with expected head after current protection checks. The containing PR metadata records the separate publication outcome.",
+  "cost_usd": null,
+  "rollback": "Revert this metrics commit; retained dated snapshots remain available",
+  "source_artifacts": {
+    "github": "data/snapshots/2026-11-11/github-api-receipts.json",
+    "npm_points": "data/snapshots/2026-11-11/npm-daily-points.json",
+    "registry": "data/snapshots/2026-11-11/registry-collection.json"
+  },
+  "validation": {
+    "point_replay_byte_idempotent": true,
+    "older_npm_cells_unchanged": true,
+    "complete_point_eligibility": true,
+    "no_incomplete_current_utc_day": true,
+    "historical_range_dates_preserved": true,
+    "unit_tests_passed": 33,
+    "profile_verifier": "PASS",
+    "full_running_totals_replay_idempotent": true,
+    "svg_xml_files": 45
+  },
+  "integration_outcome": "Static current-version mismatch recorded; equivalent integration exists; no experiment executed due missing frozen evaluator and recipe.",
+  "evidence_reference": "data/snapshots/2026-11-11/npm-daily-points.json"
+}

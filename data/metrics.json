@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-10T14:02:18.570120Z",
+  "verified_at": "2026-11-11T14:04:41.724701+00:00",
   "counts": {
-    "github_public_repositories": 233,
-    "github_owned_public_nonfork_repositories": 206,
-    "published_registry_and_huggingface_artifacts_minimum": 938,
+    "github_public_repositories": 234,
+    "github_owned_public_nonfork_repositories": 207,
+    "published_registry_and_huggingface_artifacts_minimum": 955,
     "rust_crates": 498,
-    "npm_packages": 410,
+    "npm_packages": 427,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 2196355,
+    "rust_crate_downloads_cumulative": 2207985,
     "github_public_forks": 27,
-    "github_followers": 12350,
-    "github_stars_owned_nonfork": 202241,
-    "github_aggregate_downstream_forks": 26674
+    "github_followers": 12383,
+    "github_stars_owned_nonfork": 202537,
+    "github_aggregate_downstream_forks": 26732
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
@@ -34,9 +34,9 @@
     "Owned nonfork describes GitHub metadata, not sole authorship or originality.",
     "Stars, clones and downloads do not establish unique users or revenue.",
     "The aggregate artifact count combines current npm/crates inventory with 30 historically verified PyPI/Hugging Face artifacts.",
-    "14 npm dates with incomplete coverage in 2026-10-27 through 2026-11-09 UTC are unknown (null), never zero; 2026-11-10 is incomplete and excluded.",
-    "14 all-package-zero npm dates in 2026-10-27 through 2026-11-09 UTC are unknown (null), never zero; 2026-11-10 is incomplete and excluded.",
-    "The npm download cohort is 405 packages; the current inventory contains 410."
+    "14 npm dates with incomplete coverage in 2026-10-28 through 2026-11-10 UTC are unknown (null), never zero; 2026-11-11 is incomplete and excluded.",
+    "14 all-package-zero npm dates in 2026-10-28 through 2026-11-10 UTC are unknown (null), never zero; 2026-11-11 is incomplete and excluded.",
+    "The npm download cohort is 405 packages; the current inventory contains 427."
   ],
   "sources": [
     "https://api.github.com/users/ruvnet",
@@ -54,11 +54,10 @@
     "npm_latest_confirmed_daily_downloads": 388290,
     "npm_latest_confirmed_daily_package_count": 405,
     "npm_latest_daily_is_rolling_24h": false,
-    "github_activity_start": "2026-10-27",
-    "github_activity_end": "2026-11-09",
-    "npm_14_day_confirmed_download_events": 9358390,
+    "github_activity_start": "2026-10-28",
+    "github_activity_end": "2026-11-10",
+    "npm_14_day_confirmed_download_events": 10035300,
     "npm_14_day_unknown_days": [
-      "2026-10-27",
       "2026-10-28",
       "2026-10-29",
       "2026-10-30",
@@ -74,17 +73,31 @@
       "2026-11-09"
     ],
     "npm_14_day_complete_utc_days": 14,
-    "npm_14_day_confirmed_days": 0,
+    "npm_14_day_confirmed_days": 1,
     "npm_14_day_is_rolling_24h": false,
-    "npm_14_day_start": "2026-10-27",
-    "npm_14_day_end": "2026-11-09"
+    "npm_14_day_start": "2026-10-28",
+    "npm_14_day_end": "2026-11-10",
+    "npm_independent_daily_latest": {
+      "day": "2026-11-10",
+      "downloads": 1297163,
+      "expected_packages": 412,
+      "collected_packages": 412,
+      "inventory_packages": 427,
+      "excluded_postwindow_packages": 15,
+      "coverage_complete": true,
+      "rolling_24_hours": false,
+      "period_type": "UTC calendar day",
+      "source": "data/snapshots/2026-11-11/npm-daily-points.json",
+      "verified_at": "2026-11-11T13:58:24.253010+00:00",
+      "artifact_sha256": "425e51730faa39a2138eafabd81249aaa9e223adefd047ab60c4c4989ce7fb45"
+    }
   },
   "verification_dates": {
-    "github": "2026-11-10T13:59:12+00:00",
-    "npm_inventory": "2026-11-10T14:02:12.432010Z",
+    "github": "2026-11-11T14:04:41.724701+00:00",
+    "npm_inventory": "2026-11-11T14:03:11.525306Z",
     "npm_downloads": "2026-11-09T05:45:21.937096Z",
-    "crates_io": "2026-11-10T14:02:18.570120Z",
+    "crates_io": "2026-11-11T14:03:37.561877Z",
     "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted"
   },
-  "source_watermark": "data/snapshots/2026-11-10/collection-watermark.json"
+  "source_watermark": "data/snapshots/2026-11-11/collection-watermark.json"
 }

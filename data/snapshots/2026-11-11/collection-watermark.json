@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-11-11",
+  "default_branch_base_sha": "a069320daae5798afe31ae043b980421a7e5d5b3",
+  "collection_branch_parent_sha": "a069320daae5798afe31ae043b980421a7e5d5b3",
+  "github_verified_at": "2026-11-11T14:04:41.724701+00:00",
+  "npm_inventory_verified_at": "2026-11-11T14:03:11.525306Z",
+  "npm_downloads_verified_at": "2026-11-09T05:45:21.937096Z",
+  "crates_io_verified_at": "2026-11-11T14:03:37.561877Z",
+  "public_repository_ids": 234,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-10-28",
+    "end": "2026-11-10",
+    "complete_days": 14
+  },
+  "source_version": "ruvnet ecosystem metrics snapshot v1 with independent daily point evidence",
+  "traffic_coverage": {
+    "expected_cells_per_metric": 3276,
+    "missing_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "fresh_api_cells_per_metric": {
+      "clones": 3275,
+      "views": 3275
+    },
+    "historical_backfill_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "precreation_zero_cells_per_metric": {
+      "clones": 1,
+      "views": 1
+    },
+    "repositories": 234,
+    "current_utc_day_excluded": true,
+    "observed_since": "2026-09-30"
+  },
+  "npm_coverage": {
+    "packages": 427,
+    "range_packages": 405,
+    "range_evidence": "data/snapshots/2026-11-09/npm-downloads.json",
+    "daily_eligible_packages": 412,
+    "daily_excluded_postwindow_packages": 15,
+    "daily_downloads": 1297163,
+    "daily_date": "2026-11-10",
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 498
+  },
+  "release_coverage": {
+    "repositories": 234,
+    "releases": 2544,
+    "assets": 959
+  },
+  "github_pagination": {
+    "per_page": 100,
+    "populated_pages": [
+      1,
+      2,
+      3
+    ],
+    "terminal_page": 4,
+    "terminal_page_count": 0,
+    "unique_repository_ids": 234,
+    "complete": true
+  },
+  "actions_runs": null,
+  "actions_blocker": "GitHub Actions complete window enumeration not performed within the bounded API budget; no workflow activity total claimed.",
+  "registry_execution": {
+    "collector": "scripts/refresh-registry-metrics.py",
+    "mode": "Existing npm_inventory() and crate_inventory() functions executed. Annual npm range results retain prior source dates. Independent point collector completed November10 eligible cohort."
+  },
+  "npm_zero_day_policy": "Unknowns are null; postwindow publications are explicitly excluded, not silently zero-filled.",
+  "refresh-registry-metrics.py_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
+  "update-ecosystem-snapshot.py_sha256": "8bc24c5a99cd94d8dc0e22977f804f158bdff1ef3416893ae40bf456cfa5adbc",
+  "render-visual-profile.py_sha256": "71f39242ca3119381c6a899bdac6ec7e1661cbc2f5ba4a7a3dc1d8b0c8c955cd",
+  "collector_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
+  "github_adapter_sha256": "10694c5d68800aedfe22b68a47af57103f90274cc1c92db2e690aa5bb9b39fcc",
+  "source_sha256": {
+    "github-inventory.json": "d110ef2c296f2ef6dc711860e2f9d6875ec59080230aa4db3438cfd96bc9c786",
+    "github-release-inventory.json": "ac90d1607deff84a71ef60dda6f790ea1cf5c1a2a442720a4e42d2640f80dd90",
+    "github-traffic-inventory.json": "276abc598bbdbca422db0666bde64b48f8588a017ae47506ba3ec795cd21d4f3",
+    "npm-inventory.json": "13425bee15b2dbe13bb46f1a32f64cc1f05befb09c4f667a50fe79786b4f0195",
+    "npm-daily-points.json": "425e51730faa39a2138eafabd81249aaa9e223adefd047ab60c4c4989ce7fb45",
+    "crates-inventory.json": "244ceb76c45a444bd5d64da0a212c506c44feb0dc9659b7c99116ff28cda0828"
+  }
+}

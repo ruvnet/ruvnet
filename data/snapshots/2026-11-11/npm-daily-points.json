@@ -1,0 +1,2430 @@
+{
+  "day": "2026-11-10",
+  "retrieved_at": "2026-11-11T13:58:24.253010+00:00",
+  "inventory_count": 427,
+  "inventory_pages": [
+    {
+      "offset": 0,
+      "count": 250,
+      "total": 424
+    },
+    {
+      "offset": 250,
+      "count": 174,
+      "total": 424
+    }
+  ],
+  "covered": 412,
+  "missing": 0,
+  "observed_downloads": 1297163,
+  "complete": true,
+  "values": {
+    "@agentic-robotics/cli": 13,
+    "@agentic-robotics/core": 9,
+    "@agentic-robotics/darwin-arm64": 22,
+    "@agentic-robotics/darwin-x64": 18,
+    "@agentic-robotics/linux-arm64-gnu": 19,
+    "@agentic-robotics/linux-x64-gnu": 22,
+    "@agentic-robotics/mcp": 36,
+    "@agentic-robotics/self-learning": 23,
+    "@agentics.org/agentic-mcp": 24,
+    "@agentics.org/sparc2": 49,
+    "@claude-flow/aidefence": 18851,
+    "@claude-flow/browser": 13,
+    "@claude-flow/claims": 15,
+    "@claude-flow/cli": 24591,
+    "@claude-flow/cli-core": 18560,
+    "@claude-flow/codex": 2242,
+    "@claude-flow/deployment": 5,
+    "@claude-flow/embeddings": 52,
+    "@claude-flow/guidance": 82,
+    "@claude-flow/hooks": 96,
+    "@claude-flow/integration": 21,
+    "@claude-flow/mcp": 1711,
+    "@claude-flow/memory": 25257,
+    "@claude-flow/neural": 11381,
+    "@claude-flow/performance": 16,
+    "@claude-flow/plugin-agent-federation": 76,
+    "@claude-flow/plugin-agentic-qe": 1,
+    "@claude-flow/plugin-code-intelligence": 12,
+    "@claude-flow/plugin-cognitive-kernel": 18,
+    "@claude-flow/plugin-financial-risk": 19,
+    "@claude-flow/plugin-gastown-bridge": 4198,
+    "@claude-flow/plugin-healthcare-clinical": 13,
+    "@claude-flow/plugin-hyperbolic-reasoning": 25,
+    "@claude-flow/plugin-iot-cognitum": 8,
+    "@claude-flow/plugin-legal-contracts": 8,
+    "@claude-flow/plugin-neural-coordination": 21,
+    "@claude-flow/plugin-perf-optimizer": 56,
+    "@claude-flow/plugin-prime-radiant": 15,
+    "@claude-flow/plugin-quantum-optimizer": 25,
+    "@claude-flow/plugin-test-intelligence": 10,
+    "@claude-flow/plugins": 35,
+    "@claude-flow/providers": 13,
+    "@claude-flow/security": 11125,
+    "@claude-flow/shared": 16039,
+    "@claude-flow/swarm": 233,
+    "@claude-flow/teammate-plugin": 7,
+    "@claude-flow/testing": 32,
+    "@claude-flow/watermark": 2,
+    "@cognitum-one/sdk": 1072,
+    "@cognitum/freetokens": 0,
+    "@cognitum/gate": 2,
+    "@cognitum/ruos": 3,
+    "@dream-machine/compile": 1,
+    "@dream-machine/ledger": 0,
+    "@dream-machine/memory": 1,
+    "@dream-machine/schedule": 0,
+    "@dream-machine/witness": 0,
+    "@foxruv/cf-doctor": 0,
+    "@foxruv/e2b-runner": 0,
+    "@foxruv/iris": 11,
+    "@foxruv/iris-agentic-synth": 2,
+    "@foxruv/iris-core": 1,
+    "@foxruv/iris-ultrathink": 1,
+    "@foxruv/nova-medicina": 3,
+    "@metaharness/agntcy": 169,
+    "@metaharness/avo": 13902,
+    "@metaharness/aws-finops": 16,
+    "@metaharness/claude-code": 45,
+    "@metaharness/codex": 15,
+    "@metaharness/coding": 14,
+    "@metaharness/copilot": 17,
+    "@metaharness/darwin": 22801,
+    "@metaharness/devops": 33,
+    "@metaharness/education": 15,
+    "@metaharness/example-ads": 10,
+    "@metaharness/example-aws": 11,
+    "@metaharness/example-azure": 18,
+    "@metaharness/example-bio": 13,
+    "@metaharness/example-datadog": 9,
+    "@metaharness/example-fhir": 15,
+    "@metaharness/example-gcp": 23,
+    "@metaharness/example-github": 12,
+    "@metaharness/example-huggingface": 16,
+    "@metaharness/example-iot": 11,
+    "@metaharness/example-qiskit": 22,
+    "@metaharness/example-supabase": 15,
+    "ruflo": 15868,
+    "agentdb": 33865,
+    "agentic-flow": 30028,
+    "ruvector": 46251,
+    "@ruvector/attention": 28910,
+    "agent-booster": 10575,
+    "agentbbs": 9,
+    "agentic-jujutsu": 3,
+    "agentic-payments": 406,
+    "agentic-robotics": 17,
+    "agenticow": 271,
+    "agentics-hackathon": 0,
+    "agenticsjs": 12,
+    "ai-text-watermark": 1,
+    "aidefence": 11366,
+    "aidefense": 16,
+    "bmssp-wasm": 2,
+    "claude-flow": 2567,
+    "claude-flow-v3": 0,
+    "cogmusic": 0,
+    "consciousness-explorer": 183,
+    "create-sparc": 0,
+    "cuda-wasm": 51,
+    "dream-machine": 6,
+    "dspy.ts": 25,
+    "flow-nexus": 158,
+    "goalie": 107,
+    "homecore": 1,
+    "lean-agentic": 3,
+    "llm-stream-reformat": 0,
+    "metaharness": 23121,
+    "midstreamer": 1213,
+    "neural-trader": 210,
+    "prime-radiant-advanced-wasm": 92,
+    "psycho-symbolic-integration": 1,
+    "psycho-symbolic-reasoner": 1,
+    "qudag": 330,
+    "radio-moe": 6,
+    "readme-proof": 5,
+    "research-swarm": 29,
+    "rucelium-harness": 1,
+    "ruflo-graph-intelligence": 1,
+    "rulake-wasm": 7,
+    "rupixel": 1,
+    "ruv-fann": 19969,
+    "ruv-fann-wasm": 21078,
+    "ruv-fann-wsp": 5165,
+    "ruv-swarm": 1948,
+    "ruvbot": 22,
+    "ruvdrone": 1,
+    "ruvector-attention-unified-wasm": 3,
+    "ruvector-attention-wasm": 21203,
+    "ruvector-core": 2,
+    "ruvector-core-darwin-arm64": 4065,
+    "ruvector-core-darwin-x64": 335,
+    "ruvector-core-linux-arm64-gnu": 802,
+    "ruvector-core-linux-x64-gnu": 12800,
+    "ruvector-core-win32-x64-msvc": 5935,
+    "ruvector-extensions": 100,
+    "ruvector-gnn-wasm": 1,
+    "ruvector-graph-transformer-wasm": 12521,
+    "ruvector-math-wasm": 1,
+    "ruvector-mragent": 1,
+    "ruvector-onnx-embeddings-wasm": 17853,
+    "ruvector-sona": 25,
+    "ruvector-wasm": 2,
+    "ruvi": 3,
+    "ruvllm-esp32": 3,
+    "ruvneural": 1,
+    "rvlite": 227,
+    "spiking-neural": 2,
+    "strange-loops": 27,
+    "strange-loops-mcp": 3,
+    "sublinear-time-solver": 82,
+    "symbolic-scribe-harness": 0,
+    "temporal-lead-solver": 51,
+    "temporal-neural-solver": 2,
+    "vscode-remote-mcp": 7,
+    "wifi-densepose-sar-harness": 0,
+    "worldgraphs": 1,
+    "@metaharness/example-nasa": 15,
+    "@metaharness/example-pinecone": 17,
+    "@metaharness/example-slack": 11,
+    "@metaharness/example-stripe": 22,
+    "@metaharness/example-twilio": 18,
+    "@metaharness/example-web3": 17,
+    "@metaharness/field-memory": 7,
+    "@metaharness/flywheel": 15474,
+    "@metaharness/gaming": 16,
+    "@metaharness/github-actions": 16,
+    "@metaharness/harness": 14059,
+    "@metaharness/hermes": 43,
+    "@metaharness/horizon": 17260,
+    "@metaharness/host-claude-code": 445,
+    "@metaharness/host-codex": 66,
+    "@metaharness/host-copilot": 67,
+    "@metaharness/host-github-actions": 59,
+    "@metaharness/host-hermes": 69,
+    "@metaharness/host-openclaw": 63,
+    "@metaharness/host-opencode": 64,
+    "@metaharness/host-pi-dev": 62,
+    "@metaharness/host-prime-agent": 11,
+    "@metaharness/host-rvm": 61,
+    "@metaharness/jujutsu": 10,
+    "@metaharness/kernel": 647,
+    "@metaharness/legal": 15,
+    "@metaharness/oo-agents": 0,
+    "@metaharness/openclaw": 18,
+    "@metaharness/opencode": 17,
+    "@metaharness/pi-dev": 14,
+    "@metaharness/projects": 11,
+    "@metaharness/radio": 8811,
+    "@metaharness/redblue": 16660,
+    "@metaharness/repo-maintainer": 18,
+    "@metaharness/router": 26952,
+    "@metaharness/sales": 15,
+    "@metaharness/research": 16,
+    "@metaharness/rvm": 16,
+    "@metaharness/sdk": 14,
+    "@metaharness/support": 16,
+    "@metaharness/trading": 19,
+    "@metaharness/turn-credit": 12477,
+    "@metaharness/weight-eft": 15797,
+    "@metaharness/workspace-lens": 14079,
+    "@metaharness/vertical-base": 14,
+    "@metaharness/vertical-trading": 14,
+    "@neural-trader/agentic-accounting-cli": 2,
+    "@neural-trader/agentic-accounting-agents": 8,
+    "@metaharness/workspace-probe": 14429,
+    "@neural-trader/agentic-accounting-rust-core": 4,
+    "@neural-trader/agentic-accounting-core": 12,
+    "@neural-trader/agentic-accounting-mcp": 1,
+    "@neural-trader/agentic-accounting-types": 2,
+    "@neural-trader/backtesting": 0,
+    "@neural-trader/benchoptimizer": 0,
+    "@neural-trader/backend": 1,
+    "@neural-trader/brokers": 2,
+    "@neural-trader/e2b-strategies": 1,
+    "@neural-trader/core": 48,
+    "@neural-trader/example-dynamic-pricing": 1,
+    "@neural-trader/example-energy-forecasting": 2,
+    "@neural-trader/example-evolutionary-game-theory": 3,
+    "@neural-trader/example-energy-grid-optimization": 1,
+    "@neural-trader/example-logistics-optimization": 4,
+    "@neural-trader/example-healthcare-optimization": 1,
+    "@neural-trader/example-market-microstructure": 2,
+    "@neural-trader/example-portfolio-optimization": 1,
+    "@neural-trader/example-quantum-optimization": 4,
+    "@neural-trader/example-neuromorphic-computing": 3,
+    "@neural-trader/features": 0,
+    "@neural-trader/execution": 1,
+    "@neural-trader/example-supply-chain-prediction": 3,
+    "@neural-trader/mcp-protocol": 1,
+    "@neural-trader/market-data": 2,
+    "@neural-trader/mcp": 1,
+    "@neural-trader/neural": 0,
+    "@neural-trader/news-trading": 2,
+    "@neural-trader/neuro-divergent": 3,
+    "@neural-trader/portfolio": 0,
+    "@neural-trader/prediction-markets": 12,
+    "@neural-trader/predictor": 44,
+    "@neural-trader/syndicate": 0,
+    "@neural-trader/sports-betting": 4,
+    "@neural-trader/risk": 1,
+    "@neural-trader/strategies": 0,
+    "@qudag/cli": 1,
+    "@qudag/mcp-sse": 4,
+    "@qudag/mcp-stdio": 2,
+    "@ruv/sparc-ui": 5,
+    "@ruvector/acorn-wasm": 8,
+    "@qudag/napi-core": 4,
+    "@ruv/rash": 1,
+    "@ruv/rvcsi": 0,
+    "@ruvector/agentic-synth-examples": 0,
+    "@ruvector/agentic-synth": 18,
+    "@ruvector/all": 24,
+    "@ruvector/agentic-integration": 14,
+    "@ruvector/attention-darwin-arm64": 4985,
+    "@ruvector/attention-linux-arm64-gnu": 930,
+    "@ruvector/attention-darwin-x64": 454,
+    "@ruvector/attention-linux-x64-gnu": 19096,
+    "@ruvector/attention-win32-x64-msvc": 6406,
+    "@ruvector/attention-unified-wasm": 18,
+    "@ruvector/attention-wasm": 11,
+    "@ruvector/cluster": 0,
+    "@ruvector/cli": 6,
+    "@ruvector/burst-scaling": 5,
+    "@ruvector/diskann": 426,
+    "@ruvector/cnn": 36,
+    "@ruvector/core": 21961,
+    "@ruvector/diskann-darwin-arm64": 178,
+    "@ruvector/diskann-darwin-x64": 174,
+    "@ruvector/diskann-linux-arm64-gnu": 171,
+    "@ruvector/diskann-linux-x64-gnu": 324,
+    "@ruvector/economy-wasm": 14,
+    "@ruvector/diskann-win32-x64-msvc": 180,
+    "@ruvector/edge": 15,
+    "@ruvector/emergent-time": 709,
+    "@ruvector/edge-net": 3,
+    "@ruvector/edge-full": 21518,
+    "@ruvector/gnn-darwin-arm64": 3888,
+    "@ruvector/gnn-darwin-x64": 413,
+    "@ruvector/gnn": 22228,
+    "@ruvector/exotic-wasm": 9,
+    "@ruvector/gnn-linux-arm64-musl": 155,
+    "@ruvector/gnn-linux-arm64-gnu": 868,
+    "@ruvector/gnn-linux-x64-musl": 6145,
+    "@ruvector/gnn-linux-x64-gnu": 13450,
+    "@ruvector/gnn-wasm": 10,
+    "@ruvector/graph-data-generator": 5,
+    "@ruvector/gnn-win32-x64-msvc": 5302,
+    "@ruvector/graph-node": 23102,
+    "@ruvector/graph-node-darwin-arm64": 4689,
+    "@ruvector/graph-node-darwin-x64": 506,
+    "@ruvector/graph-node-linux-x64-gnu": 14091,
+    "@ruvector/graph-node-win32-x64-msvc": 6071,
+    "@ruvector/graph-node-linux-arm64-gnu": 942,
+    "@ruvector/graph-transformer-darwin-x64": 152,
+    "@ruvector/graph-transformer-darwin-arm64": 834,
+    "@ruvector/graph-transformer-linux-arm64-gnu": 699,
+    "@ruvector/graph-transformer": 13737,
+    "@ruvector/graph-transformer-linux-arm64-musl": 169,
+    "@ruvector/graph-transformer-win32-x64-msvc": 1317,
+    "@ruvector/graph-transformer-linux-x64-musl": 5153,
+    "@ruvector/graph-transformer-linux-x64-gnu": 10605,
+    "@ruvector/graph-wasm": 101,
+    "@ruvector/kge-darwin-arm64": 11,
+    "@ruvector/kge-darwin-x64": 7,
+    "@ruvector/kge": 13,
+    "@ruvector/learning-wasm": 8215,
+    "@ruvector/kge-linux-x64-gnu": 8,
+    "@ruvector/kge-win32-x64-msvc": 7,
+    "@ruvector/kge-linux-arm64-gnu": 14,
+    "@ruvector/nervous-system-wasm": 0,
+    "@ruvector/mincut-wasm": 9620,
+    "@ruvector/math-wasm": 2,
+    "@ruvector/neural-trader-wasm": 0,
+    "@ruvector/node-darwin-x64": 1,
+    "@ruvector/node": 28,
+    "@ruvector/node-darwin-arm64": 1,
+    "@ruvector/node-linux-x64-gnu": 1,
+    "@ruvector/ospipe": 5,
+    "@ruvector/node-win32-x64-msvc": 0,
+    "@ruvector/node-linux-arm64-gnu": 3,
+    "@ruvector/postgres-cli": 61,
+    "@ruvector/pi-brain": 5,
+    "@ruvector/rabitq-wasm": 12983,
+    "@ruvector/ospipe-wasm": 5,
+    "@ruvector/router": 21556,
+    "@ruvector/router-darwin-arm64": 4417,
+    "@ruvector/replication": 0,
+    "@ruvector/raft": 1,
+    "@ruvector/router-linux-x64-gnu": 12896,
+    "@ruvector/router-linux-arm64-gnu": 802,
+    "@ruvector/router-darwin-x64": 348,
+    "@ruvector/router-wasm": 0,
+    "@ruvector/ruqu": 16,
+    "@ruvector/router-win32-x64-msvc": 5784,
+    "@ruvector/rudag": 12317,
+    "@ruvector/ruqu-wasm": 10012,
+    "@ruvector/ruvllm": 32958,
+    "@ruvector/ruvllm-cli": 2,
+    "@ruvector/ruvllm-darwin-arm64": 5039,
+    "@ruvector/ruvector-consciousness-wasm": 0,
+    "@ruvector/ruvllm-darwin-x64": 485,
+    "@ruvector/ruvllm-linux-arm64-gnu": 860,
+    "@ruvector/ruvllm-gpu-loop": 10748,
+    "@ruvector/ruvllm-linux-x64-gnu": 15215,
+    "@ruvector/rvagent-wasm": 33,
+    "@ruvector/rvdna": 3,
+    "@ruvector/ruvllm-wasm": 42,
+    "@ruvector/ruvllm-win32-x64-msvc": 6934,
+    "@ruvector/rvf-mcp-server": 86,
+    "@ruvector/rvf-node": 31180,
+    "@ruvector/rvf": 26475,
+    "@ruvector/rvf-node-darwin-arm64": 622,
+    "@ruvector/rvf-node-linux-arm64-gnu": 512,
+    "@ruvector/rvf-node-darwin-x64": 101,
+    "@ruvector/rvf-node-win32-x64-msvc": 622,
+    "@ruvector/rvf-node-linux-x64-gnu": 10193,
+    "@ruvector/rvf-solver": 19502,
+    "@ruvector/rvforge": 35,
+    "@ruvector/rvlite": 143,
+    "@ruvector/rvf-wasm": 18003,
+    "@ruvector/sona-darwin-arm64": 7402,
+    "@ruvector/scipix": 2,
+    "@ruvector/sona": 42180,
+    "@ruvector/server": 1,
+    "@ruvector/sona-linux-arm64-gnu": 1107,
+    "@ruvector/sona-darwin-x64": 486,
+    "@ruvector/sona-linux-x64-musl": 6956,
+    "@ruvector/sona-linux-x64-gnu": 19815,
+    "@ruvector/sona-win32-x64-msvc": 9933,
+    "@ruvector/spiking-neural": 7,
+    "@ruvector/sona-win32-arm64-msvc": 236,
+    "@ruvector/tiny-dancer": 17818,
+    "@ruvector/tiny-dancer-darwin-arm64": 3961,
+    "@ruvector/tiny-dancer-darwin-x64": 296,
+    "@ruvector/tiny-dancer-linux-arm64-gnu": 382,
+    "@ruvector/tiny-dancer-linux-arm64-musl": 149,
+    "@ruvector/tiny-dancer-wasm": 0,
+    "@ruvector/tiny-dancer-win32-arm64-msvc": 183,
+    "@ruvector/tiny-dancer-linux-x64-gnu": 10985,
+    "@ruvector/tiny-dancer-linux-x64-musl": 4139,
+    "@ruvector/typesafe": 1069,
+    "@ruvector/typesafe-darwin-x64": 0,
+    "@ruvector/typesafe-darwin-arm64": 0,
+    "@ruvector/tiny-dancer-win32-x64-msvc": 4988,
+    "@ruvector/typesafe-win32-x64-msvc": 0,
+    "@ruvector/typesafe-linux-arm64-gnu": 0,
+    "@ruvector/wasm": 1187,
+    "@ruvector/typesafe-linux-x64-gnu": 0,
+    "@ruvnet/agent-harness-generator": 185,
+    "@ruvector/weight-space": 169,
+    "@ruvector/wasm-unified": 8,
+    "@ruvnet/bmssp": 31,
+    "@ruvnet/ruview": 84,
+    "@ruvnet/open-claude-code": 191,
+    "@ruvnet/ruvector-verified-wasm": 0,
+    "@ruvnet/ruview-kernel": 18,
+    "@ruvnet/site-harness": 11,
+    "@ruvnet/ruvn": 1,
+    "@ruvnet/rvm-context-wasm": 2,
+    "@ruvnet/rvagent": 23,
+    "@ruvnet/sublinear-core": 10286,
+    "@ruvnet/strange-loop": 22
+  },
+  "errors": {},
+  "source": "https://api.npmjs.org/downloads/point/2026-11-10/{package}",
+  "earlier_verified_source": {
+    "retrieved_at": "2026-11-11T13:09:47.297795+00:00",
+    "source": "https://api.npmjs.org/downloads/point/2026-11-10/{package}",
+    "values": {
+      "ruflo": 15868,
+      "agentdb": 33865,
+      "agentic-flow": 30028,
+      "ruvector": 46251,
+      "@metaharness/darwin": 22801,
+      "@ruvector/attention": 28910
+    }
+  },
+  "resume_observations": [
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/agent-booster,agentbbs,agentic-jujutsu,agentic-payments,agentic-robotics,agenticow,agentics-hackathon,agenticsjs,ai-text-watermark,aidefence,aidefense,bmssp-wasm,claude-flow,claude-flow-v3,cogmusic,consciousness-explorer,create-sparc,cuda-wasm,dream-machine,dspy.ts,flow-nexus,goalie,homecore,lean-agentic,llm-stream-reformat,metaharness,midstreamer,neural-trader,prime-radiant-advanced-wasm,psycho-symbolic-integration,psycho-symbolic-reasoner,qudag,radio-moe,readme-proof,research-swarm,rucelium-harness,ruflo-graph-intelligence,rulake-wasm,rupixel,ruv-fann",
+      "retrieved_at": "2026-11-11T13:49:41.072113+00:00",
+      "packages": [
+        "agent-booster",
+        "agentbbs",
+        "agentic-jujutsu",
+        "agentic-payments",
+        "agentic-robotics",
+        "agenticow",
+        "agentics-hackathon",
+        "agenticsjs",
+        "ai-text-watermark",
+        "aidefence",
+        "aidefense",
+        "bmssp-wasm",
+        "claude-flow",
+        "claude-flow-v3",
+        "cogmusic",
+        "consciousness-explorer",
+        "create-sparc",
+        "cuda-wasm",
+        "dream-machine",
+        "dspy.ts",
+        "flow-nexus",
+        "goalie",
+        "homecore",
+        "lean-agentic",
+        "llm-stream-reformat",
+        "metaharness",
+        "midstreamer",
+        "neural-trader",
+        "prime-radiant-advanced-wasm",
+        "psycho-symbolic-integration",
+        "psycho-symbolic-reasoner",
+        "qudag",
+        "radio-moe",
+        "readme-proof",
+        "research-swarm",
+        "rucelium-harness",
+        "ruflo-graph-intelligence",
+        "rulake-wasm",
+        "rupixel",
+        "ruv-fann"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/ruv-fann-wasm,ruv-fann-wsp,ruv-fann-wsp-cloudflare,ruv-fann-wsp-huggingface,ruv-fann-wsp-invariants,ruv-fann-wsp-lifecycle,ruv-fann-wsp-loop,ruv-fann-wsp-registry,ruv-fann-wsp-ruos,ruv-fann-wsp-search,ruv-fann-wsp-swarm,ruv-swarm,ruvbot,ruvdrone,ruvector-attention-unified-wasm,ruvector-attention-wasm,ruvector-core,ruvector-core-darwin-arm64,ruvector-core-darwin-x64,ruvector-core-linux-arm64-gnu,ruvector-core-linux-x64-gnu,ruvector-core-win32-x64-msvc,ruvector-extensions,ruvector-gnn-wasm,ruvector-graph-transformer-wasm,ruvector-math-wasm,ruvector-mragent,ruvector-onnx-embeddings-wasm,ruvector-sona,ruvector-wasm,ruvi,ruvllm-esp32,ruvnet-constellation,ruvnet-constellation-contracts,ruvnet-constellation-telemetry,ruvneural,rvlite,spiking-neural,strange-loops,strange-loops-mcp",
+      "retrieved_at": "2026-11-11T13:49:44.837186+00:00",
+      "packages": [
+        "ruv-fann-wasm",
+        "ruv-fann-wsp",
+        "ruv-fann-wsp-cloudflare",
+        "ruv-fann-wsp-huggingface",
+        "ruv-fann-wsp-invariants",
+        "ruv-fann-wsp-lifecycle",
+        "ruv-fann-wsp-loop",
+        "ruv-fann-wsp-registry",
+        "ruv-fann-wsp-ruos",
+        "ruv-fann-wsp-search",
+        "ruv-fann-wsp-swarm",
+        "ruv-swarm",
+        "ruvbot",
+        "ruvdrone",
+        "ruvector-attention-unified-wasm",
+        "ruvector-attention-wasm",
+        "ruvector-core",
+        "ruvector-core-darwin-arm64",
+        "ruvector-core-darwin-x64",
+        "ruvector-core-linux-arm64-gnu",
+        "ruvector-core-linux-x64-gnu",
+        "ruvector-core-win32-x64-msvc",
+        "ruvector-extensions",
+        "ruvector-gnn-wasm",
+        "ruvector-graph-transformer-wasm",
+        "ruvector-math-wasm",
+        "ruvector-mragent",
+        "ruvector-onnx-embeddings-wasm",
+        "ruvector-sona",
+        "ruvector-wasm",
+        "ruvi",
+        "ruvllm-esp32",
+        "ruvnet-constellation",
+        "ruvnet-constellation-contracts",
+        "ruvnet-constellation-telemetry",
+        "ruvneural",
+        "rvlite",
+        "spiking-neural",
+        "strange-loops",
+        "strange-loops-mcp"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/sublinear-time-solver,symbolic-scribe-harness,temporal-lead-solver,temporal-neural-solver,vscode-remote-mcp,wifi-densepose-sar-harness,worldgraphs",
+      "retrieved_at": "2026-11-11T13:49:48.459703+00:00",
+      "packages": [
+        "sublinear-time-solver",
+        "symbolic-scribe-harness",
+        "temporal-lead-solver",
+        "temporal-neural-solver",
+        "vscode-remote-mcp",
+        "wifi-densepose-sar-harness",
+        "worldgraphs"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fexample-nasa",
+      "retrieved_at": "2026-11-11T13:49:52.090380+00:00",
+      "packages": [
+        "@metaharness/example-nasa"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fexample-pinecone",
+      "retrieved_at": "2026-11-11T13:49:57.845517+00:00",
+      "packages": [
+        "@metaharness/example-pinecone"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fexample-slack",
+      "retrieved_at": "2026-11-11T13:50:02.042082+00:00",
+      "packages": [
+        "@metaharness/example-slack"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fexample-stripe",
+      "retrieved_at": "2026-11-11T13:50:05.596729+00:00",
+      "packages": [
+        "@metaharness/example-stripe"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fexample-twilio",
+      "retrieved_at": "2026-11-11T13:50:09.482163+00:00",
+      "packages": [
+        "@metaharness/example-twilio"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fexample-web3",
+      "retrieved_at": "2026-11-11T13:50:13.179635+00:00",
+      "packages": [
+        "@metaharness/example-web3"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Ffield-memory",
+      "retrieved_at": "2026-11-11T13:50:16.374386+00:00",
+      "packages": [
+        "@metaharness/field-memory"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fflywheel",
+      "retrieved_at": "2026-11-11T13:50:20.137686+00:00",
+      "packages": [
+        "@metaharness/flywheel"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fgaming",
+      "retrieved_at": "2026-11-11T13:50:23.890619+00:00",
+      "packages": [
+        "@metaharness/gaming"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fgithub-actions",
+      "retrieved_at": "2026-11-11T13:50:29.980333+00:00",
+      "packages": [
+        "@metaharness/github-actions"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fharness",
+      "retrieved_at": "2026-11-11T13:50:33.263170+00:00",
+      "packages": [
+        "@metaharness/harness"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhermes",
+      "retrieved_at": "2026-11-11T13:50:37.695791+00:00",
+      "packages": [
+        "@metaharness/hermes"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhorizon",
+      "retrieved_at": "2026-11-11T13:50:41.463751+00:00",
+      "packages": [
+        "@metaharness/horizon"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-claude-code",
+      "retrieved_at": "2026-11-11T13:50:45.676499+00:00",
+      "packages": [
+        "@metaharness/host-claude-code"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-codex",
+      "retrieved_at": "2026-11-11T13:50:50.735685+00:00",
+      "packages": [
+        "@metaharness/host-codex"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-copilot",
+      "retrieved_at": "2026-11-11T13:50:54.463037+00:00",
+      "packages": [
+        "@metaharness/host-copilot"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-github-actions",
+      "retrieved_at": "2026-11-11T13:50:58.301856+00:00",
+      "packages": [
+        "@metaharness/host-github-actions"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-hermes",
+      "retrieved_at": "2026-11-11T13:51:01.924555+00:00",
+      "packages": [
+        "@metaharness/host-hermes"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-openclaw",
+      "retrieved_at": "2026-11-11T13:51:06.626017+00:00",
+      "packages": [
+        "@metaharness/host-openclaw"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-opencode",
+      "retrieved_at": "2026-11-11T13:51:10.374758+00:00",
+      "packages": [
+        "@metaharness/host-opencode"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-pi-dev",
+      "retrieved_at": "2026-11-11T13:51:15.173617+00:00",
+      "packages": [
+        "@metaharness/host-pi-dev"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-prime-agent",
+      "retrieved_at": "2026-11-11T13:51:21.275149+00:00",
+      "packages": [
+        "@metaharness/host-prime-agent"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fhost-rvm",
+      "retrieved_at": "2026-11-11T13:51:25.088087+00:00",
+      "packages": [
+        "@metaharness/host-rvm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fjujutsu",
+      "retrieved_at": "2026-11-11T13:51:28.926415+00:00",
+      "packages": [
+        "@metaharness/jujutsu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fkernel",
+      "retrieved_at": "2026-11-11T13:51:32.638141+00:00",
+      "packages": [
+        "@metaharness/kernel"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Flegal",
+      "retrieved_at": "2026-11-11T13:51:36.209677+00:00",
+      "packages": [
+        "@metaharness/legal"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Foo-agents",
+      "retrieved_at": "2026-11-11T13:51:40.082422+00:00",
+      "packages": [
+        "@metaharness/oo-agents"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fopenclaw",
+      "retrieved_at": "2026-11-11T13:51:43.877420+00:00",
+      "packages": [
+        "@metaharness/openclaw"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fopencode",
+      "retrieved_at": "2026-11-11T13:51:47.657415+00:00",
+      "packages": [
+        "@metaharness/opencode"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fpi-dev",
+      "retrieved_at": "2026-11-11T13:51:51.687909+00:00",
+      "packages": [
+        "@metaharness/pi-dev"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fprojects",
+      "retrieved_at": "2026-11-11T13:51:55.513947+00:00",
+      "packages": [
+        "@metaharness/projects"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fradio",
+      "retrieved_at": "2026-11-11T13:51:59.316068+00:00",
+      "packages": [
+        "@metaharness/radio"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fredblue",
+      "retrieved_at": "2026-11-11T13:52:03.774656+00:00",
+      "packages": [
+        "@metaharness/redblue"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Frepo-maintainer",
+      "retrieved_at": "2026-11-11T13:52:07.229087+00:00",
+      "packages": [
+        "@metaharness/repo-maintainer"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Frouter",
+      "retrieved_at": "2026-11-11T13:52:42.717339+00:00",
+      "packages": [
+        "@metaharness/router"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fsales",
+      "retrieved_at": "2026-11-11T13:52:42.730708+00:00",
+      "packages": [
+        "@metaharness/sales"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fresearch",
+      "retrieved_at": "2026-11-11T13:52:42.786563+00:00",
+      "packages": [
+        "@metaharness/research"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Frvm",
+      "retrieved_at": "2026-11-11T13:52:42.827787+00:00",
+      "packages": [
+        "@metaharness/rvm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fsdk",
+      "retrieved_at": "2026-11-11T13:52:47.068778+00:00",
+      "packages": [
+        "@metaharness/sdk"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fsupport",
+      "retrieved_at": "2026-11-11T13:52:47.131364+00:00",
+      "packages": [
+        "@metaharness/support"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Ftrading",
+      "retrieved_at": "2026-11-11T13:52:47.143802+00:00",
+      "packages": [
+        "@metaharness/trading"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fturn-credit",
+      "retrieved_at": "2026-11-11T13:52:47.236423+00:00",
+      "packages": [
+        "@metaharness/turn-credit"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fweight-eft",
+      "retrieved_at": "2026-11-11T13:52:51.887855+00:00",
+      "packages": [
+        "@metaharness/weight-eft"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fworkspace-lens",
+      "retrieved_at": "2026-11-11T13:52:51.907743+00:00",
+      "packages": [
+        "@metaharness/workspace-lens"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fvertical-base",
+      "retrieved_at": "2026-11-11T13:52:52.078356+00:00",
+      "packages": [
+        "@metaharness/vertical-base"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fvertical-trading",
+      "retrieved_at": "2026-11-11T13:52:52.195340+00:00",
+      "packages": [
+        "@metaharness/vertical-trading"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fagentic-accounting-cli",
+      "retrieved_at": "2026-11-11T13:52:56.083998+00:00",
+      "packages": [
+        "@neural-trader/agentic-accounting-cli"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fagentic-accounting-agents",
+      "retrieved_at": "2026-11-11T13:52:56.112380+00:00",
+      "packages": [
+        "@neural-trader/agentic-accounting-agents"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40metaharness%2Fworkspace-probe",
+      "retrieved_at": "2026-11-11T13:52:56.630948+00:00",
+      "packages": [
+        "@metaharness/workspace-probe"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fagentic-accounting-rust-core",
+      "retrieved_at": "2026-11-11T13:52:59.686967+00:00",
+      "packages": [
+        "@neural-trader/agentic-accounting-rust-core"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fagentic-accounting-core",
+      "retrieved_at": "2026-11-11T13:52:59.728195+00:00",
+      "packages": [
+        "@neural-trader/agentic-accounting-core"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fagentic-accounting-mcp",
+      "retrieved_at": "2026-11-11T13:52:59.921377+00:00",
+      "packages": [
+        "@neural-trader/agentic-accounting-mcp"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fagentic-accounting-types",
+      "retrieved_at": "2026-11-11T13:53:03.826378+00:00",
+      "packages": [
+        "@neural-trader/agentic-accounting-types"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fbacktesting",
+      "retrieved_at": "2026-11-11T13:53:03.952506+00:00",
+      "packages": [
+        "@neural-trader/backtesting"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fbenchoptimizer",
+      "retrieved_at": "2026-11-11T13:53:03.959806+00:00",
+      "packages": [
+        "@neural-trader/benchoptimizer"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fbackend",
+      "retrieved_at": "2026-11-11T13:53:03.961428+00:00",
+      "packages": [
+        "@neural-trader/backend"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fbrokers",
+      "retrieved_at": "2026-11-11T13:53:08.528756+00:00",
+      "packages": [
+        "@neural-trader/brokers"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fe2b-strategies",
+      "retrieved_at": "2026-11-11T13:53:08.817606+00:00",
+      "packages": [
+        "@neural-trader/e2b-strategies"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fcore",
+      "retrieved_at": "2026-11-11T13:53:08.834558+00:00",
+      "packages": [
+        "@neural-trader/core"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-dynamic-pricing",
+      "retrieved_at": "2026-11-11T13:53:08.948432+00:00",
+      "packages": [
+        "@neural-trader/example-dynamic-pricing"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-energy-forecasting",
+      "retrieved_at": "2026-11-11T13:53:12.909372+00:00",
+      "packages": [
+        "@neural-trader/example-energy-forecasting"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-evolutionary-game-theory",
+      "retrieved_at": "2026-11-11T13:53:13.040743+00:00",
+      "packages": [
+        "@neural-trader/example-evolutionary-game-theory"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-energy-grid-optimization",
+      "retrieved_at": "2026-11-11T13:53:13.044966+00:00",
+      "packages": [
+        "@neural-trader/example-energy-grid-optimization"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-logistics-optimization",
+      "retrieved_at": "2026-11-11T13:53:16.549910+00:00",
+      "packages": [
+        "@neural-trader/example-logistics-optimization"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-healthcare-optimization",
+      "retrieved_at": "2026-11-11T13:53:16.581225+00:00",
+      "packages": [
+        "@neural-trader/example-healthcare-optimization"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-market-microstructure",
+      "retrieved_at": "2026-11-11T13:53:16.701165+00:00",
+      "packages": [
+        "@neural-trader/example-market-microstructure"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-portfolio-optimization",
+      "retrieved_at": "2026-11-11T13:53:20.043703+00:00",
+      "packages": [
+        "@neural-trader/example-portfolio-optimization"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-quantum-optimization",
+      "retrieved_at": "2026-11-11T13:53:20.045344+00:00",
+      "packages": [
+        "@neural-trader/example-quantum-optimization"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-neuromorphic-computing",
+      "retrieved_at": "2026-11-11T13:53:20.225955+00:00",
+      "packages": [
+        "@neural-trader/example-neuromorphic-computing"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Ffeatures",
+      "retrieved_at": "2026-11-11T13:53:23.805964+00:00",
+      "packages": [
+        "@neural-trader/features"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexecution",
+      "retrieved_at": "2026-11-11T13:53:23.848030+00:00",
+      "packages": [
+        "@neural-trader/execution"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fexample-supply-chain-prediction",
+      "retrieved_at": "2026-11-11T13:53:23.948857+00:00",
+      "packages": [
+        "@neural-trader/example-supply-chain-prediction"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fmcp-protocol",
+      "retrieved_at": "2026-11-11T13:53:27.323087+00:00",
+      "packages": [
+        "@neural-trader/mcp-protocol"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fmarket-data",
+      "retrieved_at": "2026-11-11T13:53:27.443333+00:00",
+      "packages": [
+        "@neural-trader/market-data"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fmcp",
+      "retrieved_at": "2026-11-11T13:53:27.446766+00:00",
+      "packages": [
+        "@neural-trader/mcp"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fneural",
+      "retrieved_at": "2026-11-11T13:53:30.739981+00:00",
+      "packages": [
+        "@neural-trader/neural"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fnews-trading",
+      "retrieved_at": "2026-11-11T13:53:30.791210+00:00",
+      "packages": [
+        "@neural-trader/news-trading"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fneuro-divergent",
+      "retrieved_at": "2026-11-11T13:53:30.921946+00:00",
+      "packages": [
+        "@neural-trader/neuro-divergent"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fportfolio",
+      "retrieved_at": "2026-11-11T13:53:34.537425+00:00",
+      "packages": [
+        "@neural-trader/portfolio"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fprediction-markets",
+      "retrieved_at": "2026-11-11T13:53:34.606760+00:00",
+      "packages": [
+        "@neural-trader/prediction-markets"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fpredictor",
+      "retrieved_at": "2026-11-11T13:53:34.631844+00:00",
+      "packages": [
+        "@neural-trader/predictor"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fsyndicate",
+      "retrieved_at": "2026-11-11T13:53:38.408305+00:00",
+      "packages": [
+        "@neural-trader/syndicate"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fsports-betting",
+      "retrieved_at": "2026-11-11T13:53:38.420679+00:00",
+      "packages": [
+        "@neural-trader/sports-betting"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Frisk",
+      "retrieved_at": "2026-11-11T13:53:38.621800+00:00",
+      "packages": [
+        "@neural-trader/risk"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40neural-trader%2Fstrategies",
+      "retrieved_at": "2026-11-11T13:53:38.676692+00:00",
+      "packages": [
+        "@neural-trader/strategies"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40qudag%2Fcli",
+      "retrieved_at": "2026-11-11T13:53:42.664554+00:00",
+      "packages": [
+        "@qudag/cli"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40qudag%2Fmcp-sse",
+      "retrieved_at": "2026-11-11T13:53:42.843351+00:00",
+      "packages": [
+        "@qudag/mcp-sse"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40qudag%2Fmcp-stdio",
+      "retrieved_at": "2026-11-11T13:53:42.977339+00:00",
+      "packages": [
+        "@qudag/mcp-stdio"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruv%2Fsparc-ui",
+      "retrieved_at": "2026-11-11T13:53:50.572957+00:00",
+      "packages": [
+        "@ruv/sparc-ui"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Facorn-wasm",
+      "retrieved_at": "2026-11-11T13:54:20.418477+00:00",
+      "packages": [
+        "@ruvector/acorn-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40qudag%2Fnapi-core",
+      "retrieved_at": "2026-11-11T13:54:20.420170+00:00",
+      "packages": [
+        "@qudag/napi-core"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruv%2Frash",
+      "retrieved_at": "2026-11-11T13:54:20.484572+00:00",
+      "packages": [
+        "@ruv/rash"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruv%2Frvcsi",
+      "retrieved_at": "2026-11-11T13:54:20.617722+00:00",
+      "packages": [
+        "@ruv/rvcsi"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fagentic-synth-examples",
+      "retrieved_at": "2026-11-11T13:54:26.260347+00:00",
+      "packages": [
+        "@ruvector/agentic-synth-examples"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fagentic-synth",
+      "retrieved_at": "2026-11-11T13:54:26.324910+00:00",
+      "packages": [
+        "@ruvector/agentic-synth"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fall",
+      "retrieved_at": "2026-11-11T13:54:26.500212+00:00",
+      "packages": [
+        "@ruvector/all"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fagentic-integration",
+      "retrieved_at": "2026-11-11T13:54:26.521295+00:00",
+      "packages": [
+        "@ruvector/agentic-integration"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fattention-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:54:30.042493+00:00",
+      "packages": [
+        "@ruvector/attention-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fattention-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:54:30.093384+00:00",
+      "packages": [
+        "@ruvector/attention-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fattention-darwin-x64",
+      "retrieved_at": "2026-11-11T13:54:30.205749+00:00",
+      "packages": [
+        "@ruvector/attention-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fattention-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:54:36.208330+00:00",
+      "packages": [
+        "@ruvector/attention-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fattention-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:54:36.256976+00:00",
+      "packages": [
+        "@ruvector/attention-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fattention-unified-wasm",
+      "retrieved_at": "2026-11-11T13:54:36.267939+00:00",
+      "packages": [
+        "@ruvector/attention-unified-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fattention-wasm",
+      "retrieved_at": "2026-11-11T13:54:36.304789+00:00",
+      "packages": [
+        "@ruvector/attention-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fcluster",
+      "retrieved_at": "2026-11-11T13:54:39.744645+00:00",
+      "packages": [
+        "@ruvector/cluster"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fcli",
+      "retrieved_at": "2026-11-11T13:54:39.842898+00:00",
+      "packages": [
+        "@ruvector/cli"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fburst-scaling",
+      "retrieved_at": "2026-11-11T13:54:40.026959+00:00",
+      "packages": [
+        "@ruvector/burst-scaling"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fdiskann",
+      "retrieved_at": "2026-11-11T13:54:43.646774+00:00",
+      "packages": [
+        "@ruvector/diskann"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fcnn",
+      "retrieved_at": "2026-11-11T13:54:43.657673+00:00",
+      "packages": [
+        "@ruvector/cnn"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fcore",
+      "retrieved_at": "2026-11-11T13:54:43.901236+00:00",
+      "packages": [
+        "@ruvector/core"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fdiskann-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:54:47.317943+00:00",
+      "packages": [
+        "@ruvector/diskann-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fdiskann-darwin-x64",
+      "retrieved_at": "2026-11-11T13:54:47.421339+00:00",
+      "packages": [
+        "@ruvector/diskann-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fdiskann-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:54:47.513190+00:00",
+      "packages": [
+        "@ruvector/diskann-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fdiskann-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:54:51.320834+00:00",
+      "packages": [
+        "@ruvector/diskann-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Feconomy-wasm",
+      "retrieved_at": "2026-11-11T13:54:51.458855+00:00",
+      "packages": [
+        "@ruvector/economy-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fdiskann-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:54:51.496529+00:00",
+      "packages": [
+        "@ruvector/diskann-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fedge",
+      "retrieved_at": "2026-11-11T13:54:51.510351+00:00",
+      "packages": [
+        "@ruvector/edge"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Femergent-time",
+      "retrieved_at": "2026-11-11T13:54:55.722175+00:00",
+      "packages": [
+        "@ruvector/emergent-time"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fedge-net",
+      "retrieved_at": "2026-11-11T13:54:55.925421+00:00",
+      "packages": [
+        "@ruvector/edge-net"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fedge-full",
+      "retrieved_at": "2026-11-11T13:54:55.953775+00:00",
+      "packages": [
+        "@ruvector/edge-full"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:54:59.432102+00:00",
+      "packages": [
+        "@ruvector/gnn-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-darwin-x64",
+      "retrieved_at": "2026-11-11T13:54:59.448994+00:00",
+      "packages": [
+        "@ruvector/gnn-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn",
+      "retrieved_at": "2026-11-11T13:54:59.475866+00:00",
+      "packages": [
+        "@ruvector/gnn"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fexotic-wasm",
+      "retrieved_at": "2026-11-11T13:54:59.609032+00:00",
+      "packages": [
+        "@ruvector/exotic-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-linux-arm64-musl",
+      "retrieved_at": "2026-11-11T13:55:05.328890+00:00",
+      "packages": [
+        "@ruvector/gnn-linux-arm64-musl"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:55:05.418706+00:00",
+      "packages": [
+        "@ruvector/gnn-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-linux-x64-musl",
+      "retrieved_at": "2026-11-11T13:55:05.450888+00:00",
+      "packages": [
+        "@ruvector/gnn-linux-x64-musl"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:55:05.529905+00:00",
+      "packages": [
+        "@ruvector/gnn-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-wasm",
+      "retrieved_at": "2026-11-11T13:55:09.182836+00:00",
+      "packages": [
+        "@ruvector/gnn-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-data-generator",
+      "retrieved_at": "2026-11-11T13:55:09.288615+00:00",
+      "packages": [
+        "@ruvector/graph-data-generator"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgnn-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:55:09.540776+00:00",
+      "packages": [
+        "@ruvector/gnn-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-node",
+      "retrieved_at": "2026-11-11T13:55:12.870715+00:00",
+      "packages": [
+        "@ruvector/graph-node"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-node-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:55:12.876149+00:00",
+      "packages": [
+        "@ruvector/graph-node-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-node-darwin-x64",
+      "retrieved_at": "2026-11-11T13:55:13.044748+00:00",
+      "packages": [
+        "@ruvector/graph-node-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-node-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:55:16.569534+00:00",
+      "packages": [
+        "@ruvector/graph-node-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-node-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:55:16.620195+00:00",
+      "packages": [
+        "@ruvector/graph-node-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-node-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:55:16.770504+00:00",
+      "packages": [
+        "@ruvector/graph-node-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer-darwin-x64",
+      "retrieved_at": "2026-11-11T13:55:23.187469+00:00",
+      "packages": [
+        "@ruvector/graph-transformer-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:55:23.227635+00:00",
+      "packages": [
+        "@ruvector/graph-transformer-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:55:23.236748+00:00",
+      "packages": [
+        "@ruvector/graph-transformer-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer",
+      "retrieved_at": "2026-11-11T13:55:23.407494+00:00",
+      "packages": [
+        "@ruvector/graph-transformer"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer-linux-arm64-musl",
+      "retrieved_at": "2026-11-11T13:55:27.300901+00:00",
+      "packages": [
+        "@ruvector/graph-transformer-linux-arm64-musl"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:55:27.308063+00:00",
+      "packages": [
+        "@ruvector/graph-transformer-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer-linux-x64-musl",
+      "retrieved_at": "2026-11-11T13:55:27.542773+00:00",
+      "packages": [
+        "@ruvector/graph-transformer-linux-x64-musl"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-transformer-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:55:27.689858+00:00",
+      "packages": [
+        "@ruvector/graph-transformer-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fgraph-wasm",
+      "retrieved_at": "2026-11-11T13:55:33.621451+00:00",
+      "packages": [
+        "@ruvector/graph-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fkge-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:55:33.671754+00:00",
+      "packages": [
+        "@ruvector/kge-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fkge-darwin-x64",
+      "retrieved_at": "2026-11-11T13:55:33.745191+00:00",
+      "packages": [
+        "@ruvector/kge-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fkge",
+      "retrieved_at": "2026-11-11T13:55:33.824451+00:00",
+      "packages": [
+        "@ruvector/kge"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Flearning-wasm",
+      "retrieved_at": "2026-11-11T13:55:39.401382+00:00",
+      "packages": [
+        "@ruvector/learning-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fkge-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:55:39.457222+00:00",
+      "packages": [
+        "@ruvector/kge-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fkge-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:55:39.464195+00:00",
+      "packages": [
+        "@ruvector/kge-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fkge-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:55:39.467788+00:00",
+      "packages": [
+        "@ruvector/kge-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fnervous-system-wasm",
+      "retrieved_at": "2026-11-11T13:55:43.167729+00:00",
+      "packages": [
+        "@ruvector/nervous-system-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fmincut-wasm",
+      "retrieved_at": "2026-11-11T13:55:43.473138+00:00",
+      "packages": [
+        "@ruvector/mincut-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fmath-wasm",
+      "retrieved_at": "2026-11-11T13:55:43.622507+00:00",
+      "packages": [
+        "@ruvector/math-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fneural-trader-wasm",
+      "retrieved_at": "2026-11-11T13:55:47.711694+00:00",
+      "packages": [
+        "@ruvector/neural-trader-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fnode-darwin-x64",
+      "retrieved_at": "2026-11-11T13:55:47.745124+00:00",
+      "packages": [
+        "@ruvector/node-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fnode",
+      "retrieved_at": "2026-11-11T13:55:47.840232+00:00",
+      "packages": [
+        "@ruvector/node"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fnode-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:55:47.878630+00:00",
+      "packages": [
+        "@ruvector/node-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fnode-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:56:25.985944+00:00",
+      "packages": [
+        "@ruvector/node-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fospipe",
+      "retrieved_at": "2026-11-11T13:56:26.053432+00:00",
+      "packages": [
+        "@ruvector/ospipe"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fnode-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:56:26.115872+00:00",
+      "packages": [
+        "@ruvector/node-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fnode-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:56:26.232109+00:00",
+      "packages": [
+        "@ruvector/node-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fpostgres-cli",
+      "retrieved_at": "2026-11-11T13:56:31.644887+00:00",
+      "packages": [
+        "@ruvector/postgres-cli"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fpi-brain",
+      "retrieved_at": "2026-11-11T13:56:31.690224+00:00",
+      "packages": [
+        "@ruvector/pi-brain"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frabitq-wasm",
+      "retrieved_at": "2026-11-11T13:56:31.702642+00:00",
+      "packages": [
+        "@ruvector/rabitq-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fospipe-wasm",
+      "retrieved_at": "2026-11-11T13:56:31.864535+00:00",
+      "packages": [
+        "@ruvector/ospipe-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frouter",
+      "retrieved_at": "2026-11-11T13:56:36.300797+00:00",
+      "packages": [
+        "@ruvector/router"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frouter-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:56:36.374805+00:00",
+      "packages": [
+        "@ruvector/router-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Freplication",
+      "retrieved_at": "2026-11-11T13:56:36.384519+00:00",
+      "packages": [
+        "@ruvector/replication"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fraft",
+      "retrieved_at": "2026-11-11T13:56:36.476829+00:00",
+      "packages": [
+        "@ruvector/raft"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frouter-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:56:40.958273+00:00",
+      "packages": [
+        "@ruvector/router-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frouter-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:56:41.145260+00:00",
+      "packages": [
+        "@ruvector/router-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frouter-darwin-x64",
+      "retrieved_at": "2026-11-11T13:56:41.172651+00:00",
+      "packages": [
+        "@ruvector/router-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frouter-wasm",
+      "retrieved_at": "2026-11-11T13:56:41.220804+00:00",
+      "packages": [
+        "@ruvector/router-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruqu",
+      "retrieved_at": "2026-11-11T13:56:45.911951+00:00",
+      "packages": [
+        "@ruvector/ruqu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frouter-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:56:45.964061+00:00",
+      "packages": [
+        "@ruvector/router-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frudag",
+      "retrieved_at": "2026-11-11T13:56:46.016073+00:00",
+      "packages": [
+        "@ruvector/rudag"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruqu-wasm",
+      "retrieved_at": "2026-11-11T13:56:46.144231+00:00",
+      "packages": [
+        "@ruvector/ruqu-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm",
+      "retrieved_at": "2026-11-11T13:56:50.567699+00:00",
+      "packages": [
+        "@ruvector/ruvllm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-cli",
+      "retrieved_at": "2026-11-11T13:56:50.726007+00:00",
+      "packages": [
+        "@ruvector/ruvllm-cli"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:56:50.845798+00:00",
+      "packages": [
+        "@ruvector/ruvllm-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvector-consciousness-wasm",
+      "retrieved_at": "2026-11-11T13:56:51.030523+00:00",
+      "packages": [
+        "@ruvector/ruvector-consciousness-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-darwin-x64",
+      "retrieved_at": "2026-11-11T13:56:55.960909+00:00",
+      "packages": [
+        "@ruvector/ruvllm-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:56:56.007579+00:00",
+      "packages": [
+        "@ruvector/ruvllm-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-gpu-loop",
+      "retrieved_at": "2026-11-11T13:56:56.060293+00:00",
+      "packages": [
+        "@ruvector/ruvllm-gpu-loop"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:56:56.083709+00:00",
+      "packages": [
+        "@ruvector/ruvllm-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvagent-wasm",
+      "retrieved_at": "2026-11-11T13:57:00.139653+00:00",
+      "packages": [
+        "@ruvector/rvagent-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvdna",
+      "retrieved_at": "2026-11-11T13:57:00.308625+00:00",
+      "packages": [
+        "@ruvector/rvdna"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-wasm",
+      "retrieved_at": "2026-11-11T13:57:00.346233+00:00",
+      "packages": [
+        "@ruvector/ruvllm-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fruvllm-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:57:00.406015+00:00",
+      "packages": [
+        "@ruvector/ruvllm-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-mcp-server",
+      "retrieved_at": "2026-11-11T13:57:05.288291+00:00",
+      "packages": [
+        "@ruvector/rvf-mcp-server"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-node",
+      "retrieved_at": "2026-11-11T13:57:05.298713+00:00",
+      "packages": [
+        "@ruvector/rvf-node"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf",
+      "retrieved_at": "2026-11-11T13:57:05.321324+00:00",
+      "packages": [
+        "@ruvector/rvf"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-node-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:57:05.524448+00:00",
+      "packages": [
+        "@ruvector/rvf-node-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-node-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:57:21.262638+00:00",
+      "packages": [
+        "@ruvector/rvf-node-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-node-darwin-x64",
+      "retrieved_at": "2026-11-11T13:57:21.469997+00:00",
+      "packages": [
+        "@ruvector/rvf-node-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-node-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:57:21.578678+00:00",
+      "packages": [
+        "@ruvector/rvf-node-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-node-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:57:21.582504+00:00",
+      "packages": [
+        "@ruvector/rvf-node-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-solver",
+      "retrieved_at": "2026-11-11T13:57:27.000387+00:00",
+      "packages": [
+        "@ruvector/rvf-solver"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvforge",
+      "retrieved_at": "2026-11-11T13:57:27.018770+00:00",
+      "packages": [
+        "@ruvector/rvforge"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvlite",
+      "retrieved_at": "2026-11-11T13:57:27.157093+00:00",
+      "packages": [
+        "@ruvector/rvlite"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Frvf-wasm",
+      "retrieved_at": "2026-11-11T13:57:27.190851+00:00",
+      "packages": [
+        "@ruvector/rvf-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:57:31.912037+00:00",
+      "packages": [
+        "@ruvector/sona-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fscipix",
+      "retrieved_at": "2026-11-11T13:57:32.044170+00:00",
+      "packages": [
+        "@ruvector/scipix"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona",
+      "retrieved_at": "2026-11-11T13:57:32.083398+00:00",
+      "packages": [
+        "@ruvector/sona"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fserver",
+      "retrieved_at": "2026-11-11T13:57:32.182724+00:00",
+      "packages": [
+        "@ruvector/server"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:57:36.270886+00:00",
+      "packages": [
+        "@ruvector/sona-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona-darwin-x64",
+      "retrieved_at": "2026-11-11T13:57:36.434577+00:00",
+      "packages": [
+        "@ruvector/sona-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona-linux-x64-musl",
+      "retrieved_at": "2026-11-11T13:57:36.480709+00:00",
+      "packages": [
+        "@ruvector/sona-linux-x64-musl"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:57:36.509634+00:00",
+      "packages": [
+        "@ruvector/sona-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:57:42.859689+00:00",
+      "packages": [
+        "@ruvector/sona-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fspiking-neural",
+      "retrieved_at": "2026-11-11T13:57:42.895748+00:00",
+      "packages": [
+        "@ruvector/spiking-neural"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fsona-win32-arm64-msvc",
+      "retrieved_at": "2026-11-11T13:57:43.096672+00:00",
+      "packages": [
+        "@ruvector/sona-win32-arm64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer",
+      "retrieved_at": "2026-11-11T13:57:43.152227+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:57:47.593311+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-darwin-x64",
+      "retrieved_at": "2026-11-11T13:57:47.755254+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:57:47.764890+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-linux-arm64-musl",
+      "retrieved_at": "2026-11-11T13:57:47.818318+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-linux-arm64-musl"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-wasm",
+      "retrieved_at": "2026-11-11T13:57:52.261393+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-win32-arm64-msvc",
+      "retrieved_at": "2026-11-11T13:57:52.340964+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-win32-arm64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:57:52.459288+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-linux-x64-musl",
+      "retrieved_at": "2026-11-11T13:57:52.493509+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-linux-x64-musl"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftypesafe",
+      "retrieved_at": "2026-11-11T13:57:57.657482+00:00",
+      "packages": [
+        "@ruvector/typesafe"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftypesafe-darwin-x64",
+      "retrieved_at": "2026-11-11T13:57:57.724860+00:00",
+      "packages": [
+        "@ruvector/typesafe-darwin-x64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftypesafe-darwin-arm64",
+      "retrieved_at": "2026-11-11T13:57:57.845223+00:00",
+      "packages": [
+        "@ruvector/typesafe-darwin-arm64"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftiny-dancer-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:57:57.937100+00:00",
+      "packages": [
+        "@ruvector/tiny-dancer-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftypesafe-win32-x64-msvc",
+      "retrieved_at": "2026-11-11T13:58:04.121051+00:00",
+      "packages": [
+        "@ruvector/typesafe-win32-x64-msvc"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftypesafe-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T13:58:04.234557+00:00",
+      "packages": [
+        "@ruvector/typesafe-linux-arm64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fwasm",
+      "retrieved_at": "2026-11-11T13:58:04.330113+00:00",
+      "packages": [
+        "@ruvector/wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Ftypesafe-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T13:58:04.332921+00:00",
+      "packages": [
+        "@ruvector/typesafe-linux-x64-gnu"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fagent-harness-generator",
+      "retrieved_at": "2026-11-11T13:58:08.604707+00:00",
+      "packages": [
+        "@ruvnet/agent-harness-generator"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fweight-space",
+      "retrieved_at": "2026-11-11T13:58:08.680092+00:00",
+      "packages": [
+        "@ruvector/weight-space"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvector%2Fwasm-unified",
+      "retrieved_at": "2026-11-11T13:58:08.735777+00:00",
+      "packages": [
+        "@ruvector/wasm-unified"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fbmssp",
+      "retrieved_at": "2026-11-11T13:58:08.827383+00:00",
+      "packages": [
+        "@ruvnet/bmssp"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fruview",
+      "retrieved_at": "2026-11-11T13:58:13.933020+00:00",
+      "packages": [
+        "@ruvnet/ruview"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fopen-claude-code",
+      "retrieved_at": "2026-11-11T13:58:14.087804+00:00",
+      "packages": [
+        "@ruvnet/open-claude-code"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fruvector-verified-wasm",
+      "retrieved_at": "2026-11-11T13:58:14.115225+00:00",
+      "packages": [
+        "@ruvnet/ruvector-verified-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fruview-kernel",
+      "retrieved_at": "2026-11-11T13:58:14.166813+00:00",
+      "packages": [
+        "@ruvnet/ruview-kernel"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fsite-harness",
+      "retrieved_at": "2026-11-11T13:58:18.828069+00:00",
+      "packages": [
+        "@ruvnet/site-harness"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fruvn",
+      "retrieved_at": "2026-11-11T13:58:18.867853+00:00",
+      "packages": [
+        "@ruvnet/ruvn"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Frvm-context-wasm",
+      "retrieved_at": "2026-11-11T13:58:18.888449+00:00",
+      "packages": [
+        "@ruvnet/rvm-context-wasm"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Frvagent",
+      "retrieved_at": "2026-11-11T13:58:18.895900+00:00",
+      "packages": [
+        "@ruvnet/rvagent"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fsublinear-core",
+      "retrieved_at": "2026-11-11T13:58:24.114789+00:00",
+      "packages": [
+        "@ruvnet/sublinear-core"
+      ]
+    },
+    {
+      "url": "https://api.npmjs.org/downloads/point/2026-11-10/%40ruvnet%2Fstrange-loop",
+      "retrieved_at": "2026-11-11T13:58:24.248776+00:00",
+      "packages": [
+        "@ruvnet/strange-loop"
+      ]
+    }
+  ],
+  "excluded_created_after_target_day": {
+    "ruv-fann-wsp-cloudflare": {
+      "package": "ruv-fann-wsp-cloudflare",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-cloudflare",
+      "created": "2026-11-11T04:50:35.019Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:50:35.019Z",
+        "0.1.0": "2026-11-11T04:52:13.304Z"
+      }
+    },
+    "ruv-fann-wsp-huggingface": {
+      "package": "ruv-fann-wsp-huggingface",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-huggingface",
+      "created": "2026-11-11T04:47:50.990Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:47:50.990Z",
+        "0.1.0": "2026-11-11T04:50:28.602Z"
+      }
+    },
+    "ruv-fann-wsp-invariants": {
+      "package": "ruv-fann-wsp-invariants",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-invariants",
+      "created": "2026-11-11T04:58:43.635Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:58:43.635Z",
+        "0.1.0": "2026-11-11T05:00:00.593Z"
+      }
+    },
+    "ruv-fann-wsp-lifecycle": {
+      "package": "ruv-fann-wsp-lifecycle",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-lifecycle",
+      "created": "2026-11-11T04:43:49.578Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:43:49.578Z",
+        "0.1.0": "2026-11-11T04:45:30.501Z"
+      }
+    },
+    "ruv-fann-wsp-loop": {
+      "package": "ruv-fann-wsp-loop",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-loop",
+      "created": "2026-11-11T05:03:52.831Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T05:03:52.831Z",
+        "0.1.0": "2026-11-11T05:08:02.657Z"
+      }
+    },
+    "ruv-fann-wsp-registry": {
+      "package": "ruv-fann-wsp-registry",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-registry",
+      "created": "2026-11-11T05:01:39.768Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T05:01:39.768Z",
+        "0.1.0": "2026-11-11T05:03:47.355Z"
+      }
+    },
+    "ruv-fann-wsp-ruos": {
+      "package": "ruv-fann-wsp-ruos",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-ruos",
+      "created": "2026-11-11T04:52:22.568Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:52:22.568Z",
+        "0.1.0": "2026-11-11T04:58:32.382Z"
+      }
+    },
+    "ruv-fann-wsp-search": {
+      "package": "ruv-fann-wsp-search",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-search",
+      "created": "2026-11-11T04:45:37.740Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:45:37.740Z",
+        "0.1.0": "2026-11-11T04:47:44.832Z"
+      }
+    },
+    "ruv-fann-wsp-swarm": {
+      "package": "ruv-fann-wsp-swarm",
+      "source": "https://registry.npmjs.org/ruv-fann-wsp-swarm",
+      "created": "2026-11-11T05:00:11.896Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T05:00:11.896Z",
+        "0.1.0": "2026-11-11T05:01:29.252Z"
+      }
+    },
+    "ruvnet-constellation": {
+      "package": "ruvnet-constellation",
+      "source": "https://registry.npmjs.org/ruvnet-constellation",
+      "created": "2026-11-11T04:38:05.572Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:38:05.572Z",
+        "0.1.0": "2026-11-11T04:42:13.990Z"
+      }
+    },
+    "ruvnet-constellation-contracts": {
+      "package": "ruvnet-constellation-contracts",
+      "source": "https://registry.npmjs.org/ruvnet-constellation-contracts",
+      "created": "2026-11-11T04:28:41.921Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:28:41.921Z",
+        "0.1.0": "2026-11-11T04:29:57.868Z"
+      }
+    },
+    "ruvnet-constellation-telemetry": {
+      "package": "ruvnet-constellation-telemetry",
+      "source": "https://registry.npmjs.org/ruvnet-constellation-telemetry",
+      "created": "2026-11-11T04:42:22.296Z",
+      "versions": {
+        "0.0.0-stage": "2026-11-11T04:42:22.296Z",
+        "0.1.0": "2026-11-11T04:43:39.268Z"
+      }
+    },
+    "@qudag/napi-core-linux-arm64-gnu": {
+      "name": "@qudag/napi-core-linux-arm64-gnu",
+      "created": "2026-11-11T13:50:24.948Z",
+      "time": {
+        "created": "2026-11-11T13:50:24.948Z",
+        "modified": "2026-11-11T13:53:05.020Z",
+        "0.0.0-stage": "2026-11-11T13:50:24.948Z",
+        "0.1.1": "2026-11-11T13:53:04.784Z"
+      },
+      "source": "https://registry.npmjs.org/%40qudag%2Fnapi-core-linux-arm64-gnu",
+      "retrieved_at": "2026-11-11T14:04:43.370091+00:00",
+      "response_sha256": "6d6707267df4764a0cf0a335e9b137f1b155382a82a001f920eb1800610e4480"
+    },
+    "@qudag/napi-core-linux-x64-gnu": {
+      "name": "@qudag/napi-core-linux-x64-gnu",
+      "created": "2026-11-11T13:40:18.512Z",
+      "time": {
+        "created": "2026-11-11T13:40:18.512Z",
+        "modified": "2026-11-11T13:41:35.443Z",
+        "0.0.0-stage": "2026-11-11T13:40:18.512Z",
+        "0.1.1": "2026-11-11T13:41:35.142Z"
+      },
+      "source": "https://registry.npmjs.org/%40qudag%2Fnapi-core-linux-x64-gnu",
+      "retrieved_at": "2026-11-11T14:04:43.327027+00:00",
+      "response_sha256": "6796cb3f6732dd8eb805ffe68b7f08e49effa9e4317943d806f3921957358bcc"
+    },
+    "autogenous": {
+      "name": "autogenous",
+      "created": "2026-11-11T13:59:05.558Z",
+      "time": {
+        "created": "2026-11-11T13:59:05.558Z",
+        "modified": "2026-11-11T14:01:45.753Z",
+        "0.0.0-stage": "2026-11-11T13:59:05.558Z",
+        "0.1.0": "2026-11-11T14:01:45.315Z"
+      },
+      "source": "https://registry.npmjs.org/autogenous",
+      "retrieved_at": "2026-11-11T14:04:43.233073+00:00",
+      "response_sha256": "881345ea7ce4e20e1bddca8e0bcd28773af1040be178d5722a75e4f6ed6b016c"
+    }
+  },
+  "complete_eligible_cohort": true,
+  "definition": "Sum of official npm download events for November 10 UTC across all 412 cohort packages eligible that day. Fifteen packages first published after that UTC day ended are excluded. Download events include transitive installs and CI; not unique people.",
+  "hash_provenance": "Stored observation artifact hash is reproducible. Some early point responses have no retained raw response digest; no raw provider digest is invented. Per-response retrieval times are retained where observed; initial partial collection has batch-level time only."
+}
