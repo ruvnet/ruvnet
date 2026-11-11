@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/helix/resources/manifest.ruv",
+  "name": "helix",
+  "summary": "Personal health intelligence research with local provenance and evidence handling; not a medical device.",
+  "repository": {
+    "url": "https://github.com/ruvnet/helix",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "health-provenance",
+      "description": "Trace health evidence to its sources.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/README.md",
+          "revision": "e8d8fe780becff4d95008e052742e5c3b0ad3b5c",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "health-knowledge",
+      "description": "Organize longitudinal personal health knowledge locally.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/README.md",
+          "revision": "e8d8fe780becff4d95008e052742e5c3b0ad3b5c",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/helix/blob/e8d8fe780becff4d95008e052742e5c3b0ad3b5c/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "e8d8fe780becff4d95008e052742e5c3b0ad3b5c",
+    "observedAt": "2026-10-10T03:00:00Z"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/ruclip/resources/manifest.ruv",
+  "name": "ruClip",
+  "summary": "Agent company control plane with budgets, approval workflow and audit records.",
+  "repository": {
+    "url": "https://github.com/ruvnet/ruClip",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "company-operations",
+      "description": "Organize agent roles, goals and work ownership.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/README.md",
+          "revision": "6e73a8f060bcbb69965a50ffe4627e33622d4094",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "budget-governance",
+      "description": "Gate heartbeats and approval transitions using bounded authority and accounting.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/README.md",
+          "revision": "6e73a8f060bcbb69965a50ffe4627e33622d4094",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/ruClip/blob/6e73a8f060bcbb69965a50ffe4627e33622d4094/package.json",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "6e73a8f060bcbb69965a50ffe4627e33622d4094",
+    "observedAt": "2026-10-10T03:00:00Z"
+  }
+}

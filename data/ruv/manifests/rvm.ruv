@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+  "name": "rvm",
+  "summary": "Canonical ruv context URI parsing, capability-governed context namespace and immutable RVF revisions. Compile exact non-executable context bytes into self-verified RVF artifacts with SHA-256 identity. Boundaries: Discovery metadata grants no authority and cannot execute. Native compiler and Rust tests not yet run in this session.",
+  "repository": {
+    "url": "https://github.com/ruvnet/rvm",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "governed-context",
+      "description": "Canonical ruv context URI parsing, capability-governed context namespace and immutable RVF revisions.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context/src/uri.rs",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        },
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context/src/lib.rs",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        },
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/docs/adr/ADR-157-ruv-context-namespace.md",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "context-artifacts",
+      "description": "Compile exact non-executable context bytes into self-verified RVF artifacts with SHA-256 identity.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context-service/src/compiler.rs",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "semantic-policy",
+      "description": "Default-deny host action broker with live authorization, policy, audit before dispatch.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-host/src/semantic.rs",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        },
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/docs/adr/ADR-159-semantic-policy-strands.md",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "execution-lifecycle",
+      "description": "Inspect, verify and manage an RVF-backed agent lifecycle through host adapters.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-launch/src/lib.rs",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        },
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/README.md",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "receipt-anchoring",
+      "description": "Verify external evaluation receipts and anchor commitments into witness chains.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-anchor/src/lib.rs",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        },
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/docs/adr/ADR-156-external-receipt-anchoring.md",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "references",
+      "target": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/.gitmodules",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "source"
+        },
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/crates/rvm-context-service/Cargo.toml",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "source"
+        }
+      ]
+    },
+    {
+      "type": "references",
+      "target": "ruv://ruvnet/constellation/service/rudevolution/resources/manifest.ruv",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/.gitmodules",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "source"
+        }
+      ]
+    },
+    {
+      "type": "references",
+      "target": "ruv://ruvnet/constellation/service/ruv-fann/resources/manifest.ruv",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/rvm/blob/510a82f3a34a5fc9fc78b8144167809dbe3e067d/.gitmodules",
+          "revision": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+          "kind": "source"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "510a82f3a34a5fc9fc78b8144167809dbe3e067d",
+    "observedAt": "2026-10-10T03:00:00Z"
+  }
+}

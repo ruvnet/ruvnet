@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/ruv-fann/resources/manifest.ruv",
+  "name": "ruv-FANN",
+  "summary": "Rust implementation of Fast Artificial Neural Network algorithms. Neuro-Divergent neural forecasting components. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README benchmark and compatibility claims are not validated in this mission.",
+  "repository": {
+    "url": "https://github.com/ruvnet/ruv-FANN",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "neural-networks",
+      "description": "Rust implementation of Fast Artificial Neural Network algorithms.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md",
+          "revision": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "forecasting",
+      "description": "Neuro-Divergent neural forecasting components.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md",
+          "revision": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "swarm-intelligence",
+      "description": "ruv-swarm agent orchestration components.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md",
+          "revision": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/package.json",
+      "kind": "source"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/ruv-FANN/blob/1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "1d93b35a1f49ad4ee6c7ac9223f74f6a6255b25d",
+    "observedAt": "2026-10-10T02:57:48.016951Z"
+  }
+}
