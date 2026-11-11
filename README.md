@@ -23,6 +23,12 @@
 
 [![Cognitum One: Ambient Intelligence at the edge of the Physical World. Explore cognitum.one](assets/ruvnet/cognitum-banner-v2.svg)](https://cognitum.one)
 
+<!-- ecosystem-cta:start -->
+[![rUv ecosystem: explore Cognitum One. Conceptual project-to-destination animation.](assets/ruvnet/ecosystem-cta.svg)](https://cognitum.one/)
+
+**[Explore Cognitum One](https://cognitum.one/) · [Try ruOS](https://ruos.cognitum.one/)**, an agentic desktop in your browser.
+<!-- ecosystem-cta:end -->
+
 ## rUv's contrastive AI approach
 
 [Our contrastive AI approach](https://github.com/ruvnet/RuView/issues/87) combines similarity learning with structural checks: bring related observations together, separate mismatches, measure drift, and gate updates against explicit constraints. RuVector supplies the memory and graph substrate; agent harnesses use that context to guide and evaluate work. Performance and reliability depend on the workload and validation.
