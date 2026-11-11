@@ -1,0 +1,1454 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-11-11T14:05:28.560278Z",
+  "baseline": "data/npm-distribution/baseline-2026-11-08.json",
+  "baseline_count": 408,
+  "current_count": 427,
+  "new_count": 19,
+  "removed_ids": [],
+  "new_ids": [
+    "@qudag/napi-core-linux-arm64-gnu",
+    "@qudag/napi-core-linux-x64-gnu",
+    "@ruvector/weight-space",
+    "autogenous",
+    "ruv-fann",
+    "ruv-fann-wasm",
+    "ruv-fann-wsp",
+    "ruv-fann-wsp-cloudflare",
+    "ruv-fann-wsp-huggingface",
+    "ruv-fann-wsp-invariants",
+    "ruv-fann-wsp-lifecycle",
+    "ruv-fann-wsp-loop",
+    "ruv-fann-wsp-registry",
+    "ruv-fann-wsp-ruos",
+    "ruv-fann-wsp-search",
+    "ruv-fann-wsp-swarm",
+    "ruvnet-constellation",
+    "ruvnet-constellation-contracts",
+    "ruvnet-constellation-telemetry"
+  ],
+  "packages": [
+    {
+      "name": "@qudag/napi-core-linux-arm64-gnu",
+      "new_since_baseline": true,
+      "version": "0.1.1",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/QuDAG.git",
+        "type": "git",
+        "directory": "packages/napi-core/npm/linux-arm64-gnu"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/QuDAG/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {},
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-oVzxi0qsRb80M4w1CoZiHRvWDF5nH/mgpJnIfLjYlX7dwDYZ8v5W3RzDOJw2Ayi4R+cwPMtfOorWsTzqAiX1Lw==",
+        "shasum": "4d6b1b0ee86599c447d79f3476d9c166cdef7e24",
+        "unpackedSize": 969406,
+        "tarball": "https://registry.npmjs.org/@qudag/napi-core-linux-arm64-gnu/-/napi-core-linux-arm64-gnu-0.1.1.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "post-quantum",
+        "ml-kem",
+        "ml-dsa",
+        "qudag",
+        "napi",
+        "native",
+        "arm64",
+        "linux"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/%40qudag%2Fnapi-core-linux-arm64-gnu/latest",
+        "retrieved_at": "2026-11-11T14:03:42.056252Z",
+        "response_sha256": "cfb8bffe247b7eddb8ce6d162d05ef10c4fbbea4cf2cb2a931bdea9ceacb51b1"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "name": "@qudag/napi-core-linux-arm64-gnu",
+        "created": "2026-11-11T13:50:24.948Z",
+        "time": {
+          "created": "2026-11-11T13:50:24.948Z",
+          "modified": "2026-11-11T13:53:05.020Z",
+          "0.0.0-stage": "2026-11-11T13:50:24.948Z",
+          "0.1.1": "2026-11-11T13:53:04.784Z"
+        },
+        "source": "https://registry.npmjs.org/%40qudag%2Fnapi-core-linux-arm64-gnu",
+        "retrieved_at": "2026-11-11T14:04:43.370091+00:00",
+        "response_sha256": "6d6707267df4764a0cf0a335e9b137f1b155382a82a001f920eb1800610e4480"
+      }
+    },
+    {
+      "name": "@qudag/napi-core-linux-x64-gnu",
+      "new_since_baseline": true,
+      "version": "0.1.1",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/QuDAG.git",
+        "type": "git",
+        "directory": "packages/napi-core/npm/linux-x64-gnu"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/QuDAG/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {},
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-KyVZ/VreeHfPfYyeoFOYzhEZBWjYmLuuxj1VZjaY0y4n0ROp9bBEWQ4rdMus5ejO99KvJ2e9xo+AFEH39uObPA==",
+        "shasum": "16617fefa0b7f83d937f9116f330c499595b86ed",
+        "unpackedSize": 1122756,
+        "tarball": "https://registry.npmjs.org/@qudag/napi-core-linux-x64-gnu/-/napi-core-linux-x64-gnu-0.1.1.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "post-quantum",
+        "ml-kem",
+        "ml-dsa",
+        "qudag",
+        "napi",
+        "native",
+        "x64",
+        "linux"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/%40qudag%2Fnapi-core-linux-x64-gnu/latest",
+        "retrieved_at": "2026-11-11T14:03:46.800182Z",
+        "response_sha256": "9abe485cca460599bf4f72fcbe9c91c5913d0a267418b5f46355166c6e02b367"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "name": "@qudag/napi-core-linux-x64-gnu",
+        "created": "2026-11-11T13:40:18.512Z",
+        "time": {
+          "created": "2026-11-11T13:40:18.512Z",
+          "modified": "2026-11-11T13:41:35.443Z",
+          "0.0.0-stage": "2026-11-11T13:40:18.512Z",
+          "0.1.1": "2026-11-11T13:41:35.142Z"
+        },
+        "source": "https://registry.npmjs.org/%40qudag%2Fnapi-core-linux-x64-gnu",
+        "retrieved_at": "2026-11-11T14:04:43.327027+00:00",
+        "response_sha256": "6796cb3f6732dd8eb805ffe68b7f08e49effa9e4317943d806f3921957358bcc"
+      }
+    },
+    {
+      "name": "@ruvector/weight-space",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruvector.git",
+        "type": "git",
+        "directory": "npm/packages/weight-space"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruvector/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann": "0.1.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {
+          "typescript": "5.9.3",
+          "@types/node": "20.19.25",
+          "@ruvector/core": "0.1.38"
+        }
+      },
+      "dist": {
+        "integrity": "sha512-WE551/MiXFa/mt9lxuy6Gv73jibSHJExl4zHd7EN9KjA93Yxf98ee85aHaaQa93I0QG+tWmA+ZvoCmXua3LTMA==",
+        "shasum": "24dfca887801e9bf95c9e705582461f0c7c2da46",
+        "unpackedSize": 175354,
+        "tarball": "https://registry.npmjs.org/@ruvector/weight-space/-/weight-space-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "weight-space",
+        "neural-network",
+        "model-editing",
+        "fine-tuning",
+        "machine-learning",
+        "self-learning",
+        "embeddings",
+        "vector-database",
+        "vector-search",
+        "wasm",
+        "webassembly",
+        "typescript",
+        "nodejs",
+        "ai",
+        "ruvector",
+        "ruvnet"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/%40ruvector%2Fweight-space/latest",
+        "retrieved_at": "2026-11-11T14:03:51.574135Z",
+        "response_sha256": "8067a42aae149c7d51ff0ea3371b063984459d97c30e0d436fd491ddec290d65"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "source": "https://registry.npmjs.org/%40ruvector%2Fweight-space",
+        "created": "2026-11-10T21:25:31.187Z",
+        "time": {
+          "created": "2026-11-10T21:25:31.187Z",
+          "modified": "2026-11-10T21:26:48.562Z",
+          "0.0.0-stage": "2026-11-10T21:25:31.187Z",
+          "0.1.0": "2026-11-10T21:26:48.294Z"
+        },
+        "retrieved_at": "2026-11-11T14:06:16.061075+00:00",
+        "response_sha256": "1f46f6f304985fc8f0b84e55b44d06ecda1493a952be524faea028a2470986f9"
+      }
+    },
+    {
+      "name": "autogenous",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/autogenous.git",
+        "type": "git",
+        "directory": "packages/autogenous"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/autogenous/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {},
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-ZJ6Ph6MoZcQsJpR2C2HKrdWloEE+IfAXNd2jNE/EaHm/gHGW/6VHuxGUCjmYngMpGW1d7NB51ivyB6HYMX9vWg==",
+        "shasum": "a382ff60123ba2564c9b849ca0e765206a4ae6ae",
+        "unpackedSize": 204442,
+        "tarball": "https://registry.npmjs.org/autogenous/-/autogenous-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "autogenous",
+        "agl",
+        "governed-evolution",
+        "mutation-admission",
+        "promotion-gate",
+        "hard-gates",
+        "self-improvement",
+        "ai-safety",
+        "agent-governance",
+        "webassembly",
+        "wasm",
+        "rust"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/autogenous/latest",
+        "retrieved_at": "2026-11-11T14:03:56.411398Z",
+        "response_sha256": "241d829a2d9cdd41725928c6a0226aae8f49f50fe3904a53fd0c46873d9433db"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "name": "autogenous",
+        "created": "2026-11-11T13:59:05.558Z",
+        "time": {
+          "created": "2026-11-11T13:59:05.558Z",
+          "modified": "2026-11-11T14:01:45.753Z",
+          "0.0.0-stage": "2026-11-11T13:59:05.558Z",
+          "0.1.0": "2026-11-11T14:01:45.315Z"
+        },
+        "source": "https://registry.npmjs.org/autogenous",
+        "retrieved_at": "2026-11-11T14:04:43.233073+00:00",
+        "response_sha256": "881345ea7ce4e20e1bddca8e0bcd28773af1040be178d5722a75e4f6ed6b016c"
+      }
+    },
+    {
+      "name": "ruv-fann",
+      "new_since_baseline": true,
+      "version": "0.3.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/core"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "agenticow": "0.3.0",
+          "ruv-fann-wsp": "0.2.0",
+          "ruv-fann-wasm": "0.1.2",
+          "ruv-fann-wsp-loop": "0.1.0",
+          "ruv-fann-wsp-ruos": "0.1.0",
+          "ruv-fann-wsp-swarm": "0.1.0",
+          "ruv-fann-wsp-search": "0.1.0",
+          "ruvnet-constellation": "0.1.0",
+          "ruv-fann-wsp-registry": "0.1.0",
+          "ruv-fann-wsp-lifecycle": "0.1.0",
+          "ruv-fann-wsp-cloudflare": "0.1.0",
+          "ruv-fann-wsp-invariants": "0.1.0",
+          "ruv-fann-wsp-huggingface": "0.1.0",
+          "ruvnet-constellation-contracts": "0.1.0",
+          "ruvnet-constellation-telemetry": "0.1.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-QmhBJ6IU2wOiCH+2p2dfpVVIDJmu/meWIjJVUg+YReAEEIBr9WZTwFzK7PgUpNP1NMwzhGUGRUNdqoUKWtswNA==",
+        "shasum": "ad19d8140e0705fe28bfb1e1d4a4bbd59a104540",
+        "unpackedSize": 56486,
+        "tarball": "https://registry.npmjs.org/ruv-fann/-/ruv-fann-0.3.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "neural-network",
+        "machine-learning",
+        "webassembly",
+        "wasm",
+        "simd",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "browser",
+        "inference",
+        "training",
+        "sgd",
+        "adamw",
+        "weight-space-programming",
+        "model-editing",
+        "bounded-search",
+        "model-evaluation",
+        "agentdb",
+        "agenticow"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann/latest",
+        "retrieved_at": "2026-11-11T14:05:28.007104Z",
+        "response_sha256": "6fea5f986e03074e3a00943209fd892a77a2ee5c23cd56c622e0fd4a0b0b810c"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "source": "https://registry.npmjs.org/ruv-fann",
+        "created": "2026-11-10T04:21:37.440Z",
+        "time": {
+          "created": "2026-11-10T04:21:37.440Z",
+          "modified": "2026-11-11T13:45:56.482Z",
+          "0.0.0-stage": "2026-11-10T04:21:37.440Z",
+          "0.1.0": "2026-11-10T04:22:54.377Z",
+          "0.1.1": "2026-11-10T16:27:55.258Z",
+          "0.1.2": "2026-11-10T16:45:09.451Z",
+          "0.2.0": "2026-11-11T05:09:45.561Z",
+          "0.3.0": "2026-11-11T13:45:56.067Z"
+        },
+        "retrieved_at": "2026-11-11T14:06:21.417316+00:00",
+        "response_sha256": "9d699fe73524a4360e33e1f1069e0f1c543ee2f857f3207e8ae34d4e5c2230e8"
+      }
+    },
+    {
+      "name": "ruv-fann-wasm",
+      "new_since_baseline": true,
+      "version": "0.1.2",
+      "homepage": "https://github.com/ruvnet/ruv-FANN/tree/main/packages/wasm#readme",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wasm"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {},
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-wV0xT+yMoidjs6ndeTkTO0rNUiDAZ4H7aP6slbVbdM1vG3xS6iCS1/jDwknNBo+m37GBXN4kgFXHZ0yRmMP7oQ==",
+        "shasum": "ab57b8b1b3dba3587a4f04c9ebd94df17243c24d",
+        "unpackedSize": 1504308,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wasm/-/ruv-fann-wasm-0.1.2.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "fann",
+        "neural-network",
+        "neural-networks",
+        "machine-learning",
+        "webassembly",
+        "wasm",
+        "simd",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "browser",
+        "inference",
+        "wasm-bindgen",
+        "rust",
+        "runtime"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wasm/latest",
+        "retrieved_at": "2026-11-11T14:04:07.908789Z",
+        "response_sha256": "e5e1e8338f64e9f4d1670b2fb887f29c4c0bb1e9e041a48e7d664f8e60eb4c92"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "source": "https://registry.npmjs.org/ruv-fann-wasm",
+        "created": "2026-11-10T04:16:30.156Z",
+        "time": {
+          "created": "2026-11-10T04:16:30.156Z",
+          "modified": "2026-11-10T16:38:11.825Z",
+          "0.0.0-stage": "2026-11-10T04:16:30.156Z",
+          "0.1.0": "2026-11-10T04:17:47.585Z",
+          "0.1.1": "2026-11-10T16:22:49.938Z",
+          "0.1.2": "2026-11-10T16:38:11.387Z"
+        },
+        "retrieved_at": "2026-11-11T14:06:26.744600+00:00",
+        "response_sha256": "5d39fd73beb45010938a619268c754d07e81665aec0cc72490585213d6a789b1"
+      }
+    },
+    {
+      "name": "ruv-fann-wsp",
+      "new_since_baseline": true,
+      "version": "0.2.0",
+      "homepage": "https://github.com/ruvnet/ruv-FANN/tree/main/packages/wsp#readme",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann": "0.1.2"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-vCHGNiMUuxvCycd58gIOdlXTy1e2Tw6J1MD3FV9ri2ljkS534sk90c3h2mS4bBJozpebQu/fB6iDwKvdp09xIQ==",
+        "shasum": "a45af875670436a0b215716f25e1c587e3363519",
+        "unpackedSize": 52428,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp/-/ruv-fann-wsp-0.2.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "wasm",
+        "model-editing",
+        "agentdb"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp/latest",
+        "retrieved_at": "2026-11-11T14:04:12.832197Z",
+        "response_sha256": "17109121fb08b97435820de84424196d1947c7ef4f0f16ce01233b50a2c773ad"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp",
+        "created": "2026-11-10T18:15:45.036Z",
+        "time": {
+          "created": "2026-11-10T18:15:45.036Z",
+          "modified": "2026-11-10T20:49:15.677Z",
+          "0.0.0-stage": "2026-11-10T18:15:45.036Z",
+          "0.1.0": "2026-11-10T18:17:00.861Z",
+          "0.2.0": "2026-11-10T20:49:15.361Z"
+        },
+        "retrieved_at": "2026-11-11T14:06:31.532494+00:00",
+        "response_sha256": "277721ef7455c4450043f8bc7ddc88de7f7f3b933931083dfae31e2c09a652df"
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-cloudflare",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/cloudflare"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "esbuild": "0.28.2",
+          "ruv-fann-wsp": "0.2.0",
+          "ruv-fann-wasm": "0.1.2"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-nfCas1ruPze9h6ersh7NoXt8wT9H5PdTQtF9i31iLR4zip2IgSBDF4MTXRAw6MmXn9OFxSKXBnF3zhKUmnv3rQ==",
+        "shasum": "f3101c52ea2067e9488358f536b7b8a45322a7f4",
+        "unpackedSize": 20757,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-cloudflare/-/ruv-fann-wsp-cloudflare-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "cloudflare-workers",
+        "edge-computing",
+        "regression-testing",
+        "weight-patches"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-cloudflare/latest",
+        "retrieved_at": "2026-11-11T14:04:17.704332Z",
+        "response_sha256": "f97236137811718548c739ac72998889d85c58e4bfd9a2d78e9666c92e262e57"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-cloudflare",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-cloudflare",
+        "created": "2026-11-11T04:50:35.019Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:50:35.019Z",
+          "0.1.0": "2026-11-11T04:52:13.304Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-huggingface",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/huggingface"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann-wsp": "0.2.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-QLvfq5cCxRDop8qZrCYLlHo1zLvHvf/RX3e22R2XU5M6TrT7pEkgKrJkfXWJkyzTrx3wFWLx9ygQXj7qlATRlA==",
+        "shasum": "5bd382a26bb5a52481e5b6bdf53be62859dd0f88",
+        "unpackedSize": 19189,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-huggingface/-/ruv-fann-wsp-huggingface-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "huggingface",
+        "model-checkpoints",
+        "sha256",
+        "model-validation"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-huggingface/latest",
+        "retrieved_at": "2026-11-11T14:04:22.617416Z",
+        "response_sha256": "b3f3b5e2117409efcfe0453ed4e13ddf620d8eafa5b533808c7294baf438b542"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-huggingface",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-huggingface",
+        "created": "2026-11-11T04:47:50.990Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:47:50.990Z",
+          "0.1.0": "2026-11-11T04:50:28.602Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-invariants",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/invariants"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann": "0.1.2",
+          "ruv-fann-wsp": "0.2.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-qDWrl2WENx0bIwdYVl82GcuJobYd9hhscmg2Xvf5cO9mzGrq3z2wqwdEqjJbTGABRaT0EYdxH2i0cFsz6tSZ/A==",
+        "shasum": "6acb002808c6cb6750b421a9228e9f4239038a67",
+        "unpackedSize": 24708,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-invariants/-/ruv-fann-wsp-invariants-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "output-invariants",
+        "model-validation",
+        "simd",
+        "regression-testing"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-invariants/latest",
+        "retrieved_at": "2026-11-11T14:04:27.264159Z",
+        "response_sha256": "4b390ade565f591d5ed8a10325cc03bd74f8ea96c9851661af696d88256f3961"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-invariants",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-invariants",
+        "created": "2026-11-11T04:58:43.635Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:58:43.635Z",
+          "0.1.0": "2026-11-11T05:00:00.593Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-lifecycle",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/lifecycle"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann-wsp": "0.2.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-VLQJ70hPwS+S9dUVGF3/3S0bp7AdiC0CiCN2hc5aQDsh+GCpzJzAUzWIyENUsD865ja+elC/En/GBuwF6wzu7Q==",
+        "shasum": "e684c5901f57e007f5a6ad6103c2e63c096c94f0",
+        "unpackedSize": 13858,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-lifecycle/-/ruv-fann-wsp-lifecycle-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "regression-testing",
+        "model-evaluation",
+        "weight-patches",
+        "checkpoint"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-lifecycle/latest",
+        "retrieved_at": "2026-11-11T14:04:32.285894Z",
+        "response_sha256": "a214d8bf43c615a28a8fdf1024c2d5e3d27a4071eb45e56bc1821fbe9a005378"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-lifecycle",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-lifecycle",
+        "created": "2026-11-11T04:43:49.578Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:43:49.578Z",
+          "0.1.0": "2026-11-11T04:45:30.501Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-loop",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/loop"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann-wsp": "0.2.0",
+          "ruv-fann-wsp-swarm": "0.1.0",
+          "ruv-fann-wsp-lifecycle": "0.1.0",
+          "ruv-fann-wsp-invariants": "0.1.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-LH2dF3klXwGcttD97j+cMac39cppZxqVgQ5chK8KMZzlq9jIVZ58g3zMqNg9k5/ften3R4JkGY0iDUpy6WwgAQ==",
+        "shasum": "1a7be9b4bd89dca6cb840ef1e407efeed6a109e1",
+        "unpackedSize": 35369,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-loop/-/ruv-fann-wsp-loop-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "autonomous-agents",
+        "model-evaluation",
+        "worker-threads",
+        "checkpoint",
+        "agentdb"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-loop/latest",
+        "retrieved_at": "2026-11-11T14:04:37.687741Z",
+        "response_sha256": "4e7e2a400749940bb50da1d04e06acb22f0d77c8481b9e1c9106340f9f8b7a87"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-loop",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-loop",
+        "created": "2026-11-11T05:03:52.831Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T05:03:52.831Z",
+          "0.1.0": "2026-11-11T05:08:02.657Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-registry",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/registry"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann-wsp": "0.2.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {
+          "agentdb": "3.10.0"
+        },
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-pcpCjfcaEf9lFyoHBDcTSWhReBVFNblhm07XI/0hR1zukA0knkhmrLfhaGeVRW3oScprDbP62fYOwuFagZSDLQ==",
+        "shasum": "025a78f2eca2e498b5b8c72e2f18f779e957f695",
+        "unpackedSize": 20446,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-registry/-/ruv-fann-wsp-registry-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "agentdb",
+        "model-registry",
+        "checkpoint",
+        "persistence",
+        "compare-and-swap"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-registry/latest",
+        "retrieved_at": "2026-11-11T14:04:43.824781Z",
+        "response_sha256": "484664d1c974fc238144e47c29000e8d9a1e0c9fb70d15fd158d9ada55ee9534"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-registry",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-registry",
+        "created": "2026-11-11T05:01:39.768Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T05:01:39.768Z",
+          "0.1.0": "2026-11-11T05:03:47.355Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-ruos",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/ruos"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann-wsp": "0.2.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-dvKXVnXZrmTiLhwLj1zisf/dr2XcL+QVWxDK6ggAuxwkqfsrAAPtNSpMxbnQAzj49A7WsJSYV9BByAKTRhtdew==",
+        "shasum": "9a200f511d4fb295bad96c17a2dd4c0406afcf69",
+        "unpackedSize": 11078,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-ruos/-/ruv-fann-wsp-ruos-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "ruos",
+        "executor",
+        "canary",
+        "evidence-validation"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-ruos/latest",
+        "retrieved_at": "2026-11-11T14:04:48.869221Z",
+        "response_sha256": "c71979333fd9731fc27633729f541046074fc26fda6ac52be1b23122afee6748"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-ruos",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-ruos",
+        "created": "2026-11-11T04:52:22.568Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:52:22.568Z",
+          "0.1.0": "2026-11-11T04:58:32.382Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-search",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/search"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann": "0.1.2",
+          "ruv-fann-wsp": "0.2.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-cXQcy/4mYds1qtTNFHZIzk6hGeEJ9iEIA2eqpA3YWBAnW1qFRgRwXZi0WMj+LGh56jCWf8tzplhkGlDIXgv8jA==",
+        "shasum": "9409ee344837f4b74bd5fdcb74e6b2cea3cc8f3a",
+        "unpackedSize": 30090,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-search/-/ruv-fann-wsp-search-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "derivative-free",
+        "coordinate-descent",
+        "hebbian-learning",
+        "boolean-functions"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-search/latest",
+        "retrieved_at": "2026-11-11T14:04:53.773808Z",
+        "response_sha256": "1e1bd8f6fce9fb0960477789c4b1c5451004ade6c85e857c99c8977acf638d2b"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-search",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-search",
+        "created": "2026-11-11T04:45:37.740Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:45:37.740Z",
+          "0.1.0": "2026-11-11T04:47:44.832Z"
+        }
+      }
+    },
+    {
+      "name": "ruv-fann-wsp-swarm",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/swarm"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruv-fann-wsp": "0.2.0",
+          "ruv-fann-wsp-search": "0.1.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-0G56SAKsSdD7n/cmpAOvtrfP0qfWi3Hr1HYWlca5IPH0jGkAYsoHLQmRsoc6Vu5+dc8zS/VjSRDjrbMFSYmFRw==",
+        "shasum": "a4ed113442337eb216e1cbd80e9090d547c9ca41",
+        "unpackedSize": 30456,
+        "tarball": "https://registry.npmjs.org/ruv-fann-wsp-swarm/-/ruv-fann-wsp-swarm-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruv-fann",
+        "weight-space-programming",
+        "neural-network",
+        "webassembly",
+        "worker-threads",
+        "parallel-computing",
+        "weight-patches",
+        "simd"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-swarm/latest",
+        "retrieved_at": "2026-11-11T14:04:58.502822Z",
+        "response_sha256": "9db916ab4f1753e820f1a891c08153cdcff6825ef0f58768b89736245e6fdfdc"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruv-fann-wsp-swarm",
+        "source": "https://registry.npmjs.org/ruv-fann-wsp-swarm",
+        "created": "2026-11-11T05:00:11.896Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T05:00:11.896Z",
+          "0.1.0": "2026-11-11T05:01:29.252Z"
+        }
+      }
+    },
+    {
+      "name": "ruvnet-constellation",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/constellation"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "ruvnet-constellation-contracts": "0.1.0"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-SH0YYag70U7vUpWw0YzVLWDGIsUI64BxfzAFuKo5CE0UafuyuwIW/Dls8Qp5sru56Hlx1f1lvtWJiQPCllVIOg==",
+        "shasum": "c28f56ee35f6c5d43bba55629ae48808c2acbfc8",
+        "unpackedSize": 42883,
+        "tarball": "https://registry.npmjs.org/ruvnet-constellation/-/ruvnet-constellation-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruvnet",
+        "constellation",
+        "package-discovery",
+        "cli",
+        "integration",
+        "scaffolding",
+        "package-catalog"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruvnet-constellation/latest",
+        "retrieved_at": "2026-11-11T14:05:05.752691Z",
+        "response_sha256": "1b1da3dc74930c8b34148303746cc83623e9e4ae10dd3032031b70e1a5752048"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruvnet-constellation",
+        "source": "https://registry.npmjs.org/ruvnet-constellation",
+        "created": "2026-11-11T04:38:05.572Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:38:05.572Z",
+          "0.1.0": "2026-11-11T04:42:13.990Z"
+        }
+      }
+    },
+    {
+      "name": "ruvnet-constellation-contracts",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/contracts"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {},
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-ZR8weAOMhb5UdMWBkXYjHT+dDzaDhpEw3btiJmPtM0Fzhtdei9Kw9SVVyrNPqR2R6Agi0spnUKJUTDOmiYaUcg==",
+        "shasum": "cbf567307622f64c9c6e93e05cab561155540529",
+        "unpackedSize": 25120,
+        "tarball": "https://registry.npmjs.org/ruvnet-constellation-contracts/-/ruvnet-constellation-contracts-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruvnet",
+        "constellation",
+        "json-schema",
+        "validation",
+        "package-catalog",
+        "module-manifest"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruvnet-constellation-contracts/latest",
+        "retrieved_at": "2026-11-11T14:05:11.075824Z",
+        "response_sha256": "77966deabfa3b22b340da82cc64d3c249c2814255150fcaaf89e360369386b72"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruvnet-constellation-contracts",
+        "source": "https://registry.npmjs.org/ruvnet-constellation-contracts",
+        "created": "2026-11-11T04:28:41.921Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:28:41.921Z",
+          "0.1.0": "2026-11-11T04:29:57.868Z"
+        }
+      }
+    },
+    {
+      "name": "ruvnet-constellation-telemetry",
+      "new_since_baseline": true,
+      "version": "0.1.0",
+      "homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+        "type": "git",
+        "directory": "packages/wsp-toolkit/packages/telemetry"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/ruv-FANN/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {},
+        "optionalDependencies": {},
+        "peerDependencies": {},
+        "devDependencies": {}
+      },
+      "dist": {
+        "integrity": "sha512-dTvCMZg0Ns04IZanAZ/KXNJdrZa/NCXM/uyaLeDkA5GbQHieTg3ELELGzX8Xo8962RFRbyMKn+kApKtAdKsw9w==",
+        "shasum": "aae43dd8c30103d70fd7266f1ac4d0dfd458aeb1",
+        "unpackedSize": 66765,
+        "tarball": "https://registry.npmjs.org/ruvnet-constellation-telemetry/-/ruvnet-constellation-telemetry-0.1.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "ruvnet",
+        "constellation",
+        "npm",
+        "github",
+        "package-analytics",
+        "dashboard",
+        "privacy",
+        "local-telemetry",
+        "adoption-metrics"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/ruvnet-constellation-telemetry/latest",
+        "retrieved_at": "2026-11-11T14:05:16.098960Z",
+        "response_sha256": "075382b25ed8d1a5a3cb82460f82d3a90e21dcbab5ce25ae1d6fa157db0dfe1e"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null,
+      "publication_history": {
+        "package": "ruvnet-constellation-telemetry",
+        "source": "https://registry.npmjs.org/ruvnet-constellation-telemetry",
+        "created": "2026-11-11T04:42:22.296Z",
+        "versions": {
+          "0.0.0-stage": "2026-11-11T04:42:22.296Z",
+          "0.1.0": "2026-11-11T04:43:39.268Z"
+        }
+      }
+    },
+    {
+      "name": "@metaharness/darwin",
+      "new_since_baseline": false,
+      "version": "0.14.0",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "url": "git+https://github.com/ruvnet/metaharness.git",
+        "type": "git",
+        "directory": "packages/darwin-mode"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/metaharness/issues"
+      },
+      "maintainers": [
+        {
+          "name": "ruvnet"
+        }
+      ],
+      "ruvnet_maintainer": true,
+      "dependency_edges": {
+        "dependencies": {
+          "@babel/parser": "^7.29.13"
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {
+          "ruv-fann": "0.1.2"
+        },
+        "devDependencies": {
+          "vitest": "^4.1.12",
+          "ruv-fann": "0.1.2",
+          "agenticow": "^0.2.3",
+          "typescript": "^5.4.0",
+          "@metaharness/flywheel": "^0.1.1"
+        }
+      },
+      "dist": {
+        "integrity": "sha512-rkn+HI4/fFJo2R+2UaNAUFEG6vJYg52siD/izwteQ6zJDPrLPrWeJK4U1pukjeCZ1VndtUsMbGbELJpsctUAXQ==",
+        "shasum": "1bc6cf274b8160c26af15fb93c25894e9def8f54",
+        "unpackedSize": 1492551,
+        "tarball": "https://registry.npmjs.org/@metaharness/darwin/-/darwin-0.14.0.tgz"
+      },
+      "deprecated": null,
+      "keywords": [
+        "metaharness",
+        "darwin-mode",
+        "agent-harness",
+        "evolutionary-search",
+        "self-improvement",
+        "swe-bench",
+        "code-repair",
+        "model-cascade",
+        "cost-optimization",
+        "sandbox",
+        "llm",
+        "ai-agent"
+      ],
+      "readme_available": null,
+      "evidence": {
+        "source": "https://registry.npmjs.org/%40metaharness%2Fdarwin/latest",
+        "retrieved_at": "2026-11-11T14:05:21.897271Z",
+        "response_sha256": "a8c5855983f9f1e12b68de6150acc03bf8661f9e10218978faa57c79e132f50e"
+      },
+      "readme_coverage": "latest manifest endpoint does not establish README availability; no tarball was installed or unpacked",
+      "canonical_source_mapping_status": "registry-declared only; source manifest/directory still requires verification",
+      "cold_install_size_bytes": null,
+      "cold_install_time_ms": null,
+      "license_compatibility": null
+    }
+  ],
+  "unique_manifest_count": 20,
+  "readme_availability_unknown": true,
+  "integration_review": {
+    "candidate": "darwin-screening-v1",
+    "policy_pins": {
+      "@metaharness/darwin": "0.14.0",
+      "ruv-fann": "0.1.2"
+    },
+    "published_latest_versions": {
+      "@metaharness/darwin": "0.14.0",
+      "ruv-fann": "0.3.0"
+    },
+    "equivalent_optional_integration_documented": true,
+    "evidence": {
+      "url": "https://github.com/ruvnet/metaharness/blob/main/packages/darwin-mode/README.md",
+      "blob_sha": "bf75186a015546feacf50948ba8ad07d54622068",
+      "observation": "README explicitly documents an optional ruv-fann numeric-genome surrogate introduced in Darwin0.14.0"
+    },
+    "planner_observation": "ready_to_test, no receipt/recipe/lock for Darwin candidate; two earlier recipes have dated Linux x64 passing receipts",
+    "runtime_experiment_executed": false,
+    "quality_improvement": null,
+    "platform_results": {
+      "linux": "unknown for Darwin screening candidate",
+      "macos": "unknown",
+      "windows": "unknown",
+      "wasm": "unknown"
+    },
+    "blocker": "No frozen numeric workload, disjoint held-out evaluator, equal external evaluation budget, executable recipe/lock or fallback receipt has been bound to this policy candidate. Published optional integration is not evidence of useful screening lift. Do not add a duplicate required edge.",
+    "published_peer_compatibility": {
+      "darwin_peer_range": "0.1.2",
+      "ruv_fann_latest": "0.3.0",
+      "latest_satisfies_published_peer": false,
+      "kind": "static manifest exact-version comparison, not an install failure reproduction",
+      "decision": "retain frozen candidate pins; do not replace0.1.2 with latest0.3.0 without a new reviewed candidate revision"
+    },
+    "homepage_observation": {
+      "package": "ruv-fann",
+      "observed": "https://ruvnet.github.io/ruv-FANN/",
+      "target": "https://ruv.io",
+      "matches_target": false
+    }
+  }
+}
