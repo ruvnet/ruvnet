@@ -1,0 +1,810 @@
+{
+  "retrieved_at": "2026-11-12T13:50:35.976365+00:00",
+  "revisions": [
+    {
+      "key": "npm|@agentic-robotics/cli|downloads|2026-11-09",
+      "prior": null,
+      "current": 266,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/core|downloads|2026-11-09",
+      "prior": null,
+      "current": 142,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-09",
+      "prior": null,
+      "current": 418,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-x64|downloads|2026-11-09",
+      "prior": null,
+      "current": 418,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-arm64-gnu|downloads|2026-11-09",
+      "prior": null,
+      "current": 442,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-x64-gnu|downloads|2026-11-09",
+      "prior": null,
+      "current": 501,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/mcp|downloads|2026-11-09",
+      "prior": null,
+      "current": 622,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/self-learning|downloads|2026-11-09",
+      "prior": null,
+      "current": 405,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentics.org/agentic-mcp|downloads|2026-11-09",
+      "prior": null,
+      "current": 198,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentics.org/sparc2|downloads|2026-11-09",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/aidefence|downloads|2026-11-09",
+      "prior": null,
+      "current": 15005,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/browser|downloads|2026-11-09",
+      "prior": null,
+      "current": 23,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/claims|downloads|2026-11-09",
+      "prior": null,
+      "current": 193,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli|downloads|2026-11-09",
+      "prior": null,
+      "current": 19311,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli-core|downloads|2026-11-09",
+      "prior": null,
+      "current": 19915,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/codex|downloads|2026-11-09",
+      "prior": null,
+      "current": 2572,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/deployment|downloads|2026-11-09",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/embeddings|downloads|2026-11-09",
+      "prior": null,
+      "current": 131,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/guidance|downloads|2026-11-09",
+      "prior": null,
+      "current": 135,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/hooks|downloads|2026-11-09",
+      "prior": null,
+      "current": 342,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/integration|downloads|2026-11-09",
+      "prior": null,
+      "current": 192,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/mcp|downloads|2026-11-09",
+      "prior": null,
+      "current": 2012,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/memory|downloads|2026-11-09",
+      "prior": null,
+      "current": 25121,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/neural|downloads|2026-11-09",
+      "prior": null,
+      "current": 14464,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/performance|downloads|2026-11-09",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agent-federation|downloads|2026-11-09",
+      "prior": null,
+      "current": 409,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agentic-qe|downloads|2026-11-09",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-code-intelligence|downloads|2026-11-09",
+      "prior": null,
+      "current": 184,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-cognitive-kernel|downloads|2026-11-09",
+      "prior": null,
+      "current": 186,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-financial-risk|downloads|2026-11-09",
+      "prior": null,
+      "current": 369,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-gastown-bridge|downloads|2026-11-09",
+      "prior": null,
+      "current": 6437,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-healthcare-clinical|downloads|2026-11-09",
+      "prior": null,
+      "current": 384,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-hyperbolic-reasoning|downloads|2026-11-09",
+      "prior": null,
+      "current": 177,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-iot-cognitum|downloads|2026-11-09",
+      "prior": null,
+      "current": 48,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-legal-contracts|downloads|2026-11-09",
+      "prior": null,
+      "current": 177,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-neural-coordination|downloads|2026-11-09",
+      "prior": null,
+      "current": 194,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-perf-optimizer|downloads|2026-11-09",
+      "prior": null,
+      "current": 234,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-prime-radiant|downloads|2026-11-09",
+      "prior": null,
+      "current": 195,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-quantum-optimizer|downloads|2026-11-09",
+      "prior": null,
+      "current": 190,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-test-intelligence|downloads|2026-11-09",
+      "prior": null,
+      "current": 184,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugins|downloads|2026-11-09",
+      "prior": null,
+      "current": 204,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/providers|downloads|2026-11-09",
+      "prior": null,
+      "current": 25,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/security|downloads|2026-11-09",
+      "prior": null,
+      "current": 15816,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/shared|downloads|2026-11-09",
+      "prior": null,
+      "current": 14757,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/swarm|downloads|2026-11-09",
+      "prior": null,
+      "current": 361,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/teammate-plugin|downloads|2026-11-09",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/testing|downloads|2026-11-09",
+      "prior": null,
+      "current": 61,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@claude-flow/watermark|downloads|2026-11-09",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@cognitum-one/sdk|downloads|2026-11-09",
+      "prior": null,
+      "current": 1496,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@cognitum/freetokens|downloads|2026-11-09",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@cognitum/gate|downloads|2026-11-09",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@cognitum/ruos|downloads|2026-11-09",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@dream-machine/compile|downloads|2026-11-09",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@dream-machine/ledger|downloads|2026-11-09",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@dream-machine/memory|downloads|2026-11-09",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@dream-machine/schedule|downloads|2026-11-09",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@dream-machine/witness|downloads|2026-11-09",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@foxruv/cf-doctor|downloads|2026-11-09",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@foxruv/e2b-runner|downloads|2026-11-09",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@foxruv/iris|downloads|2026-11-09",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-agentic-synth|downloads|2026-11-09",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-core|downloads|2026-11-09",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-ultrathink|downloads|2026-11-09",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@neural-trader/execution|downloads|2026-11-09",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@neural-trader/features|downloads|2026-11-09",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@neural-trader/market-data|downloads|2026-11-09",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp|downloads|2026-11-09",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-12/npm-backfill-2026-11-09.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/cli|downloads|2026-11-11",
+      "prior": null,
+      "current": 392,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/core|downloads|2026-11-11",
+      "prior": null,
+      "current": 458,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-11",
+      "prior": null,
+      "current": 314,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-x64|downloads|2026-11-11",
+      "prior": null,
+      "current": 307,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-arm64-gnu|downloads|2026-11-11",
+      "prior": null,
+      "current": 300,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-x64-gnu|downloads|2026-11-11",
+      "prior": null,
+      "current": 447,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/mcp|downloads|2026-11-11",
+      "prior": null,
+      "current": 585,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/self-learning|downloads|2026-11-11",
+      "prior": null,
+      "current": 485,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentics.org/agentic-mcp|downloads|2026-11-11",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentics.org/sparc2|downloads|2026-11-11",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/aidefence|downloads|2026-11-11",
+      "prior": null,
+      "current": 10306,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/browser|downloads|2026-11-11",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/claims|downloads|2026-11-11",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli|downloads|2026-11-11",
+      "prior": null,
+      "current": 18611,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli-core|downloads|2026-11-11",
+      "prior": null,
+      "current": 10348,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/codex|downloads|2026-11-11",
+      "prior": null,
+      "current": 1790,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/deployment|downloads|2026-11-11",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/embeddings|downloads|2026-11-11",
+      "prior": null,
+      "current": 122,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/guidance|downloads|2026-11-11",
+      "prior": null,
+      "current": 84,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/hooks|downloads|2026-11-11",
+      "prior": null,
+      "current": 92,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/integration|downloads|2026-11-11",
+      "prior": null,
+      "current": 28,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/mcp|downloads|2026-11-11",
+      "prior": null,
+      "current": 1223,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/memory|downloads|2026-11-11",
+      "prior": null,
+      "current": 21398,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/neural|downloads|2026-11-11",
+      "prior": null,
+      "current": 9495,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/performance|downloads|2026-11-11",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agent-federation|downloads|2026-11-11",
+      "prior": null,
+      "current": 60,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agentic-qe|downloads|2026-11-11",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-code-intelligence|downloads|2026-11-11",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-cognitive-kernel|downloads|2026-11-11",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-financial-risk|downloads|2026-11-11",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-gastown-bridge|downloads|2026-11-11",
+      "prior": null,
+      "current": 2863,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-healthcare-clinical|downloads|2026-11-11",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-hyperbolic-reasoning|downloads|2026-11-11",
+      "prior": null,
+      "current": 24,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-iot-cognitum|downloads|2026-11-11",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-legal-contracts|downloads|2026-11-11",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-neural-coordination|downloads|2026-11-11",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-perf-optimizer|downloads|2026-11-11",
+      "prior": null,
+      "current": 37,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-prime-radiant|downloads|2026-11-11",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-quantum-optimizer|downloads|2026-11-11",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-test-intelligence|downloads|2026-11-11",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugins|downloads|2026-11-11",
+      "prior": null,
+      "current": 24,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/providers|downloads|2026-11-11",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/security|downloads|2026-11-11",
+      "prior": null,
+      "current": 8531,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/shared|downloads|2026-11-11",
+      "prior": null,
+      "current": 16528,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/swarm|downloads|2026-11-11",
+      "prior": null,
+      "current": 111,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/teammate-plugin|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/testing|downloads|2026-11-11",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@claude-flow/watermark|downloads|2026-11-11",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@cognitum-one/sdk|downloads|2026-11-11",
+      "prior": null,
+      "current": 352,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@cognitum/freetokens|downloads|2026-11-11",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@cognitum/gate|downloads|2026-11-11",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@cognitum/ruos|downloads|2026-11-11",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@dream-machine/compile|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@dream-machine/ledger|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@dream-machine/memory|downloads|2026-11-11",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@dream-machine/schedule|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@dream-machine/witness|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@foxruv/cf-doctor|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@foxruv/e2b-runner|downloads|2026-11-11",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@foxruv/iris|downloads|2026-11-11",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-agentic-synth|downloads|2026-11-11",
+      "prior": null,
+      "current": 193,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-core|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-ultrathink|downloads|2026-11-11",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@neural-trader/execution|downloads|2026-11-11",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@neural-trader/features|downloads|2026-11-11",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@neural-trader/market-data|downloads|2026-11-11",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp|downloads|2026-11-11",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-12/npm-daily-points.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}

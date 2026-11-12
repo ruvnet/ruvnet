@@ -1,0 +1,120 @@
+{
+  "scope": "Canonical public ecosystem metrics and bounded package integration evidence",
+  "owner": "ecosystem-metrics-20261112",
+  "baseline_commit": "54d85b2c501e1d62f3d31c8e6cc1d8ec6defc7c2",
+  "intent_frozen_at": "2026-11-12T13:47:26.915092+00:00",
+  "intent": "Refresh public source inventories and Nov11 completed UTC day, backfill Nov9 and revise Nov10 from official provider observations; keyed upsert canonical daily ledger; preserve historical source dates; regenerate report/profile then publish scoped metrics after validation. No engineering merge or package publication.",
+  "expected_result": {
+    "complete_public_repository_pagination": true,
+    "daily_npm_total": null,
+    "coverage": "Explicit per-day package eligibility, unknowns and backfills",
+    "replay_idempotent": true
+  },
+  "actual_result": {
+    "npm_daily": {
+      "day": "2026-11-10",
+      "downloads": 1297163,
+      "expected_packages": 412,
+      "collected_packages": 412,
+      "inventory_packages": 427,
+      "excluded_postwindow_packages": 15,
+      "coverage_complete": true,
+      "rolling_24_hours": false,
+      "period_type": "UTC calendar day",
+      "source": "data/snapshots/2026-11-11/npm-daily-points.json",
+      "verified_at": "2026-11-11T13:58:24.253010+00:00",
+      "artifact_sha256": "425e51730faa39a2138eafabd81249aaa9e223adefd047ab60c4c4989ce7fb45",
+      "observed_downloads": 1297163,
+      "revision_source": "data/snapshots/2026-11-12/npm-ledger-revisions.json",
+      "revision_checked_at": "2026-11-12T13:50:35.976365+00:00",
+      "composite_provenance": "Original complete daily observation plus current partial keyed revisions; untouched packages retain original retrieval time."
+    },
+    "comparison": {
+      "cohort_count": 67,
+      "dates": [
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "totals": {
+        "2026-11-09": 145051,
+        "2026-11-10": 136217,
+        "2026-11-11": 105755
+      },
+      "coverage_complete_for_common_cohort": true,
+      "causal_attribution": null,
+      "interpretation": "Short daily comparison only; not sustained or weekday-adjusted growth.",
+      "latest_daily_change": -30462,
+      "latest_daily_change_percent": null,
+      "packages_up": 23,
+      "packages_down": 38,
+      "scope": "Observed intersection only, incomplete ecosystem coverage; not portfolio growth",
+      "portfolio_growth": null,
+      "expansion_downloads_latest": null,
+      "expansion_observed_downloads": 0,
+      "expansion_coverage": {
+        "expected_packages": 17,
+        "covered_packages": 0,
+        "complete": false
+      }
+    },
+    "repositories": 234,
+    "stars": 203015,
+    "traffic": {
+      "clones": 746596,
+      "views": 214429,
+      "known_clone_events": 746596,
+      "known_view_events": 214429,
+      "status": "complete",
+      "expected_cells_per_metric": 3276,
+      "source_cells_per_metric": 3276,
+      "missing_cells_per_metric": 0,
+      "missing_days": [],
+      "repo_coverage": {
+        "clones": 234,
+        "views": 234
+      },
+      "uniques": null
+    },
+    "crates": 500,
+    "crates_downloads": 2226548
+  },
+  "outcome": "Collection and reconciliation validated. Scoped metrics publication pending root expected-head review. Containing PR metadata records publication outcome.",
+  "runtime_controls": {
+    "stack_control": "Observed stopped; no doctor execution claimed",
+    "work_host": "Existing credential-owning Work Desktop retained; no secret migration",
+    "fleet_health": "Fleet API healthy; rendezvous TCP only healthy; not workload health proof",
+    "source_scripts": "unchanged",
+    "concurrent_workflows": "No current registry/visual run pending at baseline read"
+  },
+  "cost_usd": null,
+  "rollback": "Revert scoped metrics commit; prior dated evidence retained",
+  "evidence_reference": "data/snapshots/2026-11-12/collection-watermark.json",
+  "validation": {
+    "point_replay_byte_idempotent": true,
+    "daily_key_uniqueness": true,
+    "current_utc_day_excluded": true,
+    "historical_range_dates_preserved": true,
+    "revisions_preserved": "data/snapshots/2026-11-12/npm-ledger-revisions.json",
+    "unit_tests_passed": 33,
+    "profile_verifier": "PASS",
+    "full_running_totals_replay_idempotent": true,
+    "ledger_byte_replay_idempotent": true,
+    "svg_xml_files": 52,
+    "source_script_changes": false
+  },
+  "integration_outcome": {
+    "kind": "static published manifest compatibility only",
+    "darwin_version": "0.14.0",
+    "darwin_ruv_fann_peer": "0.1.2",
+    "ruv_fann_latest": "0.3.0",
+    "compatible": false,
+    "e_means_version": "0.1.0",
+    "e_means_darwin_peer": "0.13.0 || 0.13.1",
+    "matches_latest_darwin": false,
+    "install_executed": false,
+    "dependency_change": false,
+    "performance_learning_result": null,
+    "finding": "Existing pinned optional integrations require source-bound compatibility checks before upgrades; no install failure claimed"
+  }
+}

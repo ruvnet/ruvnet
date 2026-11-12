@@ -1,0 +1,31 @@
+{
+  "npm": {
+    "offset": 429,
+    "count": 0,
+    "total": 429,
+    "receipt": {
+      "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=429",
+      "retrieved_at": "2026-11-12T13:47:30.043147Z",
+      "response_sha256": "eed2eae567b61dd0479e52b75d287b36ba30c09f3659360177e0804a421f8cec"
+    }
+  },
+  "crates_io": {
+    "page": 6,
+    "count": 0,
+    "total": 0,
+    "receipt": {
+      "source": "https://crates.io/api/v1/crates?page=6&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-12T13:47:30.165250Z",
+      "response_sha256": "1ed7bfb3d708db14df2922336a71085632c6f82283a859447328b7f31498087f"
+    }
+  },
+  "crates_first_page": {
+    "count": 100,
+    "total": 500,
+    "receipt": {
+      "source": "https://crates.io/api/v1/crates?page=1&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-12T13:47:41.468152Z",
+      "response_sha256": "b99e4c9222e77d8effc1639fb579b8708240e1626fa15b608a759675ab20442c"
+    }
+  }
+}

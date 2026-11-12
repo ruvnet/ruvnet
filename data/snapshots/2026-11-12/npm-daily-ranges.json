@@ -1,0 +1,3630 @@
+{
+  "collected_at": "2026-11-12T13:50:35.976365+00:00",
+  "start": "2026-11-09",
+  "end": "2026-11-11",
+  "inventory_count": 429,
+  "complete": false,
+  "blocker": "npm download API returned HTTP 429; requests stopped, successful cached responses retained, unobserved values null; backfill queued",
+  "retry_after_seconds": null,
+  "packages": [
+    {
+      "package": "@agentic-robotics/cli",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/cli",
+        "downloads": [
+          {
+            "downloads": 266,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 13,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 392,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Fcli",
+        "retrieved_at": "2026-11-12T13:46:41.790362Z",
+        "response_sha256": "a79025fe22cbb93523d673693641341bd784c882b216bd50cbc8e595d72a8f9e"
+      }
+    },
+    {
+      "package": "@agentic-robotics/core",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/core",
+        "downloads": [
+          {
+            "downloads": 142,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 9,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 458,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Fcore",
+        "retrieved_at": "2026-11-12T13:46:41.848780Z",
+        "response_sha256": "e8fa0a764e9a57bad460df8f5e6590ff70d9a74e13f0e95dc30a17574ce81e54"
+      }
+    },
+    {
+      "package": "@agentic-robotics/darwin-arm64",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/darwin-arm64",
+        "downloads": [
+          {
+            "downloads": 418,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 22,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 314,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Fdarwin-arm64",
+        "retrieved_at": "2026-11-12T13:46:42.063309Z",
+        "response_sha256": "8b5235e00ea7990bc32a2f464f55fd0d11a4ff2cf12c717605c36a433771596c"
+      }
+    },
+    {
+      "package": "@agentic-robotics/darwin-x64",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/darwin-x64",
+        "downloads": [
+          {
+            "downloads": 418,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 18,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 307,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Fdarwin-x64",
+        "retrieved_at": "2026-11-12T13:46:42.112837Z",
+        "response_sha256": "54274b58fecb7d19d729a74b73ae00c27c5af90dbdbc9b2d196a556d444d5ee1"
+      }
+    },
+    {
+      "package": "@agentic-robotics/linux-arm64-gnu",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/linux-arm64-gnu",
+        "downloads": [
+          {
+            "downloads": 442,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 19,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 300,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Flinux-arm64-gnu",
+        "retrieved_at": "2026-11-12T13:46:42.376411Z",
+        "response_sha256": "f06a6147aff81b003b552d473ef39a2b7128a56cfa8a103603b3e58d9249b8fd"
+      }
+    },
+    {
+      "package": "@agentic-robotics/linux-x64-gnu",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/linux-x64-gnu",
+        "downloads": [
+          {
+            "downloads": 501,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 22,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 447,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Flinux-x64-gnu",
+        "retrieved_at": "2026-11-12T13:46:42.290707Z",
+        "response_sha256": "3dd2bd6739379c25d50fcf37e4dc48b49474d0e35a2c94f7643bffcad72ee202"
+      }
+    },
+    {
+      "package": "@agentic-robotics/mcp",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/mcp",
+        "downloads": [
+          {
+            "downloads": 622,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 36,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 585,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Fmcp",
+        "retrieved_at": "2026-11-12T13:46:42.631921Z",
+        "response_sha256": "5ef34c54c9df413e7b8661671ccdd56cdf3dca218765a7632db1d52af1e713da"
+      }
+    },
+    {
+      "package": "@agentic-robotics/self-learning",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentic-robotics/self-learning",
+        "downloads": [
+          {
+            "downloads": 405,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 23,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 485,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentic-robotics%2Fself-learning",
+        "retrieved_at": "2026-11-12T13:46:42.515369Z",
+        "response_sha256": "c9db40ec00c1606d22c42ef23cd5c8b7bbab4d62f59180fd8de029e2427ae1c3"
+      }
+    },
+    {
+      "package": "@agentics.org/agentic-mcp",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentics.org/agentic-mcp",
+        "downloads": [
+          {
+            "downloads": 198,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 24,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 17,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentics.org%2Fagentic-mcp",
+        "retrieved_at": "2026-11-12T13:46:43.019529Z",
+        "response_sha256": "1e1f8d43d11486223faaa6f0312aef37edb416932067dbaf231d3b8f5d068267"
+      }
+    },
+    {
+      "package": "@agentics.org/sparc2",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@agentics.org/sparc2",
+        "downloads": [
+          {
+            "downloads": 18,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 49,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 12,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40agentics.org%2Fsparc2",
+        "retrieved_at": "2026-11-12T13:46:42.890337Z",
+        "response_sha256": "899063f4b2f67b34b9d22d794961a0d84406195455ffabbb81bd82759b8f18be"
+      }
+    },
+    {
+      "package": "@claude-flow/aidefence",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/aidefence",
+        "downloads": [
+          {
+            "downloads": 15005,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 18851,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 10306,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Faidefence",
+        "retrieved_at": "2026-11-12T13:46:43.200309Z",
+        "response_sha256": "7a4183ceedd455a8732fec31b50e1bae0bf10317c1652e0ea69d14f7b5e89e66"
+      }
+    },
+    {
+      "package": "@claude-flow/browser",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/browser",
+        "downloads": [
+          {
+            "downloads": 23,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 13,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 12,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fbrowser",
+        "retrieved_at": "2026-11-12T13:46:43.122106Z",
+        "response_sha256": "068cd76740f87474fd55143b73ee5ca38e40b0efdef5cbc14465ed7faa7be43e"
+      }
+    },
+    {
+      "package": "@claude-flow/claims",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/claims",
+        "downloads": [
+          {
+            "downloads": 193,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 15,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 12,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fclaims",
+        "retrieved_at": "2026-11-12T13:46:43.492522Z",
+        "response_sha256": "ed894180ac14adb838dff8a19ab6b7b632f1c74288393652566bdc2735c01664"
+      }
+    },
+    {
+      "package": "@claude-flow/cli",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/cli",
+        "downloads": [
+          {
+            "downloads": 19311,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 24591,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 18611,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fcli",
+        "retrieved_at": "2026-11-12T13:46:43.649621Z",
+        "response_sha256": "377354090664f12db01f40be98717df39e64b8e3020d5437134500bccd3fe999"
+      }
+    },
+    {
+      "package": "@claude-flow/cli-core",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/cli-core",
+        "downloads": [
+          {
+            "downloads": 19915,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 18560,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 10348,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fcli-core",
+        "retrieved_at": "2026-11-12T13:46:43.618550Z",
+        "response_sha256": "dc6c0f2f139e9a2f458e7202ceb71665531db138e6293ba9e0b67c3ba1b8e4f5"
+      }
+    },
+    {
+      "package": "@claude-flow/codex",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/codex",
+        "downloads": [
+          {
+            "downloads": 2572,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 2242,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 1790,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fcodex",
+        "retrieved_at": "2026-11-12T13:46:43.651768Z",
+        "response_sha256": "2768ff52ce138593b67ddc9b8ae59bf79a1f5d009ab759cce647866023f25863"
+      }
+    },
+    {
+      "package": "@claude-flow/deployment",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/deployment",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 5,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fdeployment",
+        "retrieved_at": "2026-11-12T13:46:43.993753Z",
+        "response_sha256": "d4f66829a048315e485fd4036210a9dee5ad44736f646ca5951405c51fde932d"
+      }
+    },
+    {
+      "package": "@claude-flow/embeddings",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/embeddings",
+        "downloads": [
+          {
+            "downloads": 131,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 52,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 122,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fembeddings",
+        "retrieved_at": "2026-11-12T13:46:44.288713Z",
+        "response_sha256": "dd67665a050fc34645fa606febe93b133f17ae8c11bbf176865603c0236264d3"
+      }
+    },
+    {
+      "package": "@claude-flow/guidance",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/guidance",
+        "downloads": [
+          {
+            "downloads": 135,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 82,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 84,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fguidance",
+        "retrieved_at": "2026-11-12T13:46:44.154486Z",
+        "response_sha256": "e24fd65b8cd20160b1a0e56ac58d685ed432b4289acdb1c9abb932fae2d5df13"
+      }
+    },
+    {
+      "package": "@claude-flow/hooks",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/hooks",
+        "downloads": [
+          {
+            "downloads": 342,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 96,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 92,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fhooks",
+        "retrieved_at": "2026-11-12T13:46:44.257400Z",
+        "response_sha256": "1955eb4b5f905638509e06410ae14df957459fdfb1951cc721f8016259a22c01"
+      }
+    },
+    {
+      "package": "@claude-flow/integration",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/integration",
+        "downloads": [
+          {
+            "downloads": 192,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 21,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 28,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fintegration",
+        "retrieved_at": "2026-11-12T13:46:44.435850Z",
+        "response_sha256": "f9f800e707192b295cdbbbab9d52cbcabaebd3a5030cbdc2bf709b8fcbe976f8"
+      }
+    },
+    {
+      "package": "@claude-flow/mcp",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/mcp",
+        "downloads": [
+          {
+            "downloads": 2012,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1711,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 1223,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fmcp",
+        "retrieved_at": "2026-11-12T13:47:04.633204Z",
+        "response_sha256": "b8830a3a769a7e9f694f0d99610cc4ed50843028d11c22869de6488a78625952"
+      }
+    },
+    {
+      "package": "@claude-flow/memory",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/memory",
+        "downloads": [
+          {
+            "downloads": 25121,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 25257,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 21398,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fmemory",
+        "retrieved_at": "2026-11-12T13:47:04.941951Z",
+        "response_sha256": "0c44be373aec735f3562c266fd63c2a55fae170c9e96275a48c99d2f20acd1b3"
+      }
+    },
+    {
+      "package": "@claude-flow/neural",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/neural",
+        "downloads": [
+          {
+            "downloads": 14464,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 11381,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 9495,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fneural",
+        "retrieved_at": "2026-11-12T13:47:04.695782Z",
+        "response_sha256": "9cfe7610317544c3a2f26b7036f0be819fed154740310ce935ff6abb1c4eb7c7"
+      }
+    },
+    {
+      "package": "@claude-flow/performance",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/performance",
+        "downloads": [
+          {
+            "downloads": 18,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 16,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 4,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fperformance",
+        "retrieved_at": "2026-11-12T13:47:15.219453Z",
+        "response_sha256": "9fb9f24d5747f103f7981af506d8ce3e8c591a2ba8810a3098ccaed0d702519c"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-agent-federation",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-agent-federation",
+        "downloads": [
+          {
+            "downloads": 409,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 76,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 60,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-agent-federation",
+        "retrieved_at": "2026-11-12T13:47:15.118165Z",
+        "response_sha256": "31a51574690c5da795eb24ca48a040af65592921174fccee3901195dd90f0a07"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-agentic-qe",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-agentic-qe",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-agentic-qe",
+        "retrieved_at": "2026-11-12T13:47:15.325748Z",
+        "response_sha256": "090c5cdd74eee994415089de225c3e180791a9ee001cb7f9713b5a25b3820f96"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-code-intelligence",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-code-intelligence",
+        "downloads": [
+          {
+            "downloads": 184,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 12,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 6,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-code-intelligence",
+        "retrieved_at": "2026-11-12T13:47:25.422120Z",
+        "response_sha256": "77a4bfbfa8d4fd7ddae60379e04da9ed5e6a65dfe932837f9bfa996d5f66014c"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-cognitive-kernel",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-cognitive-kernel",
+        "downloads": [
+          {
+            "downloads": 186,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 18,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 15,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-cognitive-kernel",
+        "retrieved_at": "2026-11-12T13:47:25.652915Z",
+        "response_sha256": "613635f6a81b71fc9aff1615a0b8d31d04cf8c7ef6a4771db9471c05bb9071fb"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-financial-risk",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-financial-risk",
+        "downloads": [
+          {
+            "downloads": 369,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 19,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 9,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-financial-risk",
+        "retrieved_at": "2026-11-12T13:47:26.118743Z",
+        "response_sha256": "b964c69945d630d937de6d1d59e81ca5d268c32d9d9137abff8dda20d0b08d20"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-gastown-bridge",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-gastown-bridge",
+        "downloads": [
+          {
+            "downloads": 6437,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 4198,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 2863,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-gastown-bridge",
+        "retrieved_at": "2026-11-12T13:47:26.278539Z",
+        "response_sha256": "bd1bf3bc2925ba362aaeab6e2fc9bfdb85a7426c6a8ff328d6a9beb2f321d13c"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-healthcare-clinical",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-healthcare-clinical",
+        "downloads": [
+          {
+            "downloads": 384,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 13,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 8,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-healthcare-clinical",
+        "retrieved_at": "2026-11-12T13:47:35.852512Z",
+        "response_sha256": "b4191e383b4463431f26cc86e86ea1d263efc82a87ff856a4c3e6b5447ac532b"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-hyperbolic-reasoning",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-hyperbolic-reasoning",
+        "downloads": [
+          {
+            "downloads": 177,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 25,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 24,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-hyperbolic-reasoning",
+        "retrieved_at": "2026-11-12T13:47:36.302189Z",
+        "response_sha256": "69117553a34e7de1cdc6454d577952c50d5d1a5543977a152239ca04a20e1bf6"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-iot-cognitum",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-iot-cognitum",
+        "downloads": [
+          {
+            "downloads": 48,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 8,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 11,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-iot-cognitum",
+        "retrieved_at": "2026-11-12T13:47:46.764921Z",
+        "response_sha256": "5814b495cf923ab777222a6589ecbc2207f3cc5daa292905f2137075a3517157"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-legal-contracts",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-legal-contracts",
+        "downloads": [
+          {
+            "downloads": 177,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 8,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 5,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-legal-contracts",
+        "retrieved_at": "2026-11-12T13:47:46.698472Z",
+        "response_sha256": "ad6cfcec0481f6e0d3c78e9ee66ca618b85cc4006c52188d165128dfaf3b27bf"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-neural-coordination",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-neural-coordination",
+        "downloads": [
+          {
+            "downloads": 194,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 21,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 16,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-neural-coordination",
+        "retrieved_at": "2026-11-12T13:47:36.642042Z",
+        "response_sha256": "b76c2e048cd2f39ba6d354786431ce229ba873247d22cf712acbdf62a60a5fff"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-perf-optimizer",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-perf-optimizer",
+        "downloads": [
+          {
+            "downloads": 234,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 56,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 37,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-perf-optimizer",
+        "retrieved_at": "2026-11-12T13:47:46.933705Z",
+        "response_sha256": "e9152526be2dc119cc806a53235b27309f3099e6d9e9d236a38762f8a33c349b"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-prime-radiant",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-prime-radiant",
+        "downloads": [
+          {
+            "downloads": 195,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 15,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 12,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-prime-radiant",
+        "retrieved_at": "2026-11-12T13:47:47.151790Z",
+        "response_sha256": "92bd61cf078336f0215e12ed1aec1cbad2f3688a94e0d069da530499121733c0"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-quantum-optimizer",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-quantum-optimizer",
+        "downloads": [
+          {
+            "downloads": 190,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 25,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 13,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-quantum-optimizer",
+        "retrieved_at": "2026-11-12T13:47:57.359675Z",
+        "response_sha256": "2b7f490c7b1eb54f6ed7d06f535c242408f248e9ffc22c1ca0e189c5ff036cbd"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-test-intelligence",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugin-test-intelligence",
+        "downloads": [
+          {
+            "downloads": 184,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 10,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 4,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugin-test-intelligence",
+        "retrieved_at": "2026-11-12T13:47:57.222118Z",
+        "response_sha256": "6004dce2d43a9ba98c9e53742d43ef068146219432c8c1017ab93c7488084e7c"
+      }
+    },
+    {
+      "package": "@claude-flow/plugins",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/plugins",
+        "downloads": [
+          {
+            "downloads": 204,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 35,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 24,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fplugins",
+        "retrieved_at": "2026-11-12T13:47:57.635716Z",
+        "response_sha256": "177eb62639467af21ac8f4cab894981b8a218ad8446ea5922822211029f3b2f5"
+      }
+    },
+    {
+      "package": "@claude-flow/providers",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/providers",
+        "downloads": [
+          {
+            "downloads": 25,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 13,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 19,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fproviders",
+        "retrieved_at": "2026-11-12T13:48:07.831300Z",
+        "response_sha256": "40679bff50601fb629839508c71886f639522b7b6f38af64c33d30ecbb285b01"
+      }
+    },
+    {
+      "package": "@claude-flow/security",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/security",
+        "downloads": [
+          {
+            "downloads": 15816,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 11125,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 8531,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fsecurity",
+        "retrieved_at": "2026-11-12T13:48:07.836359Z",
+        "response_sha256": "8c2b03dd936f18909de48f9ad4c4778a6c94b1413654e4cf632839c700215b09"
+      }
+    },
+    {
+      "package": "@claude-flow/shared",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/shared",
+        "downloads": [
+          {
+            "downloads": 14757,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 16039,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 16528,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fshared",
+        "retrieved_at": "2026-11-12T13:48:07.976140Z",
+        "response_sha256": "939d8e969d19b2388c6ef92d33513beb3d629863a5cb975d01977d593e5aa008"
+      }
+    },
+    {
+      "package": "@claude-flow/swarm",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/swarm",
+        "downloads": [
+          {
+            "downloads": 361,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 233,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 111,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fswarm",
+        "retrieved_at": "2026-11-12T13:48:08.217205Z",
+        "response_sha256": "f6f7978d2bb158601025aa329faa8fb421d5a3d4ef6d282d979965d5e6f03166"
+      }
+    },
+    {
+      "package": "@claude-flow/teammate-plugin",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/teammate-plugin",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 7,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fteammate-plugin",
+        "retrieved_at": "2026-11-12T13:48:18.281891Z",
+        "response_sha256": "25cedb4ed19de4341513407b1369983fa93b62ae5bd3130eed2369e4e45d34f1"
+      }
+    },
+    {
+      "package": "@claude-flow/testing",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/testing",
+        "downloads": [
+          {
+            "downloads": 61,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 32,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 15,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Ftesting",
+        "retrieved_at": "2026-11-12T13:48:18.242452Z",
+        "response_sha256": "331a8bf5ac5b701c9e5e58b7fe86cd01c4976c87d172619c8dfdebe6ba9fed63"
+      }
+    },
+    {
+      "package": "@claude-flow/watermark",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@claude-flow/watermark",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 2,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 18,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40claude-flow%2Fwatermark",
+        "retrieved_at": "2026-11-12T13:48:18.618525Z",
+        "response_sha256": "5ab390bdd95ade9ba029858a7a9c4592991f84c4fa85dc61834e6e6d01daa1cf"
+      }
+    },
+    {
+      "package": "@cognitum-one/sdk",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@cognitum-one/sdk",
+        "downloads": [
+          {
+            "downloads": 1496,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1072,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 352,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40cognitum-one%2Fsdk",
+        "retrieved_at": "2026-11-12T13:48:28.827570Z",
+        "response_sha256": "39915651d5b53fc4ccada0e0bc41688a8e57cec417d050ae524a62781706ea1e"
+      }
+    },
+    {
+      "package": "@cognitum/freetokens",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@cognitum/freetokens",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40cognitum%2Ffreetokens",
+        "retrieved_at": "2026-11-12T13:48:28.694799Z",
+        "response_sha256": "ed56820d211fddf9baf5edd6c4fdae845fba7c09f36e824b997558aa7894d78c"
+      }
+    },
+    {
+      "package": "@cognitum/gate",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@cognitum/gate",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 2,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40cognitum%2Fgate",
+        "retrieved_at": "2026-11-12T13:48:28.671554Z",
+        "response_sha256": "2f964c9a40e8624538e9e6e865b20792b48161cdd29bd2d0d58ff1447fbc9366"
+      }
+    },
+    {
+      "package": "@cognitum/ruos",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@cognitum/ruos",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 3,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 7,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40cognitum%2Fruos",
+        "retrieved_at": "2026-11-12T13:48:39.280428Z",
+        "response_sha256": "27e6028e1980f9a2e705ddbc16360f8e39f6b6fdbb31a0268d4034771f75bcb1"
+      }
+    },
+    {
+      "package": "@dream-machine/compile",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@dream-machine/compile",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40dream-machine%2Fcompile",
+        "retrieved_at": "2026-11-12T13:48:39.345236Z",
+        "response_sha256": "564af0b5296b81d6c825fca9a6c3822e3ac7eaa8757e0c93757eba838bc550b0"
+      }
+    },
+    {
+      "package": "@dream-machine/ledger",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@dream-machine/ledger",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40dream-machine%2Fledger",
+        "retrieved_at": "2026-11-12T13:48:39.364849Z",
+        "response_sha256": "6e02372dcb308ea11585457fbb62a62572b4ddccbb1bc8ef8fe62e00e19a937f"
+      }
+    },
+    {
+      "package": "@dream-machine/memory",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@dream-machine/memory",
+        "downloads": [
+          {
+            "downloads": 9,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 4,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40dream-machine%2Fmemory",
+        "retrieved_at": "2026-11-12T13:48:39.546249Z",
+        "response_sha256": "fcf8e8bc2629c1fbb0bb1f4c7da77ac4f4889853f53bd280c6695a290c6a43fa"
+      }
+    },
+    {
+      "package": "@dream-machine/schedule",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@dream-machine/schedule",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40dream-machine%2Fschedule",
+        "retrieved_at": "2026-11-12T13:48:49.796998Z",
+        "response_sha256": "a144c94f83d775ee4bdcf5527ac5618664c0d58ffd9953724815f9ad461f7dda"
+      }
+    },
+    {
+      "package": "@dream-machine/witness",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@dream-machine/witness",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40dream-machine%2Fwitness",
+        "retrieved_at": "2026-11-12T13:48:49.792117Z",
+        "response_sha256": "8c0f9d7b6ff5e5d7ebe338d3a843b9cd2e7a74a5288c245e46c5b925d2a179bd"
+      }
+    },
+    {
+      "package": "@foxruv/cf-doctor",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@foxruv/cf-doctor",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40foxruv%2Fcf-doctor",
+        "retrieved_at": "2026-11-12T13:48:49.858807Z",
+        "response_sha256": "de1759e9393a817d8b50b5d112bf0e1095a7077d5299c5a705852a3e70f3eecb"
+      }
+    },
+    {
+      "package": "@foxruv/e2b-runner",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@foxruv/e2b-runner",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 2,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40foxruv%2Fe2b-runner",
+        "retrieved_at": "2026-11-12T13:48:50.172220Z",
+        "response_sha256": "4dff8b209832c9d15d4647259ec86d5d78208ce8a04efd6d8418600ed8e3d147"
+      }
+    },
+    {
+      "package": "@foxruv/iris",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@foxruv/iris",
+        "downloads": [
+          {
+            "downloads": 8,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 11,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 11,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40foxruv%2Firis",
+        "retrieved_at": "2026-11-12T13:49:00.474002Z",
+        "response_sha256": "759269d9a79a9e1b3eaba82bc339238a8ef2d85e608acdcbc3d5c9ebcf9913c1"
+      }
+    },
+    {
+      "package": "@foxruv/iris-agentic-synth",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@foxruv/iris-agentic-synth",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 2,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 193,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40foxruv%2Firis-agentic-synth",
+        "retrieved_at": "2026-11-12T13:49:00.759368Z",
+        "response_sha256": "2a22678ad802f4966a4ad0e8a0d1e5456ec0ce93cb8bd787dfab3b997c3f10e0"
+      }
+    },
+    {
+      "package": "@foxruv/iris-core",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@foxruv/iris-core",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40foxruv%2Firis-core",
+        "retrieved_at": "2026-11-12T13:49:00.514979Z",
+        "response_sha256": "e85928968aa665065ef744b23de67f93e3925798deaf9b55814c85ea6303c083"
+      }
+    },
+    {
+      "package": "@foxruv/iris-ultrathink",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@foxruv/iris-ultrathink",
+        "downloads": [
+          {
+            "downloads": 8,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 3,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40foxruv%2Firis-ultrathink",
+        "retrieved_at": "2026-11-12T13:49:00.689627Z",
+        "response_sha256": "a50d4749673664d14108f4e18d571fd9c039fc381712179651de1754795a69cd"
+      }
+    },
+    {
+      "package": "@foxruv/nova-medicina",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:00.746633Z"
+    },
+    {
+      "package": "@metaharness/agntcy",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:00.784682Z"
+    },
+    {
+      "package": "@metaharness/autogenous",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:00.956327Z"
+    },
+    {
+      "package": "@metaharness/avo",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.016537Z"
+    },
+    {
+      "package": "@metaharness/aws-finops",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.026708Z"
+    },
+    {
+      "package": "@metaharness/claude-code",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.053183Z"
+    },
+    {
+      "package": "@metaharness/codex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.221523Z"
+    },
+    {
+      "package": "@metaharness/coding",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.287032Z"
+    },
+    {
+      "package": "@metaharness/copilot",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.292634Z"
+    },
+    {
+      "package": "@metaharness/darwin",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.317690Z"
+    },
+    {
+      "package": "@metaharness/devops",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.497904Z"
+    },
+    {
+      "package": "@metaharness/education",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.553799Z"
+    },
+    {
+      "package": "@metaharness/example-ads",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.561806Z"
+    },
+    {
+      "package": "@metaharness/example-aws",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.585500Z"
+    },
+    {
+      "package": "@metaharness/example-azure",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.764527Z"
+    },
+    {
+      "package": "@metaharness/example-bio",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.823772Z"
+    },
+    {
+      "package": "@metaharness/example-datadog",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.829292Z"
+    },
+    {
+      "package": "@metaharness/example-fhir",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:01.852328Z"
+    },
+    {
+      "package": "@metaharness/example-gcp",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.035318Z"
+    },
+    {
+      "package": "@metaharness/example-github",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.090620Z"
+    },
+    {
+      "package": "@metaharness/example-huggingface",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.095139Z"
+    },
+    {
+      "package": "@metaharness/example-iot",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.120470Z"
+    },
+    {
+      "package": "@metaharness/example-nasa",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.299489Z"
+    },
+    {
+      "package": "@metaharness/example-pinecone",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.362454Z"
+    },
+    {
+      "package": "@metaharness/example-qiskit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.359432Z"
+    },
+    {
+      "package": "@metaharness/example-slack",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.385436Z"
+    },
+    {
+      "package": "@metaharness/example-stripe",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.568431Z"
+    },
+    {
+      "package": "@metaharness/example-supabase",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.626412Z"
+    },
+    {
+      "package": "@metaharness/example-twilio",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.634461Z"
+    },
+    {
+      "package": "@metaharness/example-web3",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.651159Z"
+    },
+    {
+      "package": "@metaharness/field-memory",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.841844Z"
+    },
+    {
+      "package": "@metaharness/flywheel",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.891207Z"
+    },
+    {
+      "package": "@metaharness/gaming",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.902425Z"
+    },
+    {
+      "package": "@metaharness/github-actions",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:02.919247Z"
+    },
+    {
+      "package": "@metaharness/harness",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.115497Z"
+    },
+    {
+      "package": "@metaharness/hermes",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.166158Z"
+    },
+    {
+      "package": "@metaharness/horizon",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.169566Z"
+    },
+    {
+      "package": "@metaharness/host-claude-code",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.191412Z"
+    },
+    {
+      "package": "@metaharness/host-codex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.386116Z"
+    },
+    {
+      "package": "@metaharness/host-copilot",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.438934Z"
+    },
+    {
+      "package": "@metaharness/host-github-actions",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.436389Z"
+    },
+    {
+      "package": "@metaharness/host-hermes",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.456798Z"
+    },
+    {
+      "package": "@metaharness/host-openclaw",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.654287Z"
+    },
+    {
+      "package": "@metaharness/host-opencode",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.706844Z"
+    },
+    {
+      "package": "@metaharness/host-pi-dev",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.707199Z"
+    },
+    {
+      "package": "@metaharness/host-prime-agent",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.723269Z"
+    },
+    {
+      "package": "@metaharness/host-rvm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.918703Z"
+    },
+    {
+      "package": "@metaharness/jujutsu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.977708Z"
+    },
+    {
+      "package": "@metaharness/kernel",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.973607Z"
+    },
+    {
+      "package": "@metaharness/legal",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:03.992745Z"
+    },
+    {
+      "package": "@metaharness/oo-agents",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.183884Z"
+    },
+    {
+      "package": "@metaharness/openclaw",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.240688Z"
+    },
+    {
+      "package": "@metaharness/opencode",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.247806Z"
+    },
+    {
+      "package": "@metaharness/pi-dev",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.259252Z"
+    },
+    {
+      "package": "@metaharness/projects",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.455208Z"
+    },
+    {
+      "package": "@metaharness/radio",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.506014Z"
+    },
+    {
+      "package": "@metaharness/redblue",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.511779Z"
+    },
+    {
+      "package": "@metaharness/repo-maintainer",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.524977Z"
+    },
+    {
+      "package": "@metaharness/research",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.720636Z"
+    },
+    {
+      "package": "@metaharness/router",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.770981Z"
+    },
+    {
+      "package": "@metaharness/rvm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.781584Z"
+    },
+    {
+      "package": "@metaharness/sales",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.791449Z"
+    },
+    {
+      "package": "@metaharness/sdk",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:04.989706Z"
+    },
+    {
+      "package": "@metaharness/support",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.036441Z"
+    },
+    {
+      "package": "@metaharness/trading",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.047471Z"
+    },
+    {
+      "package": "@metaharness/turn-credit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.056655Z"
+    },
+    {
+      "package": "@metaharness/vertical-base",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.261010Z"
+    },
+    {
+      "package": "@metaharness/vertical-trading",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.314291Z"
+    },
+    {
+      "package": "@metaharness/weight-eft",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.318611Z"
+    },
+    {
+      "package": "@metaharness/workspace-lens",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.328058Z"
+    },
+    {
+      "package": "@metaharness/workspace-probe",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.532434Z"
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-agents",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.583899Z"
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-cli",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.589979Z"
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-core",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.596786Z"
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-mcp",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.797328Z"
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-rust-core",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.853143Z"
+    },
+    {
+      "package": "@neural-trader/agentic-accounting-types",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.864187Z"
+    },
+    {
+      "package": "@neural-trader/backend",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:05.863124Z"
+    },
+    {
+      "package": "@neural-trader/backtesting",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.061514Z"
+    },
+    {
+      "package": "@neural-trader/benchoptimizer",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.124923Z"
+    },
+    {
+      "package": "@neural-trader/brokers",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.130795Z"
+    },
+    {
+      "package": "@neural-trader/core",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.131585Z"
+    },
+    {
+      "package": "@neural-trader/e2b-strategies",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.333736Z"
+    },
+    {
+      "package": "@neural-trader/example-dynamic-pricing",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.394369Z"
+    },
+    {
+      "package": "@neural-trader/example-energy-forecasting",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.398724Z"
+    },
+    {
+      "package": "@neural-trader/example-energy-grid-optimization",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.401071Z"
+    },
+    {
+      "package": "@neural-trader/example-evolutionary-game-theory",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.605077Z"
+    },
+    {
+      "package": "@neural-trader/example-healthcare-optimization",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.665358Z"
+    },
+    {
+      "package": "@neural-trader/example-logistics-optimization",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.668843Z"
+    },
+    {
+      "package": "@neural-trader/example-market-microstructure",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.664397Z"
+    },
+    {
+      "package": "@neural-trader/example-neuromorphic-computing",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.870405Z"
+    },
+    {
+      "package": "@neural-trader/example-portfolio-optimization",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.933359Z"
+    },
+    {
+      "package": "@neural-trader/example-quantum-optimization",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.932563Z"
+    },
+    {
+      "package": "@neural-trader/example-supply-chain-prediction",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:06.940304Z"
+    },
+    {
+      "package": "@neural-trader/execution",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@neural-trader/execution",
+        "downloads": [
+          {
+            "downloads": 11,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40neural-trader%2Fexecution",
+        "retrieved_at": "2026-11-12T13:49:07.467674Z",
+        "response_sha256": "84b810e6e458a64a1fc4e24d677536fe562fca941aba9862a24cd44143eaca7c"
+      }
+    },
+    {
+      "package": "@neural-trader/features",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@neural-trader/features",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 0,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 2,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40neural-trader%2Ffeatures",
+        "retrieved_at": "2026-11-12T13:49:07.562231Z",
+        "response_sha256": "ac9752f749ee79912109c3ab15ee8fa7ee0c27036d02dda22f2d4cabc464a14b"
+      }
+    },
+    {
+      "package": "@neural-trader/market-data",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@neural-trader/market-data",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 2,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40neural-trader%2Fmarket-data",
+        "retrieved_at": "2026-11-12T13:49:07.380484Z",
+        "response_sha256": "2dd132f65225648a4065d5be2c1a3d54ba1937c982c454bd04a2635af2acb554"
+      }
+    },
+    {
+      "package": "@neural-trader/mcp",
+      "body": {
+        "start": "2026-11-09",
+        "end": "2026-11-11",
+        "package": "@neural-trader/mcp",
+        "downloads": [
+          {
+            "downloads": 19,
+            "day": "2026-11-09"
+          },
+          {
+            "downloads": 1,
+            "day": "2026-11-10"
+          },
+          {
+            "downloads": 5,
+            "day": "2026-11-11"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-09:2026-11-11/%40neural-trader%2Fmcp",
+        "retrieved_at": "2026-11-12T13:49:07.568337Z",
+        "response_sha256": "d7fb1208ee968b3ac1b2c638798b2f5ef4c16eb8ca4b7caca1a7bf40cb62a3d3"
+      }
+    },
+    {
+      "package": "@neural-trader/mcp-protocol",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:07.650696Z"
+    },
+    {
+      "package": "@neural-trader/neural",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:07.734765Z"
+    },
+    {
+      "package": "@neural-trader/neuro-divergent",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:07.830196Z"
+    },
+    {
+      "package": "@neural-trader/news-trading",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:07.835295Z"
+    },
+    {
+      "package": "@neural-trader/portfolio",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:07.918241Z"
+    },
+    {
+      "package": "@neural-trader/prediction-markets",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:07.998370Z"
+    },
+    {
+      "package": "@neural-trader/predictor",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.095719Z"
+    },
+    {
+      "package": "@neural-trader/risk",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.098218Z"
+    },
+    {
+      "package": "@neural-trader/sports-betting",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.189681Z"
+    },
+    {
+      "package": "@neural-trader/strategies",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.277105Z"
+    },
+    {
+      "package": "@neural-trader/syndicate",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.363290Z"
+    },
+    {
+      "package": "@qudag/cli",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.371214Z"
+    },
+    {
+      "package": "@qudag/mcp-sse",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.456058Z"
+    },
+    {
+      "package": "@qudag/mcp-stdio",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.543258Z"
+    },
+    {
+      "package": "@qudag/napi-core",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.630480Z"
+    },
+    {
+      "package": "@qudag/napi-core-linux-arm64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.640918Z"
+    },
+    {
+      "package": "@qudag/napi-core-linux-x64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.722057Z"
+    },
+    {
+      "package": "@ruv/rash",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.809986Z"
+    },
+    {
+      "package": "@ruv/rvcsi",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.896769Z"
+    },
+    {
+      "package": "@ruv/sparc-ui",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.913373Z"
+    },
+    {
+      "package": "@ruvector/acorn-wasm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:08.989691Z"
+    },
+    {
+      "package": "@ruvector/agentic-integration",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.073974Z"
+    },
+    {
+      "package": "@ruvector/agentic-synth",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.164596Z"
+    },
+    {
+      "package": "@ruvector/agentic-synth-examples",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.182505Z"
+    },
+    {
+      "package": "@ruvector/all",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.262209Z"
+    },
+    {
+      "package": "@ruvector/attention",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.339438Z"
+    },
+    {
+      "package": "@ruvector/attention-darwin-arm64",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.436534Z"
+    },
+    {
+      "package": "@ruvector/attention-darwin-x64",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.446323Z"
+    },
+    {
+      "package": "@ruvector/attention-linux-arm64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.532367Z"
+    },
+    {
+      "package": "@ruvector/attention-linux-x64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.605878Z"
+    },
+    {
+      "package": "@ruvector/attention-unified-wasm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.700325Z"
+    },
+    {
+      "package": "@ruvector/attention-wasm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.715536Z"
+    },
+    {
+      "package": "@ruvector/attention-win32-x64-msvc",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.803055Z"
+    },
+    {
+      "package": "@ruvector/burst-scaling",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.875655Z"
+    },
+    {
+      "package": "@ruvector/cli",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.969765Z"
+    },
+    {
+      "package": "@ruvector/cluster",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:09.986154Z"
+    },
+    {
+      "package": "@ruvector/cnn",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.068452Z"
+    },
+    {
+      "package": "@ruvector/core",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.140197Z"
+    },
+    {
+      "package": "@ruvector/diskann",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.237927Z"
+    },
+    {
+      "package": "@ruvector/diskann-darwin-arm64",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.251725Z"
+    },
+    {
+      "package": "@ruvector/diskann-darwin-x64",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.334377Z"
+    },
+    {
+      "package": "@ruvector/diskann-linux-arm64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.404164Z"
+    },
+    {
+      "package": "@ruvector/diskann-linux-x64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.505902Z"
+    },
+    {
+      "package": "@ruvector/diskann-win32-x64-msvc",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.525028Z"
+    },
+    {
+      "package": "@ruvector/e-means",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.602587Z"
+    },
+    {
+      "package": "@ruvector/economy-wasm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.671013Z"
+    },
+    {
+      "package": "@ruvector/edge",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.773138Z"
+    },
+    {
+      "package": "@ruvector/edge-full",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.796006Z"
+    },
+    {
+      "package": "@ruvector/edge-net",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.872549Z"
+    },
+    {
+      "package": "@ruvector/emergent-time",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:10.935068Z"
+    },
+    {
+      "package": "@ruvector/exotic-wasm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.038670Z"
+    },
+    {
+      "package": "@ruvector/gnn",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.062497Z"
+    },
+    {
+      "package": "@ruvector/gnn-darwin-arm64",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.138007Z"
+    },
+    {
+      "package": "@ruvector/gnn-darwin-x64",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.202367Z"
+    },
+    {
+      "package": "@ruvector/gnn-linux-arm64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.306085Z"
+    },
+    {
+      "package": "@ruvector/gnn-linux-arm64-musl",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.329042Z"
+    },
+    {
+      "package": "@ruvector/gnn-linux-x64-gnu",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.405994Z"
+    },
+    {
+      "package": "@ruvector/gnn-linux-x64-musl",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.467642Z"
+    },
+    {
+      "package": "@ruvector/gnn-wasm",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.573093Z"
+    },
+    {
+      "package": "@ruvector/gnn-win32-x64-msvc",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.593439Z"
+    },
+    {
+      "package": "@ruvector/graph-data-generator",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.674526Z"
+    },
+    {
+      "package": "@ruvector/graph-node",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.739133Z"
+    },
+    {
+      "package": "@ruvector/graph-node-darwin-arm64",
+      "error": "HTTP Error 429: Too Many Requests",
+      "retrieved_at": "2026-11-12T13:49:11.841986Z"
+    },
+    {
+      "package": "@ruvector/graph-node-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-node-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-node-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-node-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-arm64-musl",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer-linux-x64-musl",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-transformer-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/graph-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/kge",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/kge-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/kge-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/kge-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/kge-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/kge-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/learning-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/math-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/mincut-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/nervous-system-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/neural-trader-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/node",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/node-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/node-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/node-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/node-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/node-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ospipe",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ospipe-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/pi-brain",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/postgres-cli",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rabitq-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/raft",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/replication",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/router",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/router-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/router-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/router-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/router-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/router-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/router-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rudag",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruqu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruqu-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvector-consciousness-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-cli",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-gpu-loop",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/ruvllm-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvagent-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvdna",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-mcp-server",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-node",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-node-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-node-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-node-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-node-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-node-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-solver",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvf-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvforge",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/rvlite",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/scipix",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/server",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona-linux-x64-musl",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona-win32-arm64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/sona-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/spiking-neural",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-arm64-musl",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-linux-x64-musl",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-win32-arm64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/tiny-dancer-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/typesafe",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/typesafe-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/typesafe-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/typesafe-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/typesafe-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/typesafe-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/wasm-unified",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvector/weight-space",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/agent-harness-generator",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/bmssp",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/open-claude-code",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/ruvector-verified-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/ruview",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/ruview-kernel",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/ruvn",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/rvagent",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/rvm-context-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/site-harness",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/strange-loop",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "@ruvnet/sublinear-core",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agent-booster",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agentbbs",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agentdb",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agentic-flow",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agentic-jujutsu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agentic-payments",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agentic-robotics",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agenticow",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agentics-hackathon",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "agenticsjs",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ai-text-watermark",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "aidefence",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "aidefense",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "autogenous",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "bmssp-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "claude-flow",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "claude-flow-v3",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "cogmusic",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "consciousness-explorer",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "create-sparc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "cuda-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "dream-machine",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "dspy.ts",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "flow-nexus",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "goalie",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "homecore",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "lean-agentic",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "llm-stream-reformat",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "metaharness",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "midstreamer",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "neural-trader",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "prime-radiant-advanced-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "psycho-symbolic-integration",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "psycho-symbolic-reasoner",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "qudag",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "radio-moe",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "readme-proof",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "research-swarm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "rucelium-harness",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruflo",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruflo-graph-intelligence",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "rulake-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "rupixel",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-cloudflare",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-huggingface",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-invariants",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-lifecycle",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-loop",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-registry",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-ruos",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-search",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-fann-wsp-swarm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruv-swarm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvbot",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvdrone",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-attention-unified-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-attention-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-core",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-core-darwin-arm64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-core-darwin-x64",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-core-linux-arm64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-core-linux-x64-gnu",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-core-win32-x64-msvc",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-extensions",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-gnn-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-graph-transformer-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-math-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-mragent",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-onnx-embeddings-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-sona",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvector-wasm",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvi",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvllm-esp32",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvnet-constellation",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvnet-constellation-contracts",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvnet-constellation-telemetry",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "ruvneural",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "rvlite",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "spiking-neural",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "strange-loops",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "strange-loops-mcp",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "sublinear-time-solver",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "symbolic-scribe-harness",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "temporal-lead-solver",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "temporal-neural-solver",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "vscode-remote-mcp",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "wifi-densepose-sar-harness",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    },
+    {
+      "package": "worldgraphs",
+      "error": "Not requested after provider HTTP 429; backfill queued",
+      "retrieved_at": null
+    }
+  ]
+}
