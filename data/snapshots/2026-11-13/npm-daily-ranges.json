@@ -1,0 +1,47 @@
+{
+  "collected_at": "2026-11-13T13:51:03.656119+00:00",
+  "start": "2026-11-12",
+  "end": "2026-11-12",
+  "inventory_count": 429,
+  "packages": [
+    {
+      "package": "@agentic-robotics/core",
+      "body": {
+        "start": "2026-11-12",
+        "end": "2026-11-12",
+        "package": "@agentic-robotics/core",
+        "downloads": [
+          {
+            "downloads": 59,
+            "day": "2026-11-12"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-12:2026-11-12/%40agentic-robotics%2Fcore",
+        "retrieved_at": "2026-11-13T13:50:55.435179+00:00",
+        "response_sha256": "220556393c30436f4b32c744a7fc5e8ad3c534825e57a3f7e4b5e725d2258184"
+      }
+    },
+    {
+      "package": "@agentic-robotics/cli",
+      "body": {
+        "start": "2026-11-12",
+        "end": "2026-11-12",
+        "package": "@agentic-robotics/cli",
+        "downloads": [
+          {
+            "downloads": 59,
+            "day": "2026-11-12"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-12:2026-11-12/%40agentic-robotics%2Fcli",
+        "retrieved_at": "2026-11-13T13:50:25.015579+00:00",
+        "response_sha256": "11a5b981a34f8872e084d6accce5f15d509a6b700d86323fe34b807f4fa5df94"
+      }
+    }
+  ],
+  "frozen_snapshot": true
+}
