@@ -1,0 +1,136 @@
+{
+  "scope": "Canonical public ecosystem metrics and completed Nov9 through Nov11 backfill",
+  "owner": "ecosystem-metrics-20261113",
+  "baseline_commit": "c55f097de3233f526aa7e08c886fdaec238d9b86",
+  "intent_recorded_at": "2026-11-13T13:50:01.696259+00:00",
+  "intent": "Validate completed cached public npm response set, upsert daily cells once, refresh available public inventories and GitHub activity, preserve dated annual ranges and nulls, render and validate scoped metrics for root publication",
+  "expected_result": {
+    "complete_public_pagination": true,
+    "npm_completed_backfill_days": [
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "latest_completed_utc_day": "2026-11-12",
+    "latest_day_total": null,
+    "unknowns_explicit": true,
+    "idempotent_replay": true
+  },
+  "actual_result": {
+    "npm_daily_latest_complete": {
+      "day": "2026-11-11",
+      "downloads": 1026648,
+      "expected_packages": 429,
+      "collected_packages": 429,
+      "inventory_packages": 429,
+      "excluded_postwindow_packages": 0,
+      "coverage_complete": true,
+      "rolling_24_hours": false,
+      "period_type": "UTC calendar day",
+      "source": "data/snapshots/2026-11-13/npm-backfill-2026-11-11.json",
+      "verified_at": "2026-11-12T20:17:38.842076+00:00",
+      "artifact_sha256": "51232faa2bc6a4c63f3b843d5bfe391dbd9092073e0db471fd790421feb0d84b",
+      "observed_downloads": 1026648,
+      "revision_source": "data/snapshots/2026-11-13/npm-ledger-revisions.json",
+      "revision_checked_at": "2026-11-13T13:50:55.435179+00:00",
+      "composite_provenance": "Original complete daily observation plus current partial keyed revisions; untouched packages retain original retrieval time."
+    },
+    "npm_daily_attempt": {
+      "day": "2026-11-12",
+      "downloads": null,
+      "observed_downloads": 118,
+      "expected_packages": 429,
+      "collected_packages": 2,
+      "inventory_packages": 429,
+      "excluded_postwindow_packages": 0,
+      "coverage_complete": false,
+      "rolling_24_hours": false,
+      "period_type": "UTC calendar day",
+      "source": "data/snapshots/2026-11-13/npm-daily-points.json",
+      "verified_at": "2026-11-13T13:50:55.435179+00:00",
+      "artifact_sha256": "ca3b54309f7d2419fb79b0d3dd383e14a09cbe12494b0fb3727299e3487bace2"
+    },
+    "comparison": {
+      "cohort_count": 412,
+      "dates": [
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "totals": {
+        "2026-11-10": 1297163,
+        "2026-11-11": 1015012
+      },
+      "coverage_complete_for_common_cohort": true,
+      "causal_attribution": null,
+      "interpretation": "One completed daily comparison, not matching weekdays or sustained growth.",
+      "latest_daily_change": -282151,
+      "latest_daily_change_percent": -21.751391305487434,
+      "packages_up": 88,
+      "packages_down": 285,
+      "scope": "Complete stable eligible November10 cohort; November11 expansion shown separately",
+      "portfolio_growth": null,
+      "expansion_downloads_latest": 11636,
+      "expansion_coverage": {
+        "expected_packages": 17,
+        "covered_packages": 17,
+        "complete": true
+      }
+    },
+    "repositories": 234,
+    "stars": 203168,
+    "traffic": {
+      "clones": 765547,
+      "views": 203123,
+      "known_clone_events": 765547,
+      "known_view_events": 203123,
+      "status": "complete",
+      "expected_cells_per_metric": 3276,
+      "source_cells_per_metric": 3276,
+      "missing_cells_per_metric": 0,
+      "missing_days": [],
+      "repo_coverage": {
+        "clones": 234,
+        "views": 234
+      },
+      "uniques": null
+    },
+    "crates": 500,
+    "crates_downloads": 2238352
+  },
+  "outcome": "Collection and reconciliation validated; root owns expected-head metrics publication. Containing PR metadata records publication outcome.",
+  "runtime_controls": {
+    "stack_control": "Observed stopped; no execution or doctor claimed there",
+    "work_host": "Existing credential owning Work host retained",
+    "source_scripts": "No tracked source script changes",
+    "publication": "Root owned metrics authorization only"
+  },
+  "rollback": "Revert scoped metrics commit; retain dated source evidence",
+  "cost_usd": null,
+  "validation": {
+    "point_replay_byte_idempotent": true,
+    "daily_key_uniqueness": true,
+    "current_utc_day_excluded": true,
+    "historical_range_dates_preserved": true,
+    "revisions_preserved": "data/snapshots/2026-11-13/npm-ledger-revisions.json",
+    "unit_tests_passed": 33,
+    "profile_verifier": "PASS",
+    "full_running_totals_replay_idempotent": true,
+    "ledger_byte_replay_idempotent": true,
+    "svg_xml_files": 52,
+    "source_script_changes": false
+  },
+  "integration_outcome": {
+    "kind": "static published manifest compatibility only",
+    "darwin_version": "0.14.0",
+    "darwin_ruv_fann_peer": "0.1.2",
+    "ruv_fann_latest": "0.3.0",
+    "compatible": false,
+    "e_means_version": "0.1.0",
+    "e_means_darwin_peer": "0.13.0 || 0.13.1",
+    "matches_latest_darwin": false,
+    "install_executed": false,
+    "dependency_change": false,
+    "performance_learning_result": null,
+    "finding": "Existing pinned optional integrations require source-bound compatibility checks before upgrades; no install failure claimed"
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-11-13T13:49:39.527841Z",
+  "baseline": "data/snapshots/2026-11-12/npm-inventory.json",
+  "baseline_count": 429,
+  "current_count": 429,
+  "new_ids": [],
+  "removed_ids": [],
+  "packages": [
+    {
+      "package": "@metaharness/darwin",
+      "version": "0.14.0",
+      "manifest": {
+        "_id": "@metaharness/darwin@0.14.0",
+        "bin": {
+          "metaharness-darwin": "dist/cli.js"
+        },
+        "bugs": {
+          "url": "https://github.com/ruvnet/metaharness/issues"
+        },
+        "dist": {
+          "shasum": "1bc6cf274b8160c26af15fb93c25894e9def8f54",
+          "tarball": "https://registry.npmjs.org/@metaharness/darwin/-/darwin-0.14.0.tgz",
+          "fileCount": 329,
+          "integrity": "sha512-rkn+HI4/fFJo2R+2UaNAUFEG6vJYg52siD/izwteQ6zJDPrLPrWeJK4U1pukjeCZ1VndtUsMbGbELJpsctUAXQ==",
+          "signatures": [
+            {
+              "sig": "MEUCICduYeLNyWblHsPmBnmPb6pDDLCapkPnGEpGbHugy0ScAiEAts/J8Y4kuTLe0z9vB52vk1h6tlPBWYctSENwSatHop8=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEYCIQD41TSNPVcC1jMOhrfWkeR+/SMSklG7Wd6un93SXIaCxQIhAM35odR0IvRQbR6s3pfkJLDWjeroBRG2R4dMS+eVIg72"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@metaharness%2fdarwin@0.14.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 1492551
+        },
+        "main": "./dist/index.js",
+        "name": "@metaharness/darwin",
+        "type": "module",
+        "_from": "file:/home/runner/work/metaharness/metaharness/dist-release/metaharness-darwin-0.14.0.tgz",
+        "types": "./dist/index.d.ts",
+        "author": {
+          "name": "rUv",
+          "email": "ruv@ruv.net"
+        },
+        "engines": {
+          "node": ">=20.0.0"
+        },
+        "exports": {
+          ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+          },
+          "./gepa": {
+            "types": "./dist/gepa/index.d.ts",
+            "import": "./dist/gepa/index.js"
+          },
+          "./contrastive": {
+            "types": "./dist/contrastive/index.d.ts",
+            "import": "./dist/contrastive/index.js"
+          }
+        },
+        "license": "MIT",
+        "scripts": {
+          "lint": "tsc --noEmit",
+          "test": "vitest run",
+          "build": "tsc",
+          "bench:clade": "npm run build && node bench/selection/clade-throughput.mjs",
+          "bench:shield": "npm run build && node bench/security/darwin-shield-bench.mjs",
+          "bench:surrogate": "npm run build && node bench/selection/numeric-surrogate.mjs",
+          "bench:contrastive": "npm run build && node bench/contrastive/run.mjs"
+        },
+        "version": "0.14.0",
+        "_npmUser": {
+          "name": "ruvnet",
+          "email": "ruv@ruv.net"
+        },
+        "homepage": "https://ruv.io",
+        "keywords": [
+          "metaharness",
+          "darwin-mode",
+          "agent-harness",
+          "evolutionary-search",
+          "self-improvement",
+          "swe-bench",
+          "code-repair",
+          "model-cascade",
+          "cost-optimization",
+          "sandbox",
+          "llm",
+          "ai-agent"
+        ],
+        "_resolved": "/home/runner/work/metaharness/metaharness/dist-release/metaharness-darwin-0.14.0.tgz",
+        "_integrity": "sha512-rkn+HI4/fFJo2R+2UaNAUFEG6vJYg52siD/izwteQ6zJDPrLPrWeJK4U1pukjeCZ1VndtUsMbGbELJpsctUAXQ==",
+        "repository": {
+          "url": "git+https://github.com/ruvnet/metaharness.git",
+          "type": "git",
+          "directory": "packages/darwin-mode"
+        },
+        "_npmVersion": "10.9.9",
+        "description": "Freeze the model, evolve the harness: Darwin Mode mutates an agent harness's policy, runs each child in a sandbox, and promotes only children that beat the parent on a deterministic oracle.",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "ruvnet",
+            "email": "ruv@ruv.net"
+          }
+        ],
+        "_nodeVersion": "22.23.4",
+        "dependencies": {
+          "@babel/parser": "^7.29.13"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "vitest": "^4.1.12",
+          "ruv-fann": "0.1.2",
+          "agenticow": "^0.2.3",
+          "typescript": "^5.4.0",
+          "@metaharness/flywheel": "^0.1.1"
+        },
+        "peerDependencies": {
+          "ruv-fann": "0.1.2"
+        },
+        "peerDependenciesMeta": {
+          "ruv-fann": {
+            "optional": true
+          }
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/darwin_0.14.0_1794339370732_0.857428681827195"
+        }
+      },
+      "created_at": "2026-06-18T02:16:42.669Z",
+      "maintainers": [
+        {
+          "name": "ruvnet",
+          "email": "ruv@ruv.net"
+        }
+      ],
+      "receipt": {
+        "source": "https://registry.npmjs.org/%40metaharness%2Fdarwin",
+        "retrieved_at": "2026-11-13T13:49:36.968386Z",
+        "response_sha256": "4bb5a90347819453f4db1fb7f553712f5079a16f53d58122a5330e88700eb2f0",
+        "declared_total": null,
+        "returned_rows": 0
+      },
+      "readme_available": true
+    },
+    {
+      "package": "@ruvector/e-means",
+      "version": "0.1.0",
+      "manifest": {
+        "_id": "@ruvector/e-means@0.1.0",
+        "bugs": {
+          "url": "https://github.com/ruvnet/ruvector/issues"
+        },
+        "dist": {
+          "shasum": "80159b5cb1aa88dd0cb4ea93ff78039783231b47",
+          "tarball": "https://registry.npmjs.org/@ruvector/e-means/-/e-means-0.1.0.tgz",
+          "fileCount": 30,
+          "integrity": "sha512-GMBMfCM2IK8dfXN8S+fzkUyXxY7v4yQBmFn2JlYXNXvEazqwf1+D20PqooJ5AYSKd3OirSP0+pO3J2DwDtWB1g==",
+          "signatures": [
+            {
+              "sig": "MEQCIFLlbNlySx8O+rg/2KvGZKN+h1wIIL+wyyfFB+IlLEwwAiAySkMfSgOLsJO6lbDu+OfQPg7REoqpLZT9KaN/9YARlQ==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEQCICik3FcWc9mEcZbySYhl2FGxW8jDOyx6pJ/onkVb6cjIAiBedwzZy8HzCAs+Lfrn/6JxzTmsGtw51NZBCS4nSfzZtw=="
+            }
+          ],
+          "unpackedSize": 238700
+        },
+        "main": "./e-means.mjs",
+        "name": "@ruvector/e-means",
+        "type": "module",
+        "types": "./e-means.d.ts",
+        "engines": {
+          "node": ">=20.0.0"
+        },
+        "exports": {
+          ".": {
+            "types": "./e-means.d.ts",
+            "import": "./e-means.mjs"
+          },
+          "./ivf": {
+            "types": "./integrations/ivf.d.ts",
+            "import": "./integrations/ivf.mjs"
+          },
+          "./wasm": {
+            "types": "./wasm-module.d.ts",
+            "default": "./wasm/ruvector_e_means_bg.wasm"
+          },
+          "./runtime": {
+            "types": "./runtime.d.ts",
+            "import": "./runtime.mjs"
+          },
+          "./cloudflare": {
+            "types": "./integrations/cloudflare.d.ts",
+            "import": "./integrations/cloudflare.mjs"
+          },
+          "./metaharness": {
+            "types": "./integrations/metaharness.d.ts",
+            "import": "./integrations/metaharness.mjs"
+          },
+          "./quantization": {
+            "types": "./integrations/quantization.d.ts",
+            "import": "./integrations/quantization.mjs"
+          },
+          "./cloudflare/build": {
+            "types": "./examples/cloudflare/build.d.ts",
+            "import": "./examples/cloudflare/build.mjs"
+          }
+        },
+        "gitHead": "9864a652719b2e922336118542a7a012477a0f22",
+        "license": "MIT",
+        "scripts": {
+          "test": "node --test test/*.test.mjs",
+          "build": "node scripts/build.mjs",
+          "prepack": "node scripts/check-artifact.mjs",
+          "benchmark": "node --expose-gc test/benchmark.mjs",
+          "typecheck": "tsc --noEmit -p test/tsconfig.json",
+          "test:browser": "node test/browser-consumer.mjs",
+          "test:consumer": "node test/packed-consumer.mjs",
+          "test:ecosystem": "node test/ecosystem-consumers.mjs",
+          "test:cloudflare": "node --test test/cloudflare*.test.mjs",
+          "build:cloudflare": "node examples/cloudflare/build.mjs"
+        },
+        "version": "0.1.0",
+        "_npmUser": {
+          "name": "ruvnet",
+          "email": "ruv@ruv.net"
+        },
+        "homepage": "https://ruv.io",
+        "keywords": [
+          "clustering",
+          "e-means",
+          "k-means",
+          "ema",
+          "webassembly",
+          "wasm",
+          "rust",
+          "product-quantization",
+          "ivf",
+          "vector-search",
+          "codebook",
+          "embeddings",
+          "cloudflare-workers",
+          "ruvector"
+        ],
+        "overrides": {
+          "miniflare": {
+            "sharp": "0.35.5",
+            "undici": "7.30.1"
+          }
+        },
+        "repository": {
+          "url": "git+https://github.com/ruvnet/ruvector.git",
+          "type": "git",
+          "directory": "npm/packages/e-means"
+        },
+        "_npmVersion": "10.9.8",
+        "description": "Deterministic e-means (EMA k-means) clustering for vectors: Rust core compiled to WebAssembly, with PQ codebook, IVF, MetaHarness tuning and Cloudflare Worker helpers",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "ruvnet",
+            "email": "ruv@ruv.net"
+          }
+        ],
+        "_nodeVersion": "22.23.2",
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "esbuild": "0.28.2",
+          "miniflare": "4.20260730.0",
+          "typescript": "5.9.3",
+          "@metaharness/darwin": "0.13.0"
+        },
+        "peerDependencies": {
+          "@metaharness/darwin": "0.13.0 || 0.13.1"
+        },
+        "peerDependenciesMeta": {
+          "@metaharness/darwin": {
+            "optional": true
+          }
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/e-means_0.1.0_1794424352738_0.5301165914856504"
+        }
+      },
+      "created_at": "2026-11-11T19:11:16.468Z",
+      "maintainers": [
+        {
+          "name": "ruvnet",
+          "email": "ruv@ruv.net"
+        }
+      ],
+      "receipt": {
+        "source": "https://registry.npmjs.org/%40ruvector%2Fe-means",
+        "retrieved_at": "2026-11-13T13:49:38.332995Z",
+        "response_sha256": "41c2612e8f58d5be1343a9690c031f74c91181b7d825ddbf8639b1efeba9d327",
+        "declared_total": null,
+        "returned_rows": 0
+      },
+      "readme_available": true
+    },
+    {
+      "package": "ruv-fann",
+      "version": "0.3.0",
+      "manifest": {
+        "_id": "ruv-fann@0.3.0",
+        "bugs": {
+          "url": "https://github.com/ruvnet/ruv-FANN/issues"
+        },
+        "dist": {
+          "shasum": "ad19d8140e0705fe28bfb1e1d4a4bbd59a104540",
+          "tarball": "https://registry.npmjs.org/ruv-fann/-/ruv-fann-0.3.0.tgz",
+          "fileCount": 38,
+          "integrity": "sha512-QmhBJ6IU2wOiCH+2p2dfpVVIDJmu/meWIjJVUg+YReAEEIBr9WZTwFzK7PgUpNP1NMwzhGUGRUNdqoUKWtswNA==",
+          "signatures": [
+            {
+              "sig": "MEUCIHc3xZE+gGMQMtPJrgHja6HCEa1FS0+t80Jt28h5bInaAiEA/rmyoKvyf1cjPY3z/rGDXGcezbOLmdioD2+1zcCKMcw=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIQD1jKHrMdmXY2jvFFt804mYKokZJow5KfvNG/lmY7S41QIgLze2xHYqOlu9f4halhqf83TsMI2Kajg+QPO9XW3TSqE="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/ruv-fann@0.3.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 56486
+        },
+        "main": "./src/index.js",
+        "name": "ruv-fann",
+        "type": "module",
+        "_from": "file:/home/runner/work/_temp/toolkit-candidate/ruv-fann-0.3.0.tgz",
+        "types": "./src/index.d.ts",
+        "engines": {
+          "node": ">=20.9.0"
+        },
+        "exports": {
+          ".": {
+            "types": "./src/index.d.ts",
+            "import": "./src/index.js"
+          },
+          "./wsp": {
+            "types": "./src/capabilities/wsp.d.ts",
+            "import": "./src/capabilities/wsp.js"
+          },
+          "./loop": {
+            "types": "./src/capabilities/loop.d.ts",
+            "import": "./src/capabilities/loop.js"
+          },
+          "./ruos": {
+            "types": "./src/capabilities/ruos.d.ts",
+            "import": "./src/capabilities/ruos.js"
+          },
+          "./swarm": {
+            "types": "./src/capabilities/swarm.d.ts",
+            "import": "./src/capabilities/swarm.js"
+          },
+          "./search": {
+            "types": "./src/capabilities/search.d.ts",
+            "import": "./src/capabilities/search.js"
+          },
+          "./registry": {
+            "types": "./src/capabilities/registry.d.ts",
+            "import": "./src/capabilities/registry.js"
+          },
+          "./agenticow": {
+            "types": "./src/capabilities/agenticow.d.ts",
+            "import": "./src/capabilities/agenticow.js"
+          },
+          "./contracts": {
+            "types": "./src/capabilities/contracts.d.ts",
+            "import": "./src/capabilities/contracts.js"
+          },
+          "./lifecycle": {
+            "types": "./src/capabilities/lifecycle.d.ts",
+            "import": "./src/capabilities/lifecycle.js"
+          },
+          "./telemetry": {
+            "types": "./src/capabilities/telemetry.d.ts",
+            "import": "./src/capabilities/telemetry.js"
+          },
+          "./cloudflare": {
+            "types": "./src/capabilities/cloudflare.d.ts",
+            "import": "./src/capabilities/cloudflare.js"
+          },
+          "./invariants": {
+            "types": "./src/capabilities/invariants.d.ts",
+            "import": "./src/capabilities/invariants.js"
+          },
+          "./huggingface": {
+            "types": "./src/capabilities/huggingface.d.ts",
+            "import": "./src/capabilities/huggingface.js"
+          },
+          "./constellation": {
+            "types": "./src/capabilities/constellation.d.ts",
+            "import": "./src/capabilities/constellation.js"
+          },
+          "./cloudflare/build": {
+            "types": "./src/capabilities/cloudflare/build.d.ts",
+            "import": "./src/capabilities/cloudflare/build.js"
+          }
+        },
+        "license": "MIT",
+        "scripts": {
+          "test": "node --test test/*.test.mjs",
+          "benchmark": "node test/benchmark.mjs"
+        },
+        "version": "0.3.0",
+        "_npmUser": {
+          "name": "ruvnet",
+          "email": "ruv@ruv.net"
+        },
+        "homepage": "https://ruvnet.github.io/ruv-FANN/",
+        "keywords": [
+          "ruv-fann",
+          "neural-network",
+          "machine-learning",
+          "webassembly",
+          "wasm",
+          "simd",
+          "javascript",
+          "typescript",
+          "nodejs",
+          "browser",
+          "inference",
+          "training",
+          "sgd",
+          "adamw",
+          "weight-space-programming",
+          "model-editing",
+          "bounded-search",
+          "model-evaluation",
+          "agentdb",
+          "agenticow"
+        ],
+        "_resolved": "/home/runner/work/_temp/toolkit-candidate/ruv-fann-0.3.0.tgz",
+        "_integrity": "sha512-QmhBJ6IU2wOiCH+2p2dfpVVIDJmu/meWIjJVUg+YReAEEIBr9WZTwFzK7PgUpNP1NMwzhGUGRUNdqoUKWtswNA==",
+        "repository": {
+          "url": "git+https://github.com/ruvnet/ruv-FANN.git",
+          "type": "git",
+          "directory": "packages/core"
+        },
+        "_npmVersion": "11.19.1",
+        "description": "Rust/WASM neural inference and training with bounded weight programming, AgentDB revisions and Agenticow copy-on-write model memory.",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "ruvnet",
+            "email": "ruv@ruv.net"
+          }
+        ],
+        "_nodeVersion": "24.22.1",
+        "dependencies": {
+          "agenticow": "0.3.0",
+          "ruv-fann-wsp": "0.2.0",
+          "ruv-fann-wasm": "0.1.2",
+          "ruv-fann-wsp-loop": "0.1.0",
+          "ruv-fann-wsp-ruos": "0.1.0",
+          "ruv-fann-wsp-swarm": "0.1.0",
+          "ruv-fann-wsp-search": "0.1.0",
+          "ruvnet-constellation": "0.1.0",
+          "ruv-fann-wsp-registry": "0.1.0",
+          "ruv-fann-wsp-lifecycle": "0.1.0",
+          "ruv-fann-wsp-cloudflare": "0.1.0",
+          "ruv-fann-wsp-invariants": "0.1.0",
+          "ruv-fann-wsp-huggingface": "0.1.0",
+          "ruvnet-constellation-contracts": "0.1.0",
+          "ruvnet-constellation-telemetry": "0.1.0"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/ruv-fann_0.3.0_1794404755967_0.7523662352546472"
+        }
+      },
+      "created_at": "2026-11-10T04:21:37.440Z",
+      "maintainers": [
+        {
+          "name": "ruvnet",
+          "email": "ruv@ruv.net"
+        }
+      ],
+      "receipt": {
+        "source": "https://registry.npmjs.org/ruv-fann",
+        "retrieved_at": "2026-11-13T13:49:39.527761Z",
+        "response_sha256": "9d699fe73524a4360e33e1f1069e0f1c543ee2f857f3207e8ae34d4e5c2230e8",
+        "declared_total": null,
+        "returned_rows": 0
+      },
+      "readme_available": true
+    }
+  ],
+  "manifest_refresh_count": 3,
+  "other_manifest_age": "Prior observation dates retained; no full graph refresh"
+}
