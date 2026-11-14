@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-11-14",
+  "default_branch_base_sha": "8433827a60c8182ee3d7be5e29d0da339291cc31",
+  "github_verified_at": "2026-11-14T13:22:35.911683+00:00",
+  "npm_inventory_verified_at": "2026-11-14T13:22:21.359776Z",
+  "npm_downloads_verified_at": "2026-11-09T05:45:21.937096Z",
+  "npm_daily_verified_at": "2026-11-14T13:25:31.248889+00:00",
+  "crates_io_verified_at": "2026-11-14T13:22:32.128474Z",
+  "public_repository_ids": 234,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-10-31",
+    "end": "2026-11-13",
+    "complete_days": 14
+  },
+  "source_version": "ecosystem snapshot v1 with independent completed daily range overlay",
+  "traffic_coverage": {
+    "expected_cells_per_metric": 3276,
+    "missing_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "fresh_api_cells_per_metric": {
+      "clones": 3276,
+      "views": 3276
+    },
+    "historical_backfill_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "precreation_zero_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "repositories": 234
+  },
+  "npm_coverage": {
+    "packages": 429,
+    "range_packages": 405,
+    "daily_observed_packages": 4,
+    "daily_date": "2026-11-13",
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 500
+  },
+  "release_coverage": {
+    "repositories": 234,
+    "releases": 2562,
+    "assets": 1087
+  },
+  "github_pagination": {
+    "per_page": 100,
+    "terminal_page": 4,
+    "terminal_page_count": 0,
+    "unique_repository_ids": 234,
+    "complete": true
+  },
+  "actions_runs": null,
+  "actions_blocker": "GitHub Actions complete window enumeration not performed within the bounded API budget; no workflow activity total claimed.",
+  "refresh-registry-metrics.py_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
+  "update-ecosystem-snapshot.py_sha256": "8bc24c5a99cd94d8dc0e22977f804f158bdff1ef3416893ae40bf456cfa5adbc",
+  "render-visual-profile.py_sha256": "71f39242ca3119381c6a899bdac6ec7e1661cbc2f5ba4a7a3dc1d8b0c8c955cd",
+  "collector_sha256": "c54eac7f488ec4bb1c55404c849a3621acf3a129776471dc281874473cb517ae",
+  "github_adapter_sha256": "8c5c7ebd9f92ef4c0167d8cfa6cdb608d9f487a13e967550e8203f19e7d84ed3",
+  "source_sha256": {
+    "github-inventory.json": "e8cc020f357834cae43e43476bf2bef9c0d86ca2764b4fa86ae4c7bd8eef4dd5",
+    "github-release-inventory.json": "4e5bbc564b3d8e0e12a9f222febf3e354a57cf1c47e5a239f50ea3db0aa24e90",
+    "github-traffic-inventory.json": "6fd1adfd4c34294c7039183a2a9f86525d2579b0670e4a55783413ef6c3e5125",
+    "npm-inventory.json": "75fc7a27e6d34e9bc1903643ba4a1a1a37fd254cf54e8986e461cd7bc6058066",
+    "crates-inventory.json": "7b15d14d4a8bf4992809a2c5dfdcedfcd0bfc485feed936584a2d05d3757892c",
+    "npm-backfill-2026-11-09.json": "ee21861c2b0d4da7793084c31d765dfb213f0c4fa64592d93671cb71b33aeb3e",
+    "npm-backfill-2026-11-10.json": "744351049793b8bca2811e5703cf8001e3aab0b5004b6c50449d8cb616d74f91",
+    "npm-backfill-2026-11-11.json": "a03dbd705d3ef29e6feb74818ef20c8642143f3951108020ef3e1e85feae9916",
+    "npm-backfill-2026-11-12.json": "5b481438db4a52598f4b5fca66855aea469661d75b9fbf6fbd3f877564710809",
+    "npm-daily-points.json": "c0122529f230e2f877f6a5d4fc3d735d248de088f110bfb10ddf2fee652daf06",
+    "npm-completed-backfill.json": "281db8215bd0c902d1ab294a53b4245d56fbf2c55e9ef9aed7e17a3dfd1cee2e",
+    "npm-weekly-subset.json": "4fd0d1e39e2c094378286a2ba668cf5715b41ec927945cf80de35a88e1767ec6"
+  }
+}

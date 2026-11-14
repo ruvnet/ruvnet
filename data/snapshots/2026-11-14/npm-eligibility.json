@@ -1,0 +1,26 @@
+{
+  "retrieved_at": "2026-11-12T13:50:35.976365+00:00",
+  "created_at": {
+    "@metaharness/autogenous": "2026-11-11T15:25:59.366Z",
+    "@metaharness/darwin": "2026-06-18T02:16:42.669Z",
+    "@ruvector/e-means": "2026-11-11T19:11:16.468Z",
+    "ruv-fann": "2026-11-10T04:21:37.440Z",
+    "ruv-fann-wsp-cloudflare": "2026-11-11T04:50:35.019Z",
+    "ruv-fann-wsp-huggingface": "2026-11-11T04:47:50.990Z",
+    "ruv-fann-wsp-invariants": "2026-11-11T04:58:43.635Z",
+    "ruv-fann-wsp-lifecycle": "2026-11-11T04:43:49.578Z",
+    "ruv-fann-wsp-loop": "2026-11-11T05:03:52.831Z",
+    "ruv-fann-wsp-registry": "2026-11-11T05:01:39.768Z",
+    "ruv-fann-wsp-ruos": "2026-11-11T04:52:22.568Z",
+    "ruv-fann-wsp-search": "2026-11-11T04:45:37.740Z",
+    "ruv-fann-wsp-swarm": "2026-11-11T05:00:11.896Z",
+    "ruvnet-constellation": "2026-11-11T04:38:05.572Z",
+    "ruvnet-constellation-contracts": "2026-11-11T04:28:41.921Z",
+    "ruvnet-constellation-telemetry": "2026-11-11T04:42:22.296Z",
+    "@qudag/napi-core-linux-arm64-gnu": "2026-11-11T13:50:24.948Z",
+    "@qudag/napi-core-linux-x64-gnu": "2026-11-11T13:40:18.512Z",
+    "autogenous": "2026-11-11T13:59:05.558Z"
+  },
+  "source": "data/snapshots/2026-11-12/npm-eligibility.json",
+  "new_inventory_ids": []
+}

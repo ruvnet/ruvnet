@@ -1,0 +1,12 @@
+{
+  "npm-inventory.json": {
+    "observed_items": 429,
+    "provider_declared_total": 429,
+    "complete_by_declared_total": true
+  },
+  "crates-inventory.json": {
+    "observed_items": 500,
+    "provider_declared_total": 500,
+    "complete_by_declared_total": true
+  }
+}
