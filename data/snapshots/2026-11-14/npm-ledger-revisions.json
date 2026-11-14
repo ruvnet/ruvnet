@@ -1,0 +1,2592 @@
+{
+  "retrieved_at": "2026-11-14T13:25:31.248889+00:00",
+  "revisions": [
+    {
+      "key": "npm|@agentic-robotics/darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 53,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-aws|downloads|2026-11-12",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/aidefence|downloads|2026-11-12",
+      "prior": null,
+      "current": 7186,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/field-memory|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-evolutionary-game-theory|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/mcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 103,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/backtesting|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-codex|downloads|2026-11-12",
+      "prior": null,
+      "current": 39,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/testing|downloads|2026-11-12",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-supabase|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/redblue|downloads|2026-11-12",
+      "prior": null,
+      "current": 10564,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/performance|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-hyperbolic-reasoning|downloads|2026-11-12",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-slack|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-quantum-optimizer|downloads|2026-11-12",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentics.org/sparc2|downloads|2026-11-12",
+      "prior": null,
+      "current": 22,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-neural-coordination|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-datadog|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/core|downloads|2026-11-12",
+      "prior": null,
+      "current": 43,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentics.org/agentic-mcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 28,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-mcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli|downloads|2026-11-12",
+      "prior": null,
+      "current": 15853,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@foxruv/nova-medicina|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/watermark|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-trading|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/agntcy|downloads|2026-11-12",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-web3|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/turn-credit|downloads|2026-11-12",
+      "prior": null,
+      "current": 8438,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/weight-eft|downloads|2026-11-12",
+      "prior": null,
+      "current": 9658,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-nasa|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-pi-dev|downloads|2026-11-12",
+      "prior": null,
+      "current": 37,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/projects|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-healthcare-optimization|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-healthcare-clinical|downloads|2026-11-12",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/legal|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/horizon|downloads|2026-11-12",
+      "prior": null,
+      "current": 9386,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-rvm|downloads|2026-11-12",
+      "prior": null,
+      "current": 32,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-agentic-synth|downloads|2026-11-12",
+      "prior": null,
+      "current": 31,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agent-federation|downloads|2026-11-12",
+      "prior": null,
+      "current": 44,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/openclaw|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-github-actions|downloads|2026-11-12",
+      "prior": null,
+      "current": 30,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-dynamic-pricing|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/neural|downloads|2026-11-12",
+      "prior": null,
+      "current": 9249,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/oo-agents|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-ads|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-rust-core|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/e2b-strategies|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/shared|downloads|2026-11-12",
+      "prior": null,
+      "current": 11415,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-cli|downloads|2026-11-12",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/aws-finops|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@dream-machine/compile|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-stripe|downloads|2026-11-12",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/security|downloads|2026-11-12",
+      "prior": null,
+      "current": 8411,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@foxruv/iris|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-lens|downloads|2026-11-12",
+      "prior": null,
+      "current": 9150,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/providers|downloads|2026-11-12",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-financial-risk|downloads|2026-11-12",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-core|downloads|2026-11-12",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/jujutsu|downloads|2026-11-12",
+      "prior": null,
+      "current": 79,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/backend|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-forecasting|downloads|2026-11-12",
+      "prior": null,
+      "current": 20,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-bio|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/hooks|downloads|2026-11-12",
+      "prior": null,
+      "current": 175,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-core|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-pinecone|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/hermes|downloads|2026-11-12",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/opencode|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@dream-machine/ledger|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugins|downloads|2026-11-12",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-prime-agent|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/integration|downloads|2026-11-12",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/embeddings|downloads|2026-11-12",
+      "prior": null,
+      "current": 85,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@cognitum/ruos|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/radio|downloads|2026-11-12",
+      "prior": null,
+      "current": 6210,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/benchoptimizer|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-openclaw|downloads|2026-11-12",
+      "prior": null,
+      "current": 34,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 54,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-agents|downloads|2026-11-12",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/router|downloads|2026-11-12",
+      "prior": null,
+      "current": 19118,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-twilio|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/copilot|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/sales|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-iot|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agentic-qe|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/guidance|downloads|2026-11-12",
+      "prior": null,
+      "current": 349,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/rvm|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/deployment|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/darwin|downloads|2026-11-12",
+      "prior": null,
+      "current": 27954,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/repo-maintainer|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-gastown-bridge|downloads|2026-11-12",
+      "prior": null,
+      "current": 2964,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/claims|downloads|2026-11-12",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-logistics-optimization|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-grid-optimization|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@foxruv/e2b-runner|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@foxruv/cf-doctor|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-hermes|downloads|2026-11-12",
+      "prior": null,
+      "current": 34,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/github-actions|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@cognitum/freetokens|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@dream-machine/schedule|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/claude-code|downloads|2026-11-12",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-probe|downloads|2026-11-12",
+      "prior": null,
+      "current": 8510,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-neuromorphic-computing|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/research|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-gcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-iot-cognitum|downloads|2026-11-12",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-qiskit|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-ultrathink|downloads|2026-11-12",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/memory|downloads|2026-11-12",
+      "prior": null,
+      "current": 15089,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli-core|downloads|2026-11-12",
+      "prior": null,
+      "current": 9051,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-fhir|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/gaming|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-copilot|downloads|2026-11-12",
+      "prior": null,
+      "current": 39,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-market-microstructure|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/teammate-plugin|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/brokers|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@cognitum-one/sdk|downloads|2026-11-12",
+      "prior": null,
+      "current": 460,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/browser|downloads|2026-11-12",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/swarm|downloads|2026-11-12",
+      "prior": null,
+      "current": 56,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/kernel|downloads|2026-11-12",
+      "prior": null,
+      "current": 333,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/harness|downloads|2026-11-12",
+      "prior": null,
+      "current": 9125,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-huggingface|downloads|2026-11-12",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@dream-machine/witness|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-cognitive-kernel|downloads|2026-11-12",
+      "prior": null,
+      "current": 35,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-perf-optimizer|downloads|2026-11-12",
+      "prior": null,
+      "current": 43,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/self-learning|downloads|2026-11-12",
+      "prior": null,
+      "current": 84,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/trading|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-opencode|downloads|2026-11-12",
+      "prior": null,
+      "current": 40,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/autogenous|downloads|2026-11-12",
+      "prior": null,
+      "current": 33,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 54,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@cognitum/gate|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-test-intelligence|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/devops|downloads|2026-11-12",
+      "prior": null,
+      "current": 23,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-types|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 65,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/support|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-azure|downloads|2026-11-12",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/flywheel|downloads|2026-11-12",
+      "prior": null,
+      "current": 19383,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-legal-contracts|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@dream-machine/memory|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/host-claude-code|downloads|2026-11-12",
+      "prior": null,
+      "current": 308,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/mcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 1319,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-base|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/pi-dev|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/codex|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/example-github|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/sdk|downloads|2026-11-12",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-prime-radiant|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-code-intelligence|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/coding|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@claude-flow/codex|downloads|2026-11-12",
+      "prior": null,
+      "current": 1848,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/avo|downloads|2026-11-12",
+      "prior": null,
+      "current": 10101,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@metaharness/education|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-portfolio-optimization|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-quantum-optimization|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-supply-chain-prediction|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/execution|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/features|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/market-data|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp-protocol|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/neural|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/neuro-divergent|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/news-trading|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/portfolio|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/prediction-markets|downloads|2026-11-12",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/predictor|downloads|2026-11-12",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/risk|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/sports-betting|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/strategies|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@neural-trader/syndicate|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@qudag/cli|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-sse|downloads|2026-11-12",
+      "prior": null,
+      "current": 33,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-stdio|downloads|2026-11-12",
+      "prior": null,
+      "current": 36,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core|downloads|2026-11-12",
+      "prior": null,
+      "current": 37,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 45,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 45,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruv/rash|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruv/rvcsi|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruv/sparc-ui|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/acorn-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-integration|downloads|2026-11-12",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth|downloads|2026-11-12",
+      "prior": null,
+      "current": 239,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth-examples|downloads|2026-11-12",
+      "prior": null,
+      "current": 46,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/all|downloads|2026-11-12",
+      "prior": null,
+      "current": 222,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention|downloads|2026-11-12",
+      "prior": null,
+      "current": 21672,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1764,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 122,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 361,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 17311,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-unified-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 3798,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/burst-scaling|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-12",
+      "prior": null,
+      "current": 41,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-12",
+      "prior": null,
+      "current": 20426,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-12",
+      "prior": null,
+      "current": 159,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 97,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-12",
+      "prior": null,
+      "current": 11491,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-12",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-12",
+      "prior": null,
+      "current": 12934,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-12",
+      "prior": null,
+      "current": 355,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 206,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-12",
+      "prior": null,
+      "current": 19010,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1766,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 157,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 398,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-12",
+      "prior": null,
+      "current": 236,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 15150,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-12",
+      "prior": null,
+      "current": 4062,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 27,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 2294,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-12",
+      "prior": null,
+      "current": 19249,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1851,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 142,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 347,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 15765,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 3302,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-12",
+      "prior": null,
+      "current": 15812,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 640,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 66,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 274,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-12",
+      "prior": null,
+      "current": 217,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 13237,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-12",
+      "prior": null,
+      "current": 3198,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 1291,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 180,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-12",
+      "prior": null,
+      "current": 22,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 7076,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 10342,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 134,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-12",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-12",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-12",
+      "prior": null,
+      "current": 20,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 10009,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-12",
+      "prior": null,
+      "current": 18323,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1843,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 125,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 339,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 14809,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 3070,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-12",
+      "prior": null,
+      "current": 8348,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-12",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 8415,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvector-consciousness-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm|downloads|2026-11-12",
+      "prior": null,
+      "current": 23577,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-cli|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1803,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 135,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-gpu-loop|downloads|2026-11-12",
+      "prior": null,
+      "current": 7695,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 172,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 10961,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 65,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/ruvllm-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 3885,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvagent-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 234,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvdna|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf|downloads|2026-11-12",
+      "prior": null,
+      "current": 20200,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-mcp-server|downloads|2026-11-12",
+      "prior": null,
+      "current": 46,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-node|downloads|2026-11-12",
+      "prior": null,
+      "current": 22709,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-node-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 164,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-node-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 24,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-node-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 238,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-node-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 10673,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-node-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 426,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-solver|downloads|2026-11-12",
+      "prior": null,
+      "current": 19426,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvf-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 18363,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvforge|downloads|2026-11-12",
+      "prior": null,
+      "current": 27,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/rvlite|downloads|2026-11-12",
+      "prior": null,
+      "current": 649,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/scipix|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/server|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona|downloads|2026-11-12",
+      "prior": null,
+      "current": 33306,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 3213,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 191,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 449,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 22562,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona-linux-x64-musl|downloads|2026-11-12",
+      "prior": null,
+      "current": 4716,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona-win32-arm64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 85,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/sona-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 4843,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/spiking-neural|downloads|2026-11-12",
+      "prior": null,
+      "current": 160,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer|downloads|2026-11-12",
+      "prior": null,
+      "current": 10666,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1260,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 123,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 141,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-linux-arm64-musl|downloads|2026-11-12",
+      "prior": null,
+      "current": 81,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 8190,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-linux-x64-musl|downloads|2026-11-12",
+      "prior": null,
+      "current": 2185,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-win32-arm64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 75,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/tiny-dancer-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 2558,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/typesafe|downloads|2026-11-12",
+      "prior": null,
+      "current": 449,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/typesafe-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/typesafe-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/typesafe-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/typesafe-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/typesafe-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 532,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/wasm-unified|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvector/weight-space|downloads|2026-11-12",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/agent-harness-generator|downloads|2026-11-12",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/bmssp|downloads|2026-11-12",
+      "prior": null,
+      "current": 41,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/open-claude-code|downloads|2026-11-12",
+      "prior": null,
+      "current": 53,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/ruvector-verified-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/ruview|downloads|2026-11-12",
+      "prior": null,
+      "current": 48,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/ruview-kernel|downloads|2026-11-12",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/ruvn|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/rvagent|downloads|2026-11-12",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/rvm-context-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/site-harness|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/strange-loop|downloads|2026-11-12",
+      "prior": null,
+      "current": 22,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@ruvnet/sublinear-core|downloads|2026-11-12",
+      "prior": null,
+      "current": 7674,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agent-booster|downloads|2026-11-12",
+      "prior": null,
+      "current": 8228,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agentbbs|downloads|2026-11-12",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agentdb|downloads|2026-11-12",
+      "prior": null,
+      "current": 26014,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agentic-flow|downloads|2026-11-12",
+      "prior": null,
+      "current": 18573,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agentic-jujutsu|downloads|2026-11-12",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agentic-payments|downloads|2026-11-12",
+      "prior": null,
+      "current": 194,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agentic-robotics|downloads|2026-11-12",
+      "prior": null,
+      "current": 96,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agenticow|downloads|2026-11-12",
+      "prior": null,
+      "current": 208,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agentics-hackathon|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|agenticsjs|downloads|2026-11-12",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ai-text-watermark|downloads|2026-11-12",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|aidefence|downloads|2026-11-12",
+      "prior": null,
+      "current": 11148,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|aidefense|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|autogenous|downloads|2026-11-12",
+      "prior": null,
+      "current": 63,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|bmssp-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|claude-flow|downloads|2026-11-12",
+      "prior": null,
+      "current": 2116,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|claude-flow-v3|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|cogmusic|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|consciousness-explorer|downloads|2026-11-12",
+      "prior": null,
+      "current": 31,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|create-sparc|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|cuda-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|dream-machine|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|dspy.ts|downloads|2026-11-12",
+      "prior": null,
+      "current": 23,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|flow-nexus|downloads|2026-11-12",
+      "prior": null,
+      "current": 227,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|goalie|downloads|2026-11-12",
+      "prior": null,
+      "current": 91,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|homecore|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|lean-agentic|downloads|2026-11-12",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|llm-stream-reformat|downloads|2026-11-12",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|metaharness|downloads|2026-11-12",
+      "prior": null,
+      "current": 12462,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|midstreamer|downloads|2026-11-12",
+      "prior": null,
+      "current": 512,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|neural-trader|downloads|2026-11-12",
+      "prior": null,
+      "current": 65,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|prime-radiant-advanced-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 209,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|psycho-symbolic-integration|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|psycho-symbolic-reasoner|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|qudag|downloads|2026-11-12",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|radio-moe|downloads|2026-11-12",
+      "prior": null,
+      "current": 28,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|readme-proof|downloads|2026-11-12",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|research-swarm|downloads|2026-11-12",
+      "prior": null,
+      "current": 34,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|rucelium-harness|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruflo|downloads|2026-11-12",
+      "prior": null,
+      "current": 10144,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruflo-graph-intelligence|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|rulake-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|rupixel|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann|downloads|2026-11-12",
+      "prior": null,
+      "current": 22993,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 24034,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp|downloads|2026-11-12",
+      "prior": null,
+      "current": 13017,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-cloudflare|downloads|2026-11-12",
+      "prior": null,
+      "current": 86,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-huggingface|downloads|2026-11-12",
+      "prior": null,
+      "current": 85,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-invariants|downloads|2026-11-12",
+      "prior": null,
+      "current": 2244,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-lifecycle|downloads|2026-11-12",
+      "prior": null,
+      "current": 2248,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-loop|downloads|2026-11-12",
+      "prior": null,
+      "current": 85,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-registry|downloads|2026-11-12",
+      "prior": null,
+      "current": 84,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-ruos|downloads|2026-11-12",
+      "prior": null,
+      "current": 90,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-search|downloads|2026-11-12",
+      "prior": null,
+      "current": 153,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-fann-wsp-swarm|downloads|2026-11-12",
+      "prior": null,
+      "current": 114,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruv-swarm|downloads|2026-11-12",
+      "prior": null,
+      "current": 756,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvbot|downloads|2026-11-12",
+      "prior": null,
+      "current": 84,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvdrone|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector|downloads|2026-11-12",
+      "prior": null,
+      "current": 35609,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-attention-unified-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-attention-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 18288,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-core|downloads|2026-11-12",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-core-darwin-arm64|downloads|2026-11-12",
+      "prior": null,
+      "current": 1744,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-core-darwin-x64|downloads|2026-11-12",
+      "prior": null,
+      "current": 129,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-core-linux-arm64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 363,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-core-linux-x64-gnu|downloads|2026-11-12",
+      "prior": null,
+      "current": 15743,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-core-win32-x64-msvc|downloads|2026-11-12",
+      "prior": null,
+      "current": 2931,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-extensions|downloads|2026-11-12",
+      "prior": null,
+      "current": 92,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-gnn-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-graph-transformer-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 14777,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-math-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-mragent|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-onnx-embeddings-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 13145,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-sona|downloads|2026-11-12",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvector-wasm|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvi|downloads|2026-11-12",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvllm-esp32|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvnet-constellation|downloads|2026-11-12",
+      "prior": null,
+      "current": 83,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvnet-constellation-contracts|downloads|2026-11-12",
+      "prior": null,
+      "current": 113,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvnet-constellation-telemetry|downloads|2026-11-12",
+      "prior": null,
+      "current": 83,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|ruvneural|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|rvlite|downloads|2026-11-12",
+      "prior": null,
+      "current": 327,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|spiking-neural|downloads|2026-11-12",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|strange-loops|downloads|2026-11-12",
+      "prior": null,
+      "current": 22,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|strange-loops-mcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|sublinear-time-solver|downloads|2026-11-12",
+      "prior": null,
+      "current": 167,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|symbolic-scribe-harness|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|temporal-lead-solver|downloads|2026-11-12",
+      "prior": null,
+      "current": 52,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|temporal-neural-solver|downloads|2026-11-12",
+      "prior": null,
+      "current": 47,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|vscode-remote-mcp|downloads|2026-11-12",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|wifi-densepose-sar-harness|downloads|2026-11-12",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|worldgraphs|downloads|2026-11-12",
+      "prior": null,
+      "current": 26,
+      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-x64|downloads|2026-11-13",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/core|downloads|2026-11-13",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-14/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-13",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-14/npm-daily-points.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/cli|downloads|2026-11-13",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-14/npm-daily-points.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}
