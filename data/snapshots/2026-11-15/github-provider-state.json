@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "completed_at": "2026-11-15T13:25:47.019999+00:00",
+  "requests": 968,
+  "prior_attempt": "First bounded attempt aborted on HTTP502; successful complete retry uses durable response cache"
+}

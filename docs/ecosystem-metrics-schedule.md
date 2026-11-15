@@ -10,7 +10,7 @@ Validate ledger uniqueness, replay idempotence, total reconciliation, pagination
 
 ## Acceptance
 
-After updating the JSON sources, run `python3 scripts/render-visual-profile.py` and include the regenerated profile SVGs in the same metrics commit. The dashboard headline uses `download_milestone` from `data/ecosystem-running-totals.json`; its npm growth chart retains the separate registry date window. Verify the milestone sum, remaining count, source dates and SVG rendering before publishing. If rendering cannot run, explicitly report the dashboard as stale rather than claiming it refreshed.
+After updating the JSON sources, run `python3 scripts/render-visual-profile.py` and include the regenerated profile SVGs in the same metrics commit. The dashboard headline uses the fixed-start npm observed lower bound in `npm_billion_goal` from `data/ecosystem-running-totals.json`, with crates.io and release asset downloads displayed separately. Any mixed-provider milestone remains secondary and explicitly dated; the historical npm growth chart retains its actual cohort and registry date window. Verify the milestone sum, remaining count, source dates and SVG rendering before publishing. If rendering cannot run, explicitly report the dashboard as stale rather than claiming it refreshed.
 
 Replaying an identical snapshot must leave every running total unchanged. Every published total must include source, time window, cohort, coverage and missing-data status. No overlapping window totals may be added together.
 
@@ -19,3 +19,14 @@ For npm daily reporting, distinguish a completed UTC calendar day from a rolling
 ## New projects and packages
 
 Each daily refresh rediscovers the public GitHub, verified npm maintainer, and crates.io owner inventories. The README Recently shipped section highlights public nonfork, nonarchived repositories created in the last 28 days and registry additions compared with the earliest available inventory in that window. Newly listed means new to the verified cohort; it does not imply a first publication date.
+
+
+## Daily SVG download totals and freshness
+
+After cache reconciliation and ledger validation, regenerate the README dashboard and affected profile download SVGs from the frozen ecosystem-running-totals.json and collection watermark. Changing the generation date alone does not refresh numerical coverage. Correct stale annual-snapshot source wiring.
+
+Show npm observed events since the fixed verified start separately from crates.io cumulative downloads and release asset downloads. Keep a mixed-provider milestone only as an explicitly labeled secondary measure with dated component values. Never add overlapping windows or use a rolling annual count as the fixed-start baseline. Exclude the incomplete current UTC day. Label partial observations from completed days as an observed lower bound, with cohort coverage and missing dates; full totals and growth remain null when incomplete. Show the latest complete daily npm date and total separately. Historical charts retain their actual cohort and end date.
+
+Publication acceptance must parse SVG text, descriptions and accessible labels and compare totals, provider identities, windows, coverage and watermark with the frozen canonical summary. Fail on stale source selection, discrepancies, unexplained decreases or a generation date presented as source freshness. Preserve legitimate revisions with reconciliation evidence. Add a regression check for stale-source selection.
+
+After the renderer workflow completes, read back the merged default-branch SVG and README references and verify they still match the same frozen snapshot. Persist expected/observed values, source dates, digests and outcomes. Report download staleness explicitly if only other metrics refreshed. Preserve all existing rate limits, leases, budgets, privacy and publication gates; this display requirement authorizes no extra crawl, scheduler, host or credentials.

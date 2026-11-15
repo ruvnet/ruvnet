@@ -1,5 +1,6 @@
 // Cross-check the public claims against their captured inputs. No network or dependencies.
 import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
@@ -8,6 +9,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
 const json = p => JSON.parse(read(p));
 const format = n => new Intl.NumberFormat('en-US').format(n);
+execFileSync('python3', [path.join(root, 'scripts/profile_downloads.py')], { cwd: root, stdio: 'inherit' });
 const github = json('data/github-stats.json');
 const inventory = json(github.inventory);
 const owned = inventory.repositories.filter(r => !r.fork);

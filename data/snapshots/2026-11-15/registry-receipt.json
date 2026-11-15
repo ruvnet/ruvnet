@@ -1,0 +1,143 @@
+{
+  "retrieved_at": "2026-11-15T13:22:05.343511+00:00",
+  "npm_inventory_count": 429,
+  "npm_search_pages": [
+    {
+      "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=0",
+      "retrieved_at": "2026-11-15T13:19:31.854706Z",
+      "response_sha256": "fd2ac6c09ea3f53be361fdab38c9fb2d3f984a60d7035fb5ef37bfd0e99f156f",
+      "declared_total": 429,
+      "returned_rows": 250
+    },
+    {
+      "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=250",
+      "retrieved_at": "2026-11-15T13:19:33.310672Z",
+      "response_sha256": "e14a483eab440e627693d2c2ad4c342a56c4905e02c7d36a489d2b8a35ad5269",
+      "declared_total": 429,
+      "returned_rows": 179
+    }
+  ],
+  "npm_complete_day": "2026-11-13",
+  "npm_complete_day_total": 797701,
+  "npm_backfill_original_latest_retrieval": "2026-11-14T17:00:25.405153+00:00",
+  "npm_backfill_earliest_response": "2026-11-14T13:23:56.443936+00:00",
+  "crates_count": 501,
+  "crates_new_ids": [
+    "latentmesh-memorilla"
+  ],
+  "crates_downloads": 2251140,
+  "crates_pages": [
+    {
+      "source": "https://crates.io/api/v1/crates?page=1&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-15T13:19:34.597142Z",
+      "response_sha256": "cce2f9e8c6c11f496189f48a45605213fbc555bf0f9b90c341f255886c928754",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=2&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-15T13:19:37.270714Z",
+      "response_sha256": "2bb038966f6abe6bef5cbad5c890f752224552a03e6c3b7a3297e337c4644cbf",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=3&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-15T13:19:39.638981Z",
+      "response_sha256": "7bef5514d1a62b77711408e86201cdf744bb4986f78491116a888a67b3502e9f",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=4&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-15T13:19:42.002280Z",
+      "response_sha256": "c65cad9fcee5f0c5cafa78265ec87b6bb25f24b6ba08a60326cac13a2969a6b2",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=5&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-15T13:19:44.367204Z",
+      "response_sha256": "69553b19ab8441de35035cd8edd0651777b31f85045b1eb38068053225a2ba5c",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=6&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-15T13:19:46.680576Z",
+      "response_sha256": "356bf98171cfd5410c86470fcfafc4e3e69c743997dfbdb4d309d884b430bd29",
+      "declared_total": 501,
+      "returned_rows": 1
+    }
+  ],
+  "validations": {
+    "identity_and_exact_dates": true,
+    "nonnegative_integer_values": true,
+    "unique_package_day_keys": 429,
+    "same429cohort": true,
+    "recomputed_total": true
+  },
+  "nov14_checkpoint": {
+    "status": "collecting",
+    "pid": 20138,
+    "updated_at": "2026-11-15T13:23:38.118774+00:00",
+    "covered": 5,
+    "expected": 429,
+    "remaining": 424,
+    "requests_this_worker": 5,
+    "rate_limits": 0,
+    "request_interval_seconds": 30,
+    "complete": false,
+    "last_successful_retrieval": "2026-11-15T13:23:38.118521+00:00"
+  },
+  "provider_lease_held": true,
+  "script_pid_alive": true,
+  "publication": "not performed",
+  "source_hashes": {
+    "crates-inventory.json": "549d90b064dfe35a0b6ff6b6c19ebabcef29696a63fe798a114eb96eb953c502",
+    "registry-collection.json": "7e981e7dae37c0c5f7788ec635d962aa06f88257eecfb52f93ed26ec82e9afc3",
+    "npm-inventory.json": "aab233e81a67d6aed64c15123fec44f59d7dcc729304654b1a4098bb86547667",
+    "npm-new-manifests.json": "eab7fbd211cc275908b4dca93d645be25c661b9181542980000b400ed3372650",
+    "npm-backfill-intent.json": "4c3528d821b589471dcdf13a07dfef23364ee02e31b197ee1445c6f5f8ef6c18",
+    "npm-completed-backfill.json": "e88c78791f77fa6d90203762fb8774e2819355ba2e43cf68c5d6c35f9585005b"
+  },
+  "rate_limit_acceptance": {
+    "simulated_checks": [
+      "429 zero RetryAfter persists minimum15minute cooldown and exits",
+      "persisted cooldown zero requests",
+      "cached replay zero requests, no doublecount"
+    ],
+    "actual_success_intervals_seconds": [
+      30.18666696548462,
+      30.369292974472046,
+      30.16985511779785
+    ],
+    "minimum_observed_interval_seconds": 30.16985511779785,
+    "frozen_response_count": 4,
+    "provider_calls_in_tests": 0
+  },
+  "frozen_daily_checkpoint": {
+    "day": "2026-11-14",
+    "retrieved_at": "2026-11-15T13:23:18.696526+00:00",
+    "inventory_count": 429,
+    "eligible_package_count": 429,
+    "covered": 4,
+    "missing": 425,
+    "values": {
+      "@agentic-robotics/darwin-x64": 13,
+      "@agentic-robotics/core": 13,
+      "@agentic-robotics/darwin-arm64": 14,
+      "@agentic-robotics/cli": 12
+    },
+    "observed_downloads": 52,
+    "total_downloads": null,
+    "complete": false,
+    "complete_eligible_cohort": false,
+    "excluded_created_after_target_day": {},
+    "range_evidence": "npm-daily-ranges.json",
+    "source": "https://api.npmjs.org/downloads/range/2026-11-14:2026-11-14/",
+    "blocker": "Collection in progress; single30secondstream; full total unknown until complete; allzero cohort provisional"
+  },
+  "frozen_sources_complete": true,
+  "finalized_at": "2026-11-15T13:24:06.508252+00:00"
+}

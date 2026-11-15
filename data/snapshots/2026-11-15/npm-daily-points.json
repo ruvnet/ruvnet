@@ -1,0 +1,22 @@
+{
+  "day": "2026-11-14",
+  "retrieved_at": "2026-11-15T13:23:18.696526+00:00",
+  "inventory_count": 429,
+  "eligible_package_count": 429,
+  "covered": 4,
+  "missing": 425,
+  "values": {
+    "@agentic-robotics/darwin-x64": 13,
+    "@agentic-robotics/core": 13,
+    "@agentic-robotics/darwin-arm64": 14,
+    "@agentic-robotics/cli": 12
+  },
+  "observed_downloads": 52,
+  "total_downloads": null,
+  "complete": false,
+  "complete_eligible_cohort": false,
+  "excluded_created_after_target_day": {},
+  "range_evidence": "npm-daily-ranges.json",
+  "source": "https://api.npmjs.org/downloads/range/2026-11-14:2026-11-14/",
+  "blocker": "Collection in progress; single30secondstream; full total unknown until complete; allzero cohort provisional"
+}
