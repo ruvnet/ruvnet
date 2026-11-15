@@ -2,6 +2,7 @@
 """Render the profile SVG from published repository snapshots. No network access."""
 import json
 import math
+from profile_downloads import apply_downloads
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -34,8 +35,8 @@ def render_growth(n):
     ratio=n['monthly_downloads'][-1]['downloads']/rows[0]['downloads'] if rows[0]['downloads'] else None
     def text(x,y,value,size=13,color='#95aabe',anchor='start'):
         return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" text-anchor="{anchor}">{escape(str(value))}</text>'
-    s=f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-labelledby="title desc"><title id="title">Cumulative npm download growth</title><desc id="desc">{total:,} download events summed from {n['monthly_period_start']} through {chart_end(n)}. Linear scale, monthly observations with a dated partial month when available. This is period cumulative, not lifetime downloads.</desc><defs><linearGradient id="line"><stop stop-color="#9de8d0"/><stop offset="1" stop-color="#ffae73"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f69a62" stop-opacity=".3"/><stop offset="1" stop-color="#f69a62" stop-opacity=".01"/></linearGradient><clipPath id="reveal"><rect class="reveal" x="75" y="180" width="1030" height="250"/></clipPath></defs><style>text{{font-family:ui-monospace,Consolas,monospace}}.reveal{{animation:reveal 10s cubic-bezier(.25,.1,.25,1) infinite;transform-origin:75px 0}}.energy{{stroke-dasharray:8 110;animation:flow 5s linear infinite}}.pulse{{animation:pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}}@keyframes reveal{{0%,5%{{transform:scaleX(0)}}70%,100%{{transform:scaleX(1)}}}}@keyframes flow{{to{{stroke-dashoffset:-236}}}}@keyframes pulse{{50%{{opacity:.35;transform:scale(1.4)}}}}@media(prefers-reduced-motion:reduce){{*{{animation:none!important}}}}</style><rect width="1200" height="550" rx="16" fill="#080e19"/><rect x=".5" y=".5" width="1199" height="549" rx="16" fill="none" stroke="#26354b"/>'''
-    s+=text(34,36,'RUVNET / NPM DOWNLOAD GROWTH',13,'#9de8d0')+text(34,91,f'{total:,}',46,'#eef5ff')+text(36,120,'CUMULATIVE DOWNLOAD EVENTS IN THIS PERIOD',12)
+    s=f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-labelledby="title desc"><title id="title">Historical cumulative npm download chart</title><desc id="desc">{total:,} download events summed from {n['monthly_period_start']} through {chart_end(n)}. Linear scale, monthly observations with a dated partial month when available. This is period cumulative, not lifetime downloads.</desc><defs><linearGradient id="line"><stop stop-color="#9de8d0"/><stop offset="1" stop-color="#ffae73"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f69a62" stop-opacity=".3"/><stop offset="1" stop-color="#f69a62" stop-opacity=".01"/></linearGradient><clipPath id="reveal"><rect class="reveal" x="75" y="180" width="1030" height="250"/></clipPath></defs><style>text{{font-family:ui-monospace,Consolas,monospace}}.reveal{{animation:reveal 10s cubic-bezier(.25,.1,.25,1) infinite;transform-origin:75px 0}}.energy{{stroke-dasharray:8 110;animation:flow 5s linear infinite}}.pulse{{animation:pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}}@keyframes reveal{{0%,5%{{transform:scaleX(0)}}70%,100%{{transform:scaleX(1)}}}}@keyframes flow{{to{{stroke-dashoffset:-236}}}}@keyframes pulse{{50%{{opacity:.35;transform:scale(1.4)}}}}@media(prefers-reduced-motion:reduce){{*{{animation:none!important}}}}</style><rect width="1200" height="550" rx="16" fill="#080e19"/><rect x=".5" y=".5" width="1199" height="549" rx="16" fill="none" stroke="#26354b"/>'''
+    s+=text(34,36,'RUVNET / HISTORICAL NPM DOWNLOADS',13,'#9de8d0')+text(34,91,f'{total:,}',46,'#eef5ff')+text(36,120,'CUMULATIVE DOWNLOAD EVENTS IN THIS PERIOD',12)
     s+=text(1164,67,f'{ratio:.1f}×' if ratio is not None else 'N/A',35,'#ffae73','end')+text(1164,93,'LAST FULL MONTH / FIRST MONTH',11,anchor='end')
     s+=text(34,156,f"{n['monthly_period_start']} → {chart_end(n)}  ·  {n['download_package_count']} PACKAGE COHORT",12)
     s+=text(1164,156,'LINEAR SCALE · MONTHLY BUCKETS',10,anchor='end')
@@ -77,21 +78,6 @@ def render():
     put(34,182,f"NPM DOWNLOADS / {n['period_days']} DAYS")
     put(34,222,f"{n['downloads']:,}")
     put(34,248,f"{n['download_package_count']} PKGS · {n['period_start']} → {n['period_end']}")
-    if milestone:
-        total = milestone['combined_observed']; target = milestone['target']
-        assert total == milestone['npm_observed_total'] + milestone['crates_io_cumulative']
-        assert milestone['remaining'] == max(0, target-total)
-        progress = min(1, max(0, total/target))
-        put(34,182,'REGISTRY DOWNLOADS / OBSERVED')
-        put(34,222,f'{total:,}')
-        put(34,248,'NPM SINCE OCT 2025 + CRATES TOTAL')
-        root.find(f'{{{NS}}}desc').text += f" Combined registry milestone: {total:,} observed download events; {milestone['remaining']:,} remaining to {target:,}. npm since 2025-10-01 plus cumulative crates.io. Provider reporting delays may remain. Milestone npm verified {milestone['npm_verified_at'][:10]}; Rust verified {milestone['crates_io_verified_at'][:10]}."
-        badge = ET.Element(f'{{{NS}}}g', {'id':'download-milestone'})
-        ET.SubElement(badge,f'{{{NS}}}rect',{'x':'800','y':'86','width':'365','height':'6','rx':'3','fill':'#243249'})
-        ET.SubElement(badge,f'{{{NS}}}rect',{'x':'800','y':'86','width':f'{365*progress:.2f}','height':'6','rx':'3','fill':'#9de8d0'})
-        ET.SubElement(badge,f'{{{NS}}}text',{'x':'1165','y':'115','font-size':'12','fill':'#9de8d0','text-anchor':'end'}).text=f'{progress:.2%} OF 100M / {milestone["remaining"]/1e6:.2f}M TO GO'
-        loader=next(e for e in root if e.get('class')=='gameboot')
-        root.insert(list(root).index(loader),badge)
     put(334,182,'STARS / NONFORK REPOS')
     put(334,222,f"{a['stars_across_owned_nonfork']:,}")
     put(334,248,f"{a['owned_public_nonfork_repositories']} NONFORK REPOS · {gd}")
@@ -151,9 +137,8 @@ def render():
         for child in list(parent):
             if child.get('class')=='historydot': parent.remove(child)
     put(54,784,f'GITHUB: {g["verified_at"][:10]} · NPM: {n["downloads_verified_at"][:10]}')
-    if milestone:
-        put(54,784,f'NPM: {milestone["npm_verified_at"][:10]} · RUST: {milestone["crates_io_verified_at"][:10]} · OBSERVED EVENTS')
     put(600,757,f'REPO GENERATED {rd} · RUST VERIFIED {date(r["crates_io"]["verified_at"])}')
+    apply_downloads(root, running, n)
     out=ROOT/'assets/ruvnet/dashboard.svg';out.parent.mkdir(parents=True,exist_ok=True)
     ET.ElementTree(root).write(out,encoding='unicode')
     render_growth(n)

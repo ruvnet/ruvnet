@@ -1,0 +1,9 @@
+{
+  "scope": "Nov14 npm downloads only, verified429 inventory",
+  "intent": "Single sequential missing-only stream, 30 second minimum, shared persistent provider lease/cooldown, six hour bound, cached replay skips requests",
+  "baseline": "Nov13 complete429=797701, old worker locks released and no live script processes",
+  "expected": "429 response records with original hashes and retrieval times, or durable partial/cooldown queue; unknown full total until complete",
+  "script_sha256": "ee32c918b6ad6ee2f0514e3825ee5927f8ce9ff7aeb2891b7a5ae73fa671ae3b",
+  "created_at": "2026-11-15T13:21:36.725720+00:00",
+  "status": "prepared"
+}

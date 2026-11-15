@@ -226,6 +226,9 @@ def main():
         github=collection,
         activity=activity,
         npm={
+            # Keep independently sourced daily summaries and comparison windows
+            # with their original dates; this pass refreshes only fields below.
+            **running.get('npm', {}),
             'period_start': window_start, 'period_end': window_end,
             'observed_downloads': sum(daily.values()),
             'expected_packages': registry['npm']['package_count'],

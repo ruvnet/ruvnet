@@ -90,6 +90,9 @@ class RegistryRefreshTest(unittest.TestCase):
                                 '--date',snapshot_date,'--input','input.json'],cwd=root,
                                capture_output=True,text=True)
             self.assertEqual(run.returncode,0,run.stderr)
+            render=subprocess.run([sys.executable,'scripts/render-visual-profile.py'],cwd=root,
+                                  capture_output=True,text=True)
+            self.assertEqual(render.returncode,0,render.stderr)
             check=subprocess.run(['node','scripts/verify-profile.mjs'],cwd=root,
                                  capture_output=True,text=True)
             self.assertEqual(check.returncode,0,check.stderr)

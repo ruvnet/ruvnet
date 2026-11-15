@@ -1,0 +1,14 @@
+{
+  "status": "blocked",
+  "observed_at": "2026-11-15T13:21:23.970294+00:00",
+  "http_status": 502,
+  "rate_headers": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4674",
+    "x-ratelimit-reset": "1794749442",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "326"
+  },
+  "path": "repos/ruvnet/lionagi/releases?per_page=100&page=1",
+  "retry_policy": "No further provider requests in this bounded collector; obey supplied deadline"
+}

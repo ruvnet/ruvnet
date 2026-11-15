@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-14T13:25:31.248889+00:00",
+  "verified_at": "2026-11-15T13:23:18.696526+00:00",
   "counts": {
     "github_public_repositories": 234,
     "github_owned_public_nonfork_repositories": 207,
-    "published_registry_and_huggingface_artifacts_minimum": 959,
-    "rust_crates": 500,
+    "published_registry_and_huggingface_artifacts_minimum": 960,
+    "rust_crates": 501,
     "npm_packages": 429,
     "pypi_packages": 8,
     "huggingface_models_and_spaces": 22,
-    "rust_crate_downloads_cumulative": 2243384,
+    "rust_crate_downloads_cumulative": 2251140,
     "github_public_forks": 27,
-    "github_followers": 12484,
-    "github_stars_owned_nonfork": 203036,
-    "github_aggregate_downstream_forks": 26802
+    "github_followers": 12493,
+    "github_stars_owned_nonfork": 203351,
+    "github_aggregate_downstream_forks": 26839
   },
   "historical_snapshots": {
     "npm_downloads_rolling_year_minimum": 34000000,
@@ -34,8 +34,8 @@
     "Owned nonfork describes GitHub metadata, not sole authorship or originality.",
     "Stars, clones and downloads do not establish unique users or revenue.",
     "The aggregate artifact count combines current npm/crates inventory with 30 historically verified PyPI/Hugging Face artifacts.",
-    "12 npm dates with incomplete coverage in 2026-10-31 through 2026-11-13 UTC are unknown (null), never zero; 2026-11-14 is incomplete and excluded.",
-    "12 all-package-zero npm dates in 2026-10-31 through 2026-11-13 UTC are unknown (null), never zero; 2026-11-14 is incomplete and excluded.",
+    "11 npm dates with incomplete coverage in 2026-11-01 through 2026-11-14 UTC are unknown (null), never zero; 2026-11-15 is incomplete and excluded.",
+    "9 all-package-zero npm dates in 2026-11-01 through 2026-11-14 UTC are unknown (null), never zero; 2026-11-15 is incomplete and excluded.",
     "The npm download cohort is 405 packages; the current inventory contains 429."
   ],
   "sources": [
@@ -54,11 +54,10 @@
     "npm_latest_confirmed_daily_downloads": 388290,
     "npm_latest_confirmed_daily_package_count": 405,
     "npm_latest_daily_is_rolling_24h": false,
-    "github_activity_start": "2026-10-31",
-    "github_activity_end": "2026-11-13",
-    "npm_14_day_confirmed_download_events": 11504724,
+    "github_activity_start": "2026-11-01",
+    "github_activity_end": "2026-11-14",
+    "npm_14_day_confirmed_download_events": 11783226,
     "npm_14_day_unknown_days": [
-      "2026-10-31",
       "2026-11-01",
       "2026-11-02",
       "2026-11-03",
@@ -67,16 +66,16 @@
       "2026-11-06",
       "2026-11-07",
       "2026-11-08",
-      "2026-11-13"
+      "2026-11-14"
     ],
     "npm_14_day_complete_utc_days": 14,
-    "npm_14_day_confirmed_days": 4,
+    "npm_14_day_confirmed_days": 5,
     "npm_14_day_is_rolling_24h": false,
-    "npm_14_day_start": "2026-10-31",
-    "npm_14_day_end": "2026-11-13",
+    "npm_14_day_start": "2026-11-01",
+    "npm_14_day_end": "2026-11-14",
     "npm_independent_daily_latest": {
-      "day": "2026-11-12",
-      "downloads": 1032765,
+      "day": "2026-11-13",
+      "downloads": 797701,
       "expected_packages": 429,
       "collected_packages": 429,
       "inventory_packages": 429,
@@ -84,21 +83,21 @@
       "coverage_complete": true,
       "rolling_24_hours": false,
       "period_type": "UTC calendar day",
-      "source": "data/snapshots/2026-11-14/npm-backfill-2026-11-12.json",
-      "verified_at": "2026-11-13T21:52:27.620573+00:00",
-      "artifact_sha256": "5b481438db4a52598f4b5fca66855aea469661d75b9fbf6fbd3f877564710809",
-      "observed_downloads": 1032765,
-      "revision_source": "data/snapshots/2026-11-14/npm-ledger-revisions.json",
-      "revision_checked_at": "2026-11-14T13:25:31.248889+00:00",
+      "source": "data/snapshots/2026-11-15/npm-backfill-2026-11-13.json",
+      "verified_at": "2026-11-14T17:00:25.405153+00:00",
+      "artifact_sha256": "f40fe6f9d6041990a5854570670a69a4242ab09257e5ddee876a4d9c7e6d0e5f",
+      "observed_downloads": 797701,
+      "revision_source": "data/snapshots/2026-11-15/npm-ledger-revisions.json",
+      "revision_checked_at": "2026-11-15T13:23:18.696526+00:00",
       "composite_provenance": "Original complete daily observation plus current partial keyed revisions; untouched packages retain original retrieval time."
     }
   },
   "verification_dates": {
-    "github": "2026-11-14T13:22:35.911683+00:00",
-    "npm_inventory": "2026-11-14T13:22:21.359776Z",
+    "github": "2026-11-15T13:23:03.592119+00:00",
+    "npm_inventory": "2026-11-15T13:19:33.311607Z",
     "npm_downloads": "2026-11-09T05:45:21.937096Z",
-    "crates_io": "2026-11-14T13:22:32.128474Z",
+    "crates_io": "2026-11-15T13:19:46.680970Z",
     "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted"
   },
-  "source_watermark": "data/snapshots/2026-11-14/collection-watermark.json"
+  "source_watermark": "data/snapshots/2026-11-15/collection-watermark.json"
 }

@@ -1,0 +1,69 @@
+{
+  "status": "verified",
+  "checked_at": "2026-11-15T13:26:19.617332+00:00",
+  "summary": {
+    "repositories": 234,
+    "page_offsets": [
+      0,
+      100,
+      200
+    ],
+    "unique_repository_ids": 234,
+    "forks": 27,
+    "archived": 0,
+    "all_owned": {
+      "repositories": 234,
+      "stars": 203627,
+      "forks": 26919,
+      "subscribers": 1808,
+      "open_issues_and_prs": 2467
+    },
+    "nonfork": {
+      "repositories": 207,
+      "stars": 203351,
+      "forks": 26839,
+      "subscribers": 1805,
+      "open_issues_and_prs": 2460
+    },
+    "followers": 12493
+  },
+  "release_summary": {
+    "repositories": 234,
+    "releases": 2563,
+    "assets": 1093
+  },
+  "traffic": {
+    "window_start": "2026-11-01",
+    "window_end": "2026-11-14",
+    "coverage": {
+      "expected_cells_per_metric": 3276,
+      "missing_cells_per_metric": {
+        "clones": 0,
+        "views": 0
+      },
+      "fresh_api_cells_per_metric": {
+        "clones": 3276,
+        "views": 3276
+      },
+      "historical_backfill_cells_per_metric": {
+        "clones": 0,
+        "views": 0
+      },
+      "precreation_zero_cells_per_metric": {
+        "clones": 0,
+        "views": 0
+      },
+      "repositories": 234
+    },
+    "clone_events": 833472,
+    "view_events": 191123
+  },
+  "latest_day": {
+    "clones": 68125,
+    "views": 10530
+  },
+  "api_requests": 968,
+  "minimum_core_rate_remaining": 4157,
+  "adapter_sha256": "d8caed4457c73065944f359effbc41aded72db9dc878a2815a001bacefb7f39b",
+  "private_data_excluded": true
+}

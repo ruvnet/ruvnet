@@ -3,17 +3,19 @@ import importlib.util
 import json
 from pathlib import Path
 import shutil
+import sys
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT/'scripts'))
 spec=importlib.util.spec_from_file_location('visual',ROOT/'scripts/render-visual-profile.py')
 visual=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(visual)
 
 class VisualProfileTest(unittest.TestCase):
-    def test_dashboard_uses_running_milestone_without_relabeling_npm_chart(self):
+    def test_dashboard_uses_canonical_npm_and_separate_providers(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
             for rel in ['data/metrics.json','data/registry-stats.json','data/github-stats.json','data/ecosystem-running-totals.json','data/snapshots/2026-10-02/github-baseline-2026-09-07.json','scripts/templates/ruvnet-dashboard.svg']:
@@ -22,17 +24,23 @@ class VisualProfileTest(unittest.TestCase):
             try:
                 visual.ROOT=root
                 running=json.loads((root/'data/ecosystem-running-totals.json').read_text())
-                milestone=running['download_milestone']
-                milestone.update(npm_observed_total=98000000,crates_io_cumulative=3000000,combined_observed=101000000,remaining=0)
+                running['download_milestone'].update(npm_observed_total=98000000,crates_io_cumulative=3000000,combined_observed=101000000,remaining=0)
+                running['npm_billion_goal']['observed_download_events_lower_bound']=123456789
                 (root/'data/ecosystem-running-totals.json').write_text(json.dumps(running))
                 visual.render()
                 svg=(root/'assets/ruvnet/dashboard.svg').read_text()
-                self.assertIn('101,000,000',svg)
-                self.assertIn('0.00M TO GO',svg)
-                self.assertIn('NPM SINCE OCT 2025 + CRATES TOTAL',svg)
-                self.assertIn('NPM / CUMULATIVE DOWNLOADS',svg)
-                group=ET.fromstring(svg).find('.//{'+visual.NS+'}g[@id="download-milestone"]')
-                self.assertEqual(float(list(group)[1].get('width')),365)
+                self.assertIn('123,456,789',svg)
+                self.assertNotIn('101,000,000',svg)
+                self.assertIn('NPM EVENTS / LOWER BOUND',svg)
+                self.assertIn('CRATES.IO CUMULATIVE:',svg)
+                self.assertIn('RELEASE ASSETS OBSERVED:',svg)
+                self.assertIn('HISTORICAL NPM CHART /',svg)
+                from profile_downloads import verify_downloads
+                parsed=ET.fromstring(svg)
+                verify_downloads(parsed,running)
+                next(e for e in parsed.iter() if e.get('id')=='npm-observed-total').text='101,000,000'
+                with self.assertRaisesRegex(AssertionError,'Stale SVG download claim'):
+                    verify_downloads(parsed,running)
             finally:visual.ROOT=original
 
     def test_partial_month_is_counted_once_and_dated(self):
@@ -69,13 +77,15 @@ class VisualProfileTest(unittest.TestCase):
                 for entry in g['flagships']:
                     if entry['name']=='ruflo':entry['stars']=70000
                 github.write_text(json.dumps(g));visual.render()
-                final=output.read_text();self.assertIn('123,456,789',final);self.assertNotIn('91,172,864',final)
+                final=output.read_text();self.assertNotIn('123,456,789',final);self.assertNotIn('91,172,864',final)
+                canonical=json.loads((root/'data/ecosystem-running-totals.json').read_text())['npm_billion_goal']['observed_download_events_lower_bound']
+                self.assertIn(f'{canonical:,}',final)
                 growth=(root/'assets/ruvnet/npm-cumulative-growth.svg').read_text()
                 expected=sum(row['downloads'] for row in visual.chart_rows(r['npm']))
                 self.assertIn(f'{expected:,}',growth)
                 self.assertIn('not lifetime downloads',growth)
                 self.assertNotIn('91,172,864',growth)
-                self.assertIn('12,345',final);self.assertIn('2026-11-05',final)
+                self.assertIn('12,345',final);self.assertIn('data-download-watermark=',final)
                 self.assertIn('70,000 ★',final);self.assertIn('-1,415 stars',final)
                 ns={'s':visual.NS}
                 before=ET.fromstring(first).find('.//s:path[@id="realchart"]',ns).get('d')
