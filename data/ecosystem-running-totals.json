@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-15T13:23:18.696526+00:00",
+  "verified_at": "2026-11-16T05:42:34.125747Z",
   "github": {
     "verified_at": "2026-11-15T13:23:03.592119+00:00",
     "followers": 12493,
@@ -322,104 +322,70 @@
     "verified_at": "2026-11-15T13:23:03.592119+00:00"
   },
   "npm": {
-    "period_start": "2026-11-01",
-    "period_end": "2026-11-14",
-    "observed_downloads": 11783226,
+    "period_start": "2026-11-02",
+    "period_end": "2026-11-15",
+    "observed_downloads": 11664925,
     "expected_packages": 429,
-    "collected_packages": 405,
-    "errors": [
-      {
-        "package": "@agentic-robotics/darwin-arm64",
-        "unavailable": true,
-        "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-11-08/%40agentic-robotics%2Fdarwin-arm64",
-        "checked_at": "2026-11-09T05:24:30.450564Z",
-        "error": "npm download-range endpoint returned HTTP 404 after bounded retries"
-      },
-      {
-        "package": "@agentic-robotics/darwin-x64",
-        "unavailable": true,
-        "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-11-08/%40agentic-robotics%2Fdarwin-x64",
-        "checked_at": "2026-11-09T05:24:30.188372Z",
-        "error": "npm download-range endpoint returned HTTP 404 after bounded retries"
-      },
-      {
-        "package": "@agentic-robotics/linux-arm64-gnu",
-        "unavailable": true,
-        "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-11-08/%40agentic-robotics%2Flinux-arm64-gnu",
-        "checked_at": "2026-11-09T05:25:46.610178Z",
-        "error": "npm download-range endpoint returned HTTP 404 after bounded retries"
-      }
-    ],
+    "collected_packages": 429,
+    "errors": [],
     "daily": {
-      "2026-11-01": 899409,
       "2026-11-02": 901029,
       "2026-11-03": 695465,
       "2026-11-04": 825942,
       "2026-11-05": 885389,
       "2026-11-06": 1135502,
       "2026-11-07": 532206,
-      "2026-11-08": 388290,
+      "2026-11-08": 534993,
       "2026-11-09": 1365665,
       "2026-11-10": 1297163,
       "2026-11-11": 1026648,
       "2026-11-12": 1032765,
       "2026-11-13": 797701,
-      "2026-11-14": 52
+      "2026-11-14": 611657,
+      "2026-11-15": 22800
     },
     "daily_package_coverage": {
-      "2026-11-01": 405,
-      "2026-11-02": 405,
-      "2026-11-03": 405,
-      "2026-11-04": 405,
-      "2026-11-05": 405,
-      "2026-11-06": 405,
-      "2026-11-07": 405,
-      "2026-11-08": 405,
-      "2026-11-09": 411,
-      "2026-11-10": 412,
+      "2026-11-02": 429,
+      "2026-11-03": 429,
+      "2026-11-04": 429,
+      "2026-11-05": 429,
+      "2026-11-06": 429,
+      "2026-11-07": 429,
+      "2026-11-08": 429,
+      "2026-11-09": 429,
+      "2026-11-10": 429,
       "2026-11-11": 429,
       "2026-11-12": 429,
       "2026-11-13": 429,
-      "2026-11-14": 4
+      "2026-11-14": 429,
+      "2026-11-15": 429
     },
-    "missing_days": [
-      "2026-11-01",
-      "2026-11-02",
-      "2026-11-03",
-      "2026-11-04",
-      "2026-11-05",
-      "2026-11-06",
-      "2026-11-07",
-      "2026-11-08",
-      "2026-11-14"
-    ],
-    "status": "405 of 429 inventory packages have retained historical range evidence. Bounded daily observations separately state eligible cohort coverage; historical gaps remain unknown.",
+    "missing_days": [],
+    "status": "429 of 429 inventory packages collected; all-package-zero dates are unknown, not zero; provider reporting gaps may remain",
     "all_zero_cohort_days": [],
     "latest_confirmed_daily": {
-      "verified_at": "2026-11-09T05:45:21.937096Z",
-      "day": "2026-11-08",
-      "downloads": 388290,
+      "verified_at": "2026-11-16T05:42:27.470459Z",
+      "day": "2026-11-15",
+      "downloads": 22800,
       "expected_packages": 429,
-      "collected_packages": 405,
+      "collected_packages": 429,
       "period_type": "UTC calendar day",
       "rolling_24_hours": false,
-      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-11-08/{urlencoded_package}",
-      "status": "Historical annual range subset only; current complete daily result is daily_latest",
-      "coverage_complete": false
+      "source": "https://api.npmjs.org/downloads/range/2025-10-01:2026-11-15/{urlencoded_package}",
+      "status": "latest positive completed UTC date; excludes newer provisional all-zero dates"
     },
-    "provisional_days": [],
-    "confirmed_days": 5,
-    "unknown_days": [
-      "2026-11-01",
-      "2026-11-02",
-      "2026-11-03",
-      "2026-11-04",
-      "2026-11-05",
-      "2026-11-06",
-      "2026-11-07",
-      "2026-11-08",
-      "2026-11-14"
+    "provisional_days": [
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
     ],
+    "confirmed_days": 14,
+    "unknown_days": [],
     "note": "Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads.",
     "daily_latest": {
       "day": "2026-11-13",
@@ -600,13 +566,16 @@
         },
         "note": "Incomplete sums are observed lower bounds; growth stays null."
       }
-    }
+    },
+    "verified_at": "2026-11-16T05:42:34.125747Z"
   },
   "crates_io": {
+    "user_id": 339999,
+    "verified_at": "2026-11-16T05:42:34.125514Z",
     "crate_count": 501,
-    "cumulative_downloads": 2251140,
-    "verified_at": "2026-11-15T13:19:46.680970Z",
-    "source": "https://crates.io/api/v1/crates?user_id=339999"
+    "cumulative_downloads": 2255741,
+    "inventory_path": "data/snapshots/2026-11-16/crates-inventory.json",
+    "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   },
   "release_assets": {
     "coverage": "All 234 public owned repositories",
@@ -628,7 +597,7 @@
     "github_public_repository_ids_unique": true,
     "release_pagination_complete_repositories": 234,
     "actions_pagination_complete_repositories": 0,
-    "unique_daily_keys": 42289,
+    "unique_daily_keys": 43310,
     "replay_idempotent": true,
     "daily_total_reconciliation": true,
     "download_milestone_reconciliation": true,
@@ -637,19 +606,9 @@
     "traffic_missing_cells_recorded": true,
     "traffic_exact_totals_null_when_incomplete": true,
     "all_sources_public": true,
-    "npm_download_package_coverage_complete": false,
-    "npm_unavailable_packages": 3,
-    "missing_days_recorded": [
-      "2026-11-01",
-      "2026-11-02",
-      "2026-11-03",
-      "2026-11-04",
-      "2026-11-05",
-      "2026-11-06",
-      "2026-11-07",
-      "2026-11-08",
-      "2026-11-14"
-    ],
+    "npm_download_package_coverage_complete": true,
+    "npm_unavailable_packages": 0,
+    "missing_days_recorded": [],
     "daily_point_total_reconciliation": true,
     "daily_point_cohort_complete": false
   },
@@ -674,23 +633,23 @@
   "download_milestone": {
     "target": 100000000,
     "basis": "npm observed since 2025-10-01 plus crates.io cumulative; download events, not unique users",
-    "npm_baseline_downloads": 113890568,
-    "npm_baseline_through": "2026-11-08",
+    "npm_baseline_downloads": 120946142,
+    "npm_baseline_through": "2026-11-15",
     "npm_increment_observed": 0,
     "npm_increment_start": null,
     "npm_increment_end": null,
-    "npm_increment_package_coverage": 405,
+    "npm_increment_package_coverage": 429,
     "npm_expected_packages": 429,
-    "npm_observed_total": 113890568,
-    "crates_io_cumulative": 2251140,
-    "combined_observed": 116141708,
+    "npm_observed_total": 120946142,
+    "crates_io_cumulative": 2255741,
+    "combined_observed": 123201883,
     "remaining": 0,
-    "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 405 of 429 inventory packages have download-range evidence",
-    "baseline_source": "data/snapshots/2026-11-09/npm-downloads.json",
-    "increment_source": "data/snapshots/2026-11-09/npm-downloads.json",
-    "npm_verified_at": "2026-11-09T05:45:21.937096Z",
-    "npm_reported_through": "2026-11-08",
-    "crates_io_verified_at": "2026-11-15T13:19:46.680970Z",
+    "status": "Observed lower bound; collected API responses may contain provider reporting gaps; 429 of 429 inventory packages have download-range evidence",
+    "baseline_source": "data/snapshots/2026-11-16/npm-downloads.json",
+    "increment_source": "data/snapshots/2026-11-16/npm-downloads.json",
+    "npm_verified_at": "2026-11-16T05:42:27.470459Z",
+    "npm_reported_through": "2026-11-15",
+    "crates_io_verified_at": "2026-11-16T05:42:34.125514Z",
     "internal_all_zero_cohort_days": [
       "2026-09-07",
       "2026-09-08",
@@ -699,10 +658,19 @@
       "2026-10-14",
       "2026-10-15",
       "2026-10-19",
-      "2026-10-20",
-      "2026-10-21"
+      "2026-10-20"
     ],
-    "trailing_all_zero_days_excluded": []
+    "trailing_all_zero_days_excluded": [],
+    "unknown_npm_days": [
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
+    ]
   },
   "snapshot_delta": {
     "repositories": 0,
