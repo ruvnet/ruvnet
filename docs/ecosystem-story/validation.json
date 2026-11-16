@@ -1,0 +1,821 @@
+{
+  "artifact": "Ruvnet field guide",
+  "url": "https://ruvnet-field-guide.cognitum-consulting-mail.workers.dev/",
+  "deployment": {
+    "id": "19bd7522f7414b659f3e5a267ff865fa",
+    "modified_on": "2026-11-10T22:24:07.533344Z",
+    "version": "a7bfe3a6cb7a9dd7a6bba17a680699d3cf9f7eab6a57b44ecd82cbcfba900330"
+  },
+  "responsive_browser_checks": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 812
+      },
+      "checks": [
+        {
+          "name": "self hosted font loaded",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "pass": true,
+          "detail": {
+            "documentWidth": 320
+          }
+        },
+        {
+          "name": "header controls do not overlap",
+          "pass": true
+        },
+        {
+          "name": "motion pause is reflected in accessible state",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "chapter 2 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "1"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 2",
+          "pass": true
+        },
+        {
+          "name": "chapter 3 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "2"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 3",
+          "pass": true
+        },
+        {
+          "name": "chapter 4 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "3"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 4",
+          "pass": true
+        },
+        {
+          "name": "chapter 5 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "4"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 5",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "work filter count",
+          "pass": true
+        },
+        {
+          "name": "work filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "memory filter count",
+          "pass": true
+        },
+        {
+          "name": "memory filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter count",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "all filter count",
+          "pass": true
+        },
+        {
+          "name": "all filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "package details opens",
+          "pass": true
+        },
+        {
+          "name": "dialog has a real project destination",
+          "pass": true
+        },
+        {
+          "name": "dialog closes and restores focus",
+          "pass": true
+        },
+        {
+          "name": "sources are present and readable",
+          "pass": true
+        },
+        {
+          "name": "external tabs protected",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow after interactions",
+          "pass": true
+        },
+        {
+          "name": "animations can resume",
+          "pass": true
+        }
+      ],
+      "failures": [],
+      "stages": [
+        {
+          "chapter": 1,
+          "visualBottom": 359.15625,
+          "paragraphTop": 501.03125
+        },
+        {
+          "chapter": 2,
+          "visualBottom": 359.15625,
+          "paragraphTop": 483.578125
+        },
+        {
+          "chapter": 3,
+          "visualBottom": 359.15625,
+          "paragraphTop": 509.109375
+        },
+        {
+          "chapter": 4,
+          "visualBottom": 359.15625,
+          "paragraphTop": 459.4375
+        },
+        {
+          "chapter": 5,
+          "visualBottom": 359.15625,
+          "paragraphTop": 480.15625
+        },
+        {
+          "chapter": 1,
+          "visualBottom": 359.15625,
+          "paragraphTop": 501.03125
+        }
+      ],
+      "ok": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "name": "self hosted font loaded",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "pass": true,
+          "detail": {
+            "documentWidth": 390
+          }
+        },
+        {
+          "name": "header controls do not overlap",
+          "pass": true
+        },
+        {
+          "name": "motion pause is reflected in accessible state",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "chapter 2 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "1"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 2",
+          "pass": true
+        },
+        {
+          "name": "chapter 3 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "2"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 3",
+          "pass": true
+        },
+        {
+          "name": "chapter 4 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "3"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 4",
+          "pass": true
+        },
+        {
+          "name": "chapter 5 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "4"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 5",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "work filter count",
+          "pass": true
+        },
+        {
+          "name": "work filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "memory filter count",
+          "pass": true
+        },
+        {
+          "name": "memory filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter count",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "all filter count",
+          "pass": true
+        },
+        {
+          "name": "all filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "package details opens",
+          "pass": true
+        },
+        {
+          "name": "dialog has a real project destination",
+          "pass": true
+        },
+        {
+          "name": "dialog closes and restores focus",
+          "pass": true
+        },
+        {
+          "name": "sources are present and readable",
+          "pass": true
+        },
+        {
+          "name": "external tabs protected",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow after interactions",
+          "pass": true
+        },
+        {
+          "name": "animations can resume",
+          "pass": true
+        }
+      ],
+      "failures": [],
+      "stages": [
+        {
+          "chapter": 1,
+          "visualBottom": 372.90625,
+          "paragraphTop": 553.953125
+        },
+        {
+          "chapter": 2,
+          "visualBottom": 372.90625,
+          "paragraphTop": 526.53125
+        },
+        {
+          "chapter": 3,
+          "visualBottom": 372.90625,
+          "paragraphTop": 517.21875
+        },
+        {
+          "chapter": 4,
+          "visualBottom": 372.90625,
+          "paragraphTop": 517.09375
+        },
+        {
+          "chapter": 5,
+          "visualBottom": 372.90625,
+          "paragraphTop": 542.796875
+        },
+        {
+          "chapter": 1,
+          "visualBottom": 372.90625,
+          "paragraphTop": 553.953125
+        }
+      ],
+      "ok": true
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "checks": [
+        {
+          "name": "self hosted font loaded",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "pass": true,
+          "detail": {
+            "documentWidth": 768
+          }
+        },
+        {
+          "name": "header controls do not overlap",
+          "pass": true
+        },
+        {
+          "name": "motion pause is reflected in accessible state",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "chapter 2 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "1"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 2",
+          "pass": true
+        },
+        {
+          "name": "chapter 3 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "2"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 3",
+          "pass": true
+        },
+        {
+          "name": "chapter 4 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "3"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 4",
+          "pass": true
+        },
+        {
+          "name": "chapter 5 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "4"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 5",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "work filter count",
+          "pass": true
+        },
+        {
+          "name": "work filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "memory filter count",
+          "pass": true
+        },
+        {
+          "name": "memory filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter count",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "all filter count",
+          "pass": true
+        },
+        {
+          "name": "all filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "package details opens",
+          "pass": true
+        },
+        {
+          "name": "dialog has a real project destination",
+          "pass": true
+        },
+        {
+          "name": "dialog closes and restores focus",
+          "pass": true
+        },
+        {
+          "name": "sources are present and readable",
+          "pass": true
+        },
+        {
+          "name": "external tabs protected",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow after interactions",
+          "pass": true
+        },
+        {
+          "name": "animations can resume",
+          "pass": true
+        }
+      ],
+      "failures": [],
+      "stages": [
+        {
+          "chapter": 1,
+          "visualBottom": 750.84375,
+          "paragraphTop": 411.828125
+        },
+        {
+          "chapter": 2,
+          "visualBottom": 745,
+          "paragraphTop": 383.4375
+        },
+        {
+          "chapter": 3,
+          "visualBottom": 745,
+          "paragraphTop": 399.984375
+        },
+        {
+          "chapter": 4,
+          "visualBottom": 745,
+          "paragraphTop": 360.0625
+        },
+        {
+          "chapter": 5,
+          "visualBottom": 745,
+          "paragraphTop": 371.703125
+        },
+        {
+          "chapter": 1,
+          "visualBottom": 750.84375,
+          "paragraphTop": 411.828125
+        }
+      ],
+      "ok": true
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "checks": [
+        {
+          "name": "self hosted font loaded",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "pass": true,
+          "detail": {
+            "documentWidth": 1440
+          }
+        },
+        {
+          "name": "header controls do not overlap",
+          "pass": true
+        },
+        {
+          "name": "motion pause is reflected in accessible state",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "chapter 2 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "1"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 2",
+          "pass": true
+        },
+        {
+          "name": "chapter 3 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "2"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 3",
+          "pass": true
+        },
+        {
+          "name": "chapter 4 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "3"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 4",
+          "pass": true
+        },
+        {
+          "name": "chapter 5 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "4"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 5",
+          "pass": true
+        },
+        {
+          "name": "chapter 1 follows navigation",
+          "pass": true,
+          "detail": {
+            "actual": "0"
+          }
+        },
+        {
+          "name": "only one illustration visible at chapter 1",
+          "pass": true
+        },
+        {
+          "name": "work filter count",
+          "pass": true
+        },
+        {
+          "name": "work filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "memory filter count",
+          "pass": true
+        },
+        {
+          "name": "memory filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter count",
+          "pass": true
+        },
+        {
+          "name": "evaluate filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "all filter count",
+          "pass": true
+        },
+        {
+          "name": "all filter accessible state",
+          "pass": true
+        },
+        {
+          "name": "package details opens",
+          "pass": true
+        },
+        {
+          "name": "dialog has a real project destination",
+          "pass": true
+        },
+        {
+          "name": "dialog closes and restores focus",
+          "pass": true
+        },
+        {
+          "name": "sources are present and readable",
+          "pass": true
+        },
+        {
+          "name": "external tabs protected",
+          "pass": true
+        },
+        {
+          "name": "no horizontal overflow after interactions",
+          "pass": true
+        },
+        {
+          "name": "animations can resume",
+          "pass": true
+        }
+      ],
+      "failures": [],
+      "stages": [
+        {
+          "chapter": 1,
+          "visualBottom": 749.71875,
+          "paragraphTop": 426.59375
+        },
+        {
+          "chapter": 2,
+          "visualBottom": 745,
+          "paragraphTop": 387.40625
+        },
+        {
+          "chapter": 3,
+          "visualBottom": 745,
+          "paragraphTop": 417.25
+        },
+        {
+          "chapter": 4,
+          "visualBottom": 745,
+          "paragraphTop": 387.40625
+        },
+        {
+          "chapter": 5,
+          "visualBottom": 745,
+          "paragraphTop": 427.9375
+        },
+        {
+          "chapter": 1,
+          "visualBottom": 749.71875,
+          "paragraphTop": 426.59375
+        }
+      ],
+      "ok": true
+    }
+  ],
+  "validation_mode": {
+    "responsive": "Cloudflare Chromium rendering of the complete page with identical font bytes embedded for origin isolation. All 31 interaction checks pass at each viewport.",
+    "live": "Cloud browser inspected the deployed desktop page and exercised chapter selection, filtering, dialog close, Escape focus restoration and motion controls. Cloudflare browser rendering inspected the live 390x844 page.",
+    "native_runner": "Local Chromium could not start because the environment denies the process singleton socket. The repository Playwright runner was written but was not executed locally.",
+    "reduced_motion": "System preference branch is implemented and statically reviewed. Native reduced motion emulation was not executed. Pause and resume controls were exercised.",
+    "browsers": "Chromium only. Safari and Firefox were not exercised.",
+    "origin_checks": "Local HTTP requests to workers.dev were denied with HTTP 403 by this environment. Public root and health status/headers were verified through Cloudflare browser rendering; the complete deployed Worker module matched the local module byte for byte through the Cloudflare download API."
+  },
+  "scope": "Only the new field guide Worker and docs/ecosystem-story source files. Metrics source datasets, schedules, main README and other deployed applications unchanged.",
+  "outcome": "Published on Cloudflare, deployed module read back byte for byte, public root and health watermark verified. Source and tests retained in the containing GitHub change.",
+  "cloudflare_module_readback": {
+    "byteExactModule": true,
+    "version": "a7bfe3a6cb7a9dd7a6bba17a680699d3cf9f7eab6a57b44ecd82cbcfba900330"
+  },
+  "live_http_readbacks": [
+    {
+      "success": true,
+      "url": "https://ruvnet-field-guide.cognitum-consulting-mail.workers.dev/",
+      "status": 200,
+      "version": "a7bfe3a6cb7a9dd7a6bba17a680699d3cf9f7eab6a57b44ecd82cbcfba900330",
+      "csp": "default-src 'none'; script-src 'sha256-oo9nYA4nYB5SfyC57T8NG+DWCdhWVQjmUQIvgNHommI='; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    },
+    {
+      "success": true,
+      "url": "https://ruvnet-field-guide.cognitum-consulting-mail.workers.dev/health",
+      "status": 200,
+      "version": "a7bfe3a6cb7a9dd7a6bba17a680699d3cf9f7eab6a57b44ecd82cbcfba900330",
+      "csp": "default-src 'none'; script-src 'sha256-oo9nYA4nYB5SfyC57T8NG+DWCdhWVQjmUQIvgNHommI='; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    }
+  ],
+  "worker_tests": {
+    "command": "node --test docs/ecosystem-story/worker.test.mjs",
+    "passed": 3,
+    "failed": 0
+  },
+  "live_chapters": [
+    {
+      "requested": 1,
+      "observed": 1
+    },
+    {
+      "requested": 2,
+      "observed": 2
+    },
+    {
+      "requested": 3,
+      "observed": 3
+    },
+    {
+      "requested": 4,
+      "observed": 4
+    },
+    {
+      "requested": 5,
+      "observed": 5
+    },
+    {
+      "requested": 1,
+      "observed": 1
+    }
+  ]
+}
+
