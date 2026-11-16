@@ -162,18 +162,15 @@ class RegistryRefreshTest(unittest.TestCase):
             self.assertEqual(updated['source_watermark'],original['source_watermark'])
             self.assertEqual(updated['npm']['daily_latest'],original['npm']['daily_latest'])
 
-    def test_new_npm_package_404_is_retried_without_inventing_zero(self):
+    def test_uncoordinated_npm_request_never_observes_404_or_429(self):
         url='https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/new-package'
-        error=urllib.error.HTTPError(url,404,'Not Found',{},None)
-        with patch.object(refresh.urllib.request,'urlopen',side_effect=[error,io.BytesIO(b'{"downloads": 17}')]), patch.object(refresh.time,'sleep') as sleep:
-            body,receipt=refresh.fetch_json(url)
-        self.assertEqual(body['downloads'],17)
-        self.assertEqual(receipt['source'],url)
-        sleep.assert_called_once()
-        with patch.object(refresh.urllib.request,'urlopen',side_effect=error) as fetch, patch.object(refresh.time,'sleep'):
-            with self.assertRaisesRegex(refresh.NpmRangeNotFound,'previous verified data retained'):
-                refresh.fetch_json(url)
-        self.assertEqual(fetch.call_count,8)
+        for status in (404, 429):
+            error=urllib.error.HTTPError(url,status,'Blocked',{},None)
+            with self.subTest(status=status), patch.object(refresh.urllib.request,'urlopen',side_effect=error) as fetch, patch.object(refresh.time,'sleep') as sleep:
+                with self.assertRaisesRegex(RuntimeError,'published data is retained'):
+                    refresh.fetch_json(url)
+                fetch.assert_not_called()
+                sleep.assert_not_called()
 
     def test_registry_milestone_refreshes_from_evidence_idempotently(self):
         registry=json.loads((ROOT/'data/registry-stats.json').read_text())
