@@ -1,0 +1,43 @@
+name: Constellation compatibility
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/constellation-compatibility.yml'
+      - 'docs/constellation-adoption.md'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: constellation-compatibility-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  satellite-structure:
+    name: Inspect ${{ matrix.repository }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - repository: ruvnet/ruv-FANN
+            expected: packages/wsp/README.md
+          - repository: ruvnet/ruflo
+            expected: README.md
+    steps:
+      - name: Checkout satellite (read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repository }}
+          persist-credentials: false
+          path: satellite
+      - name: Validate documented integration entrypoint
+        env:
+          EXPECTED: ${{ matrix.expected }}
+        run: |
+          test -f "satellite/$EXPECTED"
+          echo "Verified $EXPECTED"
+          git -C satellite rev-parse HEAD
