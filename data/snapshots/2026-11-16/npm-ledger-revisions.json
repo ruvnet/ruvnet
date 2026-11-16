@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-11-16T14:08:56.772457+00:00",
+  "revisions": [
+    {
+      "key": "npm|@agentic-robotics/cli|downloads|2026-11-15",
+      "prior": 0,
+      "current": 5,
+      "source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-15.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}

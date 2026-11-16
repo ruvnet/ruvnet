@@ -1,38 +1,6 @@
 {
-  "retrieved_at": "2026-11-16T05:42:34.125514Z",
+  "retrieved_at": "2026-11-16T14:08:29.196524Z",
   "source": "https://crates.io/api/v1/crates?user_id=339999",
-  "responses": [
-    {
-      "source": "https://crates.io/api/v1/crates?page=1&per_page=100&user_id=339999",
-      "retrieved_at": "2026-11-16T05:42:28.373307Z",
-      "response_sha256": "928681eed855c78c9242acbfb73d1aadfacbc057d07b119a6c418ef2787214ec"
-    },
-    {
-      "source": "https://crates.io/api/v1/crates?page=2&per_page=100&user_id=339999",
-      "retrieved_at": "2026-11-16T05:42:29.520119Z",
-      "response_sha256": "38d77eff938cb8b77ab311673ca378d9a9fd2721fdd9b91bd1f4cbfe773d2e52"
-    },
-    {
-      "source": "https://crates.io/api/v1/crates?page=3&per_page=100&user_id=339999",
-      "retrieved_at": "2026-11-16T05:42:30.676389Z",
-      "response_sha256": "8e471109c0f8c27f9b925e85056241ed86c4ad3f95be342b2b8b63b2ad3955bf"
-    },
-    {
-      "source": "https://crates.io/api/v1/crates?page=4&per_page=100&user_id=339999",
-      "retrieved_at": "2026-11-16T05:42:31.834503Z",
-      "response_sha256": "86164a63c9adac0f4f1761d31190a67c3ca53967eaa8566e46bd16947cae6e04"
-    },
-    {
-      "source": "https://crates.io/api/v1/crates?page=5&per_page=100&user_id=339999",
-      "retrieved_at": "2026-11-16T05:42:32.980797Z",
-      "response_sha256": "046551a1abd63f865fb7a8ee88eede0847091ffb9b0551fc1afb5acb4e9b8b58"
-    },
-    {
-      "source": "https://crates.io/api/v1/crates?page=6&per_page=100&user_id=339999",
-      "retrieved_at": "2026-11-16T05:42:34.125514Z",
-      "response_sha256": "356bf98171cfd5410c86470fcfafc4e3e69c743997dfbdb4d309d884b430bd29"
-    }
-  ],
   "crates": [
     {
       "id": "agentic-jujutsu",
@@ -68,7 +36,7 @@
     },
     {
       "id": "aimds-core",
-      "downloads": 8779
+      "downloads": 8800
     },
     {
       "id": "aimds-detection",
@@ -124,15 +92,15 @@
     },
     {
       "id": "cognitum-gate-kernel",
-      "downloads": 67091
+      "downloads": 67097
     },
     {
       "id": "cognitum-gate-tilezero",
-      "downloads": 26233
+      "downloads": 26234
     },
     {
       "id": "cognitum-one",
-      "downloads": 117
+      "downloads": 118
     },
     {
       "id": "cognitum-rs",
@@ -208,7 +176,7 @@
     },
     {
       "id": "exo-core",
-      "downloads": 2174
+      "downloads": 2175
     },
     {
       "id": "exo-exotic",
@@ -432,7 +400,7 @@
     },
     {
       "id": "lean-agentic",
-      "downloads": 108690
+      "downloads": 108788
     },
     {
       "id": "leanr-rag-gateway",
@@ -476,7 +444,7 @@
     },
     {
       "id": "midstreamer-attractor",
-      "downloads": 79857
+      "downloads": 79947
     },
     {
       "id": "midstreamer-neural-solver",
@@ -484,11 +452,11 @@
     },
     {
       "id": "midstreamer-quic",
-      "downloads": 65132
+      "downloads": 65243
     },
     {
       "id": "midstreamer-scheduler",
-      "downloads": 62296
+      "downloads": 62385
     },
     {
       "id": "midstreamer-strange-loop",
@@ -496,7 +464,7 @@
     },
     {
       "id": "midstreamer-temporal-compare",
-      "downloads": 80140
+      "downloads": 80229
     },
     {
       "id": "nano-consciousness",
@@ -504,7 +472,7 @@
     },
     {
       "id": "nanosecond-scheduler",
-      "downloads": 77396
+      "downloads": 77495
     },
     {
       "id": "neural-trader-predictor",
@@ -648,11 +616,11 @@
     },
     {
       "id": "qudag-crypto",
-      "downloads": 7945
+      "downloads": 7947
     },
     {
       "id": "qudag-dag",
-      "downloads": 6404
+      "downloads": 6405
     },
     {
       "id": "qudag-exchange",
@@ -680,7 +648,7 @@
     },
     {
       "id": "qudag-vault-core",
-      "downloads": 4966
+      "downloads": 4967
     },
     {
       "id": "qudag-wasm",
@@ -904,7 +872,7 @@
     },
     {
       "id": "ruv-swarm-core",
-      "downloads": 5243
+      "downloads": 5244
     },
     {
       "id": "ruv-swarm-daa",
@@ -916,7 +884,7 @@
     },
     {
       "id": "ruv-swarm-ml",
-      "downloads": 2210
+      "downloads": 2211
     },
     {
       "id": "ruv-swarm-ml-training",
@@ -928,7 +896,7 @@
     },
     {
       "id": "ruv-swarm-transport",
-      "downloads": 1902
+      "downloads": 1903
     },
     {
       "id": "ruv-swarm-wasm",
@@ -956,7 +924,7 @@
     },
     {
       "id": "ruvector-attention",
-      "downloads": 100268
+      "downloads": 100394
     },
     {
       "id": "ruvector-attention-node",
@@ -972,7 +940,7 @@
     },
     {
       "id": "ruvector-attn-mincut",
-      "downloads": 72132
+      "downloads": 72222
     },
     {
       "id": "ruvector-bounded-rag",
@@ -1032,11 +1000,11 @@
     },
     {
       "id": "ruvector-core",
-      "downloads": 261565
+      "downloads": 261794
     },
     {
       "id": "ruvector-crv",
-      "downloads": 22031
+      "downloads": 22060
     },
     {
       "id": "ruvector-dag",
@@ -1096,7 +1064,7 @@
     },
     {
       "id": "ruvector-domain-expansion",
-      "downloads": 3321
+      "downloads": 3325
     },
     {
       "id": "ruvector-domain-expansion-wasm",
@@ -1104,7 +1072,7 @@
     },
     {
       "id": "ruvector-e-means",
-      "downloads": 77
+      "downloads": 79
     },
     {
       "id": "ruvector-economy-wasm",
@@ -1136,7 +1104,7 @@
     },
     {
       "id": "ruvector-gnn",
-      "downloads": 26979
+      "downloads": 27011
     },
     {
       "id": "ruvector-gnn-node",
@@ -1152,7 +1120,7 @@
     },
     {
       "id": "ruvector-graph",
-      "downloads": 9335
+      "downloads": 9343
     },
     {
       "id": "ruvector-graph-condense",
@@ -1192,7 +1160,7 @@
     },
     {
       "id": "ruvector-hyperbolic-hnsw",
-      "downloads": 66874
+      "downloads": 66880
     },
     {
       "id": "ruvector-kge",
@@ -1216,7 +1184,7 @@
     },
     {
       "id": "ruvector-math",
-      "downloads": 2150
+      "downloads": 2151
     },
     {
       "id": "ruvector-math-wasm",
@@ -1244,11 +1212,11 @@
     },
     {
       "id": "ruvector-mincut",
-      "downloads": 217932
+      "downloads": 218125
     },
     {
       "id": "ruvector-mincut-gated-transformer",
-      "downloads": 24363
+      "downloads": 24364
     },
     {
       "id": "ruvector-mincut-gated-transformer-wasm",
@@ -1280,7 +1248,7 @@
     },
     {
       "id": "ruvector-onnx-embeddings",
-      "downloads": 608
+      "downloads": 609
     },
     {
       "id": "ruvector-onnx-embeddings-wasm",
@@ -1380,7 +1348,7 @@
     },
     {
       "id": "ruvector-solver",
-      "downloads": 75372
+      "downloads": 75470
     },
     {
       "id": "ruvector-solver-node",
@@ -1392,7 +1360,7 @@
     },
     {
       "id": "ruvector-sona",
-      "downloads": 69776
+      "downloads": 69782
     },
     {
       "id": "ruvector-spann",
@@ -1428,7 +1396,7 @@
     },
     {
       "id": "ruvector-temporal-tensor",
-      "downloads": 70269
+      "downloads": 70364
     },
     {
       "id": "ruvector-temporal-tensor-wasm",
@@ -1452,7 +1420,7 @@
     },
     {
       "id": "ruvector-turboquant",
-      "downloads": 18901
+      "downloads": 18910
     },
     {
       "id": "ruvector-turbovec",
@@ -1584,7 +1552,7 @@
     },
     {
       "id": "ruvllm",
-      "downloads": 68167
+      "downloads": 68173
     },
     {
       "id": "ruvllm-cli",
@@ -1696,7 +1664,7 @@
     },
     {
       "id": "rvf-crypto",
-      "downloads": 4212
+      "downloads": 4248
     },
     {
       "id": "rvf-ebpf",
@@ -1716,7 +1684,7 @@
     },
     {
       "id": "rvf-index",
-      "downloads": 3031
+      "downloads": 3064
     },
     {
       "id": "rvf-kernel",
@@ -1732,11 +1700,11 @@
     },
     {
       "id": "rvf-quant",
-      "downloads": 2971
+      "downloads": 3004
     },
     {
       "id": "rvf-runtime",
-      "downloads": 6086
+      "downloads": 6120
     },
     {
       "id": "rvf-server",
@@ -1748,7 +1716,7 @@
     },
     {
       "id": "rvf-types",
-      "downloads": 11952
+      "downloads": 11993
     },
     {
       "id": "rvf-wasm",
@@ -1756,7 +1724,7 @@
     },
     {
       "id": "rvf-wire",
-      "downloads": 2507
+      "downloads": 2539
     },
     {
       "id": "rvforge-registry",
@@ -1868,11 +1836,11 @@
     },
     {
       "id": "strange-loop",
-      "downloads": 78496
+      "downloads": 78598
     },
     {
       "id": "subjective-time-expansion",
-      "downloads": 77200
+      "downloads": 77299
     },
     {
       "id": "sublinear",
@@ -1904,7 +1872,7 @@
     },
     {
       "id": "temporal-attractor-studio",
-      "downloads": 76138
+      "downloads": 76237
     },
     {
       "id": "temporal-compare",
@@ -1916,7 +1884,7 @@
     },
     {
       "id": "temporal-neural-solver",
-      "downloads": 68651
+      "downloads": 68744
     },
     {
       "id": "thermorust",
@@ -2037,6 +2005,50 @@
     {
       "id": "wifi-densepose-worldmodel",
       "downloads": 43
+    }
+  ],
+  "responses": [
+    {
+      "source": "https://crates.io/api/v1/crates?page=1&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-16T14:08:17.486063Z",
+      "response_sha256": "a2f96fc9cf24e8e8b42dd1314bb16bc2b4ed1775278bd98e594044288d611780",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=2&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-16T14:08:19.850689Z",
+      "response_sha256": "13001bc826c3eff6a4a084ff909e56dbb573cb71d20578555272a17d16625d48",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=3&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-16T14:08:22.158122Z",
+      "response_sha256": "fe67843ef6b7fbe7035c03b2d11e1ef90950aa88961014a8fd5a8fae17ae3977",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=4&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-16T14:08:24.525763Z",
+      "response_sha256": "b6f2a5d5bc48ec8f5355bc7ae52829cb5fc37480bb7f760f123a80156f098e06",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=5&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-16T14:08:26.883258Z",
+      "response_sha256": "420e1e6de5290dd50de490c8015ab7c2d46ff4e9056ca20dd9c675ff1203adc6",
+      "declared_total": 501,
+      "returned_rows": 100
+    },
+    {
+      "source": "https://crates.io/api/v1/crates?page=6&per_page=100&user_id=339999",
+      "retrieved_at": "2026-11-16T14:08:29.196112Z",
+      "response_sha256": "356bf98171cfd5410c86470fcfafc4e3e69c743997dfbdb4d309d884b430bd29",
+      "declared_total": 501,
+      "returned_rows": 1
     }
   ]
 }

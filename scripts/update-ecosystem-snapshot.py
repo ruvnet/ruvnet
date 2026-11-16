@@ -206,6 +206,9 @@ def main():
     coverage_counts = {d: len(v) for d, v in sorted(coverage.items())}
     expected = [(dt.date.fromisoformat(window_start) + dt.timedelta(days=i)).isoformat() for i in range(14)]
     missing_days = [d for d in expected if coverage_counts.get(d, 0) != registry['npm']['package_count']]
+    prior_attempt = read('data/ecosystem-running-totals.json').get('npm', {}).get('daily_attempt', {})
+    if prior_attempt.get('provider_data_provisional') and window_start <= prior_attempt.get('day', '') <= window_end:
+        missing_days = sorted(set(missing_days) | {prior_attempt['day']})
     npm_errors = ledger.get('coverage', {}).get('errors', [])
     if npm_errors:
         npm_gap_sentence = (
@@ -240,11 +243,12 @@ def main():
                        'inventory packages collected; all-package-zero dates are unknown (null), '
                        'not verified zero; provider latency may remain'),
             'all_zero_cohort_days': [d for d, value in daily.items() if value == 0],
-            'latest_confirmed_daily': registry_refresh.latest_daily_summary(registry['npm'], npm_receipt),
-            'provisional_days': sorted(set(missing_days) & set(unknown_npm_days)),
+            'latest_registry_reported_daily': registry_refresh.latest_daily_summary(registry['npm'], npm_receipt),
+            'latest_confirmed_daily': (running.get('npm', {}).get('daily_latest') if running.get('npm', {}).get('daily_latest', {}).get('coverage_complete') else registry_refresh.latest_daily_summary(registry['npm'], npm_receipt)),
+            'provisional_days': sorted((set(missing_days) & set(unknown_npm_days)) | ({prior_attempt['day']} if prior_attempt.get('provider_data_provisional') and prior_attempt.get('day') in missing_days else set())),
             'confirmed_days': len(expected) - len(missing_days),
             'unknown_days': missing_days,
-            'note': 'Confirmed download events only; unknown all-package-zero dates are null, not zero; not lifetime downloads.',
+            'note': 'Observed provider events; provisional days are separate, unknown all-package-zero dates remain null; not lifetime downloads.',
         },
         crates_io={'crate_count': crates['crate_count'], 'cumulative_downloads': crates['cumulative_downloads'], 'verified_at': crates['verified_at'], 'source': 'https://crates.io/api/v1/crates?user_id=339999'},
         release_assets=release_stats,
@@ -343,7 +347,8 @@ def main():
         'github_activity_end': window_end,
         'npm_14_day_start': window_start,
         'npm_14_day_end': window_end,
-        'npm_14_day_confirmed_download_events': running['npm']['observed_downloads'],
+        'npm_14_day_confirmed_download_events': None if running['npm']['unknown_days'] else running['npm']['observed_downloads'],
+        'npm_14_day_observed_download_events_lower_bound': running['npm']['observed_downloads'],
         'npm_14_day_unknown_days': running['npm']['unknown_days'],
         'npm_14_day_complete_utc_days': len(expected),
         'npm_14_day_confirmed_days': running['npm']['confirmed_days'],

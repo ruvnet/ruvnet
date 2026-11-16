@@ -8,6 +8,24 @@ import xml.etree.ElementTree as ET
 NS = 'http://www.w3.org/2000/svg'
 ROOT = Path(__file__).resolve().parents[1]
 
+def validate_goal_revision(running, read_json):
+    goal = running['npm_billion_goal']
+    adjustment = goal.get('baseline_covered_day_revision_adjustment', 0)
+    if not adjustment:
+        return
+    receipt = read_json('data/snapshots/' + running['source_watermark']['snapshot_date'] + '/collection-receipt.json')['applied_reconciliation']
+    source = read_json(goal['baseline_revision_source'])
+    row = source['results'][0]
+    point = row['body']['downloads'][0]
+    assert receipt['canonical_applied'] is True
+    assert receipt['key'] == 'npm|' + row['package'] + '|downloads|' + point['day']
+    assert receipt['current'] == point['downloads']
+    assert adjustment == receipt['current'] - receipt['prior'], 'Incorrect covered-day revision adjustment'
+    assert receipt['source'] == goal['baseline_revision_source']
+    assert receipt['source_sha256'] == hashlib.sha256(json.dumps(source, indent=2).encode() + b'\n').hexdigest()
+    assert goal['verified_at'] == row['receipt']['retrieved_at']
+    assert goal['observed_download_events_lower_bound'] == goal['baseline_download_events'] + adjustment + goal['nonoverlapping_daily_increment']
+
 def canonical(running):
     goal = running['npm_billion_goal']
     latest = running['npm']['daily_latest']
@@ -32,6 +50,8 @@ def canonical(running):
         'crates_at': running['crates_io']['verified_at'],
         'assets_at': watermark['github_verified_at'],
         'packages': running['npm']['expected_packages'],
+        'provisional_dates': goal.get('provisional_dates', []),
+        'provisional_events': goal.get('provisional_observed_downloads'),
         'missing': sorted(set(goal.get('missing_increment_dates', []) + goal.get('historical_unknown_dates', [])))
     }
 
@@ -69,6 +89,7 @@ def apply_downloads(root, running, npm):
         f"Npm only: {c['npm']:,} observed download events since {c['start']} through {c['through']}; "
         f"lower bound, historical coverage gaps retained, current inventory {c['packages']} packages. "
         f"Unknown source dates: {', '.join(c['missing']) or 'none'}. "
+        f"Provisional provider dates: {', '.join(c['provisional_dates']) or 'none'}; observed events {c['provisional_events']}. "
         f"Latest complete npm UTC day {latest['day']}: {latest['downloads']:,} events, "
         f"{latest['collected_packages']}/{latest['expected_packages']} packages, retrieved {latest['verified_at']}. "
         f"Crates.io cumulative downloads: {c['crates']:,}, retrieved {c['crates_at']}. "
@@ -101,10 +122,14 @@ def verify_downloads(root, running):
     desc = root.find(f'{{{NS}}}desc').text
     for value in [f"Npm only: {c['npm']:,}", c['start'], c['through'], 'lower bound', c['watermark'], c['latest']['day'], f"{c['crates']:,}", f"{c['assets']:,}", 'Historical chart only:']:
         assert value in desc, f'Stale accessible description: {value}'
+    provisional = f"Provisional provider dates: {', '.join(c['provisional_dates']) or 'none'}; observed events {c['provisional_events']}."
+    assert provisional in desc, 'Stale provisional provider disclosure'
+    assert f"current inventory {c['packages']} packages" in desc, 'Stale inventory coverage'
     return c
 
 if __name__ == '__main__':
     running = json.loads((ROOT / 'data/ecosystem-running-totals.json').read_text())
+    validate_goal_revision(running, lambda p: json.loads((ROOT / p).read_text()))
     root = ET.parse(ROOT / 'assets/ruvnet/dashboard.svg').getroot()
     result = verify_downloads(root, running)
     # Reproduce the original stale-source defect by substituting the old mixed total.

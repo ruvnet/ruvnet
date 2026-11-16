@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-11-16",
+  "default_branch_base_sha": "fa4d3b77cbdadbe766e84d21a6f0ed9cd9c3494d",
+  "github_verified_at": "2026-11-16T14:08:33.164546+00:00",
+  "npm_inventory_verified_at": "2026-11-16T14:08:16.139388Z",
+  "npm_downloads_verified_at": "2026-11-16T05:42:27.470459Z",
+  "npm_daily_verified_at": "2026-11-16T14:08:56.772457+00:00",
+  "crates_io_verified_at": "2026-11-16T14:08:29.196524Z",
+  "public_repository_ids": 234,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-11-02",
+    "end": "2026-11-15",
+    "complete_days": 14
+  },
+  "source_version": "ecosystem snapshot v1 with independent completed daily range overlay",
+  "traffic_coverage": {
+    "expected_cells_per_metric": 3276,
+    "missing_cells_per_metric": {
+      "clones": 234,
+      "views": 234
+    },
+    "fresh_api_cells_per_metric": {
+      "clones": 3042,
+      "views": 3042
+    },
+    "historical_backfill_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "precreation_zero_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "repositories": 234
+  },
+  "npm_coverage": {
+    "packages": 429,
+    "range_packages": 429,
+    "daily_observed_packages": 429,
+    "daily_date": "2026-11-15",
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 501
+  },
+  "release_coverage": {
+    "repositories": 234,
+    "releases": 2563,
+    "assets": 1093
+  },
+  "github_pagination": {
+    "per_page": 100,
+    "terminal_page": 4,
+    "terminal_page_count": 0,
+    "unique_repository_ids": 234,
+    "complete": true
+  },
+  "actions_runs": null,
+  "actions_blocker": "GitHub Actions complete window enumeration not performed within the bounded API budget; no workflow activity total claimed.",
+  "refresh-registry-metrics.py_sha256": "1d2b5f1e10ce7280c6edbf898cc1e372de305812136d2d6ebad1fdb3f77d81d5",
+  "update-ecosystem-snapshot.py_sha256": "2b9d43a2dca680134e66e7f5aa580605784c814209b79280a875b160d314b729",
+  "render-visual-profile.py_sha256": "9ebda1c12e327cb6ac0987c3e1915efc7a7484fd07d58673ddb173d91ebcf1cd",
+  "profile_downloads.py_sha256": "b82db50b69f8394925c3ac8f915f94616a464058d274d8620ff63223e4a9577d",
+  "render-registry-metrics.mjs_sha256": "a389fb446e0c1fb0c4308de359b4ca12fc6de0434be645cf8d1a37538c038bd6",
+  "verify-profile.mjs_sha256": "b1fd6c52e6965fd6d295d0f58765ed8e10a622203d4b83cd06d9cca43ff4640c",
+  "collector_sha256": "1d2b5f1e10ce7280c6edbf898cc1e372de305812136d2d6ebad1fdb3f77d81d5",
+  "github_adapter_sha256": "60e462c8fad43137f2e47c44caebdf892b37392c5b9144de0f658520d3649561",
+  "source_sha256": {
+    "github-inventory.json": "636892d1d264c22bbd4ee6c10d39a94dc376c3403833c27f95643f15542ed207",
+    "github-release-inventory.json": "9cfaf2880acd9216eaf82b46bd1464b9d5e26c8c073a057c521c9ef3c4ae21c0",
+    "github-traffic-inventory.json": "062c3a0ef3e17bc75de6e8e260a9223e1ac28d0a934c0030134c25b937b40c6e",
+    "npm-inventory.json": "2ab19bdd20cfe0b043cd53ea764aa1ae4958298f3ee1db34520e59b42fd7d12e",
+    "crates-inventory.json": "7f41b83c734e76f77f9456f23f3958dd8438d022f30523ccf88a8b46795286b5",
+    "npm-reconciled-2026-11-02.json": "b9a0aff1c3cfae8f8317633933cc42283169977c81234933d35b1e1fe4939129",
+    "npm-reconciled-2026-11-03.json": "3e90aeda4f6e05d499c46a5f7e560b3a00fc5f86dbe00c4b7ee602d2b14cb82b",
+    "npm-reconciled-2026-11-04.json": "41c19b126e1a8c4ecf3111e5894a4bc61fe797dbe993bb934c6ce5e1da568b1c",
+    "npm-reconciled-2026-11-05.json": "c7ed033bedde1a113e38c08fe4f571a2b7f122bc315f605a95f1a8d9c3220ebd",
+    "npm-reconciled-2026-11-06.json": "879536dc818969bc529b5617871bd550325c3cb7dc46c4ab07d0308f7730012d",
+    "npm-reconciled-2026-11-07.json": "36c5e6cd4d6d281a4d8845fefe692846a3484837718d6cb180a3929322f0b5a8",
+    "npm-reconciled-2026-11-08.json": "00ad2f1a69abb269c7e51085658d118ca2cffcfc06ce67de86e6ca594ee976fe",
+    "npm-reconciled-2026-11-09.json": "012dae9c3443978b6624df9d7995a5aab7510081e86b433323be6cbd556dfd83",
+    "npm-reconciled-2026-11-10.json": "04f214040e83eb792b066a30a3397a18abf44c61c39041eedd9d4a3897fd5994",
+    "npm-reconciled-2026-11-11.json": "5d6132296bf52cb2acaaff9643a69893e47564d8d66e4104f28fbdec8d87f363",
+    "npm-reconciled-2026-11-12.json": "728d24304c369fb11c7ae1b82546a8eeedcd2b2b79cc13cc5efed9e66687aeba",
+    "npm-reconciled-2026-11-13.json": "23bf7c0c083a4cdcc7624867d9d922adf9b1b5affd243c3c96d53c8c50d0792b",
+    "npm-reconciled-2026-11-14.json": "adb4d26ee629bb0033979e7c1851e4f25535eefa65d178369aaf2951f08fccff",
+    "npm-reconciled-2026-11-15.json": "1b19ecc244bc9a7b3b337c8176f4ee7ba0ae71371b5592a4c1576ef245382fcd",
+    "npm-weekly-subset.json": "5cbb766daacc3c547d1debe6c3cad51654f26b5806c85551b93334a42069a54d",
+    "npm-new-manifests.json": "71d70eea22173bc49152236fdd4f2ccd9a683a9183f45db4df25775cdfbdcb10",
+    "npm-downloads.json": "da7452e2d272fbebd69134054c07ccb18987b26cb357dc3ff0d4d2ae9d9994fb",
+    "npm-cached-ledger-ranges.json": "dbede504b4731ac4c81257d2ac8132b5cb2f4ed0df3b65632858f0f1f20854b9",
+    "integration-health-receipt.json": "f410a99ce9720201ac0552bef0be614d6caf215e5fa990d0a8fddf5e959f0d49",
+    "package-weave-plan.json": "5208c32293618cd3dd907fa4a51577eb94d3a8ad4b0c95577a87a0057b83095d",
+    "registry-validation.json": "499e06b3fefd592593bb55d459a6cbbd30a2f157b355455b8796f36f659a505a",
+    "npm-intentional-partial-revision.json": "8bc246436a5e0806612c5544c48ae31c64dd9224f1969b1fa6eabc1e719e19e9"
+  }
+}

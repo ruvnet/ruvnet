@@ -16,7 +16,8 @@ const downloadDate = date(npm.downloads_verified_at || data.generated_at);
 const crateDate = date(crates.verified_at || data.generated_at);
 const cohort = npm.download_package_count ?? npm.package_count;
 const receipt = npm.downloads_evidence_path ? JSON.parse(read(npm.downloads_evidence_path)) : null;
-const latestDay = receipt?.daily_totals.find(row => row.day === receipt.reported_through);
+const registryReportedDay = receipt?.daily_totals.find(row => row.day === receipt.reported_through);
+const latestDay = runningTotals.npm.daily_latest?.coverage_complete ? runningTotals.npm.daily_latest : registryReportedDay;
 const unavailable = receipt?.unavailable_packages ?? [];
 const total = npm.package_count + crates.crate_count + metrics.counts.pypi_packages + metrics.counts.huggingface_models_and_spaces;
 const retained = downloadDate !== inventoryDate || cohort !== npm.package_count;
@@ -114,7 +115,8 @@ if (runningTotals?.npm) {
   Object.assign(metrics.current_windows, {
     npm_14_day_start: runningTotals.npm.period_start,
     npm_14_day_end: runningTotals.npm.period_end,
-    npm_14_day_confirmed_download_events: runningTotals.npm.observed_downloads,
+    npm_14_day_confirmed_download_events: runningTotals.npm.unknown_days.length ? null : runningTotals.npm.observed_downloads,
+    npm_14_day_observed_download_events_lower_bound: runningTotals.npm.observed_downloads,
     npm_14_day_unknown_days: runningTotals.npm.unknown_days,
     npm_14_day_complete_utc_days: npmWindowDays,
     npm_14_day_confirmed_days: runningTotals.npm.confirmed_days,

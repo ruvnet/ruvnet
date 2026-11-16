@@ -133,7 +133,8 @@ assert.equal(metrics.current_windows.github_activity_start, watermark.activity_w
 assert.equal(metrics.current_windows.github_activity_end, watermark.activity_window_utc.end);
 assert.equal(metrics.current_windows.npm_14_day_start, running.npm.period_start);
 assert.equal(metrics.current_windows.npm_14_day_end, running.npm.period_end);
-assert.equal(metrics.current_windows.npm_14_day_confirmed_download_events, running.npm.observed_downloads);
+assert.equal(metrics.current_windows.npm_14_day_confirmed_download_events, running.npm.unknown_days.length ? null : running.npm.observed_downloads);
+assert.equal(metrics.current_windows.npm_14_day_observed_download_events_lower_bound, running.npm.observed_downloads);
 assert.deepEqual(metrics.current_windows.npm_14_day_unknown_days, running.npm.unknown_days);
 assert.equal(metrics.current_windows.npm_14_day_complete_utc_days,
   (Date.parse(running.npm.period_end) - Date.parse(running.npm.period_start)) / 86400000 + 1);
@@ -150,13 +151,15 @@ if (npm.download_package_count === npm.package_count && npm.period_end >= goal.b
 }
 if (goal.verified_at) {
   const baseline = json(goal.baseline_source);
-  assert.equal(goal.verified_at, baseline.retrieved_at);
+  const adjustment = goal.baseline_covered_day_revision_adjustment || 0;
+  const revision = adjustment ? json(goal.baseline_revision_source).results[0].receipt : null;
+  assert.equal(goal.verified_at, revision?.retrieved_at || baseline.retrieved_at);
   assert.equal(goal.observed_since, baseline.requested_start);
   assert.equal(goal.baseline_through, baseline.reported_through);
   assert.equal(goal.nonoverlapping_daily_increment, 0);
   assert.deepEqual(goal.increment_dates, []);
   assert.equal(goal.observed_download_events_lower_bound,
-    baseline.daily_totals.filter(row => row.day <= baseline.reported_through).reduce((sum,row)=>sum+(row.downloads ?? 0),0));
+    baseline.daily_totals.filter(row => row.day <= baseline.reported_through).reduce((sum,row)=>sum+(row.downloads ?? 0),0) + adjustment);
 }
 assert.equal(milestone.npm_observed_total, periodTotal, 'Dashboard milestone npm total must match registry');
 assert.equal(milestone.crates_io_cumulative, crates.cumulative_downloads);
@@ -167,7 +170,7 @@ assert.equal(milestone.crates_io_verified_at, crates.verified_at);
 assert.equal(milestone.remaining, Math.max(0, milestone.target - milestone.combined_observed));
 if (npm.downloads_evidence_path) {
   const receipt = json(npm.downloads_evidence_path);
-  const latest = receipt.daily_totals.find(row => row.day === receipt.reported_through);
+  const latest = running.npm.daily_latest?.coverage_complete ? running.npm.daily_latest : receipt.daily_totals.find(row => row.day === receipt.reported_through);
   const internalZeroDays = receipt.daily_totals.filter(row => row.day <= receipt.reported_through && (row.downloads === 0 || row.provider_reported_downloads === 0)).map(row => row.day);
   assert.deepEqual(milestone.internal_all_zero_cohort_days, internalZeroDays, 'Unknown provider-zero dates must remain disclosed');
   assert.ok(readme.includes(`${internalZeroDays.length} internal all zero cohort days`), 'README must disclose unknown internal dates');
@@ -176,8 +179,8 @@ if (npm.downloads_evidence_path) {
   assert.equal(published.downloads, latest.downloads, 'Stale latest npm daily count');
   assert.equal(published.collected_packages, receipt.packages.length);
   assert.equal(published.expected_packages, npm.package_count);
-  assert.equal(published.verified_at, receipt.retrieved_at);
-  assert.equal(published.source, receipt.source);
+  assert.equal(published.verified_at, latest.verified_at || receipt.retrieved_at);
+  assert.equal(published.source, latest.source || receipt.source);
   assert.equal(published.rolling_24_hours, false);
   assert.equal(metrics.current_windows.npm_latest_confirmed_daily_day, published.day);
   assert.equal(metrics.current_windows.npm_latest_confirmed_daily_downloads, published.downloads);

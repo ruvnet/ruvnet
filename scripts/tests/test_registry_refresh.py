@@ -99,7 +99,7 @@ class RegistryRefreshTest(unittest.TestCase):
             current=json.loads((root/'data/registry-stats.json').read_text())
             running=json.loads((root/'data/ecosystem-running-totals.json').read_text())
             metrics=json.loads((root/'data/metrics.json').read_text())
-            self.assertEqual(running['npm']['latest_confirmed_daily']['day'],current['npm']['period_end'])
+            self.assertEqual(running['npm']['latest_confirmed_daily']['day'],running['npm']['daily_latest']['day'])
             self.assertEqual(metrics['source_watermark'],
                              f'data/snapshots/{snapshot_date}/collection-watermark.json')
             self.assertEqual(metrics['current_windows']['github_activity_start'],
@@ -107,7 +107,8 @@ class RegistryRefreshTest(unittest.TestCase):
             self.assertEqual(metrics['current_windows']['github_activity_end'],
                              evidence['window']['end'])
             self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_download_events'],
-                             running['npm']['observed_downloads'])
+                             None if running['npm']['unknown_days'] else running['npm']['observed_downloads'])
+            self.assertEqual(metrics['current_windows']['npm_14_day_observed_download_events_lower_bound'],running['npm']['observed_downloads'])
             self.assertEqual(metrics['current_windows']['npm_14_day_unknown_days'],
                              running['npm']['unknown_days'])
             self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_days'],
@@ -130,7 +131,8 @@ class RegistryRefreshTest(unittest.TestCase):
             metrics=json.loads((root/'data/metrics.json').read_text())
             self.assertEqual(metrics['current_windows']['npm_14_day_start'],'2026-10-19')
             self.assertEqual(metrics['current_windows']['npm_14_day_end'],'2026-11-01')
-            self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_download_events'],123456)
+            self.assertIsNone(metrics['current_windows']['npm_14_day_confirmed_download_events'])
+            self.assertEqual(metrics['current_windows']['npm_14_day_observed_download_events_lower_bound'],123456)
             self.assertEqual(metrics['current_windows']['npm_14_day_unknown_days'],['2026-11-01'])
             self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_days'],13)
 
@@ -188,6 +190,7 @@ class RegistryRefreshTest(unittest.TestCase):
                                 status='stale coverage',latest_confirmed_daily={
                                     'day':'2020-01-01','downloads':999,'collected_packages':1})
             stale['download_milestone']['status']='stale coverage'
+            stale['npm_billion_goal']['observed_download_events_lower_bound']=sum((row.get('downloads') or 0) for row in evidence['daily_totals'])-1
             stale['validation'].update(npm_unavailable_packages=99,
                                        npm_download_package_coverage_complete=False)
             (root/'data/ecosystem-running-totals.json').write_text(json.dumps(stale))

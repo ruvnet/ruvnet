@@ -30,3 +30,11 @@ Show npm observed events since the fixed verified start separately from crates.i
 Publication acceptance must parse SVG text, descriptions and accessible labels and compare totals, provider identities, windows, coverage and watermark with the frozen canonical summary. Fail on stale source selection, discrepancies, unexplained decreases or a generation date presented as source freshness. Preserve legitimate revisions with reconciliation evidence. Add a regression check for stale-source selection.
 
 After the renderer workflow completes, read back the merged default-branch SVG and README references and verify they still match the same frozen snapshot. Persist expected/observed values, source dates, digests and outcomes. Report download staleness explicitly if only other metrics refreshed. Preserve all existing rate limits, leases, budgets, privacy and publication gates; this display requirement authorizes no extra crawl, scheduler, host or credentials.
+
+## Provider pacing and resumable backfill
+
+Reconcile verified caches, existing collectors, provider leases, persistent cooldowns and unfinished backfills on the existing credential-owning host before provider calls. Fetch missing cells first and retain response hashes, exact UTC windows and retrieval times. Do not overlap collectors or repeat a full crawl to recover missing cells.
+
+Npm download requests use one sequential stream with at least 30 seconds between requests across the task and its worker; disable hidden retries, pools and bursts. On HTTP 429 stop immediately, persist headers and state, and honor the later of Retry-After or a 15 minute minimum cooldown. Subsequent 429 minimums are 30 then 60 minutes; after three responses pause that provider. A new run must not reset cooldowns. Never rotate hosts, routes, accounts or credentials to evade limits.
+
+GitHub and crates.io obey their observed headers and bounded backoff. A definitive 404 stays unavailable, never zero. Background work needs exclusive ownership, durable checkpoints and a bounded lifetime on the existing host. Replayed caches must cause no provider calls or double counting. Incomplete eligible coverage keeps full totals and growth null.
