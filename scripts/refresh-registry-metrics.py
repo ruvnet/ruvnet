@@ -266,6 +266,27 @@ def update_running_totals(registry, evidence):
     unknown_days = [row['day'] for row in evidence['daily_totals']
                     if row['day'] <= evidence['reported_through']
                     and row.get('downloads') is None]
+    # A complete full-range recount replaces the fixed-start baseline; it is
+    # never added to the overlapping daily increment from the previous baseline.
+    goal = running.get('npm_billion_goal')
+    if goal and npm['download_package_count'] == npm['package_count'] and not evidence.get('unavailable_packages'):
+        prior_through = max(goal.get('increment_dates', []) + [goal['baseline_through']])
+        if evidence['reported_through'] >= prior_through:
+            if total < goal['observed_download_events_lower_bound']:
+                raise ValueError('Fixed-start npm lower bound decreased; reconciliation required')
+            if evidence['requested_start'] != goal['observed_since']:
+                raise ValueError('Fixed-start npm baseline window changed')
+            if evidence['reported_through'] >= npm['downloads_verified_at'][:10]:
+                raise ValueError('Incomplete current UTC day in npm baseline')
+            goal.update(
+                observed_download_events_lower_bound=total,
+                remaining_upper_bound=max(0, goal['target'] - total),
+                baseline_source=npm['downloads_evidence_path'],
+                baseline_through=evidence['reported_through'],
+                nonoverlapping_daily_increment=0, increment_dates=[],
+                missing_increment_dates=[], historical_unknown_dates=unknown_days,
+                verified_at=npm['downloads_verified_at'],
+                basis='npm only fixed-start full-range observed events; historical gaps remain a lower bound, not lifetime downloads.')
     combined = total + crates['cumulative_downloads']
     milestone = running['download_milestone']
     cohort_label = f"{npm['download_package_count']} of {npm['package_count']}"
