@@ -134,6 +134,34 @@ class RegistryRefreshTest(unittest.TestCase):
             self.assertEqual(metrics['current_windows']['npm_14_day_unknown_days'],['2026-11-01'])
             self.assertEqual(metrics['current_windows']['npm_14_day_confirmed_days'],13)
 
+    def test_full_range_refresh_replaces_stale_goal_without_double_counting(self):
+        registry=json.loads((ROOT/'data/registry-stats.json').read_text())
+        evidence=json.loads((ROOT/registry['npm']['downloads_evidence_path']).read_text())
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'data').mkdir()
+            for name in ['ecosystem-running-totals.json','ecosystem-daily-ledger.json']:
+                shutil.copyfile(ROOT/'data'/name,root/'data'/name)
+            original=json.loads((root/'data/ecosystem-running-totals.json').read_text())
+            original['npm_billion_goal']['observed_download_events_lower_bound']=1
+            original['npm_billion_goal']['baseline_through']='2026-11-08'
+            original['npm_billion_goal']['increment_dates']=['2026-11-14']
+            original['npm_billion_goal']['nonoverlapping_daily_increment']=123
+            (root/'data/ecosystem-running-totals.json').write_text(json.dumps(original))
+            with patch.object(refresh,'ROOT',root):
+                refresh.update_running_totals(registry,evidence)
+                first=(root/'data/ecosystem-running-totals.json').read_bytes()
+                refresh.update_running_totals(registry,evidence)
+                self.assertEqual(first,(root/'data/ecosystem-running-totals.json').read_bytes())
+            updated=json.loads(first);goal=updated['npm_billion_goal']
+            expected=sum(row.get('downloads') or 0 for row in evidence['daily_totals'] if row['day']<=evidence['reported_through'])
+            self.assertEqual(goal['observed_download_events_lower_bound'],expected)
+            self.assertEqual(goal['baseline_source'],registry['npm']['downloads_evidence_path'])
+            self.assertEqual(goal['verified_at'],registry['npm']['downloads_verified_at'])
+            self.assertEqual(goal['increment_dates'],[])
+            self.assertEqual(goal['nonoverlapping_daily_increment'],0)
+            self.assertEqual(updated['source_watermark'],original['source_watermark'])
+            self.assertEqual(updated['npm']['daily_latest'],original['npm']['daily_latest'])
+
     def test_new_npm_package_404_is_retried_without_inventing_zero(self):
         url='https://api.npmjs.org/downloads/range/2025-10-01:2026-10-11/new-package'
         error=urllib.error.HTTPError(url,404,'Not Found',{},None)

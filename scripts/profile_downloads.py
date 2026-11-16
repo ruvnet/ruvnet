@@ -17,18 +17,22 @@ def canonical(running):
     assert goal['observed_since'] == '2025-10-01'
     assert latest['coverage_complete'] and type(latest['downloads']) is int
     through = max(goal.get('increment_dates', []) + [goal['baseline_through']])
-    assert through < watermark['snapshot_date'], 'Current incomplete UTC day must not be displayed as completed'
-    digest = hashlib.sha256(json.dumps(watermark, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+    npm_at = goal.get('verified_at', running['npm']['daily_attempt']['verified_at'])
+    assert through < npm_at[:10], 'Current incomplete UTC day must not be displayed as completed'
+    # Preserve the immutable GitHub watermark; a newer registry baseline carries
+    # its own source identity and retrieval date in the composite display digest.
+    provenance = {'collection': watermark, 'npm_goal': goal} if goal.get('verified_at') else watermark
+    digest = hashlib.sha256(json.dumps(provenance, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
     return {
         'npm': events, 'start': goal['observed_since'], 'through': through,
         'crates': running['crates_io']['cumulative_downloads'],
         'assets': running['release_assets']['retained_observed_downloads'],
         'latest': latest, 'watermark': digest,
-        'npm_at': running['npm']['daily_attempt']['verified_at'],
+        'npm_at': npm_at,
         'crates_at': running['crates_io']['verified_at'],
         'assets_at': watermark['github_verified_at'],
         'packages': running['npm']['expected_packages'],
-        'missing': goal.get('missing_increment_dates', [])
+        'missing': sorted(set(goal.get('missing_increment_dates', []) + goal.get('historical_unknown_dates', [])))
     }
 
 def apply_downloads(root, running, npm):
@@ -64,7 +68,7 @@ def apply_downloads(root, running, npm):
     desc.text = (
         f"Npm only: {c['npm']:,} observed download events since {c['start']} through {c['through']}; "
         f"lower bound, historical coverage gaps retained, current inventory {c['packages']} packages. "
-        f"Missing incremental dates: {', '.join(c['missing']) or 'none'}. "
+        f"Unknown source dates: {', '.join(c['missing']) or 'none'}. "
         f"Latest complete npm UTC day {latest['day']}: {latest['downloads']:,} events, "
         f"{latest['collected_packages']}/{latest['expected_packages']} packages, retrieved {latest['verified_at']}. "
         f"Crates.io cumulative downloads: {c['crates']:,}, retrieved {c['crates_at']}. "

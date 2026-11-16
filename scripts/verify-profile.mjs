@@ -143,6 +143,21 @@ assert.equal(metrics.current_windows.npm_14_day_confirmed_days + metrics.current
 assert.equal(metrics.current_windows.npm_14_day_is_rolling_24h, false);
 const milestone = running.download_milestone;
 const periodTotal = npm.monthly_downloads.reduce((sum,row)=>sum+row.downloads,0)+(npm.current_month?.downloads || 0);
+const goal = running.npm_billion_goal;
+if (npm.download_package_count === npm.package_count && npm.period_end >= goal.baseline_through) {
+  assert.ok(goal.observed_download_events_lower_bound >= periodTotal,
+    'Fixed-start npm headline is stale relative to the verified full-range recount');
+}
+if (goal.verified_at) {
+  const baseline = json(goal.baseline_source);
+  assert.equal(goal.verified_at, baseline.retrieved_at);
+  assert.equal(goal.observed_since, baseline.requested_start);
+  assert.equal(goal.baseline_through, baseline.reported_through);
+  assert.equal(goal.nonoverlapping_daily_increment, 0);
+  assert.deepEqual(goal.increment_dates, []);
+  assert.equal(goal.observed_download_events_lower_bound,
+    baseline.daily_totals.filter(row => row.day <= baseline.reported_through).reduce((sum,row)=>sum+(row.downloads ?? 0),0));
+}
 assert.equal(milestone.npm_observed_total, periodTotal, 'Dashboard milestone npm total must match registry');
 assert.equal(milestone.crates_io_cumulative, crates.cumulative_downloads);
 assert.equal(milestone.combined_observed, periodTotal+crates.cumulative_downloads);

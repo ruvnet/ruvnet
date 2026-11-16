@@ -792,26 +792,28 @@
   "npm_billion_goal": {
     "target": 1000000000,
     "observed_since": "2025-10-01",
-    "observed_download_events_lower_bound": 119410562,
-    "remaining_upper_bound": 880589438,
-    "baseline_source": "data/snapshots/2026-11-09/npm-downloads.json",
-    "baseline_through": "2026-11-08",
-    "nonoverlapping_daily_increment": 5519994,
-    "increment_dates": [
-      "2026-11-09",
-      "2026-11-10",
-      "2026-11-11",
-      "2026-11-12",
-      "2026-11-13",
-      "2026-11-14"
-    ],
+    "observed_download_events_lower_bound": 120946142,
+    "remaining_upper_bound": 879053858,
+    "baseline_source": "data/snapshots/2026-11-16/npm-downloads.json",
+    "baseline_through": "2026-11-15",
+    "nonoverlapping_daily_increment": 0,
+    "increment_dates": [],
     "increment_source": "data/ecosystem-daily-ledger.json",
-    "missing_increment_dates": [
-      "2026-11-14"
-    ],
-    "basis": "npm only fixed-start observed range plus disjoint canonical completed daily cells. Historical coverage gaps make this a lower bound; not lifetime.",
+    "missing_increment_dates": [],
+    "basis": "npm only fixed-start full-range observed events; historical gaps remain a lower bound, not lifetime downloads.",
     "forecast": null,
-    "forecast_blocker": "Insufficient comparable complete weekdays and 30-day history."
+    "forecast_blocker": "Insufficient comparable complete weekdays and 30-day history.",
+    "historical_unknown_dates": [
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-15",
+      "2026-10-06",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "verified_at": "2026-11-16T05:42:27.470459Z"
   },
   "integration_review": {
     "kind": "static published manifest compatibility only",
