@@ -1,0 +1,17 @@
+{
+  "source_matches_committed_main": true,
+  "identity_count": 429,
+  "daily_keys": 6006,
+  "key_uniqueness": true,
+  "reconciliation": true,
+  "cached_replay_provider_calls": 0,
+  "raw_Nov14_min_request_spacing_seconds": 30.103827953338623,
+  "Nov14_raw_first_retrieval": "2026-11-15T13:21:37.047581+00:00",
+  "Nov14_raw_last_retrieval": "2026-11-15T16:58:18.976593+00:00",
+  "current_day_excluded": true,
+  "creation_coverage": {
+    "manifest_creation_timestamps_refreshed": 3,
+    "unknown_for_other_inventory_members": 426,
+    "policy": "Comparisons use identical current stable-ID cohort and provider-returned daily observations; a prepublication zero is never synthesized without evidence"
+  }
+}

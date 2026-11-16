@@ -11,7 +11,7 @@ Repository history records lineage. Registry versions record publication, with t
 
 | Registry | Packages | Downloads | Verified |
 | --- | ---: | --- | --- |
-| [crates.io](https://crates.io/users/ruvnet) | 501 | 2,255,741 cumulative | 2026-11-16 UTC |
+| [crates.io](https://crates.io/users/ruvnet) | 501 | 2,257,892 cumulative | 2026-11-16 UTC |
 | [npm](https://www.npmjs.com/~ruvnet) | at least 429 | 120,481,568 during 2025-11-16 through 2026-11-15; 429 package cohort | Inventory 2026-11-16; downloads 2026-11-16 |
 | [PyPI](https://pypi.org/user/ruvnet/) | 8 | Not aggregated | Historical ownership check, July 12, 2026 |
 | [Hugging Face](https://huggingface.co/ruvnet) | 22 | Not recounted | Historical inventory, July 12, 2026 |

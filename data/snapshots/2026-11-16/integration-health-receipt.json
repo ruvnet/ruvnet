@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-16T14:11:38.037806+00:00",
+  "scope": "Public package weave reconciliation and bounded runtime health",
+  "baseline": {
+    "repository_commit": "fa4d3b77cbdadbe766e84d21a6f0ed9cd9c3494d",
+    "pr_30": {
+      "state": "MERGED",
+      "head": "9b520431761fb87f985100897e3fb3f4aae9f279"
+    },
+    "policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "manifest_source_sha256": "71d70eea22173bc49152236fdd4f2ccd9a683a9183f45db4df25775cdfbdcb10"
+  },
+  "frozen_intent": "Reconcile existing recipe receipts and current manifests before selecting another integration; preserve exact pins and publication gates.",
+  "expected_observable_result": "Existing recipe hashes reconcile; an untested candidate requires a recipe, lock, evaluator and source-bound platform evidence before execution.",
+  "actual_result": {
+    "planner_exit_code": 0,
+    "inventory_packages": 429,
+    "graph_packages": 410,
+    "inventory_without_graph_count": 19,
+    "manifest_overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+    "fresh_manifest_subset": 3,
+    "fresh_manifest_observed_at": "2026-11-16T14:08:32.996561Z",
+    "candidate_states": {
+      "rvf-memory-v1": "observed_pass_review_ready",
+      "native-routing-v1": "observed_pass_review_ready",
+      "darwin-screening-v1": "ready_to_test"
+    },
+    "next_candidate": "darwin-screening-v1",
+    "new_dependency_edges": 0,
+    "install_executed": false,
+    "learning_gain": null,
+    "external_adoption_count": null
+  },
+  "health": {
+    "checked_at": "2026-11-16T14:09:12.433311+00:00",
+    "required_checks_pass": true,
+    "executor_completion_version": 1,
+    "completion_verified": true,
+    "exit_code": 0,
+    "output_complete": true,
+    "versions": {
+      "node": "24.21.0",
+      "python": "3.12.3",
+      "ruflo": "3.56.7",
+      "ruvector": "0.3.3",
+      "metaharness": "0.4.17"
+    },
+    "scope": "Local doctor only; no optional model or GPU workloads",
+    "billing_usd": null,
+    "scheduled_24_hour_reliability": null,
+    "observer_note": "Recent observer history remains blocked by an unreconciled indefinite claim; no claim was modified."
+  },
+  "findings": [
+    {
+      "kind": "published_manifest_compatibility",
+      "darwin": "0.14.0",
+      "darwin_optional_ruv_fann_peer": "0.1.2",
+      "latest_ruv_fann": "0.3.0",
+      "latest_satisfies_peer": false
+    },
+    {
+      "kind": "published_manifest_compatibility",
+      "e_means": "0.1.0",
+      "e_means_optional_darwin_peer": "0.13.0 || 0.13.1",
+      "latest_darwin": "0.14.0",
+      "latest_satisfies_peer": false
+    },
+    {
+      "kind": "metadata_standard_gap",
+      "package": "ruv-fann",
+      "version": "0.3.0",
+      "observed_homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "owner_standard_homepage": "https://ruv.io",
+      "source_directory": "packages/core"
+    }
+  ],
+  "outcome": "Existing findings reconciled. Darwin experiment remains blocked by missing frozen evaluator, recipe lock and supported-platform evidence; no execution or integration benefit claimed.",
+  "platform_execution": {
+    "linux": null,
+    "macos": null,
+    "windows": null,
+    "wasm": null
+  },
+  "evidence": [
+    "docs/npm-distribution/ADR-002.md",
+    "data/npm-distribution/weave-policy.json",
+    "data/npm-distribution/weave-receipts/rvf-memory-v1.json",
+    "data/npm-distribution/weave-receipts/native-routing-v1.json",
+    "package-weave-plan.json",
+    "npm-new-manifests.json"
+  ],
+  "workload_receipt_adapter": {
+    "used": false,
+    "reason": "Approved checked executor source search found no recordWorkloadForecast or closeWorkloadForecast interface, and no built distribution; ordinary structured receipt retained.",
+    "observed_rgi_commit": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421"
+  }
+}

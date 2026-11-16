@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T05:42:34.125747Z",
+  "generated_at": "2026-11-16T14:08:56.772457+00:00",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 429,
     "download_package_count": 429,
-    "inventory_verified_at": "2026-11-16T05:20:42.008806Z",
+    "inventory_verified_at": "2026-11-16T14:08:16.139388Z",
     "downloads_verified_at": "2026-11-16T05:42:27.470459Z",
     "downloads": 120481568,
     "period_start": "2025-11-16",
@@ -77,13 +77,50 @@
       "period_end": "2026-11-15",
       "status": "partial month; trailing all-zero API days excluded",
       "verified_at": "2026-11-16T05:42:27.470459Z"
+    },
+    "range_refresh_status": "Full annual-range evidence retains original dates; this run refreshed inventories and reconciled current fixed-start and cached daily evidence. No new annual crawl claimed.",
+    "daily_attempt": {
+      "provider_data_provisional": true,
+      "collection_coverage_complete": true,
+      "status": "provider data provisional, collection complete",
+      "day": "2026-11-15",
+      "downloads": null,
+      "observed_downloads": 22805,
+      "expected_packages": 429,
+      "collected_packages": 429,
+      "inventory_packages": 429,
+      "excluded_postwindow_packages": 0,
+      "coverage_complete": false,
+      "rolling_24_hours": false,
+      "period_type": "UTC calendar day",
+      "source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-15.json",
+      "verified_at": "2026-11-16T14:08:56.772457+00:00",
+      "artifact_sha256": "1b19ecc244bc9a7b3b337c8176f4ee7ba0ae71371b5592a4c1576ef245382fcd"
+    },
+    "daily_latest": {
+      "day": "2026-11-14",
+      "downloads": 611657,
+      "expected_packages": 429,
+      "collected_packages": 429,
+      "inventory_packages": 429,
+      "excluded_postwindow_packages": 0,
+      "coverage_complete": true,
+      "rolling_24_hours": false,
+      "period_type": "UTC calendar day",
+      "source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-14.json",
+      "verified_at": "2026-11-16T05:42:27.470459Z",
+      "artifact_sha256": "adb4d26ee629bb0033979e7c1851e4f25535eefa65d178369aaf2951f08fccff",
+      "observed_downloads": 611657,
+      "revision_source": "data/snapshots/2026-11-16/npm-ledger-revisions.json",
+      "revision_checked_at": "2026-11-16T14:08:56.772457+00:00",
+      "composite_provenance": "Original complete daily observation plus current partial keyed revisions; untouched packages retain original retrieval time."
     }
   },
   "crates_io": {
     "user_id": 339999,
-    "verified_at": "2026-11-16T05:42:34.125514Z",
+    "verified_at": "2026-11-16T14:08:29.196524Z",
     "crate_count": 501,
-    "cumulative_downloads": 2255741,
+    "cumulative_downloads": 2257892,
     "inventory_path": "data/snapshots/2026-11-16/crates-inventory.json",
     "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   }

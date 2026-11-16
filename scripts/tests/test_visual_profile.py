@@ -1,6 +1,8 @@
 """Guard against stale dashboard values when published snapshots change."""
 import importlib.util
 import json
+import copy
+import subprocess
 from pathlib import Path
 import shutil
 import sys
@@ -38,10 +40,42 @@ class VisualProfileTest(unittest.TestCase):
                 from profile_downloads import verify_downloads
                 parsed=ET.fromstring(svg)
                 verify_downloads(parsed,running)
+                desc=parsed.find('{http://www.w3.org/2000/svg}desc')
+                original_desc=desc.text
+                desc.text=desc.text.replace('observed events 22805.', 'observed events 22806.')
+                if running['npm_billion_goal'].get('provisional_observed_downloads')==22805:
+                    with self.assertRaisesRegex(AssertionError,'Stale provisional provider'):
+                        verify_downloads(parsed,running)
+                desc.text=original_desc
                 next(e for e in parsed.iter() if e.get('id')=='npm-observed-total').text='101,000,000'
                 with self.assertRaisesRegex(AssertionError,'Stale SVG download claim'):
                     verify_downloads(parsed,running)
             finally:visual.ROOT=original
+
+    def test_keyed_revision_is_checked_against_its_source(self):
+        from profile_downloads import validate_goal_revision
+        running=json.loads((ROOT/'data/ecosystem-running-totals.json').read_text())
+        read_json=lambda p:json.loads((ROOT/p).read_text())
+        validate_goal_revision(running,read_json)
+        broken=copy.deepcopy(running)
+        broken['npm_billion_goal']['baseline_covered_day_revision_adjustment']+=1
+        with self.assertRaisesRegex(AssertionError,'Incorrect covered-day revision'):
+            validate_goal_revision(broken,read_json)
+
+    def test_provisional_window_cannot_be_rendered_as_confirmed_total(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            for name in ['data','docs','scripts']:
+                shutil.copytree(ROOT/name,root/name,ignore=shutil.ignore_patterns('__pycache__'))
+            shutil.copyfile(ROOT/'README.md',root/'README.md')
+            running=json.loads((root/'data/ecosystem-running-totals.json').read_text())
+            running['npm']['unknown_days']=['2026-11-15']
+            running['npm']['observed_downloads']=98765
+            (root/'data/ecosystem-running-totals.json').write_text(json.dumps(running))
+            subprocess.run(['node',str(root/'scripts/render-registry-metrics.mjs')],cwd=root,check=True,capture_output=True)
+            windows=json.loads((root/'data/metrics.json').read_text())['current_windows']
+            self.assertIsNone(windows['npm_14_day_confirmed_download_events'])
+            self.assertEqual(windows['npm_14_day_observed_download_events_lower_bound'],98765)
 
     def test_partial_month_is_counted_once_and_dated(self):
         n=json.loads((ROOT/'data/registry-stats.json').read_text())['npm']

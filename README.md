@@ -186,25 +186,25 @@ The dashboard above is generated from this repository's published JSON. Download
 <!-- github-public-metrics:start -->
 ## GitHub reach
 
-Public GitHub API snapshot verified **November 15, 2026 UTC**. [Captured inventory](data/snapshots/2026-11-15/github-inventory.json).
+Public GitHub API snapshot verified **November 16, 2026 UTC**. [Captured inventory](data/snapshots/2026-11-16/github-inventory.json).
 
 | Measure | Verified value |
 | --- | ---: |
-| Followers | 12,493 |
+| Followers | 12,504 |
 | Public repositories | 234 |
 | Owned public nonfork repositories | 207 |
 | Public repositories that are forks | 27 |
-| Stars across owned public nonfork repositories | 203,351 |
-| Aggregate downstream forks of owned nonfork repositories | 26,839 |
+| Stars across owned public nonfork repositories | 203,535 |
+| Aggregate downstream forks of owned nonfork repositories | 26,854 |
 
 ### Flagship repository traction
 
 | Project | Stars | Forks | Subscribers |
 | --- | ---: | ---: | ---: |
-| [RuView](https://github.com/ruvnet/RuView) | 104,339 | 13,575 | 908 |
-| [ruflo](https://github.com/ruvnet/ruflo) | 81,776 | 9,637 | 476 |
-| [RuVector](https://github.com/ruvnet/RuVector) | 4,696 | 631 | 33 |
-| [metaharness](https://github.com/ruvnet/metaharness) | 748 | 95 | 3 |
+| [RuView](https://github.com/ruvnet/RuView) | 104,432 | 13,577 | 910 |
+| [ruflo](https://github.com/ruvnet/ruflo) | 81,853 | 9,647 | 475 |
+| [RuVector](https://github.com/ruvnet/RuVector) | 4,700 | 631 | 34 |
+| [metaharness](https://github.com/ruvnet/metaharness) | 749 | 96 | 3 |
 | [rvm](https://github.com/ruvnet/rvm) | 157 | 36 | 0 |
 
 RuView and Ruflo account for **91.5% of owned public nonfork stars** and **86.5% of downstream forks**.
@@ -213,7 +213,7 @@ RuView and Ruflo account for **91.5% of owned public nonfork stars** and **86.5%
 <!-- recently-shipped:start -->
 ## Recently shipped
 
-Public nonfork repositories created in the 28 days through 2026-11-15 UTC.
+Public nonfork repositories created in the 28 days through 2026-11-16 UTC.
 
 * [bmssp](https://github.com/ruvnet/bmssp) (2026-11-11)
 * [mouse-swarm](https://github.com/ruvnet/mouse-swarm) (2026-11-07)
@@ -223,9 +223,9 @@ Public nonfork repositories created in the 28 days through 2026-11-15 UTC.
 * [Polymath](https://github.com/ruvnet/Polymath) (2026-10-22)
 * [AngelNet](https://github.com/ruvnet/AngelNet) (2026-10-22)
 
-**npm:** 28 newly listed since 2026-10-19 (inventory 2026-11-15): [@agentic-robotics/darwin-arm64](https://www.npmjs.com/package/@agentic-robotics/darwin-arm64), [@agentic-robotics/darwin-x64](https://www.npmjs.com/package/@agentic-robotics/darwin-x64), [@agentic-robotics/linux-arm64-gnu](https://www.npmjs.com/package/@agentic-robotics/linux-arm64-gnu), [@metaharness/autogenous](https://www.npmjs.com/package/@metaharness/autogenous), [@qudag/napi-core-linux-arm64-gnu](https://www.npmjs.com/package/@qudag/napi-core-linux-arm64-gnu), [@qudag/napi-core-linux-x64-gnu](https://www.npmjs.com/package/@qudag/napi-core-linux-x64-gnu), [@ruvector/all](https://www.npmjs.com/package/@ruvector/all), [@ruvector/e-means](https://www.npmjs.com/package/@ruvector/e-means) (plus 20 more).
+**npm:** 28 newly listed since 2026-10-20 (inventory 2026-11-16): [@agentic-robotics/darwin-arm64](https://www.npmjs.com/package/@agentic-robotics/darwin-arm64), [@agentic-robotics/darwin-x64](https://www.npmjs.com/package/@agentic-robotics/darwin-x64), [@agentic-robotics/linux-arm64-gnu](https://www.npmjs.com/package/@agentic-robotics/linux-arm64-gnu), [@metaharness/autogenous](https://www.npmjs.com/package/@metaharness/autogenous), [@qudag/napi-core-linux-arm64-gnu](https://www.npmjs.com/package/@qudag/napi-core-linux-arm64-gnu), [@qudag/napi-core-linux-x64-gnu](https://www.npmjs.com/package/@qudag/napi-core-linux-x64-gnu), [@ruvector/all](https://www.npmjs.com/package/@ruvector/all), [@ruvector/e-means](https://www.npmjs.com/package/@ruvector/e-means) (plus 20 more).
 
-**crates.io:** 20 newly listed since 2026-10-19 (inventory 2026-11-15): [emergent-time-wasm](https://crates.io/crates/emergent-time-wasm), [latentmesh-memorilla](https://crates.io/crates/latentmesh-memorilla), [neuro-divergent-data](https://crates.io/crates/neuro-divergent-data), [opencv-sys](https://crates.io/crates/opencv-sys), [rune-toolchain](https://crates.io/crates/rune-toolchain), [rune-toolchain-cargo](https://crates.io/crates/rune-toolchain-cargo), [rune-toolchain-core](https://crates.io/crates/rune-toolchain-core), [rune-toolchain-edit](https://crates.io/crates/rune-toolchain-edit) (plus 12 more).
+**crates.io:** 20 newly listed since 2026-10-20 (inventory 2026-11-16): [emergent-time-wasm](https://crates.io/crates/emergent-time-wasm), [latentmesh-memorilla](https://crates.io/crates/latentmesh-memorilla), [neuro-divergent-data](https://crates.io/crates/neuro-divergent-data), [opencv-sys](https://crates.io/crates/opencv-sys), [rune-toolchain](https://crates.io/crates/rune-toolchain), [rune-toolchain-cargo](https://crates.io/crates/rune-toolchain-cargo), [rune-toolchain-core](https://crates.io/crates/rune-toolchain-core), [rune-toolchain-edit](https://crates.io/crates/rune-toolchain-edit) (plus 12 more).
 
 <!-- recently-shipped:end -->
 
@@ -234,7 +234,7 @@ Public nonfork repositories created in the 28 days through 2026-11-15 UTC.
 <!-- latest-independent-npm-day:start -->
 ### Latest verified npm day
 
-**797,701 download events on 2026-11-13 UTC**, across all 429 eligible packages. The 2026-11-14 collection is partial with 4 of 429 packages observed; missing observations remain unknown. [Daily evidence](data/snapshots/2026-11-15/npm-backfill-2026-11-13.json) · [Coverage and ecosystem report](docs/ecosystem-metrics.md). Downloads include CI and transitive installs, not unique users. Annual charts retain their own dates.
+**611,657 download events on 2026-11-14 UTC**, across all 429 eligible packages. The 2026-11-15 provider data is provisional despite responses for all 429 packages; 22,805 observed events are a lower bound, with the confirmed full daily total unknown. [Daily evidence](data/snapshots/2026-11-16/npm-reconciled-2026-11-14.json) · [Coverage and ecosystem report](docs/ecosystem-metrics.md). Downloads include CI and transitive installs, not unique users. Annual charts retain their own dates.
 <!-- latest-independent-npm-day:end -->
 
 
@@ -247,7 +247,7 @@ Public nonfork repositories created in the 28 days through 2026-11-15 UTC.
 | Known npm packages listing `ruvnet` as maintainer | at least 429 | 2026-11-16 UTC |
 | npm downloads, rolling 365 days (2025-11-16 through 2026-11-15) | 120,481,568 | 2026-11-16; 429 package cohort |
 | Rust crates owned by `ruvnet` | 501 | 2026-11-16 UTC |
-| Cumulative Rust crate downloads (verified 2026-11-16) | 2,255,741 | 2026-11-16 UTC |
+| Cumulative Rust crate downloads (verified 2026-11-16) | 2,257,892 | 2026-11-16 UTC |
 | Ownership verified PyPI packages | 8 | July 12, 2026; historical |
 | Hugging Face models, spaces, and datasets | 22 | July 12, 2026; historical |
 
@@ -292,7 +292,7 @@ The curve sums measured monthly downloads on a linear scale. The final month is 
 <!-- registry-download-chart:end -->
 
 <!-- registry-reporting-status:start -->
-**Reporting coverage, 2026-11-16 UTC:** These npm figures are observed lower bounds across the 429-package collected cohort (429 of 429 inventory packages). The latest positive cohort day is **2026-11-15**, with **22,800 download events**. This is a completed UTC calendar day, not a rolling 24-hour count. The collected daily responses contain 8 internal all zero cohort days (2026-09-07, 2026-09-08, 2026-09-15, 2026-10-06, 2026-10-14, 2026-10-15, 2026-10-19, 2026-10-20); these may be reporting gaps. No trailing all zero days were excluded. No missing downloads are estimated. [Package range evidence](data/snapshots/2026-11-16/npm-downloads.json).
+**Reporting coverage, 2026-11-16 UTC:** These npm figures are observed lower bounds across the 429-package collected cohort (429 of 429 inventory packages). The latest positive cohort day is **2026-11-15**, with **611,657 download events**. This is a completed UTC calendar day, not a rolling 24-hour count. The collected daily responses contain 8 internal all zero cohort days (2026-09-07, 2026-09-08, 2026-09-15, 2026-10-06, 2026-10-14, 2026-10-15, 2026-10-19, 2026-10-20); these may be reporting gaps. No trailing all zero days were excluded. No missing downloads are estimated. [Package range evidence](data/snapshots/2026-11-16/npm-downloads.json).
 <!-- registry-reporting-status:end -->
 
 ![An ecosystem in motion](assets/ruvnet/evolution.svg)

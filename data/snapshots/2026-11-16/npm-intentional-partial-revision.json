@@ -1,0 +1,26 @@
+{
+  "scope": "one Nov15response before current workflowcache reconciliation",
+  "results": [
+    {
+      "package": "@agentic-robotics/cli",
+      "body": {
+        "start": "2026-11-15",
+        "end": "2026-11-15",
+        "package": "@agentic-robotics/cli",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-15"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-15:2026-11-15/%40agentic-robotics%2Fcli",
+        "retrieved_at": "2026-11-16T14:08:56.772457+00:00",
+        "response_sha256": "0e1b7dba4b735c16260cabe36417bf55365f5bda27a6e4e0a1b8bc97eb90cded"
+      }
+    }
+  ],
+  "published_revision": false,
+  "reason": "Stopped immediately when overlapping completed workflow source discovered"
+}

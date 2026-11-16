@@ -1,6 +1,6 @@
 {
-  "retrieved_at": "2026-11-16T05:20:42.008806Z",
-  "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet",
+  "retrieved_at": "2026-11-16T14:08:16.139388Z",
+  "source": "npm maintainer:ruvnet search",
   "packages": [
     "@agentic-robotics/cli",
     "@agentic-robotics/core",
@@ -435,13 +435,17 @@
   "responses": [
     {
       "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=0",
-      "retrieved_at": "2026-11-16T05:20:41.586444Z",
-      "response_sha256": "5df55349a7bf87ff5a823a2b8f9a719b97966af1cf64513a08876b588b528bfc"
+      "retrieved_at": "2026-11-16T14:08:14.883271Z",
+      "response_sha256": "b2685e3f1c1dfed88034e72fa7f4f50eac5b6270741cce08d2d31ea7a5ba79ff",
+      "declared_total": 429,
+      "returned_rows": 250
     },
     {
       "source": "https://registry.npmjs.org/-/v1/search?text=maintainer%3Aruvnet&size=250&from=250",
-      "retrieved_at": "2026-11-16T05:20:42.008806Z",
-      "response_sha256": "08f2dbcc4aaa2db4b2766bd9f48040f547e98a0ea75f5eae8507c3a3ee645d8b"
+      "retrieved_at": "2026-11-16T14:08:16.138422Z",
+      "response_sha256": "1d839d80ffb4ebb43e8187851ba167a97e8d68ca190a5427340794343cd0674d",
+      "declared_total": 429,
+      "returned_rows": 179
     }
   ]
 }

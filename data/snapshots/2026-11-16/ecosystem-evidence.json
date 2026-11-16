@@ -1,0 +1,43 @@
+{
+  "verified_at": "2026-11-16T14:08:56.772457+00:00",
+  "window": {
+    "start": "2026-11-02",
+    "end": "2026-11-15",
+    "days": 14,
+    "current_utc_day_excluded": true
+  },
+  "sources": {
+    "github_inventory": "data/snapshots/2026-11-16/github-inventory.json",
+    "github_releases": "data/snapshots/2026-11-16/github-release-inventory.json",
+    "npm_inventory": "data/snapshots/2026-11-16/npm-inventory.json",
+    "npm_downloads": "data/snapshots/2026-11-16/npm-downloads.json",
+    "crates_io": "data/snapshots/2026-11-16/crates-inventory.json"
+  },
+  "coverage": {
+    "github_public_repositories": 234,
+    "github_pages": 3,
+    "release_complete_repositories": 234,
+    "npm_expected_packages": 429,
+    "npm_collected_packages": 429,
+    "actions_complete_repositories": 0,
+    "actions_incomplete_repositories": 234
+  },
+  "traffic": {
+    "clones": null,
+    "views": null,
+    "known_clone_events": 779860,
+    "known_view_events": 177259,
+    "status": "partial",
+    "expected_cells_per_metric": 3276,
+    "source_cells_per_metric": 3042,
+    "missing_cells_per_metric": 234,
+    "missing_days": [
+      "2026-11-15"
+    ],
+    "repo_coverage": {
+      "clones": 234,
+      "views": 234
+    },
+    "uniques": null
+  }
+}
