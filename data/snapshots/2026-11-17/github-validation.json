@@ -1,0 +1,39 @@
+{
+  "status": "validated",
+  "checked_at": "2026-11-17T13:55:32.395694+00:00",
+  "repository_count": 234,
+  "pagination_complete": true,
+  "releases": 2564,
+  "current_assets": 1097,
+  "current_asset_downloads": 120644,
+  "request_count": 968,
+  "retrieval_start": "2026-11-17T13:48:46.843538+00:00",
+  "retrieval_end": "2026-11-17T13:55:11.858239+00:00",
+  "coverage": {
+    "expected_cells_per_metric": 3276,
+    "missing_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "fresh_api_cells_per_metric": {
+      "clones": 3276,
+      "views": 3276
+    },
+    "historical_backfill_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "precreation_zero_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "repositories": 234
+  },
+  "hashes": {
+    ".automation-current.json": "8c70e324bbd6845bb23a1ffaa1ca5c99d8b676849defd96f3d8d52a39f3ae3d1",
+    "github-inventory.json": "c7a268b18948db9b7805558f0d8bcaae98c48c570a04691b5a2e7dcccb580054",
+    "github-release-inventory.json": "ced055353fd1f2777177dd57b12988b596120cb03525fa46046d9df8edf4c2aa",
+    "github-traffic-inventory.json": "edadc066989d876a0995b9618d131cfa576368629f35f14e16c78b1ffb16bfaf",
+    "github-api-receipts.json": "4c4e1b4906538f30b129605ae27d3ec8e993176d18e05a7fe190b516627182e1"
+  }
+}

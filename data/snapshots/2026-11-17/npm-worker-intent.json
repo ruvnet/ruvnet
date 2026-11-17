@@ -1,0 +1,11 @@
+{
+  "scope": "Reconcile Nov15 maturation and missing Nov16 completedUTC npm cells",
+  "baseline": "ee21080a79cd19fd572ea47f8facd3f8ff7ceb7f",
+  "frozen_intent": "One exact Nov15..16 request per429package, sequential>=30s sharedproviderlease/cache/cooldown, no fullrangecrawl",
+  "expected_result": "Verified package/day/nonnegativeinteger cells or explicitpartial/cooldown with resumablecache",
+  "issued_at": "2026-11-17T13:49:56.541160+00:00",
+  "worker_sha256": "b647b005d1517a56399a0c45dd670ae2e98259814b17ae8b437ba3ee7edd3b70",
+  "inventory_sha256": "1de5381f6dc62d1bd69b3e7394255e3d4cd1f68d7bc4e1f9304308d00d2133b6",
+  "budget_seconds": 21600,
+  "rollback": "Workerneverpublishes; stopretainscacheandmissingqueue"
+}

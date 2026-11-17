@@ -149,7 +149,15 @@ if (npm.download_package_count === npm.package_count && npm.period_end >= goal.b
   assert.ok(goal.observed_download_events_lower_bound >= periodTotal,
     'Fixed-start npm headline is stale relative to the verified full-range recount');
 }
-if (goal.verified_at) {
+if (goal.reconciliation_source) {
+  const baseline = json(goal.baseline_source);
+  const reconciliation = json(goal.reconciliation_source);
+  assert.equal(goal.verified_at, reconciliation.verified_at);
+  assert.equal(goal.observed_since, baseline.requested_start);
+  assert.equal(goal.baseline_through, baseline.reported_through);
+  assert.equal(goal.nonoverlapping_daily_increment, Object.values(reconciliation.increment_cells).reduce((a,b)=>a+b,0));
+  assert.equal(goal.observed_download_events_lower_bound, goal.baseline_download_events + goal.baseline_covered_day_revision_adjustment + goal.nonoverlapping_daily_increment);
+} else if (goal.verified_at) {
   const baseline = json(goal.baseline_source);
   const adjustment = goal.baseline_covered_day_revision_adjustment || 0;
   const revision = adjustment ? json(goal.baseline_revision_source).results[0].receipt : null;

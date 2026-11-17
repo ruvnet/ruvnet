@@ -1,0 +1,9 @@
+{
+  "scope": "Public owner GitHub inventory, gauges, releases and November3..16UTC activity",
+  "baseline": "ee21080a79cd19fd572ea47f8facd3f8ff7ceb7f",
+  "frozen_intent": "Use one existing authorized GitHub stream with exclusive provider lock and cache; preserve unknown traffic and exclude drafts/private repos",
+  "expected_observable_result": "Complete public repository/release pagination and source receipts or explicit unavailable data",
+  "issued_at": "2026-11-17T13:48:45.404164+00:00",
+  "budget_seconds": 900,
+  "rollback": "No publication by source collector; cached source artifacts only"
+}

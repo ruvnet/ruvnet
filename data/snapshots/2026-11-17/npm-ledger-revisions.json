@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-11-17T13:50:58.957030+00:00",
+  "revisions": [
+    {
+      "key": "npm|@agentic-robotics/core|downloads|2026-11-15",
+      "prior": 0,
+      "current": 4,
+      "source": "data/snapshots/2026-11-17/npm-reconciled-2026-11-15.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-15",
+      "prior": 0,
+      "current": 2,
+      "source": "data/snapshots/2026-11-17/npm-reconciled-2026-11-15.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/cli|downloads|2026-11-16",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-17/npm-reconciled-2026-11-16.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/core|downloads|2026-11-16",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-17/npm-reconciled-2026-11-16.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-16",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-17/npm-reconciled-2026-11-16.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}

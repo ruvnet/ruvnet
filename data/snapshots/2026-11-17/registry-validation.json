@@ -1,0 +1,50 @@
+{
+  "inventory_pagination_complete": true,
+  "npm_pages": [
+    250,
+    179
+  ],
+  "crates_pages": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    1
+  ],
+  "npm_packages": 429,
+  "crates": 501,
+  "frozen_response_identities_unique": true,
+  "exact_range_validated": "2026-11-15:2026-11-16",
+  "values_nonnegative_integers": true,
+  "cached_replay_provider_calls": 0,
+  "replay_idempotence": true,
+  "full_totals_null_when_partial": true,
+  "current_utc_day_excluded": true,
+  "raw_source_artifact_hashes": {
+    "npm-worker-intent.json": "262d14c914ad343c2b2e43155a473129eaf7c3f6dc4a6f5b41922647a71d02e2",
+    "npm-points-2026-11-07.json": "292eb88eed272c9eef022a60220ac92b3c3427fb92a5ffba9e44d40c3e1bcb3e",
+    "npm-points-2026-11-06.json": "5dcd4460dc80aa95a0cf816c89ba3d9c4927bb343e06590cb814d6cdcfa8e161",
+    "npm-daily-revisions.json": "e237d349b69e88fdc6d895569ac4e92447a261b8a2b17f2fdcb17f163ca70e3a",
+    "crates-inventory.json": "94b6488d472c90c2afae499f025d21faa1da83988a8db6e7576727a5f410afcd",
+    "npm-points-2026-11-09.json": "9316bc519ad743903a047e171a26ece3780ab0b6464b334c40de0427ab798742",
+    "npm-completed-backfill.json": "399ad03b1673b058ae6170b368eaaf4675fa23fb0a32dc9251b795ffcfc35fcd",
+    "npm-inventory.json": "1de5381f6dc62d1bd69b3e7394255e3d4cd1f68d7bc4e1f9304308d00d2133b6",
+    "npm-points-2026-11-12.json": "5a2eb94c1809979baf7e47583f64a4f8ab5715d56831411c15e43a64f7ae1efe",
+    "npm-worker-outcome.json": "ab24455fc1bc27b5e5ca1df5578093fb9387386ad6e4be758bea746c8005c236",
+    "npm-points-2026-11-03.json": "b98bb19d57958459b5e97eafb05fe70fcec30c7f6390a8aaed4b7093f6d68ca4",
+    "npm-points-2026-11-16.json": "2b2764cb4a71b36bc27b3ba8c91e53ebbeb293446ecd2960eae86eed777ded86",
+    "npm-points-2026-11-14.json": "2ed37513f6651c868a22f293cfa4ed4d557b3700cbca682ddba1fe3f4b1355cb",
+    "npm-points-2026-11-10.json": "af0ad43da6e9f52843de2809bc23888bae48765d95ae126ccde240969b0cf0d3",
+    "npm-points-2026-11-15.json": "b701c9ec29d97d9ba5f48acf370841f314ad2e920082832298504f927f1b33ab",
+    "npm-new-manifests.json": "c893f94c581a4f4ea7c32310d7c3067166365a95610c37820b8ebdeaae36273a",
+    "npm-points-2026-11-05.json": "e43845ae84abffaf719a68ee7ef4f7c684ff84b451936d763dbfe3b0e195c738",
+    "npm-points-2026-11-13.json": "b855e7368c50f1fe14318b2088433c42a09f211ffec045032bdfce18e647bdcf",
+    "npm-points-2026-11-08.json": "534d88373fbede39156635e3c97567a4f6e217a560a45a4aa3cbe5e2aaba2341",
+    "npm-points-2026-11-04.json": "331794144800076cc161757210d41291ef5bd91fb9d2d69b143b49e4ebc4c71f",
+    "registry-collection.json": "8f8746af59cba6f5718361e8e914eb560287fa3d9da96f78f56cbb139be80697",
+    "npm-points-2026-11-11.json": "bb04973372478c2909872752f9d60491a5b83a5815a8f09fdb1284c8eef38019"
+  },
+  "offline_simulated_429_retry_after_zero_minimum_15minute_cooldown": true,
+  "offline_persisted_cooldown_replay_provider_calls": 0
+}
