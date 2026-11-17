@@ -8,7 +8,42 @@ import xml.etree.ElementTree as ET
 NS = 'http://www.w3.org/2000/svg'
 ROOT = Path(__file__).resolve().parents[1]
 
+def validate_goal_reconciliation(running, read_json):
+    goal = running['npm_billion_goal']
+    source = read_json(goal['reconciliation_source'])
+    assert source['schema_version'] == 2
+    ledger = read_json('data/ecosystem-daily-ledger.json')['values']
+    prior = read_json(source['prior_summary'])['npm_billion_goal']
+    assert source['prior_summary_sha256'] == hashlib.sha256(json.dumps(read_json(source['prior_summary']), indent=2).encode() + b'\n').hexdigest()
+    prior_cells = read_json(source['prior_covered_ledger'])
+    assert source['prior_covered_ledger_sha256'] == hashlib.sha256(json.dumps(prior_cells, indent=2).encode()+b'\n').hexdigest()
+    expected_changed = {k for k,v in prior_cells['values'].items() if ledger.get(k) != v}
+    adjustment = prior.get('baseline_covered_day_revision_adjustment', 0)
+    seen = set()
+    for row in source['covered_revisions']:
+        key = row['key']; assert key not in seen; seen.add(key)
+        provider, name, metric, day = key.split('|')
+        assert provider == 'npm' and metric == 'downloads' and day <= goal['baseline_through']
+        old = read_json(row['prior_source']); new = read_json(row['source'])
+        assert old['values'][name] == row['prior']
+        assert new['values'][name] == row['current'] == ledger[key]
+        assert row['source_sha256'] == hashlib.sha256(json.dumps(new, indent=2).encode()+b'\n').hexdigest()
+        adjustment += row['current'] - row['prior']
+    assert seen == expected_changed, 'Omitted or spurious covered-date revision'
+    assert adjustment == goal['baseline_covered_day_revision_adjustment'], 'Incorrect covered-day revision adjustment'
+    cells = {k:v for k,v in ledger.items() if k.startswith('npm|') and goal['baseline_through'] < k.rsplit('|',1)[-1] <= source['through'] and type(v) is int}
+    assert source['increment_cells'] == cells
+    assert sum(cells.values()) == goal['nonoverlapping_daily_increment']
+    assert sorted({k.rsplit('|',1)[-1] for k in cells}) == goal['increment_dates']
+    assert goal['verified_at'] == source['verified_at']
+    baseline = read_json(goal['baseline_source'])
+    baseline_total = sum(row['downloads'] or 0 for row in baseline['daily_totals'] if row['day'] <= baseline['reported_through'])
+    assert baseline_total == goal['baseline_download_events']
+    assert goal['observed_download_events_lower_bound'] == baseline_total + adjustment + sum(cells.values())
+
 def validate_goal_revision(running, read_json):
+    if running['npm_billion_goal'].get('reconciliation_source'):
+        return validate_goal_reconciliation(running, read_json)
     goal = running['npm_billion_goal']
     adjustment = goal.get('baseline_covered_day_revision_adjustment', 0)
     if not adjustment:
@@ -34,6 +69,7 @@ def canonical(running):
     assert type(events) is int and events >= 0
     assert goal['observed_since'] == '2025-10-01'
     assert latest['coverage_complete'] and type(latest['downloads']) is int
+    assert latest['day'] not in goal.get('provisional_dates', []), 'Provisional provider day cannot be confirmed'
     through = max(goal.get('increment_dates', []) + [goal['baseline_through']])
     npm_at = goal.get('verified_at', running['npm']['daily_attempt']['verified_at'])
     assert through < npm_at[:10], 'Current incomplete UTC day must not be displayed as completed'
@@ -45,7 +81,7 @@ def canonical(running):
         'npm': events, 'start': goal['observed_since'], 'through': through,
         'crates': running['crates_io']['cumulative_downloads'],
         'assets': running['release_assets']['retained_observed_downloads'],
-        'latest': latest, 'watermark': digest,
+        'latest': latest, 'attempt': running['npm']['daily_attempt'], 'watermark': digest,
         'npm_at': npm_at,
         'crates_at': running['crates_io']['verified_at'],
         'assets_at': watermark['github_verified_at'],
@@ -90,6 +126,7 @@ def apply_downloads(root, running, npm):
         f"lower bound, historical coverage gaps retained, current inventory {c['packages']} packages. "
         f"Unknown source dates: {', '.join(c['missing']) or 'none'}. "
         f"Provisional provider dates: {', '.join(c['provisional_dates']) or 'none'}; observed events {c['provisional_events']}. "
+        f"Latest attempted npm UTC day {c['attempt']['day']}: {c['attempt']['observed_downloads']} observed events from {c['attempt']['collected_packages']}/{c['attempt']['expected_packages']} packages; full total {'unknown' if c['attempt']['downloads'] is None else c['attempt']['downloads']}. "
         f"Latest complete npm UTC day {latest['day']}: {latest['downloads']:,} events, "
         f"{latest['collected_packages']}/{latest['expected_packages']} packages, retrieved {latest['verified_at']}. "
         f"Crates.io cumulative downloads: {c['crates']:,}, retrieved {c['crates_at']}. "
@@ -124,6 +161,7 @@ def verify_downloads(root, running):
         assert value in desc, f'Stale accessible description: {value}'
     provisional = f"Provisional provider dates: {', '.join(c['provisional_dates']) or 'none'}; observed events {c['provisional_events']}."
     assert provisional in desc, 'Stale provisional provider disclosure'
+    assert f"Latest attempted npm UTC day {c['attempt']['day']}: {c['attempt']['observed_downloads']} observed events from {c['attempt']['collected_packages']}/{c['attempt']['expected_packages']} packages; full total {'unknown' if c['attempt']['downloads'] is None else c['attempt']['downloads']}." in desc, 'Stale partial coverage disclosure'
     assert f"current inventory {c['packages']} packages" in desc, 'Stale inventory coverage'
     return c
 

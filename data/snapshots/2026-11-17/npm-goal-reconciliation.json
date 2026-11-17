@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "prior_summary": "data/snapshots/2026-11-16/ecosystem-summary.json",
+  "prior_summary_sha256": "90d0d9fa9601899aa822a52c2757efafa731e124a882df5bf119275beb2baee6",
+  "covered_dates": [
+    {
+      "day": "2026-11-03",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-03.json"
+    },
+    {
+      "day": "2026-11-04",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-04.json"
+    },
+    {
+      "day": "2026-11-05",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-05.json"
+    },
+    {
+      "day": "2026-11-06",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-06.json"
+    },
+    {
+      "day": "2026-11-07",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-07.json"
+    },
+    {
+      "day": "2026-11-08",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-08.json"
+    },
+    {
+      "day": "2026-11-09",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-09.json"
+    },
+    {
+      "day": "2026-11-10",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-10.json"
+    },
+    {
+      "day": "2026-11-11",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-11.json"
+    },
+    {
+      "day": "2026-11-12",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-12.json"
+    },
+    {
+      "day": "2026-11-13",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-13.json"
+    },
+    {
+      "day": "2026-11-14",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-14.json"
+    },
+    {
+      "day": "2026-11-15",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-15.json"
+    }
+  ],
+  "covered_revisions": [
+    {
+      "key": "npm|@agentic-robotics/core|downloads|2026-11-15",
+      "prior": 0,
+      "current": 4,
+      "source": "data/snapshots/2026-11-17/npm-reconciled-2026-11-15.json",
+      "source_sha256": "ca1c0adef5f2ba04232f81bfd9c866b2b21d4d5d7908b0eb490e77bbac70de50",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-15.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-15",
+      "prior": 0,
+      "current": 2,
+      "source": "data/snapshots/2026-11-17/npm-reconciled-2026-11-15.json",
+      "source_sha256": "ca1c0adef5f2ba04232f81bfd9c866b2b21d4d5d7908b0eb490e77bbac70de50",
+      "prior_source": "data/snapshots/2026-11-16/npm-reconciled-2026-11-15.json"
+    }
+  ],
+  "increment_cells": {
+    "npm|@agentic-robotics/cli|downloads|2026-11-16": 15,
+    "npm|@agentic-robotics/core|downloads|2026-11-16": 18,
+    "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-16": 16
+  },
+  "through": "2026-11-16",
+  "verified_at": "2026-11-17T13:50:58.957030+00:00",
+  "prior_covered_ledger": "data/snapshots/2026-11-17/npm-prior-covered-ledger.json",
+  "prior_covered_ledger_sha256": "3539e2d53a8f20d1c517464a31d33035c84beaa1df5400dc2ef7e34213374375"
+}

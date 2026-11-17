@@ -129,4 +129,31 @@ class VisualProfileTest(unittest.TestCase):
                 self.assertNotIn('<script',final)
             finally:visual.ROOT=original
 
+
+class GoalReconciliationTest(unittest.TestCase):
+    def test_provisional_provider_day_cannot_be_latest_confirmed(self):
+        from profile_downloads import canonical
+        running=json.loads((ROOT/'data/ecosystem-running-totals.json').read_text())
+        self.assertTrue(running['npm_billion_goal']['provisional_dates'])
+        running['npm']['daily_latest']['day']=running['npm_billion_goal']['provisional_dates'][0]
+        with self.assertRaisesRegex(AssertionError,'Provisional provider day'):
+            canonical(running)
+
+    def test_covered_revisions_and_disjoint_increment_are_not_added_twice(self):
+        from profile_downloads import validate_goal_reconciliation
+        import hashlib
+        prior={'npm_billion_goal':{'baseline_covered_day_revision_adjustment':5}}
+        old={'values':{'example':1}}; new={'values':{'example':2}}
+        key='npm|example|downloads|2026-11-15'; inc='npm|example|downloads|2026-11-16'
+        digest=lambda x:hashlib.sha256(json.dumps(x,indent=2).encode()+b'\n').hexdigest()
+        source={'schema_version':2,'prior_summary':'prior','prior_summary_sha256':digest(prior),'covered_dates':[{'day':'2026-11-15','prior_source':'old'}],'covered_revisions':[{'key':key,'prior':1,'current':2,'prior_source':'old','source':'new','source_sha256':digest(new)}],'increment_cells':{inc:4},'through':'2026-11-16','verified_at':'2026-11-17T12:00:00Z'}
+        goal={'reconciliation_source':'source','baseline_through':'2026-11-15','baseline_covered_day_revision_adjustment':6,'nonoverlapping_daily_increment':4,'increment_dates':['2026-11-16'],'verified_at':source['verified_at'],'baseline_source':'baseline','baseline_download_events':100,'observed_download_events_lower_bound':110}
+        data={'source':source,'prior':prior,'old':old,'new':new,'baseline':{'reported_through':'2026-11-15','daily_totals':[{'day':'2026-11-15','downloads':100}]},'data/ecosystem-daily-ledger.json':{'values':{key:2,inc:4}}}
+        data['prior_cells']={'values':{key:1}};source.update(prior_covered_ledger='prior_cells',prior_covered_ledger_sha256=digest(data['prior_cells']))
+        validate_goal_reconciliation({'npm_billion_goal':goal},data.__getitem__)
+        goal['baseline_covered_day_revision_adjustment']=7
+        with self.assertRaises(AssertionError):validate_goal_reconciliation({'npm_billion_goal':goal},data.__getitem__)
+        goal['baseline_covered_day_revision_adjustment']=6;source['increment_cells'][key]=2
+        with self.assertRaises(AssertionError):validate_goal_reconciliation({'npm_billion_goal':goal},data.__getitem__)
+
 if __name__=='__main__':unittest.main()

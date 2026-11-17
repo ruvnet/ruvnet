@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-17T13:53:07.297815+00:00",
+  "scope": "Public package weave reconciliation and bounded runtime health",
+  "baseline": {
+    "repository_commit": "ee21080a79cd19fd572ea47f8facd3f8ff7ceb7f",
+    "pr_30": {
+      "state": "MERGED",
+      "head": "9b520431761fb87f985100897e3fb3f4aae9f279"
+    },
+    "policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "manifest_source_sha256": "71d70eea22173bc49152236fdd4f2ccd9a683a9183f45db4df25775cdfbdcb10"
+  },
+  "frozen_intent": "Reconcile existing recipe receipts and current manifests before selecting another integration; preserve exact pins and publication gates.",
+  "expected_observable_result": "Existing recipe hashes reconcile; an untested candidate requires a recipe, lock, evaluator and source-bound platform evidence before execution.",
+  "actual_result": {
+    "planner_exit_code": 0,
+    "inventory_packages": 429,
+    "graph_packages": 410,
+    "inventory_without_graph_count": 19,
+    "manifest_overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+    "fresh_manifest_subset": 6,
+    "fresh_manifest_observed_at": "2026-11-17T13:50:45.025237+00:00",
+    "candidate_states": {
+      "rvf-memory-v1": "observed_pass_review_ready",
+      "native-routing-v1": "observed_pass_review_ready",
+      "darwin-screening-v1": "ready_to_test"
+    },
+    "next_candidate": "darwin-screening-v1",
+    "new_dependency_edges": 0,
+    "install_executed": false,
+    "learning_gain": null,
+    "external_adoption_count": null,
+    "inventory_observed_at": "2026-11-17T13:49:11.649889Z",
+    "original_pilot_manifests": [
+      {
+        "package": "@ruvector/kge",
+        "version": "0.2.1",
+        "repository": {
+          "url": "git+https://github.com/ruvnet/RuVector.git",
+          "type": "git",
+          "directory": "npm/packages/kge"
+        },
+        "homepage": "https://ruv.io",
+        "dependencies": {},
+        "peerDependencies": {},
+        "optionalDependencies": {},
+        "source": "https://registry.npmjs.org/%40ruvector%2Fkge/latest",
+        "retrieved_at": "2026-11-17T13:50:44.761991+00:00",
+        "response_sha256": "374f797ab8f2275b5607c0bcb06ec4b54d624b0501a2ada2619c160ff9a7f0e5"
+      },
+      {
+        "package": "@metaharness/host-github-actions",
+        "version": "0.1.5",
+        "repository": {
+          "url": "git+https://github.com/ruvnet/metaharness.git",
+          "type": "git",
+          "directory": "packages/host-github-actions"
+        },
+        "homepage": "https://ruv.io",
+        "dependencies": {
+          "@metaharness/kernel": "^0.1.0"
+        },
+        "peerDependencies": {},
+        "optionalDependencies": {},
+        "source": "https://registry.npmjs.org/%40metaharness%2Fhost-github-actions/latest",
+        "retrieved_at": "2026-11-17T13:50:44.894518+00:00",
+        "response_sha256": "cf1bf141737a04efae5dc2ac474f6e6728e331aaf7c8da6b09995201669b5aca"
+      },
+      {
+        "package": "@ruvector/rvf-mcp-server",
+        "version": "0.2.5",
+        "repository": {
+          "url": "git+https://github.com/ruvnet/RuVector.git",
+          "type": "git",
+          "directory": "npm/packages/rvf-mcp-server"
+        },
+        "homepage": "https://ruv.io",
+        "dependencies": {
+          "zod": "^4.6.7",
+          "express": "^4.22.3",
+          "@ruvector/rvf": "^0.4.8",
+          "@modelcontextprotocol/sdk": "^1.32.1"
+        },
+        "peerDependencies": {},
+        "optionalDependencies": {},
+        "source": "https://registry.npmjs.org/%40ruvector%2Frvf-mcp-server/latest",
+        "retrieved_at": "2026-11-17T13:50:45.025237+00:00",
+        "response_sha256": "7bfd53a6affc5921ba61cdc114a651cc30f31db388627627434be60021e58be4"
+      }
+    ]
+  },
+  "health": {
+    "checked_at": "2026-11-17T13:48:48.711994+00:00",
+    "required_checks_pass": true,
+    "executor_completion_version": 1,
+    "completion_verified": true,
+    "exit_code": 0,
+    "output_complete": true,
+    "versions": {
+      "node": "24.21.0",
+      "python": "3.12.3",
+      "ruflo": "3.56.7",
+      "ruvector": "0.3.3",
+      "metaharness": "0.4.17"
+    },
+    "scope": "Local doctor only; no optional model or GPU workloads",
+    "billing_usd": null,
+    "scheduled_24_hour_reliability": null,
+    "observer_note": "Recent observer history remains blocked by an unreconciled indefinite claim; no claim was modified.",
+    "observer_evidence": {
+      "latest_run_started": "2026-11-03T15:59:12.766885+00:00",
+      "latest_run_status": "running",
+      "latest_overlap_observed_at": "2026-11-14T18:51:54.944392+00:00",
+      "claims_modified": false
+    }
+  },
+  "findings": [
+    {
+      "kind": "published_manifest_compatibility",
+      "darwin": "0.14.0",
+      "darwin_optional_ruv_fann_peer": "0.1.2",
+      "latest_ruv_fann": "0.3.0",
+      "latest_satisfies_peer": false
+    },
+    {
+      "kind": "published_manifest_compatibility",
+      "e_means": "0.1.0",
+      "e_means_optional_darwin_peer": "0.13.0 || 0.13.1",
+      "latest_darwin": "0.14.0",
+      "latest_satisfies_peer": false
+    },
+    {
+      "kind": "metadata_standard_gap",
+      "package": "ruv-fann",
+      "version": "0.3.0",
+      "observed_homepage": "https://ruvnet.github.io/ruv-FANN/",
+      "owner_standard_homepage": "https://ruv.io",
+      "source_directory": "packages/core"
+    }
+  ],
+  "outcome": "Existing original CI pilot integration verified in current source; duplicate edge unnecessary. Darwin candidate remains blocked by missing frozen evaluator, recipe lock and supported-platform evidence. No new install, learned improvement or adoption claimed.",
+  "platform_execution": {
+    "linux": null,
+    "macos": null,
+    "windows": null,
+    "wasm": null
+  },
+  "evidence": [
+    "docs/npm-distribution/ADR-002.md",
+    "data/npm-distribution/weave-policy.json",
+    "data/npm-distribution/weave-receipts/rvf-memory-v1.json",
+    "data/npm-distribution/weave-receipts/native-routing-v1.json",
+    "package-weave-plan.json",
+    "npm-new-manifests.json",
+    "pilot-manifests.json"
+  ],
+  "workload_receipt_adapter": {
+    "used": false,
+    "reason": "Fresh approved checked executor source search found no recordWorkloadForecast or closeWorkloadForecast interface, and no built distribution; ordinary structured receipt retained.",
+    "observed_rgi_commit": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421"
+  },
+  "closed_finding": {
+    "candidate": "@metaharness/host-github-actions",
+    "disposition": "Equivalent opt-in integration already exists; no duplicate dependency proposed",
+    "observed_source_behavior": "The generated minimal package declares @metaharness/host-{{host}} ^0.1.0 as a dependency and its default npm test imports that adapter. Published README documents the GitHub Actions evaluation recipe.",
+    "evidence_class": "Static source verification, not clean-install or runtime validation",
+    "sources": [
+      {
+        "source": "https://github.com/ruvnet/metaharness/blob/main/packages/host-github-actions/README.md",
+        "blob_sha": "3677d61d2234148fd9c9d4a5d889ac74f66502eb",
+        "content_sha256": "c9fc137cb7cd7dc398258b8c4dfbc2cb6ab29388a80a1bc294d3b63e3e972d5b"
+      },
+      {
+        "source": "https://github.com/ruvnet/metaharness/blob/main/packages/create-agent-harness/src/index.ts",
+        "blob_sha": "80573317bcbbb7936ca287617dd0be9fecee0689",
+        "content_sha256": "4c179af52f10b09dc99b38c34f58bef29e0e328eac1732982136d4dc5d10efc4"
+      },
+      {
+        "source": "https://github.com/ruvnet/metaharness/blob/main/packages/create-agent-harness/templates/minimal/package.json.tmpl",
+        "blob_sha": "569fbf8c5baa06b467174075a676aa0b4a0eff17",
+        "content_sha256": "10b4d5957a562a8063f6b59e38f231880e65c0dc374755a365c5c66601370a69"
+      },
+      {
+        "source": "https://github.com/ruvnet/metaharness/blob/main/packages/create-agent-harness/templates/minimal/__tests__/smoke.test.ts.tmpl",
+        "blob_sha": "cc0f910f6efdaccca98236fd2b353169e5b15ea0",
+        "content_sha256": "ebb4dd6a8fb7350bb5f7339218bd9f9b527487513ac19de093f9a845838a2892"
+      }
+    ],
+    "clean_install_executed": false
+  }
+}

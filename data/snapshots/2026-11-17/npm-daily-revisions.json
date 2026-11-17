@@ -1,0 +1,77 @@
+{
+  "scope": "Fresh keyed Nov15..16 range revisions, atomic frozen successful responses",
+  "results": [
+    {
+      "package": "@agentic-robotics/core",
+      "body": {
+        "start": "2026-11-15",
+        "end": "2026-11-16",
+        "package": "@agentic-robotics/core",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-15"
+          },
+          {
+            "downloads": 18,
+            "day": "2026-11-16"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-15:2026-11-16/%40agentic-robotics%2Fcore",
+        "retrieved_at": "2026-11-17T13:50:27.842585+00:00",
+        "response_sha256": "8d40e079946a4f35e457bf50f22f469f885a6d7fe5b8ba179b3983f72cbdcc1e"
+      }
+    },
+    {
+      "package": "@agentic-robotics/cli",
+      "body": {
+        "start": "2026-11-15",
+        "end": "2026-11-16",
+        "package": "@agentic-robotics/cli",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-15"
+          },
+          {
+            "downloads": 15,
+            "day": "2026-11-16"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-15:2026-11-16/%40agentic-robotics%2Fcli",
+        "retrieved_at": "2026-11-17T13:49:57.513266+00:00",
+        "response_sha256": "0ce41caa2287cebe39cd8c755f38f527c2be14b7e4662d98aab11787c964eda4"
+      }
+    },
+    {
+      "package": "@agentic-robotics/darwin-arm64",
+      "body": {
+        "start": "2026-11-15",
+        "end": "2026-11-16",
+        "package": "@agentic-robotics/darwin-arm64",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-15"
+          },
+          {
+            "downloads": 16,
+            "day": "2026-11-16"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-15:2026-11-16/%40agentic-robotics%2Fdarwin-arm64",
+        "retrieved_at": "2026-11-17T13:50:58.957030+00:00",
+        "response_sha256": "faa1e76595cf10b83cd819b7cac5e867f32f6e5ea344e74b5c56d859a204863f"
+      }
+    }
+  ],
+  "retrieved_at": "2026-11-17T13:50:58.957030+00:00",
+  "prior_covered_baseline_adjustment": 5,
+  "new_covered_baseline_adjustment": 11
+}
