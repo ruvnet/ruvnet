@@ -139,6 +139,8 @@ class RegistryRefreshTest(unittest.TestCase):
     def test_full_range_refresh_replaces_stale_goal_without_double_counting(self):
         registry=json.loads((ROOT/'data/registry-stats.json').read_text())
         evidence=json.loads((ROOT/registry['npm']['downloads_evidence_path']).read_text())
+        # This case freezes a fully recounted cohort, independent of later discovery.
+        registry['npm']['package_count']=len(evidence['packages'])
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);(root/'data').mkdir()
             for name in ['ecosystem-running-totals.json','ecosystem-daily-ledger.json']:

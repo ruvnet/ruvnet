@@ -1,0 +1,34 @@
+{
+  "scope": "Static source review only",
+  "sources": [
+    {
+      "url": "https://github.com/ruvnet/RuVector/blob/main/npm/packages/rvf-mcp-server/README.md",
+      "git_blob_sha": "9c185dbea0e9a022dff18c00cddd484fcb96a138",
+      "verified_properties": [
+        "Runnable portable RVF search through MCP recipe already documented",
+        "Native binding server requirement and absence of WASM fallback explicit",
+        "Moving external indexes requires idmap and MCP metadata sidecars as documented"
+      ]
+    },
+    {
+      "url": "https://github.com/ruvnet/RuVector/blob/main/npm/packages/rvf-mcp-server/src/index.ts",
+      "git_blob_sha": "d1c46337491ef3eead78c59f9522f0cebdcdc86d",
+      "verified_properties": [
+        "Package exports existing MCP server and transports"
+      ]
+    },
+    {
+      "url": "https://github.com/ruvnet/RuVector/blob/main/npm/packages/rvf-mcp-server/src/server.ts",
+      "git_blob_sha": "8c2fe800f49c2304cd000eeddcb51a870f4e02de",
+      "verified_properties": [
+        "Imports RvfDatabase from required @ruvector/rvf",
+        "Store creation uses native node backend",
+        "Read-only open uses native node backend",
+        "MCP query calls handle database query"
+      ]
+    }
+  ],
+  "runtime_executed": false,
+  "install_executed": false,
+  "new_edge_needed": false
+}

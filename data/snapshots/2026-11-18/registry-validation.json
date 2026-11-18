@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-18T13:45:35.640836+00:00",
+  "npm_inventory": 430,
+  "eligible_completed_days": 429,
+  "new_postwindow_package_excluded": true,
+  "npm_pages": 2,
+  "crates_pages": 6,
+  "cached_completed_downloads": {
+    "2026-11-15": 539258,
+    "2026-11-16": 751377
+  },
+  "cached_results": 429,
+  "current_partial": {
+    "day": "2026-11-17",
+    "collected": 3,
+    "expected": 429,
+    "observed": 4,
+    "full_total": null
+  },
+  "minimum_frozen_request_spacing_seconds": 30.178955078125,
+  "unique_daily_keys": true,
+  "cached_replay_provider_calls": 0,
+  "keyed_replay_idempotent": true,
+  "current_day_excluded": true,
+  "creation_eligibility_checked": true,
+  "normalized_completed_artifact_sha256": "96e01c73e0c5d771bbba88a89abf75ec15b555763e965fa8bd254babc2c9da0c",
+  "original_completed_result_sha256": "8a474d0e72576a10f9249d88fe9355877d246461dcc412e69fb628183c9bdb06",
+  "normalization": "Parsed JSON value retained exactly; formatted source snapshot has independent artifact digest"
+}

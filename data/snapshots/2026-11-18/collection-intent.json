@@ -1,0 +1,14 @@
+{
+  "scope": "Public GitHub ecosystem collection only",
+  "baseline": "6c42e498b79c80060fd69c99fb541925add84005",
+  "frozen_intent": "Full public pagination, gauges, release assets, activity and authorized traffic; unknowns stay null",
+  "expected_observable_result": "Complete dated source receipts or exact provider blocker",
+  "window": {
+    "start": "2026-11-04",
+    "end": "2026-11-17"
+  },
+  "issued_at": "2026-11-18T13:41:45.515795+00:00",
+  "collector_sha256": "d56e6cd5f810f3e4f265f0b6898d92230401d9006c54ea0e4190a01100bded93",
+  "budget_seconds": 900,
+  "rollback": "No publication; failed collection retains successful cache"
+}

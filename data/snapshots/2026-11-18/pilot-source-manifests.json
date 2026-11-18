@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "observation_kind": "Fresh GitHub source manifests only, not npm publication readback",
+  "packages": [
+    {
+      "package": "@ruvector/kge",
+      "version": "0.2.1",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruvnet/RuVector.git",
+        "directory": "npm/packages/kge"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/RuVector/issues"
+      },
+      "dependencies": {},
+      "optionalDependencies": {},
+      "peerDependencies": {},
+      "source": "https://github.com/ruvnet/RuVector/blob/main/npm/packages/kge/package.json",
+      "git_blob_sha": "69205659ce7a621d618fa93cf7014b5c9c30bb5b",
+      "observation_kind": "GitHub source manifest, not npm published readback"
+    },
+    {
+      "package": "@metaharness/host-github-actions",
+      "version": "0.1.5",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ruvnet/metaharness.git",
+        "directory": "packages/host-github-actions"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/metaharness/issues"
+      },
+      "dependencies": {
+        "@metaharness/kernel": "^0.1.0"
+      },
+      "optionalDependencies": {},
+      "peerDependencies": {},
+      "source": "https://github.com/ruvnet/metaharness/blob/main/packages/host-github-actions/package.json",
+      "git_blob_sha": "167c0f0222436fc3ef882d81086a2124ad5553dd",
+      "observation_kind": "GitHub source manifest, not npm published readback"
+    },
+    {
+      "package": "@ruvector/rvf-mcp-server",
+      "version": "0.2.5",
+      "homepage": "https://ruv.io",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruvnet/RuVector.git",
+        "directory": "npm/packages/rvf-mcp-server"
+      },
+      "bugs": {
+        "url": "https://github.com/ruvnet/RuVector/issues"
+      },
+      "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.32.1",
+        "@ruvector/rvf": "^0.4.8",
+        "express": "^4.22.3",
+        "zod": "^4.6.7"
+      },
+      "optionalDependencies": {},
+      "peerDependencies": {},
+      "source": "https://github.com/ruvnet/RuVector/blob/main/npm/packages/rvf-mcp-server/package.json",
+      "git_blob_sha": "d59880457c2b61b480e2be8a3765ade23b38e98e",
+      "observation_kind": "GitHub source manifest, not npm published readback"
+    }
+  ]
+}

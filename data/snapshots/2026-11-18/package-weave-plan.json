@@ -1,0 +1,149 @@
+{
+  "baseline_observed_at": "2026-11-09T02:52:45.501019+00:00",
+  "candidates": [
+    {
+      "baseline_manifest_relationships": [
+        "peerDependencies"
+      ],
+      "from": "@metaharness/kernel",
+      "id": "rvf-memory-v1",
+      "mode": "recipe",
+      "pins": {
+        "@metaharness/kernel": "0.1.8",
+        "@ruvector/rvf": "0.4.12"
+      },
+      "receipt_lock_sha256": "e6934b032c561db4fa8c497c6c0f56f04e351c817548cf5720bf23c65e808626",
+      "receipt_platform": "linux/x64",
+      "receipt_recipe_sha256": "bae863fc98e9bee4da0ce4fd6d048a7021d72c8b1d76016c2d76b77d1e993114",
+      "state": "observed_pass_review_ready",
+      "to": "@ruvector/rvf",
+      "value": "Persist tagged agent memory and recover the right records after a process restart."
+    },
+    {
+      "baseline_manifest_relationships": [
+        "peerDependencies"
+      ],
+      "from": "@metaharness/router",
+      "id": "native-routing-v1",
+      "mode": "recipe",
+      "pins": {
+        "@metaharness/router": "0.4.1",
+        "@ruvector/tiny-dancer": "0.1.26"
+      },
+      "receipt_lock_sha256": "3b1413e7826a9814a6a7e62378143040be2b09ee0d465dc2a46233abbcbe44a4",
+      "receipt_platform": "linux/x64",
+      "receipt_recipe_sha256": "b9a2b5e65fdd0f4a136088e1044779391e5a0640e1902a2c9551c8ca7b80c6f1",
+      "state": "observed_pass_review_ready",
+      "to": "@ruvector/tiny-dancer",
+      "value": "Route a fixed task set using the native scorer while retaining the TypeScript fallback."
+    },
+    {
+      "baseline_manifest_relationships": [
+        "peerDependencies"
+      ],
+      "from": "@metaharness/darwin",
+      "id": "darwin-screening-v1",
+      "mode": "recipe",
+      "pins": {
+        "@metaharness/darwin": "0.14.0",
+        "ruv-fann": "0.1.2"
+      },
+      "receipt_lock_sha256": null,
+      "receipt_platform": null,
+      "receipt_recipe_sha256": null,
+      "state": "ready_to_test",
+      "to": "ruv-fann",
+      "value": "Screen numeric candidates before spending the same external evaluation budget."
+    }
+  ],
+  "coverage": {
+    "baseline_packages": 408,
+    "graph_packages": 410,
+    "inventory_packages": 430,
+    "inventory_without_graph": [
+      "@metaharness/artex-defense",
+      "@metaharness/autogenous",
+      "@qudag/napi-core-linux-arm64-gnu",
+      "@qudag/napi-core-linux-x64-gnu",
+      "@ruvector/e-means",
+      "@ruvector/weight-space",
+      "autogenous",
+      "ruv-fann-wsp",
+      "ruv-fann-wsp-cloudflare",
+      "ruv-fann-wsp-huggingface",
+      "ruv-fann-wsp-invariants",
+      "ruv-fann-wsp-lifecycle",
+      "ruv-fann-wsp-loop",
+      "ruv-fann-wsp-registry",
+      "ruv-fann-wsp-ruos",
+      "ruv-fann-wsp-search",
+      "ruv-fann-wsp-swarm",
+      "ruvnet-constellation",
+      "ruvnet-constellation-contracts",
+      "ruvnet-constellation-telemetry"
+    ],
+    "missing_manifest_edges": [],
+    "new_since_baseline": [
+      "@metaharness/artex-defense",
+      "@metaharness/autogenous",
+      "@qudag/napi-core-linux-arm64-gnu",
+      "@qudag/napi-core-linux-x64-gnu",
+      "@ruvector/e-means",
+      "@ruvector/weight-space",
+      "autogenous",
+      "ruv-fann",
+      "ruv-fann-wasm",
+      "ruv-fann-wsp",
+      "ruv-fann-wsp-cloudflare",
+      "ruv-fann-wsp-huggingface",
+      "ruv-fann-wsp-invariants",
+      "ruv-fann-wsp-lifecycle",
+      "ruv-fann-wsp-loop",
+      "ruv-fann-wsp-registry",
+      "ruv-fann-wsp-ruos",
+      "ruv-fann-wsp-search",
+      "ruv-fann-wsp-swarm",
+      "ruvnet-constellation",
+      "ruvnet-constellation-contracts",
+      "ruvnet-constellation-telemetry"
+    ],
+    "no_longer_listed": [],
+    "not_reached_from_entrypoints": 289,
+    "overlay_packages": 13
+  },
+  "entrypoints": {
+    "agentdb": {
+      "possible_reachable_including_optional_and_peers": 100,
+      "required_reachable": 2
+    },
+    "agentic-flow": {
+      "possible_reachable_including_optional_and_peers": 105,
+      "required_reachable": 12
+    },
+    "metaharness": {
+      "possible_reachable_including_optional_and_peers": 23,
+      "required_reachable": 7
+    },
+    "ruflo": {
+      "possible_reachable_including_optional_and_peers": 120,
+      "required_reachable": 24
+    },
+    "ruvector": {
+      "possible_reachable_including_optional_and_peers": 81,
+      "required_reachable": 4
+    }
+  },
+  "inputs_sha256": [
+    "039c77f3854d648020c43ed5821f9a149241e0ca4139560d05f6e1919ce32033",
+    "3420b9893a89ab65ed876180d9724f59d52497438b14e30efdc6a8a425bdd3be",
+    "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "78fa0f6a92c0f6a863b5b04495b67e22d0afa4e32851ea22a163e929fda1b301",
+    "b3b4a1c219db2586f331b6bb320dea8f222bbed8ec31c326640cf8843fb8d2c2",
+    "41c5f476421c289a3be08cc801509cc4c58dc0b04ea58d29d5a72b0c595047d9"
+  ],
+  "inventory_observed_at": "2026-11-18T13:42:10.426962Z",
+  "next_test": "darwin-screening-v1",
+  "overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+  "promotion_authorized": false,
+  "schema_version": 1
+}
