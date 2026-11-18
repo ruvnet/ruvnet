@@ -1,5 +1,6 @@
 """Canonical provider-specific download claims for the profile. No network access."""
 import copy
+import datetime as dt
 import hashlib
 import json
 from pathlib import Path
@@ -60,6 +61,25 @@ def validate_goal_revision(running, read_json):
     assert receipt['source_sha256'] == hashlib.sha256(json.dumps(source, indent=2).encode() + b'\n').hexdigest()
     assert goal['verified_at'] == row['receipt']['retrieved_at']
     assert goal['observed_download_events_lower_bound'] == goal['baseline_download_events'] + adjustment + goal['nonoverlapping_daily_increment']
+
+def validate_latest_cohort(latest, point, inventory_count, inventory_ids=None, creations=None):
+    assert point["day"] == latest["day"], "Mismatched latest UTC date"
+    assert not point.get("provider_data_provisional") and not point.get("provisional"), "Provisional provider day cannot be confirmed"
+    exclusions = point.get('excluded_created_after_target_day', {})
+    assert len(point['values']) == latest['collected_packages']
+    assert latest['expected_packages'] + len(exclusions) == inventory_count
+    for package, created in exclusions.items():
+        at = created if isinstance(created, str) else created.get('created_at')
+        try:
+            created = dt.datetime.fromisoformat(at.replace('Z','+00:00'))
+            assert created.tzinfo is not None
+        except (ValueError, AttributeError, TypeError):
+            raise AssertionError('Invalid package creation timestamp')
+        assert created.astimezone(dt.timezone.utc).date().isoformat() > latest['day'], 'Unverified postwindow creation exclusion'
+        assert package not in point['values'], 'Excluded package also counted'
+        if creations is not None: assert creations.get(package) == at, 'Unverified creation provenance'
+    if inventory_ids is not None: assert set(point['values']) | set(exclusions) == set(inventory_ids), 'Unknown or missing inventory ID'
+    assert latest['collected_packages'] == latest['expected_packages']
 
 def canonical(running):
     goal = running['npm_billion_goal']
@@ -168,6 +188,11 @@ def verify_downloads(root, running):
 if __name__ == '__main__':
     running = json.loads((ROOT / 'data/ecosystem-running-totals.json').read_text())
     validate_goal_revision(running, lambda p: json.loads((ROOT / p).read_text()))
+    latest = running['npm']['daily_latest']
+    registry = json.loads((ROOT / 'data/registry-stats.json').read_text())
+    inventory = json.loads((ROOT / registry['npm']['inventory_path']).read_text())['packages']
+    manifests = json.loads((ROOT / ('data/snapshots/' + running['source_watermark']['snapshot_date'] + '/npm-new-manifests.json')).read_text())
+    validate_latest_cohort(latest, json.loads((ROOT / latest['source']).read_text()), running['npm']['expected_packages'], inventory, {r['package']:r.get('created_at') for r in manifests['packages']})
     root = ET.parse(ROOT / 'assets/ruvnet/dashboard.svg').getroot()
     result = verify_downloads(root, running)
     # Reproduce the original stale-source defect by substituting the old mixed total.

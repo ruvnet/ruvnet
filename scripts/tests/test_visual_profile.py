@@ -156,4 +156,23 @@ class GoalReconciliationTest(unittest.TestCase):
         goal['baseline_covered_day_revision_adjustment']=6;source['increment_cells'][key]=2
         with self.assertRaises(AssertionError):validate_goal_reconciliation({'npm_billion_goal':goal},data.__getitem__)
 
+    def test_complete_day_can_exclude_only_verified_later_creation(self):
+        from profile_downloads import validate_latest_cohort
+        latest = {'day':'2026-11-16','collected_packages':1,'expected_packages':1}
+        point = {'day':'2026-11-16','values':{'existing':5},'excluded_created_after_target_day':{'new':'2026-11-18T04:48:05Z'}}
+        validate_latest_cohort(latest, point, 2, ['existing','new'], {'new':'2026-11-18T04:48:05Z'})
+        with self.assertRaises(AssertionError):validate_latest_cohort(latest, point, 2, ['existing','different'], {'new':'2026-11-18T04:48:05Z'})
+        with self.assertRaises(AssertionError):validate_latest_cohort(latest, point, 2, ['existing','new'], {'new':'2026-11-17T00:00:00Z'})
+        point['day']='2026-11-15'
+        with self.assertRaises(AssertionError):validate_latest_cohort(latest, point, 2)
+        point['day']='2026-11-16'
+        point['excluded_created_after_target_day']['new']='not-a-date'
+        with self.assertRaises(AssertionError):validate_latest_cohort(latest, point, 2, ['existing','new'], {'new':'not-a-date'})
+        point['excluded_created_after_target_day']['new']='2026-11-17T00:30:00+01:00'
+        with self.assertRaises(AssertionError):validate_latest_cohort(latest, point, 2)
+        point['excluded_created_after_target_day']['new']='2026-11-15T00:00:00Z'
+        with self.assertRaises(AssertionError):validate_latest_cohort(latest, point, 2)
+        point['excluded_created_after_target_day']={}
+        with self.assertRaises(AssertionError):validate_latest_cohort(latest, point, 2)
+
 if __name__=='__main__':unittest.main()

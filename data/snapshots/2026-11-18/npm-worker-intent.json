@@ -1,0 +1,14 @@
+{
+  "scope": "Nov17 completed UTC npm download cells",
+  "baseline_main": "6c42e498b79c80060fd69c99fb541925add84005",
+  "frozen_intent": "Fetch only missing Nov17 daily cells under existing shared provider lock at >=30second sequential pace",
+  "expected_result": "429eligiblepackage observations or durable partial status;1newpostwindowpackageexcluded",
+  "inventory_sha256": "56de760fb67884b1bec5eb16ba296b7b0bb5ea497b2e4f126b758fdf7b3d4572",
+  "worker_sha256": "5a910e19eb8750015bec2ed9ea8c769841fc8ffa9450f76f9ed88937c7abf250",
+  "issued_at": "2026-11-18T13:43:18.538202+00:00",
+  "budget_seconds": 21600,
+  "rollback": "No worker publication; stop preserves cache/queue",
+  "excluded_created_after_target_day": {
+    "@metaharness/artex-defense": "2026-11-18T04:48:05.337Z"
+  }
+}

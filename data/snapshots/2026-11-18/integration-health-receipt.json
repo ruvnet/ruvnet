@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-18T13:43:31.065418+00:00",
+  "scope": "Public package weave source reconciliation and bounded runtime health",
+  "baseline": {
+    "repository_commit": "6c42e498b79c80060fd69c99fb541925add84005",
+    "pr_30": {
+      "state": "MERGED",
+      "head": "9b520431761fb87f985100897e3fb3f4aae9f279"
+    },
+    "policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "manifest_source_sha256": "41c5f476421c289a3be08cc801509cc4c58dc0b04ea58d29d5a72b0c595047d9"
+  },
+  "frozen_intent": "Inspect original pilot sources and current runtime evidence before selecting another integration; preserve execution and publication gates.",
+  "expected_observable_result": "Source-bound equivalent-integration finding or explicit prerequisite blocker; no added dependency unless a missing exercised path is established.",
+  "actual_result": {
+    "install_executed": false,
+    "new_dependency_edges": 0,
+    "learning_gain": null,
+    "external_adoption_count": null,
+    "fresh_source_manifests": 3,
+    "fresh_published_registry_manifests": 0,
+    "source_scope": "Current GitHub package manifests only; npm publication readback not refreshed in this lane",
+    "finding": "The RVF MCP pilot already declares @ruvector/rvf and exercises native create/open/query paths. Current README provides an MCP search recipe and discloses native-only server support and required sidecars. No duplicate integration edge is needed.",
+    "planner_exit_code": 0,
+    "inventory_packages": 430,
+    "graph_packages": 410,
+    "inventory_without_graph_count": 20,
+    "inventory_observed_at": "2026-11-18T13:42:10.426962Z",
+    "manifest_overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+    "candidate_states": {
+      "rvf-memory-v1": "observed_pass_review_ready",
+      "native-routing-v1": "observed_pass_review_ready",
+      "darwin-screening-v1": "ready_to_test"
+    },
+    "next_candidate": "darwin-screening-v1",
+    "planner_replay": "Read only hash reconciliation of dated recipe and lock evidence; not a fresh recipe execution"
+  },
+  "health": {
+    "checked_at": "2026-11-18T13:36:54.261993+00:00",
+    "required_checks_pass": true,
+    "executor_completion": {
+      "completionVersion": 1,
+      "completionVerified": true,
+      "status": "ok",
+      "exitCode": 0,
+      "output_complete": true
+    },
+    "versions": {
+      "node": "24.21.0",
+      "python": "3.12.3",
+      "ruflo": "3.56.7",
+      "ruvector": "0.3.3",
+      "metaharness": "0.4.17",
+      "core_memory": "154c9525ea5350a965cafc501ff79a023d52a9bb"
+    },
+    "billing_usd": null,
+    "optional_workloads_authorized": false,
+    "observer": {
+      "last_run_status": "running",
+      "last_run_started": "2026-11-03T15:59:12.766885+00:00",
+      "last_observed_overlap": "2026-11-14T18:51:54.944392+00:00",
+      "claims_modified": false,
+      "scheduled_reliability_verified": false
+    },
+    "routing_overview": {
+      "blocked": 3,
+      "worked_tasks_last_7_days": 0,
+      "repository_authority": false
+    }
+  },
+  "platform_execution": {
+    "linux": "unknown for fresh pilot install",
+    "macos": "unknown",
+    "windows": "unknown",
+    "wasm": "unknown; RVF MCP server source explicitly has no WASM fallback"
+  },
+  "workload_receipt_adapter": {
+    "available": false,
+    "reason": "Approved rGi checkout source lacks recordWorkloadForecast and closeWorkloadForecast interfaces and has no built dist; ordinary structured receipt used.",
+    "source_commit": "2dd6adb526a7ca1d27b1c4d6cf98c828b390c421"
+  },
+  "outcome": "Equivalent-integration source finding closed; no runtime, adoption, learning, package publication or engineering merge claim.",
+  "evidence": {
+    "pilot_sources": "pilot-source-manifests.json",
+    "rvf_source_review": "rvf-pilot-source-review.json",
+    "planner": "package-weave-plan.json",
+    "planner_sha256": "4058608fbbb2497eb9ca0a655d2bb5a09ece852b0b4e678bfa8661e64105d3ef"
+  }
+}

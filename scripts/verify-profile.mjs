@@ -185,8 +185,24 @@ if (npm.downloads_evidence_path) {
   const published = running.npm.latest_confirmed_daily;
   assert.equal(published.day, latest.day, 'Stale latest npm day');
   assert.equal(published.downloads, latest.downloads, 'Stale latest npm daily count');
-  assert.equal(published.collected_packages, receipt.packages.length);
-  assert.equal(published.expected_packages, npm.package_count);
+  assert.equal(published.collected_packages, latest.collected_packages ?? receipt.packages.length);
+  assert.equal(published.expected_packages, latest.expected_packages ?? npm.package_count);
+  if (latest.source && latest.coverage_complete) {
+    const point = json(latest.source);
+    const exclusions = point.excluded_created_after_target_day || {};
+    assert.equal(point.day, latest.day);
+    assert.ok(!point.provider_data_provisional && !point.provisional);
+    assert.deepEqual([...Object.keys(point.values), ...Object.keys(exclusions)].sort(), [...json(npm.inventory_path).packages].sort());
+    const creations = new Map(json('data/snapshots/'+watermark.snapshot_date+'/npm-new-manifests.json').packages.map(row=>[row.package,row.created_at]));
+    assert.equal(Object.keys(point.values).length, published.collected_packages);
+    assert.equal(published.expected_packages + Object.keys(exclusions).length, npm.package_count);
+    for (const [name,created] of Object.entries(exclusions)) {
+      const at = typeof created === 'string' ? created : created.created_at;
+      assert.ok(typeof at === 'string' && /^\d{4}-\d{2}-\d{2}T/.test(at) && Number.isFinite(Date.parse(at)), 'Invalid package creation timestamp');
+      assert.ok(new Date(at).toISOString().slice(0,10) > published.day, 'Unverified postwindow creation exclusion');
+      assert.equal(creations.get(name), at, 'Unverified creation provenance');
+    }
+  }
   assert.equal(published.verified_at, latest.verified_at || receipt.retrieved_at);
   assert.equal(published.source, latest.source || receipt.source);
   assert.equal(published.rolling_24_hours, false);
