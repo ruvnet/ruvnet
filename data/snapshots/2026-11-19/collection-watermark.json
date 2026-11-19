@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-11-19",
+  "default_branch_base_sha": "e5473790741e34e86d63e53ce236ab020251252c",
+  "github_verified_at": "2026-11-19T13:24:35.890180+00:00",
+  "npm_inventory_verified_at": "2026-11-19T13:25:03.404328Z",
+  "npm_downloads_verified_at": "2026-11-16T05:42:27.470459Z",
+  "npm_daily_verified_at": "2026-11-19T13:26:55.837143+00:00",
+  "crates_io_verified_at": "2026-11-19T13:25:16.459548Z",
+  "public_repository_ids": 235,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-11-05",
+    "end": "2026-11-18",
+    "complete_days": 14
+  },
+  "source_version": "ecosystem snapshot v1 with independent completed daily range overlay",
+  "traffic_coverage": {
+    "expected_cells_per_metric": 3290,
+    "missing_cells_per_metric": {
+      "clones": 4,
+      "views": 4
+    },
+    "fresh_api_cells_per_metric": {
+      "clones": 3286,
+      "views": 3286
+    },
+    "historical_backfill_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "precreation_zero_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "repositories": 235
+  },
+  "npm_coverage": {
+    "packages": 430,
+    "range_packages": 429,
+    "daily_observed_packages": 3,
+    "daily_date": "2026-11-18",
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 501
+  },
+  "release_coverage": {
+    "repositories": 235,
+    "releases": 2572,
+    "assets": 1111
+  },
+  "github_pagination": {
+    "per_page": 100,
+    "terminal_page": 4,
+    "terminal_page_count": 0,
+    "unique_repository_ids": 235,
+    "complete": true
+  },
+  "actions_runs": null,
+  "actions_blocker": "GitHub Actions complete window enumeration not performed within the bounded API budget; no workflow activity total claimed.",
+  "refresh-registry-metrics.py_sha256": "1d2b5f1e10ce7280c6edbf898cc1e372de305812136d2d6ebad1fdb3f77d81d5",
+  "update-ecosystem-snapshot.py_sha256": "2b9d43a2dca680134e66e7f5aa580605784c814209b79280a875b160d314b729",
+  "render-visual-profile.py_sha256": "9ebda1c12e327cb6ac0987c3e1915efc7a7484fd07d58673ddb173d91ebcf1cd",
+  "profile_downloads.py_sha256": "348bc73c05e0cfb12fc5b4cbf13f52b468ba083571addc799f5a999c1e248e7c",
+  "render-registry-metrics.mjs_sha256": "a389fb446e0c1fb0c4308de359b4ca12fc6de0434be645cf8d1a37538c038bd6",
+  "verify-profile.mjs_sha256": "253e987a916f645b93c113c1572ccb186841e6e72bf0a646b730012f9506d75d",
+  "collector_sha256": "1d2b5f1e10ce7280c6edbf898cc1e372de305812136d2d6ebad1fdb3f77d81d5",
+  "github_adapter_sha256": "0911830600e4259e78bac133fe621e554c658ef33d652d40dbdab15adcfef3a0",
+  "source_sha256": {
+    "github-inventory.json": "e12dadb73dc880274e3f7609243395ee6599db95df7db0ab424fa4956a9add62",
+    "github-release-inventory.json": "07cb73e8345d014903c48438b510836e83d93c3326f720554965d8a6b7f4d135",
+    "github-traffic-inventory.json": "a107d6e82fcb6efc477f37b68fec4664e41313b0d7be2d6f17bf5b1daf0ab22b",
+    "npm-inventory.json": "3103cf37ed8a6244fa0459be06b3b7b51d924743741025756718e18bc6373a98",
+    "crates-inventory.json": "e349c19055fb03dd4c9bc41f6cbdd4cb00a19004fbdd8d7059b71a4cfa5fbe66",
+    "npm-reconciled-2026-11-05.json": "8c0e9cf0d1c2030fad7f1a688f035fd308795ba0cbe9fa372e9cfa192a8c2a5b",
+    "npm-reconciled-2026-11-06.json": "6690f85aba7f1052a445afca928ede4b44f5dfc3104ca823642e96bc61088360",
+    "npm-reconciled-2026-11-07.json": "a710e9cf85d4ba3d03eaac441da9ff1c85341ca55ac178064b75b0a5176d0ed9",
+    "npm-reconciled-2026-11-08.json": "0082b9f0defb4c1baef699bd67c8ff39e13f70db70da7f5e5ad2fab27fca4ca2",
+    "npm-reconciled-2026-11-09.json": "9f4b579680b49519c5bc3b0d10dedc94f24144ffb3bdfbdf0cbee2ec3856090b",
+    "npm-reconciled-2026-11-10.json": "eb3b31cc7227a95b7591f16558ba56a912d1fdd755be7b40bc974521f8c96004",
+    "npm-reconciled-2026-11-11.json": "0f474e13f780a88d65373662a328bd0db0982b3224359268f2f48b8abfe72795",
+    "npm-reconciled-2026-11-12.json": "42942e95ce0daf14108004d0b9ecd3a0aba96be6a30a4f2c9275cf5c0e182e8c",
+    "npm-reconciled-2026-11-13.json": "0b19cdaff7ee2c6ae96fdcb120d1ee6a356dc82d6b552932f55130902dba7f2a",
+    "npm-reconciled-2026-11-14.json": "531c1c3f2029cff9fad2f1539c5e0507844e8f432337302d87b36b9149ebbfd0",
+    "npm-reconciled-2026-11-15.json": "41c8eea10cf32056bf55255ecd559a18ce39b56646a23c2c5811756de926fa3f",
+    "npm-reconciled-2026-11-16.json": "9227c98a5fc90492947f58d2eb5a3bf7a37bf92c2d9466763244aee0503d1f4f",
+    "npm-reconciled-2026-11-17.json": "469b3ec8e4452ef79dbf0422232b9eaaf34429f02b95dccc66666394f598ee14",
+    "npm-reconciled-2026-11-18.json": "183eb7c26921e24ade8176b38be24dd287b351c40811ce5468b7182dc3d1b117",
+    "npm-weekly-subset.json": "f348c9533f3ebb204f05535991f024b15895d1d08279f15bd738e8e5446639a7",
+    "npm-new-manifests.json": "3786fe9568fbeb37a18d4ceba1182c4c3a691202d76edf63b1986fc4bb2ffb46",
+    "npm-downloads.json": "da7452e2d272fbebd69134054c07ccb18987b26cb357dc3ff0d4d2ae9d9994fb",
+    "npm-completed-backfill.json": "6fe516f86d2b475c1baf45b1d7134a2a0bea19bf97c97bef37c7d8fd81e41e41",
+    "integration-health-receipt.json": "54dd0b34fe3d890756f1575a885bb2728a47271bf6aa1d219882c2bcfa1d7ae1",
+    "package-weave-plan.json": "f131a83bb2bfe2372b0ddd0f3bf358affcbf0bd3683ad181b56f2abedc6e8327",
+    "registry-validation.json": "e7b93f5042b9212382e6cc4f7abf2a61286b6a87ccf4279ede57ceca972ec0d9",
+    "npm-goal-reconciliation.json": "5bada3360db0b973e85fe4a023a92b4cb9880c973ca52e6cac3bf7ffc88d79d2",
+    "npm-prior-covered-ledger.json": "09bce5c698563d971ee89553e17ee37871edb66bebff53c7126ee485de2b3150",
+    "npm-daily-revisions.json": "0692a54941a4e2eb3fabde1efa09225016188e1302d01465af0336016125ce6a",
+    "npm-worker-intent.json": "5e025736438d050df50ef4ffd6b0e9c4ada412bad53dc16f2f5b1e4353c55dfe",
+    "npm-worker-outcome.json": "d74820db7a0562adb6fdecaf57720618faa16851ba8a7de0b1c85c54c6f63fce",
+    "pilot-source-manifests.json": "56482a8b291909c7b31c425d30364da3be80c7886f3a5e958262d9e5bb0b9f98",
+    "kge-pilot-source-review.json": "fbb63b471be60ab033fb9b2c8c726a026f0837f11bb83e78e55577f5fb412c5c"
+  }
+}
