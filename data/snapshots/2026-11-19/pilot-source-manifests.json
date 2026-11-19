@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-19T13:28:27.259155+00:00",
+  "packages": [
+    {
+      "package": "@ruvector/kge",
+      "version": "0.2.1",
+      "manifest": {
+        "name": "@ruvector/kge",
+        "version": "0.2.1",
+        "description": "Knowledge graph embeddings (HolE / RotatE) for link prediction in Node.js: train on (head, relation, tail) triples and rank missing tails. Rust native addon with a WASM fallback; no network.",
+        "license": "MIT",
+        "homepage": "https://ruv.io",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/ruvnet/RuVector.git",
+          "directory": "npm/packages/kge"
+        },
+        "bugs": {
+          "url": "https://github.com/ruvnet/RuVector/issues"
+        },
+        "main": "dist/index.js",
+        "types": "dist/index.d.ts",
+        "bin": {
+          "kge": "bin/cli.js"
+        },
+        "files": [
+          "dist",
+          "bin",
+          "index.js",
+          "index.d.ts",
+          "README.md",
+          "docs/adr",
+          "wasm",
+          "native"
+        ],
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "keywords": [
+          "knowledge-graph",
+          "graph-embeddings",
+          "link-prediction",
+          "embeddings",
+          "machine-learning",
+          "kge",
+          "hole",
+          "rotate",
+          "hnsw",
+          "typescript",
+          "wasm",
+          "rust",
+          "ruvector",
+          "local-first"
+        ],
+        "scripts": {
+          "build": "tsc -p tsconfig.json",
+          "build:napi": "napi build --platform --release --cargo-cwd ../../../crates/ruvector-kge-ffi",
+          "typecheck": "tsc --noEmit -p tsconfig.typetest.json",
+          "test": "node --test test/*.test.mjs",
+          "test:all": "tsc -p tsconfig.json && tsc --noEmit -p tsconfig.typetest.json && node --test test/*.test.mjs",
+          "prepublishOnly": "tsc -p tsconfig.json",
+          "bench": "node bench/run.mjs"
+        },
+        "devDependencies": {
+          "@napi-rs/cli": "^2.18.0",
+          "typescript": "^5.9.3"
+        }
+      },
+      "source": {
+        "url": "https://github.com/ruvnet/RuVector/blob/979c31acc57b970c1a7e0771ed527c1703c137e8/npm/packages/kge/package.json",
+        "commit": "979c31acc57b970c1a7e0771ed527c1703c137e8",
+        "blob_sha": "69205659ce7a621d618fa93cf7014b5c9c30bb5b",
+        "sha256": "b16d09a45ccf6ad4d85e1db091df7738007c6c72b4993cf06818f8bb81525a48",
+        "observed_at": "2026-11-19T13:28:25.399169+00:00"
+      },
+      "provider": "GitHub source manifest",
+      "npm_publication_readback": false
+    },
+    {
+      "package": "@metaharness/host-github-actions",
+      "version": "0.1.5",
+      "manifest": {
+        "name": "@metaharness/host-github-actions",
+        "version": "0.1.5",
+        "description": "GitHub Actions host adapter for MetaHarness: emits a least-privilege workflow and a reusable composite action so an agent harness runs non-interactively in CI.",
+        "homepage": "https://ruv.io",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/ruvnet/metaharness.git",
+          "directory": "packages/host-github-actions"
+        },
+        "bugs": {
+          "url": "https://github.com/ruvnet/metaharness/issues"
+        },
+        "license": "MIT",
+        "type": "module",
+        "main": "./dist/index.js",
+        "types": "./dist/index.d.ts",
+        "exports": {
+          ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+          }
+        },
+        "files": [
+          "dist/**",
+          "README.md",
+          "LICENSE"
+        ],
+        "scripts": {
+          "build": "tsc",
+          "test": "vitest run --passWithNoTests",
+          "lint": "tsc --noEmit"
+        },
+        "keywords": [
+          "metaharness",
+          "agent-harness",
+          "github-actions",
+          "ci-cd",
+          "continuous-integration",
+          "agent-evaluation",
+          "harness-evaluation",
+          "composite-action",
+          "workflow",
+          "host-adapter",
+          "least-privilege",
+          "ai-agent"
+        ],
+        "publishConfig": {
+          "access": "public"
+        },
+        "dependencies": {
+          "@metaharness/kernel": "^0.1.0"
+        },
+        "devDependencies": {
+          "@types/node": "^20.0.0",
+          "typescript": "^5.4.0",
+          "vitest": "^4.1.12"
+        },
+        "engines": {
+          "node": ">=20.0.0"
+        }
+      },
+      "source": {
+        "url": "https://github.com/ruvnet/metaharness/blob/acf5b9967e0dd17383a74d771791a02b478243d4/packages/host-github-actions/package.json",
+        "commit": "acf5b9967e0dd17383a74d771791a02b478243d4",
+        "blob_sha": "167c0f0222436fc3ef882d81086a2124ad5553dd",
+        "sha256": "a441236f4a514f83a3497a65846110fcb3fe59698b4ddf451d28115a2085468f",
+        "observed_at": "2026-11-19T13:28:25.717041+00:00"
+      },
+      "provider": "GitHub source manifest",
+      "npm_publication_readback": false
+    },
+    {
+      "package": "@ruvector/rvf-mcp-server",
+      "version": "0.2.5",
+      "manifest": {
+        "name": "@ruvector/rvf-mcp-server",
+        "version": "0.2.5",
+        "description": "MCP server for local vector search over portable RVF files: Claude Code, Cursor and other MCP clients create, fill and query HNSW-indexed .rvf stores over stdio or SSE.",
+        "type": "module",
+        "main": "dist/index.js",
+        "types": "dist/index.d.ts",
+        "bin": {
+          "rvf-mcp-server": "dist/cli.js"
+        },
+        "exports": {
+          ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+          }
+        },
+        "files": [
+          "dist",
+          "src",
+          "README.md"
+        ],
+        "scripts": {
+          "build": "tsc",
+          "start": "node dist/cli.js",
+          "start:stdio": "node dist/cli.js --transport stdio",
+          "start:sse": "node dist/cli.js --transport sse --port 3100",
+          "dev": "tsc --watch",
+          "test": "tsc && node --test --test-force-exit test/server.test.mjs test/sse.test.mjs"
+        },
+        "keywords": [
+          "mcp",
+          "mcp-server",
+          "model-context-protocol",
+          "vector-search",
+          "vector-database",
+          "embeddings",
+          "rag",
+          "ai-agents",
+          "claude-code",
+          "typescript",
+          "ruvector",
+          "rvf"
+        ],
+        "license": "MIT",
+        "homepage": "https://ruv.io",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/ruvnet/RuVector.git",
+          "directory": "npm/packages/rvf-mcp-server"
+        },
+        "bugs": {
+          "url": "https://github.com/ruvnet/RuVector/issues"
+        },
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "dependencies": {
+          "@modelcontextprotocol/sdk": "^1.32.1",
+          "@ruvector/rvf": "^0.4.8",
+          "express": "^4.22.3",
+          "zod": "^4.6.7"
+        },
+        "devDependencies": {
+          "@types/express": "^4.17.21",
+          "@types/node": "^20.10.0",
+          "typescript": "^5.3.0"
+        }
+      },
+      "source": {
+        "url": "https://github.com/ruvnet/RuVector/blob/979c31acc57b970c1a7e0771ed527c1703c137e8/npm/packages/rvf-mcp-server/package.json",
+        "commit": "979c31acc57b970c1a7e0771ed527c1703c137e8",
+        "blob_sha": "d59880457c2b61b480e2be8a3765ade23b38e98e",
+        "sha256": "5a76a2467ca1f598f2c01908ebc49f6eac02f11f346cc6d3fdb9c4b2761bdf3f",
+        "observed_at": "2026-11-19T13:28:26.014383+00:00"
+      },
+      "provider": "GitHub source manifest",
+      "npm_publication_readback": false
+    }
+  ],
+  "definition": "GitHub source manifests only; no fresh npm publication readback"
+}

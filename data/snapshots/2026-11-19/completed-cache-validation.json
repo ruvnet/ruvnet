@@ -1,0 +1,14 @@
+{
+  "cached_packages": 429,
+  "day": "2026-11-17",
+  "downloads": 937157,
+  "source_sha256": "de37bbdc8d343748b7f826a9565ce891154556b6489356d98d79a018742fdf7b",
+  "retrieval_start": "2026-11-18T13:43:18.801153+00:00",
+  "retrieval_end": "2026-11-18T17:20:08.428287+00:00",
+  "minimum_response_spacing_seconds": 30.116776,
+  "source_files_match": true,
+  "identity_date_integer_uniqueness": true,
+  "provider_lock_available": true,
+  "cooldown_clear": true,
+  "cached_replay_provider_calls": 0
+}

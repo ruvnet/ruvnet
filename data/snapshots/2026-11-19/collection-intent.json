@@ -1,0 +1,8 @@
+{
+  "scope": "Canonical public ecosystem collection and reconciliation",
+  "baseline": "e5473790741e34e86d63e53ce236ab020251252c",
+  "frozen_intent": "Reconcile completed cached Nov17 observations by stable keys, refresh public inventories and available metrics, render exact source-bound totals without overlapping windows",
+  "expected_observable_result": "Validated scoped report and JSON/SVG update, independent audit and root publication with exact head/base checks; unknown stays null",
+  "observed_at": "2026-11-19T13:26:05.183378+00:00",
+  "outcome": "Intent frozen before canonical mutations"
+}

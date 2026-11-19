@@ -1,0 +1,10 @@
+{
+  "scope": "Public GitHub metrics Nov19",
+  "baseline": "e5473790741e34e86d63e53ce236ab020251252c",
+  "frozen_intent": "Fully paginate public owned repositories and release assets, collect available gauges and Nov5..18 activity/traffic with explicit nulls",
+  "expected_result": "Validated public source snapshots with metric timestamps, hashes and coverage; no private/draft content",
+  "script_sha256": "0911830600e4259e78bac133fe621e554c658ef33d652d40dbdab15adcfef3a0",
+  "budget_seconds": 900,
+  "issued_at": "2026-11-19T13:24:25.046088+00:00",
+  "outcome": "prepared"
+}

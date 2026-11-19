@@ -1,0 +1,16 @@
+{
+  "scope": "Nov18 completed UTC npm daily observations",
+  "baseline_main": "e5473790741e34e86d63e53ce236ab020251252c",
+  "frozen_intent": "Collect only missing Nov18 cells across430eligiblepackages through one sequential shared provider stream",
+  "expected_result": "430 identity/date/nonnegative integer observations or explicit partial/cooldown checkpoint",
+  "inventory_sha256": "3103cf37ed8a6244fa0459be06b3b7b51d924743741025756718e18bc6373a98",
+  "worker_sha256": "0063eaf10eb2d9c009d45abcfc431d8edf3e8dca2a871b03d0ca05d3950a658e",
+  "issued_at": "2026-11-19T13:25:54.633857+00:00",
+  "budget_seconds": 21600,
+  "provider_state_before": {
+    "last_request_epoch": 1795022408.1212313,
+    "last_package": "worldgraphs",
+    "window": "2026-11-17:2026-11-17"
+  },
+  "rollback": "No publication by worker; stop or cooldown preserves responses and resumable queue"
+}
