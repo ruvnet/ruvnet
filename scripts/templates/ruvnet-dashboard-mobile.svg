@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="996" viewBox="0 0 320 664" role="img" aria-labelledby="title desc">
+  <title id="title">rUv ecosystem statistics</title>
+  <desc id="desc"/>
+  <style>
+    text { font-family: system-ui, sans-serif; fill: #eef3fa; font-size: 16.5px; font-variant-numeric: tabular-nums }
+    .section { font-size: 19px; font-weight: 650 }
+    .note { fill: #b4c4d4 }
+    .label { fill: #9de8d0; font-weight: 600 }
+    .count { font-size: 26px; font-weight: 680 }
+    .number { fill: #eef3fa; font-weight: 650 }
+    .change { fill: #b4c4d4 }
+    .rule { fill: none; stroke: #2a3849 }
+    .pulse { transform-box: fill-box; transform-origin: center }
+    @media (prefers-reduced-motion: no-preference) {
+      .pulse { animation: ripple 3s ease-out infinite }
+      @keyframes ripple { from { transform: scale(.5); opacity: .8 } to { transform: scale(1.5); opacity: 0 } }
+    }
+  </style>
+  <defs>
+    <linearGradient id="area-fill" x2="0" y2="1">
+      <stop stop-color="#f8a76d" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#f8a76d" stop-opacity=".02"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="319" height="663" rx="14" fill="#0a101a" stroke="#2a3849"/>
+  <path d="M16 23v12" stroke="#9de8d0" stroke-width="3" stroke-linecap="round"/>
+  <text x="26" y="35" class="section">rUv / Ecosystem</text>
+
+  <text x="16" y="65" class="label" id="npm-observed-label"/>
+  <text x="14" y="108" style="font-size:42px;font-weight:720;fill:#ffae73" id="npm-observed-total"/>
+  <text x="16" y="131" class="note" id="npm-observed-basis"/>
+  <text x="16" y="152" class="note" id="npm-through"/>
+
+  <path class="rule" d="M16 168H304 M16 277H304 M16 422H304 M16 530H304"/>
+  <text x="16" y="194" class="section">GitHub</text>
+  <text x="304" y="194" text-anchor="end" class="note" id="github-date"/>
+  <text x="16" y="220" class="note">Nonfork stars</text>
+  <text x="151" y="220" class="note">Repos</text>
+  <text x="304" y="220" text-anchor="end" class="note">Followers</text>
+  <text x="16" y="247" class="count" style="fill:#b7c2ff" id="github-stars"/>
+  <text x="151" y="247" class="count" id="github-repos"/>
+  <text x="304" y="247" text-anchor="end" class="count" style="fill:#9de8d0" id="github-followers"/>
+  <text x="16" y="266" class="note" id="github-cohort"/>
+
+  <text x="16" y="302" class="label" id="npm-history-label" textLength="288" lengthAdjust="spacingAndGlyphs"/>
+  <text x="16" y="324" class="note" id="chart-basis"/>
+  <path class="rule" d="M70 340H299 M70 378H299"/>
+  <text x="61" y="345" text-anchor="end" class="note" id="chart-ceiling"/>
+  <text x="61" y="383" text-anchor="end" class="note">0</text>
+  <path id="history-area" fill="url(#area-fill)"/>
+  <path id="history-line" fill="none" stroke="#ffae73" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle id="history-halo" class="pulse" r="4" fill="none" stroke="#ffae73"/>
+  <circle id="history-end" r="2.5" fill="#ffcf9e"/>
+  <text x="16" y="405" class="note" id="history-start"/>
+  <text x="304" y="405" class="note" text-anchor="end" id="history-through"/>
+
+  <text x="16" y="446" class="note" id="crates-observed-total">Crates.io cumulative: <tspan x="304" text-anchor="end" class="number"/></text>
+  <text x="16" y="468" class="note" id="release-assets-observed-total">Release assets observed: <tspan x="304" text-anchor="end" class="number"/></text>
+  <text x="16" y="494" class="label" id="npm-latest-complete-total">Latest complete npm day: <tspan x="304" text-anchor="end" class="number"/></text>
+  <text x="16" y="515" class="note" id="npm-latest-complete-date"/>
+
+  <text x="16" y="556" class="section">Project stars</text>
+  <text x="304" y="555" class="note" text-anchor="end" id="stars-since"/>
+  <g id="project-stars"/>
+</svg>

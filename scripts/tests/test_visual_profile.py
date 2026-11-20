@@ -16,12 +16,19 @@ spec=importlib.util.spec_from_file_location('visual',ROOT/'scripts/render-visual
 visual=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(visual)
 
+def copy_visual_inputs(root):
+    for rel in ('data/metrics.json', 'data/registry-stats.json', 'data/github-stats.json',
+                'data/ecosystem-running-totals.json', 'data/snapshots/2026-10-02/github-baseline-2026-09-07.json',
+                'scripts/templates/ruvnet-dashboard.svg', 'scripts/templates/ruvnet-dashboard-mobile.svg'):
+        dest = root / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / rel, dest)
+
 class VisualProfileTest(unittest.TestCase):
     def test_dashboard_uses_canonical_npm_and_separate_providers(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
-            for rel in ['data/metrics.json','data/registry-stats.json','data/github-stats.json','data/ecosystem-running-totals.json','data/snapshots/2026-10-02/github-baseline-2026-09-07.json','scripts/templates/ruvnet-dashboard.svg']:
-                dest=root/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/rel,dest)
+            copy_visual_inputs(root)
             original=visual.ROOT
             try:
                 visual.ROOT=root
@@ -40,6 +47,9 @@ class VisualProfileTest(unittest.TestCase):
                 from profile_downloads import verify_downloads
                 parsed=ET.fromstring(svg)
                 verify_downloads(parsed,running)
+                mobile=ET.parse(root/'assets/ruvnet/dashboard-mobile.svg').getroot()
+                verify_downloads(mobile,running)
+                self.assertEqual(mobile.get('data-download-watermark'),parsed.get('data-download-watermark'))
                 desc=parsed.find('{http://www.w3.org/2000/svg}desc')
                 original_desc=desc.text
                 desc.text=desc.text.replace('observed events 22805.', 'observed events 22806.')
@@ -93,13 +103,17 @@ class VisualProfileTest(unittest.TestCase):
     def test_published_values_and_chart_refresh_together(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
-            for rel in ['data/metrics.json','data/registry-stats.json','data/github-stats.json','data/ecosystem-running-totals.json','data/snapshots/2026-10-02/github-baseline-2026-09-07.json','scripts/templates/ruvnet-dashboard.svg']:
-                dest=root/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/rel,dest)
+            copy_visual_inputs(root)
             original=visual.ROOT
             try:
                 visual.ROOT=root;visual.render()
                 output=root/'assets/ruvnet/dashboard.svg'
-                first=output.read_text();visual.render();self.assertEqual(first,output.read_text())
+                mobile_output=root/'assets/ruvnet/dashboard-mobile.svg'
+                first=output.read_text()
+                first_mobile=mobile_output.read_text()
+                visual.render()
+                self.assertEqual(first,output.read_text())
+                self.assertEqual(first_mobile,mobile_output.read_text())
                 registry=root/'data/registry-stats.json';r=json.loads(registry.read_text())
                 r['npm']['downloads']=123456789
                 r['npm']['monthly_downloads'][-1]['downloads']=20000000
@@ -125,6 +139,13 @@ class VisualProfileTest(unittest.TestCase):
                 before=ET.fromstring(first).find('.//s:path[@id="realchart"]',ns).get('d')
                 after=ET.fromstring(final).find('.//s:path[@id="realchart"]',ns).get('d')
                 self.assertNotEqual(before,after)
+                mobile=ET.parse(mobile_output).getroot()
+                self.assertEqual(mobile.find(".//*[@id='github-followers']").text, '12,345')
+                self.assertEqual(mobile.find(".//*[@id='project-stars']")[1].text, '70,000')
+                self.assertEqual(mobile.find(".//*[@id='project-stars']")[2].text, '-1,415')
+                history_path=".//*[@id='history-line']"
+                self.assertNotEqual(mobile.find(history_path).get('d'), ET.fromstring(first_mobile).find(history_path).get('d'))
+                self.assertEqual(len(mobile.find(history_path).get('d').split()), len(visual.chart_rows(r['npm'])))
                 self.assertIn('M40 686L254 708',final)
                 self.assertNotIn('<script',final)
             finally:visual.ROOT=original

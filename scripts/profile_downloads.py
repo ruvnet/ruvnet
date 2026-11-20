@@ -170,7 +170,8 @@ def verify_downloads(root, running):
         'npm-latest-complete-date': f"{c['latest']['day']} UTC · {c['latest']['collected_packages']}/{c['latest']['expected_packages']} PACKAGES"
     }
     for identifier, value in expected.items():
-        assert by_id.get(identifier) is not None and by_id[identifier].text == value, f"Stale SVG download claim: {identifier}"
+        node = by_id.get(identifier)
+        assert node is not None and ''.join(node.itertext()).casefold() == value.casefold(), f"Stale SVG download claim: {identifier}"
     assert by_id['npm-history-label'].text.startswith('HISTORICAL NPM CHART /')
     assert root.get('data-download-watermark') == c['watermark'], 'Stale source watermark'
     assert root.get('data-npm-start') == c['start'] and root.get('data-npm-through') == c['through']
@@ -195,6 +196,8 @@ if __name__ == '__main__':
     validate_latest_cohort(latest, json.loads((ROOT / latest['source']).read_text()), running['npm']['expected_packages'], inventory, {r['package']:r.get('created_at') for r in manifests['packages']})
     root = ET.parse(ROOT / 'assets/ruvnet/dashboard.svg').getroot()
     result = verify_downloads(root, running)
+    mobile = ET.parse(ROOT / 'assets/ruvnet/dashboard-mobile.svg').getroot()
+    verify_downloads(mobile, running)
     # Reproduce the original stale-source defect by substituting the old mixed total.
     broken = copy.deepcopy(root)
     next(e for e in broken.iter() if e.get('id') == 'npm-observed-total').text = f"{running['download_milestone']['combined_observed']:,}"
