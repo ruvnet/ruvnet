@@ -42,7 +42,17 @@ def render_mobile(desktop, labels, totals, ceiling, projects):
     for key, value in labels.items():
         elements[key].text = value
 
-    left, right, bottom, height = 70, 299, 378, 38
+    # Keep the next thousands separator inside its column as the counters grow.
+    for key, characters, width in (
+        ('npm-observed-total', 11, 288), ('github-stars', 7, 118),
+        ('github-repos', 3, 56), ('github-followers', 6, 96),
+    ):
+        element = elements[key]
+        if len(element.text) > characters:
+            element.set('textLength', str(width))
+            element.set('lengthAdjust', 'spacingAndGlyphs')
+
+    left, right, bottom, height = 70, 299, 385, 38
     points = [(left + (right - left) * i / (len(totals) - 1), bottom - height * total / ceiling)
               for i, total in enumerate(totals)]
     line = 'M' + ' L'.join(f'{x:.2f},{y:.2f}' for x, y in points)
@@ -54,7 +64,7 @@ def render_mobile(desktop, labels, totals, ceiling, projects):
         elements[key].set('cy', f'{points[-1][1]:.2f}')
 
     for i, (name, old, new) in enumerate(projects):
-        y = str(579 + 22 * i)
+        y = str(632 + 22 * i)
         group = elements['project-stars']
         ET.SubElement(group, f'{{{NS}}}text', x='16', y=y).text = name
         for x, style, value in [(195, 'number', f'{new:,}'), (304, 'change', f'{new - old:+,}')]:
