@@ -5,6 +5,7 @@ import copy
 import re
 import subprocess
 from pathlib import Path
+from urllib.parse import urlsplit
 import shutil
 import sys
 import tempfile
@@ -38,7 +39,9 @@ class VisualProfileTest(unittest.TestCase):
         self.assertEqual(fallback.get('src'), 'assets/ruvnet/dashboard-mobile.svg')
         self.assertTrue(fallback.get('alt'))
         self.assertEqual(reduced.get('media'), '(prefers-reduced-motion: reduce)')
-        path, fragment = reduced.get('srcset').split('#')
+        url = urlsplit(reduced.get('srcset'))
+        self.assertEqual(url.query, 'motion=still')
+        path, fragment = url.path, url.fragment
         self.assertEqual(path, fallback.get('src'))
         svg = ET.parse(ROOT / path).getroot()
         self.assertEqual(fragment, svg.get('id'))
