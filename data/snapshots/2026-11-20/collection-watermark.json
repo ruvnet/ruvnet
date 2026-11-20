@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "repository": "ruvnet/ruvnet",
+  "snapshot_date": "2026-11-20",
+  "default_branch_base_sha": "92032e1fb8c8d07da707f2af6248f4ca3db25658",
+  "github_verified_at": "2026-11-20T13:26:37.199192+00:00",
+  "npm_inventory_verified_at": "2026-11-20T13:26:40.173755Z",
+  "npm_downloads_verified_at": "2026-11-16T05:42:27.470459Z",
+  "npm_daily_verified_at": "2026-11-20T13:32:32.168804+00:00",
+  "crates_io_verified_at": "2026-11-20T13:26:53.405068Z",
+  "public_repository_ids": 235,
+  "pagination_offsets": [
+    0,
+    100,
+    200
+  ],
+  "activity_window_utc": {
+    "start": "2026-11-06",
+    "end": "2026-11-19",
+    "complete_days": 14
+  },
+  "source_version": "ecosystem snapshot v1 with independent completed daily range overlay",
+  "traffic_coverage": {
+    "expected_cells_per_metric": 3290,
+    "missing_cells_per_metric": {
+      "clones": 54,
+      "views": 54
+    },
+    "fresh_api_cells_per_metric": {
+      "clones": 3236,
+      "views": 3236
+    },
+    "historical_backfill_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "precreation_zero_cells_per_metric": {
+      "clones": 0,
+      "views": 0
+    },
+    "repositories": 235
+  },
+  "npm_coverage": {
+    "packages": 430,
+    "range_packages": 429,
+    "daily_observed_packages": 11,
+    "daily_date": "2026-11-19",
+    "current_utc_day_excluded": true
+  },
+  "crates_io_coverage": {
+    "crates": 501
+  },
+  "release_coverage": {
+    "repositories": 235,
+    "releases": 2575,
+    "assets": 1115
+  },
+  "github_pagination": {
+    "per_page": 100,
+    "terminal_page": 4,
+    "terminal_page_count": 0,
+    "unique_repository_ids": 235,
+    "complete": true
+  },
+  "actions_runs": null,
+  "actions_blocker": "GitHub Actions complete window enumeration not performed within the bounded API budget; no workflow activity total claimed.",
+  "refresh-registry-metrics.py_sha256": "1d2b5f1e10ce7280c6edbf898cc1e372de305812136d2d6ebad1fdb3f77d81d5",
+  "update-ecosystem-snapshot.py_sha256": "2b9d43a2dca680134e66e7f5aa580605784c814209b79280a875b160d314b729",
+  "render-visual-profile.py_sha256": "9ebda1c12e327cb6ac0987c3e1915efc7a7484fd07d58673ddb173d91ebcf1cd",
+  "profile_downloads.py_sha256": "348bc73c05e0cfb12fc5b4cbf13f52b468ba083571addc799f5a999c1e248e7c",
+  "render-registry-metrics.mjs_sha256": "a389fb446e0c1fb0c4308de359b4ca12fc6de0434be645cf8d1a37538c038bd6",
+  "verify-profile.mjs_sha256": "253e987a916f645b93c113c1572ccb186841e6e72bf0a646b730012f9506d75d",
+  "collector_sha256": "1d2b5f1e10ce7280c6edbf898cc1e372de305812136d2d6ebad1fdb3f77d81d5",
+  "github_adapter_sha256": "a5b0009496f8bfe5d781ac41878e7a187022bd9577162fb38dcc3fbd0cfb6cb5",
+  "source_sha256": {
+    "github-inventory.json": "6f432021eabab1d132701b1d095cb57e351ad4f6a9507cd3f280f0a6c0b3e65c",
+    "github-release-inventory.json": "b6e3aed429a1c4a362b5feb1264174f482696ef381b687fe810032df2f177395",
+    "github-traffic-inventory.json": "7806e601e1c52cb5190fb9965eaa3fbb3c129728d59505acef0198094d14d5fe",
+    "npm-inventory.json": "42afdd911d8e4ca84aa39ab819656c2c9ac5bc568b7dcdd0d188cbcaed9804cb",
+    "crates-inventory.json": "cdc0fde1da467d812143a4a8512fdab248892283215dc164296ec54ffa6be52e",
+    "npm-reconciled-2026-11-06.json": "3dc0ccecaaa0fa1dfcc1c3dbd4018bd17ea44e488fbe16c0ea5430aedfb7462e",
+    "npm-reconciled-2026-11-07.json": "1605823389afe84091c291f25cc4407329634f34b8379a7c91b094c2da33c988",
+    "npm-reconciled-2026-11-08.json": "06a1ab4402240d29397eabe4398c5b127a3e962845e083619f65e0d012684fcc",
+    "npm-reconciled-2026-11-09.json": "d1bb6d89f268a5239bbb7f65aeab6e902a4fb2662b678173d6d9f54895579e53",
+    "npm-reconciled-2026-11-10.json": "2c6993351c501639d5003aef2ad6de74a4b6cbc7c32b1f41ba1a6e4c282104f1",
+    "npm-reconciled-2026-11-11.json": "14f41dd78d18cf464ec16432eb48065b8fc5fc90701047bdd3a8f720bc3d2f6c",
+    "npm-reconciled-2026-11-12.json": "dec0f8e0f0942a2a742ea52f298e6577ef14b8dc8f01777df1f3ea7cf6be63b4",
+    "npm-reconciled-2026-11-13.json": "4cce10ac9199b676cb99c52164670cc04e926684dfc704361ad4afb21565085d",
+    "npm-reconciled-2026-11-14.json": "ecab995701ecb8e5f1d34b42c5f4fe398c3c6d1751a127daf7c168de0b769469",
+    "npm-reconciled-2026-11-15.json": "55c380e20eeac27de6f95d00acf9cf34ed58b4a18604c56e1b836ac32ce6041c",
+    "npm-reconciled-2026-11-16.json": "51e499612f13529f47b2e20cf5e1e9aa5922eb6bb2c3ae3b12919f91b24f27c5",
+    "npm-reconciled-2026-11-17.json": "1392ad032dd03dfee629707b8a8a39f068958cdd112ba7c81941f9a35696b9c2",
+    "npm-reconciled-2026-11-18.json": "45cbf166580d0756d1bb5edfa8f204ae390e6313597ae48aa745c31398dd3135",
+    "npm-reconciled-2026-11-19.json": "8ecd4f0162fc56d5361b6ec7addd23f8378f0fb366a81773af00931637bc99cc",
+    "npm-weekly-subset.json": "30c5f6e61c02b50ca91cae6cfabff18321eb2608f87cd86f5ed9bcee9754c892",
+    "npm-new-manifests.json": "599c0fd873a5c2d551b2890f18bf3cd6bca4836cb45429a45738ac4baa10235d",
+    "npm-downloads.json": "da7452e2d272fbebd69134054c07ccb18987b26cb357dc3ff0d4d2ae9d9994fb",
+    "npm-completed-backfill.json": "6fe516f86d2b475c1baf45b1d7134a2a0bea19bf97c97bef37c7d8fd81e41e41",
+    "integration-health-receipt.json": "a5845a5d575b2fdd3cda2a40a8070c5dfb25eac5091e2b58d2829f85ba681854",
+    "package-weave-plan.json": "71b82f0b3d0a1e2187010c550b0c8678d047a342d988c327375c3ae287efd5d8",
+    "registry-validation.json": "723ad4d2e912aea17f509ccea9a5d4d130f0ee98bf902294793154091f73d730",
+    "npm-goal-reconciliation.json": "508cc478ad5a30d193398a39f9bd426e5e95da8c8c30bfa39c1772fae645d237",
+    "npm-prior-covered-ledger.json": "2003221e5c3d88de8156f9003e2c6701aad5540b9183a6ab9d3426fb6025519c",
+    "npm-daily-revisions.json": "36c05ccb6277182dbd605c8ce463d81c50dbd7b1b74941af4a63ad470f4d5534",
+    "npm-worker-intent.json": "d1b2fc8c217c18ac0580dc0baa3f3e691d8047412fe03f7891cae0551f605194",
+    "npm-worker-outcome.json": "c0795b3e7aa70b55d8399af5d3610e49417ce240cc431a70589098ace4049d2f",
+    "pilot-source-manifests.json": "b12cd85093ff6783da6571e5cf4245e04835b3908e6a56baf36b1118f716a17d",
+    "kge-pilot-source-review.json": "b84a4b504739ebbb3f9d7bacf90ba49aacf56f2ef3f2a75e758c7d07851f2a11"
+  }
+}

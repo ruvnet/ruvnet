@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-20T13:28:17.508689+00:00",
+  "scope": "Original KGE link prediction pilot equivalent integration review",
+  "method": "Static public source review",
+  "source_heads": {
+    "ruvnet/RuVector": "979c31acc57b970c1a7e0771ed527c1703c137e8",
+    "ruvnet/metaharness": "acf5b9967e0dd17383a74d771791a02b478243d4"
+  },
+  "checks": {
+    "readme_demo": true,
+    "entry_loads_main": true,
+    "main_runDemo": true,
+    "demo_train": true,
+    "demo_predict": true,
+    "heldout_separation": true
+  },
+  "sources": {
+    "readme": {
+      "url": "https://github.com/ruvnet/RuVector/blob/979c31acc57b970c1a7e0771ed527c1703c137e8/npm/packages/kge/README.md",
+      "commit": "979c31acc57b970c1a7e0771ed527c1703c137e8",
+      "blob_sha": "03be032bde004233407c3d302c7924543de90078",
+      "sha256": "33f56e4956482064c69ed3bc4f9a6a85cf5a7340f09199f50ac235497a743918",
+      "observed_at": "2026-11-20T13:28:16.661200+00:00"
+    },
+    "entry": {
+      "url": "https://github.com/ruvnet/RuVector/blob/979c31acc57b970c1a7e0771ed527c1703c137e8/npm/packages/kge/bin/cli.js",
+      "commit": "979c31acc57b970c1a7e0771ed527c1703c137e8",
+      "blob_sha": "b861ed06d948fa21112d502788a4a2da92310ce9",
+      "sha256": "c881739c9ba46c964fc35e1c6688c7f3787df2a8676be5f79a8ea5a66d7607a3",
+      "observed_at": "2026-11-20T13:28:16.980607+00:00"
+    },
+    "dispatch": {
+      "url": "https://github.com/ruvnet/RuVector/blob/979c31acc57b970c1a7e0771ed527c1703c137e8/npm/packages/kge/src/cli/main.ts",
+      "commit": "979c31acc57b970c1a7e0771ed527c1703c137e8",
+      "blob_sha": "22b1e95bac553dceb13d2efd6a962e400ef7b6ca",
+      "sha256": "d05ff632edf5595eef3ae2751394670c4c20cb7803c5bca5f02c59e308c64865",
+      "observed_at": "2026-11-20T13:28:17.246535+00:00"
+    },
+    "demo": {
+      "url": "https://github.com/ruvnet/RuVector/blob/979c31acc57b970c1a7e0771ed527c1703c137e8/npm/packages/kge/src/cli/demo.ts",
+      "commit": "979c31acc57b970c1a7e0771ed527c1703c137e8",
+      "blob_sha": "f1bfe00bc3e0df049edc085581431911770b46fc",
+      "sha256": "abeac0407cfc19b6ee3d8203bd50eb102faaf2629762cf800561edae10397038",
+      "observed_at": "2026-11-20T13:28:17.504698+00:00"
+    }
+  },
+  "prior_same_demo_blob_receipts": [
+    "data/snapshots/2026-11-19/kge-pilot-source-review.json"
+  ],
+  "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+  "runtime_execution": false,
+  "held_out_quality_verified": null,
+  "new_dependency_edges": 0,
+  "adoption_count": null
+}

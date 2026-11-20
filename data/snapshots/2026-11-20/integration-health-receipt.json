@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-20T13:28:17.508689+00:00",
+  "scope": "Public package weave source reconciliation and bounded runtime health",
+  "baseline": {
+    "repository_commit": "92032e1fb8c8d07da707f2af6248f4ca3db25658",
+    "pr_30": {
+      "state": "MERGED",
+      "head": "9b520431761fb87f985100897e3fb3f4aae9f279"
+    },
+    "policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "manifest_source_sha256": "41c5f476421c289a3be08cc801509cc4c58dc0b04ea58d29d5a72b0c595047d9"
+  },
+  "frozen_intent": "Inspect original pilot sources and reconcile prior queue evidence before any proposed integration; no new dependency without a missing exercised path.",
+  "intent_reference": "Current delegated task scope; source review only, no integration experiment dispatched",
+  "expected_observable_result": "Deduplicated source-bound equivalent integration finding or recorded missing prerequisite, without runtime or adoption claims",
+  "actual_result": {
+    "planner_exit_code": 0,
+    "inventory_packages": 430,
+    "inventory_observed_at": "2026-11-20T13:26:40.173755Z",
+    "graph_packages": 410,
+    "inventory_without_graph_count": 20,
+    "manifest_overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+    "planner_replay": "Read only reconciliation of dated recipe and lock evidence, not fresh recipe execution",
+    "fresh_source_manifests": 3,
+    "fresh_published_registry_manifests": 4,
+    "source_scope": "GitHub source manifests only; no npm publication readback by this lane",
+    "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+    "prior_same_demo_blob_receipts": [
+      "data/snapshots/2026-11-19/kge-pilot-source-review.json"
+    ],
+    "install_executed": false,
+    "new_dependency_edges": 0,
+    "learning_gain": null,
+    "external_adoption_count": null,
+    "candidate_states": {
+      "rvf-memory-v1": "observed_pass_review_ready",
+      "native-routing-v1": "observed_pass_review_ready",
+      "darwin-screening-v1": "ready_to_test"
+    },
+    "next_candidate": "darwin-screening-v1"
+  },
+  "platform_execution": {
+    "linux": "unknown for a fresh recipe execution",
+    "macos": "unknown",
+    "windows": "unknown",
+    "wasm": "unknown"
+  },
+  "outcome": "Source review closed duplicate KGE demo proposal; no new delivered integration or runtime result",
+  "health": {
+    "preferred_control_executor": "timeout; no completion verification",
+    "original_metrics_host": "executor85050dc77130e8 verified shell completion",
+    "required_checks_pass": null,
+    "billing_usd": null,
+    "scheduled_reliability_verified": false
+  },
+  "findings": [
+    {
+      "kind": "equivalent_integration_source",
+      "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+      "same_blob_prior_receipts": [
+        "data/snapshots/2026-11-19/kge-pilot-source-review.json"
+      ]
+    }
+  ],
+  "workload_receipt_adapter": {
+    "used": false,
+    "reason": "Exact adapter availability not verified on unavailable preferred executor; ordinary structured receipt retained"
+  },
+  "evidence": {
+    "pilot-source-manifests.json": {
+      "file": "pilot-source-manifests.json",
+      "sha256": "b12cd85093ff6783da6571e5cf4245e04835b3908e6a56baf36b1118f716a17d"
+    },
+    "kge-pilot-source-review.json": {
+      "file": "kge-pilot-source-review.json",
+      "sha256": "b84a4b504739ebbb3f9d7bacf90ba49aacf56f2ef3f2a75e758c7d07851f2a11"
+    },
+    "package-weave-plan.json": {
+      "file": "package-weave-plan.json",
+      "sha256": "71b82f0b3d0a1e2187010c550b0c8678d047a342d988c327375c3ae287efd5d8"
+    }
+  }
+}
