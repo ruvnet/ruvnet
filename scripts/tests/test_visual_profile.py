@@ -31,12 +31,18 @@ class VisualProfileTest(unittest.TestCase):
         blocks = re.findall(r'<a\b[^>]*>\s*<picture\b.*?</picture>\s*</a>', readme, re.S)
         link, = (ET.fromstring(block) for block in blocks if 'dashboard-mobile.svg' in block)
         self.assertEqual(link.get('href'), 'docs/ecosystem-metrics.md')
-        source = link.find('picture/source')
+        source, reduced = link.findall('picture/source')
         self.assertEqual(source.get('media'), '(min-width: 1200px)')
         self.assertEqual(source.get('srcset'), 'assets/ruvnet/dashboard.svg')
         fallback = link.find('picture/img')
         self.assertEqual(fallback.get('src'), 'assets/ruvnet/dashboard-mobile.svg')
         self.assertTrue(fallback.get('alt'))
+        self.assertEqual(reduced.get('media'), '(prefers-reduced-motion: reduce)')
+        path, fragment = reduced.get('srcset').split('#')
+        self.assertEqual(path, fallback.get('src'))
+        svg = ET.parse(ROOT / path).getroot()
+        self.assertEqual(fragment, svg.get('id'))
+        self.assertIn(f'#{fragment}:target * {{ animation:none }}', svg.find('{http://www.w3.org/2000/svg}style').text)
 
     def test_dashboard_uses_canonical_npm_and_separate_providers(self):
         with tempfile.TemporaryDirectory() as temp:

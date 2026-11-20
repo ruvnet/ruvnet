@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1272" viewBox="0 0 320 848" data-layout="portrait" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1272" viewBox="0 0 320 848" id="still" data-layout="portrait" role="img" aria-labelledby="title desc">
   <title id="title">rUv ecosystem statistics</title>
   <desc id="desc"/>
   <defs>
@@ -34,6 +34,7 @@
       .end-ring { transform-box:fill-box; transform-origin:center; animation:arrive 4.6s ease-out 1 }
       .star-light { transform-box:fill-box; transform-origin:left center; animation:bar-pass 1s ease-out var(--delay) 1 }
     }
+    #still:target * { animation:none }
     @keyframes orbit-pass { from {transform:rotate(0deg)} to {transform:rotate(360deg)} }
     @keyframes prism-tilt { 0%,100% {transform:translateY(0) rotate(0deg)} 37% {transform:translateY(-3px) rotate(9deg) scaleX(.8)} 70% {transform:translateY(1px) rotate(-4deg)} }
     @keyframes trace-pass { 0%,8% {opacity:0;stroke-dashoffset:14} 18% {opacity:1} 74% {opacity:1;stroke-dashoffset:-90} 84%,100% {opacity:0;stroke-dashoffset:-104} }
