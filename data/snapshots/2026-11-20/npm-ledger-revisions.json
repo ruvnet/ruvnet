@@ -1,0 +1,480 @@
+{
+  "retrieved_at": "2026-11-20T13:32:32.168804+00:00",
+  "revisions": [
+    {
+      "key": "npm|@agentic-robotics/darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/mcp|downloads|2026-11-18",
+      "prior": null,
+      "current": 28,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/self-learning|downloads|2026-11-18",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@agentics.org/agentic-mcp|downloads|2026-11-18",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@agentics.org/sparc2|downloads|2026-11-18",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/aidefence|downloads|2026-11-18",
+      "prior": null,
+      "current": 12729,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/browser|downloads|2026-11-18",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/claims|downloads|2026-11-18",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli|downloads|2026-11-18",
+      "prior": null,
+      "current": 14635,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli-core|downloads|2026-11-18",
+      "prior": null,
+      "current": 7855,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/codex|downloads|2026-11-18",
+      "prior": null,
+      "current": 1553,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/deployment|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/embeddings|downloads|2026-11-18",
+      "prior": null,
+      "current": 40,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/guidance|downloads|2026-11-18",
+      "prior": null,
+      "current": 164,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/hooks|downloads|2026-11-18",
+      "prior": null,
+      "current": 148,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/integration|downloads|2026-11-18",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/mcp|downloads|2026-11-18",
+      "prior": null,
+      "current": 1148,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/memory|downloads|2026-11-18",
+      "prior": null,
+      "current": 11393,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/neural|downloads|2026-11-18",
+      "prior": null,
+      "current": 9593,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/performance|downloads|2026-11-18",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agent-federation|downloads|2026-11-18",
+      "prior": null,
+      "current": 58,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-agentic-qe|downloads|2026-11-18",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-code-intelligence|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-cognitive-kernel|downloads|2026-11-18",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-financial-risk|downloads|2026-11-18",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-gastown-bridge|downloads|2026-11-18",
+      "prior": null,
+      "current": 3051,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-healthcare-clinical|downloads|2026-11-18",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-hyperbolic-reasoning|downloads|2026-11-18",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-iot-cognitum|downloads|2026-11-18",
+      "prior": null,
+      "current": 23,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-legal-contracts|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-neural-coordination|downloads|2026-11-18",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-perf-optimizer|downloads|2026-11-18",
+      "prior": null,
+      "current": 62,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-prime-radiant|downloads|2026-11-18",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-quantum-optimizer|downloads|2026-11-18",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugin-test-intelligence|downloads|2026-11-18",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/plugins|downloads|2026-11-18",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/providers|downloads|2026-11-18",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/security|downloads|2026-11-18",
+      "prior": null,
+      "current": 8297,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/shared|downloads|2026-11-18",
+      "prior": null,
+      "current": 10592,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/swarm|downloads|2026-11-18",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/teammate-plugin|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/testing|downloads|2026-11-18",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/watermark|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@cognitum-one/sdk|downloads|2026-11-18",
+      "prior": null,
+      "current": 365,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@cognitum/freetokens|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@cognitum/gate|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@cognitum/ruos|downloads|2026-11-18",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@dream-machine/compile|downloads|2026-11-18",
+      "prior": null,
+      "current": 27,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@dream-machine/ledger|downloads|2026-11-18",
+      "prior": null,
+      "current": 23,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@dream-machine/memory|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@dream-machine/schedule|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@dream-machine/witness|downloads|2026-11-18",
+      "prior": null,
+      "current": 26,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@foxruv/cf-doctor|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@foxruv/e2b-runner|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@foxruv/iris|downloads|2026-11-18",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-agentic-synth|downloads|2026-11-18",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-core|downloads|2026-11-18",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@foxruv/iris-ultrathink|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@foxruv/nova-medicina|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/agntcy|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/artex-defense|downloads|2026-11-18",
+      "prior": null,
+      "current": 9247,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/autogenous|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/avo|downloads|2026-11-18",
+      "prior": null,
+      "current": 8089,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/aws-finops|downloads|2026-11-18",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/claude-code|downloads|2026-11-18",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/codex|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/cli|downloads|2026-11-19",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/core|downloads|2026-11-19",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/mcp|downloads|2026-11-19",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentic-robotics/self-learning|downloads|2026-11-19",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentics.org/agentic-mcp|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@agentics.org/sparc2|downloads|2026-11-19",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/aidefence|downloads|2026-11-19",
+      "prior": null,
+      "current": 7470,
+      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}

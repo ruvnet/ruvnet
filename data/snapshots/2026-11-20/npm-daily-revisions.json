@@ -1,0 +1,1564 @@
+{
+  "results": [
+    {
+      "package": "@agentic-robotics/cli",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/cli",
+        "downloads": [
+          {
+            "downloads": 17,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Fcli",
+        "retrieved_at": "2026-11-19T13:25:55.167340+00:00",
+        "response_sha256": "372765351559edce6b1d31d9c83f3125640a4a2d3aea256113584f1e2e16fdcf"
+      }
+    },
+    {
+      "package": "@agentic-robotics/core",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/core",
+        "downloads": [
+          {
+            "downloads": 8,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Fcore",
+        "retrieved_at": "2026-11-19T13:26:25.408228+00:00",
+        "response_sha256": "c2f34a86947dc7d497f0a4841340e9373bd30394a2005cbf1e669b60af785f5a"
+      }
+    },
+    {
+      "package": "@agentic-robotics/darwin-arm64",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/darwin-arm64",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Fdarwin-arm64",
+        "retrieved_at": "2026-11-19T13:26:55.837143+00:00",
+        "response_sha256": "69a6aca88c295e3539372f0ad602c583872d7030ed87e5416fc8e1022785c7f6"
+      }
+    },
+    {
+      "package": "@agentic-robotics/darwin-x64",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/darwin-x64",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Fdarwin-x64",
+        "retrieved_at": "2026-11-19T13:27:26.289138+00:00",
+        "response_sha256": "357b54ba939966166e774185c88c4069a09cdc66ad93303856dc19583422cc10"
+      }
+    },
+    {
+      "package": "@agentic-robotics/linux-arm64-gnu",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/linux-arm64-gnu",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Flinux-arm64-gnu",
+        "retrieved_at": "2026-11-19T13:27:56.514369+00:00",
+        "response_sha256": "91c234fb1fc7cce5b637ac52878261cd3787a8f96757da80731f4aad554a10ff"
+      }
+    },
+    {
+      "package": "@agentic-robotics/linux-x64-gnu",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/linux-x64-gnu",
+        "downloads": [
+          {
+            "downloads": 12,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Flinux-x64-gnu",
+        "retrieved_at": "2026-11-19T13:28:26.730443+00:00",
+        "response_sha256": "c02745aa7d2be703fa5d49689225c937696d5e803d1da6321a6ff7d71293b929"
+      }
+    },
+    {
+      "package": "@agentic-robotics/mcp",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/mcp",
+        "downloads": [
+          {
+            "downloads": 28,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Fmcp",
+        "retrieved_at": "2026-11-19T13:28:56.961130+00:00",
+        "response_sha256": "e4dc6c175906c3691f9e365a080bc30bfba4aab29864ba69505fd9f51fec9cef"
+      }
+    },
+    {
+      "package": "@agentic-robotics/self-learning",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentic-robotics/self-learning",
+        "downloads": [
+          {
+            "downloads": 18,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentic-robotics%2Fself-learning",
+        "retrieved_at": "2026-11-19T13:29:27.216803+00:00",
+        "response_sha256": "9ff94ed591b8407f082b26285f3149f640d43c4a8efcae16246e49de46bf6f6f"
+      }
+    },
+    {
+      "package": "@agentics.org/agentic-mcp",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentics.org/agentic-mcp",
+        "downloads": [
+          {
+            "downloads": 7,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentics.org%2Fagentic-mcp",
+        "retrieved_at": "2026-11-19T13:29:57.601916+00:00",
+        "response_sha256": "8ce9faaaace7b7835a76aa8e8839cf74c8457cfe42593d9cde4fe4c24c1af3f2"
+      }
+    },
+    {
+      "package": "@agentics.org/sparc2",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@agentics.org/sparc2",
+        "downloads": [
+          {
+            "downloads": 18,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40agentics.org%2Fsparc2",
+        "retrieved_at": "2026-11-19T13:30:27.977443+00:00",
+        "response_sha256": "f2a3b736ddb2602198be971f643da125a95d6f2638c17f757230206ee94cc745"
+      }
+    },
+    {
+      "package": "@claude-flow/aidefence",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/aidefence",
+        "downloads": [
+          {
+            "downloads": 12729,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Faidefence",
+        "retrieved_at": "2026-11-19T13:30:58.236605+00:00",
+        "response_sha256": "206c2860aa8aa700e313251bd3b62f27a9f06f455992ab8846ab5708c06fe963"
+      }
+    },
+    {
+      "package": "@claude-flow/browser",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/browser",
+        "downloads": [
+          {
+            "downloads": 14,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fbrowser",
+        "retrieved_at": "2026-11-19T13:31:28.467974+00:00",
+        "response_sha256": "6943667a3c2593318d3a1eb5034bfc08b6729caecae277ca23f8d12155686a2c"
+      }
+    },
+    {
+      "package": "@claude-flow/claims",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/claims",
+        "downloads": [
+          {
+            "downloads": 9,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fclaims",
+        "retrieved_at": "2026-11-19T13:35:15.729492+00:00",
+        "response_sha256": "d19abebea1b33a5bdbab2d374715b209eb78f571b870705b38e28ae185c5b518"
+      }
+    },
+    {
+      "package": "@claude-flow/cli",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/cli",
+        "downloads": [
+          {
+            "downloads": 14635,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fcli",
+        "retrieved_at": "2026-11-19T13:35:46.121650+00:00",
+        "response_sha256": "64ba502e51a945ce355e186f51ab63439704ea92b66fcb9b9500b2179c385c26"
+      }
+    },
+    {
+      "package": "@claude-flow/cli-core",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/cli-core",
+        "downloads": [
+          {
+            "downloads": 7855,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fcli-core",
+        "retrieved_at": "2026-11-19T13:36:16.422022+00:00",
+        "response_sha256": "8924f7adcaeeb04ed9562f8aabce8b3ead6073f2dd99769dc1d74e17c830631d"
+      }
+    },
+    {
+      "package": "@claude-flow/codex",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/codex",
+        "downloads": [
+          {
+            "downloads": 1553,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fcodex",
+        "retrieved_at": "2026-11-19T13:36:46.762535+00:00",
+        "response_sha256": "88fede2072dfaff3ff3d350386533ba3fc0213d80f926317c24877913803bbb2"
+      }
+    },
+    {
+      "package": "@claude-flow/deployment",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/deployment",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fdeployment",
+        "retrieved_at": "2026-11-19T13:37:17.856553+00:00",
+        "response_sha256": "5cfef5dccb6077678db8d9bbaa7e8655f47b93f4a4da4d9840db651b57413250"
+      }
+    },
+    {
+      "package": "@claude-flow/embeddings",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/embeddings",
+        "downloads": [
+          {
+            "downloads": 40,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fembeddings",
+        "retrieved_at": "2026-11-19T13:37:48.238449+00:00",
+        "response_sha256": "a91315af1a9a273bda07c6d1cd4b955efe3274fc3f561bd114330af2823bfe48"
+      }
+    },
+    {
+      "package": "@claude-flow/guidance",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/guidance",
+        "downloads": [
+          {
+            "downloads": 164,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fguidance",
+        "retrieved_at": "2026-11-19T13:38:18.450037+00:00",
+        "response_sha256": "837308f60fba10f1dd33851bd3307831d3cbd96325c4b0ca36f14f044c53f061"
+      }
+    },
+    {
+      "package": "@claude-flow/hooks",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/hooks",
+        "downloads": [
+          {
+            "downloads": 148,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fhooks",
+        "retrieved_at": "2026-11-19T13:38:48.630637+00:00",
+        "response_sha256": "5d680eacacf4fe62089f0dadec4ef492fa7ccebd621fdc98970f3413e890e61e"
+      }
+    },
+    {
+      "package": "@claude-flow/integration",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/integration",
+        "downloads": [
+          {
+            "downloads": 9,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fintegration",
+        "retrieved_at": "2026-11-19T13:39:18.825908+00:00",
+        "response_sha256": "1c632f21f33c0cb9cff30de648879b944ea14460c488933e11f264f55c604e03"
+      }
+    },
+    {
+      "package": "@claude-flow/mcp",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/mcp",
+        "downloads": [
+          {
+            "downloads": 1148,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fmcp",
+        "retrieved_at": "2026-11-19T13:39:49.064311+00:00",
+        "response_sha256": "5fa8476344f818b7395426447f39afb0446c49604f8c733f31b809fbbd493087"
+      }
+    },
+    {
+      "package": "@claude-flow/memory",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/memory",
+        "downloads": [
+          {
+            "downloads": 11393,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fmemory",
+        "retrieved_at": "2026-11-19T13:40:19.290776+00:00",
+        "response_sha256": "12deffa2cd27af99ee409497128c4f0be568a5c192b48fbb9ff75553f622b33a"
+      }
+    },
+    {
+      "package": "@claude-flow/neural",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/neural",
+        "downloads": [
+          {
+            "downloads": 9593,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fneural",
+        "retrieved_at": "2026-11-19T13:40:49.420173+00:00",
+        "response_sha256": "67782aaa4a6b4baba819cd1b4f928abe39dd2faa42eaddf49a534553e5a09f42"
+      }
+    },
+    {
+      "package": "@claude-flow/performance",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/performance",
+        "downloads": [
+          {
+            "downloads": 9,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fperformance",
+        "retrieved_at": "2026-11-19T13:41:19.668030+00:00",
+        "response_sha256": "73d63e56b2a5d6dc2ae11fff9273f271ae84467dbbd20954a2b179afc3d1fb0e"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-agent-federation",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-agent-federation",
+        "downloads": [
+          {
+            "downloads": 58,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-agent-federation",
+        "retrieved_at": "2026-11-19T13:41:50.052142+00:00",
+        "response_sha256": "1a281e4c3f501f892c86abd5edf7811a9a28a35ad13aba52a009ff157c3e6eb8"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-agentic-qe",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-agentic-qe",
+        "downloads": [
+          {
+            "downloads": 9,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-agentic-qe",
+        "retrieved_at": "2026-11-19T13:42:20.464780+00:00",
+        "response_sha256": "55a326609914cc6bf2626d1fe716ab3f244b41336752e4b235f89a0c6b1ead05"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-code-intelligence",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-code-intelligence",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-code-intelligence",
+        "retrieved_at": "2026-11-19T13:42:50.650169+00:00",
+        "response_sha256": "1e563a4892f2c3d1d28fd581ec1619fa299bf8aed3ec177a625c20c906e2a372"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-cognitive-kernel",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-cognitive-kernel",
+        "downloads": [
+          {
+            "downloads": 16,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-cognitive-kernel",
+        "retrieved_at": "2026-11-19T13:43:21.028315+00:00",
+        "response_sha256": "fa9662649412ccfdfc57469267adc85dc6e1e8b10c1ba481bf78c4b157551d75"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-financial-risk",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-financial-risk",
+        "downloads": [
+          {
+            "downloads": 11,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-financial-risk",
+        "retrieved_at": "2026-11-19T13:43:51.380109+00:00",
+        "response_sha256": "f9402daf47757a710feb8f585ea887c941eb2e3a920a5f2378545b80a54e197f"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-gastown-bridge",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-gastown-bridge",
+        "downloads": [
+          {
+            "downloads": 3051,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-gastown-bridge",
+        "retrieved_at": "2026-11-19T13:44:21.550604+00:00",
+        "response_sha256": "4c429974a4746006cf7bc23f6c73046623e62ce4838026da04f4d2213dfcbdd4"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-healthcare-clinical",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-healthcare-clinical",
+        "downloads": [
+          {
+            "downloads": 11,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-healthcare-clinical",
+        "retrieved_at": "2026-11-19T13:44:51.903001+00:00",
+        "response_sha256": "bf9daf3d572e96170a14d81c5d18993e7d94c33b58b2073c5c45a0cac9646e93"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-hyperbolic-reasoning",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-hyperbolic-reasoning",
+        "downloads": [
+          {
+            "downloads": 16,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-hyperbolic-reasoning",
+        "retrieved_at": "2026-11-19T13:45:22.107026+00:00",
+        "response_sha256": "4ef8ef4c829ad03c8178f1040b83b56c3984c0f1cf06be1fa11562cbddfa64e3"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-iot-cognitum",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-iot-cognitum",
+        "downloads": [
+          {
+            "downloads": 23,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-iot-cognitum",
+        "retrieved_at": "2026-11-19T13:45:52.740120+00:00",
+        "response_sha256": "67ea5f23423314b65fd7cd64df8afdb3408a1654ed32caf9749897ad695d560c"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-legal-contracts",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-legal-contracts",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-legal-contracts",
+        "retrieved_at": "2026-11-19T13:46:22.971383+00:00",
+        "response_sha256": "5549f72a5fd2c59b36dd9f44f1644f99ba6e2caa48b7f76e6824521c69df1eb3"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-neural-coordination",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-neural-coordination",
+        "downloads": [
+          {
+            "downloads": 18,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-neural-coordination",
+        "retrieved_at": "2026-11-19T13:46:53.125824+00:00",
+        "response_sha256": "c7d0851b85616cc702339c31025d800e273e415be1d8f65ff7a9f33d48a734a2"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-perf-optimizer",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-perf-optimizer",
+        "downloads": [
+          {
+            "downloads": 62,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-perf-optimizer",
+        "retrieved_at": "2026-11-19T13:47:23.426955+00:00",
+        "response_sha256": "de9e7b754060e28f0692703538264421d2654f734d49cc355c9a8616ee65439e"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-prime-radiant",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-prime-radiant",
+        "downloads": [
+          {
+            "downloads": 13,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-prime-radiant",
+        "retrieved_at": "2026-11-19T13:47:53.625721+00:00",
+        "response_sha256": "724b0e5f60e77cd02aa01434450cf348ebd8739d5afea58ba653bc9c989a0358"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-quantum-optimizer",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-quantum-optimizer",
+        "downloads": [
+          {
+            "downloads": 17,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-quantum-optimizer",
+        "retrieved_at": "2026-11-19T13:48:23.966301+00:00",
+        "response_sha256": "a413ed39ab55ba97aa0adbec2ccdb5453d4b71012c1c6099813afc9187396dca"
+      }
+    },
+    {
+      "package": "@claude-flow/plugin-test-intelligence",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugin-test-intelligence",
+        "downloads": [
+          {
+            "downloads": 10,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugin-test-intelligence",
+        "retrieved_at": "2026-11-19T13:48:54.140894+00:00",
+        "response_sha256": "8d495625937f982637e7e8f0f2abaafed491dd687a7b1a806d912f212e2b3fc6"
+      }
+    },
+    {
+      "package": "@claude-flow/plugins",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/plugins",
+        "downloads": [
+          {
+            "downloads": 14,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fplugins",
+        "retrieved_at": "2026-11-19T13:49:24.488207+00:00",
+        "response_sha256": "853f34f9d29414b396f6a2be633f06a875fd08d5be5126da52ba785f01ee814b"
+      }
+    },
+    {
+      "package": "@claude-flow/providers",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/providers",
+        "downloads": [
+          {
+            "downloads": 12,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fproviders",
+        "retrieved_at": "2026-11-19T13:49:54.872833+00:00",
+        "response_sha256": "f9b9190c3e931f820da72e2dd67339cbc2193def8413a8cd47ad8a6eb2484901"
+      }
+    },
+    {
+      "package": "@claude-flow/security",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/security",
+        "downloads": [
+          {
+            "downloads": 8297,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fsecurity",
+        "retrieved_at": "2026-11-19T13:50:25.009410+00:00",
+        "response_sha256": "c2faa9596e6a9a0d1ac76551149cae75716b9a1c35cb7ae595cc4516a81676ca"
+      }
+    },
+    {
+      "package": "@claude-flow/shared",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/shared",
+        "downloads": [
+          {
+            "downloads": 10592,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fshared",
+        "retrieved_at": "2026-11-19T13:50:55.530512+00:00",
+        "response_sha256": "19eae4ed8348ca47330adc95caa4e2cbfd59af7fd9e698f0a96184cb831fd2f8"
+      }
+    },
+    {
+      "package": "@claude-flow/swarm",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/swarm",
+        "downloads": [
+          {
+            "downloads": 21,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fswarm",
+        "retrieved_at": "2026-11-19T13:51:25.906721+00:00",
+        "response_sha256": "03377072c111928b6d9e64f40907dfc944278fc8bdcbff475937c2f788da1274"
+      }
+    },
+    {
+      "package": "@claude-flow/teammate-plugin",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/teammate-plugin",
+        "downloads": [
+          {
+            "downloads": 0,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fteammate-plugin",
+        "retrieved_at": "2026-11-19T13:51:56.265574+00:00",
+        "response_sha256": "fe1351d1c116c3b9e43c659d91ff749bec71d6b3cac68ce4df1bf5b4039d6a7f"
+      }
+    },
+    {
+      "package": "@claude-flow/testing",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/testing",
+        "downloads": [
+          {
+            "downloads": 10,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Ftesting",
+        "retrieved_at": "2026-11-19T13:52:26.647299+00:00",
+        "response_sha256": "ee560f2d22bf2176676cbd18312eab5c84d33d6b4ef07ebcd0872df90e0cd0ec"
+      }
+    },
+    {
+      "package": "@claude-flow/watermark",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@claude-flow/watermark",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40claude-flow%2Fwatermark",
+        "retrieved_at": "2026-11-19T13:52:57.016954+00:00",
+        "response_sha256": "e77691cc4921eaa0c91bf6aa5b3753c03ef45ed0df731e10853fb601157b40ad"
+      }
+    },
+    {
+      "package": "@cognitum-one/sdk",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@cognitum-one/sdk",
+        "downloads": [
+          {
+            "downloads": 365,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40cognitum-one%2Fsdk",
+        "retrieved_at": "2026-11-19T13:53:27.233303+00:00",
+        "response_sha256": "14038ec1e259b61fb578e56b52851fe29ad47899bc57631b0ce962f81af33d76"
+      }
+    },
+    {
+      "package": "@cognitum/freetokens",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@cognitum/freetokens",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40cognitum%2Ffreetokens",
+        "retrieved_at": "2026-11-19T13:53:57.436404+00:00",
+        "response_sha256": "95de18e5ae894c156a65000c4113a868462bb102a8997845ae630ca428bdfb8c"
+      }
+    },
+    {
+      "package": "@cognitum/gate",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@cognitum/gate",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40cognitum%2Fgate",
+        "retrieved_at": "2026-11-19T13:54:28.868251+00:00",
+        "response_sha256": "cb85fc2cd4693c2bf18612f66f2253eecb85764ff63b5b411dc6559f4fb75c11"
+      }
+    },
+    {
+      "package": "@cognitum/ruos",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@cognitum/ruos",
+        "downloads": [
+          {
+            "downloads": 6,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40cognitum%2Fruos",
+        "retrieved_at": "2026-11-19T13:54:59.094081+00:00",
+        "response_sha256": "926ac8b7980e6065c858242c22a9af48dfa748bd4aa2854748fe91fc90f71785"
+      }
+    },
+    {
+      "package": "@dream-machine/compile",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@dream-machine/compile",
+        "downloads": [
+          {
+            "downloads": 27,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40dream-machine%2Fcompile",
+        "retrieved_at": "2026-11-19T13:55:29.254467+00:00",
+        "response_sha256": "51f367b0b29805675f8757bf312ed1fc2e50db7f99bab883376763cea4236897"
+      }
+    },
+    {
+      "package": "@dream-machine/ledger",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@dream-machine/ledger",
+        "downloads": [
+          {
+            "downloads": 23,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40dream-machine%2Fledger",
+        "retrieved_at": "2026-11-19T13:55:59.667590+00:00",
+        "response_sha256": "b6593d1c80e28fc1c2567d4268ed7e879f7cb643f92bd33e171f8ced6f9f7e1f"
+      }
+    },
+    {
+      "package": "@dream-machine/memory",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@dream-machine/memory",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40dream-machine%2Fmemory",
+        "retrieved_at": "2026-11-19T13:56:29.963004+00:00",
+        "response_sha256": "bf479ff80138fa89671ec501bc4b1f0ec116a1465549e501bc2fb2577ed7ef5c"
+      }
+    },
+    {
+      "package": "@dream-machine/schedule",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@dream-machine/schedule",
+        "downloads": [
+          {
+            "downloads": 0,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40dream-machine%2Fschedule",
+        "retrieved_at": "2026-11-19T13:57:00.265186+00:00",
+        "response_sha256": "67e8f02750d1398aecf407302b81859805c6be703fe373db7b50f66d6d36df01"
+      }
+    },
+    {
+      "package": "@dream-machine/witness",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@dream-machine/witness",
+        "downloads": [
+          {
+            "downloads": 26,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40dream-machine%2Fwitness",
+        "retrieved_at": "2026-11-19T13:57:30.688407+00:00",
+        "response_sha256": "46b636eb4fee068102cc3b46a497a0a058b9195beb0c50f59c53048ead6a0523"
+      }
+    },
+    {
+      "package": "@foxruv/cf-doctor",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@foxruv/cf-doctor",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40foxruv%2Fcf-doctor",
+        "retrieved_at": "2026-11-19T13:58:00.926140+00:00",
+        "response_sha256": "38109b7ac476e03bd473e600f069114a6f5907fc7a506c042bb4dfe46b114872"
+      }
+    },
+    {
+      "package": "@foxruv/e2b-runner",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@foxruv/e2b-runner",
+        "downloads": [
+          {
+            "downloads": 0,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40foxruv%2Fe2b-runner",
+        "retrieved_at": "2026-11-19T13:58:31.232657+00:00",
+        "response_sha256": "d131d4a2dfcd9cf402d5e2ac1517ff9e0b7ec2db290098644a31dec4eda8b271"
+      }
+    },
+    {
+      "package": "@foxruv/iris",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@foxruv/iris",
+        "downloads": [
+          {
+            "downloads": 9,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40foxruv%2Firis",
+        "retrieved_at": "2026-11-19T13:59:01.419839+00:00",
+        "response_sha256": "2754dc43a03ebea5d0a0d36843f4b0a34d2bfbb4f002546d57e093e595bba13a"
+      }
+    },
+    {
+      "package": "@foxruv/iris-agentic-synth",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@foxruv/iris-agentic-synth",
+        "downloads": [
+          {
+            "downloads": 7,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40foxruv%2Firis-agentic-synth",
+        "retrieved_at": "2026-11-19T13:59:31.762878+00:00",
+        "response_sha256": "516c550a28e569a532405a691a1f3750952800d1c66b488c7dbb9e05ae388fff"
+      }
+    },
+    {
+      "package": "@foxruv/iris-core",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@foxruv/iris-core",
+        "downloads": [
+          {
+            "downloads": 9,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40foxruv%2Firis-core",
+        "retrieved_at": "2026-11-19T14:00:02.174414+00:00",
+        "response_sha256": "52f1c3d746bf46723fa1000d2d7ecc0c1b6ce3300fbd6973d26635dbd1cc0040"
+      }
+    },
+    {
+      "package": "@foxruv/iris-ultrathink",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@foxruv/iris-ultrathink",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40foxruv%2Firis-ultrathink",
+        "retrieved_at": "2026-11-19T14:00:32.538457+00:00",
+        "response_sha256": "04883a864c05ecf296563a4775d6d97c21e80248183fddd4e651444a45f8cbfd"
+      }
+    },
+    {
+      "package": "@foxruv/nova-medicina",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@foxruv/nova-medicina",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40foxruv%2Fnova-medicina",
+        "retrieved_at": "2026-11-19T14:01:02.900381+00:00",
+        "response_sha256": "afe9dac9be0a102ac931bc1a3588c3c3ae99f08557c8b8facae7cadd898f399a"
+      }
+    },
+    {
+      "package": "@metaharness/agntcy",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@metaharness/agntcy",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40metaharness%2Fagntcy",
+        "retrieved_at": "2026-11-19T14:01:33.175333+00:00",
+        "response_sha256": "e728a8e02aa153b068fe6ea5e39f50b7e4a4cd2320cc03341cd56ce7d344a8fd"
+      }
+    },
+    {
+      "package": "@metaharness/artex-defense",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@metaharness/artex-defense",
+        "downloads": [
+          {
+            "downloads": 9247,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40metaharness%2Fartex-defense",
+        "retrieved_at": "2026-11-19T14:02:03.581593+00:00",
+        "response_sha256": "1ecd3fef8649b78b943907d3c4f049f6a5aae95220f06d70196c06f61ed91ff3"
+      }
+    },
+    {
+      "package": "@metaharness/autogenous",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@metaharness/autogenous",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40metaharness%2Fautogenous",
+        "retrieved_at": "2026-11-19T14:02:33.795966+00:00",
+        "response_sha256": "e9402f3448043f2a6574aaae9f1b734072d2cf672a66435a4ab8cdc2af715985"
+      }
+    },
+    {
+      "package": "@metaharness/avo",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@metaharness/avo",
+        "downloads": [
+          {
+            "downloads": 8089,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40metaharness%2Favo",
+        "retrieved_at": "2026-11-19T14:03:04.002731+00:00",
+        "response_sha256": "b2b16cbb76bcf061baacb418cc0709b45d34cd3994beffb1604fa5859a455bef"
+      }
+    },
+    {
+      "package": "@metaharness/aws-finops",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@metaharness/aws-finops",
+        "downloads": [
+          {
+            "downloads": 7,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40metaharness%2Faws-finops",
+        "retrieved_at": "2026-11-19T14:03:34.193719+00:00",
+        "response_sha256": "abb46d2c4316fd6f176b2a3350dd0ee2b3182a62e7259b7bff9dbc06352862f8"
+      }
+    },
+    {
+      "package": "@metaharness/claude-code",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@metaharness/claude-code",
+        "downloads": [
+          {
+            "downloads": 16,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40metaharness%2Fclaude-code",
+        "retrieved_at": "2026-11-19T14:04:04.613259+00:00",
+        "response_sha256": "77f9e32b06cd1a3943947c2ff157d04fa4ad857a50f2732534da649240d82da2"
+      }
+    },
+    {
+      "package": "@metaharness/codex",
+      "body": {
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "package": "@metaharness/codex",
+        "downloads": [
+          {
+            "downloads": 4,
+            "day": "2026-11-18"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-18:2026-11-18/%40metaharness%2Fcodex",
+        "retrieved_at": "2026-11-19T14:04:34.772565+00:00",
+        "response_sha256": "cdc93739ed4735a1aebf3365a17cc6c353231542aed38bab7c81fe375809eb50"
+      }
+    },
+    {
+      "package": "@agentic-robotics/cli",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/cli",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Fcli",
+        "retrieved_at": "2026-11-20T13:27:27.395892+00:00",
+        "response_sha256": "65d5c4c8a6dfb0cf2cd43f54fe4f257b2ff574d53a1ea849345b45ea6dcbf3f8"
+      }
+    },
+    {
+      "package": "@agentic-robotics/core",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/core",
+        "downloads": [
+          {
+            "downloads": 5,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Fcore",
+        "retrieved_at": "2026-11-20T13:27:57.571245+00:00",
+        "response_sha256": "bfcd8609ba94bd05da19611f6c3103ca74a757fa2c70d1f2857b5b04f1080787"
+      }
+    },
+    {
+      "package": "@agentic-robotics/darwin-arm64",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/darwin-arm64",
+        "downloads": [
+          {
+            "downloads": 3,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Fdarwin-arm64",
+        "retrieved_at": "2026-11-20T13:28:27.964522+00:00",
+        "response_sha256": "0810efbf3627bd84c48fdf02bc954b422e999e25bc6c9b283c3e6e67e1e09179"
+      }
+    },
+    {
+      "package": "@agentic-robotics/darwin-x64",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/darwin-x64",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Fdarwin-x64",
+        "retrieved_at": "2026-11-20T13:28:58.161612+00:00",
+        "response_sha256": "529c18a3749847b6fafdd07b966ef81ae6a5520373d36522e138ba7e3b913390"
+      }
+    },
+    {
+      "package": "@agentic-robotics/linux-arm64-gnu",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/linux-arm64-gnu",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Flinux-arm64-gnu",
+        "retrieved_at": "2026-11-20T13:29:28.584696+00:00",
+        "response_sha256": "3500576f830d452bd7deb9bce1c19f6a4825615bad550d32d8ffb6b95043c28d"
+      }
+    },
+    {
+      "package": "@agentic-robotics/linux-x64-gnu",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/linux-x64-gnu",
+        "downloads": [
+          {
+            "downloads": 1,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Flinux-x64-gnu",
+        "retrieved_at": "2026-11-20T13:29:58.756873+00:00",
+        "response_sha256": "5c5578de67b0d0aecd019743ec2b3ede0ad9f75474e7e4a0dde8d7c0f72789d3"
+      }
+    },
+    {
+      "package": "@agentic-robotics/mcp",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/mcp",
+        "downloads": [
+          {
+            "downloads": 13,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Fmcp",
+        "retrieved_at": "2026-11-20T13:30:28.927498+00:00",
+        "response_sha256": "587a45a99bdf1eb811dc0049eea683a25585b3695b8de702fe4a33c701aea5d6"
+      }
+    },
+    {
+      "package": "@agentic-robotics/self-learning",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentic-robotics/self-learning",
+        "downloads": [
+          {
+            "downloads": 12,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentic-robotics%2Fself-learning",
+        "retrieved_at": "2026-11-20T13:30:59.298742+00:00",
+        "response_sha256": "0c60fb4e6efb1ae4c629cd35872b40857e99a58413c87f1742e583b1f210021a"
+      }
+    },
+    {
+      "package": "@agentics.org/agentic-mcp",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentics.org/agentic-mcp",
+        "downloads": [
+          {
+            "downloads": 2,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentics.org%2Fagentic-mcp",
+        "retrieved_at": "2026-11-20T13:31:29.462143+00:00",
+        "response_sha256": "27242b7cae53424d909aa9a486fc61801a45882cd87ce18de85b6f1b7aa46b44"
+      }
+    },
+    {
+      "package": "@agentics.org/sparc2",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@agentics.org/sparc2",
+        "downloads": [
+          {
+            "downloads": 19,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40agentics.org%2Fsparc2",
+        "retrieved_at": "2026-11-20T13:32:01.718497+00:00",
+        "response_sha256": "250308561be44391df81241279601087ddd948afb4b382d30d73375a2ca63a2c"
+      }
+    },
+    {
+      "package": "@claude-flow/aidefence",
+      "body": {
+        "start": "2026-11-19",
+        "end": "2026-11-19",
+        "package": "@claude-flow/aidefence",
+        "downloads": [
+          {
+            "downloads": 7470,
+            "day": "2026-11-19"
+          }
+        ]
+      },
+      "receipt": {
+        "source": "https://api.npmjs.org/downloads/range/2026-11-19:2026-11-19/%40claude-flow%2Faidefence",
+        "retrieved_at": "2026-11-20T13:32:32.168804+00:00",
+        "response_sha256": "8853e8ec2aeeaca71664421da8de68a8127407b8f5c4bc998ea040477b47e2ab"
+      }
+    }
+  ],
+  "retrieved_at": "2026-11-20T13:32:32.168804+00:00",
+  "definition": "Verified retained responses and missing cells only; windows are upserted, never summed"
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Missing Nov18/19 npm cells only",
+  "issued_at": "2026-11-20T13:27:27.093284+00:00",
+  "budget_seconds": 21600,
+  "worker_sha256": "dae5022a486524f173919e6e84b0492e12cebe255f3339a607541a4e12c67ceb",
+  "retained_prior_responses": 71,
+  "expected": 430,
+  "request_interval_seconds": 30,
+  "persistent_cooldown": "npm-downloads.json",
+  "expected_result": "Two completed days reconciled or explicit partial checkpoint",
+  "rollback": "Stop owned worker; retain verified cache; never substitute partial sum for full total"
+}

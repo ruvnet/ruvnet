@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-20T13:33:15.205020+00:00",
+  "full_assembly_replay_identical_values_and_totals": true,
+  "assembly_replay_provider_calls": 0,
+  "unique_daily_keys": 46622,
+  "eligible_identity_sets_reconciled": true,
+  "missing_totals_null": true,
+  "current_utc_day_excluded": true,
+  "goal_lower_bound": 123258217,
+  "prior_goal": 123151164,
+  "test_count": 39,
+  "github_source_replay": "byte identical; zero provider calls"
+}
