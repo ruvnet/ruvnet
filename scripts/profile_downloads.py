@@ -160,8 +160,9 @@ def apply_downloads(root, running, npm):
 def verify_downloads(root, running):
     c = canonical(running)
     by_id = {e.get('id'): e for e in root.iter() if e.get('id')}
+    portrait = root.get('data-layout') == 'portrait'
     expected = {
-        'npm-observed-label': 'NPM EVENTS / LOWER BOUND',
+        'npm-observed-label': 'npm downloads · lower bound' if portrait else 'NPM EVENTS / LOWER BOUND',
         'npm-observed-total': f"{c['npm']:,}",
         'npm-observed-basis': 'OBSERVED SINCE OCT 1, 2025',
         'crates-observed-total': f"CRATES.IO CUMULATIVE: {c['crates']:,}",
@@ -172,12 +173,16 @@ def verify_downloads(root, running):
     for identifier, value in expected.items():
         node = by_id.get(identifier)
         assert node is not None and ''.join(node.itertext()).casefold() == value.casefold(), f"Stale SVG download claim: {identifier}"
-    assert by_id['npm-history-label'].text.startswith('HISTORICAL NPM CHART /')
     assert root.get('data-download-watermark') == c['watermark'], 'Stale source watermark'
     assert root.get('data-npm-start') == c['start'] and root.get('data-npm-through') == c['through']
     for key in ['npm_at', 'crates_at', 'assets_at']:
         assert root.get('data-' + key.replace('_', '-')) == c[key], f'Stale retrieval date: {key}'
     desc = root.find(f'{{{NS}}}desc').text
+    if portrait:
+        assert by_id['npm-history-label'].text == 'npm history'
+        assert f"Historical chart only: {by_id['history-cohort'].text}, " in desc, 'Stale mobile chart cohort'
+    else:
+        assert by_id['npm-history-label'].text.startswith('HISTORICAL NPM CHART /')
     for value in [f"Npm only: {c['npm']:,}", c['start'], c['through'], 'lower bound', c['watermark'], c['latest']['day'], f"{c['crates']:,}", f"{c['assets']:,}", 'Historical chart only:']:
         assert value in desc, f'Stale accessible description: {value}'
     provisional = f"Provisional provider dates: {', '.join(c['provisional_dates']) or 'none'}; observed events {c['provisional_events']}."

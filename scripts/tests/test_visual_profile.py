@@ -5,6 +5,7 @@ import copy
 import re
 import subprocess
 from pathlib import Path
+from urllib.parse import urlsplit
 import shutil
 import sys
 import tempfile
@@ -31,12 +32,20 @@ class VisualProfileTest(unittest.TestCase):
         blocks = re.findall(r'<a\b[^>]*>\s*<picture\b.*?</picture>\s*</a>', readme, re.S)
         link, = (ET.fromstring(block) for block in blocks if 'dashboard-mobile.svg' in block)
         self.assertEqual(link.get('href'), 'docs/ecosystem-metrics.md')
-        source = link.find('picture/source')
+        source, reduced = link.findall('picture/source')
         self.assertEqual(source.get('media'), '(min-width: 1200px)')
         self.assertEqual(source.get('srcset'), 'assets/ruvnet/dashboard.svg')
         fallback = link.find('picture/img')
         self.assertEqual(fallback.get('src'), 'assets/ruvnet/dashboard-mobile.svg')
         self.assertTrue(fallback.get('alt'))
+        self.assertEqual(reduced.get('media'), '(prefers-reduced-motion: reduce)')
+        url = urlsplit(reduced.get('srcset'))
+        self.assertEqual(url.query, 'motion=still')
+        path, fragment = url.path, url.fragment
+        self.assertEqual(path, fallback.get('src'))
+        svg = ET.parse(ROOT / path).getroot()
+        self.assertEqual(fragment, svg.get('id'))
+        self.assertIn(f'#{fragment}:target * {{ animation:none }}', svg.find('{http://www.w3.org/2000/svg}style').text)
 
     def test_dashboard_uses_canonical_npm_and_separate_providers(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -64,6 +73,9 @@ class VisualProfileTest(unittest.TestCase):
                 verify_downloads(mobile,running)
                 self.assertEqual(mobile.get('data-download-watermark'),parsed.get('data-download-watermark'))
                 self.assertEqual(mobile.find(".//*[@id='npm-observed-total']").get('textLength'), '288')
+                mobile.find(".//*[@id='history-cohort']").text = '0 packages'
+                with self.assertRaisesRegex(AssertionError, 'Stale mobile chart cohort'):
+                    verify_downloads(mobile, running)
                 desc=parsed.find('{http://www.w3.org/2000/svg}desc')
                 original_desc=desc.text
                 desc.text=desc.text.replace('observed events 22805.', 'observed events 22806.')
@@ -155,14 +167,29 @@ class VisualProfileTest(unittest.TestCase):
                 self.assertNotEqual(before,after)
                 mobile=ET.parse(mobile_output).getroot()
                 self.assertEqual(mobile.find(".//*[@id='github-followers']").text, '12,345')
-                self.assertEqual(mobile.find(".//*[@id='project-stars']")[1].text, '70,000')
-                self.assertEqual(mobile.find(".//*[@id='project-stars']")[2].text, '-1,415')
+                ruflo = mobile.find(".//*[@id='stars-ruflo']")
+                self.assertEqual(ruflo.find("s:text[@class='number']", ns).text, '70,000')
+                self.assertEqual(ruflo.find("s:text[@class='loss']", ns).text, '-1,415')
                 history_path=".//*[@id='history-line']"
                 self.assertNotEqual(mobile.find(history_path).get('d'), ET.fromstring(first_mobile).find(history_path).get('d'))
                 self.assertEqual(len(mobile.find(history_path).get('d').split()), len(visual.chart_rows(r['npm'])))
+                self.assertEqual(mobile.find(".//*[@id='history-light']").get('d'), mobile.find(history_path).get('d'))
+                self.assertEqual(len(mobile.find(".//*[@id='history-samples']")) + 1, len(visual.chart_rows(r['npm'])))
                 self.assertIn('M40 686L254 708',final)
                 self.assertNotIn('<script',final)
             finally:visual.ROOT=original
+
+    def test_portrait_star_bars_share_one_scale(self):
+        ns = {'s': visual.NS}
+        group = ET.Element('g')
+        visual.render_mobile_stars(group, [('Small', 60, 50), ('Zero', 0, 0), ('Large', 80, 100)])
+        self.assertEqual([row.get('id') for row in group], ['stars-large', 'stars-small', 'stars-zero'])
+        def widths(rows):
+            return [float(row.find("s:rect[@fill='url(#stars)']", ns).get('width')) for row in rows]
+        self.assertEqual(widths(group), [288, 144, 0])
+        empty_scale = ET.Element('g')
+        visual.render_mobile_stars(empty_scale, [('Zero', 0, 0)])
+        self.assertEqual(widths(empty_scale), [0])
 
 
 class GoalReconciliationTest(unittest.TestCase):
