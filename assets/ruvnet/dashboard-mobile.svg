@@ -54,9 +54,9 @@
   <text x="16" y="412" class="note" id="history-start">Oct 1, 2025</text>
   <text x="304" y="412" class="note" text-anchor="end" id="history-through">Nov 15, 2026</text>
 
-  <text x="16" y="453" class="note" id="crates-observed-total">Crates.io cumulative: <tspan x="304" text-anchor="end" class="number">2,280,291</tspan></text>
-  <text x="16" y="475" class="note" id="release-assets-observed-total">Release assets observed: <tspan x="304" text-anchor="end" class="number">121,534</tspan></text>
-  <text x="16" y="505" class="label" id="npm-latest-complete-total">Latest complete npm day: <tspan x="16" y="537" class="count number">937,157</tspan></text>
+  <g id="crates-observed-total"><text x="16" y="453" class="note">Crates.io cumulative: </text><text x="304" y="453" text-anchor="end" class="number">2,280,291</text></g>
+  <g id="release-assets-observed-total"><text x="16" y="475" class="note">Release assets observed: </text><text x="304" y="475" text-anchor="end" class="number">121,534</text></g>
+  <g id="npm-latest-complete-total"><text x="16" y="505" class="label">Latest complete npm day: </text><text x="16" y="537" class="count number">937,157</text></g>
   <text x="16" y="562" class="note" id="npm-latest-complete-date" textLength="288" lengthAdjust="spacingAndGlyphs">2026-11-17 UTC · 429/429 PACKAGES</text>
 
   <text x="16" y="607" class="section">Repo stars</text>

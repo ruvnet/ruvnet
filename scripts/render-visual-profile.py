@@ -33,12 +33,12 @@ def render_mobile(desktop, labels, totals, ceiling, projects):
     for source in desktop.iter():
         key = source.get('id')
         if key in elements and source.tag in (f'{{{NS}}}desc', f'{{{NS}}}text'):
-            value = elements[key].find(f'{{{NS}}}tspan')
-            if value is None:
-                elements[key].text = source.text
+            target = elements[key]
+            if target.tag == f'{{{NS}}}g':
+                # Registry rows place the number from "LABEL: value" in a separate text element.
+                target[-1].text = source.text.split(': ', 1)[1]
             else:
-                # These rows place the number from "LABEL: value" in its own column.
-                value.text = source.text.split(': ', 1)[1]
+                target.text = source.text
     for key, value in labels.items():
         elements[key].text = value
 

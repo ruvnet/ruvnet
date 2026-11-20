@@ -54,9 +54,9 @@
   <text x="16" y="412" class="note" id="history-start"/>
   <text x="304" y="412" class="note" text-anchor="end" id="history-through"/>
 
-  <text x="16" y="453" class="note" id="crates-observed-total">Crates.io cumulative: <tspan x="304" text-anchor="end" class="number"/></text>
-  <text x="16" y="475" class="note" id="release-assets-observed-total">Release assets observed: <tspan x="304" text-anchor="end" class="number"/></text>
-  <text x="16" y="505" class="label" id="npm-latest-complete-total">Latest complete npm day: <tspan x="16" y="537" class="count number"/></text>
+  <g id="crates-observed-total"><text x="16" y="453" class="note">Crates.io cumulative: </text><text x="304" y="453" text-anchor="end" class="number"/></g>
+  <g id="release-assets-observed-total"><text x="16" y="475" class="note">Release assets observed: </text><text x="304" y="475" text-anchor="end" class="number"/></g>
+  <g id="npm-latest-complete-total"><text x="16" y="505" class="label">Latest complete npm day: </text><text x="16" y="537" class="count number"/></g>
   <text x="16" y="562" class="note" id="npm-latest-complete-date" textLength="288" lengthAdjust="spacingAndGlyphs"/>
 
   <text x="16" y="607" class="section">Repo stars</text>
