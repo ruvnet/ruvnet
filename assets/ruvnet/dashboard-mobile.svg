@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1080" viewBox="0 0 320 720" role="img" aria-labelledby="title desc" data-download-watermark="5159da7e1d96241cfdc2c5e6e9a6f7b03ac87445c29b1154b77dd1640d45350b" data-npm-start="2025-10-01" data-npm-through="2026-11-19" data-npm-at="2026-11-20T13:32:32.168804+00:00" data-crates-at="2026-11-20T13:26:53.405068Z" data-assets-at="2026-11-20T13:26:37.199192+00:00">
+  <title id="title">rUv ecosystem statistics</title>
+  <desc id="desc">Npm only: 123,258,217 observed download events since 2025-10-01 through 2026-11-19; lower bound, historical coverage gaps retained, current inventory 430 packages. Unknown source dates: 2026-09-07, 2026-09-08, 2026-09-15, 2026-10-06, 2026-10-14, 2026-10-15, 2026-10-19, 2026-10-20, 2026-11-18, 2026-11-19. Provisional provider dates: 2026-11-18, 2026-11-19; observed events 107083. Latest attempted npm UTC day 2026-11-19: 7534 observed events from 11/430 packages; full total unknown. Latest complete npm UTC day 2026-11-17: 937,157 events, 429/429 packages, retrieved 2026-11-18T17:20:38.430296+00:00. Crates.io cumulative downloads: 2,280,291, retrieved 2026-11-20T13:26:53.405068Z. Release asset retained observed downloads: 121,534, retrieved 2026-11-20T13:26:37.199192+00:00; not npm downloads. Npm reconciliation retrieved 2026-11-20T13:32:32.168804+00:00. Source watermark SHA256 5159da7e1d96241cfdc2c5e6e9a6f7b03ac87445c29b1154b77dd1640d45350b. Historical chart only: 429 packages, 2025-10-01 through 2026-11-15; not current headline coverage. Stars are current gauges; star traces are not daily histories. Animation is decorative.</desc>
+  <style>
+    text { font-family: system-ui, sans-serif; fill: #eef3fa; font-size: 16.5px; font-variant-numeric: tabular-nums }
+    .section { font-size: 19px; font-weight: 650 }
+    .note { fill: #b4c4d4 }
+    .label { fill: #9de8d0; font-weight: 600 }
+    .count { font-size: 24px; font-weight: 680 }
+    .number { fill: #eef3fa; font-weight: 650 }
+    .change { fill: #b4c4d4 }
+    .rule { fill: none; stroke: #2a3849 }
+    .pulse { transform-box: fill-box; transform-origin: center }
+    @media (prefers-reduced-motion: no-preference) {
+      .pulse { animation: ripple 3s ease-out infinite }
+      @keyframes ripple { from { transform: scale(.5); opacity: .8 } to { transform: scale(1.5); opacity: 0 } }
+    }
+  </style>
+  <defs>
+    <linearGradient id="area-fill" x2="0" y2="1">
+      <stop stop-color="#f8a76d" stop-opacity=".26" />
+      <stop offset="1" stop-color="#f8a76d" stop-opacity=".02" />
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="319" height="719" rx="14" fill="#0a101a" stroke="#2a3849" />
+  <path d="M16 23v12" stroke="#9de8d0" stroke-width="3" stroke-linecap="round" />
+  <text x="26" y="35" class="section">rUv / Ecosystem</text>
+
+  <text x="16" y="65" class="label" id="npm-observed-label">NPM EVENTS / LOWER BOUND</text>
+  <text x="14" y="108" style="font-size:39px;font-weight:720;fill:#ffae73" id="npm-observed-total">123,258,217</text>
+  <text x="16" y="135" class="note" id="npm-observed-basis">OBSERVED SINCE OCT 1, 2025</text>
+  <text x="16" y="157" class="note" id="npm-through">To Nov 19, 2026 · 430 packages</text>
+
+  <path class="rule" d="M16 170H304 M16 284H304 M16 429H304 M16 579H304" />
+  <text x="16" y="194" class="section">GitHub</text>
+  <text x="304" y="194" text-anchor="end" class="note" id="github-date">Nov 20, 2026</text>
+  <text x="16" y="217" class="note">Nonfork stars</text>
+  <text x="143" y="217" class="note">Repos</text>
+  <text x="304" y="217" text-anchor="end" class="note">Followers</text>
+  <text x="16" y="247" class="count" style="fill:#b7c2ff" id="github-stars">204,132</text>
+  <text x="143" y="247" class="count" id="github-repos">235</text>
+  <text x="304" y="247" text-anchor="end" class="count" style="fill:#9de8d0" id="github-followers">12,552</text>
+  <text x="16" y="273" class="note" id="github-cohort">208 nonfork repos · 27 forks</text>
+
+  <text x="16" y="309" class="label" id="npm-history-label" textLength="288" lengthAdjust="spacingAndGlyphs">HISTORICAL NPM CHART / 429 PACKAGES</text>
+  <text x="16" y="331" class="note" id="chart-basis">Cumulative · partial final month</text>
+  <path class="rule" d="M70 347H299 M70 385H299" />
+  <text x="61" y="352" text-anchor="end" class="note" id="chart-ceiling">121M</text>
+  <text x="61" y="390" text-anchor="end" class="note">0</text>
+  <path id="history-area" fill="url(#area-fill)" d="M70.00,384.91 L87.62,384.78 L105.23,384.64 L122.85,384.12 L140.46,383.50 L158.08,381.96 L175.69,380.02 L193.31,375.01 L210.92,370.23 L228.54,365.43 L246.15,360.96 L263.77,356.06 L281.38,350.96 L299.00,347.02 L299,385 H70 Z" />
+  <path id="history-line" fill="none" stroke="#ffae73" stroke-width="2.5" stroke-linejoin="round" d="M70.00,384.91 L87.62,384.78 L105.23,384.64 L122.85,384.12 L140.46,383.50 L158.08,381.96 L175.69,380.02 L193.31,375.01 L210.92,370.23 L228.54,365.43 L246.15,360.96 L263.77,356.06 L281.38,350.96 L299.00,347.02" />
+  <circle id="history-halo" class="pulse" r="4" fill="none" stroke="#ffae73" cx="299" cy="347.02" />
+  <circle id="history-end" r="2.5" fill="#ffcf9e" cx="299" cy="347.02" />
+  <text x="16" y="412" class="note" id="history-start">Oct 1, 2025</text>
+  <text x="304" y="412" class="note" text-anchor="end" id="history-through">Nov 15, 2026</text>
+
+  <g id="crates-observed-total"><text x="16" y="453" class="note">Crates.io cumulative: </text><text x="304" y="453" text-anchor="end" class="number">2,280,291</text></g>
+  <g id="release-assets-observed-total"><text x="16" y="475" class="note">Release assets observed: </text><text x="304" y="475" text-anchor="end" class="number">121,534</text></g>
+  <g id="npm-latest-complete-total"><text x="16" y="505" class="label">Latest complete npm day: </text><text x="16" y="537" class="count number">937,157</text></g>
+  <text x="16" y="562" class="note" id="npm-latest-complete-date" textLength="288" lengthAdjust="spacingAndGlyphs">2026-11-17 UTC · 429/429 PACKAGES</text>
+
+  <text x="16" y="607" class="section">Repo stars</text>
+  <text x="304" y="606" class="note" text-anchor="end" id="stars-since">Since Sep 7, 2026</text>
+  <g id="project-stars"><text x="16" y="632">Ruflo</text><text x="195" y="632" class="number" text-anchor="end">82,140</text><text x="304" y="632" class="change" text-anchor="end">+10,725</text><text x="16" y="654">RuVector</text><text x="195" y="654" class="number" text-anchor="end">4,714</text><text x="304" y="654" class="change" text-anchor="end">+237</text><text x="16" y="676">RuView</text><text x="195" y="676" class="number" text-anchor="end">104,672</text><text x="304" y="676" class="change" text-anchor="end">+11,923</text><text x="16" y="698">MetaHarness</text><text x="195" y="698" class="number" text-anchor="end">753</text><text x="304" y="698" class="change" text-anchor="end">+116</text></g>
+</svg>

@@ -7,10 +7,13 @@ on:
       - 'data/metrics.json'
       - 'data/registry-stats.json'
       - 'data/github-stats.json'
+      - 'data/ecosystem-running-totals.json'
       - 'data/snapshots/2026-10-02/github-baseline-2026-09-07.json'
       - 'scripts/render-visual-profile.py'
+      - 'scripts/profile_downloads.py'
       - 'scripts/render-constellation.py'
       - 'scripts/templates/ruvnet-dashboard.svg'
+      - 'scripts/templates/ruvnet-dashboard-mobile.svg'
       - 'scripts/tests/test_visual_profile.py'
 permissions:
   contents: write

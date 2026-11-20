@@ -25,6 +25,55 @@ def chart_rows(n):
 def chart_end(n):
     return n.get('current_month',{}).get('period_end',n['monthly_period_end'])
 
+def render_mobile(desktop, labels, totals, ceiling, projects):
+    root = ET.parse(ROOT / 'scripts/templates/ruvnet-dashboard-mobile.svg').getroot()
+    elements = {e.get('id'): e for e in root.iter() if e.get('id')}
+    # Both layouts carry the same published claims and source metadata.
+    root.attrib.update((k, v) for k, v in desktop.attrib.items() if k.startswith('data-'))
+    for source in desktop.iter():
+        key = source.get('id')
+        if key in elements and source.tag in (f'{{{NS}}}desc', f'{{{NS}}}text'):
+            target = elements[key]
+            if target.tag == f'{{{NS}}}g':
+                # Registry rows place the number from "LABEL: value" in a separate text element.
+                target[-1].text = source.text.split(': ', 1)[1]
+            else:
+                target.text = source.text
+    for key, value in labels.items():
+        elements[key].text = value
+
+    # Keep the next thousands separator inside its column as the counters grow.
+    for key, characters, width in (
+        ('npm-observed-total', 11, 288), ('github-stars', 7, 118),
+        ('github-repos', 3, 56), ('github-followers', 6, 96),
+    ):
+        element = elements[key]
+        if len(element.text) > characters:
+            element.set('textLength', str(width))
+            element.set('lengthAdjust', 'spacingAndGlyphs')
+
+    left, right, bottom, height = 70, 299, 385, 38
+    points = [(left + (right - left) * i / (len(totals) - 1), bottom - height * total / ceiling)
+              for i, total in enumerate(totals)]
+    line = 'M' + ' L'.join(f'{x:.2f},{y:.2f}' for x, y in points)
+    elements['history-line'].set('d', line)
+    elements['history-area'].set('d', f'{line} L{right},{bottom} H{left} Z')
+    elements['chart-ceiling'].text = f'{ceiling / 1_000_000:g}M'
+    for key in ('history-end', 'history-halo'):
+        elements[key].set('cx', str(right))
+        elements[key].set('cy', f'{points[-1][1]:.2f}')
+
+    for i, (name, old, new) in enumerate(projects):
+        y = str(632 + 22 * i)
+        group = elements['project-stars']
+        ET.SubElement(group, f'{{{NS}}}text', x='16', y=y).text = name
+        for x, style, value in [(195, 'number', f'{new:,}'), (304, 'change', f'{new - old:+,}')]:
+            ET.SubElement(group, f'{{{NS}}}text', {
+                'x': str(x), 'y': y, 'class': style, 'text-anchor': 'end'
+            }).text = value
+
+    ET.ElementTree(root).write(ROOT / 'assets/ruvnet/dashboard-mobile.svg', encoding='unicode')
+
 def render_growth(n):
     from itertools import accumulate
     from html import escape
@@ -119,8 +168,10 @@ def render():
     put(1166,610,f'TWO SNAPSHOTS · {bd} → {gd} · TRACES NORMALIZED')
     now={x['name'].lower():x['stars'] for x in g['flagships']}
     before={x['name'].lower():x['stars'] for x in b['flagships']}
-    for i,name in enumerate(['ruflo','ruvector','ruview','metaharness']):
-        x=34+300*i; end=x+230; old=before[name]; new=now[name]; delta=new-old
+    projects = [(name, before[name.lower()], now[name.lower()])
+                for name in ('Ruflo', 'RuVector', 'RuView', 'MetaHarness')]
+    for i, (name, old, new) in enumerate(projects):
+        x=34+300*i; end=x+230; delta=new-old
         put(end,641,f'{delta/old:+.1%}' if old else 'N/A')
         put(x,666,f'{new:,} ★');put(end,665,f'{delta:+,} stars')
         put(x,733,f'{bd} / {old:,}');put(end,733,f'{gd} / {new:,}')
@@ -141,6 +192,20 @@ def render():
     apply_downloads(root, running, n)
     out=ROOT/'assets/ruvnet/dashboard.svg';out.parent.mkdir(parents=True,exist_ok=True)
     ET.ElementTree(root).write(out,encoding='unicode')
+    def full_date(value):
+        return date(value, '%b %d, %Y').title().replace(' 0', ' ')
+    render_mobile(root, {
+        'npm-through': f"To {full_date(root.get('data-npm-through'))} · {running['npm']['expected_packages']} packages",
+        'github-date': full_date(g['verified_at']),
+        'github-stars': f"{a['stars_across_owned_nonfork']:,}",
+        'github-repos': f"{a['public_repositories']:,}",
+        'github-followers': f"{a['followers']:,}",
+        'github-cohort': f"{a['owned_public_nonfork_repositories']:,} nonfork repos · {a['public_forks']:,} forks",
+        'chart-basis': 'Cumulative · partial final month' if n.get('current_month') else 'Cumulative · full calendar months',
+        'history-start': full_date(n['monthly_period_start']),
+        'history-through': full_date(chart_end(n)),
+        'stars-since': f"Since {full_date(b['verified_at'])}",
+    }, totals, top, projects)
     render_growth(n)
-    print(f'Rendered {out.relative_to(ROOT)} and cumulative chart from repository JSON')
+    print('Rendered desktop and mobile dashboards and cumulative chart from repository JSON')
 if __name__=='__main__': render()
