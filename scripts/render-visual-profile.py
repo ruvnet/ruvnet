@@ -25,6 +25,27 @@ def chart_rows(n):
 def chart_end(n):
     return n.get('current_month',{}).get('period_end',n['monthly_period_end'])
 
+def render_mobile_stars(group, projects):
+    ranked = sorted(projects, key=lambda project: project[2], reverse=True)
+    largest = max((current for _, _, current in ranked), default=0)
+    for index, (name, previous, current) in enumerate(ranked):
+        baseline = 720 + 32 * index
+        row = ET.SubElement(group, f'{{{NS}}}g', id=f'stars-{name.lower()}')
+        ET.SubElement(row, f'{{{NS}}}text', x='16', y=str(baseline)).text = name
+        delta = current - previous
+        change_style = 'gain' if delta > 0 else 'loss' if delta < 0 else 'note'
+        for x, style, value in [(195, 'number', f'{current:,}'), (304, change_style, f'{delta:+,}')]:
+            ET.SubElement(row, f'{{{NS}}}text', {
+                'x': str(x), 'y': str(baseline), 'class': style, 'text-anchor': 'end'
+            }).text = value
+        bar = {'x': '16', 'y': str(baseline + 9), 'height': '3', 'rx': '1.5', 'aria-hidden': 'true'}
+        ET.SubElement(row, f'{{{NS}}}rect', bar, width='288', fill='#303349')
+        bar['width'] = f'{288 * current / largest:.2f}' if largest else '0'
+        ET.SubElement(row, f'{{{NS}}}rect', bar, fill='url(#stars)')
+        ET.SubElement(row, f'{{{NS}}}rect', {
+            **bar, 'class': 'star-light', 'fill': '#ede5ff', 'style': f'--delay:{2.4 + .25 * index:.2f}s'
+        })
+
 def render_mobile(desktop, labels, totals, ceiling, projects):
     root = ET.parse(ROOT / 'scripts/templates/ruvnet-dashboard-mobile.svg').getroot()
     elements = {e.get('id'): e for e in root.iter() if e.get('id')}
@@ -52,26 +73,23 @@ def render_mobile(desktop, labels, totals, ceiling, projects):
             element.set('textLength', str(width))
             element.set('lengthAdjust', 'spacingAndGlyphs')
 
-    left, right, bottom, height = 70, 299, 385, 38
+    left, right, bottom, height = 64, 296, 327, 76
     points = [(left + (right - left) * i / (len(totals) - 1), bottom - height * total / ceiling)
               for i, total in enumerate(totals)]
     line = 'M' + ' L'.join(f'{x:.2f},{y:.2f}' for x, y in points)
     elements['history-line'].set('d', line)
+    elements['history-light'].set('d', line)
     elements['history-area'].set('d', f'{line} L{right},{bottom} H{left} Z')
     elements['chart-ceiling'].text = f'{ceiling / 1_000_000:g}M'
+    for x, y in points[:-1]:
+        ET.SubElement(elements['history-samples'], f'{{{NS}}}circle', {
+            'cx': f'{x:.2f}', 'cy': f'{y:.2f}', 'r': '1.6'
+        })
     for key in ('history-end', 'history-halo'):
         elements[key].set('cx', str(right))
         elements[key].set('cy', f'{points[-1][1]:.2f}')
 
-    for i, (name, old, new) in enumerate(projects):
-        y = str(632 + 22 * i)
-        group = elements['project-stars']
-        ET.SubElement(group, f'{{{NS}}}text', x='16', y=y).text = name
-        for x, style, value in [(195, 'number', f'{new:,}'), (304, 'change', f'{new - old:+,}')]:
-            ET.SubElement(group, f'{{{NS}}}text', {
-                'x': str(x), 'y': y, 'class': style, 'text-anchor': 'end'
-            }).text = value
-
+    render_mobile_stars(elements['project-stars'], projects)
     ET.ElementTree(root).write(ROOT / 'assets/ruvnet/dashboard-mobile.svg', encoding='unicode')
 
 def render_growth(n):
@@ -195,12 +213,16 @@ def render():
     def full_date(value):
         return date(value, '%b %d, %Y').title().replace(' 0', ' ')
     render_mobile(root, {
+        'npm-observed-label': 'npm downloads · lower bound',
+        'npm-observed-basis': f"Observed since {full_date(root.get('data-npm-start'))}",
         'npm-through': f"To {full_date(root.get('data-npm-through'))} · {running['npm']['expected_packages']} packages",
         'github-date': full_date(g['verified_at']),
         'github-stars': f"{a['stars_across_owned_nonfork']:,}",
         'github-repos': f"{a['public_repositories']:,}",
         'github-followers': f"{a['followers']:,}",
         'github-cohort': f"{a['owned_public_nonfork_repositories']:,} nonfork repos · {a['public_forks']:,} forks",
+        'npm-history-label': 'npm history',
+        'history-cohort': f"{n['download_package_count']} packages",
         'chart-basis': 'Cumulative · partial final month' if n.get('current_month') else 'Cumulative · full calendar months',
         'history-start': full_date(n['monthly_period_start']),
         'history-through': full_date(chart_end(n)),

@@ -1,65 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1080" viewBox="0 0 320 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1272" viewBox="0 0 320 848" data-layout="portrait" role="img" aria-labelledby="title desc">
   <title id="title">rUv ecosystem statistics</title>
   <desc id="desc"/>
-  <style>
-    text { font-family: system-ui, sans-serif; fill: #eef3fa; font-size: 16.5px; font-variant-numeric: tabular-nums }
-    .section { font-size: 19px; font-weight: 650 }
-    .note { fill: #b4c4d4 }
-    .label { fill: #9de8d0; font-weight: 600 }
-    .count { font-size: 24px; font-weight: 680 }
-    .number { fill: #eef3fa; font-weight: 650 }
-    .change { fill: #b4c4d4 }
-    .rule { fill: none; stroke: #2a3849 }
-    .pulse { transform-box: fill-box; transform-origin: center }
-    @media (prefers-reduced-motion: no-preference) {
-      .pulse { animation: ripple 3s ease-out infinite }
-      @keyframes ripple { from { transform: scale(.5); opacity: .8 } to { transform: scale(1.5); opacity: 0 } }
-    }
-  </style>
   <defs>
-    <linearGradient id="area-fill" x2="0" y2="1">
-      <stop stop-color="#f8a76d" stop-opacity=".26"/>
-      <stop offset="1" stop-color="#f8a76d" stop-opacity=".02"/>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#19172e"/><stop offset=".47" stop-color="#111925"/><stop offset="1" stop-color="#0d141e"/>
     </linearGradient>
+    <radialGradient id="prism-light"><stop stop-color="#9a8aff" stop-opacity=".32"/><stop offset="1" stop-color="#9a8aff" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".85" fill="#a9abce" opacity=".38"/></pattern>
+    <linearGradient id="trace" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="296" y2="0">
+      <stop stop-color="#68dfcb"/><stop offset=".55" stop-color="#aba9ff"/><stop offset="1" stop-color="#ffb27b"/>
+    </linearGradient>
+    <linearGradient id="chart-fill" x2="0" y2="1"><stop stop-color="#c3a1dc" stop-opacity=".28"/><stop offset="1" stop-color="#9e9edb" stop-opacity=".035"/></linearGradient>
+    <linearGradient id="receipt" x2="1" y2="1"><stop stop-color="#fcf1d9"/><stop offset="1" stop-color="#e9d6b8"/></linearGradient>
+    <linearGradient id="stars"><stop stop-color="#747cce"/><stop offset="1" stop-color="#c8beff"/></linearGradient>
+    <clipPath id="hero-clip"><rect x="1" y="1" width="318" height="179" rx="16"/></clipPath>
   </defs>
-  <rect x=".5" y=".5" width="319" height="719" rx="14" fill="#0a101a" stroke="#2a3849"/>
-  <path d="M16 23v12" stroke="#9de8d0" stroke-width="3" stroke-linecap="round"/>
-  <text x="26" y="35" class="section">rUv / Ecosystem</text>
+  <style>
+    text { fill:#f4f2fb; font-family:Inter,system-ui,sans-serif; font-size:16.5px; font-variant-numeric:tabular-nums }
+    .title { font-size:22px; font-weight:700; letter-spacing:-.5px }
+    .section { font-size:19px; font-weight:700; letter-spacing:-.3px }
+    .note { fill:#b9c6d7 }
+    .accent { fill:#a9e7d6; font-weight:600 }
+    .count { font-size:24px; font-weight:720; letter-spacing:-.45px }
+    .number { font-weight:650 }
+    .ink { fill:#292132 }
+    .gain { fill:#a9e7d6 } .loss { fill:#ffb7ad }
+    .grid { fill:none; stroke:#3a4359; stroke-width:.8 }
+    .chart-light,.star-light,.end-ring { opacity:0; pointer-events:none }
+    @media (prefers-reduced-motion: no-preference) {
+      .orbit-turn { animation:orbit-pass 4.6s cubic-bezier(.3,.05,.25,1) 1 }
+      .prism { animation:prism-tilt 4.6s ease-in-out 1 }
+      .chart-light { animation:trace-pass 4.6s linear 1 }
+      .end-ring { transform-box:fill-box; transform-origin:center; animation:arrive 4.6s ease-out 1 }
+      .star-light { transform-box:fill-box; transform-origin:left center; animation:bar-pass 1s ease-out var(--delay) 1 }
+    }
+    @keyframes orbit-pass { from {transform:rotate(0deg)} to {transform:rotate(360deg)} }
+    @keyframes prism-tilt { 0%,100% {transform:translateY(0) rotate(0deg)} 37% {transform:translateY(-3px) rotate(9deg) scaleX(.8)} 70% {transform:translateY(1px) rotate(-4deg)} }
+    @keyframes trace-pass { 0%,8% {opacity:0;stroke-dashoffset:14} 18% {opacity:1} 74% {opacity:1;stroke-dashoffset:-90} 84%,100% {opacity:0;stroke-dashoffset:-104} }
+    @keyframes arrive { 0%,71% {opacity:0;transform:scale(.6)} 77% {opacity:.9} 99%,100% {opacity:0;transform:scale(2)} }
+    @keyframes bar-pass { 0% {opacity:0;transform:scaleX(0)} 22% {opacity:.9} 85% {transform:scaleX(1)} 100% {opacity:0;transform:scaleX(1)} }
+  </style>
+  <rect x=".5" y=".5" width="319" height="847" rx="18" fill="url(#shell)" stroke="#414458"/>
+  <g aria-hidden="true" clip-path="url(#hero-clip)">
+    <ellipse cx="278" cy="38" rx="99" ry="75" fill="url(#prism-light)"/>
+    <path fill="url(#dots)" d="M210 0H320V104Z"/>
+    <g transform="translate(265 41)">
+      <g transform="rotate(-19) scale(1 .36)">
+        <circle r="39" fill="none" stroke="#796ea3" stroke-width="1.8"/>
+        <g class="orbit-turn" stroke-linecap="round">
+          <path d="M-39 0A39 39 0 0 1 -13.34 -36.65" fill="none" stroke="#e3d5ff" stroke-width="3"/>
+          <circle cx="-39" r="3.5" fill="#d9ceff"/><circle cx="39" r="3" fill="#ffb683"/>
+        </g>
+      </g>
+      <g class="prism">
+        <path d="M0 -22L20 -1L0 23L-20 1Z" fill="#23223d" stroke="#c5b7ff" stroke-width="1.2"/>
+        <path d="M0 -22L3 4L-20 1Z" fill="#aca4ff"/><path d="M0 -22L20 -1L3 4Z" fill="#796bb1"/>
+        <path d="M-20 1L3 4L0 23Z" fill="#62568b"/><path d="M3 4L20 -1L0 23Z" fill="#3c3759"/>
+        <path d="M-20 1L3 4L20 -1M0 -22L3 4L0 23" fill="none" stroke="#ddd5ff" stroke-width=".8"/>
+        <circle cx="3" cy="4" r="1.7" fill="#fff3d7"/>
+      </g>
+    </g>
+  </g>
+  <rect x="16" y="16" width="48" height="30" rx="7" fill="#b6edde"/>
+  <text x="40" y="38" text-anchor="middle" class="section ink">rUv</text>
+  <text x="75" y="40" class="title">Ecosystem</text>
+  <text x="16" y="80" class="accent" id="npm-observed-label"/>
+  <text x="14" y="129" style="font-size:40px;font-weight:750;letter-spacing:-1.3px;fill:#ffbc8c" id="npm-observed-total"/>
+  <text x="16" y="154" class="note" id="npm-observed-basis"/>
+  <text x="16" y="176" class="note" id="npm-through"/>
 
-  <text x="16" y="65" class="label" id="npm-observed-label"/>
-  <text x="14" y="108" style="font-size:39px;font-weight:720;fill:#ffae73" id="npm-observed-total"/>
-  <text x="16" y="135" class="note" id="npm-observed-basis"/>
-  <text x="16" y="157" class="note" id="npm-through"/>
+  <rect x="9" y="190" width="302" height="176" rx="13" fill="#101b29" stroke="#354354"/>
+  <text x="18" y="216" class="section" id="npm-history-label"/>
+  <text x="302" y="215" text-anchor="end" class="note" id="history-cohort"/>
+  <text x="18" y="240" class="note" id="chart-basis"/>
+  <g aria-hidden="true">
+    <path class="grid" d="M64 251H296 M64 289H296" stroke-dasharray="2 4"/>
+    <path class="grid" d="M64 327H296"/>
+    <path class="grid" d="M122 251V327 M180 251V327 M238 251V327" opacity=".45"/>
+  </g>
+  <text x="56" y="263" text-anchor="end" class="note" id="chart-ceiling"/>
+  <text x="56" y="332" text-anchor="end" class="note">0</text>
+  <path id="history-area" fill="url(#chart-fill)"/>
+  <path id="history-line" fill="none" stroke="url(#trace)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="history-samples" aria-hidden="true" fill="#e0deed"/>
+  <path id="history-light" class="chart-light" aria-hidden="true" fill="none" stroke="#fff3d7" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="13 115"/>
+  <circle id="history-halo" class="end-ring" r="4.5" fill="none" stroke="#ffb37e" aria-hidden="true"/>
+  <circle id="history-end" r="3.2" fill="#ffbc8c" stroke="#18232e" stroke-width="1.1"/>
+  <text x="18" y="353" class="note" id="history-start"/>
+  <text x="302" y="353" class="note" text-anchor="end" id="history-through"/>
 
-  <path class="rule" d="M16 170H304 M16 284H304 M16 429H304 M16 579H304"/>
-  <text x="16" y="194" class="section">GitHub</text>
-  <text x="304" y="194" text-anchor="end" class="note" id="github-date"/>
-  <text x="16" y="217" class="note">Nonfork stars</text>
-  <text x="143" y="217" class="note">Repos</text>
-  <text x="304" y="217" text-anchor="end" class="note">Followers</text>
-  <text x="16" y="247" class="count" style="fill:#b7c2ff" id="github-stars"/>
-  <text x="143" y="247" class="count" id="github-repos"/>
-  <text x="304" y="247" text-anchor="end" class="count" style="fill:#9de8d0" id="github-followers"/>
-  <text x="16" y="273" class="note" id="github-cohort"/>
+  <path d="M18 387l2.6 5.9L27 394l-5 4.5 1.2 6.5-5.2-3.2-5.2 3.2 1.2-6.5-5-4.5 6.4-1.1Z" fill="#bcb1f2" aria-hidden="true"/>
+  <text x="35" y="401" class="section">GitHub</text>
+  <text x="304" y="400" text-anchor="end" class="note" id="github-date"/>
+  <text x="16" y="427" class="note">Nonfork stars</text>
+  <text x="143" y="427" class="note">Repos</text>
+  <text x="304" y="427" text-anchor="end" class="note">Followers</text>
+  <text x="16" y="455" class="count" style="fill:#cbc2ff" id="github-stars"/>
+  <text x="143" y="455" class="count" id="github-repos"/>
+  <text x="304" y="455" text-anchor="end" class="count" style="fill:#a9e7d6" id="github-followers"/>
+  <text x="16" y="480" class="note" id="github-cohort"/>
 
-  <text x="16" y="309" class="label" id="npm-history-label" textLength="288" lengthAdjust="spacingAndGlyphs"/>
-  <text x="16" y="331" class="note" id="chart-basis"/>
-  <path class="rule" d="M70 347H299 M70 385H299"/>
-  <text x="61" y="352" text-anchor="end" class="note" id="chart-ceiling"/>
-  <text x="61" y="390" text-anchor="end" class="note">0</text>
-  <path id="history-area" fill="url(#area-fill)"/>
-  <path id="history-line" fill="none" stroke="#ffae73" stroke-width="2.5" stroke-linejoin="round"/>
-  <circle id="history-halo" class="pulse" r="4" fill="none" stroke="#ffae73"/>
-  <circle id="history-end" r="2.5" fill="#ffcf9e"/>
-  <text x="16" y="412" class="note" id="history-start"/>
-  <text x="304" y="412" class="note" text-anchor="end" id="history-through"/>
+  <path d="M21 494H299Q310 494 310 505V552a5 5 0 0 0 0 10v21q0 11-11 11H21q-11 0-11-11v-21a5 5 0 0 0 0-10v-47q0-11 11-11Z" fill="url(#receipt)"/>
+  <g id="npm-latest-complete-total"><text x="20" y="520" class="ink" font-weight="600">Latest complete npm day: </text><text x="19" y="554" class="ink" style="font-size:30px;font-weight:730;letter-spacing:-.65px"/></g>
+  <g fill="none" stroke="#655568" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+    <rect x="273" y="509" width="23" height="22" rx="4"/><path d="M273 516h23m-17-10v6m11-6v6m-10 11 3 3 6-6"/>
+  </g>
+  <path d="M21 561H299" stroke="#807080" stroke-dasharray="2 3" opacity=".7"/>
+  <text x="20" y="583" class="ink" id="npm-latest-complete-date" textLength="280" lengthAdjust="spacingAndGlyphs"/>
+  <g id="crates-observed-total"><text x="16" y="619" class="note">Crates.io cumulative: </text><text x="304" y="619" text-anchor="end" class="number"/></g>
+  <g id="release-assets-observed-total"><text x="16" y="644" class="note">Release assets observed: </text><text x="304" y="644" text-anchor="end" class="number"/></g>
+  <path d="M16 662H304" stroke="#3b4052"/>
 
-  <g id="crates-observed-total"><text x="16" y="453" class="note">Crates.io cumulative: </text><text x="304" y="453" text-anchor="end" class="number"/></g>
-  <g id="release-assets-observed-total"><text x="16" y="475" class="note">Release assets observed: </text><text x="304" y="475" text-anchor="end" class="number"/></g>
-  <g id="npm-latest-complete-total"><text x="16" y="505" class="label">Latest complete npm day: </text><text x="16" y="537" class="count number"/></g>
-  <text x="16" y="562" class="note" id="npm-latest-complete-date" textLength="288" lengthAdjust="spacingAndGlyphs"/>
-
-  <text x="16" y="607" class="section">Repo stars</text>
-  <text x="304" y="606" class="note" text-anchor="end" id="stars-since"/>
+  <text x="16" y="691" class="section">Repo stars</text>
+  <text x="304" y="690" class="note" text-anchor="end" id="stars-since"/>
   <g id="project-stars"/>
 </svg>
