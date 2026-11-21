@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-20T13:32:32.168804+00:00",
+  "generated_at": "2026-11-21T19:21:33.214891+00:00",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 430,
     "download_package_count": 429,
-    "inventory_verified_at": "2026-11-20T13:26:40.173755Z",
+    "inventory_verified_at": "2026-11-21T19:16:42.597004Z",
     "downloads_verified_at": "2026-11-16T05:42:27.470459Z",
     "downloads": 120481568,
     "period_start": "2025-11-16",
     "period_end": "2026-11-15",
     "period_days": 365,
     "monthly_period_start": "2025-10-01",
-    "inventory_path": "data/snapshots/2026-11-20/npm-inventory.json",
+    "inventory_path": "data/snapshots/2026-11-21/npm-inventory.json",
     "downloads_evidence_path": "data/snapshots/2026-11-16/npm-downloads.json",
     "counting_rule": "Sum of official npm daily range counts across the verified 429 of 429 packages in the maintainer cohort, including scoped and platform packages. Packages whose range endpoint is not yet available remain explicitly missing, never zero. Trailing all-zero cohort days are excluded as not yet confirmed complete.",
     "monthly_period_end": "2026-10-31",
@@ -82,20 +82,20 @@
     "daily_attempt": {
       "provider_data_provisional": true,
       "collection_coverage_complete": false,
-      "status": null,
-      "day": "2026-11-19",
+      "status": "partial",
+      "day": "2026-11-20",
       "downloads": null,
-      "observed_downloads": 7534,
+      "observed_downloads": 17691,
       "expected_packages": 430,
-      "collected_packages": 11,
+      "collected_packages": 9,
       "inventory_packages": 430,
       "excluded_postwindow_packages": 0,
       "coverage_complete": false,
       "rolling_24_hours": false,
       "period_type": "UTC calendar day",
-      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-19.json",
-      "verified_at": "2026-11-20T13:32:32.168804+00:00",
-      "artifact_sha256": "8ecd4f0162fc56d5361b6ec7addd23f8378f0fb366a81773af00931637bc99cc"
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json",
+      "verified_at": "2026-11-21T19:21:33.214891+00:00",
+      "artifact_sha256": "25bd2168c09904f12fab55ff7084ace37f83d5b48e7704ed95c8b38b9ed6f04d"
     },
     "daily_latest": {
       "day": "2026-11-17",
@@ -107,21 +107,21 @@
       "coverage_complete": true,
       "rolling_24_hours": false,
       "period_type": "UTC calendar day",
-      "source": "data/snapshots/2026-11-20/npm-reconciled-2026-11-17.json",
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-17.json",
       "verified_at": "2026-11-18T17:20:38.430296+00:00",
-      "artifact_sha256": "1392ad032dd03dfee629707b8a8a39f068958cdd112ba7c81941f9a35696b9c2",
+      "artifact_sha256": "138119ddb06b53e73fceb922c34c438eb9cc618ae2303568ebe80aebb7389b01",
       "observed_downloads": 937157,
-      "revision_source": "data/snapshots/2026-11-20/npm-ledger-revisions.json",
-      "revision_checked_at": "2026-11-20T13:32:32.168804+00:00",
+      "revision_source": "data/snapshots/2026-11-21/npm-ledger-revisions.json",
+      "revision_checked_at": "2026-11-21T19:21:33.214891+00:00",
       "composite_provenance": "Complete normalized daily observation with keyed revisions; source-specific retrieval times are retained."
     }
   },
   "crates_io": {
     "user_id": 339999,
-    "verified_at": "2026-11-20T13:26:53.405068Z",
+    "verified_at": "2026-11-21T19:16:55.815550Z",
     "crate_count": 501,
-    "cumulative_downloads": 2280291,
-    "inventory_path": "data/snapshots/2026-11-20/crates-inventory.json",
+    "cumulative_downloads": 2288278,
+    "inventory_path": "data/snapshots/2026-11-21/crates-inventory.json",
     "counting_rule": "Sum of the downloads field for every crate returned by the crates.io owner API for user_id 339999."
   }
 }

@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-11-21T19:22:01.845243+00:00",
+  "unique_daily_keys": 47127,
+  "full_assembly_replay_identical_values_and_totals": true,
+  "assembly_replay_provider_calls": 0,
+  "eligible_identity_sets_reconciled": true,
+  "current_utc_day_excluded": true,
+  "missing_totals_null": true,
+  "github_source_replay": "byte identical; zero provider calls",
+  "npm_fixed_start_observed_lower_bound": 123356057,
+  "daily_coverage": {
+    "2026-11-17": {
+      "observed_events": 937157,
+      "covered_packages": 429,
+      "expected_packages": 429,
+      "remaining_packages": 0,
+      "provider_retrieved_at": "2026-11-18T17:20:38.430296+00:00",
+      "full_total": 937157
+    },
+    "2026-11-18": {
+      "observed_events": 119500,
+      "covered_packages": 80,
+      "expected_packages": 430,
+      "remaining_packages": 350,
+      "provider_retrieved_at": "2026-11-21T19:21:33.214891+00:00",
+      "full_total": null
+    },
+    "2026-11-19": {
+      "observed_events": 67732,
+      "covered_packages": 28,
+      "expected_packages": 430,
+      "remaining_packages": 402,
+      "provider_retrieved_at": "2026-11-21T19:21:33.214891+00:00",
+      "full_total": null
+    },
+    "2026-11-20": {
+      "observed_events": 17691,
+      "covered_packages": 9,
+      "expected_packages": 430,
+      "remaining_packages": 421,
+      "provider_retrieved_at": "2026-11-21T19:21:33.214891+00:00",
+      "full_total": null
+    }
+  },
+  "profile_svg": {
+    "dashboard": {
+      "sha256": "e8c1e7036fde6f09936eed5d331203fb5492e280f9b1ca33e14aed5a72d687c2",
+      "npm_headline": "123,356,057",
+      "observed_through": "2026-11-20",
+      "source_watermark": "cafb1435434ff5641bb421e367f9f6e88bf4dad6acd764b39b49f17364b91838"
+    },
+    "dashboard-mobile": {
+      "sha256": "4424cdbe69cf056e7f529388f03c6fd7681c819113b62968599e3fa8dd393f48",
+      "npm_headline": "123,356,057",
+      "observed_through": "2026-11-20",
+      "source_watermark": "cafb1435434ff5641bb421e367f9f6e88bf4dad6acd764b39b49f17364b91838"
+    }
+  },
+  "test_count": 41,
+  "profile_verifier_exit_code": 0
+}

@@ -1,0 +1,18 @@
+{
+  "observed_state": {
+    "status": "collecting",
+    "pid": 2428,
+    "updated_at": "2026-11-21T19:21:33.215218+00:00",
+    "covered": 9,
+    "expected": 430,
+    "remaining": 421,
+    "requests_this_worker": 9,
+    "rate_limits": 0,
+    "request_interval_seconds": 30,
+    "complete": false,
+    "last_successful_retrieval": "2026-11-21T19:21:33.214891+00:00"
+  },
+  "frozen_at": "2026-11-21T19:21:57.123272+00:00",
+  "publication_is_frozen": true,
+  "completion_claimed": false
+}

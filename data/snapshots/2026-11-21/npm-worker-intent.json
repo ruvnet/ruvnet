@@ -1,0 +1,10 @@
+{
+  "scope": "One-off continuation of missing Nov 18 through 20 UTC npm observations",
+  "checkpoint": "Nov 20 worker cache, 19 responses, and 71 prior retained responses",
+  "request_interval_seconds": 30,
+  "issued_at": "2026-11-21T19:17:30.900151+00:00",
+  "budget_seconds": 21600,
+  "worker_sha256": "93676ae9f75c39e1a32fc828cdad3cfc6dc5d08b8f138729cd50010c64e80b4d",
+  "expected": "Complete missing ranges or persist partial coverage and stop at the first rate limit",
+  "rollback": "Stop only this worker, retain durable state, preserve unresolved totals as null"
+}
