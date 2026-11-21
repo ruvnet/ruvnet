@@ -1,0 +1,16 @@
+{
+  "rate_limit_simulation": {
+    "simulated_http429_retry_after_zero": "passed",
+    "cooldown_minimum_seconds": 900.0576856136322,
+    "first_mock_calls": 1,
+    "replay_mock_calls": 0,
+    "real_provider_calls": 0,
+    "worker_code_path": "Current exact worker with isolated provider/state paths"
+  },
+  "unique_inventory_ids": true,
+  "response_identity_and_nonnegative_integers": true,
+  "unknown_totals_null": true,
+  "cached_replay_provider_calls": 0,
+  "legacy_cache_exact_existing_ledger_cells": 1287,
+  "current_utc_day_excluded": true
+}

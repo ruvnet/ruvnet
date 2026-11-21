@@ -1,0 +1,216 @@
+{
+  "retrieved_at": "2026-11-21T19:21:33.214891+00:00",
+  "revisions": [
+    {
+      "key": "npm|@metaharness/coding|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/copilot|downloads|2026-11-18",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/darwin|downloads|2026-11-18",
+      "prior": null,
+      "current": 19909,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/devops|downloads|2026-11-18",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/education|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-ads|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-aws|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-azure|downloads|2026-11-18",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-bio|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@claude-flow/browser|downloads|2026-11-19",
+      "prior": null,
+      "current": 23,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/claims|downloads|2026-11-19",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli|downloads|2026-11-19",
+      "prior": null,
+      "current": 20096,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/cli-core|downloads|2026-11-19",
+      "prior": null,
+      "current": 16928,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/codex|downloads|2026-11-19",
+      "prior": null,
+      "current": 1979,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/deployment|downloads|2026-11-19",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/embeddings|downloads|2026-11-19",
+      "prior": null,
+      "current": 154,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@claude-flow/guidance|downloads|2026-11-19",
+      "prior": null,
+      "current": 291,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/coding|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/copilot|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/darwin|downloads|2026-11-19",
+      "prior": null,
+      "current": 20659,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/devops|downloads|2026-11-19",
+      "prior": null,
+      "current": 20,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/education|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-ads|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-aws|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-azure|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-bio|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/coding|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/copilot|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/darwin|downloads|2026-11-20",
+      "prior": null,
+      "current": 17661,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/devops|downloads|2026-11-20",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/education|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-ads|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-aws|downloads|2026-11-20",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-azure|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-bio|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}

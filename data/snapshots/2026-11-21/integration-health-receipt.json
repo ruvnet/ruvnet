@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-21T19:18:25.612449+00:00",
+  "scope": "Public package weave source reconciliation and bounded runtime health",
+  "baseline": {
+    "repository_commit": "9ab6155e2592cf30e988f2f3e79379f3886e48b4",
+    "pr_30": {
+      "state": "MERGED",
+      "head": "9b520431761fb87f985100897e3fb3f4aae9f279"
+    },
+    "policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "manifest_source_sha256": "41c5f476421c289a3be08cc801509cc4c58dc0b04ea58d29d5a72b0c595047d9"
+  },
+  "frozen_intent": "Inspect original pilot sources and reconcile prior queue evidence before any proposed integration; no new dependency without a missing exercised path.",
+  "intent_reference": "One-off recovery from existing public metrics task, static review only",
+  "expected_observable_result": "Deduplicated source-bound equivalent integration finding or recorded missing prerequisite, without runtime or adoption claims",
+  "actual_result": {
+    "planner_exit_code": 0,
+    "inventory_packages": 430,
+    "inventory_observed_at": "2026-11-21T19:16:42.597004Z",
+    "graph_packages": 410,
+    "inventory_without_graph_count": 20,
+    "manifest_overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+    "planner_replay": "Read only reconciliation of dated recipe and lock evidence, not fresh recipe execution",
+    "fresh_source_manifests": 3,
+    "fresh_published_registry_manifests": 4,
+    "source_scope": "GitHub source manifests only; no npm publication readback by this lane",
+    "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+    "prior_same_demo_blob_receipts": [
+      "data/snapshots/2026-11-20/kge-pilot-source-review.json",
+      "data/snapshots/2026-11-19/kge-pilot-source-review.json"
+    ],
+    "install_executed": false,
+    "new_dependency_edges": 0,
+    "learning_gain": null,
+    "external_adoption_count": null,
+    "candidate_states": {
+      "rvf-memory-v1": "observed_pass_review_ready",
+      "native-routing-v1": "observed_pass_review_ready",
+      "darwin-screening-v1": "ready_to_test"
+    },
+    "next_candidate": "darwin-screening-v1"
+  },
+  "platform_execution": {
+    "linux": "unknown for a fresh recipe execution",
+    "macos": "unknown",
+    "windows": "unknown",
+    "wasm": "unknown"
+  },
+  "outcome": "Reconciled existing equivalent KGE integration; no new experiment dispatched",
+  "health": {
+    "preferred_control_executor": "stopped per current fleet status; original metrics host restored",
+    "original_metrics_host": "executor85050dc77130e8 verified shell completion",
+    "required_checks_pass": null,
+    "billing_usd": null,
+    "scheduled_reliability_verified": false
+  },
+  "findings": [
+    {
+      "kind": "equivalent_integration_source",
+      "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+      "same_blob_prior_receipts": [
+        "data/snapshots/2026-11-20/kge-pilot-source-review.json",
+        "data/snapshots/2026-11-19/kge-pilot-source-review.json"
+      ]
+    }
+  ],
+  "workload_receipt_adapter": {
+    "used": false,
+    "reason": "Exact adapter availability not verified on unavailable preferred executor; ordinary structured receipt retained"
+  },
+  "evidence": {
+    "pilot-source-manifests.json": {
+      "file": "pilot-source-manifests.json",
+      "sha256": "4fadd291a72da24449000bce3dd62362389fceec844150d56b9035639d6fabd0"
+    },
+    "kge-pilot-source-review.json": {
+      "file": "kge-pilot-source-review.json",
+      "sha256": "8a1209bbb771f017aaedd59761258bb75f376db8ac3849cdfe72dd91d5240bbd"
+    },
+    "package-weave-plan.json": {
+      "file": "package-weave-plan.json",
+      "sha256": "3e64fa7f64973c2cd644268727dfef238849cbc522a66312d8c78d18222c43f3"
+    }
+  }
+}
