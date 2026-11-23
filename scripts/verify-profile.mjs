@@ -136,6 +136,9 @@ assert.equal(metrics.current_windows.npm_14_day_end, running.npm.period_end);
 assert.equal(metrics.current_windows.npm_14_day_confirmed_download_events, running.npm.unknown_days.length ? null : running.npm.observed_downloads);
 assert.equal(metrics.current_windows.npm_14_day_observed_download_events_lower_bound, running.npm.observed_downloads);
 assert.deepEqual(metrics.current_windows.npm_14_day_unknown_days, running.npm.unknown_days);
+const coverageNotes = metrics.notes.filter(note => /^\d+ (?:all-package-zero npm dates|npm dates with incomplete coverage|UTC dates with unconfirmed npm totals) in /.test(note));
+assert.equal(coverageNotes.length, 1, 'Conflicting or absent npm daily coverage notes');
+assert.ok(coverageNotes[0].startsWith(`${running.npm.unknown_days.length} UTC dates with unconfirmed npm totals in ${running.npm.period_start} through ${running.npm.period_end}.`), 'Incorrect npm daily coverage note');
 assert.equal(metrics.current_windows.npm_14_day_complete_utc_days,
   (Date.parse(running.npm.period_end) - Date.parse(running.npm.period_start)) / 86400000 + 1);
 assert.equal(metrics.current_windows.npm_14_day_confirmed_days, running.npm.confirmed_days);
@@ -152,6 +155,43 @@ if (npm.download_package_count === npm.package_count && npm.period_end >= goal.b
 if (goal.reconciliation_source) {
   const baseline = json(goal.baseline_source);
   const reconciliation = json(goal.reconciliation_source);
+  if (reconciliation.replay_source) {
+    const replay = json(reconciliation.replay_source);
+    const digest = data => createHash('sha256').update(data).digest('hex');
+    for (const [file, hash] of Object.entries(replay.evidence_sha256)) {
+      assert.equal(digest(read(file)), hash, `npm replay artifact: ${file}`);
+    }
+    const previous = json(replay.baseline_summary).npm_billion_goal;
+    assert.equal(digest(read(replay.baseline_summary)), replay.baseline_summary_sha256);
+    assert.equal(digest(read(replay.inventory_source)), replay.inventory_sha256);
+    assert.equal(digest(read(replay.source_bundle)), replay.source_bundle_sha256);
+    const rows = json(replay.source_bundle).results;
+    const ids = new Set(json(replay.inventory_source).packages);
+    assert.equal(new Set(rows.map(r => r.package)).size, rows.length);
+    assert.equal(rows.length, replay.response_count);
+    const cells = new Map();
+    for (const {package: pkg, body, receipt: meta} of rows) {
+      assert.ok(ids.has(pkg) && pkg === body.package);
+      assert.equal(meta.source, `https://api.npmjs.org/downloads/range/${body.start}:${body.end}/${encodeURIComponent(pkg)}`);
+      assert.equal(digest(JSON.stringify(body)), meta.response_sha256);
+      for (const {day, downloads} of body.downloads) {
+        const key = `npm|${pkg}|downloads|${day}`;
+        assert.ok(day >= body.start && day <= body.end && Number.isSafeInteger(downloads) && downloads >= 0 && !cells.has(key));
+        cells.set(key, downloads);
+      }
+    }
+    const revisions = json(replay.applied_revisions).revisions;
+    assert.equal(new Set(revisions.map(r => r.key)).size, revisions.length);
+    assert.equal(revisions.length, replay.new_cells_total);
+    for (const {key, prior, current} of revisions) {
+      assert.equal(prior, null);
+      assert.equal(cells.get(key), current);
+      assert.equal(reconciliation.increment_cells[key], current);
+    }
+    assert.equal(cells.size, revisions.length + replay.unchanged_overlap_cells);
+    assert.equal(revisions.reduce((n,r) => n + r.current, 0), replay.added_observed_events);
+    assert.equal(previous.observed_download_events_lower_bound + replay.added_observed_events, goal.observed_download_events_lower_bound);
+  }
   assert.equal(goal.verified_at, reconciliation.verified_at);
   assert.equal(goal.observed_since, baseline.requested_start);
   assert.equal(goal.baseline_through, baseline.reported_through);
@@ -178,7 +218,10 @@ assert.equal(milestone.crates_io_verified_at, crates.verified_at);
 assert.equal(milestone.remaining, Math.max(0, milestone.target - milestone.combined_observed));
 if (npm.downloads_evidence_path) {
   const receipt = json(npm.downloads_evidence_path);
-  const latest = running.npm.daily_latest?.coverage_complete ? running.npm.daily_latest : receipt.daily_totals.find(row => row.day === receipt.reported_through);
+  const rangeDay = receipt.daily_totals.find(row => row.day === receipt.reported_through);
+  assert.ok(Number.isSafeInteger(rangeDay?.downloads) && rangeDay.downloads > 0, 'Unconfirmed registry range day');
+  assert.ok(reportingBlock.includes(`**${rangeDay.day}**, with **${format(rangeDay.downloads)} download events**`), 'README registry range day and count must come from the same receipt');
+  const latest = running.npm.daily_latest?.coverage_complete ? running.npm.daily_latest : rangeDay;
   const internalZeroDays = receipt.daily_totals.filter(row => row.day <= receipt.reported_through && (row.downloads === 0 || row.provider_reported_downloads === 0)).map(row => row.day);
   assert.deepEqual(milestone.internal_all_zero_cohort_days, internalZeroDays, 'Unknown provider-zero dates must remain disclosed');
   assert.ok(readme.includes(`${internalZeroDays.length} internal all zero cohort days`), 'README must disclose unknown internal dates');

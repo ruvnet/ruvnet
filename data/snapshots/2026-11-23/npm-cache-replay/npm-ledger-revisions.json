@@ -1,0 +1,872 @@
+{
+  "retrieved_at": "2026-11-21T19:45:47.648932+00:00",
+  "revisions": [
+    {
+      "key": "npm|@metaharness/example-datadog|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-fhir|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-gcp|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-github|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-huggingface|downloads|2026-11-18",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-iot|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-nasa|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-pinecone|downloads|2026-11-18",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-qiskit|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-slack|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-stripe|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-supabase|downloads|2026-11-18",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-twilio|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-web3|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/field-memory|downloads|2026-11-18",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/flywheel|downloads|2026-11-18",
+      "prior": null,
+      "current": 15551,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/gaming|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/github-actions|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/harness|downloads|2026-11-18",
+      "prior": null,
+      "current": 8107,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/hermes|downloads|2026-11-18",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/horizon|downloads|2026-11-18",
+      "prior": null,
+      "current": 7703,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-claude-code|downloads|2026-11-18",
+      "prior": null,
+      "current": 374,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-codex|downloads|2026-11-18",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-copilot|downloads|2026-11-18",
+      "prior": null,
+      "current": 25,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-github-actions|downloads|2026-11-18",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-hermes|downloads|2026-11-18",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-openclaw|downloads|2026-11-18",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-opencode|downloads|2026-11-18",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-pi-dev|downloads|2026-11-18",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-prime-agent|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/host-rvm|downloads|2026-11-18",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/jujutsu|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/kernel|downloads|2026-11-18",
+      "prior": null,
+      "current": 380,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/legal|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/oo-agents|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/openclaw|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/opencode|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/pi-dev|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/projects|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/radio|downloads|2026-11-18",
+      "prior": null,
+      "current": 5229,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/redblue|downloads|2026-11-18",
+      "prior": null,
+      "current": 19194,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/repo-maintainer|downloads|2026-11-18",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/research|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/router|downloads|2026-11-18",
+      "prior": null,
+      "current": 16261,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/rvm|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/sales|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/sdk|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/support|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/example-datadog|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-fhir|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-gcp|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-github|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-huggingface|downloads|2026-11-19",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-iot|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-nasa|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-pinecone|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-qiskit|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-slack|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-stripe|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-supabase|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-twilio|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-web3|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/field-memory|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/flywheel|downloads|2026-11-19",
+      "prior": null,
+      "current": 17527,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/gaming|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/github-actions|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/harness|downloads|2026-11-19",
+      "prior": null,
+      "current": 9699,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/hermes|downloads|2026-11-19",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/horizon|downloads|2026-11-19",
+      "prior": null,
+      "current": 9458,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-claude-code|downloads|2026-11-19",
+      "prior": null,
+      "current": 665,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-codex|downloads|2026-11-19",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-copilot|downloads|2026-11-19",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-github-actions|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-hermes|downloads|2026-11-19",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-openclaw|downloads|2026-11-19",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-opencode|downloads|2026-11-19",
+      "prior": null,
+      "current": 30,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-pi-dev|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-prime-agent|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/host-rvm|downloads|2026-11-19",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/jujutsu|downloads|2026-11-19",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/kernel|downloads|2026-11-19",
+      "prior": null,
+      "current": 723,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/legal|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/oo-agents|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/openclaw|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/opencode|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/pi-dev|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/projects|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/radio|downloads|2026-11-19",
+      "prior": null,
+      "current": 5588,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/redblue|downloads|2026-11-19",
+      "prior": null,
+      "current": 15876,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/repo-maintainer|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/research|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/router|downloads|2026-11-19",
+      "prior": null,
+      "current": 20080,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/rvm|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/sales|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/sdk|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/support|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/example-datadog|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-fhir|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-gcp|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-github|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-huggingface|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-iot|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-nasa|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-pinecone|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-qiskit|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-slack|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-stripe|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-supabase|downloads|2026-11-20",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-twilio|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/example-web3|downloads|2026-11-20",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/field-memory|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/flywheel|downloads|2026-11-20",
+      "prior": null,
+      "current": 12899,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/gaming|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/github-actions|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/harness|downloads|2026-11-20",
+      "prior": null,
+      "current": 6645,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/hermes|downloads|2026-11-20",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/horizon|downloads|2026-11-20",
+      "prior": null,
+      "current": 6503,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-claude-code|downloads|2026-11-20",
+      "prior": null,
+      "current": 2166,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-codex|downloads|2026-11-20",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-copilot|downloads|2026-11-20",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-github-actions|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-hermes|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-openclaw|downloads|2026-11-20",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-opencode|downloads|2026-11-20",
+      "prior": null,
+      "current": 87,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-pi-dev|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-prime-agent|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/host-rvm|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/jujutsu|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/kernel|downloads|2026-11-20",
+      "prior": null,
+      "current": 2186,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/legal|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/oo-agents|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/openclaw|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/opencode|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/pi-dev|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/projects|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/radio|downloads|2026-11-20",
+      "prior": null,
+      "current": 4231,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/redblue|downloads|2026-11-20",
+      "prior": null,
+      "current": 8792,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/repo-maintainer|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/research|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/router|downloads|2026-11-20",
+      "prior": null,
+      "current": 13811,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/rvm|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/sales|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/sdk|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/support|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json"
+    }
+  ],
+  "definition": "New discrete package/day observations only. Matched existing observations were retained exactly once.",
+  "response_bundle": "data/snapshots/2026-11-23/npm-cache-replay/npm-cached-gap-responses.json",
+  "response_bundle_sha256": "fedb6d8d6f0291e7ba3c54a9eec348fd876e39c9498768cc2daf06aa2f8e4794"
+}

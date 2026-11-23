@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-21T19:21:33.214891+00:00",
+  "verified_at": "2026-11-21T19:45:47.648932+00:00",
   "github": {
     "verified_at": "2026-11-21T19:16:39.798897+00:00",
     "followers": 12574,
@@ -324,7 +324,7 @@
   "npm": {
     "period_start": "2026-11-07",
     "period_end": "2026-11-20",
-    "observed_downloads": 9631513,
+    "observed_downloads": 9841823,
     "expected_packages": 430,
     "collected_packages": 429,
     "errors": [],
@@ -340,9 +340,9 @@
       "2026-11-15": 539258,
       "2026-11-16": 751377,
       "2026-11-17": 937157,
-      "2026-11-18": 119500,
-      "2026-11-19": 67732,
-      "2026-11-20": 17691
+      "2026-11-18": 192570,
+      "2026-11-19": 147521,
+      "2026-11-20": 75142
     },
     "daily_package_coverage": {
       "2026-11-07": 429,
@@ -356,9 +356,9 @@
       "2026-11-15": 429,
       "2026-11-16": 429,
       "2026-11-17": 429,
-      "2026-11-18": 80,
-      "2026-11-19": 28,
-      "2026-11-20": 9
+      "2026-11-18": 128,
+      "2026-11-19": 76,
+      "2026-11-20": 57
     },
     "missing_days": [
       "2026-11-18",
@@ -421,17 +421,17 @@
       "status": "partial",
       "day": "2026-11-20",
       "downloads": null,
-      "observed_downloads": 17691,
+      "observed_downloads": 75142,
       "expected_packages": 430,
-      "collected_packages": 9,
+      "collected_packages": 57,
       "inventory_packages": 430,
       "excluded_postwindow_packages": 0,
       "coverage_complete": false,
       "rolling_24_hours": false,
       "period_type": "UTC calendar day",
-      "source": "data/snapshots/2026-11-21/npm-reconciled-2026-11-20.json",
-      "verified_at": "2026-11-21T19:21:33.214891+00:00",
-      "artifact_sha256": "25bd2168c09904f12fab55ff7084ace37f83d5b48e7704ed95c8b38b9ed6f04d"
+      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json",
+      "verified_at": "2026-11-21T19:45:47.648932+00:00",
+      "artifact_sha256": "8e4140154b82d5a72f8d4b176f181ecf63cb5f85a39af0df485b09a346b0c49b"
     },
     "latest_confirmed_daily_scope": "Latest confirmed eligible UTC daily cohort; partial provider observations remain separate.",
     "daily_eligible_coverage": {
@@ -533,19 +533,19 @@
       },
       "2026-11-18": {
         "expected": 430,
-        "collected": 80,
+        "collected": 128,
         "excluded_postwindow": 0,
         "complete": false
       },
       "2026-11-19": {
         "expected": 430,
-        "collected": 28,
+        "collected": 76,
         "excluded_postwindow": 0,
         "complete": false
       },
       "2026-11-20": {
         "expected": 430,
-        "collected": 9,
+        "collected": 57,
         "excluded_postwindow": 0,
         "complete": false
       }
@@ -555,10 +555,10 @@
         "start": "2026-11-14",
         "end": "2026-11-20",
         "fixed_cohort": 430,
-        "observed_downloads": 3044372,
+        "observed_downloads": 3254682,
         "expected_cells": 3006,
-        "observed_cells": 1833,
-        "missing_cells": 1173,
+        "observed_cells": 1977,
+        "missing_cells": 1029,
         "complete": false,
         "exact_total": null,
         "growth": null,
@@ -572,9 +572,9 @@
           "2026-11-15": 429,
           "2026-11-16": 429,
           "2026-11-17": 429,
-          "2026-11-18": 80,
-          "2026-11-19": 28,
-          "2026-11-20": 9
+          "2026-11-18": 128,
+          "2026-11-19": 76,
+          "2026-11-20": 57
         },
         "note": "Incomplete sums are observed lower bounds; growth stays null."
       },
@@ -582,10 +582,10 @@
         "start": "2026-10-22",
         "end": "2026-11-20",
         "fixed_cohort": 430,
-        "observed_downloads": 21258239,
+        "observed_downloads": 21468549,
         "expected_cells": 12834,
-        "observed_cells": 11442,
-        "missing_cells": 1392,
+        "observed_cells": 11586,
+        "missing_cells": 1248,
         "complete": false,
         "exact_total": null,
         "growth": null,
@@ -622,9 +622,9 @@
           "2026-11-15": 429,
           "2026-11-16": 429,
           "2026-11-17": 429,
-          "2026-11-18": 80,
-          "2026-11-19": 28,
-          "2026-11-20": 9
+          "2026-11-18": 128,
+          "2026-11-19": 76,
+          "2026-11-20": 57
         },
         "note": "Incomplete sums are observed lower bounds; growth stays null."
       },
@@ -713,7 +713,7 @@
     "github_public_repository_ids_unique": true,
     "release_pagination_complete_repositories": 235,
     "actions_pagination_complete_repositories": 0,
-    "unique_daily_keys": 47127,
+    "unique_daily_keys": 47271,
     "replay_idempotent": true,
     "daily_total_reconciliation": true,
     "download_milestone_reconciliation": true,
@@ -928,11 +928,11 @@
   "npm_billion_goal": {
     "target": 1000000000,
     "observed_since": "2025-10-01",
-    "observed_download_events_lower_bound": 123356057,
-    "remaining_upper_bound": 876643943,
+    "observed_download_events_lower_bound": 123566367,
+    "remaining_upper_bound": 876433633,
     "baseline_source": "data/snapshots/2026-11-16/npm-downloads.json",
     "baseline_through": "2026-11-15",
-    "nonoverlapping_daily_increment": 1893457,
+    "nonoverlapping_daily_increment": 2103767,
     "increment_dates": [
       "2026-11-16",
       "2026-11-17",
@@ -959,7 +959,7 @@
       "2026-10-19",
       "2026-10-20"
     ],
-    "verified_at": "2026-11-21T19:21:33.214891+00:00",
+    "verified_at": "2026-11-21T19:45:47.648932+00:00",
     "baseline_download_events": 120946142,
     "baseline_covered_day_revision_adjustment": 516458,
     "baseline_revision_source": "data/snapshots/2026-11-21/npm-goal-reconciliation.json",
@@ -968,8 +968,8 @@
       "2026-11-19",
       "2026-11-20"
     ],
-    "provisional_observed_downloads": 204923,
-    "reconciliation_source": "data/snapshots/2026-11-21/npm-goal-reconciliation.json"
+    "provisional_observed_downloads": 415233,
+    "reconciliation_source": "data/snapshots/2026-11-23/npm-cache-replay/npm-goal-reconciliation.json"
   },
   "integration_review": {
     "kind": "static published manifest compatibility only",

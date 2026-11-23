@@ -72,6 +72,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--date', required=True)
     parser.add_argument('--input', default='.automation-current.json')
+    parser.add_argument('--reuse-frozen', action='store_true',
+                        help='Rebuild current views while preserving the existing dated evidence and summary.')
     args = parser.parse_args()
     day = dt.date.fromisoformat(args.date)
     current = read(args.input)
@@ -80,6 +82,12 @@ def main():
     gh, activity, actions = current['github'], copy.deepcopy(current['activity']), current['actions']
     followers = current['followers']
     folder = f'data/snapshots/{args.date}'
+    frozen_paths = [ROOT / folder / f for f in ('ecosystem-evidence.json', 'ecosystem-summary.json')]
+    frozen = [p.is_file() for p in frozen_paths]
+    if any(frozen) and not (args.reuse_frozen and all(frozen)):
+        parser.error('Dated evidence already exists. Use a fresh snapshot, or --reuse-frozen with a complete pair.')
+    if args.reuse_frozen and not all(frozen):
+        parser.error('Cannot reuse a missing dated evidence or summary file.')
     inventory_path = f'{folder}/github-inventory.json'
     release_inventory_path = f'{folder}/github-release-inventory.json'
     inventory = read(inventory_path)
@@ -380,8 +388,10 @@ def main():
         'traffic': current['traffic'],
     }
     summary = {'verified_at': generated_at, 'github': collection, 'activity': activity, 'open_items': open_items, 'release_assets': release_stats, 'actions': actions, 'npm': running['npm'], 'crates_io': running['crates_io'], 'download_milestone': running['download_milestone'], 'validation': running['validation']}
-    write(f'{folder}/ecosystem-evidence.json', evidence)
-    write(f'{folder}/ecosystem-summary.json', summary)
+    if not args.reuse_frozen:
+        for target, value in zip(frozen_paths, (evidence, summary)):
+            with target.open('x', encoding='utf-8') as out:
+                out.write(json.dumps(value, indent=2) + '\n')
 
     start_label = dt.date.fromisoformat(window_start).strftime('%B %-d')
     end_label = dt.date.fromisoformat(window_end).strftime('%B %-d')

@@ -76,12 +76,20 @@ ${history}
 
 **Source:** [published registry snapshot](data/registry-stats.json), collected from the official npm daily range API. Includes scoped, unscoped and platform packages. Download events include CI and reinstalls; they are not unique users.`);
 if (npm.downloads_evidence_path) {
+  if (!registryReportedDay || !Number.isSafeInteger(registryReportedDay.downloads) || registryReportedDay.downloads <= 0) {
+    throw new Error('Range receipt lacks a positive measured total for its reported-through date');
+  }
   const zeros = receipt.daily_totals.filter(row => row.day <= receipt.reported_through && (row.downloads === 0 || row.provider_reported_downloads === 0)).map(row => row.day);
   const tail = receipt.trailing_all_zero_days_excluded;
   const missing = unavailable.length
     ? ` ${unavailable.length} inventory package${unavailable.length === 1 ? '' : 's'} lacked range evidence and ${unavailable.length === 1 ? 'is' : 'are'} excluded from totals; no missing events are estimated.`
     : ' No missing downloads are estimated.';
-  readme = replaceBlock(readme, 'registry-reporting-status', `**Reporting coverage, ${downloadDate} UTC:** These npm figures are observed lower bounds across the ${format(cohort)}-package collected cohort (${format(cohort)} of ${format(npm.package_count)} inventory packages). The latest positive cohort day is **${receipt.reported_through}**, with **${format(latestDay.downloads)} download events**. This is a completed UTC calendar day, not a rolling 24-hour count. The collected daily responses contain ${zeros.length} internal all zero cohort days${zeros.length ? ` (${zeros.join(', ')})` : ''}; these may be reporting gaps. ${tail.length ? `Trailing all zero days (${tail.join(', ')}) are excluded from the reported through date.` : 'No trailing all zero days were excluded.'}${missing} [Package range evidence](${npm.downloads_evidence_path}).`);
+  const daily = runningTotals.npm.daily_attempt;
+  const latestComplete = runningTotals.npm.daily_latest;
+  const dailyDisclosure = latestComplete?.coverage_complete && daily?.source && daily.day > latestComplete.day
+    ? `\n\nThe latest complete npm day is **${latestComplete.day} UTC: ${format(latestComplete.downloads)} downloads** across ${format(latestComplete.collected_packages)} eligible packages. For **${daily.day} UTC**, ${format(daily.collected_packages)} of ${format(daily.expected_packages)} packages account for **at least ${format(daily.observed_downloads)} downloads**. [Daily evidence](${daily.source}).`
+    : '';
+  readme = replaceBlock(readme, 'registry-reporting-status', `**Reporting coverage, ${downloadDate} UTC:** These npm figures are observed lower bounds across the ${format(cohort)}-package collected cohort (${format(cohort)} of ${format(npm.package_count)} inventory packages). The latest positive day in this range receipt is **${registryReportedDay.day}**, with **${format(registryReportedDay.downloads)} download events**. This is a completed UTC calendar day, not a rolling 24-hour count. The collected daily responses contain ${zeros.length} internal all zero cohort days${zeros.length ? ` (${zeros.join(', ')})` : ''}; these may be reporting gaps. ${tail.length ? `Trailing all zero days (${tail.join(', ')}) are excluded from the reported through date.` : 'No trailing all zero days were excluded.'}${missing} [Package range evidence](${npm.downloads_evidence_path}).${dailyDisclosure}`);
 }
 save('README.md', readme);
 let doc = read('docs/ruvnet-packages.md');
@@ -107,7 +115,7 @@ metrics.current_windows = { ...(metrics.current_windows || {}), npm_downloads_ro
 if (latestDay) Object.assign(metrics.current_windows, {
   npm_latest_confirmed_daily_day: latestDay.day,
   npm_latest_confirmed_daily_downloads: latestDay.downloads,
-  npm_latest_confirmed_daily_package_count: cohort,
+  npm_latest_confirmed_daily_package_count: latestDay.collected_packages ?? cohort,
   npm_latest_daily_is_rolling_24h: false,
 });
 if (runningTotals?.npm) {
@@ -117,14 +125,19 @@ if (runningTotals?.npm) {
     npm_14_day_end: runningTotals.npm.period_end,
     npm_14_day_confirmed_download_events: runningTotals.npm.unknown_days.length ? null : runningTotals.npm.observed_downloads,
     npm_14_day_observed_download_events_lower_bound: runningTotals.npm.observed_downloads,
+    npm_14_day_observed_download_events: runningTotals.npm.observed_downloads,
     npm_14_day_unknown_days: runningTotals.npm.unknown_days,
     npm_14_day_complete_utc_days: npmWindowDays,
     npm_14_day_confirmed_days: runningTotals.npm.confirmed_days,
     npm_14_day_is_rolling_24h: false,
   });
 }
-metrics.notes = metrics.notes.filter(note => !note.startsWith('The npm download cohort is') && !note.includes('all-package-zero npm dates'));
-if (runningTotals?.npm) metrics.notes.push(`${runningTotals.npm.unknown_days.length} all-package-zero npm dates in ${runningTotals.npm.period_start} through ${runningTotals.npm.period_end} UTC are unknown (null), never zero; ${date(data.generated_at)} is incomplete and excluded.`);
+const generatedCoverageNote = /^\d+ (?:all-package-zero npm dates in |npm dates with incomplete coverage in |UTC dates with unconfirmed npm totals in )/;
+metrics.notes = metrics.notes.filter(note => !note.startsWith('The npm download cohort is') && !generatedCoverageNote.test(note));
+if (runningTotals?.npm) {
+  const { unknown_days, period_start, period_end } = runningTotals.npm;
+  metrics.notes.push(`${unknown_days.length} UTC dates with unconfirmed npm totals in ${period_start} through ${period_end}. Partial observations contribute to the lower bound; unconfirmed full daily totals remain null.`);
+}
 metrics.notes.push(`The npm download cohort is ${cohort} packages; the current inventory contains ${npm.package_count}.`);
 save('data/metrics.json', JSON.stringify(metrics, null, 2) + '\n');
 console.log(`Rendered ${npm.package_count} npm packages, ${crates.crate_count} crates; downloads dated ${downloadDate}.`);

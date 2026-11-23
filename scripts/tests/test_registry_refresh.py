@@ -33,6 +33,47 @@ def result(package='example', positive_through='2026-10-05', requested_end='2026
 
 
 class RegistryRefreshTest(unittest.TestCase):
+    def test_daily_render_uses_separate_range_and_latest_cohorts(self):
+        """The independent day can be newer, larger and cover a different cohort."""
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            def copy(relative):
+                destination = root / relative
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(ROOT / relative, destination)
+            for relative in ['scripts/render-registry-metrics.mjs', 'README.md',
+                             'docs/ruvnet-packages.md', 'data/registry-stats.json',
+                             'data/metrics.json', 'data/ecosystem-running-totals.json']:
+                copy(relative)
+            npm = json.loads((root / 'data/registry-stats.json').read_text())['npm']
+            copy(npm['downloads_evidence_path'])
+            receipt = json.loads((root / npm['downloads_evidence_path']).read_text())
+            range_day = next(r for r in receipt['daily_totals'] if r['day'] == receipt['reported_through'])
+            independent_count = range_day['downloads'] + 123
+            independent_cohort = npm['download_package_count'] + 1
+            running_path = root / 'data/ecosystem-running-totals.json'
+            running = json.loads(running_path.read_text())
+            daily = running['npm']['daily_latest']
+            daily.update(day=(dt.date.fromisoformat(range_day['day']) + dt.timedelta(days=1)).isoformat(),
+                         downloads=independent_count, collected_packages=independent_cohort,
+                         expected_packages=independent_cohort, coverage_complete=True)
+            running_path.write_text(json.dumps(running))
+            for _ in range(2):
+                subprocess.run(['node', 'scripts/render-registry-metrics.mjs'], cwd=root,
+                               capture_output=True, check=True, text=True)
+            readme = (root / 'README.md').read_text()
+            block = readme.split('<!-- registry-reporting-status:start -->')[1].split('<!-- registry-reporting-status:end -->')[0]
+            self.assertIn(f"**{range_day['day']}**, with **{range_day['downloads']:,} download events**", block)
+            metrics = json.loads((root / 'data/metrics.json').read_text())
+            window = metrics['current_windows']
+            self.assertEqual((window['npm_latest_confirmed_daily_day'],
+                              window['npm_latest_confirmed_daily_downloads'],
+                              window['npm_latest_confirmed_daily_package_count']),
+                             (daily['day'], independent_count, independent_cohort))
+            self.assertEqual(sum('UTC dates with unconfirmed npm totals in ' in n for n in metrics['notes']), 1)
+            self.assertFalse(any('all-package-zero npm dates in ' in n or 'npm dates with incomplete coverage in ' in n
+                                 for n in metrics['notes']))
+
     def test_ecosystem_compositor_preserves_canonical_latest_day(self):
         """The GitHub compositor must not drop fields needed by profile verification."""
         inventory=json.loads((ROOT/'data/github-stats.json').read_text())['inventory']
@@ -86,10 +127,19 @@ class RegistryRefreshTest(unittest.TestCase):
                 section[path_key]=new_rel
             registry_path.write_text(json.dumps(registry))
             (root/'input.json').write_text(json.dumps(payload))
-            run=subprocess.run([sys.executable,'scripts/update-ecosystem-snapshot.py',
-                                '--date',snapshot_date,'--input','input.json'],cwd=root,
-                               capture_output=True,text=True)
+            command=[sys.executable, 'scripts/update-ecosystem-snapshot.py',
+                     '--date', snapshot_date, '--input', 'input.json']
+            protected=[root/'data/snapshots'/snapshot_date/name for name in
+                       ('ecosystem-evidence.json','ecosystem-summary.json')]
+            before=[f.read_bytes() for f in protected]
+            running_before=(root/'data/ecosystem-running-totals.json').read_bytes()
+            refused=subprocess.run(command,cwd=root,capture_output=True,text=True)
+            self.assertNotEqual(refused.returncode,0)
+            self.assertIn('Dated evidence already exists',refused.stderr)
+            self.assertEqual((root/'data/ecosystem-running-totals.json').read_bytes(),running_before)
+            run=subprocess.run(command+['--reuse-frozen'],cwd=root,capture_output=True,text=True)
             self.assertEqual(run.returncode,0,run.stderr)
+            self.assertEqual([f.read_bytes() for f in protected],before)
             render=subprocess.run([sys.executable,'scripts/render-visual-profile.py'],cwd=root,
                                   capture_output=True,text=True)
             self.assertEqual(render.returncode,0,render.stderr)
