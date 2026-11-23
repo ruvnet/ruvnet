@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-21T19:45:47.648932+00:00",
+  "generated_at": "2026-11-23T14:32:43.218192+00:00",
   "npm": {
     "maintainer": "ruvnet",
     "package_count": 430,
@@ -85,17 +85,17 @@
       "status": "partial",
       "day": "2026-11-20",
       "downloads": null,
-      "observed_downloads": 75142,
+      "observed_downloads": 100811,
       "expected_packages": 430,
-      "collected_packages": 57,
+      "collected_packages": 71,
       "inventory_packages": 430,
       "excluded_postwindow_packages": 0,
       "coverage_complete": false,
       "rolling_24_hours": false,
       "period_type": "UTC calendar day",
-      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json",
-      "verified_at": "2026-11-21T19:45:47.648932+00:00",
-      "artifact_sha256": "8e4140154b82d5a72f8d4b176f181ecf63cb5f85a39af0df485b09a346b0c49b"
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json",
+      "verified_at": "2026-11-23T14:32:43.218192+00:00",
+      "artifact_sha256": "f756f478af50c05874aecaa13e1415ef29d53736f01eac20b6e67f57ba4db501"
     },
     "daily_latest": {
       "day": "2026-11-17",

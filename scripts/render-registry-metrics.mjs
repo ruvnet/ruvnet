@@ -86,6 +86,14 @@ if (npm.downloads_evidence_path) {
     : ' No missing downloads are estimated.';
   const daily = runningTotals.npm.daily_attempt;
   const latestComplete = runningTotals.npm.daily_latest;
+  if (latestComplete?.coverage_complete && latestComplete.source) {
+    const detail = daily?.source && daily.day > latestComplete.day && !daily.coverage_complete
+      ? ` The ${daily.day} collection is partial with ${format(daily.collected_packages)} of ${format(daily.expected_packages)} packages observed: [at least ${format(daily.observed_downloads)} download events](${daily.source}).`
+      : '';
+    readme = replaceBlock(readme, 'latest-independent-npm-day', `### Latest verified npm day
+
+**${format(latestComplete.downloads)} download events on ${latestComplete.day} UTC**, across all ${format(latestComplete.collected_packages)} eligible packages.${detail} [Complete day evidence](${latestComplete.source}) · [Coverage and ecosystem report](docs/ecosystem-metrics.md). Downloads include CI and transitive installs; they do not measure unique users.`);
+  }
   const dailyDisclosure = latestComplete?.coverage_complete && daily?.source && daily.day > latestComplete.day
     ? `\n\nThe latest complete npm day is **${latestComplete.day} UTC: ${format(latestComplete.downloads)} downloads** across ${format(latestComplete.collected_packages)} eligible packages. For **${daily.day} UTC**, ${format(daily.collected_packages)} of ${format(daily.expected_packages)} packages account for **at least ${format(daily.observed_downloads)} downloads**. [Daily evidence](${daily.source}).`
     : '';

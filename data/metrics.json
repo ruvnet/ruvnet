@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-21T19:45:47.648932+00:00",
+  "verified_at": "2026-11-23T14:32:43.218192+00:00",
   "counts": {
     "github_public_repositories": 235,
     "github_owned_public_nonfork_repositories": 208,
@@ -84,8 +84,8 @@
       "revision_checked_at": "2026-11-21T19:21:33.214891+00:00",
       "composite_provenance": "Complete normalized daily observation with keyed revisions; source-specific retrieval times are retained."
     },
-    "npm_14_day_observed_download_events_lower_bound": 9841823,
-    "npm_14_day_observed_download_events": 9841823
+    "npm_14_day_observed_download_events_lower_bound": 9937086,
+    "npm_14_day_observed_download_events": 9937086
   },
   "verification_dates": {
     "github": "2026-11-21T19:16:39.798897+00:00",
@@ -93,7 +93,7 @@
     "npm_downloads": "2026-11-16T05:42:27.470459Z",
     "crates_io": "2026-11-21T19:16:55.815550Z",
     "pypi_and_huggingface": "2026-07-12; historical ownership verification, not re-counted",
-    "npm_daily_attempt": "2026-11-21T19:45:47.648932+00:00"
+    "npm_daily_attempt": "2026-11-23T14:32:43.218192+00:00"
   },
   "source_watermark": "data/snapshots/2026-11-21/collection-watermark.json"
 }

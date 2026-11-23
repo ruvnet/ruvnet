@@ -47274,7 +47274,49 @@
     "npm|@metaharness/rvm|downloads|2026-11-20": 1,
     "npm|@metaharness/sales|downloads|2026-11-20": 1,
     "npm|@metaharness/sdk|downloads|2026-11-20": 2,
-    "npm|@metaharness/support|downloads|2026-11-20": 0
+    "npm|@metaharness/support|downloads|2026-11-20": 0,
+    "npm|@metaharness/trading|downloads|2026-11-18": 2,
+    "npm|@metaharness/turn-credit|downloads|2026-11-18": 7250,
+    "npm|@metaharness/vertical-base|downloads|2026-11-18": 2,
+    "npm|@metaharness/vertical-trading|downloads|2026-11-18": 3,
+    "npm|@metaharness/weight-eft|downloads|2026-11-18": 8550,
+    "npm|@metaharness/workspace-lens|downloads|2026-11-18": 7870,
+    "npm|@metaharness/workspace-probe|downloads|2026-11-18": 7363,
+    "npm|@neural-trader/agentic-accounting-agents|downloads|2026-11-18": 4,
+    "npm|@neural-trader/agentic-accounting-cli|downloads|2026-11-18": 2,
+    "npm|@neural-trader/agentic-accounting-core|downloads|2026-11-18": 7,
+    "npm|@neural-trader/agentic-accounting-mcp|downloads|2026-11-18": 2,
+    "npm|@neural-trader/agentic-accounting-rust-core|downloads|2026-11-18": 2,
+    "npm|@neural-trader/agentic-accounting-types|downloads|2026-11-18": 0,
+    "npm|@neural-trader/backend|downloads|2026-11-18": 0,
+    "npm|@metaharness/trading|downloads|2026-11-19": 7,
+    "npm|@metaharness/turn-credit|downloads|2026-11-19": 9188,
+    "npm|@metaharness/vertical-base|downloads|2026-11-19": 2,
+    "npm|@metaharness/vertical-trading|downloads|2026-11-19": 1,
+    "npm|@metaharness/weight-eft|downloads|2026-11-19": 10909,
+    "npm|@metaharness/workspace-lens|downloads|2026-11-19": 9444,
+    "npm|@metaharness/workspace-probe|downloads|2026-11-19": 8967,
+    "npm|@neural-trader/agentic-accounting-agents|downloads|2026-11-19": 3,
+    "npm|@neural-trader/agentic-accounting-cli|downloads|2026-11-19": 2,
+    "npm|@neural-trader/agentic-accounting-core|downloads|2026-11-19": 5,
+    "npm|@neural-trader/agentic-accounting-mcp|downloads|2026-11-19": 2,
+    "npm|@neural-trader/agentic-accounting-rust-core|downloads|2026-11-19": 2,
+    "npm|@neural-trader/agentic-accounting-types|downloads|2026-11-19": 2,
+    "npm|@neural-trader/backend|downloads|2026-11-19": 3,
+    "npm|@metaharness/trading|downloads|2026-11-20": 8,
+    "npm|@metaharness/turn-credit|downloads|2026-11-20": 6167,
+    "npm|@metaharness/vertical-base|downloads|2026-11-20": 0,
+    "npm|@metaharness/vertical-trading|downloads|2026-11-20": 0,
+    "npm|@metaharness/weight-eft|downloads|2026-11-20": 6992,
+    "npm|@metaharness/workspace-lens|downloads|2026-11-20": 6433,
+    "npm|@metaharness/workspace-probe|downloads|2026-11-20": 6043,
+    "npm|@neural-trader/agentic-accounting-agents|downloads|2026-11-20": 2,
+    "npm|@neural-trader/agentic-accounting-cli|downloads|2026-11-20": 5,
+    "npm|@neural-trader/agentic-accounting-core|downloads|2026-11-20": 2,
+    "npm|@neural-trader/agentic-accounting-mcp|downloads|2026-11-20": 2,
+    "npm|@neural-trader/agentic-accounting-rust-core|downloads|2026-11-20": 3,
+    "npm|@neural-trader/agentic-accounting-types|downloads|2026-11-20": 5,
+    "npm|@neural-trader/backend|downloads|2026-11-20": 7
   },
   "package_provenance": {
     "@agentic-robotics/cli": {
@@ -49423,7 +49465,7 @@
       "response_sha256": "4786705255615c4fd560f0c568891d3ac7b97de1c806afe4c0edfdb9e1fa9707"
     }
   },
-  "updated_at": "2026-11-21T19:45:47.648932+00:00",
+  "updated_at": "2026-11-23T14:32:43.218192+00:00",
   "coverage": {
     "expected_packages": 429,
     "collected_packages": 429,
@@ -49555,24 +49597,24 @@
       "source_type": "official npm completed daily ranges"
     },
     "2026-11-18": {
-      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-18.json",
-      "artifact_sha256": "1b8bc0b14fa57280695ff5e6d5f98c2f63b415907d09ebca935abd14049b0425",
-      "collected_at": "2026-11-21T19:45:47.648932+00:00",
-      "observed_packages": 128,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json",
+      "artifact_sha256": "582c2915983ee1fcaa6314e7080f164e3b0d0c8401f46c362bf336a6c4ec1a58",
+      "collected_at": "2026-11-23T14:32:43.218192+00:00",
+      "observed_packages": 142,
       "source_type": "official npm completed daily ranges"
     },
     "2026-11-19": {
-      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-19.json",
-      "artifact_sha256": "6441ebd5eb406e543127c8de56f1a01c608eaf1a1b04798312344951bf026699",
-      "collected_at": "2026-11-21T19:45:47.648932+00:00",
-      "observed_packages": 76,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json",
+      "artifact_sha256": "b2e926a2619e91fddd6e1889d191ce84e2d681c7c6c37afa7c7b12fcb8e57b8e",
+      "collected_at": "2026-11-23T14:32:43.218192+00:00",
+      "observed_packages": 90,
       "source_type": "official npm completed daily ranges"
     },
     "2026-11-20": {
-      "source": "data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json",
-      "artifact_sha256": "8e4140154b82d5a72f8d4b176f181ecf63cb5f85a39af0df485b09a346b0c49b",
-      "collected_at": "2026-11-21T19:45:47.648932+00:00",
-      "observed_packages": 57,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json",
+      "artifact_sha256": "f756f478af50c05874aecaa13e1415ef29d53736f01eac20b6e67f57ba4db501",
+      "collected_at": "2026-11-23T14:32:43.218192+00:00",
+      "observed_packages": 71,
       "source_type": "official npm completed daily ranges"
     }
   }

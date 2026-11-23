@@ -145,6 +145,15 @@ assert.equal(metrics.current_windows.npm_14_day_confirmed_days, running.npm.conf
 assert.equal(metrics.current_windows.npm_14_day_confirmed_days + metrics.current_windows.npm_14_day_unknown_days.length,
   metrics.current_windows.npm_14_day_complete_utc_days);
 assert.equal(metrics.current_windows.npm_14_day_is_rolling_24h, false);
+const dailyBlock = readme.split('<!-- latest-independent-npm-day:start -->')[1].split('<!-- latest-independent-npm-day:end -->')[0];
+const complete = running.npm.daily_latest, attempt = running.npm.daily_attempt;
+if (complete?.coverage_complete && complete.source) {
+  assert.ok(dailyBlock.includes(`${format(complete.downloads)} download events on ${complete.day} UTC`) && dailyBlock.includes(complete.source));
+  if (attempt?.source && attempt.day > complete.day && !attempt.coverage_complete) {
+    assert.ok(dailyBlock.includes(`${attempt.day} collection is partial with ${format(attempt.collected_packages)} of ${format(attempt.expected_packages)} packages observed`));
+    assert.ok(dailyBlock.includes(`at least ${format(attempt.observed_downloads)} download events`) && dailyBlock.includes(attempt.source));
+  }
+}
 const milestone = running.download_milestone;
 const periodTotal = npm.monthly_downloads.reduce((sum,row)=>sum+row.downloads,0)+(npm.current_month?.downloads || 0);
 const goal = running.npm_billion_goal;

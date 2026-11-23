@@ -1,0 +1,260 @@
+{
+  "retrieved_at": "2026-11-23T14:32:43.218192+00:00",
+  "revisions": [
+    {
+      "key": "npm|@metaharness/trading|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/turn-credit|downloads|2026-11-18",
+      "prior": null,
+      "current": 7250,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-base|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-trading|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/weight-eft|downloads|2026-11-18",
+      "prior": null,
+      "current": 8550,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-lens|downloads|2026-11-18",
+      "prior": null,
+      "current": 7870,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-probe|downloads|2026-11-18",
+      "prior": null,
+      "current": 7363,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-agents|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-cli|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-core|downloads|2026-11-18",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-mcp|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-rust-core|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-types|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/backend|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@metaharness/trading|downloads|2026-11-19",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/turn-credit|downloads|2026-11-19",
+      "prior": null,
+      "current": 9188,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-base|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-trading|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/weight-eft|downloads|2026-11-19",
+      "prior": null,
+      "current": 10909,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-lens|downloads|2026-11-19",
+      "prior": null,
+      "current": 9444,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-probe|downloads|2026-11-19",
+      "prior": null,
+      "current": 8967,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-agents|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-cli|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-core|downloads|2026-11-19",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-mcp|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-rust-core|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-types|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/backend|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@metaharness/trading|downloads|2026-11-20",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/turn-credit|downloads|2026-11-20",
+      "prior": null,
+      "current": 6167,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-base|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/vertical-trading|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/weight-eft|downloads|2026-11-20",
+      "prior": null,
+      "current": 6992,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-lens|downloads|2026-11-20",
+      "prior": null,
+      "current": 6433,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@metaharness/workspace-probe|downloads|2026-11-20",
+      "prior": null,
+      "current": 6043,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-agents|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-cli|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-core|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-mcp|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-rust-core|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/agentic-accounting-types|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/backend|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json"
+    }
+  ],
+  "definition": "New discrete package/day observations only. Matched existing observations were retained exactly once.",
+  "response_bundle": "data/snapshots/2026-11-23/npm-143243-utc/npm-cached-gap-responses.json",
+  "response_bundle_sha256": "c546e594382277843042925b423c3569daf185b85e28ac4d1d7a5021a183f097"
+}

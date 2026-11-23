@@ -1,6 +1,6 @@
 # Ecosystem metrics
 
-Latest confirmed npm UTC day: **2026-11-17**, **937,157 events** across 429 packages. The latest day with partial evidence, November 20, has **75,142 observed events from 57 of 430 eligible packages**. The November 23 replay used npm responses retrieved through November 21 at 19:45:47 UTC. The full total and growth remain unknown. Provider revisions and missing observations remain explicit.
+Latest confirmed npm UTC day: **2026-11-17**, **937,157 events** across 429 packages. The latest day with partial evidence, November 20, has **100,811 observed events from 71 of 430 eligible packages**. The November 23 replay used npm responses retrieved through November 23 at 14:32:43 UTC. The full total and growth remain unknown. Provider revisions and missing observations remain explicit.
 
 Verified November 21, 2026. Public repositories only. GitHub counts: 2026-11-21T19:16:39.798897+00:00.
 
@@ -46,7 +46,7 @@ The requested 14-day UTC window has Unknown exact clone and view totals because 
 
 ## Latest daily npm collection
 
-For **November 20 UTC**, **57 of 430 eligible packages** account for at least **75,142 downloads**. The full total is unknown. [November 20 evidence](../data/snapshots/2026-11-23/npm-cache-replay/npm-reconciled-2026-11-20.json). November 21 and 22 have no observations in this published ledger. Download events include transitive installs and CI, not unique users.
+For **November 20 UTC**, **71 of 430 eligible packages** account for at least **100,811 downloads**. The full total is unknown. [November 20 evidence](../data/snapshots/2026-11-23/npm-143243-utc/npm-reconciled-2026-11-20.json). November 21 and 22 have no observations in this published ledger. Download events include transitive installs and CI, not unique users.
 
 ## Daily npm backfill
 
@@ -65,17 +65,17 @@ The current fixed-start registry snapshot and completed cached daily responses a
 | 2026-11-15 | 539,258 | 429 |
 | 2026-11-16 | 751,377 | 429 |
 | 2026-11-17 | 937,157 | 429 |
-| 2026-11-18 | 192,570 (lower bound) | 128 of 430 |
-| 2026-11-19 | 147,521 (lower bound) | 76 of 430 |
-| 2026-11-20 | 75,142 (lower bound) | 57 of 430 |
+| 2026-11-18 | 223,627 (lower bound) | 142 of 430 |
+| 2026-11-19 | 186,058 (lower bound) | 90 of 430 |
+| 2026-11-20 | 100,811 (lower bound) | 71 of 430 |
 
 Latest complete daily observation: **937,157 on 2026-11-17 UTC**. On the same 429 eligible packages, 2026-11-17 recorded 937,157, compared with 751,377 on 2026-11-16, a change of 24.73%. 233 packages increased and 143 decreased. The 0 package expansion contributed 0 2026-11-17 events separately. This is a daily change, not a sustained trend or causal impact of the constellation.
 
-The npm only billion goal has **123,566,367 observed events since October 1, 2025**, using the dated baseline through 2026-11-15 plus disjoint completed daily cells. It is a lower bound with historical coverage gaps. Annual charts and the mixed provider milestone keep their original npm dates.
+The npm only billion goal has **123,661,630 observed events since October 1, 2025**, using the dated baseline through 2026-11-15 plus disjoint completed daily cells. It is a lower bound with historical coverage gaps. Annual charts and the mixed provider milestone keep their original npm dates.
 
 ## Retained range and observed daily coverage
 
-Observed sum across recorded cells for 2026-11-07 through 2026-11-20: 9,841,823. Full 7/30/prior30 comparable totals and growth remain null wherever coverage is incomplete.
+Observed sum across recorded cells for 2026-11-07 through 2026-11-20: 9,937,086. Full 7/30/prior30 comparable totals and growth remain null wherever coverage is incomplete.
 
 ## Matched weekly subset ending 2026-11-17
 
@@ -91,7 +91,7 @@ GitHub traffic was partially available through the owner-authorized ruOS interfa
 
 [Running totals](../data/ecosystem-running-totals.json), [daily npm ledger](../data/ecosystem-daily-ledger.json), and [release asset ledger](../data/release-asset-ledger.json) keep providers and metrics separate. Revised daily cells replace earlier observations; overlapping windows are never added. 8 release assets are absent from the complete current inventory; their last observed counts and deletion provenance are retained.
 
-The [November 23 npm replay](../data/snapshots/2026-11-23/npm-cache-replay/npm-backfill-replay.json) added 144 package and date records, bringing the ledger to 47,271 unique keys. All 27 previously recorded observations matched. Replaying the same responses adds zero events. [November 21 evidence for other metrics](../data/snapshots/2026-11-21/).
+The [first November 23 replay](../data/snapshots/2026-11-23/npm-cache-replay/npm-backfill-replay.json) added 144 package and date records. The [second replay](../data/snapshots/2026-11-23/npm-143243-utc/npm-backfill-replay.json) added 42 more, bringing the ledger to 47,313 unique keys. Across both replays, 27 observations matched existing records and 305,573 downloads were newly documented. Replaying the same responses adds zero events. [November 21 evidence for other metrics](../data/snapshots/2026-11-21/).
 
 ## Progress toward 100 million
 
