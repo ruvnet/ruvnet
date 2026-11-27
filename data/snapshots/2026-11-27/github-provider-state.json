@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "completed_at": "2026-11-27T14:13:10.860870+00:00",
+  "requests": 972,
+  "resume_policy": "Successful exact-path responses reused from this run cache; bounded transient retries only"
+}

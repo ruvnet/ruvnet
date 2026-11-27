@@ -1,56 +1,56 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-11-21T19:16:39.798897+00:00",
+  "verified_at": "2026-11-27T14:06:41.625928+00:00",
   "source": "https://api.github.com",
   "counting_rule": "Owned repositories from /users/ruvnet/repos?type=owner, paginated. Nonfork totals exclude repositories where fork is true. Watchers use subscribers_count, not stargazers.",
   "account": {
-    "followers": 12574,
+    "followers": 12615,
     "public_repositories": 235,
     "owned_public_nonfork_repositories": 208,
     "public_forks": 27,
-    "stars_across_owned_nonfork": 204277,
-    "aggregate_downstream_forks_of_owned_nonfork": 26938
+    "stars_across_owned_nonfork": 205222,
+    "aggregate_downstream_forks_of_owned_nonfork": 27092
   },
   "flagships": [
     {
       "name": "RuView",
-      "stars": 104733,
-      "forks": 13578,
-      "watchers": 908,
+      "stars": 105336,
+      "forks": 13675,
+      "watchers": 914,
       "source": "https://api.github.com/repos/ruvnet/RuView"
     },
     {
       "name": "ruflo",
-      "stars": 82211,
-      "forks": 9695,
-      "watchers": 479,
+      "stars": 82538,
+      "forks": 9717,
+      "watchers": 482,
       "source": "https://api.github.com/repos/ruvnet/ruflo"
     },
     {
       "name": "RuVector",
-      "stars": 4714,
-      "forks": 633,
+      "stars": 4722,
+      "forks": 632,
       "watchers": 35,
       "source": "https://api.github.com/repos/ruvnet/RuVector"
     },
     {
       "name": "metaharness",
-      "stars": 759,
-      "forks": 96,
+      "stars": 765,
+      "forks": 100,
       "watchers": 3,
       "source": "https://api.github.com/repos/ruvnet/metaharness"
     },
     {
       "name": "rvm",
-      "stars": 157,
-      "forks": 36,
+      "stars": 156,
+      "forks": 37,
       "watchers": 0,
       "source": "https://api.github.com/repos/ruvnet/rvm"
     }
   ],
   "concentration": {
-    "two_flagship_share_of_owned_nonfork_stars": 0.9151495273574607,
-    "two_flagship_share_of_aggregate_forks": 0.8639468408939045
+    "two_flagship_share_of_owned_nonfork_stars": 0.9154671526444533,
+    "two_flagship_share_of_aggregate_forks": 0.8634283183227521
   },
   "traffic_rolling_14_days": {
     "verified_at": "2026-10-17T12:40:14+00:00",
@@ -832,7 +832,7 @@
     "commit_search_matches": 2313,
     "commit_search_query": "author:ruvnet committer-date:2026-08-10..2026-09-07"
   },
-  "inventory": "data/snapshots/2026-11-21/github-inventory.json",
+  "inventory": "data/snapshots/2026-11-27/github-inventory.json",
   "activity_2026_09_08_to_snapshot": {
     "window_start": "2026-09-08T00:00:00Z",
     "window_end": "2026-10-02T02:50:46.605846+00:00",
@@ -842,21 +842,21 @@
     "note": "Latest pushed_at is repository metadata, not a commit count or full push-event history. Current public inventory only."
   },
   "current_collection": {
-    "verified_at": "2026-11-21T19:16:39.798897+00:00",
-    "followers": 12574,
+    "verified_at": "2026-11-27T14:06:41.625928+00:00",
+    "followers": 12615,
     "all_owned": {
       "repositories": 235,
-      "stars": 204553,
-      "forks": 27019,
-      "subscribers": 1816,
-      "open_issues_and_prs": 2480
+      "stars": 205498,
+      "forks": 27173,
+      "subscribers": 1825,
+      "open_issues_and_prs": 2553
     },
     "nonfork": {
       "repositories": 208,
-      "stars": 204277,
-      "forks": 26938,
-      "subscribers": 1813,
-      "open_issues_and_prs": 2473
+      "stars": 205222,
+      "forks": 27092,
+      "subscribers": 1822,
+      "open_issues_and_prs": 2546
     },
     "top_repositories": [
       {
@@ -866,16 +866,16 @@
         "full_name": "ruvnet/RuView",
         "fork": false,
         "archived": false,
-        "open_issues_count": 619,
+        "open_issues_count": 652,
         "html_url": "https://github.com/ruvnet/RuView",
-        "pushed_at": "2026-11-21T18:10:11Z",
-        "stargazers_count": 104733,
-        "forks_count": 13578,
-        "subscribers_count": 908,
+        "pushed_at": "2026-11-27T12:15:07Z",
+        "stargazers_count": 105336,
+        "forks_count": 13675,
+        "subscribers_count": 914,
         "private": false,
-        "stars": 104733,
-        "forks": 13578,
-        "subscribers": 908
+        "stars": 105336,
+        "forks": 13675,
+        "subscribers": 914
       },
       {
         "id": 995029641,
@@ -884,16 +884,16 @@
         "full_name": "ruvnet/ruflo",
         "fork": false,
         "archived": false,
-        "open_issues_count": 563,
+        "open_issues_count": 562,
         "html_url": "https://github.com/ruvnet/ruflo",
-        "pushed_at": "2026-11-21T04:40:46Z",
-        "stargazers_count": 82211,
-        "forks_count": 9695,
-        "subscribers_count": 479,
+        "pushed_at": "2026-11-27T13:47:40Z",
+        "stargazers_count": 82538,
+        "forks_count": 9717,
+        "subscribers_count": 482,
         "private": false,
-        "stars": 82211,
-        "forks": 9695,
-        "subscribers": 479
+        "stars": 82538,
+        "forks": 9717,
+        "subscribers": 482
       },
       {
         "id": 1099547803,
@@ -902,15 +902,15 @@
         "full_name": "ruvnet/RuVector",
         "fork": false,
         "archived": false,
-        "open_issues_count": 280,
+        "open_issues_count": 290,
         "html_url": "https://github.com/ruvnet/RuVector",
-        "pushed_at": "2026-11-21T07:22:11Z",
-        "stargazers_count": 4714,
-        "forks_count": 633,
+        "pushed_at": "2026-11-27T07:25:48Z",
+        "stargazers_count": 4722,
+        "forks_count": 632,
         "subscribers_count": 35,
         "private": false,
-        "stars": 4714,
-        "forks": 633,
+        "stars": 4722,
+        "forks": 632,
         "subscribers": 35
       },
       {
@@ -924,11 +924,11 @@
         "html_url": "https://github.com/ruvnet/agentic-flow",
         "pushed_at": "2026-11-11T22:15:34Z",
         "stargazers_count": 850,
-        "forks_count": 178,
+        "forks_count": 179,
         "subscribers_count": 14,
         "private": false,
         "stars": 850,
-        "forks": 178,
+        "forks": 179,
         "subscribers": 14
       },
       {
@@ -938,15 +938,15 @@
         "full_name": "ruvnet/metaharness",
         "fork": false,
         "archived": false,
-        "open_issues_count": 188,
+        "open_issues_count": 198,
         "html_url": "https://github.com/ruvnet/metaharness",
-        "pushed_at": "2026-11-20T23:25:06Z",
-        "stargazers_count": 759,
-        "forks_count": 96,
+        "pushed_at": "2026-11-27T09:30:24Z",
+        "stargazers_count": 765,
+        "forks_count": 100,
         "subscribers_count": 3,
         "private": false,
-        "stars": 759,
-        "forks": 96,
+        "stars": 765,
+        "forks": 100,
         "subscribers": 3
       },
       {
@@ -960,11 +960,11 @@
         "html_url": "https://github.com/ruvnet/Bot-Generator-Bot",
         "pushed_at": "2026-09-11T02:08:49Z",
         "stargazers_count": 589,
-        "forks_count": 127,
+        "forks_count": 128,
         "subscribers_count": 15,
         "private": false,
         "stars": 589,
-        "forks": 127,
+        "forks": 128,
         "subscribers": 15
       },
       {
@@ -976,13 +976,13 @@
         "archived": false,
         "open_issues_count": 15,
         "html_url": "https://github.com/ruvnet/open-claude-code",
-        "pushed_at": "2026-11-21T03:09:07Z",
-        "stargazers_count": 575,
-        "forks_count": 176,
+        "pushed_at": "2026-11-25T03:11:39Z",
+        "stargazers_count": 578,
+        "forks_count": 178,
         "subscribers_count": 7,
         "private": false,
-        "stars": 575,
-        "forks": 176,
+        "stars": 578,
+        "forks": 178,
         "subscribers": 7
       },
       {
@@ -995,11 +995,11 @@
         "open_issues_count": 41,
         "html_url": "https://github.com/ruvnet/sparc",
         "pushed_at": "2026-11-21T08:32:46Z",
-        "stargazers_count": 481,
+        "stargazers_count": 479,
         "forks_count": 91,
         "subscribers_count": 13,
         "private": false,
-        "stars": 481,
+        "stars": 479,
         "forks": 91,
         "subscribers": 13
       },
@@ -1028,14 +1028,14 @@
         "full_name": "ruvnet/ruv-FANN",
         "fork": false,
         "archived": false,
-        "open_issues_count": 42,
+        "open_issues_count": 45,
         "html_url": "https://github.com/ruvnet/ruv-FANN",
-        "pushed_at": "2026-11-20T18:12:43Z",
-        "stargazers_count": 399,
+        "pushed_at": "2026-11-23T01:36:02Z",
+        "stargazers_count": 397,
         "forks_count": 109,
         "subscribers_count": 10,
         "private": false,
-        "stars": 399,
+        "stars": 397,
         "forks": 109,
         "subscribers": 10
       },
@@ -1048,13 +1048,13 @@
         "archived": false,
         "open_issues_count": 9,
         "html_url": "https://github.com/ruvnet/ruvnet",
-        "pushed_at": "2026-11-21T13:49:46Z",
-        "stargazers_count": 312,
-        "forks_count": 57,
+        "pushed_at": "2026-11-23T14:40:28Z",
+        "stargazers_count": 313,
+        "forks_count": 58,
         "subscribers_count": 19,
         "private": false,
-        "stars": 312,
-        "forks": 57,
+        "stars": 313,
+        "forks": 58,
         "subscribers": 19
       },
       {
@@ -1086,11 +1086,11 @@
         "html_url": "https://github.com/ruvnet/dspy.ts",
         "pushed_at": "2026-11-11T17:37:44Z",
         "stargazers_count": 274,
-        "forks_count": 37,
+        "forks_count": 38,
         "subscribers_count": 3,
         "private": false,
         "stars": 274,
-        "forks": 37,
+        "forks": 38,
         "subscribers": 3
       },
       {
@@ -1103,11 +1103,11 @@
         "open_issues_count": 2,
         "html_url": "https://github.com/ruvnet/SynthLang",
         "pushed_at": "2026-05-23T09:30:14Z",
-        "stargazers_count": 271,
+        "stargazers_count": 272,
         "forks_count": 61,
         "subscribers_count": 5,
         "private": false,
-        "stars": 271,
+        "stars": 272,
         "forks": 61,
         "subscribers": 5
       },
@@ -1122,56 +1122,56 @@
         "html_url": "https://github.com/ruvnet/daa",
         "pushed_at": "2026-11-11T23:06:20Z",
         "stargazers_count": 257,
-        "forks_count": 45,
+        "forks_count": 46,
         "subscribers_count": 5,
         "private": false,
         "stars": 257,
-        "forks": 45,
+        "forks": 46,
         "subscribers": 5
       }
     ],
     "clones": null,
     "views": null,
     "traffic_status": "partial",
-    "source": "data/snapshots/2026-11-21/github-inventory.json",
+    "source": "data/snapshots/2026-11-27/github-inventory.json",
     "coverage": "All public owned repositories; 3 connector pages reconciled to 235 distinct public repository IDs; private records excluded before storage"
   },
   "activity_last_14_complete_utc_days": {
     "issues_opened": {
-      "count": 113,
-      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Aissue%20created%3A2026-11-07..2026-11-20&per_page=1",
-      "definition": "is:issue created:2026-11-07..2026-11-20"
+      "count": 95,
+      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Aissue%20created%3A2026-11-13..2026-11-26&per_page=1",
+      "definition": "is:issue created:2026-11-13..2026-11-26"
     },
     "issues_closed": {
-      "count": 137,
-      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Aissue%20closed%3A2026-11-07..2026-11-20&per_page=1",
-      "definition": "is:issue closed:2026-11-07..2026-11-20"
+      "count": 92,
+      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Aissue%20closed%3A2026-11-13..2026-11-26&per_page=1",
+      "definition": "is:issue closed:2026-11-13..2026-11-26"
     },
     "prs_opened": {
-      "count": 639,
-      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Apr%20created%3A2026-11-07..2026-11-20&per_page=1",
-      "definition": "is:pr created:2026-11-07..2026-11-20"
+      "count": 330,
+      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Apr%20created%3A2026-11-13..2026-11-26&per_page=1",
+      "definition": "is:pr created:2026-11-13..2026-11-26"
     },
     "prs_merged": {
-      "count": 494,
-      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Apr%20merged%3A2026-11-07..2026-11-20&per_page=1",
-      "definition": "is:pr merged:2026-11-07..2026-11-20"
+      "count": 171,
+      "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Apr%20merged%3A2026-11-13..2026-11-26&per_page=1",
+      "definition": "is:pr merged:2026-11-13..2026-11-26"
     },
-    "window_start": "2026-11-07",
-    "window_end": "2026-11-20",
-    "verified_at": "2026-11-21T19:16:39.798897+00:00"
+    "window_start": "2026-11-13",
+    "window_end": "2026-11-26",
+    "verified_at": "2026-11-27T14:06:41.625928+00:00"
   },
   "release_assets": {
     "coverage": "All 235 public owned repositories",
-    "releases": 2582,
-    "published_in_14_day_window": 113,
-    "current_assets": 1123,
-    "current_asset_downloads": 122103,
-    "retained_observed_downloads": 122106,
+    "releases": 2595,
+    "published_in_14_day_window": 36,
+    "current_assets": 1133,
+    "current_asset_downloads": 123801,
+    "retained_observed_downloads": 123804,
     "retained_missing_assets": 8,
     "source": "https://api.github.com/repos/{owner}/{repo}/releases",
-    "inventory_path": "data/snapshots/2026-11-21/github-release-inventory.json",
-    "subscribers": 1816
+    "inventory_path": "data/snapshots/2026-11-27/github-release-inventory.json",
+    "subscribers": 1825
   },
   "actions_last_14_complete_utc_days": {
     "count": null,
@@ -1181,14 +1181,14 @@
   },
   "current_open_items": {
     "open_issues": {
-      "count": 1235,
+      "count": 1250,
       "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Aissue%20is%3Aopen&per_page=1",
-      "checked_at": "2026-11-21T19:16:39.798897+00:00"
+      "checked_at": "2026-11-27T14:06:41.625928+00:00"
     },
     "open_prs": {
-      "count": 1243,
+      "count": 1301,
       "source": "https://api.github.com/search/issues?q=user%3Aruvnet%20is%3Apublic%20is%3Apr%20is%3Aopen&per_page=1",
-      "checked_at": "2026-11-21T19:16:39.798897+00:00"
+      "checked_at": "2026-11-27T14:06:41.625928+00:00"
     }
   },
   "traffic_historical_2026-09-07": {

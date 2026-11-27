@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-27T14:07:55.596046+00:00",
+  "scope": "Public package weave source reconciliation and bounded runtime health",
+  "baseline": {
+    "repository_commit": "89f357af263b7a90377730ef6eef88d7653d33f7",
+    "pr_30": {
+      "state": "MERGED",
+      "head": "9b520431761fb87f985100897e3fb3f4aae9f279"
+    },
+    "policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "manifest_source_sha256": "41c5f476421c289a3be08cc801509cc4c58dc0b04ea58d29d5a72b0c595047d9"
+  },
+  "frozen_intent": "Inspect original pilot sources and reconcile prior queue evidence before any proposed integration; no new dependency without a missing exercised path.",
+  "intent_reference": "One-off recovery from existing public metrics task, static review only",
+  "expected_observable_result": "Deduplicated source-bound equivalent integration finding or recorded missing prerequisite, without runtime or adoption claims",
+  "actual_result": {
+    "planner_exit_code": 0,
+    "inventory_packages": 430,
+    "inventory_observed_at": "2026-11-27T14:06:44.570901Z",
+    "graph_packages": 410,
+    "inventory_without_graph_count": 20,
+    "manifest_overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+    "planner_replay": "Read only reconciliation of dated recipe and lock evidence, not fresh recipe execution",
+    "fresh_source_manifests": 3,
+    "fresh_published_registry_manifests": 4,
+    "source_scope": "GitHub source manifests only; no npm publication readback by this lane",
+    "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+    "prior_same_demo_blob_receipts": [
+      "data/snapshots/2026-11-20/kge-pilot-source-review.json",
+      "data/snapshots/2026-11-19/kge-pilot-source-review.json",
+      "data/snapshots/2026-11-21/kge-pilot-source-review.json"
+    ],
+    "install_executed": false,
+    "new_dependency_edges": 0,
+    "learning_gain": null,
+    "external_adoption_count": null,
+    "candidate_states": {
+      "rvf-memory-v1": "observed_pass_review_ready",
+      "native-routing-v1": "observed_pass_review_ready",
+      "darwin-screening-v1": "ready_to_test"
+    },
+    "next_candidate": "darwin-screening-v1"
+  },
+  "platform_execution": {
+    "linux": "unknown for a fresh recipe execution",
+    "macos": "unknown",
+    "windows": "unknown",
+    "wasm": "unknown"
+  },
+  "outcome": "Reconciled existing equivalent KGE integration; no new experiment dispatched",
+  "health": {
+    "preferred_control_executor": "stopped per current fleet status; original metrics host restored",
+    "original_metrics_host": "executor85050dc77130e8 verified shell completion",
+    "required_checks_pass": null,
+    "billing_usd": null,
+    "scheduled_reliability_verified": false
+  },
+  "findings": [
+    {
+      "kind": "equivalent_integration_source",
+      "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+      "same_blob_prior_receipts": [
+        "data/snapshots/2026-11-20/kge-pilot-source-review.json",
+        "data/snapshots/2026-11-19/kge-pilot-source-review.json",
+        "data/snapshots/2026-11-21/kge-pilot-source-review.json"
+      ]
+    }
+  ],
+  "workload_receipt_adapter": {
+    "used": false,
+    "reason": "Exact adapter availability not verified on unavailable preferred executor; ordinary structured receipt retained"
+  },
+  "evidence": {
+    "pilot-source-manifests.json": {
+      "file": "pilot-source-manifests.json",
+      "sha256": "eb91b6c7033b8e9440416c3f673a023e110cb6b7949f0a9759b917d677296579"
+    },
+    "kge-pilot-source-review.json": {
+      "file": "kge-pilot-source-review.json",
+      "sha256": "0b066d88714ad6e63922b463a51a4e47aeb9989829df5a34e4ea5f0f272408f7"
+    },
+    "package-weave-plan.json": {
+      "file": "package-weave-plan.json",
+      "sha256": "3425e835cf4ffe147bdf7bea2e3881a7fe52d4d4ecc610e9376e14f2d7146f14"
+    }
+  }
+}

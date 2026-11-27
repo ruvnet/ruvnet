@@ -1,0 +1,9 @@
+{
+  "scope": "Missing completed UTC npm observations Nov18 through26",
+  "retained_cache_cells": 465,
+  "expected": 430,
+  "issued_at": "2026-11-27T14:07:17.727598+00:00",
+  "budget_seconds": 21600,
+  "request_interval_seconds": 30,
+  "worker_sha256": "50bbe93cacc2a22d02a307cb61fa917f53550fb2a3aba1063af76366533caef4"
+}

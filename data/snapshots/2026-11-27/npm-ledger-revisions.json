@@ -1,0 +1,1626 @@
+{
+  "retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+  "revisions": [
+    {
+      "key": "npm|@neural-trader/backtesting|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/benchoptimizer|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/brokers|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/core|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/e2b-strategies|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-dynamic-pricing|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-forecasting|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-grid-optimization|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-evolutionary-game-theory|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-healthcare-optimization|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-logistics-optimization|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-market-microstructure|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-neuromorphic-computing|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-portfolio-optimization|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-quantum-optimization|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-supply-chain-prediction|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/execution|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/features|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/market-data|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp-protocol|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/neural|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/neuro-divergent|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/news-trading|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/portfolio|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/prediction-markets|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/predictor|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/risk|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/sports-betting|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/strategies|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/syndicate|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@qudag/cli|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-sse|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-stdio|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core|downloads|2026-11-18",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruv/rash|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruv/rvcsi|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruv/sparc-ui|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/acorn-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-integration|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth|downloads|2026-11-18",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth-examples|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/all|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention|downloads|2026-11-18",
+      "prior": null,
+      "current": 15763,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 1218,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 155,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 1270,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 12308,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-unified-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 24,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 1555,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/burst-scaling|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-18",
+      "prior": null,
+      "current": 39,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-18",
+      "prior": null,
+      "current": 13280,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-18",
+      "prior": null,
+      "current": 40,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 31,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-18",
+      "prior": null,
+      "current": 6325,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@neural-trader/backtesting|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/benchoptimizer|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/brokers|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/core|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/e2b-strategies|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-dynamic-pricing|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-forecasting|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-grid-optimization|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-evolutionary-game-theory|downloads|2026-11-19",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-healthcare-optimization|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-logistics-optimization|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-market-microstructure|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-neuromorphic-computing|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-portfolio-optimization|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-quantum-optimization|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-supply-chain-prediction|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/execution|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/features|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/market-data|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp-protocol|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/neural|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/neuro-divergent|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/news-trading|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/portfolio|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/prediction-markets|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/predictor|downloads|2026-11-19",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/risk|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/sports-betting|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/strategies|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/syndicate|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@qudag/cli|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-sse|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-stdio|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruv/rash|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruv/rvcsi|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruv/sparc-ui|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/acorn-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-integration|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth|downloads|2026-11-19",
+      "prior": null,
+      "current": 47,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth-examples|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/all|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention|downloads|2026-11-19",
+      "prior": null,
+      "current": 21134,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1371,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 207,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1112,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 18104,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-unified-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 37,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 24,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 1552,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/burst-scaling|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-19",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-19",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-19",
+      "prior": null,
+      "current": 14341,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-19",
+      "prior": null,
+      "current": 140,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 49,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-19",
+      "prior": null,
+      "current": 6548,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 37,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@neural-trader/backtesting|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/benchoptimizer|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/brokers|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/core|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/e2b-strategies|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-dynamic-pricing|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-forecasting|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-energy-grid-optimization|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-evolutionary-game-theory|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-healthcare-optimization|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-logistics-optimization|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-market-microstructure|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-neuromorphic-computing|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-portfolio-optimization|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-quantum-optimization|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/example-supply-chain-prediction|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/execution|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/features|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/market-data|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp|downloads|2026-11-20",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/mcp-protocol|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/neural|downloads|2026-11-20",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/neuro-divergent|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/news-trading|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/portfolio|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/prediction-markets|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/predictor|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/risk|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/sports-betting|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/strategies|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@neural-trader/syndicate|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@qudag/cli|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-sse|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@qudag/mcp-stdio|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@qudag/napi-core-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruv/rash|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruv/rvcsi|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruv/sparc-ui|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/acorn-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-integration|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth|downloads|2026-11-20",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/agentic-synth-examples|downloads|2026-11-20",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/all|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention|downloads|2026-11-20",
+      "prior": null,
+      "current": 12598,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 747,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 103,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 535,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 11669,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-unified-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/attention-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 1432,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/burst-scaling|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-20",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-20",
+      "prior": null,
+      "current": 10853,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-20",
+      "prior": null,
+      "current": 73,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 63,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-20",
+      "prior": null,
+      "current": 5753,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-21",
+      "prior": null,
+      "current": 68,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-21",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-21",
+      "prior": null,
+      "current": 8116,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-21",
+      "prior": null,
+      "current": 202,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-21",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 181,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-21",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-21",
+      "prior": null,
+      "current": 4980,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-22",
+      "prior": null,
+      "current": 63,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-22",
+      "prior": null,
+      "current": 8531,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-22",
+      "prior": null,
+      "current": 406,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-22",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 390,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-22",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-22",
+      "prior": null,
+      "current": 4919,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-23",
+      "prior": null,
+      "current": 19,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-23",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-23",
+      "prior": null,
+      "current": 12654,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-23",
+      "prior": null,
+      "current": 260,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-23",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-23",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 253,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-23",
+      "prior": null,
+      "current": 6662,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-24",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-24",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-24",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-24",
+      "prior": null,
+      "current": 12147,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-24",
+      "prior": null,
+      "current": 294,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-24",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-24",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 258,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-24",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-24",
+      "prior": null,
+      "current": 5920,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-25",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-25",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-25",
+      "prior": null,
+      "current": 73,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-25",
+      "prior": null,
+      "current": 29699,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-25",
+      "prior": null,
+      "current": 235,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-25",
+      "prior": null,
+      "current": 69,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-25",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 67,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 230,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-25",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-25",
+      "prior": null,
+      "current": 5820,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/cli|downloads|2026-11-26",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/cluster|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/cnn|downloads|2026-11-26",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/core|downloads|2026-11-26",
+      "prior": null,
+      "current": 26111,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann|downloads|2026-11-26",
+      "prior": null,
+      "current": 280,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-arm64|downloads|2026-11-26",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-darwin-x64|downloads|2026-11-26",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-arm64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 21,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-linux-x64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 272,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/diskann-win32-x64-msvc|downloads|2026-11-26",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/e-means|downloads|2026-11-26",
+      "prior": null,
+      "current": 5837,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/economy-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-27/npm-reconciled-2026-11-26.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}
