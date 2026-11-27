@@ -35,6 +35,15 @@ def stamp():
 
 def fetch_json(url):
     """Bounded retries; respect rate limits and fail before changing published data."""
+    # This legacy runner has no durable lease or cross-run cooldown shared with
+    # the approved daily/backfill collector. Refuse before any request or retry.
+    # Inventory discovery and crates.io remain available through this helper.
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.hostname == 'api.npmjs.org' and parsed.path.startswith('/downloads/'):
+        raise RuntimeError(
+            'npm download collection requires the existing approved collector '
+            'with its shared durable provider lease, cache and cooldown; '
+            'published data is retained. This legacy runner fails closed.')
     for attempt in range(8):
         try:
             request = urllib.request.Request(url, headers=HEADERS)
