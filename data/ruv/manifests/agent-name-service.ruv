@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/agent-name-service/resources/manifest.ruv",
+  "name": "Agent-Name-Service",
+  "summary": "Local agent identity library with bounded signatures, registry and challenge verification.",
+  "repository": {
+    "url": "https://github.com/ruvnet/Agent-Name-Service",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "agent-identity",
+      "description": "Verify Ed25519 identity bindings with pinned issuer and expiry.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md",
+          "revision": "0565783df31da2d98729c27f02551f49478b8393",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "local-registry",
+      "description": "Store names and revocations in a bounded SQLite registry.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md",
+          "revision": "0565783df31da2d98729c27f02551f49478b8393",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "challenge-proof",
+      "description": "Verify audience bound subject proofs against single use challenges.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md",
+          "revision": "0565783df31da2d98729c27f02551f49478b8393",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/Agent-Name-Service/blob/0565783df31da2d98729c27f02551f49478b8393/package.json",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "0565783df31da2d98729c27f02551f49478b8393",
+    "observedAt": "2026-10-10T03:00:00Z"
+  }
+}

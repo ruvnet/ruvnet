@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+  "name": "autogenous",
+  "summary": "Declare scope, authority, invariants, evidence and rollback through typed mutations. Deterministic admission verdicts and policy constraints. Boundaries: Research prototype; deployment/runtime claims are documentation claims until independently exercised. README Honest status explicitly says the control-plane prototype is not wired to live MidStream, MetaHarness, RVF or RVM; adapter integration remains a next phase.",
+  "repository": {
+    "url": "https://github.com/ruvnet/autogenous",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "typed-mutations",
+      "description": "Declare scope, authority, invariants, evidence and rollback through typed mutations.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md",
+          "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "admission-verification",
+      "description": "Deterministic admission verdicts and policy constraints.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md",
+          "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "signed-promotion",
+      "description": "Content-bound evaluation and staged signed promotion with rollback.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md",
+          "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "stream-observation",
+      "description": "Observe chunks and SSE with bounded detectors and structured incident evidence.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md",
+          "revision": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "cargo-toml",
+      "url": "https://github.com/ruvnet/autogenous/blob/905aa6cbe213392f8b3cab5d4f17bc3a48e0a509/Cargo.toml",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "905aa6cbe213392f8b3cab5d4f17bc3a48e0a509",
+    "observedAt": "2026-10-10T02:57:25.787125Z"
+  }
+}

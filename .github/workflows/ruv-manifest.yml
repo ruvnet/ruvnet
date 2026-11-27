@@ -1,0 +1,17 @@
+name: Validate ruv constellation
+on:
+  push:
+    paths: ['manifest.ruv', 'data/ruv/**', 'schemas/manifest.ruv.schema.json', 'scripts/ruv_manifest.py', 'scripts/check_ruv_nexus.py', 'tests/test_ruv_manifest.py', 'docs/ruv-catalog.md', 'data/projects.json', 'plugins/ruvnet/data/catalog.json', '.github/workflows/ruv-manifest.yml']
+  pull_request:
+    paths: ['manifest.ruv', 'data/ruv/**', 'schemas/manifest.ruv.schema.json', 'scripts/ruv_manifest.py', 'scripts/check_ruv_nexus.py', 'tests/test_ruv_manifest.py', 'docs/ruv-catalog.md', 'data/projects.json', 'plugins/ruvnet/data/catalog.json', '.github/workflows/ruv-manifest.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - run: python3 -m unittest discover -s tests -p 'test_ruv_manifest.py'
+      - run: python3 scripts/check_ruv_nexus.py

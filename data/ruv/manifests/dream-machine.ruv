@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "0.1",
+  "id": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+  "name": "dream-machine",
+  "summary": "Compile configuration into a repository research and evolution workflow. Measure hypotheses against repository evaluators and retain outcomes. Boundaries: Nested packages and scoped instructions are not exhaustively inventoried. README composition table and package list explicitly say RuVector is an availability probe only, retrieval is flat keyword scoring, and the real RVF adapter is pending.",
+  "repository": {
+    "url": "https://github.com/ruvnet/dream-machine",
+    "defaultBranch": "main",
+    "visibility": "public"
+  },
+  "nexus": "https://github.com/ruvnet/ruvnet",
+  "capabilities": [
+    {
+      "id": "evolution-config",
+      "description": "Compile configuration into a repository research and evolution workflow.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md",
+          "revision": "5707c825b2c065de44abed02594e1abf5eab95ea",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "evidence-evaluation",
+      "description": "Measure hypotheses against repository evaluators and retain outcomes.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md",
+          "revision": "5707c825b2c065de44abed02594e1abf5eab95ea",
+          "kind": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "human-promotion-gate",
+      "description": "Separate evaluation and proposals from human merge authority.",
+      "status": "documented",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md",
+          "revision": "5707c825b2c065de44abed02594e1abf5eab95ea",
+          "kind": "documentation"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "readme",
+      "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/README.md",
+      "kind": "docs"
+    },
+    {
+      "id": "package-json",
+      "url": "https://github.com/ruvnet/dream-machine/blob/5707c825b2c065de44abed02594e1abf5eab95ea/package.json",
+      "kind": "source"
+    }
+  ],
+  "relationships": [],
+  "integrations": [
+    {
+      "role": "nexus",
+      "project": "ruv://ruvnet/constellation/service/ruvnet/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "coordination",
+      "project": "ruv://ruvnet/constellation/service/ruflo/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "execution-artifacts",
+      "project": "ruv://ruvnet/constellation/service/rvm/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "public-retrieval",
+      "project": "ruv://ruvnet/constellation/service/ruvector/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evaluation",
+      "project": "ruv://ruvnet/constellation/service/metaharness/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "evolution",
+      "project": "ruv://ruvnet/constellation/service/autogenous/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "improvement-proposals",
+      "project": "ruv://ruvnet/constellation/service/dream-machine/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "stream-observation",
+      "project": "ruv://ruvnet/constellation/service/midstream/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "cryptography-research",
+      "project": "ruv://ruvnet/constellation/service/qudag/resources/manifest.ruv",
+      "status": "declared"
+    },
+    {
+      "role": "community",
+      "project": "ruv://ruvnet/constellation/service/agentbbs/resources/manifest.ruv",
+      "status": "declared"
+    }
+  ],
+  "safety": {
+    "discoveryOnly": true,
+    "executionRequiresAuthorization": true
+  },
+  "provenance": {
+    "sourceCommit": "5707c825b2c065de44abed02594e1abf5eab95ea",
+    "observedAt": "2026-10-10T02:57:45.162552Z"
+  }
+}
