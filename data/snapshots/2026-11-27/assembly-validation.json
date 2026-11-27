@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-11-27T14:13:16.417367+00:00",
+  "unique_daily_keys": 50403,
+  "full_assembly_replay_identical_values_and_totals": true,
+  "assembly_replay_provider_calls": 0,
+  "eligible_identity_sets_reconciled": true,
+  "current_utc_day_excluded": true,
+  "missing_totals_null": true,
+  "github_source_replay": "byte identical; zero provider calls",
+  "npm_fixed_start_observed_lower_bound": 123958009,
+  "daily_coverage": {
+    "2026-11-17": {
+      "observed_events": 937157,
+      "covered_packages": 429,
+      "expected_packages": 429,
+      "remaining_packages": 0,
+      "provider_retrieved_at": "2026-11-18T17:20:38.430296+00:00",
+      "full_total": 937157
+    },
+    "2026-11-18": {
+      "observed_events": 275756,
+      "covered_packages": 208,
+      "expected_packages": 430,
+      "remaining_packages": 222,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-19": {
+      "observed_events": 250955,
+      "covered_packages": 156,
+      "expected_packages": 430,
+      "remaining_packages": 274,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-20": {
+      "observed_events": 144867,
+      "covered_packages": 137,
+      "expected_packages": 430,
+      "remaining_packages": 293,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-21": {
+      "observed_events": 13561,
+      "covered_packages": 12,
+      "expected_packages": 430,
+      "remaining_packages": 418,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-22": {
+      "observed_events": 14346,
+      "covered_packages": 12,
+      "expected_packages": 430,
+      "remaining_packages": 418,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-23": {
+      "observed_events": 19877,
+      "covered_packages": 12,
+      "expected_packages": 430,
+      "remaining_packages": 418,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-24": {
+      "observed_events": 18684,
+      "covered_packages": 12,
+      "expected_packages": 430,
+      "remaining_packages": 418,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-25": {
+      "observed_events": 36247,
+      "covered_packages": 12,
+      "expected_packages": 430,
+      "remaining_packages": 418,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    },
+    "2026-11-26": {
+      "observed_events": 32582,
+      "covered_packages": 12,
+      "expected_packages": 430,
+      "remaining_packages": 418,
+      "provider_retrieved_at": "2026-11-27T14:12:50.796185+00:00",
+      "full_total": null
+    }
+  },
+  "profile_svg": {
+    "dashboard": {
+      "sha256": "97dd4a74e630a80ac077426289b1f745fdc557131b3a4ca449e8810b3c15baa9",
+      "npm_headline": "123,958,009",
+      "observed_through": "2026-11-26",
+      "source_watermark": "674be1b662d1694a64765e2de2b0553f780e33f14792b4f3acd43d6786615e49"
+    },
+    "dashboard-mobile": {
+      "sha256": "ecc0ef39cd6d95f4197646b95049d56befff75a82efba592da487dc5f04f40c5",
+      "npm_headline": "123,958,009",
+      "observed_through": "2026-11-26",
+      "source_watermark": "674be1b662d1694a64765e2de2b0553f780e33f14792b4f3acd43d6786615e49"
+    }
+  },
+  "test_count": 42,
+  "profile_verifier_exit_code": 0
+}
