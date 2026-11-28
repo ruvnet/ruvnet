@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-11-28T13:27:30.663919+00:00",
+  "unique_daily_keys": 51451,
+  "full_assembly_replay_identical_values_and_totals": true,
+  "assembly_replay_provider_calls": 0,
+  "eligible_identity_sets_reconciled": true,
+  "current_utc_day_excluded": true,
+  "missing_totals_null": true,
+  "github_source_replay": "byte identical; zero provider calls",
+  "npm_fixed_start_observed_lower_bound": 125398719,
+  "daily_coverage": {
+    "2026-11-17": {
+      "observed_events": 937157,
+      "covered_packages": 429,
+      "expected_packages": 429,
+      "remaining_packages": 0,
+      "provider_retrieved_at": "2026-11-18T17:20:38.430296+00:00",
+      "full_total": 937157
+    },
+    "2026-11-18": {
+      "observed_events": 420550,
+      "covered_packages": 271,
+      "expected_packages": 430,
+      "remaining_packages": 159,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-19": {
+      "observed_events": 414240,
+      "covered_packages": 219,
+      "expected_packages": 430,
+      "remaining_packages": 211,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-20": {
+      "observed_events": 264094,
+      "covered_packages": 200,
+      "expected_packages": 430,
+      "remaining_packages": 230,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-21": {
+      "observed_events": 107907,
+      "covered_packages": 75,
+      "expected_packages": 430,
+      "remaining_packages": 355,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-22": {
+      "observed_events": 117189,
+      "covered_packages": 75,
+      "expected_packages": 430,
+      "remaining_packages": 355,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-23": {
+      "observed_events": 159045,
+      "covered_packages": 75,
+      "expected_packages": 430,
+      "remaining_packages": 355,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-24": {
+      "observed_events": 151037,
+      "covered_packages": 75,
+      "expected_packages": 430,
+      "remaining_packages": 355,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-25": {
+      "observed_events": 307674,
+      "covered_packages": 75,
+      "expected_packages": 430,
+      "remaining_packages": 355,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-26": {
+      "observed_events": 276812,
+      "covered_packages": 75,
+      "expected_packages": 430,
+      "remaining_packages": 355,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    },
+    "2026-11-27": {
+      "observed_events": 29037,
+      "covered_packages": 11,
+      "expected_packages": 430,
+      "remaining_packages": 419,
+      "provider_retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+      "full_total": null
+    }
+  },
+  "profile_svg": {
+    "dashboard": {
+      "sha256": "b0b69f41e0243598ec025a705977038d2e0646e7fd799d504a55968e2d9df5f8",
+      "npm_headline": "125,398,719",
+      "observed_through": "2026-11-27",
+      "source_watermark": "4d4832394d997117a83d83d96862f933b06e71d05ee863f1007d3a393ec0a411"
+    },
+    "dashboard-mobile": {
+      "sha256": "03bb57e2e77a6a22468d1f6baf32b2a7b23c61238706b57b9b4b57cf99860a0b",
+      "npm_headline": "125,398,719",
+      "observed_through": "2026-11-27",
+      "source_watermark": "4d4832394d997117a83d83d96862f933b06e71d05ee863f1007d3a393ec0a411"
+    }
+  },
+  "test_count": 42,
+  "profile_verifier_exit_code": 0
+}

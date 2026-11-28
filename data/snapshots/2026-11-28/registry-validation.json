@@ -1,0 +1,28 @@
+{
+  "rate_limit_simulation": {
+    "simulated_http429_retry_after_zero": "passed",
+    "cooldown_minimum_seconds": 900.0600917339325,
+    "first_mock_calls": 1,
+    "replay_mock_calls": 0,
+    "real_provider_calls": 0,
+    "worker_code_path": "Current exact worker with isolated provider/state paths"
+  },
+  "legacy_backfill": {
+    "cells": 1287,
+    "source_sha256": "23db936f6eb72a41794e5db8843c1f546486dd309037f2756be9e6a4dd6fc468",
+    "reconciles_to_existing_ledger": true,
+    "new_provider_calls": 0
+  },
+  "observed_pacing": {
+    "successful_responses_checked": 72,
+    "min_successful_response_spacing_seconds": 30.130011,
+    "checked_through": "2026-11-28T13:25:50.883353+00:00",
+    "note": "Response timestamps; worker also enforces persisted last request epoch. No hidden retry pools."
+  },
+  "unique_inventory_ids": true,
+  "response_identity_and_nonnegative_integers": true,
+  "unknown_totals_null": true,
+  "cached_replay_provider_calls": 0,
+  "legacy_cache_exact_existing_ledger_cells": 1287,
+  "current_utc_day_excluded": true
+}

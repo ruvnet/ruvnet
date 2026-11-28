@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "candidate": "darwin-screening-v1",
+  "baseline_policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+  "frozen_pins": {
+    "@metaharness/darwin": "0.14.0",
+    "ruv-fann": "0.1.2"
+  },
+  "expected_observable_result": [
+    "surrogate-active",
+    "equal-evaluation-budget",
+    "held-out-quality",
+    "fallback"
+  ],
+  "reviewed_at": "2026-11-28T13:25:25.218789+00:00",
+  "actual_result": {
+    "latest_darwin": "0.16.0",
+    "latest_ruv_fann": "0.3.0",
+    "declared_ruv_fann_peer": "0.1.2",
+    "latest_pair_semver_compatible": false,
+    "existing_pinned_recipe": false,
+    "held_out_evaluator": null,
+    "fallback_verified": null,
+    "linux": null,
+    "macos": null,
+    "windows": null,
+    "wasm": null,
+    "install_time_change": null,
+    "install_size_change": null,
+    "external_adopters": null
+  },
+  "evidence": {
+    "registry_snapshot": "npm-new-manifests.json",
+    "policy": "data/npm-distribution/weave-policy.json",
+    "manifest_receipts": {
+      "@metaharness/darwin": {
+        "source": "https://registry.npmjs.org/%40metaharness%2Fdarwin",
+        "retrieved_at": "2026-11-28T13:21:57.415606Z",
+        "response_sha256": "874ca3b1d491c82d100610e73874690bcfa9c94948845dd5680e74d07744f958",
+        "declared_total": null,
+        "returned_rows": 0
+      },
+      "ruv-fann": {
+        "source": "https://registry.npmjs.org/ruv-fann",
+        "retrieved_at": "2026-11-28T13:21:59.735512Z",
+        "response_sha256": "9d699fe73524a4360e33e1f1069e0f1c543ee2f857f3207e8ae34d4e5c2230e8",
+        "declared_total": null,
+        "returned_rows": 0
+      }
+    }
+  },
+  "outcome": "blocked_pending_frozen_evaluator_and_fallback; published latest pair also not peer compatible; keep original pinned candidate separate",
+  "new_execution": false,
+  "rollback": "No package or dependency change made"
+}

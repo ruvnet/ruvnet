@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-28T13:27:16.428922+00:00",
+  "scope": "Public package weave source reconciliation and bounded runtime health",
+  "baseline": {
+    "repository_commit": "e5877ce103014e61ae62fc813176b7d452659353",
+    "pr_30": {
+      "state": "MERGED",
+      "head": "9b520431761fb87f985100897e3fb3f4aae9f279"
+    },
+    "policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "manifest_source_sha256": "41c5f476421c289a3be08cc801509cc4c58dc0b04ea58d29d5a72b0c595047d9"
+  },
+  "frozen_intent": "Inspect original pilot sources and reconcile prior queue evidence before any proposed integration; no new dependency without a missing exercised path.",
+  "intent_reference": "Daily public metrics task, static review only",
+  "expected_observable_result": "Deduplicated source-bound equivalent integration finding or recorded missing prerequisite, without runtime or adoption claims",
+  "actual_result": {
+    "planner_exit_code": 0,
+    "inventory_packages": 430,
+    "inventory_observed_at": "2026-11-28T13:21:41.819122Z",
+    "graph_packages": 410,
+    "inventory_without_graph_count": 20,
+    "manifest_overlay_observed_at": "2026-11-10T21:40:55.951785+00:00",
+    "planner_replay": "Read only reconciliation of dated recipe and lock evidence, not fresh recipe execution",
+    "fresh_source_manifests": 3,
+    "fresh_published_registry_manifests": 4,
+    "source_scope": "GitHub source manifests only; no npm publication readback by this lane",
+    "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+    "prior_same_demo_blob_receipts": [
+      "data/snapshots/2026-11-27/kge-pilot-source-review.json",
+      "data/snapshots/2026-11-20/kge-pilot-source-review.json",
+      "data/snapshots/2026-11-19/kge-pilot-source-review.json",
+      "data/snapshots/2026-11-21/kge-pilot-source-review.json"
+    ],
+    "install_executed": false,
+    "new_dependency_edges": 0,
+    "learning_gain": null,
+    "external_adoption_count": null,
+    "candidate_states": {
+      "rvf-memory-v1": "observed_pass_review_ready",
+      "native-routing-v1": "observed_pass_review_ready",
+      "darwin-screening-v1": "ready_to_test"
+    },
+    "next_candidate": "darwin-screening-v1",
+    "next_candidate_gate": "Blocked pending frozen evaluator, verified fallback and reviewed exact pins; latest Darwin 0.16.0 declares ruv-fann 0.1.2, latest ruv-fann 0.3.0 is outside that exact peer"
+  },
+  "platform_execution": {
+    "linux": "unknown for a fresh recipe execution",
+    "macos": "unknown",
+    "windows": "unknown",
+    "wasm": "unknown"
+  },
+  "outcome": "Reconciled existing equivalent KGE integration and current Darwin candidate compatibility; no new experiment dispatched",
+  "health": {
+    "preferred_control_executor": "stopped per current fleet status; original metrics host restored",
+    "original_metrics_host": "executor85050dc77130e8 verified shell completion",
+    "required_checks_pass": null,
+    "billing_usd": null,
+    "scheduled_reliability_verified": false
+  },
+  "findings": [
+    {
+      "kind": "equivalent_integration_source",
+      "finding": "The proposed KGE link prediction demo already exists: documented CLI dispatches to source that trains a toy graph and predicts withheld facts. No duplicate dependency or recipe is needed.",
+      "same_blob_prior_receipts": [
+        "data/snapshots/2026-11-27/kge-pilot-source-review.json",
+        "data/snapshots/2026-11-20/kge-pilot-source-review.json",
+        "data/snapshots/2026-11-19/kge-pilot-source-review.json",
+        "data/snapshots/2026-11-21/kge-pilot-source-review.json"
+      ]
+    }
+  ],
+  "workload_receipt_adapter": {
+    "used": false,
+    "reason": "Exact adapter availability not verified on unavailable preferred executor; ordinary structured receipt retained"
+  },
+  "evidence": {
+    "pilot-source-manifests.json": {
+      "file": "pilot-source-manifests.json",
+      "sha256": "f19f84b5769f53c303b2b52f9499023fee9fec7dedba89f097fd2b48c6d97596"
+    },
+    "kge-pilot-source-review.json": {
+      "file": "kge-pilot-source-review.json",
+      "sha256": "10773fbf96aad2a26b112f8154ffa8ce0ca2f048932504f0198d9bf9c821ad36"
+    },
+    "package-weave-plan.json": {
+      "file": "package-weave-plan.json",
+      "sha256": "b55a404b04bbe0c9de824883c44392266f9ab405144f57c234661e8ac831b9f7"
+    },
+    "darwin-candidate-review.json": {
+      "file": "darwin-candidate-review.json",
+      "sha256": "059dcc9080321ba2a44b5cac4399f86ba2d3591334a7d2a431524896740d7a5e"
+    }
+  },
+  "candidate_review": {
+    "schema_version": 1,
+    "candidate": "darwin-screening-v1",
+    "baseline_policy_sha256": "d075d503f6f63ae18d0e7b3e2f7ca1167a8a55dd282dbbd725608b37639cad19",
+    "frozen_pins": {
+      "@metaharness/darwin": "0.14.0",
+      "ruv-fann": "0.1.2"
+    },
+    "expected_observable_result": [
+      "surrogate-active",
+      "equal-evaluation-budget",
+      "held-out-quality",
+      "fallback"
+    ],
+    "reviewed_at": "2026-11-28T13:25:25.218789+00:00",
+    "actual_result": {
+      "latest_darwin": "0.16.0",
+      "latest_ruv_fann": "0.3.0",
+      "declared_ruv_fann_peer": "0.1.2",
+      "latest_pair_semver_compatible": false,
+      "existing_pinned_recipe": false,
+      "held_out_evaluator": null,
+      "fallback_verified": null,
+      "linux": null,
+      "macos": null,
+      "windows": null,
+      "wasm": null,
+      "install_time_change": null,
+      "install_size_change": null,
+      "external_adopters": null
+    },
+    "evidence": {
+      "registry_snapshot": "npm-new-manifests.json",
+      "policy": "data/npm-distribution/weave-policy.json",
+      "manifest_receipts": {
+        "@metaharness/darwin": {
+          "source": "https://registry.npmjs.org/%40metaharness%2Fdarwin",
+          "retrieved_at": "2026-11-28T13:21:57.415606Z",
+          "response_sha256": "874ca3b1d491c82d100610e73874690bcfa9c94948845dd5680e74d07744f958",
+          "declared_total": null,
+          "returned_rows": 0
+        },
+        "ruv-fann": {
+          "source": "https://registry.npmjs.org/ruv-fann",
+          "retrieved_at": "2026-11-28T13:21:59.735512Z",
+          "response_sha256": "9d699fe73524a4360e33e1f1069e0f1c543ee2f857f3207e8ae34d4e5c2230e8",
+          "declared_total": null,
+          "returned_rows": 0
+        }
+      }
+    },
+    "outcome": "blocked_pending_frozen_evaluator_and_fallback; published latest pair also not peer compatible; keep original pinned candidate separate",
+    "new_execution": false,
+    "rollback": "No package or dependency change made"
+  }
+}
