@@ -1,0 +1,3474 @@
+{
+  "retrieved_at": "2026-11-28T13:27:21.619393+00:00",
+  "revisions": [
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-18",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-18",
+      "prior": null,
+      "current": 11404,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-18",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-18",
+      "prior": null,
+      "current": 573,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-18",
+      "prior": null,
+      "current": 12243,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 1165,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 258,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 1375,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-18",
+      "prior": null,
+      "current": 361,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 9045,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-18",
+      "prior": null,
+      "current": 4220,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 1248,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-18",
+      "prior": null,
+      "current": 12310,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 1169,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 159,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 1278,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 9295,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 1531,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-18",
+      "prior": null,
+      "current": 10714,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 723,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 167,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 1225,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-18",
+      "prior": null,
+      "current": 371,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 7512,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-18",
+      "prior": null,
+      "current": 3373,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 837,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 35,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-18",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 6330,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 6715,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-18",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-18",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 8561,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-18",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-18",
+      "prior": null,
+      "current": 11667,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-18",
+      "prior": null,
+      "current": 1108,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-18",
+      "prior": null,
+      "current": 148,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 1267,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-18",
+      "prior": null,
+      "current": 8562,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-18",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-18",
+      "prior": null,
+      "current": 1282,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-18",
+      "prior": null,
+      "current": 6460,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-18",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-18.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-19",
+      "prior": null,
+      "current": 12107,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-19",
+      "prior": null,
+      "current": 1262,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 62,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-19",
+      "prior": null,
+      "current": 13212,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1088,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 226,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1128,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-19",
+      "prior": null,
+      "current": 175,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 10680,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-19",
+      "prior": null,
+      "current": 6014,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 25,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 1103,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-19",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-19",
+      "prior": null,
+      "current": 13454,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1210,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 229,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1129,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 11119,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 1406,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-19",
+      "prior": null,
+      "current": 11310,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 761,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 188,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1079,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-19",
+      "prior": null,
+      "current": 294,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 8630,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-19",
+      "prior": null,
+      "current": 5008,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 887,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 8163,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 7395,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 41,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-19",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-19",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 10486,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-19",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-19",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-19",
+      "prior": null,
+      "current": 12667,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-19",
+      "prior": null,
+      "current": 1117,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-19",
+      "prior": null,
+      "current": 208,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 1105,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-19",
+      "prior": null,
+      "current": 10362,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-19",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-19",
+      "prior": null,
+      "current": 1198,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-19",
+      "prior": null,
+      "current": 6677,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-19",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-19.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-20",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-20",
+      "prior": null,
+      "current": 9146,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-20",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-20",
+      "prior": null,
+      "current": 2480,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-20",
+      "prior": null,
+      "current": 9469,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 687,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 125,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 532,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-20",
+      "prior": null,
+      "current": 135,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 7898,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-20",
+      "prior": null,
+      "current": 3889,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 14,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 970,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-20",
+      "prior": null,
+      "current": 9317,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 792,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 114,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 523,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 7996,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 1193,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-20",
+      "prior": null,
+      "current": 8410,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 458,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 103,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 488,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-20",
+      "prior": null,
+      "current": 187,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 6262,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-20",
+      "prior": null,
+      "current": 3135,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 896,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-20",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 5559,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 5702,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-20",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-20",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-20",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 7556,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-20",
+      "prior": null,
+      "current": 8783,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-20",
+      "prior": null,
+      "current": 649,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-20",
+      "prior": null,
+      "current": 106,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 510,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-20",
+      "prior": null,
+      "current": 8361,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-20",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-20",
+      "prior": null,
+      "current": 1041,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-20",
+      "prior": null,
+      "current": 5663,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-20",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-20.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-21",
+      "prior": null,
+      "current": 7538,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-21",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-21",
+      "prior": null,
+      "current": 1145,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-21",
+      "prior": null,
+      "current": 7366,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-21",
+      "prior": null,
+      "current": 585,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-21",
+      "prior": null,
+      "current": 73,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 133,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-21",
+      "prior": null,
+      "current": 28,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 6595,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-21",
+      "prior": null,
+      "current": 3210,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 84,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-21",
+      "prior": null,
+      "current": 797,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-21",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-21",
+      "prior": null,
+      "current": 7456,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-21",
+      "prior": null,
+      "current": 661,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-21",
+      "prior": null,
+      "current": 75,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 135,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 6879,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-21",
+      "prior": null,
+      "current": 989,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-21",
+      "prior": null,
+      "current": 6476,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-21",
+      "prior": null,
+      "current": 379,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-21",
+      "prior": null,
+      "current": 46,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 111,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-21",
+      "prior": null,
+      "current": 57,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 5188,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-21",
+      "prior": null,
+      "current": 2466,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-21",
+      "prior": null,
+      "current": 622,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 4389,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 4885,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-21",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-21",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 6250,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-21",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-21",
+      "prior": null,
+      "current": 6829,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-21",
+      "prior": null,
+      "current": 559,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-21",
+      "prior": null,
+      "current": 64,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 115,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-21",
+      "prior": null,
+      "current": 6225,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-21",
+      "prior": null,
+      "current": 850,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-21",
+      "prior": null,
+      "current": 5047,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-21",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-21.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-22",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-22",
+      "prior": null,
+      "current": 8153,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-22",
+      "prior": null,
+      "current": 24,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-22",
+      "prior": null,
+      "current": 668,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-22",
+      "prior": null,
+      "current": 8145,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-22",
+      "prior": null,
+      "current": 570,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-22",
+      "prior": null,
+      "current": 112,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 188,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-22",
+      "prior": null,
+      "current": 43,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 7404,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-22",
+      "prior": null,
+      "current": 3904,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 90,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-22",
+      "prior": null,
+      "current": 789,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-22",
+      "prior": null,
+      "current": 8085,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-22",
+      "prior": null,
+      "current": 625,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-22",
+      "prior": null,
+      "current": 111,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 167,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 7464,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-22",
+      "prior": null,
+      "current": 1011,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-22",
+      "prior": null,
+      "current": 6835,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-22",
+      "prior": null,
+      "current": 403,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-22",
+      "prior": null,
+      "current": 106,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 152,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-22",
+      "prior": null,
+      "current": 86,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 5575,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-22",
+      "prior": null,
+      "current": 2859,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-22",
+      "prior": null,
+      "current": 617,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-22",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 4653,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 5128,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-22",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-22",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-22",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 6578,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-22",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-22",
+      "prior": null,
+      "current": 7373,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-22",
+      "prior": null,
+      "current": 551,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-22",
+      "prior": null,
+      "current": 103,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 158,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-22",
+      "prior": null,
+      "current": 8055,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-22",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-22",
+      "prior": null,
+      "current": 909,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-22",
+      "prior": null,
+      "current": 5071,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-22",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-22.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-23",
+      "prior": null,
+      "current": 15,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-23",
+      "prior": null,
+      "current": 10903,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-23",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-23",
+      "prior": null,
+      "current": 737,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-23",
+      "prior": null,
+      "current": 11516,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-23",
+      "prior": null,
+      "current": 784,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-23",
+      "prior": null,
+      "current": 162,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 519,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-23",
+      "prior": null,
+      "current": 154,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 9844,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-23",
+      "prior": null,
+      "current": 4827,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 37,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-23",
+      "prior": null,
+      "current": 861,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-23",
+      "prior": null,
+      "current": 11234,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-23",
+      "prior": null,
+      "current": 849,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-23",
+      "prior": null,
+      "current": 206,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 594,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 9788,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-23",
+      "prior": null,
+      "current": 1183,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-23",
+      "prior": null,
+      "current": 9872,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-23",
+      "prior": null,
+      "current": 507,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-23",
+      "prior": null,
+      "current": 128,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 551,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-23",
+      "prior": null,
+      "current": 205,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 7629,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-23",
+      "prior": null,
+      "current": 3479,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-23",
+      "prior": null,
+      "current": 717,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 6722,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 7222,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-23",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-23",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-23",
+      "prior": null,
+      "current": 23,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 8832,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-23",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-23",
+      "prior": null,
+      "current": 10666,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-23",
+      "prior": null,
+      "current": 749,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-23",
+      "prior": null,
+      "current": 176,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 573,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-23",
+      "prior": null,
+      "current": 9095,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-23",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-23",
+      "prior": null,
+      "current": 1003,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-23",
+      "prior": null,
+      "current": 6742,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-23",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-23.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-24",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-24",
+      "prior": null,
+      "current": 9645,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-24",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-24",
+      "prior": null,
+      "current": 288,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-24",
+      "prior": null,
+      "current": 11125,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-24",
+      "prior": null,
+      "current": 817,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-24",
+      "prior": null,
+      "current": 240,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 432,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-24",
+      "prior": null,
+      "current": 162,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 9892,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-24",
+      "prior": null,
+      "current": 4011,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 26,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-24",
+      "prior": null,
+      "current": 859,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-24",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-24",
+      "prior": null,
+      "current": 11000,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-24",
+      "prior": null,
+      "current": 774,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-24",
+      "prior": null,
+      "current": 180,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 410,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 9899,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-24",
+      "prior": null,
+      "current": 990,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-24",
+      "prior": null,
+      "current": 9698,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-24",
+      "prior": null,
+      "current": 451,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-24",
+      "prior": null,
+      "current": 128,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 382,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-24",
+      "prior": null,
+      "current": 143,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 8038,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-24",
+      "prior": null,
+      "current": 3189,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-24",
+      "prior": null,
+      "current": 664,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-24",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-24",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-24",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-24",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 6189,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 6667,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-24",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-24",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-24",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-24",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 8087,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-24",
+      "prior": null,
+      "current": 4,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-24",
+      "prior": null,
+      "current": 0,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-24",
+      "prior": null,
+      "current": 10434,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-24",
+      "prior": null,
+      "current": 675,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-24",
+      "prior": null,
+      "current": 157,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 398,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-24",
+      "prior": null,
+      "current": 9386,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-24",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-24",
+      "prior": null,
+      "current": 837,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-24",
+      "prior": null,
+      "current": 5985,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-24",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-24.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-25",
+      "prior": null,
+      "current": 18,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-25",
+      "prior": null,
+      "current": 9681,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-25",
+      "prior": null,
+      "current": 63,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-25",
+      "prior": null,
+      "current": 130,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 13,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-25",
+      "prior": null,
+      "current": 28724,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-25",
+      "prior": null,
+      "current": 844,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-25",
+      "prior": null,
+      "current": 236,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 685,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-25",
+      "prior": null,
+      "current": 229,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 27307,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-25",
+      "prior": null,
+      "current": 3871,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 60,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-25",
+      "prior": null,
+      "current": 853,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-25",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-25",
+      "prior": null,
+      "current": 28388,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-25",
+      "prior": null,
+      "current": 750,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-25",
+      "prior": null,
+      "current": 208,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 552,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 27269,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-25",
+      "prior": null,
+      "current": 906,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-25",
+      "prior": null,
+      "current": 27313,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-25",
+      "prior": null,
+      "current": 462,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-25",
+      "prior": null,
+      "current": 99,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 504,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-25",
+      "prior": null,
+      "current": 175,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 25522,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-25",
+      "prior": null,
+      "current": 3049,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-25",
+      "prior": null,
+      "current": 680,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 83,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-25",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-25",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-25",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-25",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 5654,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 6109,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-25",
+      "prior": null,
+      "current": 20,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-25",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-25",
+      "prior": null,
+      "current": 60,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-25",
+      "prior": null,
+      "current": 8,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-25",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-25",
+      "prior": null,
+      "current": 80,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-25",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 7914,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-25",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-25",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-25",
+      "prior": null,
+      "current": 27917,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-25",
+      "prior": null,
+      "current": 744,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-25",
+      "prior": null,
+      "current": 144,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 536,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-25",
+      "prior": null,
+      "current": 26710,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-25",
+      "prior": null,
+      "current": 61,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-25",
+      "prior": null,
+      "current": 771,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-25",
+      "prior": null,
+      "current": 5882,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-25",
+      "prior": null,
+      "current": 16,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-25.json"
+    },
+    {
+      "key": "npm|@ruvector/edge|downloads|2026-11-26",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-full|downloads|2026-11-26",
+      "prior": null,
+      "current": 11027,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/edge-net|downloads|2026-11-26",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/emergent-time|downloads|2026-11-26",
+      "prior": null,
+      "current": 141,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/exotic-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn|downloads|2026-11-26",
+      "prior": null,
+      "current": 24806,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-arm64|downloads|2026-11-26",
+      "prior": null,
+      "current": 728,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-darwin-x64|downloads|2026-11-26",
+      "prior": null,
+      "current": 157,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 624,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-arm64-musl|downloads|2026-11-26",
+      "prior": null,
+      "current": 138,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 23429,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-linux-x64-musl|downloads|2026-11-26",
+      "prior": null,
+      "current": 3635,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 32,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/gnn-win32-x64-msvc|downloads|2026-11-26",
+      "prior": null,
+      "current": 803,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-data-generator|downloads|2026-11-26",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node|downloads|2026-11-26",
+      "prior": null,
+      "current": 24974,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-arm64|downloads|2026-11-26",
+      "prior": null,
+      "current": 783,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-darwin-x64|downloads|2026-11-26",
+      "prior": null,
+      "current": 161,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-arm64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 586,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-linux-x64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 23873,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-node-win32-x64-msvc|downloads|2026-11-26",
+      "prior": null,
+      "current": 1058,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer|downloads|2026-11-26",
+      "prior": null,
+      "current": 24015,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-arm64|downloads|2026-11-26",
+      "prior": null,
+      "current": 425,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-darwin-x64|downloads|2026-11-26",
+      "prior": null,
+      "current": 95,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 549,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-arm64-musl|downloads|2026-11-26",
+      "prior": null,
+      "current": 192,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 22052,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-linux-x64-musl|downloads|2026-11-26",
+      "prior": null,
+      "current": 2938,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-transformer-win32-x64-msvc|downloads|2026-11-26",
+      "prior": null,
+      "current": 625,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/graph-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 17,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/kge|downloads|2026-11-26",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-arm64|downloads|2026-11-26",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-darwin-x64|downloads|2026-11-26",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-arm64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-linux-x64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 7,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/kge-win32-x64-msvc|downloads|2026-11-26",
+      "prior": null,
+      "current": 9,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/learning-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 5728,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/math-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/mincut-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 6566,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/nervous-system-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 10,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/neural-trader-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/node|downloads|2026-11-26",
+      "prior": null,
+      "current": 24,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-arm64|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/node-darwin-x64|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-arm64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/node-linux-x64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/node-win32-x64-msvc|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe|downloads|2026-11-26",
+      "prior": null,
+      "current": 5,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/ospipe-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/pi-brain|downloads|2026-11-26",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/postgres-cli|downloads|2026-11-26",
+      "prior": null,
+      "current": 6,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/rabitq-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 8168,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-26",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-26",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-26",
+      "prior": null,
+      "current": 24162,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-26",
+      "prior": null,
+      "current": 624,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-26",
+      "prior": null,
+      "current": 136,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 566,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-26",
+      "prior": null,
+      "current": 23111,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-26",
+      "prior": null,
+      "current": 1,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-26",
+      "prior": null,
+      "current": 935,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-26",
+      "prior": null,
+      "current": 6212,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-26",
+      "prior": null,
+      "current": 11,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-26.json"
+    },
+    {
+      "key": "npm|@ruvector/raft|downloads|2026-11-27",
+      "prior": null,
+      "current": 3,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/replication|downloads|2026-11-27",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/router|downloads|2026-11-27",
+      "prior": null,
+      "current": 11138,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-arm64|downloads|2026-11-27",
+      "prior": null,
+      "current": 586,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/router-darwin-x64|downloads|2026-11-27",
+      "prior": null,
+      "current": 212,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-arm64-gnu|downloads|2026-11-27",
+      "prior": null,
+      "current": 234,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/router-linux-x64-gnu|downloads|2026-11-27",
+      "prior": null,
+      "current": 10375,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/router-wasm|downloads|2026-11-27",
+      "prior": null,
+      "current": 2,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/router-win32-x64-msvc|downloads|2026-11-27",
+      "prior": null,
+      "current": 887,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/rudag|downloads|2026-11-27",
+      "prior": null,
+      "current": 5586,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    },
+    {
+      "key": "npm|@ruvector/ruqu|downloads|2026-11-27",
+      "prior": null,
+      "current": 12,
+      "source": "data/snapshots/2026-11-28/npm-reconciled-2026-11-27.json"
+    }
+  ],
+  "definition": "Daily keyed upserts; old observations remain in prior dated snapshots. No overlapping totals added."
+}
